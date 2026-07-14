@@ -1,0 +1,8 @@
+node_modules/
+dist/
+coverage/
+*.log
+
+# Artefacto local del collector (en producción vive en la rama `data`)
+frontend/public/data/noticias.json
+datos/
