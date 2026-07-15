@@ -1,0 +1,201 @@
+/* Estética del boletín de ConectaMedia: contenedor de 650px, Helvetica,
+   verde institucional #05833f y mención resaltada en amarillo. */
+
+:root {
+  --verde-conaf: #05833f;
+  --gris-texto: #505050;
+  --gris-suave: #606060;
+  --gris-fondo: #f3f4f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--gris-texto);
+  background: #e9ebec;
+}
+
+.boletin {
+  max-width: 650px;
+  margin: 0 auto;
+  background: white;
+  min-height: 100vh;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
+}
+
+/* ---- Cabecera ---- */
+
+.titulo {
+  margin: 0;
+  padding: 14px 20px 8px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  color: var(--verde-conaf);
+}
+
+.banda-verde {
+  background: var(--verde-conaf);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-bottom: 2px solid var(--verde-conaf);
+}
+
+.actualizado {
+  margin: 0;
+  padding: 6px 20px;
+  font-size: 11px;
+  color: var(--gris-suave);
+  text-align: right;
+}
+
+/* ---- Acciones ---- */
+
+.acciones {
+  padding: 4px 20px 10px;
+  text-align: right;
+}
+
+.boton-csv {
+  background: var(--verde-conaf);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.boton-csv:hover:enabled {
+  background: #046a33;
+}
+
+.boton-csv:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* ---- Secciones ---- */
+
+.titulo-seccion {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: bold;
+  color: var(--verde-conaf);
+  border-bottom: 1px solid var(--verde-conaf);
+  background: white;
+}
+
+/* ---- Noticias ---- */
+
+.noticia {
+  display: flex;
+  background: white;
+}
+
+.noticia-alterna {
+  background: var(--gris-fondo);
+}
+
+.medio {
+  flex: 0 0 110px;
+  padding: 12px 10px;
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gris-texto);
+}
+
+.detalle {
+  flex: 1;
+  padding: 10px 15px 12px 5px;
+  min-width: 0;
+}
+
+.titular {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--gris-suave);
+  text-decoration: none;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+
+.titular:hover {
+  color: var(--verde-conaf);
+  text-decoration: underline;
+}
+
+.fecha {
+  margin: 0 0 5px;
+  font-size: 12px;
+  color: var(--gris-suave);
+  line-height: 1.1;
+}
+
+.extracto {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.extracto mark {
+  background-color: #ffff00;
+  color: var(--gris-texto);
+  padding: 1px;
+}
+
+/* ---- Estados y pie ---- */
+
+.estado {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--gris-suave);
+}
+
+.estado-error {
+  color: #a33;
+}
+
+.pie {
+  padding: 16px 20px 24px;
+  font-size: 11px;
+  color: var(--gris-suave);
+  border-top: 2px solid var(--verde-conaf);
+  margin-top: 12px;
+}
+
+/* ---- Pantallas chicas ---- */
+
+@media (max-width: 480px) {
+  .noticia {
+    flex-direction: column;
+  }
+
+  .medio {
+    flex-basis: auto;
+    padding: 10px 15px 0;
+    justify-content: flex-start;
+  }
+
+  .detalle {
+    padding: 8px 15px 12px;
+  }
+}
