@@ -175,11 +175,10 @@ body {
 .tarjeta {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   background: var(--tarjeta);
   border: 1px solid var(--linea);
   border-radius: 10px;
-  padding: 14px 16px 16px;
+  overflow: hidden;
   /* Sin esto, la pista de grilla no baja del min-content del contenido y una
      palabra/nombre largo desborda el viewport en móvil. */
   min-width: 0;
@@ -190,6 +189,27 @@ body {
   box-shadow: 0 6px 18px rgba(5, 131, 63, 0.1);
   border-color: #cfe4d8;
   transform: translateY(-2px);
+}
+
+.tarjeta-imagen {
+  aspect-ratio: 16 / 9;
+  background: #eef1ef;
+  overflow: hidden;
+}
+
+.tarjeta-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.tarjeta-cuerpo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px 16px 16px;
+  min-width: 0;
 }
 
 .tarjeta-meta {

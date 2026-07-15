@@ -6,17 +6,21 @@
 // (por defecto lee y escribe ./datos/noticias.json)
 
 import { parseArgs } from 'node:util'
+import { crearEnriquecedorImagenes } from './adaptadores/enriquecedor-imagenes.js'
 import { crearFuenteGoogleNews } from './adaptadores/fuente-google-news.js'
 import { crearFuenteRss } from './adaptadores/fuente-rss.js'
 import { crearRepositorioJson } from './adaptadores/repositorio-json.js'
 import { crearResolutorGoogleNews } from './adaptadores/resolver-google-news.js'
+import { mapaConLimite } from './adaptadores/util-concurrencia.js'
 import { CONCEPTOS } from './config/conceptos.js'
 import { MEDIOS } from './config/medios.js'
 import {
   DOMINIOS_EXCLUIDOS,
   GOOGLE_NEWS_ACTIVO,
   GOOGLE_NEWS_PARAMS,
+  IMAGENES_ACTIVO,
   LARGO_EXTRACTO,
+  MAX_IMAGENES_POR_CORRIDA,
   MAX_RESOLUCIONES_POR_CORRIDA,
   TAMANO_VENTANA,
   TIMEOUT_FEED_MS,
@@ -142,6 +146,23 @@ async function main() {
       // Google falló: seguimos con lo curado y conservamos la caché previa.
       lineasResumen.push(`[FALLO] Google News: ${error.message}`)
     }
+  }
+
+  // Imagen de portada: solo se enriquecen las noticias NUEVAS (las previas ya la
+  // traen de corridas anteriores). Fallos individuales dejan imagen = null.
+  if (IMAGENES_ACTIVO && nuevas.length > 0) {
+    const enriquecedor = crearEnriquecedorImagenes({ userAgent: USER_AGENT })
+    let presupuesto = MAX_IMAGENES_POR_CORRIDA
+    await mapaConLimite(nuevas, 6, async (noticia) => {
+      if (presupuesto <= 0) {
+        noticia.imagen = null
+        return
+      }
+      presupuesto -= 1
+      noticia.imagen = await enriquecedor.obtenerImagen(noticia.url)
+    })
+    const conImagen = nuevas.filter((n) => n.imagen).length
+    lineasResumen.push(`[OK] Imágenes: ${conImagen}/${nuevas.length} noticias nuevas con portada`)
   }
 
   const noticias = fusionar(previas, nuevas, TAMANO_VENTANA)

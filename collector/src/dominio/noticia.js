@@ -36,7 +36,7 @@ export function parsearFecha(valor) {
 
 // Regla de fecha (REQUISITOS.md pregunta 10, supuesto fijado): la declarada
 // por el medio; si falta o es inválida, la fecha de detección.
-export function crearNoticia({ medio, titular, url, fechaMedio, fechaDeteccion, extracto }) {
+export function crearNoticia({ medio, titular, url, fechaMedio, fechaDeteccion, extracto, imagen = null }) {
   const id = canonicalizarUrl(url)
   const titularLimpio = typeof titular === 'string' ? titular.trim() : ''
   if (id === '' || titularLimpio === '') return null
@@ -51,5 +51,6 @@ export function crearNoticia({ medio, titular, url, fechaMedio, fechaDeteccion, 
     fecha: parsearFecha(fechaMedio) ?? deteccionIso,
     fechaDeteccion: deteccionIso,
     extracto,
+    imagen,
   }
 }

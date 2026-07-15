@@ -11,6 +11,7 @@
 //          re-resolver en la próxima corrida.
 
 import Parser from 'rss-parser'
+import { mapaConLimite } from './util-concurrencia.js'
 
 function dominio(url) {
   try {
@@ -26,19 +27,6 @@ function separarTituloYFuente(tituloCrudo) {
   if (partes.length < 2) return { titular: String(tituloCrudo).trim(), fuente: 'Google News' }
   const fuente = partes.pop().trim()
   return { titular: partes.join(' - ').trim(), fuente }
-}
-
-async function mapaConLimite(items, limite, fn) {
-  const resultados = new Array(items.length)
-  let siguiente = 0
-  const trabajadores = Array.from({ length: Math.min(limite, items.length) }, async () => {
-    while (siguiente < items.length) {
-      const indice = siguiente++
-      resultados[indice] = await fn(items[indice], indice)
-    }
-  })
-  await Promise.all(trabajadores)
-  return resultados
 }
 
 const CLASIFICACION_POR_DEFECTO = (dom, fuente) => ({

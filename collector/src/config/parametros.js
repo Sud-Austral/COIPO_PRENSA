@@ -31,3 +31,12 @@ export const MAX_RESOLUCIONES_POR_CORRIDA = 90
 // propio sitio de CONAF domina la búsqueda con sus comunicados y no es
 // monitoreo de prensa. El admin puede sumar aquí otros (dominio sin "www.").
 export const DOMINIOS_EXCLUIDOS = ['conaf.cl']
+
+// Imagen de portada (og:image) en cada tarjeta. Requiere una petición extra por
+// noticia nueva (se guarda la URL en la propia ventana, no la imagen). Es
+// hotlinking; el frontend oculta la imagen si no carga.
+export const IMAGENES_ACTIVO = true
+
+// Tope de descargas de imagen por corrida. La ventana ya guarda las imágenes de
+// las noticias previas, así que en régimen se enriquecen pocas por corrida.
+export const MAX_IMAGENES_POR_CORRIDA = 100
