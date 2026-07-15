@@ -1,0 +1,111 @@
+# Recolecta noticias, guarda el estado en la rama `data` y despliega el sitio
+# a GitHub Pages. Si el collector o sus tests fallan, el job termina ANTES del
+# despliegue: la página publicada nunca queda en blanco (desactualizada ≠ caída).
+
+name: Actualizar boletín
+
+on:
+  schedule:
+    # Corrida horaria en el minuto 17: el minuto 0 concentra la congestión de
+    # Actions y sus retrasos de 15-60 minutos.
+    - cron: '17 * * * *'
+    # Refuerzos ~7:45 de Chile válidos todo el año sin tocar este archivo:
+    # 10:45 UTC = 7:45 en horario de verano (UTC-3); 11:45 UTC = 7:45 en invierno (UTC-4).
+    - cron: '45 10 * * *'
+    - cron: '45 11 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Corridas en cola, nunca solapadas: sin carreras sobre la rama `data`.
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  actualizar-y-desplegar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            collector/package-lock.json
+            frontend/package-lock.json
+
+      - name: Instalar y testear el collector (bloquea el despliegue si falla)
+        working-directory: collector
+        run: |
+          npm ci
+          npm test
+
+      - name: Recuperar estado previo (rama data)
+        run: |
+          mkdir -p datos
+          if git fetch origin data; then
+            git show FETCH_HEAD:noticias.json > datos/noticias.json
+            echo "Estado previo recuperado ($(git rev-parse --short FETCH_HEAD))."
+          else
+            echo "La rama data aún no existe: primera corrida (bootstrap)."
+          fi
+
+      - name: Recolectar noticias
+        run: node collector/src/main.js --entrada datos/noticias.json --salida datos/noticias.json
+
+      - name: Guardar estado en la rama data (solo si cambió)
+        run: |
+          git fetch origin data && EXISTE=1 || EXISTE=0
+          if [ "$EXISTE" = "1" ] && git show FETCH_HEAD:noticias.json | cmp -s - datos/noticias.json; then
+            echo "Noticias sin cambios: no se crea commit."
+            exit 0
+          fi
+          BLOB=$(git hash-object -w datos/noticias.json)
+          TREE=$(printf '100644 blob %s\tnoticias.json\n' "$BLOB" | git mktree)
+          FECHA=$(date -u +'%Y-%m-%d %H:%M UTC')
+          if [ "$EXISTE" = "1" ]; then
+            COMMIT=$(git commit-tree "$TREE" -p FETCH_HEAD -m "Noticias al $FECHA")
+          else
+            COMMIT=$(git commit-tree "$TREE" -m "Estado inicial ($FECHA)")
+          fi
+          git push origin "$COMMIT":refs/heads/data
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
+      - name: Copiar datos al sitio
+        run: |
+          mkdir -p frontend/public/data
+          cp datos/noticias.json frontend/public/data/noticias.json
+
+      - name: Construir el sitio
+        working-directory: frontend
+        env:
+          # Un fork sirve bajo /<su-repo>/ sin editar código (vite.config.js).
+          BASE_PATH: /${{ github.event.repository.name }}/
+        run: |
+          npm ci
+          npm run build
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+
+      - id: despliegue
+        uses: actions/deploy-pages@v4
