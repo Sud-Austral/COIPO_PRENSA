@@ -13,3 +13,21 @@ export const TIMEOUT_FEED_MS = 20_000
 // User-Agent identificable: cortesía con los medios y facilidad de contacto.
 export const USER_AGENT =
   'COIPO_PRENSA/1.0 (monitor de prensa CONAF; https://github.com/conaf/COIPO_PRENSA)'
+
+// Red de seguridad de cobertura vía Google News. Captura medios fuera de la
+// lista curada y noticias que el feed propio del medio ya rotó (ver
+// docs/REQUISITOS.md, criterio de no perder medios grandes).
+export const GOOGLE_NEWS_ACTIVO = true
+
+// Parámetros de localización del feed de Google News (Chile, español).
+export const GOOGLE_NEWS_PARAMS = { hl: 'es-419', gl: 'CL', ceid: 'CL:es-419' }
+
+// Tope de resoluciones de enlaces por corrida (cada resolución = 2 peticiones al
+// endpoint interno de Google). La caché evita re-resolver lo ya conocido, así
+// que en régimen se resuelven pocos por corrida.
+export const MAX_RESOLUCIONES_POR_CORRIDA = 90
+
+// Dominios que NO son prensa y deben excluirse de la red de Google News. El
+// propio sitio de CONAF domina la búsqueda con sus comunicados y no es
+// monitoreo de prensa. El admin puede sumar aquí otros (dominio sin "www.").
+export const DOMINIOS_EXCLUIDOS = ['conaf.cl']

@@ -39,11 +39,34 @@ lista y el insumo para las preguntas abiertas 2, 8 y 12 del documento de requisi
 4. Ejecutar `npm start` dentro de `collector/` y revisar el JSON generado en `datos/`.
 5. Registrar el resultado en este archivo (también los fracasos: evita repetir trabajo).
 
-## Fuentes descartadas por diseño
+## Red de seguridad: Google News
 
-- **Google News RSS** (`news.google.com/rss/search?q=CONAF&hl=es-419&gl=CL&ceid=CL:es-419`):
-  funciona y agrega muchos medios, pero sus links son redirects codificados de Google,
-  no directos al medio (violaría el criterio de aceptación de links directos), y desde
-  ~2024 no se resuelven de forma estable. Queda como candidato para la v2 y como
-  herramienta **manual** de auditoría de cobertura: revisar de vez en cuando si ese feed
-  trae menciones de medios que la lista no cubre.
+Los feeds RSS por medio tienen un límite estructural: un medio de alto volumen (Bío-Bío,
+La Tercera) rota sus ~20 ítems más recientes más rápido de lo que corre el cron, así que
+una noticia de CONAF puede aparecer y desaparecer del feed en menos de una hora. Eso
+choca de frente con el criterio de "no perder noticias de medios grandes".
+
+Por eso se agregó **Google News** como segunda fuente
+(`news.google.com/rss/search?q="CONAF" OR "Corporación Nacional Forestal"`), que indexa
+las menciones sin depender de la ventana del feed propio de cada medio. Verificado el
+15-07-2026: una sola búsqueda trae ~90-100 resultados de decenas de medios (incluidos los
+que el feed propio ya rotó).
+
+Detalles de implementación (ver `collector/src/adaptadores/`):
+
+- **Links directos:** los enlaces de Google News van cifrados (`news.google.com/rss/articles/…`).
+  Se resuelven a la URL real del medio con el endpoint interno `batchexecute`
+  (`resolver-google-news.js`). **Es una técnica no documentada**: Google ya cambió una vez
+  el formato (antes la URL iba en base64), y si vuelve a cambiarlo el resolutor devuelve
+  null, no se publica ese ítem, y la página se queda con lo último bueno (no se cae).
+- **Caché de resolución** en el propio estado (`resolucionesGoogle`) para no re-resolver lo
+  ya conocido y no sobrecargar el endpoint.
+- **Exclusión de no-prensa:** `conaf.cl` domina la búsqueda con sus propios comunicados y se
+  excluye (`DOMINIOS_EXCLUIDOS` en `config/parametros.js`); el admin puede sumar otros.
+- **Clasificación:** un medio de la lista curada que llegue por Google cae en SU sección
+  (ej. biobiochile.cl → Radio); los demás van a la sección **"Otros medios"**.
+- **Extracto:** Google News no entrega el cuerpo, así que el extracto se arma del titular
+  (con la mención resaltada si está ahí); si no, se omite para no duplicar el titular.
+
+Se puede desactivar con `GOOGLE_NEWS_ACTIVO = false` en `config/parametros.js` (quedaría
+solo la fuente RSS curada).

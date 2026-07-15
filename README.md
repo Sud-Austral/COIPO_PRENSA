@@ -17,7 +17,9 @@ completa sobre infraestructura gratuita: **GitHub Pages** (sitio) + **GitHub Act
 ┌─────────────────────────────────────────────────┐
 │ 1. tests del collector (si fallan, no despliega)│
 │ 2. lee estado previo   ← rama `data`            │
-│ 3. collector: feeds RSS de los medios           │
+│ 3. collector, dos fuentes:                      │
+│    a) feeds RSS de los medios curados           │
+│    b) Google News (red de seguridad de cobertura)│
 │    → detecta menciones → fusiona ventana de 100 │
 │ 4. guarda estado nuevo → rama `data` (commit)   │
 │ 5. build de Vite con el JSON dentro             │
@@ -40,8 +42,9 @@ completa sobre infraestructura gratuita: **GitHub Pages** (sitio) + **GitHub Act
     mayúsculas/tildes, con límites de palabra: "CONAFE" no es "CONAF"), deduplicación,
     ventana móvil, secciones.
   - `src/puertos/` — contratos (fuente de noticias, repositorio de estado).
-  - `src/adaptadores/` — RSS (`rss-parser`) y archivo JSON. La v2 con base de datos es
-    un adaptador nuevo, sin tocar el dominio.
+  - `src/adaptadores/` — RSS por medio (`rss-parser`), Google News (con resolución de
+    enlaces a la URL directa) y archivo JSON. La v2 con base de datos es un adaptador
+    nuevo, sin tocar el dominio.
   - `src/config/` — **la "interfaz de administración"**: conceptos y medios se editan aquí.
 - [`frontend/`](frontend/) — React + Vite, puramente presentacional: lee
   `data/noticias.json` y lo muestra con la estética del boletín original.
@@ -92,12 +95,14 @@ cd frontend && npm ci && npm run dev
 
 ## Limitaciones conocidas (documentadas en REQUISITOS.md)
 
-- **Cobertura = medios con feed alcanzable.** Los medios sin RSS o que bloquean el
-  acceso automatizado no entran (registro en `docs/MEDIOS.md`). Radio y TV habladas
-  quedan fuera: eso requiere transcripción, que es un servicio pagado.
-- **Detección sobre lo que entrega el feed** (titular + resumen o cuerpo completo si el
-  feed lo trae). Una mención que solo aparece en el cuerpo de un artículo cuyo feed
-  solo entrega resumen, se pierde.
+- **Cobertura = feeds RSS curados + Google News.** Google News amplía mucho la cobertura
+  (medios fuera de la lista, noticias que el feed propio ya rotó), pero resolver sus
+  enlaces al link directo depende de un endpoint **no documentado** de Google: si Google
+  lo cambia, dejan de entrar ítems por esa vía (la fuente RSS curada sigue funcionando y
+  la página no se cae). Radio y TV habladas quedan fuera: requieren transcripción (pagada).
+- **Detección sobre lo que entrega cada fuente.** En los feeds curados se analiza titular +
+  resumen/cuerpo. En Google News no viene el cuerpo, así que se confía en su búsqueda y el
+  extracto se arma del titular.
 - **Latencia de mejor esfuerzo.** El cron corre cada hora, pero GitHub Actions puede
   retrasarlo 15-60 minutos en horas de carga. Hay corridas de refuerzo antes de las
   8:00 de Chile (hora de revisión).

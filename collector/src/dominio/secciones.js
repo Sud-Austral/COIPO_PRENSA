@@ -5,6 +5,9 @@ export const SECCIONES = [
   { id: 'escrita', nombre: 'Prensa Escrita', orden: 1 },
   { id: 'regional', nombre: 'Prensa Regional', orden: 2 },
   { id: 'radio', nombre: 'Radio', orden: 3 },
+  // Agregado por Google News: medios fuera de la lista curada o cuyo feed propio
+  // ya rotó la noticia. Ver adaptadores/fuente-google-news.js.
+  { id: 'otros', nombre: 'Otros medios', orden: 4 },
 ]
 
 export function validarTipoDeMedio(tipo) {

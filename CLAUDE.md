@@ -52,9 +52,17 @@ conversación post-presentación de la v1 o versión 2).
 
 - `collector/` — recolector Node ≥22, **arquitectura hexagonal**: `src/dominio/`
   (reglas puras, 100% testeadas con vitest), `src/puertos/` (contratos JSDoc),
-  `src/adaptadores/` (RSS + JSON), `src/config/` (conceptos y medios: la "interfaz de
-  administración" v1 se edita AQUÍ), `src/main.js` (composición — único lugar que une
-  todo; la v2 con BD solo cambia el adaptador aquí).
+  `src/adaptadores/` (RSS por medio + Google News con resolución de links + JSON),
+  `src/config/` (conceptos, medios y dominios excluidos: la "interfaz de administración"
+  v1 se edita AQUÍ), `src/main.js` (composición — único lugar que une todo; la v2 con BD
+  solo cambia el adaptador aquí).
+- **Dos fuentes de noticias:** (1) feeds RSS de los medios curados (links directos), y
+  (2) Google News como red de seguridad de cobertura — un medio de alto volumen rota su
+  feed más rápido que el cron y perdería noticias. Google News resuelve el link cifrado a
+  la URL real vía el endpoint no documentado `batchexecute` (frágil; si Google lo cambia,
+  no entran ítems por esa vía pero la página no se cae). Se excluye conaf.cl (no es
+  prensa). Los medios curados que llegan por Google caen en su sección; el resto en
+  "Otros medios".
 - `frontend/` — app React (Vite), puramente presentacional: lee `data/noticias.json`
   con extractos YA segmentados (`[{texto, resaltado}]`) — no re-implementa detección.
   Lint con oxlint (`.oxlintrc.json`).

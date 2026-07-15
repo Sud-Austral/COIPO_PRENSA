@@ -6,15 +6,34 @@
 // (por defecto lee y escribe ./datos/noticias.json)
 
 import { parseArgs } from 'node:util'
+import { crearFuenteGoogleNews } from './adaptadores/fuente-google-news.js'
 import { crearFuenteRss } from './adaptadores/fuente-rss.js'
 import { crearRepositorioJson } from './adaptadores/repositorio-json.js'
+import { crearResolutorGoogleNews } from './adaptadores/resolver-google-news.js'
 import { CONCEPTOS } from './config/conceptos.js'
 import { MEDIOS } from './config/medios.js'
-import { LARGO_EXTRACTO, TAMANO_VENTANA, TIMEOUT_FEED_MS, USER_AGENT } from './config/parametros.js'
+import {
+  DOMINIOS_EXCLUIDOS,
+  GOOGLE_NEWS_ACTIVO,
+  GOOGLE_NEWS_PARAMS,
+  LARGO_EXTRACTO,
+  MAX_RESOLUCIONES_POR_CORRIDA,
+  TAMANO_VENTANA,
+  TIMEOUT_FEED_MS,
+  USER_AGENT,
+} from './config/parametros.js'
 import { construirDetector, recortarTexto } from './dominio/menciones.js'
 import { crearNoticia } from './dominio/noticia.js'
 import { SECCIONES, validarTipoDeMedio } from './dominio/secciones.js'
 import { fusionar } from './dominio/ventana.js'
+
+function dominioDe(url) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '')
+  } catch {
+    return ''
+  }
+}
 
 async function main() {
   const { values } = parseArgs({
@@ -26,17 +45,39 @@ async function main() {
   for (const medio of MEDIOS) validarTipoDeMedio(medio.tipo)
 
   const detector = construirDetector(CONCEPTOS)
-  const fuente = crearFuenteRss({ timeoutMs: TIMEOUT_FEED_MS, userAgent: USER_AGENT })
+  const fuenteRss = crearFuenteRss({ timeoutMs: TIMEOUT_FEED_MS, userAgent: USER_AGENT })
   const repositorio = crearRepositorioJson(rutaEntrada, rutaSalida)
 
   const estadoPrevio = await repositorio.cargar()
   const previas = estadoPrevio?.noticias ?? []
   const ahora = new Date().toISOString()
 
-  const resultados = await Promise.allSettled(MEDIOS.map((medio) => fuente.obtener(medio)))
+  // Extracto con la mención resaltada: se busca en el cuerpo; si la mención solo
+  // está en el titular, se resalta ahí. Sin cuerpo y sin mención en el titular
+  // (típico de Google News) se deja vacío para no duplicar el titular.
+  const armarExtracto = (item) => {
+    const cuerpo = item.texto?.trim() ? item.texto : ''
+    const delCuerpo = cuerpo ? detector.extraerExtracto(cuerpo, LARGO_EXTRACTO) : null
+    if (delCuerpo) return delCuerpo
+    const delTitular = detector.extraerExtracto(item.titular, LARGO_EXTRACTO)
+    if (delTitular) return delTitular
+    return cuerpo ? [{ texto: recortarTexto(cuerpo, LARGO_EXTRACTO), resaltado: false }] : []
+  }
+  const armarNoticia = (item, medio) =>
+    crearNoticia({
+      medio,
+      titular: item.titular,
+      url: item.url,
+      fechaMedio: item.fecha,
+      fechaDeteccion: ahora,
+      extracto: armarExtracto(item),
+    })
 
   const nuevas = []
   const lineasResumen = []
+
+  // --- Fuente 1: feeds RSS de los medios curados (links directos) ---
+  const resultados = await Promise.allSettled(MEDIOS.map((medio) => fuenteRss.obtener(medio)))
   resultados.forEach((resultado, indice) => {
     const medio = MEDIOS[indice]
     if (resultado.status === 'rejected') {
@@ -45,19 +86,9 @@ async function main() {
     }
     let conMencion = 0
     for (const item of resultado.value) {
+      // Solo la fuente curada se filtra con nuestro detector (los feeds traen de todo).
       if (!detector.detecta(`${item.titular}\n${item.texto}`)) continue
-      const extracto =
-        detector.extraerExtracto(item.texto, LARGO_EXTRACTO) ??
-        // Mención solo en el titular: extracto sin resaltado.
-        [{ texto: recortarTexto(item.texto, LARGO_EXTRACTO), resaltado: false }]
-      const noticia = crearNoticia({
-        medio,
-        titular: item.titular,
-        url: item.url,
-        fechaMedio: item.fecha,
-        fechaDeteccion: ahora,
-        extracto,
-      })
+      const noticia = armarNoticia(item, medio)
       if (noticia) {
         nuevas.push(noticia)
         conMencion += 1
@@ -66,17 +97,69 @@ async function main() {
     lineasResumen.push(`[OK] ${medio.nombre}: ${resultado.value.length} ítems, ${conMencion} con mención`)
   })
 
+  // --- Fuente 2: Google News (red de seguridad; ya viene filtrado por la búsqueda) ---
+  // Se agrega DESPUÉS de la curada: ante la misma URL, gana la versión curada
+  // (mejor extracto y sección real) en la deduplicación.
+  // Un medio de la lista curada que llegue por Google (porque su feed propio ya
+  // rotó la noticia) se clasifica en SU sección real, no en "Otros medios".
+  const medioPorDominio = new Map(
+    MEDIOS.map((medio) => [dominioDe(medio.feedUrl), medio]).filter(([dom]) => dom),
+  )
+  const clasificar = (dom, fuente) => {
+    const curado = medioPorDominio.get(dom)
+    return curado
+      ? { medioId: curado.id, medioNombre: curado.nombre, seccionId: curado.tipo }
+      : { medioId: dom, medioNombre: fuente, seccionId: 'otros' }
+  }
+
+  const cachePrevia = new Map(Object.entries(estadoPrevio?.resolucionesGoogle ?? {}))
+  let cacheGoogle = cachePrevia
+  if (GOOGLE_NEWS_ACTIVO) {
+    try {
+      const fuenteGoogle = crearFuenteGoogleNews({
+        conceptos: CONCEPTOS,
+        resolutor: crearResolutorGoogleNews({ userAgent: USER_AGENT }),
+        params: GOOGLE_NEWS_PARAMS,
+        maxResoluciones: MAX_RESOLUCIONES_POR_CORRIDA,
+        cachePrevia,
+        dominiosExcluidos: DOMINIOS_EXCLUIDOS,
+        clasificar,
+        userAgent: USER_AGENT,
+      })
+      const { items, cache } = await fuenteGoogle.obtener()
+      cacheGoogle = cache
+      let agregadas = 0
+      for (const item of items) {
+        const medio = { id: item.medioId, nombre: item.medioNombre, tipo: item.seccionId }
+        const noticia = armarNoticia(item, medio)
+        if (noticia) {
+          nuevas.push(noticia)
+          agregadas += 1
+        }
+      }
+      lineasResumen.push(`[OK] Google News: ${items.length} resueltas, ${agregadas} agregadas`)
+    } catch (error) {
+      // Google falló: seguimos con lo curado y conservamos la caché previa.
+      lineasResumen.push(`[FALLO] Google News: ${error.message}`)
+    }
+  }
+
   const noticias = fusionar(previas, nuevas, TAMANO_VENTANA)
 
-  // `generadoEn` cambia solo si cambió el contenido: una corrida sin novedades
-  // produce un archivo byte-idéntico (sin commit en la rama de datos).
-  const contenidoIgual =
+  // Caché de resolución serializada de forma estable (ordenada) para que un mero
+  // reordenamiento del feed de Google no genere un commit espurio.
+  const resolucionesGoogle = Object.fromEntries([...cacheGoogle].sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0)))
+
+  // `generadoEn` cambia solo si cambiaron las noticias: una corrida sin novedades
+  // no altera la fecha mostrada al usuario.
+  const noticiasIguales =
     estadoPrevio != null && JSON.stringify(estadoPrevio.noticias) === JSON.stringify(noticias)
   await repositorio.guardar({
-    generadoEn: contenidoIgual ? estadoPrevio.generadoEn : ahora,
+    generadoEn: noticiasIguales ? estadoPrevio.generadoEn : ahora,
     tamanoVentana: TAMANO_VENTANA,
     secciones: SECCIONES,
     noticias,
+    resolucionesGoogle,
   })
 
   console.log(lineasResumen.join('\n'))
@@ -84,11 +167,11 @@ async function main() {
     `Ventana: ${previas.length} previas + ${nuevas.length} detectadas -> ${noticias.length} publicadas (tope ${TAMANO_VENTANA})`,
   )
 
-  const feedsFallidos = resultados.filter((resultado) => resultado.status === 'rejected').length
-  if (feedsFallidos === MEDIOS.length) {
-    // Con todos los feeds caídos no hay corrida útil: fallar evita desplegar
-    // una "actualización" que no actualizó nada y delata el problema.
-    console.error('Todos los feeds fallaron; corrida marcada como fallida.')
+  const curadasOk = resultados.filter((resultado) => resultado.status === 'fulfilled').length
+  if (curadasOk === 0 && nuevas.length === 0) {
+    // No se obtuvo nada de ninguna fuente: fallar evita desplegar una
+    // "actualización" vacía y delata el problema.
+    console.error('Ninguna fuente entregó datos; corrida marcada como fallida.')
     process.exitCode = 1
   }
 }

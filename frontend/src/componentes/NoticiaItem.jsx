@@ -27,15 +27,17 @@ export default function NoticiaItem({ noticia, alterna }) {
             {noticia.medioNombre}&nbsp;&nbsp;{formatearFecha(noticia.fecha)}
           </i>
         </p>
-        <p className="extracto">
-          {noticia.extracto.map((segmento, indice) =>
-            segmento.resaltado ? (
-              <mark key={indice}>{segmento.texto}</mark>
-            ) : (
-              <span key={indice}>{segmento.texto}</span>
-            ),
-          )}
-        </p>
+        {noticia.extracto.length > 0 && (
+          <p className="extracto">
+            {noticia.extracto.map((segmento, indice) =>
+              segmento.resaltado ? (
+                <mark key={indice}>{segmento.texto}</mark>
+              ) : (
+                <span key={indice}>{segmento.texto}</span>
+              ),
+            )}
+          </p>
+        )}
       </div>
     </article>
   )
