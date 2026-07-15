@@ -50,11 +50,33 @@ conversación post-presentación de la v1 o versión 2).
 
 ## Estructura del repo
 
-- `frontend/` — app React (Vite). Lint con oxlint (`.oxlintrc.json`).
+- `collector/` — recolector Node ≥22, **arquitectura hexagonal**: `src/dominio/`
+  (reglas puras, 100% testeadas con vitest), `src/puertos/` (contratos JSDoc),
+  `src/adaptadores/` (RSS + JSON), `src/config/` (conceptos y medios: la "interfaz de
+  administración" v1 se edita AQUÍ), `src/main.js` (composición — único lugar que une
+  todo; la v2 con BD solo cambia el adaptador aquí).
+- `frontend/` — app React (Vite), puramente presentacional: lee `data/noticias.json`
+  con extractos YA segmentados (`[{texto, resaltado}]`) — no re-implementa detección.
+  Lint con oxlint (`.oxlintrc.json`).
+- `.github/workflows/actualizar.yml` — cron horario (:17) + refuerzos pre-8:00 Chile;
+  tests bloquean deploy; estado versionado en la **rama `data`** (auto-bootstrapping);
+  si el collector falla, Pages conserva la última versión buena.
 - `docs/REQUISITOS.md` — documento de requisitos (incluye 13 preguntas aún abiertas,
   entre ellas: definición de "duplicado", reglas de detección de menciones
   (mayúsculas/"CONAFE"), lista definitiva de medios, mapeo de secciones, manejo de
   logos, columnas del CSV, política ante medios que bloquean el acceso).
+- `docs/MEDIOS.md` — registro de verificación de feeds por medio (qué entra y por qué).
+
+## Comandos
+
+- Tests del collector: `cd collector && npm test` (deben pasar antes de cualquier push:
+  el workflow los usa como compuerta del deploy).
+- Corrida real del collector: `node collector/src/main.js --salida
+  frontend/public/data/noticias.json` (ese JSON local está gitignoreado).
+- Frontend: `cd frontend && npm run dev` (dev), `npm run lint`, `npm run build &&
+  npm run preview` (producción local en `http://localhost:4173/COIPO_PRENSA/`).
+- Node local: portable en `C:\Users\luis.monsalve\AppData\Local\Programs\nodejs-portable\node-v24.18.0-win-x64`
+  (no está en PATH; agregarlo por sesión).
 
 ## Criterio de éxito
 
