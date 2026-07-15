@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import BotonCSV from './componentes/BotonCSV.jsx'
 import Cabecera from './componentes/Cabecera.jsx'
 import Seccion from './componentes/Seccion.jsx'
 import { cargarNoticias } from './datos.js'
@@ -36,26 +35,30 @@ export default function App() {
   const seccionesOrdenadas = [...datos.secciones].sort((a, b) => a.orden - b.orden)
 
   return (
-    <main className="boletin">
-      <Cabecera generadoEn={datos.generadoEn} />
-      <div className="acciones">
-        <BotonCSV noticias={datos.noticias} secciones={datos.secciones} />
-      </div>
-      {datos.noticias.length === 0 ? (
-        <p className="estado">Aún no hay noticias con menciones en la ventana actual.</p>
-      ) : (
-        seccionesOrdenadas.map((seccion) => (
-          <Seccion
-            key={seccion.id}
-            seccion={seccion}
-            noticias={datos.noticias.filter((noticia) => noticia.seccionId === seccion.id)}
-          />
-        ))
-      )}
+    <div className="app">
+      <Cabecera
+        generadoEn={datos.generadoEn}
+        noticias={datos.noticias}
+        secciones={datos.secciones}
+      />
+      <main className="contenido">
+        {datos.noticias.length === 0 ? (
+          <p className="estado">Aún no hay noticias con menciones en la ventana actual.</p>
+        ) : (
+          seccionesOrdenadas.map((seccion) => (
+            <Seccion
+              key={seccion.id}
+              seccion={seccion}
+              noticias={datos.noticias.filter((noticia) => noticia.seccionId === seccion.id)}
+            />
+          ))
+        )}
+      </main>
       <footer className="pie">
+        <span className="pie-marca">CONAF</span>
         Monitor de prensa de la Corporación Nacional Forestal · Unidad de Información y
         Análisis. Cada titular enlaza a la noticia original en el sitio del medio.
       </footer>
-    </main>
+    </div>
   )
 }

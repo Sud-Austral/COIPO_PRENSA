@@ -1,201 +1,308 @@
-/* Estética del boletín de ConectaMedia: contenedor de 650px, Helvetica,
-   verde institucional #05833f y mención resaltada en amarillo. */
+/* Monitor de Prensa CONAF — portal de tarjetas.
+   Conserva el espíritu del boletín (verde institucional, secciones, recencia,
+   mención resaltada) con identidad propia: tarjetas modernas y grilla responsive. */
 
 :root {
-  --verde-conaf: #05833f;
-  --gris-texto: #505050;
-  --gris-suave: #606060;
-  --gris-fondo: #f3f4f5;
+  --verde: #05833f;
+  --verde-oscuro: #046a33;
+  --verde-muy-claro: #e6f4ec;
+  --tinta: #1f2a24;
+  --gris: #5b6560;
+  --gris-tenue: #8a938e;
+  --linea: #e3e6e8;
+  --fondo: #f5f7f6;
+  --tarjeta: #ffffff;
+  --resaltado: #ffe58a;
 }
 
 * {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
-  color: var(--gris-texto);
-  background: #e9ebec;
+html {
+  -webkit-text-size-adjust: 100%;
 }
 
-.boletin {
-  max-width: 650px;
-  margin: 0 auto;
-  background: white;
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: var(--tinta);
+  background: var(--fondo);
+  line-height: 1.5;
+}
+
+.app {
   min-height: 100vh;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
 }
 
 /* ---- Cabecera ---- */
 
-.titulo {
-  margin: 0;
-  padding: 14px 20px 8px;
-  font-size: 18px;
-  font-weight: normal;
-  text-align: center;
-  color: var(--verde-conaf);
+.cabecera {
+  background: var(--verde);
+  color: #fff;
+  border-bottom: 3px solid var(--verde-oscuro);
 }
 
-.banda-verde {
-  background: var(--verde-conaf);
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
-  padding: 10px 20px;
-  border-bottom: 2px solid var(--verde-conaf);
+.cabecera-interior {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.cabecera-titulo {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0 10px;
+}
+
+.marca {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.marca-conaf {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+  padding: 1px 8px;
+}
+
+.cabecera-fecha {
+  flex-basis: 100%;
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.cabecera-acciones {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
 }
 
 .actualizado {
   margin: 0;
-  padding: 6px 20px;
-  font-size: 11px;
-  color: var(--gris-suave);
-  text-align: right;
-}
-
-/* ---- Acciones ---- */
-
-.acciones {
-  padding: 4px 20px 10px;
-  text-align: right;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .boton-csv {
-  background: var(--verde-conaf);
-  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: #fff;
+  color: var(--verde);
   border: none;
-  border-radius: 3px;
-  padding: 8px 14px;
+  border-radius: 7px;
+  padding: 9px 14px;
   font-size: 13px;
+  font-weight: 600;
   font-family: inherit;
   cursor: pointer;
+  transition: background 0.15s, transform 0.05s;
 }
 
 .boton-csv:hover:enabled {
-  background: #046a33;
+  background: #eefaf2;
+}
+
+.boton-csv:active:enabled {
+  transform: translateY(1px);
 }
 
 .boton-csv:disabled {
-  opacity: 0.5;
+  opacity: 0.55;
   cursor: default;
 }
 
-/* ---- Secciones ---- */
+/* ---- Contenido y secciones ---- */
+
+.contenido {
+  flex: 1;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 8px 24px 32px;
+}
+
+.seccion {
+  margin-top: 28px;
+}
 
 .titulo-seccion {
-  margin: 0;
-  padding: 10px 20px;
-  font-size: 13px;
-  font-weight: bold;
-  color: var(--verde-conaf);
-  border-bottom: 1px solid var(--verde-conaf);
-  background: white;
-}
-
-/* ---- Noticias ---- */
-
-.noticia {
-  display: flex;
-  background: white;
-}
-
-.noticia-alterna {
-  background: var(--gris-fondo);
-}
-
-.medio {
-  flex: 0 0 110px;
-  padding: 12px 10px;
-  font-size: 10px;
-  line-height: 1.2;
-  text-align: center;
-  text-transform: uppercase;
-  align-self: stretch;
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: var(--gris-texto);
+  gap: 10px;
+  margin: 0 0 14px;
+  padding-left: 11px;
+  border-left: 4px solid var(--verde);
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--verde);
 }
 
-.detalle {
-  flex: 1;
-  padding: 10px 15px 12px 5px;
+.conteo-seccion {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gris);
+  background: var(--verde-muy-claro);
+  border-radius: 999px;
+  padding: 1px 9px;
+}
+
+.grilla-noticias {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 14px;
+}
+
+/* ---- Tarjeta de noticia ---- */
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--tarjeta);
+  border: 1px solid var(--linea);
+  border-radius: 10px;
+  padding: 14px 16px 16px;
+  /* Sin esto, la pista de grilla no baja del min-content del contenido y una
+     palabra/nombre largo desborda el viewport en móvil. */
+  min-width: 0;
+  transition: box-shadow 0.15s, transform 0.15s, border-color 0.15s;
+}
+
+.tarjeta:hover {
+  box-shadow: 0 6px 18px rgba(5, 131, 63, 0.1);
+  border-color: #cfe4d8;
+  transform: translateY(-2px);
+}
+
+.tarjeta-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
   min-width: 0;
 }
 
-.titular {
-  display: block;
-  font-size: 14px;
-  font-weight: bold;
-  color: var(--gris-suave);
-  text-decoration: none;
-  margin-bottom: 5px;
-  line-height: 1.2;
+.chip-medio {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--verde);
+  background: var(--verde-muy-claro);
+  border-radius: 999px;
+  padding: 3px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  max-width: 70%;
 }
 
-.titular:hover {
-  color: var(--verde-conaf);
+.tarjeta-fecha {
+  font-size: 12px;
+  color: var(--gris-tenue);
+  white-space: nowrap;
+}
+
+.tarjeta-titular {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--tinta);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.tarjeta-titular:hover {
+  color: var(--verde);
   text-decoration: underline;
 }
 
-.fecha {
-  margin: 0 0 5px;
-  font-size: 12px;
-  color: var(--gris-suave);
-  line-height: 1.1;
-}
-
-.extracto {
+.tarjeta-extracto {
   margin: 0;
-  font-size: 12px;
-  line-height: 1.45;
+  font-size: 13px;
+  color: var(--gris);
+  line-height: 1.5;
+  overflow-wrap: anywhere;
 }
 
-.extracto mark {
-  background-color: #ffff00;
-  color: var(--gris-texto);
-  padding: 1px;
+.tarjeta-extracto mark {
+  background: var(--resaltado);
+  color: var(--tinta);
+  border-radius: 3px;
+  padding: 0 2px;
 }
 
 /* ---- Estados y pie ---- */
 
 .estado {
-  max-width: 650px;
-  margin: 40px auto;
-  padding: 0 20px;
+  max-width: 1080px;
+  margin: 60px auto;
+  padding: 0 24px;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
-  color: var(--gris-suave);
+  color: var(--gris);
 }
 
 .estado-error {
-  color: #a33;
+  color: #b23b3b;
 }
 
 .pie {
-  padding: 16px 20px 24px;
-  font-size: 11px;
-  color: var(--gris-suave);
-  border-top: 2px solid var(--verde-conaf);
-  margin-top: 12px;
+  border-top: 3px solid var(--verde);
+  background: #fff;
+  padding: 18px 24px 26px;
+  font-size: 12px;
+  color: var(--gris-tenue);
+  text-align: center;
 }
 
-/* ---- Pantallas chicas ---- */
+.pie-marca {
+  display: inline-block;
+  font-weight: 700;
+  color: var(--verde);
+  margin-right: 8px;
+}
 
-@media (max-width: 480px) {
-  .noticia {
-    flex-direction: column;
+/* ---- Responsive ---- */
+
+@media (max-width: 560px) {
+  .cabecera-interior {
+    padding: 14px 16px;
   }
 
-  .medio {
-    flex-basis: auto;
-    padding: 10px 15px 0;
-    justify-content: flex-start;
+  .contenido {
+    padding: 8px 16px 28px;
   }
 
-  .detalle {
-    padding: 8px 15px 12px;
+  .marca,
+  .marca-conaf {
+    font-size: 19px;
+  }
+
+  .grilla-noticias {
+    grid-template-columns: 1fr;
+  }
+
+  .cabecera-acciones {
+    width: 100%;
+    justify-content: space-between;
   }
 }
