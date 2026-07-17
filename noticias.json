@@ -1,6 +1,6 @@
 {
-  "generadoEn": "2026-07-17T13:44:54.678Z",
-  "tamanoVentana": 100,
+  "generadoEn": "2026-07-17T14:06:47.037Z",
+  "tamanoVentana": 1000,
   "secciones": [
     {
       "id": "escrita",
@@ -18,9 +18,14 @@
       "orden": 3
     },
     {
+      "id": "digital",
+      "nombre": "Digital",
+      "orden": 4
+    },
+    {
       "id": "otros",
       "nombre": "Otros medios",
-      "orden": 4
+      "orden": 6
     }
   ],
   "noticias": [
@@ -44,6 +49,31 @@
         }
       ],
       "imagen": "https://s.t13.cl/sites/default/files/styles/manualcrop_850x475/public/t13/field-imagen/2026-07/Mois%C3%A9s%20Orellana.png.jpeg?itok=n-cuvj3P"
+    },
+    {
+      "id": "https://cnnespanol.cnn.com/2026/07/17/clima-y-tiempo/video/incendio-forestal-espana-trax",
+      "url": "https://cnnespanol.cnn.com/2026/07/17/clima-y-tiempo/video/incendio-forestal-espana-trax",
+      "medioId": "cnnespanol.cnn.com",
+      "medioNombre": "CNN en Español",
+      "seccionId": "otros",
+      "titular": "Bomberos combaten las llamas desde el interior de la zona afectada por un incendio forestal en España",
+      "fecha": "2026-07-17T13:19:52.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "Bomberos combaten las llamas desde el interior de la zona afectada por un incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " en España",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://media.cnn.com/api/v1/images/stellar/prod/incendio-forestal-espana.jpg?c=16x9&q=w_800,c_fill"
     },
     {
       "id": "https://portalmetropolitano.cl/mac-parque-forestal-inaugura-seis-nuevas-exposiciones",
@@ -94,6 +124,31 @@
         }
       ],
       "imagen": "https://media.mdzol.com/p/483e90026b58523e0ce2d93509cf98fe/adjuntos/373/imagenes/001/963/0001963799/1200x675/smart/incendio-forestal-humo-nueva-york.jpg"
+    },
+    {
+      "id": "https://www.diarioelcentro.cl/2026/07/17/delegacion-presidencial-ordena-cierres-preventivos-en-el-maule-conoce-aqui-las-rutas-afectadas-en-talca-linares-y-curico",
+      "url": "https://www.diarioelcentro.cl/2026/07/17/delegacion-presidencial-ordena-cierres-preventivos-en-el-maule-conoce-aqui-las-rutas-afectadas-en-talca-linares-y-curico/",
+      "medioId": "el-centro",
+      "medioNombre": "Diario El Centro",
+      "seccionId": "regional",
+      "titular": "Delegación Presidencial ordena cierres preventivos en el Maule: conoce aquí las rutas afectadas en Talca, Linares y Curicó",
+      "fecha": "2026-07-17T12:00:00.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "La Delegación Presidencial Regional decretó el cierre preventivo de rutas cordilleranas en Talca, Curicó y Linares, además de seis áreas silvestres protegidas, por alerta meteorológica. La Delegación Presidencial Regional del Maule , en el marco de la campaña “Chile Se Prepara” , informó el cierre transitorio de diversas rutas cordilleranas de la región, como medida preventiva ante la alerta meteorológica vigente producto del sistema frontal que afecta a la zona. La restricción rige desde el 15 hasta el 21 de julio de 2026 , o hasta que las condiciones climáticas lo permitan, y afecta principalmente el tránsito hacia los sectores altos de las provincias de Talca , Curicó y Linares . En la provincia de Talca , el cierre abarca la Ruta CH-115 , correspondiente al Paso Internacional Pehuenche , en la comuna de San Clemente , desde el km 101 (Retén “La Mina”) hasta el límite fronterizo, además de la Ruta K-705 en el sector Vilches Altos, la Ruta K-593 en el Retén Paso Nevado y la Ruta Precordillerana Los Treiles , en la comuna de Río Claro . En la provincia de Curicó , quedan cerradas la Ruta J-25 en el sector Montaña de Teno, la Ruta J-55 en Romeral , la Ruta K-275 en el sector Radal de Molina y la Ruta J-65 , desde el sector Potrero Grande hacia la cordillera. La provincia de Linares concentra el mayor número de restricciones, con el cierre de las rutas L-391 (sector Los Avellanos, comuna de Colbún ), L-751 (sector La Palta, comuna de Parral ), L-735 (sector Bullileo), K-593 (El Melado, Colbún), L-535 (Lomas de Vásquez, comuna de Longaví ), L-55 (Los Boldos, Colbún) y L-45 , desde el Puente Tres Arcos hacia la precordillera de Linares . A esta medida se suma el cierre temporal de seis áreas silvestres protegidas de la región: el ",
+          "resaltado": false
+        },
+        {
+          "texto": "Parque Nacional",
+          "resaltado": true
+        },
+        {
+          "texto": " Radal Siete Tazas y las reservas nacionales Federico Albert , Los Ruiles , Laguna Torca , Altos de Lircay y Los Queules . “Chile Se Prepara” , señaló la Delegación Presidencial junto al anuncio, enfatizando el carácter preventivo de la medida y recomendando a la ciudadanía revisar si su ruta está afectada antes de emprender desplazamientos hacia sectores cordilleranos. The post Delegación Presidencial ordena cierres preventivos en el Maule: conoce aquí las rutas afectadas en Talca, Linares y Curicó appeared first on Diario El Centro .",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.diarioelcentro.cl/wp-content/uploads/2026/07/4615a257-eb80-439d-9f35-042078810b7c.jpg"
     },
     {
       "id": "https://www.cibercuba.com/noticias/2026-07-17-u1-e129488-s27061-nid335349-voraz-incendio-forestal-afecta-miles-acres",
@@ -264,6 +319,35 @@
       "fechaDeteccion": "2026-07-17T13:44:54.678Z",
       "extracto": [],
       "imagen": "https://www.infobae.com/resizer/v2/NDXVQJU2N5BC3LMRD3DFKUHTOU.JPG?auth=e1fe17034dcbbdf9dc5a44af0a7595a44c95d751c7424c18217f2dde7293e55c&smart=true&width=1200&height=630&quality=85"
+    },
+    {
+      "id": "https://www.elciudadano.com/arte-cultura/el-viaje-de-la-luz-el-mac-celebra-50-anos-de-su-archivo-fotografico-con-una-masiva-exhibicion-doble/07/17",
+      "url": "https://www.elciudadano.com/arte-cultura/el-viaje-de-la-luz-el-mac-celebra-50-anos-de-su-archivo-fotografico-con-una-masiva-exhibicion-doble/07/17/",
+      "medioId": "el-ciudadano",
+      "medioNombre": "El Ciudadano",
+      "seccionId": "otros",
+      "titular": "El viaje de la luz: el MAC celebra 50 años de su archivo fotográfico con una masiva exhibición doble",
+      "fecha": "2026-07-17T08:54:24.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "(...) ",
+          "resaltado": false
+        },
+        {
+          "texto": "fiel del entorno . El segundo se sumerge en los cruces interdisciplinarios a través de fotograbados, registros de performance y montajes escénicos. Finalmente, la muestra se adentra en el territorio de la postfotografía , donde conviven las realidades alteradas, la edición digital y la inteligencia artificial. El director del museo y co-curador, Daniel Cruz , destaca la vigencia de este aniversario al señalar que el hito fundador de 1976 conecta con procesos globales de legitimación artística, planteando preguntas urgentes sobre las fronteras de la fotografía actual. Por su parte, la co-curadora Paulina González destaca el carácter pionero de este fondo como la primera colección pública de su tipo en un museo de arte en Chile. González explica que esta revisión profunda permitió identificar ciertos vacíos históricos, facilitando la incorporación de nuevas creadoras y sensibilidades contemporáneas que desplazan los soportes tradicionales. Diálogos contemporáneos y experimentación en sala La curatoría reúne a ochenta firmas fundamentales de la escena chilena y extranjera, entre las que destacan figuras como Paz Errázuriz , Alfredo Jaar , Lotty Rosenfeld y Marcelo Montecino , junto a creadores actuales que exploran la sobreproducción de imágenes y el rescate de procesos químicos manuales. Este panorama coincide además con el bicentenario de la primera imagen fija lograda por Nicéphore Niépce a nivel global. La experiencia va más allá de la observación pasiva. A través de un programa de mediación en Quinta Normal , los visitantes pueden adentrarse en la mecánica clásica de la cámara oscura o reflexionar sobre cómo el teléfono inteligente ha trasladado el arte fotográfico hacia el control de datos y la vigilancia automatizada. Coordenadas • Exposición doble «Colección MAC. Modulaciones de la imagen fotográfica» . • En zócalo MAC sede Parque ",
+          "resaltado": false
+        },
+        {
+          "texto": "Forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " (Ismael Valdés Vergara 506, Santiago). Disponible hasta el 11 de octubre de 2026 . • En salas 12 y 13 del MAC sede Quinta Normal ( Matucana 464, Santiago). Disponible desde el 18 de julio al 27 de septiembre de 2026 . Para ambas sedes, el horario de visita es de martes a domingo, de 10:30 a 17:30 horas. Entrada gratuita . Fuente: Facebook.com/museo.mac . Créditos imágenes: • Titular: Demian Schopf. Alicia Galán, presidente del Colectivo LGBTI Bolivia, vestida de China Morena. • Selina Ou. Iván José Calderón, Matta, Kiosco, Santiago (de la serie Service Culture), 2006. • Alfredo Jaar. Intervenciones urbanas (de la serie Estudios sobre la felicidad), 1981 / 2011. • Janet Toro. Serie El cuerpo de la memoria, 1999. • Bob Borowicz. El rombo, sin data. Gracias. La entrada El viaje de la luz: el MAC celebra 50 años de su archivo fotográfico con una masiva exhibición doble se publicó primero en El Ciudadano .",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.elciudadano.com/wp-content/uploads/2026/07/MAC-2.jpeg"
     },
     {
       "id": "https://as.com/actualidad/sociedad/jose-bolumar-bombero-forestal-ante-la-duda-la-mejor-opcion-para-hacer-frente-a-un-incendio-es-quedarte-en-una-vivienda-f202607-n",
@@ -1184,6 +1268,31 @@
         }
       ],
       "imagen": "https://media.cnn.com/api/v1/images/stellar/prod/2026-07-12t210634z-313917091-rc2kcma6878m-rtrmadp-3-europe-weather-france-wildfire-20260713102139231.jpg?c=16x9&q=w_800,c_fill"
+    },
+    {
+      "id": "https://www.archdaily.com/es/897153/por-que-es-importante-el-parque-forestal-de-santiago-de-chile/5b3cb4edf197cc657a0000bd-por-que-es-importante-el-parque-forestal-de-santiago-de-chile-arboles-plantados-en-linea",
+      "url": "https://www.archdaily.com/es/897153/por-que-es-importante-el-parque-forestal-de-santiago-de-chile/5b3cb4edf197cc657a0000bd-por-que-es-importante-el-parque-forestal-de-santiago-de-chile-arboles-plantados-en-linea",
+      "medioId": "archdaily.com",
+      "medioNombre": "ArchDaily",
+      "seccionId": "otros",
+      "titular": "Galería de ¿Por qué es importante el Parque Forestal de Santiago de Chile? - 37",
+      "fecha": "2026-07-13T09:18:01.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "Galería de ¿Por qué es importante el Parque ",
+          "resaltado": false
+        },
+        {
+          "texto": "Forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " de Santiago de Chile? - 37",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://images.adsttc.com/media/images/5b3c/b4ed/f197/cc65/7a00/00bd/large_jpg/PF17.jpg?1530705124"
     },
     {
       "id": "https://www.archdaily.com/es/897153/por-que-es-importante-el-parque-forestal-de-santiago-de-chile/5b32c14bf197cc6734000365-por-que-es-importante-el-parque-forestal-de-santiago-de-chile-imagen",
@@ -2278,6 +2387,348 @@
           "resaltado": false
         }
       ]
+    },
+    {
+      "id": "https://www.biobiochile.cl/noticias/nacional/region-de-nuble/2026/07/01/conaf-suspende-quemas-agricolas-y-forestales-en-tres-regiones-ante-alerta-por-vientos-fuertes.shtml",
+      "url": "https://www.biobiochile.cl/noticias/nacional/region-de-nuble/2026/07/01/conaf-suspende-quemas-agricolas-y-forestales-en-tres-regiones-ante-alerta-por-vientos-fuertes.shtml",
+      "medioId": "radio-biobio",
+      "medioNombre": "Radio Bío-Bío",
+      "seccionId": "radio",
+      "titular": "Conaf suspende quemas agrícolas y forestales en tres regiones ante alerta por vientos fuertes | Nacional",
+      "fecha": "2026-07-01T07:00:00.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "Conaf",
+          "resaltado": true
+        },
+        {
+          "texto": " suspende quemas agrícolas y forestales en tres regiones ante alerta por vientos fuertes | Nacional",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://media.biobiochile.cl/wp-content/uploads/2026/07/social-quemas-conaf.jpg"
+    },
+    {
+      "id": "https://www.elmostrador.cl/aqui-biobio/2026/07/01/crisis-forestal-golpea-duro-en-biobio",
+      "url": "https://www.elmostrador.cl/aqui-biobio/2026/07/01/crisis-forestal-golpea-duro-en-biobio/",
+      "medioId": "el-mostrador",
+      "medioNombre": "El Mostrador",
+      "seccionId": "otros",
+      "titular": "Crisis forestal golpea duro en Biobío",
+      "fecha": "2026-07-01T07:00:00.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "Crisis ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " golpea duro en Biobío",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://media-front.elmostrador.cl/2026/07/unnamed-2026-07-01T094411.524-700x467.jpg"
+    },
+    {
+      "id": "https://artes.uchile.cl/noticias/241932/mac-sede-parque-forestal-inaugura-su-segundo-ciclo-de-exposiciones",
+      "url": "https://artes.uchile.cl/noticias/241932/mac-sede-parque-forestal-inaugura-su-segundo-ciclo-de-exposiciones",
+      "medioId": "artes.uchile.cl",
+      "medioNombre": "Universidad de Chile",
+      "seccionId": "otros",
+      "titular": "MAC sede Parque Forestal inaugura su segundo ciclo junto a la última exposición de Eugenio Téllez - Facultad de Artes",
+      "fecha": "2026-06-30T07:00:00.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "MAC sede Parque ",
+          "resaltado": false
+        },
+        {
+          "texto": "Forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " inaugura su segundo ciclo junto a la última exposición de Eugenio Téllez - Facultad de Artes",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://artes.uchile.cl/dam/jcr:6eed00d0-4e0e-4f2b-b3f5-ae01f1ad9f52/mac-pf-inaugura-segundo-ciclo-de-exposiciones-prev.jpg"
+    },
+    {
+      "id": "https://www.diarioconcepcion.cl/politica/2026/06/29/crisis-en-sector-forestal-congresistas-plantean-ideas-para-reactivar-la-industria-en-biobio.html",
+      "url": "https://www.diarioconcepcion.cl/politica/2026/06/29/crisis-en-sector-forestal-congresistas-plantean-ideas-para-reactivar-la-industria-en-biobio.html",
+      "medioId": "diarioconcepcion.cl",
+      "medioNombre": "Diario Concepción",
+      "seccionId": "otros",
+      "titular": "Crisis en sector forestal: congresistas plantean ideas para reactivar la industria en Biobío",
+      "fecha": "2026-06-29T10:27:13.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "Crisis en sector ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": ": congresistas plantean ideas para reactivar la industria en Biobío",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://assets.diarioconcepcion.cl/2026/06/pag-5-congreso-nacional-foto-gobierno-de-Chile.jpg-e1782666610869.jpeg"
+    },
+    {
+      "id": "https://www.latercera.com/pulso/noticia/cmpc-redefine-los-plazos-para-obtener-los-permisos-de-su-megaproyecto-natureza-en-brasil",
+      "url": "https://www.latercera.com/pulso/noticia/cmpc-redefine-los-plazos-para-obtener-los-permisos-de-su-megaproyecto-natureza-en-brasil/",
+      "medioId": "pulso",
+      "medioNombre": "Pulso",
+      "seccionId": "digital",
+      "titular": "CMPC redefine los plazos para obtener los permisos de su megaproyecto Natureza en Brasil",
+      "fecha": "2026-06-27T07:00:00.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "CMPC",
+          "resaltado": true
+        },
+        {
+          "texto": " redefine los plazos para obtener los permisos de su megaproyecto Natureza en Brasil",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.latercera.com/resizer/v2/Y23WR3TMGNDGFCTSF5E2YE2U3I.JPG?auth=38861745af09fec55a64db930960b3d51398ab006981ca400bafa76844d7f58f&height=630&width=1200&smart=true"
+    },
+    {
+      "id": "https://www.sernageomin.cl/convenio-entre-sernageomin-y-conaf-fortalecera-la-gestion-del-territorio-con-informacion-geologica-y-forestal",
+      "url": "https://www.sernageomin.cl/convenio-entre-sernageomin-y-conaf-fortalecera-la-gestion-del-territorio-con-informacion-geologica-y-forestal/",
+      "medioId": "sernageomin.cl",
+      "medioNombre": "Servicio Nacional de Geología y Minería – SERNAGEOMIN",
+      "seccionId": "otros",
+      "titular": "Convenio entre Sernageomin y CONAF fortalecerá la gestión del territorio con información geológica y forestal",
+      "fecha": "2026-06-25T18:26:02.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "Convenio entre Sernageomin y ",
+          "resaltado": false
+        },
+        {
+          "texto": "CONAF",
+          "resaltado": true
+        },
+        {
+          "texto": " fortalecerá la gestión del territorio con información geológica y ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        }
+      ],
+      "imagen": null
+    },
+    {
+      "id": "https://mma.gob.cl/seremi-del-medio-ambiente-y-conaf-generan-instancia-tecnica-para-avanzar-en-la-descontaminacion-atmosferica-en-nuble",
+      "url": "https://mma.gob.cl/seremi-del-medio-ambiente-y-conaf-generan-instancia-tecnica-para-avanzar-en-la-descontaminacion-atmosferica-en-nuble/",
+      "medioId": "mma.gob.cl",
+      "medioNombre": "MMA – Ministerio del Medio Ambiente",
+      "seccionId": "otros",
+      "titular": "Seremi del Medio Ambiente y Conaf generan instancia técnica para avanzar en la descontaminación atmosférica en Ñuble",
+      "fecha": "2026-06-25T14:06:53.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "Seremi del Medio Ambiente y ",
+          "resaltado": false
+        },
+        {
+          "texto": "Conaf",
+          "resaltado": true
+        },
+        {
+          "texto": " generan instancia técnica para avanzar en la descontaminación atmosférica en Ñuble",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://mma.gob.cl/wp-content/uploads/2026/06/Reunion-conafNUBLE1-600x450.jpg"
+    },
+    {
+      "id": "https://www.df.cl/mercados/renta-fija/cmpc-vende-bonos-hibridos-por-mas-de-us-310-millones-y-mejora-el-spread",
+      "url": "https://www.df.cl/mercados/renta-fija/cmpc-vende-bonos-hibridos-por-mas-de-us-310-millones-y-mejora-el-spread",
+      "medioId": "diario-financiero",
+      "medioNombre": "Diario Financiero",
+      "seccionId": "digital",
+      "titular": "CMPC vende bonos híbridos por más de US$ 310 millones y mejora el spread respecto de su histórico debut en el formato",
+      "fecha": "2026-06-24T07:00:00.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "CMPC",
+          "resaltado": true
+        },
+        {
+          "texto": " vende bonos híbridos por más de US$ 310 millones y mejora el spread respecto de su histórico debut en el formato",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.df.cl/noticias/site/artic/20260624/imag/foto_0000000620260624103118/WhatsApp_Image_2026-05-08_at_13.jpeg"
+    },
+    {
+      "id": "https://www.biobiochile.cl/noticias/nacional/chile/2026/06/21/conaf-y-os-5-de-carabineros-desmantelan-campamento-ilegal-en-parque-nacional-la-campana.shtml",
+      "url": "https://www.biobiochile.cl/noticias/nacional/chile/2026/06/21/conaf-y-os-5-de-carabineros-desmantelan-campamento-ilegal-en-parque-nacional-la-campana.shtml",
+      "medioId": "radio-biobio",
+      "medioNombre": "Radio Bío-Bío",
+      "seccionId": "radio",
+      "titular": "Conaf y OS-5 de Carabineros desmantelan campamento ilegal en Parque Nacional La Campana",
+      "fecha": "2026-06-21T07:00:00.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "Conaf",
+          "resaltado": true
+        },
+        {
+          "texto": " y OS-5 de Carabineros desmantelan campamento ilegal en ",
+          "resaltado": false
+        },
+        {
+          "texto": "Parque Nacional",
+          "resaltado": true
+        },
+        {
+          "texto": " La Campana",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://media.biobiochile.cl/wp-content/uploads/2026/06/social-campamento-ilegal-la-campana.jpg"
+    },
+    {
+      "id": "https://www.latercera.com/pulso/noticia/el-negativo-balance-del-negocio-forestal-en-ultima-decada-disminucion-de-empleo-menos-aserraderos-y-lenta-forestacion",
+      "url": "https://www.latercera.com/pulso/noticia/el-negativo-balance-del-negocio-forestal-en-ultima-decada-disminucion-de-empleo-menos-aserraderos-y-lenta-forestacion/",
+      "medioId": "pulso",
+      "medioNombre": "Pulso",
+      "seccionId": "digital",
+      "titular": "El negativo balance del negocio forestal en última década: disminución de empleo, menos aserraderos y lenta forestación",
+      "fecha": "2026-06-18T07:00:00.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "El negativo balance del negocio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " en última década: disminución de empleo, menos aserraderos y lenta forestación",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.latercera.com/resizer/v2/EPZGJZRDLJALBDFEDV3NP2IE2Q.jpg?auth=d299c1083913f011ee8f9b85077f727ec5f88ea09001df6bf3b9a6f0210e62d8&height=630&width=1200&smart=true"
+    },
+    {
+      "id": "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/06/16/crisis-en-sector-forestal-empresas-contratistas-de-cmpc-suman-cerca-de-700-trabajadores-desvinculados.shtml",
+      "url": "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/06/16/crisis-en-sector-forestal-empresas-contratistas-de-cmpc-suman-cerca-de-700-trabajadores-desvinculados.shtml",
+      "medioId": "radio-biobio",
+      "medioNombre": "Radio Bío-Bío",
+      "seccionId": "radio",
+      "titular": "Crisis en sector forestal: empresas contratistas suman cerca de 700 trabajadores desvinculados | Economía",
+      "fecha": "2026-06-16T07:00:00.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "Crisis en sector ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": ": empresas contratistas suman cerca de 700 trabajadores desvinculados | Economía",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://media.biobiochile.cl/wp-content/uploads/2026/06/social-crisis-en-sector-forestal-empresas-contratistas-de-cmpc-suman-cerca-de-700-trabajadores-desvinculados.png"
+    },
+    {
+      "id": "https://www.monumentos.gob.cl/noticias/aclaracion-sobre-proyectos-relacionados-con-la-fuente-alemana-y-el-parque-forestal",
+      "url": "https://www.monumentos.gob.cl/noticias/aclaracion-sobre-proyectos-relacionados-con-la-fuente-alemana-y-el-parque-forestal",
+      "medioId": "monumentos.gob.cl",
+      "medioNombre": "Consejo de Monumentos Nacionales",
+      "seccionId": "otros",
+      "titular": "Aclaración sobre proyectos relacionados con la Fuente Alemana y el Parque Forestal",
+      "fecha": "2026-06-15T07:00:00.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "Aclaración sobre proyectos relacionados con la Fuente Alemana y el Parque ",
+          "resaltado": false
+        },
+        {
+          "texto": "Forestal",
+          "resaltado": true
+        }
+      ],
+      "imagen": "https://www.monumentos.gob.cl/sites/default/files/2026-06/DSC03426.jpg"
+    },
+    {
+      "id": "https://www.munistgo.cl/parque-forestal-monitorean-mas-de-mil-arboles-afectados-por-podas-realizadas-hace-mas-de-10-anos",
+      "url": "https://www.munistgo.cl/parque-forestal-monitorean-mas-de-mil-arboles-afectados-por-podas-realizadas-hace-mas-de-10-anos/",
+      "medioId": "munistgo.cl",
+      "medioNombre": "Municipalidad de Santiago",
+      "seccionId": "otros",
+      "titular": "Parque Forestal: monitorean más de mil árboles afectados por podas realizadas hace más de 10 años",
+      "fecha": "2026-06-11T07:00:00.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "Parque ",
+          "resaltado": false
+        },
+        {
+          "texto": "Forestal",
+          "resaltado": true
+        },
+        {
+          "texto": ": monitorean más de mil árboles afectados por podas realizadas hace más de 10 años",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.munistgo.cl/wp-content/uploads/2026/06/Parque-Forestal-4-810x440.jpeg"
+    },
+    {
+      "id": "https://fen.uchile.cl/circulo-de-honor-y-presidente-de-entel-luis-felipe-gazitua-dictara-clase-magistral-sobre-estrategia-de-negocios-en-la-fen",
+      "url": "https://fen.uchile.cl/circulo-de-honor-y-presidente-de-entel-luis-felipe-gazitua-dictara-clase-magistral-sobre-estrategia-de-negocios-en-la-fen/",
+      "medioId": "fen.uchile.cl",
+      "medioNombre": "Universidad de Chile",
+      "seccionId": "otros",
+      "titular": "Círculo de Honor Luis Felipe Gazitúa compartió su experiencia en CMPC con estudiantes de Estrategia de Negocios de la FEN",
+      "fecha": "2026-05-15T07:00:00.000Z",
+      "fechaDeteccion": "2026-07-17T14:06:47.037Z",
+      "extracto": [
+        {
+          "texto": "Círculo de Honor Luis Felipe Gazitúa compartió su experiencia en ",
+          "resaltado": false
+        },
+        {
+          "texto": "CMPC",
+          "resaltado": true
+        },
+        {
+          "texto": " con estudiantes de Estrategia de Negocios de la FEN",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://fen.uchile.cl/wp-content/uploads/2026/05/gazitua2.jpg"
     }
   ],
   "resolucionesGoogle": {
@@ -2286,7 +2737,6 @@
     "CBMi0gFBVV95cUxNdnBld3ZtYnlFVmhvRjZXclpuWUt1ekZsNmZfakVTQVN4T0FRWVBGdWctUVRfVEpObHA5bmRIVE5lb2ZkcHpfU2ZEb0JubTI5QmpIaW1XbDVWczdZZUtucUk3SG13TEVLV1RNbHE5aU85WUJNRmd5TVlKalRKOVpYSVdval9lQkhYczlMOVBIZW9vNDRWT2QxNE9PZHlBOTctNEhxbV8yd0ZhQ3c0NVkwRnh2WGNwcmJOaFcwcFVQeEgyc2NDaVpuRk9yYW5LelpJanc": "https://mma.gob.cl/seremi-del-medio-ambiente-y-conaf-generan-instancia-tecnica-para-avanzar-en-la-descontaminacion-atmosferica-en-nuble/",
     "CBMi0gFBVV95cUxOY2Vtem5zVDE2LXJNZDlWUXZNYTY3LWxIOFl6WU5XZ0lXaC1qdHRNOUhWenFoQlV5ZTlzUUFtVHZERkZBUzRvZU1wOUdES2V6SkhBMkRaS1QzWEpWRkFlWFJlRF9HVE40V18tMjc2Q3dFNXJQUTJhWGRYaE9DZ2Zka0NtcHcyajNkN29CY2p0LWxhMmRfR1h1ZS1FMUZOdS1vRWNHOVJfazUzQ2VYRFJPNUQ4VlYxS2MwWTY1akRPSHZSdkRMbUdicmp2bjh2WFpCVVE": "https://temucotelevision.cl/web/2026/07/16/con-imagenes-satelitales-conaf-detecta-focos-de-fuego-cercanos-al-bosque-nativo-de-la-region/",
     "CBMi0gFBVV95cUxPQ2NLeWNiMDJhWWpaQ1RtN3FmQ2J5SzVGbjJNOUFwRUVmWGZmc1FtNTZnTDJHbEIySG1ibkxtUWFVMmNRYXhiMlNVX08zcVVncmVJTVI1NV95TmxzT24zQXh4VzNjYWVLekl3T0ZlNXk1Z1FtVGRPWU93YkhjVWs5UzhsckRqMXFRU0NxSkh6MWRBd3dBei1vaWk2WmNwQUlCdlFlOC05VGFnRmpYaFdFMU9mcHpXX0RJNlVtTDYwNXN1MUZ3dzhDbGk0aW1rd2VIbUHSAdcBQVVfeXFMTzRCSmNod0I3N0ZxWDNLVEdUcDNhMVVsTWpjci1oZmRvYm0tWFFjNmFEbEhoSklfWDYtOXlFZTFCVUxjY2NNd0E0NkxzTmZKVVBLaFlLdF9ESEdBVzRIaHhjSkI5VkQ1RWx6MGFUN0sxa0ZERHRsMkQ4WVY1cXkyRUZ0ZTVYdlFKTXk1aEZ4MHo0YnMzcmRQLXpRT0F4dkRhN3JsMFM0cm5fMkpvOS1FUVV1UW5DaHpjSkFVQWZNX3FFbHZ0WVVBdXVJU1ktYkVBQkY2T0wzdTA": "https://www.mdzol.com/mundo/un-incendio-forestal-se-desato-canada-el-humo-avanza-nueva-york-y-peligra-la-final-del-mundial-2026-n1567388",
-    "CBMi0gFBVV95cUxPSVZqa3gzQy1tTEZrTUVRcmlnWVUyV21zdFFaeDJBV0N1MVRKOE9HSTFWODBhZUJBNmNoRW5xcE5LbWlhbERwelExS1g0Z0xfc1hXakVTVllPdkg2ZnpQVDM1anFXMDBELUFHNk9qdDJwQnNHV0xDMnNnU09mNy05T0JqTTZ4WEhLcWZWWkgyaDV0NEk2YUszckJBUmtrb3dKUFJDMWd2RmJmOWJlZkJMc093MklkQml1NlBXLU5KNlJJUGMzWERwamJ1U2gtQVNXRVE": "https://noticias.udec.cl/nueva-planta-piloto-de-lignina-impulsada-por-cmpc-y-udec-fortalece-la-innovacion-basada-en-recursos-renovables/",
     "CBMi0wFBVV95cUxQR2hFR1BRNHBlVUU4bWJoUVpjLVQ1aGJiaFloUlZTalJmSHpPU0Q2enQ2bkRSWFRaTE9HZHpZWDdDb0ZhSGpoeGhDSm1HanFvNHJVc2pzTmsxeVBOMTVFRUdMeTg5cDVHZjZyVjhpaE5zTFJGaHktd3RZbWwyaTl3S3ZSbWdBRkR5VkhGWVZYejJlV0JnVjNUTjQ1OVdib01zdXFXOHlKbEl5YmRkanJDS3N2ZXhWdnM4ZXRhb3dxb084V2xKSzZXel9SYnNCR1RxLVlz": "https://www.sernageomin.cl/convenio-entre-sernageomin-y-conaf-fortalecera-la-gestion-del-territorio-con-informacion-geologica-y-forestal/",
     "CBMi3AFBVV95cUxNbkc2aDk3c2hLNm9ySFVKd1h5OFVGU0Z5cGsxMjZuTXhLcGwwTnA5WFgwUkZGdWlQNl9MSlQ3SWhUeWhYQzNMQXl0YU14ck9HbXctdTNoYWgtZzdnSUVtcnFtODZ5N3ZIUjA2R1NybC1NQ2VuOTlsaV9NTDdnSk5GbVljU2lWUzRLSmhYSVVjWm1fRlhTeUJqR0t0UXVKeHZOWHRZUERnSGx1SkdkbGs2SzVaVW1QRmNSRGIwS3YxeF9vMC1pYlh5WnVfS3NKc3pEMU80SS1Nb3h3R0w2": "https://fen.uchile.cl/circulo-de-honor-y-presidente-de-entel-luis-felipe-gazitua-dictara-clase-magistral-sobre-estrategia-de-negocios-en-la-fen/",
     "CBMi4gFBVV95cUxOMU9LZGFIc0UtWklkTm91UXhjbTExa1VENGEtM2w0bnRVMnZBSXZXcGt4elpXTEFPMXB6TUJocnNqSGxreVBRb2c0ZzFEMlJIZDFWT1p4b2xsNlczeFdXVy1maW1SWjRCb0RMRU0zU0V1a1JaU1pLZTliVHRySmI0NTl3cl8yZDd6UFd5dm5xNkFyNFZhbkhqaHBVTEJKZk1vNm91aVFXZUNqVEpUd2dhWEV5VW15OVlXb3F2SXp6bzZCSWN1YzFIWkVfbWpyaXZBRWlqWGwxNlhveWFxZkxLTVNB0gHqAUFVX3lxTE43SWlzUWQyQTM3cGZqUFNydWw0U3g0Yk9fVEgyM2lxWVdZVE5wZE80cUpwWmZiSU1MX1NvN3BlQkExQXpHcjZHNUZGekhvZlA0OEdOZTBwcHlNV25PU1ctNGJwdlN0TTRZbFZzMm1GNlg1NUVtOFk0Um5DcUdEeGZJaWFkX0ZaSWlCTlIwR194Sm5RMTBhb1pjWGJMRzFGRGloUUJBTVVTZ0I3YWVSZWFrcnpwQ3E3Skl0aEcwRXlCZ3pNR3BkTUV0cjNXMU1rMHBVeDZpRWZEX2YtOWpBTlV5dzh0VmlUSzB0UQ": "https://www.diarioconcepcion.cl/politica/2026/06/29/crisis-en-sector-forestal-congresistas-plantean-ideas-para-reactivar-la-industria-en-biobio.html",
@@ -2305,13 +2755,13 @@
     "CBMigAJBVV95cUxOUTVQVjlNM1pWQTNpYV9zZE5RaWtIcUlCQ1VYejZ2Zmp0VTlzVFR5RmJaMlAxWXMtTnpOTWtmdE1ESXlublBaVjVoM01hV3RzMXhHYVItMmVJcnZLWGtWSkpWYW8yNkcxZTFKbjREM2FpSGNsbTkydHpiaWY3RVR1MlVCVEdSMkNCX3JTbWRwdGd4OHJrUE55NGV2bmhZTmU4UHNTZllJVF9EN05XMG9DcGlSOHlWek9EMzUtSHU1VFMyeEFQSzhZOVIyM0IwaXpIOXljQVJDY24tX2lPa0FPWldvbGVRX1h1VXV6N0NWaV9JbWdwUVdZZzVMVFlDVnE20gGUAkFVX3lxTE9XdWpxWlFSb1hpM29NZzV0aXpRM21wb25kTUZmV3lCN0pWTGNRU2JfXzFzdUlFaDZadXdOOENiZEFmTFpqWVEzRlhFbGhRVkRQUUhhRFZGbW9WTVlvM1BMbUlGOWlrZFk2bHFYaHIxSGZKajYxN2g4N3RROVlOb1dmY3UxeTEwT2F1RmRzV0lacE5iSXlOSm9GX0kydTM5UGdqaURqcF93SFV1TmJjUmFaSjU1VjhvZnNMNTB4T1dUbE9FN3VTbi1uN0ZqRk9KUUV3Wkk3emlxQ1dPNmE3WVVTUWFfVVh4ckdxYTdGTS1TSVpvZkVUMGx2bWszNERzV3BsUFpWTEdZVmYwVllGSEpCLW91Zg": "https://elpais.com/espana/madrid/2026-07-16/un-incendio-forestal-obliga-a-activar-el-primer-nivel-de-emergencia-de-la-comunidad-de-madrid-en-el-municipio-de-lozoyuela.html",
     "CBMigAJBVV95cUxQY0ZtNVN4Zk9pTjlBeTF0amc4SndkaUZTRVdHcHpVVVc1cVJack9pTjlVWmxRMFI1QjJLaVd0T3IxR1lMeE1ZS1VyVnZvQ2h2NlhaYUc2ajU3SDJ5UHZnckhON1J5NS1QQUZXcmVYSUpBMHQ0YjI5djZoUU1IcHpXVWprOHBjdS1NQXg3RlZPZGx5b0g3V3RUQjZ4Nnc2QVY5d1BKWGsxMElacVBIOVZNc1lYNWtnc09kVmdpd0gwZW1EOTFBUVhFYkZYejVmQ2E2d2xZODR4dWVlU1lJcHFlYUxqLW1nTVFtYkphWXQzVklJakgwUVVtQ1o5XzVYUFFY": "https://www.biobiochile.cl/noticias/nacional/region-de-nuble/2026/07/01/conaf-suspende-quemas-agricolas-y-forestales-en-tres-regiones-ante-alerta-por-vientos-fuertes.shtml",
     "CBMigwFBVV95cUxOSTBOU3lXTzdVWEJTZ2xRQUtrUS1fckdsY2hiNUJ4aVpDVWhQSTJzYWdlemVqOUxqSk5NdnVadlZlQl9iWWdRMllvWXZBNWJXLTV4N09QM1lhR0NyOVZkZEw3a3hiVFh5QnFKN3R1UXpObmU0MGNDSS1ucHpUVDM1VS13NA": "https://soy-chile.cl/Arica/Sociedad/2026/07/16/957775/parque-lauca-arica.html",
-    "CBMigwJBVV95cUxOLUNLdE5OM0NhLTJQX2VMUE9uc1N0TVl4QmoxRUtaN0plUzhobEE3ekt1N0J0NjM1UmpnUHotOWtsNDUzWE1CMDJVSG1Jb0tjcFV4M0pyc0RzNUdpMWY4MmtfNGJEQmJzZzhURWgwN2w5Rk93NExZanRHeG1NRjJkSE5XRVhmUHBXb0VXOE9VU2xtemdud0VwQ1hldFdSdnRJa0JjQ0ZjZEhHSzVSOTFvSzNOMXh2SjB4ZEtpd2Ruc1h2TEQ3VFdZekRick43ZjBaRFB0VlAza2pMZzFTLWZoalFLMlRRbktxdldtd19XUWd3X0hzbm93U1dzankzdXBmbms4": "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/06/17/es-prioridad-la-renovacion-de-la-ley-forestal-que-afina-el-gobierno-bajo-cierto-hermetismo.shtml",
     "CBMigwJBVV95cUxPcEtYT0ZUb0MxWkFzRnVrb3IyakJyaVZNUzlEcWEtSVNnQld2dkFENzM1SlJHcjJ4cEN4V3BmOVBUeEM0a0ppVGNqbjFXNHF1SnhBNXg4U1Zwbkh6Q2YydjlPTm9ZdnZkblBrZ3d2NlRDTEZNWGZ3dzhKRmctblN0b00tbTJWbWJpdmNKSmczbkxGdTBGWE9HT01icEQ0UmJXY2ZMN1NRR242bFhXX05FZHdsX29wSXMxb2llTThuampoSFV0dVNadVZZdUF3RkRPaWhHZktkUkg1aXo2X01LcW95QWZmR0FJX0J6TGwyNTd6dEZyUWVzUExpclpQZkFqZjA0": "https://noticias.udec.cl/en-la-prensa/experto-en-ecologia-del-fuego-hay-que-adquirir-una-cultura-forestal-si-estoy-en-el-area-rural-en-algun-momento-va-a-llegar-un-incendio/",
     "CBMihwJBVV95cUxNaTItVTZSSGU5eGwtTmQzVDBEMFVsdTNUWmYzbGl1ZEEwUlNXem56OFBLVFRiUHA2UkFIZEFIZksxM1pTekh1Y3pGbUxCckVvUjlOUy1pdHdvUUt5aDBGd3djeEJ0OVhBc2QxUk5YOWJjYUFhcmlHUFBwVjJidWtTSTRFVkVTVENncFpqRi0zSk1iRWU1cXptZk5aLW5IV2JraENGZHZ3MWhubEhKTGxQMTlZbk8zYXZzRVgxc3RBRjBTakZqeUthaUljeEI2NnNnSWM2VDc0WnJwdFhFU0YyM1RaZF9NM05xbE56UVRFVTA5aXN0QS1HWm0xaG5wYjh4d0h1Qjljbw": "https://www.biobiochile.cl/noticias/nacional/region-de-la-araucania/2026/07/03/conaf-informa-una-baja-de-26-de-incendios-forestales-en-la-araucania-en-temporada-2025-2026.shtml",
     "CBMihwJBVV95cUxPS1FqaVpOY01LeWpibldPVlI5aW5SV0dsMGVSSzZob3Y4bVRzV0RsYUVDTEtCUVktMkR6UW5CbVhBblhrWmMxNFVhU2pCVFJ4X1hzVUFqZktJLUFmSy00bzdjNFI3TXFEREtXbDU5dHVEQXIwMEJZWEh5UlQxMVg1V0xwTWVKaU9xdFIwdkJrVVA4bFVhdUZnTTZPN2FvbEFuUXotbDYyQkY3M1dtYlRmRTlBdi01ZnZDbHlIYl9qd3BQWGtJaTBDeXI1ajlJZlZTdEV0Zm54WFpVN1M0UEJlSjNQZzgtVkhBdWFpUVJBS3A2SDRweFh0VEhxUDUwMDM3WU9Pcm1IUQ": "https://www.biobiochile.cl/noticias/ciencia-y-tecnologia/ciencia/2026/07/07/de-las-inversiones-mas-relevantes-cmpc-renueva-centro-de-innovacion-para-la-industria-forestal.shtml",
     "CBMijgFBVV95cUxNeVJheFJmdVYwWUIzRHdjRGQ0U3ZDektpUzMzQjlGNjVfZF9FbVVVR2E5QktCeURhVmpOOGt5OHFwSXM4eHc4T25PWGc5OE11Zm9QbXM2UjM4QlFuYXJ4a1A3NFFIR3U1UWIzZ1RmejFjSEtDQlVybmFKRlhhRkh0bFJvTTNxQXpnZFpDXzBn": "https://portalmetropolitano.cl/mac-parque-forestal-inaugura-seis-nuevas-exposiciones/",
     "CBMikAJBVV95cUxQWGJfd25IZUl2LTBlVE9PUXR5WFN6SFhDZlUwYWlHakFvS1NBZ01fTVhTM1lhejJ4MVJXYW95MXJydFQzNFh3Z3h6VUFfREZHNnBfbnpta0Z4RnhKUnluNXAzU0dsUTR4WV9yY0pSVlhPOG9hUHdFci0zM0Jya0dkY29IYS0tV05DLXpsb1VGLXhnSzJtTFpDcFM4QVRJcGg0V3Z5T2toNGxhd0pHclBHbTBiS1lEMTYwWDAwUUljb1hMVnJ4X05hSTYyT1llQXZRdEFBdER3bWJ2NE10TFJmTUpOMHFXLWtBUjJxR29jbFNRMEs0MDh0VzFpSWxpVGFqZzdOS3JOUmYwUmk2YTNjeg": "https://www.biobiochile.cl/noticias/nacional/region-de-la-araucania/2026/07/14/pese-a-sistema-frontal-conaf-confirma-que-las-13-areas-protegidas-de-la-araucania-estaran-abiertas.shtml",
     "CBMikgFBVV95cUxPNEpiT1F3NlVja0R4WG5pUUdsV2VaTllmWW54RDVMcjUwbk1QU2hYTnBLZTVfekNlWG1KXzlXMFUzOTN6S01HWDZuMXRPZDR0WEMtMVFnRlhOMUhLSWxqZVgwMHNxQnFwU09qNW9jdDFjemVIaWpoMF9KWGlSOF93V3NtcVNBY2p1MUNaTDVQdHZnQQ": "https://www.elmostrador.cl/aqui-biobio/2026/07/01/crisis-forestal-golpea-duro-en-biobio/",
+    "CBMikgFBVV95cUxQdUJUaU5rVlpmb1MtS3d6dkxBc1VzTXMyYVpCWmJEUHpKdVE4NGtnNzI0V1BZTFBta0lmU3Zmd3lRdXA4T1FjVU5wVjVLRGZzMVNRNE5HRHBYa08zQlJLS25xMExOUTR4MVBORm92TzNwTDBHRWYtVWxvWmQ2QVE4MDdjeHBERWhwS0ZpY3kzdlFUUQ": "https://cnnespanol.cnn.com/2026/07/17/clima-y-tiempo/video/incendio-forestal-espana-trax",
     "CBMikgJBVV95cUxOMEQ0d0hkeE9yb3hCc0FnUXBFQWRNTjlydDNJdXVTRzdMOW5hb1c3YVhSNVRyLU51cEJNUmZDQnRITDk0R0h3Y0ptbUR1U2lhYmtScWJkbTFUcVg4RC1WRTlUN0pJcm1RVGlpQnVqMmlCOXBIWWd6d0tReG9USXQxa3c4dnpHS1E3Yml0OVBZM2R3U2lYLXBGeXhTMTI5eFp0NUFYTnhsS0Q5RWFTZjE4TnVlREZMMzlhWG1FdGZVc2lHS1JoRnhRMXJxVk0zc09tRTQ0cTNFUFZ4dUxVNTFKNDBjWVpjVDdzTFc3VURpVjJ1NHIzcUp2WG9VN3Bkcm1adXVhaHp5dVRlRUJTRGVrZHJR": "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/06/16/crisis-en-sector-forestal-empresas-contratistas-de-cmpc-suman-cerca-de-700-trabajadores-desvinculados.shtml",
     "CBMikwFBVV95cUxPanhmdktQZ0REMlNBUHhTNjhmb1RDSjdRcEF1NC1sTmJqT0lxOThRS1BkVlE2SVBKanpkcmdlR0k0eXYzaGUzWjVXSHNlWHBwQTNCYkpHOHQ5MXhqb0JGcXg1bmd4anpiUlJXaDVlaUpZRHFDYl9VN0VnTlNaMmVJWUtEd01WVmczZVNLaWs2ZXF1dGM": "https://www.iqair.com/la/newsroom/wildfire-map-spotlight-fontainebleau-forest-fire-france",
     "CBMilwFBVV95cUxNV3d0bFZXdlE2NkNsVWhWcmtOSVAzZDMzQ3dLVUtTOUpLYWtoUFVLN0RJTmpIU201dFk2YmJCcFVzX2h4cGFseDdWQTNOM2dzSTdxTDdpNVY0Q3FFbTlDR3NEaU5NbWdWVzJKVkFpV01Canc4M0lrVXZMbm5ZTWpZUHRMRlBlcGFlZkMzLTRYYkY1M3hmZ1Q0": "https://cnnespanol.cnn.com/2026/07/13/mundo/incendio-forestal-cerca-paris-agua-rio-sena-trax",
@@ -2335,6 +2785,7 @@
     "CBMirwFBVV95cUxQZ0Q5dmNLaG1XRjFyd1VhVzZvTDdZYWsyNUVDdUdKN3ZUMGpqeXJLT1Z5OV9LUVZUcHdaMmN6UzJfai1tOVdDbW9LaF9tdjBzLU0xQ1RXSVM3cXZwcTBxSHJtak4wVmhLN2lxdXExOVZoZ1Rkcm0ybFMxeUIyeHc2WjBuNTN2LVZLWlY1dXgyYnZlZzBvWllhUUtTZDlNTDBsMXRWQTJQN1IxX3p1aGs4": "http://www.eldivisadero.cl/_noticia/XII-Ruta-del-Huemul-Invernal-en-Cochrane-inicia-sus-inscripciones/ODM1MjU",
     "CBMisgFBVV95cUxQYUVPVF9GS1JfUWJGdDhuWjNvZEZqWGptV2E5Uk40Y3FZLWUyMWU3dWw3bHdNaFBNLXpLSnZ1VHVPV1d3OG1YVElkVmJ4b0c3Ulk1QWRJYjZfTTZYVUhaNl8xZWNFWjRaRzZxN0hoNnNqX1JqNkVWZllhSVhJdzg5eEpLZFZkZnJHNVIzMEhsZUJfdEVKREpxUEo1RWZud1hZdERVTUlWeDdPUmxaNHV6Z0dn0gG3AUFVX3lxTFAwaUFiczdEUkZqems3TE11Um9TWmJxYkdPSHI0dEk4aG1tY3JPeHpDTjU3RWtWTXZZSXI1ajRHUFFCUTZPSVUzVjNkby1oQ0YxX2NqRkw0YUR3NXM0Q2tkZ2h3Q243am1NMEQ5SFh3QWdoUE1FY2xuQ2x6Nmc4aV95SUh6aDNtaG1SbEpvV3Z6VGFuaTdiSUIwQWNTNlRxeVF5X1BOVVpqLVhqejZ1ZERYaWZXNUtVaw": "https://www.elcorreo.com/sociedad/gobierno-aragon-envia-esalert-ordenar-evacuacion-ores-20260715174152-ntrc.html",
     "CBMiswFBVV95cUxQSjZPc3pVSHRHcUlZRWxIekVHS0k1Rl95c284aGdUYkhYcDJpRm5ZekpEZHlYT2ZUTjZDQkFXWmVpUzQ4NDBBYWVTSjdoWkJtT01YMTZrSnRvdHpTcFIxd3d5ekJoSk1OOFkxaW84VkVHQ3h5RnVoNE1kYzNxQV9qOE9aZnRXUFU3bFdKRl9OYzVXeTBvQlNEWnk5dnZsSmdLTlVzX00zaWZXYllUUnIzdnVVRQ": "https://urgente.cl/noticia/cae-en-magallanes-el-ultimo-profugo-por-el-homicidio-de-brigadista-de-la-conaf-en-2020",
+    "CBMitgJBVV95cUxPWVdzeXZQNnQ5TVVUUkUzbFAtUG9ORnlnb21BcFNkajFJbTRkTThJbFZGQktTZElFVWcwNXJ4b2NQS1pwWi1mOFVSSmM2TWtLUEdXNGd2MkVtRFNDSGRvXy1DUWVBZ0FKTlVFd3hLQkM4VEZNSUc2dVYzZFJSVnZrRlZCS2FZOGM3U0pqZUw0M2lPdHhseV9ibmNOZlV5cTRYSkJKbWtpX0NkdnpadDQwMlYzSTZjR0JnWmNpMTdyNnpHVUhsVlNyX0VZNlVzNEc4Zlc4X0RKaXhtSXhURUwtN3pyd3NfRlZ3VE1fcGdwVG0zT2RwR25jd0dhZ1A4R1FoRUhhdkVvZHpYcWdCS2s2N3V1SFl4OWZPX1RNMDFRS1Jnc3I3QWlaRHRLYmtkQ2lXNHl3ck9B": "https://www.archdaily.com/es/897153/por-que-es-importante-el-parque-forestal-de-santiago-de-chile/5b3cb4edf197cc657a0000bd-por-que-es-importante-el-parque-forestal-de-santiago-de-chile-arboles-plantados-en-linea",
     "CBMitwFBVV95cUxNc3FlWldPYUJRSHE1TWlwQkRSaS03Nmt1QkxZdGxiVTRpYkF3YlNuaDVILURoaTF2Sk1PendmcnluWWNXVmRsNGhVV2JRV1VEUmFtdGlTRTNRdndyeUpjV05BbmRyUTduUF9BUlFSVE1UNmtqcEdSUHRyaW1VSm1NTUpTeldJZEVsVjQ5QnA4SFdBT01mUFk0MXh3QzNuNi14UkJUR0d2c2F1VnJBaFEzX09acmwzWm_SAbcBQVVfeXFMTXNxZVpXT2FCUUhxNU1pcEJEUmktNzZrdUJMWXRsYlU0aWJBd2JTbmg1SC1EaGkxdkpNT3p3ZnJ5blljV1ZkbDRoVVdiUVdVRFJhbXRpU0UzUXZ3cnlKY1dOQW5kclE3blBfQVJRUlRNVDZranBHUlB0cmltVUptTU1KU3pXSWRFbFY0OUJwOEhXQU9NZlBZNDF4d0MzbjYteFJCVEdHdnNhdVZyQWhRM19PWnJsM1pv": "https://www.cibercuba.com/noticias/2026-07-17-u1-e129488-s27061-nid335349-voraz-incendio-forestal-afecta-miles-acres",
     "CBMitwJBVV95cUxPcVpWYndQWnRjb0xKSUVIdDRpdzVQSzFxc0l4MTh2emhVSHFMclJtUFRCUEhsVndvZzdBX1FTVm5zR2t4Z2NNT1prYjRxd001aW5iYXo3MWhMbXdFY29tcDlfamVSTk54Y3BaQnBaT0pCRmI5Slc0RjRDM0NPM3BRY0xWUVFXcFIzaklCRlowLTJ4YXFmWng5ay13eEYwUXU3WmtjblZzeEZ6UVU1NWt2XzRjXzNzUUVhd1hzd1BMN3BGNDVxWVhjbElCT1RGb2JIcTFFVk1LZHhnQU5VUjhkUGdtZ3NCNDhLeUxvbUFFaEp3OF8tLWhId3hjNklmaURCVEhHRVR4OUxrTEVBaXNRMTVfSUlrRU5YLW4wNHVXYzV3Y0NDd2xrRW1GZTUwM2hrOFRudm1zQQ": "https://www.archdaily.com/es/897153/por-que-es-importante-el-parque-forestal-de-santiago-de-chile/5b3cb46df197ccb47d0000fc-por-que-es-importante-el-parque-forestal-de-santiago-de-chile-vista-aerea-parque-forestal",
     "CBMivgFBVV95cUxPUUstY0FnS2FaUzFyU29KYnZFZDRvSnlKUmtSaVUzMllxYzZYTEJjUkhRZ0RfdmEwcTlhclhmc1FMTXZ2Z0FCLWNBZWIySVlfMjlRNzJJTXhKUXM2X2ZaNlgzUE8wSUYyTk1EampFaVZwRFJhWXdEUkNsTENoTmVteGM5QWtJbEVfWmczN1REMlVLYnNzUlhjMzdyTzd5NkVqZFBqcXB6Z2VpWXVkcUNrb216WkhkYUZ3VlNEaVdB": "https://www.monumentos.gob.cl/noticias/aclaracion-sobre-proyectos-relacionados-con-la-fuente-alemana-y-el-parque-forestal",
