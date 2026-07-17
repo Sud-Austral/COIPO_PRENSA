@@ -61,42 +61,42 @@ export const MEDIOS = [
   {
     id: 'el-mostrador',
     nombre: 'El Mostrador',
-    tipo: 'digital',
+    tipo: 'otros',
     feedUrl: 'https://www.elmostrador.cl/feed/',
   },
 
   {
     id: 'el-dinamo',
     nombre: 'El Dínamo',
-    tipo: 'digital',
+    tipo: 'otros',
     feedUrl: 'https://www.eldinamo.cl/feed/',
   },
 
   {
     id: 'el-desconcierto',
     nombre: 'El Desconcierto',
-    tipo: 'digital',
+    tipo: 'otros',
     feedUrl: 'https://www.eldesconcierto.cl/feed/',
   },
 
   {
     id: 'the-clinic',
     nombre: 'The Clinic',
-    tipo: 'digital',
+    tipo: 'otros',
     feedUrl: 'https://www.theclinic.cl/feed/',
   },
 
   {
     id: 'cambio21',
     nombre: 'Cambio21',
-    tipo: 'digital',
+    tipo: 'otros',
     feedUrl: 'https://cambio21.cl/feed/',
   },
 
   {
     id: 'el-ciudadano',
     nombre: 'El Ciudadano',
-    tipo: 'digital',
+    tipo: 'otros',
     feedUrl: 'https://www.elciudadano.com/feed/',
   },
 
