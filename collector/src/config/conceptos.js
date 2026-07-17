@@ -4,4 +4,4 @@
 // "CONAF" matchea "Conaf" y "(CONAF)", pero NO "CONAFE".
 // Se busca en el titular y en el texto que entrega el feed de cada medio.
 
-export const CONCEPTOS = ['CONAF', 'Corporación Nacional Forestal']
+export const CONCEPTOS = ['CONAF', 'Corporación Nacional Forestal','CMPC','forestal','Parque Nacional', 'forestin','sernafor']
