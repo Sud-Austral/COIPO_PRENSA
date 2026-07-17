@@ -103,21 +103,21 @@ export const MEDIOS = [
   {
     id: 'ciper',
     nombre: 'CIPER Chile',
-    tipo: 'investigacion',
+    tipo: 'digital',
     feedUrl: 'https://www.ciperchile.cl/feed/',
   },
 
   {
     id: 'diario-financiero',
     nombre: 'Diario Financiero',
-    tipo: 'economia',
+    tipo: 'digital',
     feedUrl: 'https://www.df.cl/noticias/site/list/port/rss____1.xml',
   },
 
   {
     id: 'pulso',
     nombre: 'Pulso',
-    tipo: 'economia',
+    tipo: 'digital',
     feedUrl: 'https://www.latercera.com/arc/outboundfeeds/rss/?outputType=xml',
   },
 
