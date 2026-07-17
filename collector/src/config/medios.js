@@ -34,4 +34,158 @@ export const MEDIOS = [
     tipo: 'radio',
     feedUrl: 'https://www.biobiochile.cl/static/feed-rss',
   },
+  //Agregados
+
+    {
+      id: 'radio-talca',
+      nombre: 'Radio Talca',
+      tipo: 'radio',
+      feedUrl: 'https://diariotalca.cl/feed',
+    },
+    // Nacionales
+
+  {
+    id: 'cooperativa',
+    nombre: 'Cooperativa',
+    tipo: 'radio',
+    feedUrl: 'https://www.cooperativa.cl/noticias/stat/rss/rss.xml',
+  },
+
+  {
+    id: 'adn',
+    nombre: 'ADN Radio',
+    tipo: 'radio',
+    feedUrl: 'https://www.adnradio.cl/feed/',
+  },
+
+  {
+    id: 'el-mostrador',
+    nombre: 'El Mostrador',
+    tipo: 'digital',
+    feedUrl: 'https://www.elmostrador.cl/feed/',
+  },
+
+  {
+    id: 'el-dinamo',
+    nombre: 'El Dínamo',
+    tipo: 'digital',
+    feedUrl: 'https://www.eldinamo.cl/feed/',
+  },
+
+  {
+    id: 'el-desconcierto',
+    nombre: 'El Desconcierto',
+    tipo: 'digital',
+    feedUrl: 'https://www.eldesconcierto.cl/feed/',
+  },
+
+  {
+    id: 'the-clinic',
+    nombre: 'The Clinic',
+    tipo: 'digital',
+    feedUrl: 'https://www.theclinic.cl/feed/',
+  },
+
+  {
+    id: 'cambio21',
+    nombre: 'Cambio21',
+    tipo: 'digital',
+    feedUrl: 'https://cambio21.cl/feed/',
+  },
+
+  {
+    id: 'el-ciudadano',
+    nombre: 'El Ciudadano',
+    tipo: 'digital',
+    feedUrl: 'https://www.elciudadano.com/feed/',
+  },
+
+  {
+    id: 'ciper',
+    nombre: 'CIPER Chile',
+    tipo: 'investigacion',
+    feedUrl: 'https://www.ciperchile.cl/feed/',
+  },
+
+  {
+    id: 'diario-financiero',
+    nombre: 'Diario Financiero',
+    tipo: 'economia',
+    feedUrl: 'https://www.df.cl/noticias/site/list/port/rss____1.xml',
+  },
+
+  {
+    id: 'pulso',
+    nombre: 'Pulso',
+    tipo: 'economia',
+    feedUrl: 'https://www.latercera.com/arc/outboundfeeds/rss/?outputType=xml',
+  },
+
+  // Regionales
+
+  {
+    id: 'la-discusion',
+    nombre: 'La Discusión',
+    tipo: 'regional',
+    feedUrl: 'https://www.ladiscusion.cl/feed/',
+  },
+
+  {
+    id: 'el-rancaguino',
+    nombre: 'El Rancagüino',
+    tipo: 'regional',
+    feedUrl: 'https://www.elrancaguino.cl/feed/',
+  },
+
+  {
+    id: 'la-prensa-austral',
+    nombre: 'La Prensa Austral',
+    tipo: 'regional',
+    feedUrl: 'https://laprensaaustral.cl/feed/',
+  },
+
+  {
+    id: 'el-naveghable',
+    nombre: 'El Naveghable',
+    tipo: 'regional',
+    feedUrl: 'https://www.elnaveghable.cl/feed/',
+  },
+
+  {
+    id: 'diario-talca',
+    nombre: 'Diario Talca',
+    tipo: 'regional',
+    feedUrl: 'https://diariotalca.cl/feed/',
+  },
+
+  {
+    id: 'el-centro',
+    nombre: 'Diario El Centro',
+    tipo: 'regional',
+    feedUrl: 'https://www.diarioelcentro.cl/feed/',
+  },
+
+  {
+    id: 'el-tipografo',
+    nombre: 'El Tipógrafo',
+    tipo: 'regional',
+    feedUrl: 'https://eltipografo.cl/feed/',
+  },
+
+  {
+    id: 'diario-constitucion',
+    nombre: 'Diario Constitución',
+    tipo: 'regional',
+    feedUrl: 'https://www.diarioconstitucion.cl/feed/',
+  },
+
+  // Universitarios
+
+  {
+    id: 'uchile',
+    nombre: 'Radio Universidad de Chile',
+    tipo: 'radio',
+    feedUrl: 'https://radio.uchile.cl/feed/',
+  },
+
 ]
