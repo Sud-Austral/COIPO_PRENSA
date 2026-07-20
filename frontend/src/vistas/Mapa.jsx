@@ -25,10 +25,18 @@ const REGIONES_COORDS = {
   'magallanes': [-53.16, -70.92],
 }
 
+// Pin SVG propio (verde institucional): los íconos por defecto de Leaflet no
+// resuelven bajo bundlers, y un data URI evita cualquier petición externa.
+const SVG_PIN =
+  '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="36" viewBox="0 0 24 36">' +
+  '<path d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24C24 5.4 18.6 0 12 0z" fill="#05833f"/>' +
+  '<circle cx="12" cy="12" r="5" fill="#ffffff"/></svg>'
+
 const icono = L.icon({
-  iconUrl: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGE3LjcxIDcuNzEgMCAwIDAgLTcuNzEgNy43MUMzLjMgMTIuOSAxMiAyNSAxMiAyNXMxMC4wNi0xMS4yNiAxMS41Ny0xMi43MUMxOS43IDcuNyAxNi4xIDAgMTIgMHptMCAuODJhNi44OSA2LjkgMCAxIDEgMCAxMy43OCA2Ljg5IDYuOSAwIDAgMSAwIC0xMy43OHoiIGZpbGw9IiMwNTgzM2YiIi8+PC9zdmc+',
-  iconSize: [24, 24],
-  iconAnchor: [12, 24],
+  iconUrl: 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(SVG_PIN),
+  iconSize: [24, 36],
+  iconAnchor: [12, 36],
+  popupAnchor: [0, -30],
 })
 
 export default function Mapa() {

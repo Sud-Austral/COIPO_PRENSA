@@ -19,7 +19,12 @@
 // El adaptador debe lanzar (reject) ante fallas de la fuente; la orquestación
 // aísla el error para no botar la corrida completa.
 //
-// Adaptadores existentes: ../adaptadores/fuente-rss.js
+// Adaptadores existentes:
+//   ../adaptadores/fuente-rss.js          — medio con feedUrl (RSS/Atom)
+//   ../adaptadores/fuente-sitemap-news.js — medio con sitemapUrl (Google News
+//     sitemap); variación del contrato ya precedida por fuente-google-news:
+//     obtener(medio) devuelve { items, cache } porque mantiene una caché de URLs
+//     procesadas (persistida en el estado como `sitemapVisto`).
 // v2: un adaptador de base de datos u otra fuente implementa este mismo contrato.
 
 export {}

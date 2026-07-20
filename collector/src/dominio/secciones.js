@@ -6,6 +6,9 @@ export const SECCIONES = [
   { id: 'regional', nombre: 'Prensa Regional', orden: 2 },
   { id: 'radio', nombre: 'Radio', orden: 3 },
   { id: 'digital', nombre: 'Digital', orden: 4 },
+  // Canales de TV con sitio de noticias (Meganoticias vía sitemap; ver
+  // adaptadores/fuente-sitemap-news.js). El boletín antiguo separaba TV.
+  { id: 'tv', nombre: 'Televisión', orden: 5 },
   // Agregado por Google News: medios fuera de la lista curada o cuyo feed propio
   // ya rotó la noticia. Ver adaptadores/fuente-google-news.js.
   { id: 'otros', nombre: 'Otros medios', orden: 6 },

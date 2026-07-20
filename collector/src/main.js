@@ -9,11 +9,12 @@ import { parseArgs } from 'node:util'
 import { crearExtractorContenido } from './adaptadores/extractor-contenido.js'
 import { crearFuenteGoogleNews } from './adaptadores/fuente-google-news.js'
 import { crearFuenteRss } from './adaptadores/fuente-rss.js'
+import { crearFuenteSitemapNews } from './adaptadores/fuente-sitemap-news.js'
 import { crearRepositorioJson } from './adaptadores/repositorio-json.js'
 import { crearResolutorGoogleNews } from './adaptadores/resolver-google-news.js'
 import { mapaConLimite } from './adaptadores/util-concurrencia.js'
 import { CONCEPTOS } from './config/conceptos.js'
-import { MEDIOS } from './config/medios.js'
+import { MEDIOS, MEDIOS_SITEMAP } from './config/medios.js'
 import {
   DOMINIOS_EXCLUIDOS,
   ENRIQUECIMIENTO_ACTIVO,
@@ -22,7 +23,9 @@ import {
   HISTORICO_MAX_DIAS,
   LARGO_EXTRACTO,
   MAX_DESCARGAS_POR_CORRIDA,
+  MAX_DESCARGAS_SITEMAP_POR_CORRIDA,
   MAX_RESOLUCIONES_POR_CORRIDA,
+  SITEMAP_ACTIVO,
   TAMANO_VENTANA,
   TIMEOUT_FEED_MS,
   USER_AGENT,
@@ -56,6 +59,7 @@ async function main() {
   const rutaHistorico = values.historico ?? './datos/historico.json'
 
   for (const medio of MEDIOS) validarTipoDeMedio(medio.tipo)
+  for (const medio of MEDIOS_SITEMAP) validarTipoDeMedio(medio.tipo)
 
   const detector = construirDetector(CONCEPTOS)
   const fuenteRss = crearFuenteRss({ timeoutMs: TIMEOUT_FEED_MS, userAgent: USER_AGENT })
@@ -117,8 +121,12 @@ async function main() {
   // (mejor extracto y sección real) en la deduplicación.
   // Un medio de la lista curada que llegue por Google (porque su feed propio ya
   // rotó la noticia) se clasifica en SU sección real, no en "Otros medios".
+  // Incluye los medios sitemap: una nota de Meganoticias vía Google cae en 'tv'.
   const medioPorDominio = new Map(
-    MEDIOS.map((medio) => [dominioDe(medio.feedUrl), medio]).filter(([dom]) => dom),
+    [
+      ...MEDIOS.map((medio) => [dominioDe(medio.feedUrl), medio]),
+      ...MEDIOS_SITEMAP.map((medio) => [dominioDe(medio.sitemapUrl), medio]),
+    ].filter(([dom]) => dom),
   )
   const clasificar = (dom, fuente) => {
     const curado = medioPorDominio.get(dom)
@@ -157,6 +165,49 @@ async function main() {
       // Google falló: seguimos con lo curado y conservamos la caché previa.
       lineasResumen.push(`[FALLO] Google News: ${error.message}`)
     }
+  }
+
+  // --- Fuente 3: sitemaps de noticias (medios sin RSS) ---
+  // Se agrega DESPUÉS de Google: ante la misma URL, la deduplicación de fusionar
+  // conserva previas > RSS curado > Google > sitemap. La caché de URLs ya
+  // procesadas (sitemapVisto) se persiste en el estado, hermana de resolucionesGoogle.
+  const sitemapVistoPrevio = estadoPrevio?.sitemapVisto ?? {}
+  const sitemapVisto = {}
+  if (SITEMAP_ACTIVO) {
+    const extractorSitemap = crearExtractorContenido({ timeoutMs: 15000, userAgent: USER_AGENT })
+    for (const medio of MEDIOS_SITEMAP) {
+      try {
+        const fuenteSitemap = crearFuenteSitemapNews({
+          extractor: extractorSitemap,
+          cachePrevia: new Set(sitemapVistoPrevio[medio.id] ?? []),
+          maxDescargas: MAX_DESCARGAS_SITEMAP_POR_CORRIDA,
+          timeoutMs: TIMEOUT_FEED_MS,
+          userAgent: USER_AGENT,
+        })
+        const { items, cache } = await fuenteSitemap.obtener(medio)
+        sitemapVisto[medio.id] = [...cache].sort()
+        let conMencion = 0
+        for (const item of items) {
+          // Mismo filtro que la fuente curada: el sitemap trae de todo.
+          if (!detector.detecta(`${item.titular}\n${item.texto}`)) continue
+          const noticia = armarNoticia(item, medio)
+          if (noticia) {
+            nuevas.push(noticia)
+            conMencion += 1
+          }
+        }
+        lineasResumen.push(
+          `[OK] Sitemap ${medio.nombre}: ${items.length} nuevas procesadas, ${conMencion} con mención, ${cache.size} en caché`,
+        )
+      } catch (error) {
+        // No se vio el sitemap actual: conservar la caché previa SIN podar.
+        sitemapVisto[medio.id] = sitemapVistoPrevio[medio.id] ?? []
+        lineasResumen.push(`[FALLO] Sitemap ${medio.nombre}: ${error.message}`)
+      }
+    }
+  } else {
+    // Desactivado: conservar la caché tal cual para no re-procesar al reactivar.
+    Object.assign(sitemapVisto, sitemapVistoPrevio)
   }
 
   // --- Punto A: Enriquecimiento por noticia ---
@@ -243,6 +294,7 @@ async function main() {
     secciones: SECCIONES,
     noticias,
     resolucionesGoogle,
+    sitemapVisto,
   })
 
   console.log(lineasResumen.join('\n'))

@@ -179,6 +179,29 @@ export const MEDIOS = [
     feedUrl: 'https://www.diarioconstitucion.cl/feed/',
   },
 
+  // Del boletín ConectaMedia (verificados 20-07-2026, ver docs/MEDIOS.md)
+
+  {
+    id: 'el-pinguino',
+    nombre: 'El Pingüino',
+    tipo: 'regional',
+    feedUrl: 'https://www.elpinguino.com/feed/',
+  },
+
+  {
+    id: 'noticias-malleco',
+    nombre: 'Las Noticias de Malleco',
+    tipo: 'regional',
+    feedUrl: 'https://lasnoticiasdemalleco.cl/feed/',
+  },
+
+  {
+    id: 'el-observador',
+    nombre: 'El Observador',
+    tipo: 'regional',
+    feedUrl: 'https://www.observador.cl/feed/',
+  },
+
   // Universitarios
 
   {
@@ -188,4 +211,17 @@ export const MEDIOS = [
     feedUrl: 'https://radio.uchile.cl/feed/',
   },
 
+]
+
+// Medios sin RSS que publican sitemap de noticias (formato Google News sitemap).
+// Los recolecta adaptadores/fuente-sitemap-news.js (Fuente 3 en main.js): el
+// sitemap solo trae URL + titular + fecha, así que el cuerpo se descarga para
+// detectar la mención (con tope MAX_DESCARGAS_SITEMAP_POR_CORRIDA).
+export const MEDIOS_SITEMAP = [
+  {
+    id: 'meganoticias',
+    nombre: 'Meganoticias',
+    tipo: 'tv',
+    sitemapUrl: 'https://www.meganoticias.cl/sitemaps/sitemap-news.xml',
+  },
 ]

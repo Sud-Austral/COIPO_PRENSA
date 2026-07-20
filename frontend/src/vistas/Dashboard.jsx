@@ -5,6 +5,7 @@ import {
 } from 'recharts'
 import { useDatos } from '../contexto/ProveedorDatos.jsx'
 import Kpi from '../componentes/Kpi.jsx'
+import { etiquetaCategoria, etiquetaRegion } from '../utilidades/etiquetas.js'
 import {
   calcularKpis, agruparPorDia, agruparPorMedio, agruparPorCategoria,
   agruparPorSentimiento, topPalabras, topOrganizaciones, topPersonas,
@@ -16,24 +17,44 @@ const COLORES_SENTIMIENTO = {
 }
 
 export default function Dashboard() {
-  const { noticias, historico } = useDatos()
+  const { noticias, cargando, error } = useDatos()
 
-  const kpis = useMemo(() => calcularKpis(noticias, historico), [noticias, historico])
+  const kpis = useMemo(() => calcularKpis(noticias), [noticias])
   const porDia = useMemo(() => agruparPorDia(noticias || []), [noticias])
   const porMedio = useMemo(() => agruparPorMedio(noticias || []), [noticias])
-  const porCategoria = useMemo(() => agruparPorCategoria(noticias || []), [noticias])
-  const porSentimiento = useMemo(() => agruparPorSentimiento(noticias || []), [noticias])
+  const porCategoria = useMemo(
+    () => agruparPorCategoria(noticias || []).map((c) => ({ ...c, etiqueta: etiquetaCategoria(c.cat) })),
+    [noticias],
+  )
+  const porSentimiento = useMemo(() => agruparPorSentimiento(noticias || []).filter((s) => s.cantidad > 0), [noticias])
   const palabras = useMemo(() => topPalabras(noticias || []), [noticias])
   const orgs = useMemo(() => topOrganizaciones(noticias || []), [noticias])
   const personas = useMemo(() => topPersonas(noticias || []), [noticias])
   const regiones = useMemo(() => topRegiones(noticias || []), [noticias])
   const prom = useMemo(() => promedios(noticias || []), [noticias])
 
-  if (!noticias) return <div className="estado">Cargando…</div>
+  if (cargando) return <div className="estado">Cargando…</div>
+  if (error) return <div className="estado estado-error">No se pudieron cargar las noticias: {error}</div>
+  if (!noticias?.length) {
+    return (
+      <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
+        <h1>Dashboard</h1>
+        <p style={{ color: 'var(--gris-tenue)', marginTop: '1rem' }}>Aún no hay noticias para analizar.</p>
+      </div>
+    )
+  }
+
+  const conAnalisis = noticias.filter((n) => n.analisis).length
 
   return (
     <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
       <h1>Dashboard</h1>
+      {conAnalisis < noticias.length && (
+        <p style={{ color: 'var(--gris-tenue)', fontSize: '0.85rem', margin: '0.5rem 0 0' }}>
+          Análisis disponible en {conAnalisis} de {noticias.length} noticias; los indicadores
+          de sentimiento y categorías se calculan sobre ese subconjunto.
+        </p>
+      )}
 
       {/* KPIs */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', marginTop: '2rem', marginBottom: '2rem' }}>
@@ -44,7 +65,7 @@ export default function Dashboard() {
         <Kpi label="Negativas" valor={kpis.negativas} acento="#B3402A" />
         <Kpi label="Positivas" valor={kpis.positivas} acento="#1E7A4A" />
         <Kpi label="Medios únicos" valor={kpis.medios} />
-        <Kpi label="Tiempo promedio lectura" valor={`${prom.lectura} min`} />
+        <Kpi label="Tiempo promedio lectura" valor={Number.isFinite(prom.lectura) ? `${prom.lectura} min` : '—'} />
       </div>
 
       {/* Gráficos */}
@@ -96,7 +117,7 @@ export default function Dashboard() {
           <ResponsiveContainer width="100%" height={300}>
             <BarChart data={porCategoria}>
               <CartesianGrid strokeDasharray="3 3" stroke="var(--linea)" />
-              <XAxis dataKey="cat" stroke="var(--gris)" angle={-45} textAnchor="end" height={100} interval={0} fontSize={12} />
+              <XAxis dataKey="etiqueta" stroke="var(--gris)" angle={-45} textAnchor="end" height={100} interval={0} fontSize={12} />
               <YAxis stroke="var(--gris)" />
               <Tooltip />
               <Bar dataKey="cantidad" fill="var(--verde)" />
@@ -145,7 +166,7 @@ export default function Dashboard() {
           <ul style={{ listStyle: 'none', padding: 0 }}>
             {regiones.map(r => (
               <li key={r.region} style={{ padding: '0.5rem 0', borderBottom: '1px solid var(--linea)' }}>
-                <strong>{r.region}</strong> ({r.freq})
+                <strong>{etiquetaRegion(r.region)}</strong> ({r.freq})
               </li>
             ))}
           </ul>

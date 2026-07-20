@@ -40,22 +40,22 @@ export default function Portada() {
   const { noticias, secciones, generadoEn, cargando, error } = useDatos()
   const [periodo, setPeriodo] = useState('todas')
 
-  const conteos = useMemo(() => {
-    if (!noticias) return { todas: 0, hoy: 0, 'hoy-ayer': 0 }
-    return {
-      todas: noticias.length,
-      hoy: noticias.filter((n) => esHoy(n.fecha)).length,
-      'hoy-ayer': noticias.filter((n) => esHoyOAyer(n.fecha)).length,
-    }
-  }, [noticias])
+  const sinDuplicados = useMemo(
+    () => (noticias ? quitarTitularesDuplicados(noticias) : []),
+    [noticias],
+  )
+
+  const conteos = useMemo(() => ({
+    todas: sinDuplicados.length,
+    hoy: sinDuplicados.filter((n) => esHoy(n.fecha)).length,
+    'hoy-ayer': sinDuplicados.filter((n) => esHoyOAyer(n.fecha)).length,
+  }), [sinDuplicados])
 
   const noticiasFiltradas = useMemo(() => {
-    if (!noticias) return []
-    const sinDuplicados = quitarTitularesDuplicados(noticias)
     if (periodo === 'hoy') return sinDuplicados.filter((n) => esHoy(n.fecha))
     if (periodo === 'hoy-ayer') return sinDuplicados.filter((n) => esHoyOAyer(n.fecha))
     return sinDuplicados
-  }, [noticias, periodo])
+  }, [sinDuplicados, periodo])
 
   if (cargando) {
     return <p className="estado">Cargando noticias…</p>

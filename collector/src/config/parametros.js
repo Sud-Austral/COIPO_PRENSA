@@ -29,8 +29,29 @@ export const MAX_RESOLUCIONES_POR_CORRIDA = 900
 
 // Dominios que NO son prensa y deben excluirse de la red de Google News. El
 // propio sitio de CONAF domina la búsqueda con sus comunicados y no es
-// monitoreo de prensa. El admin puede sumar aquí otros (dominio sin "www.").
-export const DOMINIOS_EXCLUIDOS = ['conaf.cl']
+// monitoreo de prensa. Las redes sociales están fuera de alcance v1 (REQUISITOS).
+// El admin puede sumar aquí otros (dominio sin "www.").
+export const DOMINIOS_EXCLUIDOS = [
+  'conaf.cl',
+  'instagram.com',
+  'facebook.com',
+  'x.com',
+  'twitter.com',
+  'tiktok.com',
+  'youtube.com',
+]
+
+// --- Fuente 3: sitemaps de noticias ---
+
+// Activar la recolección vía sitemaps de noticias (config/medios.js: MEDIOS_SITEMAP).
+// Al desactivar se conserva la caché sitemapVisto tal cual (no se re-procesa al volver).
+export const SITEMAP_ACTIVO = true
+
+// Tope de descargas de página por corrida para detectar menciones en el cuerpo.
+// Meganoticias publica ~3 notas/hora; el arranque (~140 URLs del sitemap) drena en
+// ~4 corridas sin perder nada porque el sitemap retiene ~48 h y las URLs no
+// procesadas no se marcan como vistas.
+export const MAX_DESCARGAS_SITEMAP_POR_CORRIDA = 40
 
 // Imagen de portada (og:image) en cada tarjeta. Requiere una petición extra por
 // noticia nueva (se guarda la URL en la propia ventana, no la imagen). Es
