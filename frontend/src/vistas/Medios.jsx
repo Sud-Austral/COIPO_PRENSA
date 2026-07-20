@@ -1,9 +1,10 @@
 import { useMemo } from 'react'
 import { useDatos } from '../contexto/ProveedorDatos.jsx'
 import ChipSentimiento from '../componentes/ChipSentimiento.jsx'
+import { etiquetaCategoria } from '../utilidades/etiquetas.js'
 
 export default function Medios() {
-  const { noticias } = useDatos()
+  const { noticias, cargando, error } = useDatos()
 
   const medios = useMemo(() => {
     if (!noticias?.length) return []
@@ -16,7 +17,6 @@ export default function Medios() {
           noticias: [],
           sentimientos: {},
           categorias: {},
-          temas: {},
         }
       }
       grupos[n.medioId].noticias.push(n)
@@ -41,9 +41,16 @@ export default function Medios() {
     return 'neutra'
   }
 
+  if (cargando) return <div className="estado">Cargando…</div>
+  if (error) return <div className="estado estado-error">No se pudieron cargar las noticias: {error}</div>
+
   return (
     <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
       <h1>Medios monitoreados ({medios.length})</h1>
+
+      {medios.length === 0 && (
+        <p style={{ color: 'var(--gris-tenue)' }}>No hay medios con noticias en este momento.</p>
+      )}
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '1.5rem', marginTop: '2rem' }}>
         {medios.map(medio => {
@@ -61,7 +68,8 @@ export default function Medios() {
                 padding: '1.5rem',
               }}
             >
-              <h3 style={{ marginTop: 0, marginBottom: '1rem' }}>{medio.nombre}</h3>
+              <h3 style={{ marginTop: 0, marginBottom: '0.25rem' }}>{medio.nombre}</h3>
+              <div style={{ fontSize: '0.7rem', color: 'var(--gris-tenue)', marginBottom: '1rem' }}>{medio.medioId}</div>
 
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '1rem', fontSize: '0.875rem' }}>
                 <div>
@@ -89,7 +97,7 @@ export default function Medios() {
                           color: 'var(--gris)',
                         }}
                       >
-                        {cat.split('-').slice(0, 2).join(' ')}
+                        {etiquetaCategoria(cat)}
                       </span>
                     ))}
                   </div>

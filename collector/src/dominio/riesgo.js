@@ -49,7 +49,7 @@ export function calcularTipo(analisis, categorias, titular) {
     return 'emergencia'
   }
   if (
-    categorias.some((c) => ['institucional-vacerias', 'comunicado'].includes(c)) ||
+    categorias.some((c) => ['institucional-vocerias', 'comunicado'].includes(c)) ||
     titularLower.includes('comunicado') ||
     titularLower.includes('anunció')
   ) {

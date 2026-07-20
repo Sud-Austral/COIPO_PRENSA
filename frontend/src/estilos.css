@@ -13,6 +13,11 @@
   --fondo: #f5f7f6;
   --tarjeta: #ffffff;
   --resaltado: #ffe58a;
+  /* Paleta de sentimiento (filete lateral de las tarjetas) */
+  --sent-positiva: #1e7a4a;
+  --sent-neutra: #aab4ae;
+  --sent-negativa: #b3402a;
+  --sent-mixta: #c08a2d;
 }
 
 * {
@@ -137,6 +142,90 @@ body {
   padding: 8px 24px 32px;
 }
 
+/* Barra de filtros: control de período + leyenda de sentimiento */
+.barra-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 18px;
+  margin-top: 18px;
+}
+
+/* Control segmentado de período (Todas / Hoy / Hoy y ayer) */
+.filtro-periodo {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
+  background: var(--verde-muy-claro);
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+}
+
+/* Leyenda del filete lateral */
+.leyenda-sentimiento {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  font-size: 12px;
+  color: var(--gris-tenue);
+}
+
+.leyenda-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.leyenda-punto {
+  width: 4px;
+  height: 14px;
+  border-radius: 2px;
+}
+
+.leyenda-punto.positiva { background: var(--sent-positiva); }
+.leyenda-punto.neutra { background: var(--sent-neutra); }
+.leyenda-punto.negativa { background: var(--sent-negativa); }
+.leyenda-punto.mixta { background: var(--sent-mixta); }
+
+.filtro-periodo-boton {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: none;
+  background: transparent;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gris);
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.filtro-periodo-boton:hover {
+  color: var(--verde);
+}
+
+.filtro-periodo-boton.activo {
+  background: var(--verde);
+  color: #fff;
+}
+
+.filtro-periodo-conteo {
+  font-size: 11px;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+  padding: 1px 7px;
+}
+
+.filtro-periodo-boton.activo .filtro-periodo-conteo {
+  background: rgba(255, 255, 255, 0.22);
+}
+
 .seccion {
   margin-top: 28px;
 }
@@ -177,6 +266,8 @@ body {
   flex-direction: column;
   background: var(--tarjeta);
   border: 1px solid var(--linea);
+  /* Filete lateral: el borde izquierdo lleva el color del sentimiento. */
+  border-left: 4px solid var(--sent-neutra);
   border-radius: 10px;
   overflow: hidden;
   /* Sin esto, la pista de grilla no baja del min-content del contenido y una
@@ -187,9 +278,13 @@ body {
 
 .tarjeta:hover {
   box-shadow: 0 6px 18px rgba(5, 131, 63, 0.1);
-  border-color: #cfe4d8;
   transform: translateY(-2px);
 }
+
+.tarjeta.sentimiento-positiva { border-left-color: var(--sent-positiva); }
+.tarjeta.sentimiento-neutra { border-left-color: var(--sent-neutra); }
+.tarjeta.sentimiento-negativa { border-left-color: var(--sent-negativa); }
+.tarjeta.sentimiento-mixta { border-left-color: var(--sent-mixta); }
 
 .tarjeta-imagen {
   aspect-ratio: 16 / 9;
@@ -337,6 +432,11 @@ body {
   --fondo: #1a1f1c;
   --tarjeta: #232b27;
   --resaltado: #664d1a;
+  --verde-muy-claro: #1d3529;
+  --sent-positiva: #3fa874;
+  --sent-neutra: #3d4a43;
+  --sent-negativa: #d0654b;
+  --sent-mixta: #d9a84e;
 }
 
 [data-theme='oscuro'] body {
@@ -350,8 +450,8 @@ body {
   color: var(--tinta);
 }
 
-@media (prefers-color-scheme: oscuro) {
-  :root {
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='claro']) {
     --tinta: #e8eae6;
     --gris: #a9ada8;
     --gris-tenue: #757975;
@@ -359,5 +459,10 @@ body {
     --fondo: #1a1f1c;
     --tarjeta: #232b27;
     --resaltado: #664d1a;
+    --verde-muy-claro: #1d3529;
+    --sent-positiva: #3fa874;
+    --sent-neutra: #3d4a43;
+    --sent-negativa: #d0654b;
+    --sent-mixta: #d9a84e;
   }
 }

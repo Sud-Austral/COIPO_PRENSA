@@ -197,6 +197,21 @@ async function main() {
     lineasResumen.push(`[OK] Enriquecimiento: ${enriquecidas}/${ineditas.length} noticias nuevas analizadas`)
   }
 
+  // Re-enriquecimiento sin red: previas con análisis nulo o de versión anterior se
+  // recalculan con titular + extracto (determinista: una segunda corrida no cambia nada).
+  if (ENRIQUECIMIENTO_ACTIVO) {
+    let reanalizadas = 0
+    for (const noticia of previas) {
+      if (noticia.analisis && noticia.analisis.version >= VERSION_ANALISIS) continue
+      const texto = noticia.extracto?.map((s) => s.texto).join('') || noticia.titular
+      noticia.analisis = enriquecerNoticia(noticia, texto, { VERSION_ANALISIS })
+      if (noticia.analisis) reanalizadas += 1
+    }
+    if (reanalizadas > 0) {
+      lineasResumen.push(`[OK] Re-enriquecimiento: ${reanalizadas} noticias previas actualizadas a v${VERSION_ANALISIS}`)
+    }
+  }
+
   const noticias = fusionar(previas, nuevas, TAMANO_VENTANA)
 
   // --- Punto B: Histórico y eventos (Fase 2: clustering de eventos) ---

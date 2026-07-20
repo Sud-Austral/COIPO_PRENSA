@@ -4,18 +4,15 @@ export default function Configuracion() {
   const [tema, setTema] = useState('claro')
 
   useEffect(() => {
-    const temaGuardado = localStorage.getItem('tema') || 'claro'
-    setTema(temaGuardado)
+    // El atributo del <html> es la verdad (main.jsx ya resolvió localStorage + sistema)
+    setTema(document.documentElement.getAttribute('data-theme') || 'claro')
   }, [])
 
   const cambiarTema = (nuevoTema) => {
     setTema(nuevoTema)
     localStorage.setItem('tema', nuevoTema)
-    if (nuevoTema === 'oscuro') {
-      document.documentElement.setAttribute('data-theme', 'oscuro')
-    } else {
-      document.documentElement.removeAttribute('data-theme')
-    }
+    // 'claro' debe quedar explícito: es el opt-out de la media query oscura del sistema
+    document.documentElement.setAttribute('data-theme', nuevoTema)
   }
 
   return (
@@ -31,7 +28,7 @@ export default function Configuracion() {
               padding: '0.5rem 1rem',
               borderRadius: '0.5rem',
               border: tema === 'claro' ? '2px solid var(--verde)' : '1px solid var(--linea)',
-              background: tema === 'claro' ? 'var(--verde-muy-claro)' : 'white',
+              background: tema === 'claro' ? 'var(--verde-muy-claro)' : 'var(--tarjeta)',
               cursor: 'pointer',
             }}
           >
@@ -43,7 +40,7 @@ export default function Configuracion() {
               padding: '0.5rem 1rem',
               borderRadius: '0.5rem',
               border: tema === 'oscuro' ? '2px solid var(--verde)' : '1px solid var(--linea)',
-              background: tema === 'oscuro' ? 'var(--verde-muy-claro)' : 'white',
+              background: tema === 'oscuro' ? 'var(--verde-muy-claro)' : 'var(--tarjeta)',
               cursor: 'pointer',
             }}
           >

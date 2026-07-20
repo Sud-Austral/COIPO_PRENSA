@@ -1,7 +1,9 @@
 import { useMemo } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import L from 'leaflet'
+import 'leaflet/dist/leaflet.css'
 import { useDatos } from '../contexto/ProveedorDatos.jsx'
+import { etiquetaRegion } from '../utilidades/etiquetas.js'
 
 // Coordenadas aproximadas por región de Chile
 const REGIONES_COORDS = {
@@ -30,7 +32,7 @@ const icono = L.icon({
 })
 
 export default function Mapa() {
-  const { noticias } = useDatos()
+  const { noticias, cargando, error } = useDatos()
 
   const marcadores = useMemo(() => {
     if (!noticias?.length) return []
@@ -54,9 +56,19 @@ export default function Mapa() {
     }))
   }, [noticias])
 
+  if (cargando) return <div className="estado">Cargando…</div>
+  if (error) return <div className="estado estado-error">No se pudieron cargar las noticias: {error}</div>
+
   return (
     <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
       <h1>Mapa de noticias</h1>
+
+      {marcadores.length === 0 && (
+        <p style={{ color: 'var(--gris-tenue)', marginTop: '1rem' }}>
+          Aún no hay noticias con región detectada. El mapa se poblará a medida que el
+          análisis geográfico procese la ventana de noticias.
+        </p>
+      )}
 
       <div style={{ marginTop: '2rem', height: '500px', borderRadius: '0.5rem', overflow: 'hidden', border: '1px solid var(--linea)' }}>
         <MapContainer center={[-33.45, -70.67]} zoom={4} style={{ height: '100%', width: '100%' }}>
@@ -68,7 +80,7 @@ export default function Mapa() {
             <Marker key={m.region} position={m.coords} icon={icono}>
               <Popup>
                 <div style={{ minWidth: '200px' }}>
-                  <strong>{m.region}</strong>
+                  <strong>{etiquetaRegion(m.region)}</strong>
                   <p style={{ margin: '0.5rem 0', fontSize: '0.875rem' }}>
                     {m.noticias.length} noticia{m.noticias.length !== 1 ? 's' : ''}
                   </p>
@@ -95,7 +107,7 @@ export default function Mapa() {
                 }}
               >
                 <div style={{ fontWeight: '600', marginBottom: '0.5rem' }}>
-                  {m.region.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+                  {etiquetaRegion(m.region)}
                 </div>
                 <div style={{ fontSize: '0.875rem', color: 'var(--gris-tenue)' }}>
                   {m.noticias.length} noticia{m.noticias.length !== 1 ? 's' : ''}

@@ -12,7 +12,9 @@ const FORMATO_FECHA = new Intl.DateTimeFormat('es-CL', {
   hour12: false,
 })
 
-const COLUMNAS = ['Sección', 'Medio', 'Fecha', 'Titular', 'Extracto', 'URL']
+// Las 6 primeras columnas son las originales del boletín y no deben cambiar;
+// las de análisis van AL FINAL (vacías si la noticia no tiene análisis).
+const COLUMNAS = ['Sección', 'Medio', 'Fecha', 'Titular', 'Extracto', 'URL', 'Sentimiento', 'Categorías', 'Riesgo', 'Importancia']
 
 function formatearFecha(iso) {
   if (!iso) return ''
@@ -36,6 +38,10 @@ export function generarCsv(noticias, secciones) {
       noticia.titular,
       noticia.extracto.map((segmento) => segmento.texto).join(''),
       noticia.url,
+      noticia.analisis?.sentimiento ?? '',
+      noticia.analisis?.categorias?.join(', ') ?? '',
+      noticia.analisis?.riesgo ?? '',
+      noticia.analisis?.importancia ?? '',
     ]),
   ]
   const cuerpo = filas.map((fila) => fila.map(escaparCampo).join(';')).join('\r\n')

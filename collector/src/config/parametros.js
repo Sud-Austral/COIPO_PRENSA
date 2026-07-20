@@ -53,7 +53,8 @@ export const MAX_DESCARGAS_POR_CORRIDA = 1000
 
 // Versión del pipeline de análisis. Usado para re-enriquecer previas si la lógica cambia.
 // Las previas con version < VERSION_ANALISIS se re-enriquecen sin red (con titular+extracto).
-export const VERSION_ANALISIS = 1
+// v2: stopwords reescritas (la lista v1 dejaba pasar "que", "las", "los" como keywords).
+export const VERSION_ANALISIS = 2
 
 // --- Eventos (Fase 2) ---
 

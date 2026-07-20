@@ -92,25 +92,25 @@ export function esHoyOAyer(isoString) {
 }
 
 export function tiempoRelativo(isoString) {
+  const fecha = new Date(isoString)
+  if (!isoString || Number.isNaN(fecha.getTime())) return ''
+
+  const ahora = new Date()
+
   if (esHoy(isoString)) {
-    const fecha = new Date(isoString)
-    const ahora = new Date()
     const horas = Math.floor((ahora - fecha) / 3600000)
-    if (horas === 0) return 'hace menos de 1 h'
+    if (horas <= 0) return 'hace menos de 1 h'
     if (horas === 1) return 'hace 1 h'
     return `hace ${horas} h`
   }
 
-  const fecha = new Date(isoString)
-  const ahora = new Date()
   const días = Math.floor((ahora - fecha) / 86400000)
 
+  // Cruzó la medianoche pero lleva menos de 24 h: es "ayer", no una fecha.
+  if (días < 1) return 'ayer'
   if (días === 1) return 'hace 1 día'
-  if (días > 1 && días < 365) return `hace ${días} días`
-  if (días >= 365) {
-    const años = Math.floor(días / 365)
-    return `hace ${años} ${años === 1 ? 'año' : 'años'}`
-  }
+  if (días < 365) return `hace ${días} días`
 
-  return formatoFechaCorta(isoString)
+  const años = Math.floor(días / 365)
+  return `hace ${años} ${años === 1 ? 'año' : 'años'}`
 }

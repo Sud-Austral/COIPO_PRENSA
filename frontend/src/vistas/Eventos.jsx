@@ -1,10 +1,10 @@
 import { useMemo } from 'react'
-import { Link } from 'react-router-dom'
 import { useDatos } from '../contexto/ProveedorDatos.jsx'
 import ChipSentimiento from '../componentes/ChipSentimiento.jsx'
+import { formatoFechaCorta } from '../utilidades/fechas.js'
 
 export default function Eventos() {
-  const { noticias } = useDatos()
+  const { noticias, cargando, error } = useDatos()
 
   const eventos = useMemo(() => {
     if (!noticias?.length) return []
@@ -28,7 +28,12 @@ export default function Eventos() {
           grupos[n.eventId].sentimientos[n.analisis.sentimiento] = (grupos[n.eventId].sentimientos[n.analisis.sentimiento] || 0) + 1
         }
         grupos[n.eventId].importancia = Math.max(grupos[n.eventId].importancia, n.analisis?.importancia || 0)
-        if (n.fecha < grupos[n.eventId].fecha) grupos[n.eventId].fecha = n.fecha
+        // Conservar la fecha más reciente del grupo (última actividad) y el
+        // titular de esa noticia como título del evento.
+        if (new Date(n.fecha) > new Date(grupos[n.eventId].fecha)) {
+          grupos[n.eventId].fecha = n.fecha
+          grupos[n.eventId].titulo = n.titular
+        }
       }
     })
     return Object.values(grupos).sort((a, b) => new Date(b.fecha) - new Date(a.fecha))
@@ -40,6 +45,9 @@ export default function Eventos() {
     if (sentimientos.negativa && sentimientos.negativa / total > 0.5) return 'negativa'
     return 'neutra'
   }
+
+  if (cargando) return <div className="estado">Cargando…</div>
+  if (error) return <div className="estado estado-error">No se pudieron cargar las noticias: {error}</div>
 
   return (
     <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
@@ -75,24 +83,9 @@ export default function Eventos() {
                 <div><strong>{evento.medios.size}</strong> medios</div>
               </div>
 
-              <div style={{ fontSize: '0.75rem', color: 'var(--gris-tenue)', marginBottom: '1rem' }}>
-                {new Date(evento.fecha).toLocaleDateString('es-CL')}
+              <div style={{ fontSize: '0.75rem', color: 'var(--gris-tenue)' }}>
+                {formatoFechaCorta(evento.fecha)}
               </div>
-
-              <Link
-                to={`/evento/${evento.eventId}`}
-                style={{
-                  display: 'inline-block',
-                  padding: '0.5rem 1rem',
-                  background: 'var(--verde)',
-                  color: 'white',
-                  borderRadius: '0.5rem',
-                  textDecoration: 'none',
-                  fontSize: '0.875rem',
-                }}
-              >
-                Ver detalles →
-              </Link>
             </div>
           ))}
         </div>

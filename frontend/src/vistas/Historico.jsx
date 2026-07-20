@@ -1,12 +1,13 @@
 import { useMemo } from 'react'
 import { obtenerHistoricoLocal } from '../servicios/historico-local.js'
 import { formatoFechaCorta } from '../utilidades/fechas.js'
+import { etiquetaCategoria } from '../utilidades/etiquetas.js'
 
-const EMOJIS_SENTIMIENTO = {
-  positiva: '😊',
-  neutra: '😐',
-  negativa: '😞',
-  mixta: '🤔',
+const COLORES_SENTIMIENTO = {
+  positiva: 'var(--sent-positiva)',
+  neutra: 'var(--sent-neutra)',
+  negativa: 'var(--sent-negativa)',
+  mixta: 'var(--sent-mixta)',
 }
 
 const COLORES_IMPORTANCIA = {
@@ -42,8 +43,9 @@ export default function Historico() {
         gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
       }}>
         {noticias.map(noticia => (
-          <article key={noticia.id} style={{
+          <article key={noticia.id} title={noticia.sentimiento ? `Cobertura ${noticia.sentimiento}` : 'Sin análisis'} style={{
             border: '1px solid var(--linea)',
+            borderLeft: `4px solid ${COLORES_SENTIMIENTO[noticia.sentimiento] || COLORES_SENTIMIENTO.neutra}`,
             borderRadius: '0.5rem',
             padding: '1rem',
             background: 'var(--tarjeta)',
@@ -51,9 +53,6 @@ export default function Historico() {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', marginBottom: '0.5rem' }}>
               <span style={{ fontSize: '0.75rem', color: 'var(--gris)', textTransform: 'uppercase' }}>
                 {noticia.medioNombre}
-              </span>
-              <span style={{ fontSize: '1.2rem' }}>
-                {EMOJIS_SENTIMIENTO[noticia.sentimiento] || ''}
               </span>
             </div>
 
@@ -77,7 +76,7 @@ export default function Historico() {
 
             <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', marginBottom: '0.5rem', fontSize: '0.75rem', color: 'var(--gris-tenue)' }}>
               <span>{formatoFechaCorta(noticia.fecha)}</span>
-              {noticia.importancia !== null && (
+              {Number.isFinite(noticia.importancia) && (
                 <span style={{
                   background: COLORES_IMPORTANCIA[
                     noticia.importancia > 70 ? 'alto' : noticia.importancia > 40 ? 'medio' : 'bajo'
@@ -101,7 +100,7 @@ export default function Historico() {
                     padding: '0.2rem 0.4rem',
                     borderRadius: '0.2rem',
                   }}>
-                    {cat}
+                    {etiquetaCategoria(cat)}
                   </span>
                 ))}
               </div>

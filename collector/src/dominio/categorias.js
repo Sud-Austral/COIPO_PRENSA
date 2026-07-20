@@ -51,8 +51,8 @@ export const CATEGORIAS_TAXONOMIA = {
     color: '#7B3FB0',
     keywords: { sernafor: 2, transición: 1 },
   },
-  'institucional-vacerias': {
-    id: 'institucional-vacerias',
+  'institucional-vocerias': {
+    id: 'institucional-vocerias',
     nombre: 'Institucional / Vocerías',
     color: '#9227A8',
     keywords: { comunicado: 1, vocería: 2, director: 1, ministra: 1, autoridad: 1 },
