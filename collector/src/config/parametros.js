@@ -40,3 +40,34 @@ export const IMAGENES_ACTIVO = true
 // Tope de descargas de imagen por corrida. La ventana ya guarda las imágenes de
 // las noticias previas, así que en régimen se enriquecen pocas por corrida.
 export const MAX_IMAGENES_POR_CORRIDA = 1000
+
+// --- Enriquecimiento NLP (Fase 1) ---
+
+// Activar pipeline de enriquecimiento (análisis de sentimiento, categorías, entidades, etc.).
+export const ENRIQUECIMIENTO_ACTIVO = true
+
+// Tope de descargas de contenido (imagen + texto + autor + fecha) por corrida.
+// Integra lo que era MAX_IMAGENES_POR_CORRIDA. La ventana conserva el enriquecimiento
+// de previas; se enriquecen solo las nuevas. En régimen pocas por corrida.
+export const MAX_DESCARGAS_POR_CORRIDA = 1000
+
+// Versión del pipeline de análisis. Usado para re-enriquecer previas si la lógica cambia.
+// Las previas con version < VERSION_ANALISIS se re-enriquecen sin red (con titular+extracto).
+export const VERSION_ANALISIS = 1
+
+// --- Eventos (Fase 2) ---
+
+// Umbral de similitud para agrupar noticias en un evento (0..1).
+// 0.6*Jaccard(tokens) + 0.4*Jaccard(entidades).
+export const UMBRAL_EVENTO = 0.35
+
+// Ventana temporal de agrupación: noticias dentro de N días de la semilla se consideran.
+export const VENTANA_EVENTO_DIAS = 14
+
+// Umbral de similaridad para marcar como duplicado (misma historia en otro medio).
+export const UMBRAL_DUPLICADO = 0.85
+
+// --- Histórico ---
+
+// Máximo de días a retener en el histórico (rotación). Después se descartan registros.
+export const HISTORICO_MAX_DIAS = 400

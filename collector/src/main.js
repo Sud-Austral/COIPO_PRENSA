@@ -6,7 +6,7 @@
 // (por defecto lee y escribe ./datos/noticias.json)
 
 import { parseArgs } from 'node:util'
-import { crearEnriquecedorImagenes } from './adaptadores/enriquecedor-imagenes.js'
+import { crearExtractorContenido } from './adaptadores/extractor-contenido.js'
 import { crearFuenteGoogleNews } from './adaptadores/fuente-google-news.js'
 import { crearFuenteRss } from './adaptadores/fuente-rss.js'
 import { crearRepositorioJson } from './adaptadores/repositorio-json.js'
@@ -16,18 +16,22 @@ import { CONCEPTOS } from './config/conceptos.js'
 import { MEDIOS } from './config/medios.js'
 import {
   DOMINIOS_EXCLUIDOS,
+  ENRIQUECIMIENTO_ACTIVO,
   GOOGLE_NEWS_ACTIVO,
   GOOGLE_NEWS_PARAMS,
-  IMAGENES_ACTIVO,
+  HISTORICO_MAX_DIAS,
   LARGO_EXTRACTO,
-  MAX_IMAGENES_POR_CORRIDA,
+  MAX_DESCARGAS_POR_CORRIDA,
   MAX_RESOLUCIONES_POR_CORRIDA,
   TAMANO_VENTANA,
   TIMEOUT_FEED_MS,
   USER_AGENT,
+  VERSION_ANALISIS,
 } from './config/parametros.js'
+import { actualizarHistorico } from './dominio/historico.js'
 import { construirDetector, recortarTexto } from './dominio/menciones.js'
 import { crearNoticia } from './dominio/noticia.js'
+import { enriquecerNoticia } from './dominio/enriquecimiento.js'
 import { SECCIONES, validarTipoDeMedio } from './dominio/secciones.js'
 import { fusionar } from './dominio/ventana.js'
 
@@ -41,19 +45,26 @@ function dominioDe(url) {
 
 async function main() {
   const { values } = parseArgs({
-    options: { entrada: { type: 'string' }, salida: { type: 'string' } },
+    options: {
+      entrada: { type: 'string' },
+      salida: { type: 'string' },
+      historico: { type: 'string' },
+    },
   })
   const rutaEntrada = values.entrada ?? './datos/noticias.json'
   const rutaSalida = values.salida ?? rutaEntrada
+  const rutaHistorico = values.historico ?? './datos/historico.json'
 
   for (const medio of MEDIOS) validarTipoDeMedio(medio.tipo)
 
   const detector = construirDetector(CONCEPTOS)
   const fuenteRss = crearFuenteRss({ timeoutMs: TIMEOUT_FEED_MS, userAgent: USER_AGENT })
   const repositorio = crearRepositorioJson(rutaEntrada, rutaSalida)
+  const repositorioHistorico = crearRepositorioJson(rutaHistorico, rutaHistorico, { compacto: true })
 
   const estadoPrevio = await repositorio.cargar()
   const previas = estadoPrevio?.noticias ?? []
+  const historicoAnterior = await repositorioHistorico.cargar()
   const ahora = new Date().toISOString()
 
   // Extracto con la mención resaltada: se busca en el cuerpo; si la mención solo
@@ -148,24 +159,60 @@ async function main() {
     }
   }
 
-  // Imagen de portada: solo se enriquecen las noticias NUEVAS (las previas ya la
-  // traen de corridas anteriores). Fallos individuales dejan imagen = null.
-  if (IMAGENES_ACTIVO && nuevas.length > 0) {
-    const enriquecedor = crearEnriquecedorImagenes({ userAgent: USER_AGENT })
-    let presupuesto = MAX_IMAGENES_POR_CORRIDA
-    await mapaConLimite(nuevas, 6, async (noticia) => {
+  // --- Punto A: Enriquecimiento por noticia ---
+  // Descarga de contenido + análisis NLP: solo noticias nuevas (las previas conservan
+  // su enriquecimiento por incrementalidad de fusionar). Fallos → analisis: null (fail-open).
+  if (ENRIQUECIMIENTO_ACTIVO && nuevas.length > 0) {
+    const ineditas = nuevas.filter((n) => !previas.some((p) => p.id === n.id))
+    const extractor = crearExtractorContenido({ timeoutMs: 15000, userAgent: USER_AGENT })
+    let presupuesto = MAX_DESCARGAS_POR_CORRIDA
+    let enriquecidas = 0
+
+    await mapaConLimite(ineditas, 6, async (noticia) => {
       if (presupuesto <= 0) {
-        noticia.imagen = null
+        noticia.analisis = null
         return
       }
       presupuesto -= 1
-      noticia.imagen = await enriquecedor.obtenerImagen(noticia.url)
+
+      const contenido = await extractor.obtenerContenido(noticia.url)
+      if (!contenido) {
+        noticia.analisis = null
+        noticia.imagen = null
+        return
+      }
+
+      // Propagación de campos
+      noticia.imagen = contenido.imagen
+      noticia.autor = contenido.autor
+      noticia.fechaReal = contenido.fechaPublicacion
+
+      // Enriquecimiento: usar texto descargado, o RSS, o titular como fallback
+      const textoParaAnalisis = contenido.texto || noticia.extracto.map((s) => s.texto).join('') || noticia.titular
+      const config = { VERSION_ANALISIS }
+      noticia.analisis = enriquecerNoticia(noticia, textoParaAnalisis, config)
+      if (noticia.analisis) enriquecidas += 1
     })
-    const conImagen = nuevas.filter((n) => n.imagen).length
-    lineasResumen.push(`[OK] Imágenes: ${conImagen}/${nuevas.length} noticias nuevas con portada`)
+
+    lineasResumen.push(`[OK] Enriquecimiento: ${enriquecidas}/${ineditas.length} noticias nuevas analizadas`)
   }
 
   const noticias = fusionar(previas, nuevas, TAMANO_VENTANA)
+
+  // --- Punto B: Histórico y eventos (Fase 2: clustering de eventos) ---
+  // Por ahora (Fase 1): solo actualizar histórico. Fase 2: agregar clustering aquí.
+  const historico = actualizarHistorico(historicoAnterior, noticias, HISTORICO_MAX_DIAS)
+  const historicoIgual =
+    historicoAnterior != null &&
+    JSON.stringify(historicoAnterior.registros) === JSON.stringify(historico.registros)
+
+  if (!historicoIgual) {
+    historico.actualizadoEn = ahora
+    await repositorioHistorico.guardar(historico)
+  } else if (historicoAnterior) {
+    // Si el contenido no cambió, conservar el timestamp anterior
+    historico.actualizadoEn = historicoAnterior.actualizadoEn
+  }
 
   // Caché de resolución serializada de forma estable (ordenada) para que un mero
   // reordenamiento del feed de Google no genere un commit espurio.

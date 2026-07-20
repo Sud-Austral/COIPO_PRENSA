@@ -3,7 +3,8 @@
 import { mkdir, readFile, rename, writeFile } from 'node:fs/promises'
 import { dirname } from 'node:path'
 
-export function crearRepositorioJson(rutaEntrada, rutaSalida = rutaEntrada) {
+export function crearRepositorioJson(rutaEntrada, rutaSalida = rutaEntrada, opciones = {}) {
+  const compacto = opciones.compacto ?? false
   return {
     async cargar() {
       try {
@@ -17,8 +18,9 @@ export function crearRepositorioJson(rutaEntrada, rutaSalida = rutaEntrada) {
     async guardar(estado) {
       await mkdir(dirname(rutaSalida), { recursive: true })
       const rutaTemporal = `${rutaSalida}.tmp`
-      // Pretty-print: los diffs de la rama `data` quedan legibles corrida a corrida.
-      await writeFile(rutaTemporal, `${JSON.stringify(estado, null, 2)}\n`, 'utf8')
+      // Pretty-print (noticias.json legible en diffs) o compacto (historico.json ligerito)
+      const contenido = compacto ? JSON.stringify(estado) : `${JSON.stringify(estado, null, 2)}\n`
+      await writeFile(rutaTemporal, contenido, 'utf8')
       await rename(rutaTemporal, rutaSalida) // escritura atómica
     },
   }

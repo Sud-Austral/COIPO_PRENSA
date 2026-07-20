@@ -55,23 +55,42 @@ jobs:
           mkdir -p datos
           if git fetch origin data; then
             git show FETCH_HEAD:noticias.json > datos/noticias.json
+            git show FETCH_HEAD:historico.json > datos/historico.json 2>/dev/null || rm -f datos/historico.json
             echo "Estado previo recuperado ($(git rev-parse --short FETCH_HEAD))."
           else
             echo "La rama data aún no existe: primera corrida (bootstrap)."
           fi
 
       - name: Recolectar noticias
-        run: node collector/src/main.js --entrada datos/noticias.json --salida datos/noticias.json
+        run: node collector/src/main.js --entrada datos/noticias.json --salida datos/noticias.json --historico datos/historico.json
 
       - name: Guardar estado en la rama data (solo si cambió)
         run: |
           git fetch origin data && EXISTE=1 || EXISTE=0
-          if [ "$EXISTE" = "1" ] && git show FETCH_HEAD:noticias.json | cmp -s - datos/noticias.json; then
-            echo "Noticias sin cambios: no se crea commit."
+          CAMBIO_NOTICIAS=0
+          CAMBIO_HISTORICO=0
+
+          if [ "$EXISTE" = "1" ]; then
+            git show FETCH_HEAD:noticias.json | cmp -s - datos/noticias.json || CAMBIO_NOTICIAS=1
+            git show FETCH_HEAD:historico.json 2>/dev/null | cmp -s - datos/historico.json || CAMBIO_HISTORICO=1
+          else
+            CAMBIO_NOTICIAS=1
+            [ -f datos/historico.json ] && CAMBIO_HISTORICO=1
+          fi
+
+          if [ "$CAMBIO_NOTICIAS" = "0" ] && [ "$CAMBIO_HISTORICO" = "0" ]; then
+            echo "Noticias e histórico sin cambios: no se crea commit."
             exit 0
           fi
-          BLOB=$(git hash-object -w datos/noticias.json)
-          TREE=$(printf '100644 blob %s\tnoticias.json\n' "$BLOB" | git mktree)
+
+          BLOB_NOTICIAS=$(git hash-object -w datos/noticias.json)
+          TREE=$(printf '100644 blob %s\tnoticias.json\n' "$BLOB_NOTICIAS" | git mktree)
+
+          if [ -f datos/historico.json ]; then
+            BLOB_HISTORICO=$(git hash-object -w datos/historico.json)
+            TREE=$(printf '100644 blob %s\tnoticias.json\n100644 blob %s\thistorico.json\n' "$BLOB_NOTICIAS" "$BLOB_HISTORICO" | git mktree)
+          fi
+
           FECHA=$(date -u +'%Y-%m-%d %H:%M UTC')
           if [ "$EXISTE" = "1" ]; then
             COMMIT=$(git commit-tree "$TREE" -p FETCH_HEAD -m "Noticias al $FECHA")
@@ -89,6 +108,7 @@ jobs:
         run: |
           mkdir -p frontend/public/data
           cp datos/noticias.json frontend/public/data/noticias.json
+          [ -f datos/historico.json ] && cp datos/historico.json frontend/public/data/historico.json || true
 
       - name: Construir el sitio
         working-directory: frontend
@@ -97,6 +117,7 @@ jobs:
           BASE_PATH: /${{ github.event.repository.name }}/
         run: |
           npm ci
+          npm run lint
           npm run build
 
       - uses: actions/configure-pages@v5

@@ -326,3 +326,38 @@ body {
     justify-content: space-between;
   }
 }
+
+/* ---- Modo oscuro ---- */
+
+[data-theme='oscuro'] {
+  --tinta: #e8eae6;
+  --gris: #a9ada8;
+  --gris-tenue: #757975;
+  --linea: #2c3530;
+  --fondo: #1a1f1c;
+  --tarjeta: #232b27;
+  --resaltado: #664d1a;
+}
+
+[data-theme='oscuro'] body {
+  color: var(--tinta);
+  background: var(--fondo);
+}
+
+[data-theme='oscuro'] .estado,
+[data-theme='oscuro'] .estado-error {
+  background: var(--tarjeta);
+  color: var(--tinta);
+}
+
+@media (prefers-color-scheme: oscuro) {
+  :root {
+    --tinta: #e8eae6;
+    --gris: #a9ada8;
+    --gris-tenue: #757975;
+    --linea: #2c3530;
+    --fondo: #1a1f1c;
+    --tarjeta: #232b27;
+    --resaltado: #664d1a;
+  }
+}

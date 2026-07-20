@@ -1,64 +1,48 @@
-import { useEffect, useState } from 'react'
-import Cabecera from './componentes/Cabecera.jsx'
-import Seccion from './componentes/Seccion.jsx'
-import { cargarNoticias } from './datos.js'
+import { Suspense, lazy } from 'react'
+import { HashRouter, Routes, Route } from 'react-router-dom'
+import BarraNavegacion from './componentes/BarraNavegacion.jsx'
+import { ProveedorDatos } from './contexto/ProveedorDatos.jsx'
+import Portada from './vistas/Portada.jsx'
 
-export default function App() {
-  const [estado, setEstado] = useState({ fase: 'cargando' })
+// Fase 1
+const Dashboard = lazy(() => import('./vistas/Dashboard.jsx'))
+const Buscar = lazy(() => import('./vistas/Buscar.jsx'))
+const Configuracion = lazy(() => import('./vistas/Configuracion.jsx'))
 
-  useEffect(() => {
-    let activo = true
-    cargarNoticias()
-      .then((datos) => {
-        if (activo) setEstado({ fase: 'ok', datos })
-      })
-      .catch((error) => {
-        if (activo) setEstado({ fase: 'error', mensaje: error.message })
-      })
-    return () => {
-      activo = false
-    }
-  }, [])
+// Fase 2
+const Eventos = lazy(() => import('./vistas/Eventos.jsx'))
+const Estadisticas = lazy(() => import('./vistas/Estadisticas.jsx'))
+const Medios = lazy(() => import('./vistas/Medios.jsx'))
 
-  if (estado.fase === 'cargando') {
-    return <p className="estado">Cargando noticias…</p>
-  }
-  if (estado.fase === 'error') {
-    return (
-      <p className="estado estado-error">
-        No se pudieron cargar las noticias: {estado.mensaje}. Intente recargar la página.
-      </p>
-    )
-  }
+// Fase 3
+const Mapa = lazy(() => import('./vistas/Mapa.jsx'))
+const Regiones = lazy(() => import('./vistas/Regiones.jsx'))
 
-  const { datos } = estado
-  const seccionesOrdenadas = [...datos.secciones].sort((a, b) => a.orden - b.orden)
+function EstadoCarga() {
+  return <div className="estado">Cargando…</div>
+}
 
+function App() {
   return (
-    <div className="app">
-      <Cabecera
-        generadoEn={datos.generadoEn}
-        noticias={datos.noticias}
-        secciones={datos.secciones}
-      />
-      <main className="contenido">
-        {datos.noticias.length === 0 ? (
-          <p className="estado">Aún no hay noticias con menciones en la ventana actual.</p>
-        ) : (
-          seccionesOrdenadas.map((seccion) => (
-            <Seccion
-              key={seccion.id}
-              seccion={seccion}
-              noticias={datos.noticias.filter((noticia) => noticia.seccionId === seccion.id)}
-            />
-          ))
-        )}
-      </main>
-      <footer className="pie">
-        <span className="pie-marca">CONAF</span>
-        Monitor de prensa de la Corporación Nacional Forestal · Unidad de Información y
-        Análisis. Cada titular enlaza a la noticia original en el sitio del medio.
-      </footer>
-    </div>
+    <ProveedorDatos>
+      <HashRouter basename={import.meta.env.BASE_URL}>
+        <BarraNavegacion />
+        <Suspense fallback={<EstadoCarga />}>
+          <Routes>
+            <Route path="/" element={<Portada />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/buscar" element={<Buscar />} />
+            <Route path="/configuracion" element={<Configuracion />} />
+            <Route path="/eventos" element={<Eventos />} />
+            <Route path="/estadisticas" element={<Estadisticas />} />
+            <Route path="/medios" element={<Medios />} />
+            <Route path="/mapa" element={<Mapa />} />
+            <Route path="/regiones" element={<Regiones />} />
+          </Routes>
+        </Suspense>
+      </HashRouter>
+    </ProveedorDatos>
   )
 }
+
+export default App
