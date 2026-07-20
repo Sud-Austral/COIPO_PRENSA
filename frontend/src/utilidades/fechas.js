@@ -106,7 +106,11 @@ export function tiempoRelativo(isoString) {
   const días = Math.floor((ahora - fecha) / 86400000)
 
   if (días === 1) return 'hace 1 día'
-  if (días > 1 && días < 30) return `hace ${días} días`
+  if (días > 1 && días < 365) return `hace ${días} días`
+  if (días >= 365) {
+    const años = Math.floor(días / 365)
+    return `hace ${años} ${años === 1 ? 'año' : 'años'}`
+  }
 
   return formatoFechaCorta(isoString)
 }

@@ -4,7 +4,7 @@ import './BarraNavegacion.css'
 
 export default function BarraNavegacion() {
   const location = useLocation()
-  const ruta = location.hash.slice(1) || '/'
+  const ruta = location.pathname
 
   const enlaces = [
     { ruta: '/', etiqueta: 'Inicio', icono: Home },

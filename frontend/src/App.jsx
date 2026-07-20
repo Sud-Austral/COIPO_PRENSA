@@ -28,7 +28,9 @@ function EstadoCarga() {
 function App() {
   return (
     <ProveedorDatos>
-      <HashRouter basename={import.meta.env.BASE_URL}>
+      {/* HashRouter enruta con lo que va después del #, que no incluye el
+          subpath de Pages: NUNCA pasarle basename (deja la página en blanco). */}
+      <HashRouter>
         <BarraNavegacion />
         <Suspense fallback={<EstadoCarga />}>
           <Routes>
