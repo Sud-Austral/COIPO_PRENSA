@@ -247,6 +247,154 @@ export const MEDIOS = [
     feedUrl: 'https://www.observador.cl/feed/',
   },
 
+  // Regionales norte a sur (verificados 20-07-2026, ver docs/MEDIOS.md)
+
+  {
+    id: 'el-longino',
+    nombre: 'Diario El Longino',
+    tipo: 'regional',
+    feedUrl: 'https://www.diariolongino.cl/feed/',
+  },
+
+  {
+    id: 'diario-antofagasta',
+    nombre: 'El Diario de Antofagasta',
+    tipo: 'regional',
+    feedUrl: 'https://www.diarioantofagasta.cl/feed/',
+  },
+
+  {
+    id: 'chanarcillo',
+    nombre: 'Diario Chañarcillo',
+    tipo: 'regional',
+    feedUrl: 'https://www.chanarcillo.cl/feed/',
+  },
+
+  {
+    id: 'atacama-noticias',
+    nombre: 'Atacama Noticias',
+    tipo: 'regional',
+    feedUrl: 'https://www.atacamanoticias.cl/feed/',
+  },
+
+  {
+    id: 'el-trabajo',
+    nombre: 'Diario El Trabajo',
+    tipo: 'regional',
+    // Única variante viva: las rutas /feed y /rss responden 404.
+    feedUrl: 'https://www.eltrabajo.cl/?feed=rss2',
+  },
+
+  {
+    id: 'g5noticias',
+    nombre: 'G5noticias',
+    tipo: 'regional',
+    feedUrl: 'https://www.g5noticias.cl/feed/',
+  },
+
+  {
+    id: 'el-heraldo',
+    nombre: 'Diario El Heraldo',
+    tipo: 'regional',
+    // OJO: /feed/ CON barra final devuelve HTML; la ruta correcta es sin barra.
+    feedUrl: 'https://www.diarioelheraldo.cl/feed',
+  },
+
+  {
+    id: 'la-tribuna',
+    nombre: 'La Tribuna',
+    tipo: 'regional',
+    feedUrl: 'https://www.latribuna.cl/rss/global.xml',
+  },
+
+  {
+    id: 'diario-concepcion',
+    nombre: 'Diario Concepción',
+    tipo: 'regional',
+    feedUrl: 'https://www.diarioconcepcion.cl/rss.xml',
+  },
+
+  {
+    id: 'sabes',
+    nombre: 'Sabes.cl',
+    tipo: 'regional',
+    feedUrl: 'https://www.sabes.cl/feed/',
+  },
+
+  {
+    id: 'el-insular',
+    nombre: 'El Insular',
+    tipo: 'regional',
+    feedUrl: 'https://www.elinsular.cl/feed/',
+  },
+
+  // Nacionales y temáticos (verificados 20-07-2026)
+
+  {
+    id: 'el-siglo',
+    nombre: 'El Siglo',
+    tipo: 'otros',
+    feedUrl: 'https://www.elsiglo.cl/feed/',
+  },
+
+  {
+    id: 'cronica-digital',
+    nombre: 'Crónica Digital',
+    tipo: 'otros',
+    feedUrl: 'https://www.cronicadigital.cl/feed/',
+  },
+
+  {
+    id: 'la-voz-de-los-que-sobran',
+    nombre: 'La Voz de los que Sobran',
+    tipo: 'otros',
+    feedUrl: 'https://lavozdelosquesobran.cl/feed/',
+  },
+
+  {
+    id: 'pais-circular',
+    nombre: 'País Circular',
+    tipo: 'digital',
+    feedUrl: 'https://www.paiscircular.cl/feed/',
+  },
+
+  {
+    id: 'diario-sustentable',
+    nombre: 'Diario Sustentable',
+    tipo: 'digital',
+    feedUrl: 'https://www.diariosustentable.com/feed/',
+  },
+
+  // Radios (verificadas 20-07-2026)
+
+  {
+    id: 'radio-futuro',
+    nombre: 'Radio Futuro',
+    tipo: 'radio',
+    feedUrl: 'https://www.futuro.cl/feed/',
+  },
+
+  {
+    id: 'radio-concierto',
+    nombre: 'Radio Concierto',
+    tipo: 'radio',
+    feedUrl: 'https://www.concierto.cl/feed/',
+  },
+
+  {
+    id: 'radio-nuevo-mundo',
+    nombre: 'Radio Nuevo Mundo',
+    tipo: 'radio',
+    feedUrl: 'https://www.radionuevomundo.cl/feed/',
+  },
+
+  {
+    id: 'radio-santa-maria',
+    nombre: 'Radio Santa María',
+    tipo: 'radio',
+    feedUrl: 'https://radiosantamaria.cl/feed/',
+  },
+
   // Universitarios
 
   {
@@ -254,6 +402,20 @@ export const MEDIOS = [
     nombre: 'Radio Universidad de Chile',
     tipo: 'radio',
     feedUrl: 'https://radio.uchile.cl/feed/',
+  },
+
+  {
+    id: 'radio-udec',
+    nombre: 'Radio UdeC',
+    tipo: 'radio',
+    feedUrl: 'https://www.radioudec.cl/feed/',
+  },
+
+  {
+    id: 'radio-jgm',
+    nombre: 'Radio JGM',
+    tipo: 'radio',
+    feedUrl: 'https://radiojgm.uchile.cl/feed/',
   },
 
 ]
@@ -299,5 +461,24 @@ export const MEDIOS_SITEMAP = [
     nombre: 'Puranoticia',
     tipo: 'regional',
     sitemapUrl: 'https://puranoticia.pnt.cl/cms/site/sitemap_news.xml',
+  },
+  {
+    id: 'la-hora',
+    nombre: 'La Hora',
+    // Usa prefijo de namespace "n:" (el parser lo detecta solo).
+    tipo: 'digital',
+    sitemapUrl: 'https://lahora.cl/sitemap/news-sitemap.xml',
+  },
+  {
+    id: 'araucania-diario',
+    nombre: 'Araucanía Diario',
+    tipo: 'regional',
+    sitemapUrl: 'https://www.araucaniadiario.cl/news_sitemap.xml',
+  },
+  {
+    id: 'radio-polar',
+    nombre: 'Radio Polar',
+    tipo: 'radio',
+    sitemapUrl: 'https://www.radiopolar.com/sitemap/google-news/sitemap.xml',
   },
 ]

@@ -135,6 +135,26 @@ async function main() {
       : { medioId: dom, medioNombre: fuente, seccionId: 'otros' }
   }
 
+  // Reclasificación retroactiva: una previa que entró por Google a "Otros medios"
+  // cuando su medio aún no estaba curado adopta el medio y la sección reales al
+  // curarse (ej.: notas de CNN Chile atrapadas en "Otros" al crear la sección TV).
+  // Solo se tocan noticias en 'otros': tras la primera pasada queda idempotente.
+  let reclasificadas = 0
+  for (const noticia of previas) {
+    if (noticia.seccionId !== 'otros') continue
+    const curado = medioPorDominio.get(dominioDe(noticia.url))
+    if (!curado) continue
+    // Los medios curados con tipo 'otros' (El Mostrador, etc.) ya están bien.
+    if (noticia.medioId === curado.id && noticia.seccionId === curado.tipo) continue
+    noticia.medioId = curado.id
+    noticia.medioNombre = curado.nombre
+    noticia.seccionId = curado.tipo
+    reclasificadas += 1
+  }
+  if (reclasificadas > 0) {
+    lineasResumen.push(`[OK] Reclasificadas: ${reclasificadas} noticias de "Otros" a su sección real`)
+  }
+
   const cachePrevia = new Map(Object.entries(estadoPrevio?.resolucionesGoogle ?? {}))
   let cacheGoogle = cachePrevia
   if (GOOGLE_NEWS_ACTIVO) {

@@ -22,7 +22,32 @@ lista y el insumo para las preguntas abiertas 2, 8 y 12 del documento de requisi
 | Ex-Ante | Digital | `https://www.ex-ante.cl/feed/` | 2026-07-20 | RSS, 10 ítems. **Solo funciona con barra final**; `/feed` sin barra responde 403. |
 | El Periodista | Otros | `https://www.elperiodista.cl/feed/` | 2026-07-20 | RSS WordPress, 10 ítems. |
 | Radio Infinita | Radio | `https://www.infinita.cl/rss.xml` | 2026-07-20 | RSS, 10 ítems (corrige la ficha anterior: la ruta correcta es /rss.xml, no /feed/). |
+| Diario El Longino | Prensa Regional | `https://www.diariolongino.cl/feed/` | 2026-07-20 | RSS WordPress, 10 ítems (Iquique). |
+| El Diario de Antofagasta | Prensa Regional | `https://www.diarioantofagasta.cl/feed/` | 2026-07-20 | RSS WordPress, 10 ítems. |
+| Diario Chañarcillo | Prensa Regional | `https://www.chanarcillo.cl/feed/` | 2026-07-20 | RSS WordPress, 10 ítems (Copiapó). |
+| Atacama Noticias | Prensa Regional | `https://www.atacamanoticias.cl/feed/` | 2026-07-20 | RSS WordPress, 10 ítems. |
+| Diario El Trabajo | Prensa Regional | `https://www.eltrabajo.cl/?feed=rss2` | 2026-07-20 | Única variante viva (rutas /feed dan 404). San Felipe. |
+| G5noticias | Prensa Regional | `https://www.g5noticias.cl/feed/` | 2026-07-20 | RSS, 12 ítems (Valparaíso/Aconcagua). |
+| Diario El Heraldo | Prensa Regional | `https://www.diarioelheraldo.cl/feed` | 2026-07-20 | **Sin barra final** (con barra devuelve HTML). 60 ítems (Linares). |
+| La Tribuna | Prensa Regional | `https://www.latribuna.cl/rss/global.xml` | 2026-07-20 | RSS propio, 50 ítems (Los Ángeles). |
+| Diario Concepción | Prensa Regional | `https://www.diarioconcepcion.cl/rss.xml` | 2026-07-20 | RSS, 10 ítems. |
+| Sabes.cl | Prensa Regional | `https://www.sabes.cl/feed/` | 2026-07-20 | RSS, 20 ítems (Biobío). |
+| El Insular | Prensa Regional | `https://www.elinsular.cl/feed/` | 2026-07-20 | RSS, 4 ítems (Chiloé, baja frecuencia). |
+| El Siglo | Otros | `https://www.elsiglo.cl/feed/` | 2026-07-20 | RSS, 10 ítems. |
+| Crónica Digital | Otros | `https://www.cronicadigital.cl/feed/` | 2026-07-20 | RSS, 10 ítems. |
+| La Voz de los que Sobran | Otros | `https://lavozdelosquesobran.cl/feed/` | 2026-07-20 | RSS, 10 ítems. |
+| País Circular | Digital | `https://www.paiscircular.cl/feed/` | 2026-07-20 | RSS, 10 ítems. Medio ambiental, afín a la pauta CONAF. |
+| Diario Sustentable | Digital | `https://www.diariosustentable.com/feed/` | 2026-07-20 | RSS, 15 ítems. Medio ambiental. |
+| Radio Futuro | Radio | `https://www.futuro.cl/feed/` | 2026-07-20 | RSS, 10 ítems. |
+| Radio Concierto | Radio | `https://www.concierto.cl/feed/` | 2026-07-20 | RSS, 20 ítems. |
+| Radio Nuevo Mundo | Radio | `https://www.radionuevomundo.cl/feed/` | 2026-07-20 | RSS, 10 ítems. |
+| Radio Santa María | Radio | `https://radiosantamaria.cl/feed/` | 2026-07-20 | RSS, 10 ítems (Coyhaique). OJO: rsm.cl ya no es de la radio (hoy es una constructora). |
+| Radio UdeC | Radio | `https://www.radioudec.cl/feed/` | 2026-07-20 | RSS, 10 ítems (U. de Concepción). |
+| Radio JGM | Radio | `https://radiojgm.uchile.cl/feed/` | 2026-07-20 | RSS, 15 ítems (U. de Chile). |
 | Meganoticias | Televisión | sitemap: `https://www.meganoticias.cl/sitemaps/sitemap-news.xml` | 2026-07-20 | Piloto de la Fuente 3 (sitemap de noticias). ~140 URLs, retención ~48 h. |
+| La Hora | Digital | sitemap: `https://lahora.cl/sitemap/news-sitemap.xml` | 2026-07-20 | Google News sitemap con prefijo `n:`, 250 URLs (43 <48h). Grupo Copesa. |
+| Araucanía Diario | Prensa Regional | sitemap: `https://www.araucaniadiario.cl/news_sitemap.xml` | 2026-07-20 | Google News sitemap declarado en robots.txt, 12 URLs. |
+| Radio Polar | Radio | sitemap: `https://www.radiopolar.com/sitemap/google-news/sitemap.xml` | 2026-07-20 | Google News sitemap, 68 URLs (Punta Arenas). |
 | CNN Chile | Televisión | sitemap: `https://www.cnnchile.com/_files/sitemaps/sitemap_news.xml` | 2026-07-20 | Google News sitemap, 200 URLs, declarado en robots.txt. El RSS devuelve HTML. |
 | Radio Pauta | Radio | sitemap: `https://www.pauta.cl/sitemap_news.xml` | 2026-07-20 | Google News sitemap con prefijo de namespace `n:` (el parser lo detecta). 100 URLs. |
 | El Líbero | Digital | sitemap: `https://ellibero.cl/news-sitemap.xml` | 2026-07-20 | Google News sitemap, 27 URLs (incluye avisos legales; los filtra la detección de menciones). RSS con redirección rota. |
@@ -59,6 +84,14 @@ verificar una corrida.
 | El Magallanes | `elmagallanes.com`/`.cl` no resuelven; su contenido lo cubre La Prensa Austral (mismo grupo, ya activa). |
 | Las Últimas Noticias | ePaper sin artículos web indexables; robots sin sitemap. Fuera por el criterio "si es alcanzable, entra". |
 | La Crónica de Chillán | No probado aún; posible vía ladiscusion.cl (mismo grupo). |
+| Red "Edición Impresa Soy Chile" (estrellaarica.cl, mercurioantofagasta.cl, mercuriocalama.cl, diarioatacama.cl, cronicachillan.cl) | Los `?feed=rss2` responden XML pero con **pubDate = 01-01-1970** en todos los ítems y lastBuildDate de meses/años atrás: feeds de edición impresa abandonados, sin frescura verificable. Sub-sitemaps por diario responden 200 con cuerpo vacío. |
+| Red Mi Voz (elnortero.cl, elobservatodo.cl, elvacanudo.cl, elrepuertero.cl) | Misma plataforma catch-all: todo responde 200 con HTML de portada; sin feed ni sitemap declarado. |
+| El Martutino | Sin publicar desde marzo 2026 (lastmod del sitemap); feeds 404. |
+| Diario VI Región / La Prensa de Curicó / El Amaule | Feeds 404 y sitemaps inexistentes u obsoletos (2013-2015). |
+| Río en Línea | Feed vivo pero con **1 solo ítem** (mínimo 3); reevaluar más adelante. |
+| Diario de Valdivia | Catch-all; su sitemap WordPress es fresco pero sin bloques news (candidato si se relaja el criterio). |
+| Radio Sago | Timeout total en todas las conexiones (servidor caído o WAF). |
+| Ladera Sur | Feeds y news-sitemap responden 200 pero **vacíos** (0 ítems). Reevaluar. |
 
 ## Cómo verificar y agregar un medio
 
