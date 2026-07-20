@@ -1,5 +1,6 @@
 import { createContext, useState, useEffect, useCallback, useContext } from 'react'
 import { cargarNoticias } from '../servicios/datos.js'
+import { actualizarHistoricoLocal } from '../servicios/historico-local.js'
 
 export const ContextoDatos = createContext()
 
@@ -22,6 +23,8 @@ export function ProveedorDatos({ children }) {
           setSecciones(datos.secciones)
           setGeneradoEn(datos.generadoEn)
           setError(null)
+          // Guardar en histórico local para que no se pierdan
+          actualizarHistoricoLocal(datos.noticias)
         }
       } catch (err) {
         if (activo) {
@@ -34,9 +37,21 @@ export function ProveedorDatos({ children }) {
       }
     }
 
+    // Cargar al montar
     cargar()
+
+    // Recargar cuando la pestaña se enfoca
+    const manejarVisibility = () => {
+      if (document.visibilityState === 'visible') {
+        cargar()
+      }
+    }
+
+    document.addEventListener('visibilitychange', manejarVisibility)
+
     return () => {
       activo = false
+      document.removeEventListener('visibilitychange', manejarVisibility)
     }
   }, [])
 

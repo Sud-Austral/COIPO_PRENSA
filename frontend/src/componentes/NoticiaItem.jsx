@@ -1,6 +1,13 @@
 import { useState } from 'react'
 import { tiempoRelativo } from '../utilidades/fechas.js'
 
+const EMOJIS_SENTIMIENTO = {
+  positiva: '😊',
+  neutra: '😐',
+  negativa: '😞',
+  mixta: '🤔',
+}
+
 function truncarExtracto(extractoSegmentos, maxChars = 500) {
   if (!extractoSegmentos?.length) return []
 
@@ -104,7 +111,14 @@ export default function NoticiaItem({ noticia }) {
       <div className="tarjeta-cuerpo">
         <div className="tarjeta-meta">
           <span className="chip-medio">{noticia.medioNombre}</span>
-          <span className="tarjeta-fecha">{tiempoRelativo(noticia.fecha)}</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            {noticia.analisis?.sentimiento && (
+              <span title={noticia.analisis.sentimiento} style={{ fontSize: '1.2rem' }}>
+                {EMOJIS_SENTIMIENTO[noticia.analisis.sentimiento] || ''}
+              </span>
+            )}
+            <span className="tarjeta-fecha">{tiempoRelativo(noticia.fecha)}</span>
+          </div>
         </div>
         <a
           className="tarjeta-titular"

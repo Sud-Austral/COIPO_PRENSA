@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-import { Home, BarChart3, Search, Settings, Zap, TrendingUp, Building2, Map, MapPin } from 'lucide-react'
+import { Home, BarChart3, Search, Settings, Zap, TrendingUp, Building2, Map, MapPin, Clock } from 'lucide-react'
 import './BarraNavegacion.css'
 
 export default function BarraNavegacion() {
@@ -15,6 +15,7 @@ export default function BarraNavegacion() {
     { ruta: '/medios', etiqueta: 'Medios', icono: Building2 },
     { ruta: '/mapa', etiqueta: 'Mapa', icono: Map },
     { ruta: '/regiones', etiqueta: 'Regiones', icono: MapPin },
+    { ruta: '/historico', etiqueta: 'Histórico', icono: Clock },
     { ruta: '/configuracion', etiqueta: 'Configuración', icono: Settings },
   ]
 

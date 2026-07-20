@@ -5,7 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // GitHub Pages de proyecto sirve bajo /<nombre-del-repo>/. El workflow de
-  // despliegue exporta BASE_PATH con el nombre real del repo, así un fork de
-  // otra institución funciona sin editar código. En desarrollo, base es / (sirven en raíz).
-  base: process.env.BASE_PATH ?? (process.env.NODE_ENV === 'development' ? '/' : '/COIPO_PRENSA/'),
+  // despliegue exporta BASE_PATH, así un fork funciona sin editar código.
+  // En desarrollo: / (sirven en raíz). En producción: definido por workflow.
+  base: (() => {
+    if (process.env.BASE_PATH) return process.env.BASE_PATH
+    if (process.env.NODE_ENV === 'development') return '/'
+    return '/COIPO_PRENSA/'
+  })(),
 })

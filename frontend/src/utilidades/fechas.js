@@ -3,6 +3,21 @@
 const locale = 'es-CL'
 const zona = 'America/Santiago'
 
+function obtenerDiaEnZona(isoString) {
+  const fecha = new Date(isoString)
+  const formatter = new Intl.DateTimeFormat(locale, {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    timeZone: zona,
+  })
+  return formatter.format(fecha)
+}
+
+function obtenerAhoraEnZona() {
+  return obtenerDiaEnZona(new Date().toISOString())
+}
+
 export function formatoFechaLarga(isoString) {
   const fecha = new Date(isoString)
   return fecha.toLocaleDateString(locale, {
@@ -61,32 +76,37 @@ export function hace(isoString) {
 }
 
 export function esHoy(isoString) {
-  const fecha = new Date(isoString)
-  const ahora = new Date()
-  return fecha.toDateString() === ahora.toDateString()
+  return obtenerDiaEnZona(isoString) === obtenerAhoraEnZona()
 }
 
 export function esHoyOAyer(isoString) {
-  const fecha = new Date(isoString)
+  const diaNoticia = obtenerDiaEnZona(isoString)
   const ahora = new Date()
+  const ahoraDia = obtenerAhoraEnZona()
+
   const ayer = new Date(ahora)
   ayer.setDate(ayer.getDate() - 1)
-  const fechaStr = fecha.toDateString()
-  return fechaStr === ahora.toDateString() || fechaStr === ayer.toDateString()
+  const ayerDia = obtenerDiaEnZona(ayer.toISOString())
+
+  return diaNoticia === ahoraDia || diaNoticia === ayerDia
 }
 
 export function tiempoRelativo(isoString) {
-  const fecha = new Date(isoString)
-  const ahora = new Date()
-
   if (esHoy(isoString)) {
+    const fecha = new Date(isoString)
+    const ahora = new Date()
     const horas = Math.floor((ahora - fecha) / 3600000)
     if (horas === 0) return 'hace menos de 1 h'
+    if (horas === 1) return 'hace 1 h'
     return `hace ${horas} h`
   }
 
+  const fecha = new Date(isoString)
+  const ahora = new Date()
   const días = Math.floor((ahora - fecha) / 86400000)
+
   if (días === 1) return 'hace 1 día'
-  if (días < 30) return `hace ${días} días`
+  if (días > 1 && días < 30) return `hace ${días} días`
+
   return formatoFechaCorta(isoString)
 }

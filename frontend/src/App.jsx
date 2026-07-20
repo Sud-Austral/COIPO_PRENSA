@@ -18,6 +18,9 @@ const Medios = lazy(() => import('./vistas/Medios.jsx'))
 const Mapa = lazy(() => import('./vistas/Mapa.jsx'))
 const Regiones = lazy(() => import('./vistas/Regiones.jsx'))
 
+// Extra
+const Historico = lazy(() => import('./vistas/Historico.jsx'))
+
 function EstadoCarga() {
   return <div className="estado">Cargando…</div>
 }
@@ -38,6 +41,7 @@ function App() {
             <Route path="/medios" element={<Medios />} />
             <Route path="/mapa" element={<Mapa />} />
             <Route path="/regiones" element={<Regiones />} />
+            <Route path="/historico" element={<Historico />} />
           </Routes>
         </Suspense>
       </HashRouter>
