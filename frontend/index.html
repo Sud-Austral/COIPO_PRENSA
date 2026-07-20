@@ -9,6 +9,13 @@
       content="Monitor de prensa de CONAF: últimas noticias de medios chilenos que mencionan a la Corporación Nacional Forestal."
     />
     <title>Monitor de Prensa CONAF</title>
+    <script>
+      // Si accedemos a /COIPO_PRENSA/ sin hash, redirigir a /#/
+      // Esto resuelve el problema de HashRouter que espera un hash presente
+      if (!window.location.hash && window.location.pathname.endsWith('/')) {
+        window.location.hash = '/'
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
