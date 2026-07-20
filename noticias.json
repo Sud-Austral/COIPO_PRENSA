@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-07-20T11:15:37.439Z",
+  "generadoEn": "2026-07-20T12:09:55.934Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -53,6 +53,76 @@
         }
       ],
       "imagen": "https://estaticos-cdn.prensaiberica.es/clip/74f6c3de-eb9b-4b04-b889-8019cf17e3fc_16-9-discover-aspect-ratio_default_0_x609y270.jpg"
+    },
+    {
+      "id": "https://www.europapress.es/murcia/noticia-nivel-riesgo-incendio-forestal-lunes-extremo-altiplano-20260720093152.html",
+      "url": "https://www.europapress.es/murcia/noticia-nivel-riesgo-incendio-forestal-lunes-extremo-altiplano-20260720093152.html",
+      "medioId": "europapress.es",
+      "medioNombre": "Europa Press",
+      "seccionId": "otros",
+      "titular": "El nivel de riesgo de incendio forestal este lunes es extremo en el Altiplano",
+      "fecha": "2026-07-20T07:31:52.000Z",
+      "fechaDeteccion": "2026-07-20T12:09:55.934Z",
+      "extracto": [
+        {
+          "texto": "El nivel de riesgo de incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " este lunes es extremo en el Altiplano",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20260720093152_1200.jpg",
+      "autor": null,
+      "fechaReal": "2026-07-20T07:31:52.000Z",
+      "analisis": {
+        "version": 1,
+        "sentimiento": "negativa",
+        "polaridad": -0.53,
+        "score": -19,
+        "keywords": [
+          "murcia",
+          "incendio",
+          "forestal",
+          "europa",
+          "espana",
+          "por",
+          "riesgo",
+          "lunes",
+          "press",
+          "madrid"
+        ],
+        "categorias": [
+          "incendios-forestales"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "AI",
+          "DE",
+          "EUROPA",
+          "IA",
+          "MURCIA",
+          "REGI",
+          "agencia",
+          "roja"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "cantidadPalabras": 572,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 3
+      }
     },
     {
       "id": "https://portalcomunicacion.uah.es/diario-digital/actualidad/La-Universidad-de-Alcala-muestra-su-solidaridad-con-los-afectados-por-el-incendio-forestal-en-Guadalajara",
@@ -5435,7 +5505,6 @@
     }
   ],
   "resolucionesGoogle": {
-    "CBMi-AFBVV95cUxPcC1hR2lZS3kySk1hN0d4UWZDWkNCekdRV2UtYktvb3RmaEZCWU9SY0VhRkNZcW1LX1ZyTjRzYkt6WTdYNmVCWXYxY1RrS1RRN3FiUWZKQjZwZUl1LW51MVdWU2xjLXNXZXlwTDdLME1DOFpHWXRlcldNUkVCRFhUZXZJbUNMVXNNTkFKX0lWcmpOQWUxN1dOUUh0bVJveE01dGN3WlJFS25BWUpuZmdfcGxPZ0tyR1dEV3lvc21uLUxvbWlzVFptbnRjR3padWR2d2p1N3ZtalExemVHcExoY1ppblBRaE9sZEEtU2JhNVJLRG03VGtfMQ": "https://portalcomunicacion.uah.es/diario-digital/actualidad/La-Universidad-de-Alcala-muestra-su-solidaridad-con-los-afectados-por-el-incendio-forestal-en-Guadalajara",
     "CBMi-wFBVV95cUxOMVN2NFpxS2tUa0lINU5TX3B4bWdFZ0tISnFRMmVJT29rUEF0TEs1ekttN1RrYmUwVFZEaWwwQWdBUWlFR2I4NGhxX2hKdlcxcVFzU19hMHctd0pnQ2RqUjRUT1V3bHpEV3Brczg2NG5nekpRWDhkS3d3b3NIV2VNOEt3eldBT1Q4bkVQalZRWDFRejR3RG50V0VYeEZlbFRIQldUc3VyNmFlaVZUTFRiLWhzMC1rTGl4cE9rajh0S0NTSU9VSFZWNE1wUVFUa2M0NmlGR3pwa002MHA1RjFoM09iNDRyQzVwcV9rZEQyR213TEFOZlBqT0tmcw": "https://www.biobiochile.cl/noticias/nacional/region-del-bio-bio/2026/07/15/sistema-frontal-provoca-cierre-preventivo-de-parques-de-conaf-en-la-region-del-bio-bio.shtml",
     "CBMi0AFBVV95cUxPWEhqZmFMX19pSm8zOGxtMTA0dktESEpLWV9sOC1fRk03dlJXT3U2a3U2REpSOWh2N0RBUXZuWEJiZzJZcG4zbDRnM0RKOVVXNWptM2EzdUZ6TkY5ZEhJVFFjREo2SGZuRU0xckt3eEVmNVBxYW9DVUd4WmNnSzZMbHNORm1Rbi1xc3F6NDFaMFc5ek1NN1dlUzVrMVVsR25zNzZiQ0tWU3BoOEk2RmdQdWVlVkZYd04xanRUOV91dXFsNWRXYWFCVlB3cDdFRmpF": "https://www.todomountainbike.net/general/que-hacer-si-te-encuentras-incendio-forestal-decisiones-que-marcan-diferencia-primeros-minutos",
     "CBMi0gFBVV95cUxNdnBld3ZtYnlFVmhvRjZXclpuWUt1ekZsNmZfakVTQVN4T0FRWVBGdWctUVRfVEpObHA5bmRIVE5lb2ZkcHpfU2ZEb0JubTI5QmpIaW1XbDVWczdZZUtucUk3SG13TEVLV1RNbHE5aU85WUJNRmd5TVlKalRKOVpYSVdval9lQkhYczlMOVBIZW9vNDRWT2QxNE9PZHlBOTctNEhxbV8yd0ZhQ3c0NVkwRnh2WGNwcmJOaFcwcFVQeEgyc2NDaVpuRk9yYW5LelpJanc": "https://mma.gob.cl/seremi-del-medio-ambiente-y-conaf-generan-instancia-tecnica-para-avanzar-en-la-descontaminacion-atmosferica-en-nuble/",
@@ -5474,8 +5543,6 @@
     "CBMinAFBVV95cUxNWUpwRW1GREFoNXI1S25XaURtQ3J1NlpONnBDbW5BTFZoVC11TUpHZzY3Um9MR3hBbm85VUxFamZ5c19pVTNmSWs3Sk9YSTRNeG96c3BlbWxwQ2pQYkFYMHJzTDhURWV2QW1NNWJrY0czSkprSjdMRHpwTXRyUThJWW10NzF4ay1WTC11OXRCOTdNcENQcHdSZ0Z0N3I": "https://artes.uchile.cl/agenda/241934/exposicion-obras-extraordinarias-en-el-mac-parque-forestal",
     "CBMinwFBVV95cUxOdkpGbjQ2OW0xYkl1bnZNT3RFQTNULVpXQmZ4c0VxWFIxS1ZISmJNSm1Fblc1ZVd0QkNTU2h3QUhOWTZyVm1ydkFYcllQV1YzM2pfU2ZESW1sazNFVkJNdkdTcWhmbnA1LUlCZVVwNE0tMHpwdk9USDRwY2I1cGNyMEV2ZVVFYTdBS2swYmk2Y3ZIcll1aVp2azBybGI2N2fSAaQBQVVfeXFMTnYxdUlyNEItWkc4VG9hOHpnZXNkcnFFcmxRNVR1c2hWcnVCeU02aWZJM3gzLUU0Y0VaUkxNRHplS2NtN1hsWHBvRm5ZcXJUYVdaY3R3ODZsMll0aUlrdzFydFJnajUtM0FPak8yRkotX1ZvX2RaNFhoOUF1b3pWaWQzR3lzWWZUaXh0enRSemN6NWhZdkdxb0FoSzlDeDhCa2EzVVg": "https://www.diariodeibiza.es/ibiza/2026/07/20/gen-advierte-tormenta-perfecta-riesgo-132622534.html",
     "CBMinwFBVV95cUxPZ2g4YXFUQk43LURab3NXMWVfT09ISjBLQ2RROE9MUExXRTgzREM3Tk5qVFJ2NDFZV21HYnJUOTRHZHdYQS1ZQ19wTDBNTnhOUHFFb05XLUtubGkwQVdpeFpoUUdYNFpCVElMVWlaMGFuZ2pvdm9BZ1RYYk5sX01CQ0h1ZkhPTE9YRDhoOHpEY0dHMzNiam9ZNVpLSDBlNG8": "https://www.t13.cl/noticia/nacional/detienen-profugo-por-homicidio-brigadista-conaf-2020-17-7-2026",
-    "CBMinwFBVV95cUxPaElEV01vbHN3d2RuWVFCLUJzM3ZTUU11ZGtOa2gyTG5aQnpNLTVxclpyQmxSRWE4SmRKdlBtTzlvLXRjQndXOFhtenFIck1Kc1Y1QUJtTXdmQjV5QlgzOG1pcEpoSWlYanV6NVN4eGw0d2MxQkFGTXp5YnBSTDFkSUp4cFQ0cVNNanhzaTFIMGZYUFRhZDh2QUNVVktXWUk": "https://uchile.cl/agenda/241956/exhibicion-tierras-raras-quadra-minerale-en-el-mac-parque-forestal",
-    "CBMioAFBVV95cUxQUXVCQlhqVmx2dXJYa0JJbFJUejNUR2RxOXdJZ0hDaHVXLXF1cnlpT3NKX3VkN0lZeU00UlRrOGs2dENRRWFlSTVrQWx3MXp6dFNoNTdJeThOZlF1RzVuemM4T0M0cUlsM2NUN2tTVmJoUURaVXEzVWZBRnhjSjVyYWVKT2xBSTN6YWF0Skl2aXdjZDh0Rl9tYkN0MlZvQWRo": "https://www.univision.com/noticias/incendio-forestal-arrasa-con-100-casas-en-noruega-video-vertical",
     "CBMiowFBVV95cUxQVl9BZElTTEZLWFk3VVE2VnE5c0swVXllUmtvelRIUHg1QlhzRHAxdDE1Z0M3ZEszWXJLbzl1NE5LV0dmV0RfRVgyN0t4NktQOGNhRVhUQ1lZRWJxX21VY3pSdmpqU1ZJM0QxRGZOZkJNUUxiUWFHNm96YWN3RmwzbXp5dDVDUkd2RHk1cGZvTDRzUy1ONFRud0pHUnF4QWtuQ1Zz": "https://www.df.cl/senal-df/el-deal/el-repunte-de-la-celulosa-mejoran-las-expectativas-para-el-segundo",
     "CBMipwFBVV95cUxQSEpXTWtPS3diUVp6NnZpVVE2WmRHZWppOHZyRFI4MGx0cjBPQjVVZGVnOGQwZGdZdlNScXRMLUtJQXNram1pZUNVa3ZfMnVDVFpfRmt4UnVDYWk3UDhOcFNERG5xV3J1cTZINFYtaWN3ckYwRmw3MWhYS2ZmeHBFcVEzVGpoalhYaTRNUkhhbnpqbEVpeXliMDVFUExBNkdYOC1yOG4zUQ": "https://artes.uchile.cl/agenda/241956/exhibicion-tierras-raras-quadra-minerale-en-el-mac-parque-forestal",
     "CBMiqgFBVV95cUxNRXd6N2hqWTRIZ2VTZ09qTVFMWHdoZC1oS3gxRVdUTTVVbjJLQ3dqTEszN3loMmYtZ2JjS2p4UTBlTWMwS3poOExDSW5IUmVZMHljNHhCbmQtMTdsTjdZaFRTWEtWTW05eFRrU1p6Mjl3WXptb3VzSkI5V0R0eUFwTFVXdURmS3ZxaGxrdUxXOWp6a3NoRmdzTGhwbjdJcUpzUE43enhOQ0VLQdIBsgFBVV95cUxOSDBmbzZBZmgyRlRqNnBYOGpOcjRyNTZEaG81U05oc0pTLTV5T0NhU0dockNTRDlQTU85eklJNVpRSnhpcERXdzdrQjl4TUU2bnFDelkxSTZpaWxXd3VKUkFCN3R0dE9aZGNybExLbV94dUtyOThFYmtQcFZpcGFKbmRuZWRJQW1qRk9tUFoyMUVwVkdEWm9iYUtKSFAtYk4zYVZPdHVJVVJyQ1hWTlJVamd3": "https://www.diarioconcepcion.cl/economia/2026/07/14/sector-forestal-inversion-empleo-seguridad-biobio.html",
@@ -5485,6 +5552,7 @@
     "CBMirgFBVV95cUxOakh5VUFEeC1nWGcwdVN3ZDNUa01FUk81ZGRDOTdSaVl4TU9vMWdaZWVOaFlycGZCZzlUcUI2Y1pDVVZyMjNWNmRtOUlkQUxkc1MxR1pFQ0xkTVBwRkU0V2plTkF6QmtkNlZtdWFnUFllOFNWQUNEY1ZkV01KT2RIWjlzNEZXdUFUUHVmeU1hZld1elloRU5rSGFsUTFsaDRsMFdKYmp3bzB0dVV5UVE": "https://www.cnnchile.com/pais/conaf-anuncia-cierre-de-parques-por-sistema-frontal-revisa-el-listado-completo/",
     "CBMirgFBVV95cUxPSVlMdnBxTVB4YmtJejVGX096NHZtUWlhUDRtSldwUzBtbzB6Z1pyaXM5dUJVU0dUM1J1U01KZjlDLUZDT1JrWFloVGJtTF9kMk5IQlVEbVBmOEJkQm5fdFUwRFFrWUhXQ25qQTMteVVScHF3R2JfTGtySl9XeUl5VTZsMHgyMzVrUkZtY0Z4by01TEhUbXBjNmZSejNVSEV1eFlxT3BPeUhwZkJTT3c": "https://uchile.cl/noticias/242349/mac-parque-forestal-inauguro-su-segundo-ciclo-2026-con-seis-nuevas-muestras",
     "CBMiswJBVV95cUxObXJhTTdPeEdiWUxPTDh5b1JuVWlPR01Td1NyeXAwN0dKZGZnMmtZa0RGLVhqSWFOX2Q2QlBwQzFjZVdrUWliZ2EtVGhZWnhsU3pobVJJVEczamtCd3dCc0RlOVpVOHIyMWROQVZqc3ZuQm9DeVJyaGFlR1BVN3ZmRENBYTNyRk00TWNUcm9jT25OVDExVnA1R0FEMFhzWFdHRWZJUVBLVTY4YjRsRi1WbUstR3dQSVBBc1RBNUkwUlJMMjJxM1NUYTNGTmNhVnNqamlXZFNqRUFJaFMtSWJ1d3pFd2tmYXhsRFBwM1FYRDVSQUhlcHpOY0J6MEMtNGk5VjhwTjVzdzZKQi1XckpudGRtRnQza0h2T2ZfXzR5TThpNFJtdjY2UlF3Ni1GOFNhT0Zr": "https://www.archdaily.com/es/897153/por-que-es-importante-el-parque-forestal-de-santiago-de-chile/5b3cb4b7f197cc657a0000bc-por-que-es-importante-el-parque-forestal-de-santiago-de-chile-mobiliario-urbano-bancas",
+    "CBMitwFBVV95cUxQSTlrMV9FZFVKLUU1dExabXkyUndDSEVGcmNqRnA5aGQ2Z2QwSmRpZGw0SVR5VUFfcVRPNW9aVFRpRGVQSVFWTC1ZSUVqSnJ4ZUEwdUFkYXlBWXd6OElrVlVGTFBtZzVuNlVLYUJoUHdLaEs3d1ZnU0t4aC1BajlLQ3lYUlBPZUpReVM1blBlNUk5V085X2psSVZEQ3lGMW5rdDhMQm9ILWphcVdFLWE5OThWSF82d3M": "https://www.europapress.es/murcia/noticia-nivel-riesgo-incendio-forestal-lunes-extremo-altiplano-20260720093152.html",
     "CBMitwJBVV95cUxNRnlfdnM1b1FBU2RhTHVwSmdfbnVaRktHSzg5RVEzWXAwRURBOTZsQUNwQnc0WlFCS2tDSXJjWHlJZmpTSWYyeGRoMkJtdkRWc2hGT0pmWG5Bal9udHU0N0w3Ql9RcWZ5MTMxdUhzR3l4cDZNQ29pSkxPeGlGUHJuQnYwVFcxMW50SzQxTk1OMzV5cnlLX215eG43b3JtYjVOU2F1RXpLZTBKbGJ5OFdLMzN5QXFqZ3F5VWtrbDJxRVBYNFJDX1R0NmJSa0IybTVKWjRmQ2pLT2xfTmY5d25kcllNZFpKSXB6bGpxbmp0eEptck1RMmxrOF80ZU5rcmxMLWNUUXdsbzk5V2xPTjZqVE5HcXJQVDRrekgzbkdLXzhENzJISXE5a3FneEpMY3BRaUFxb0puOA": "https://www.archdaily.com/es/897153/por-que-es-importante-el-parque-forestal-de-santiago-de-chile/5b3cb4adf197ccb47d0000ff-por-que-es-importante-el-parque-forestal-de-santiago-de-chile-pavimentos-blandos-maicillo",
     "CBMiuAFBVV95cUxPeXNrWURmMDE3azB0WHFHUzJsQk9TMThlczBlTXJQc3FhUThnNFhPaXc0c3NFazg4ekFObFcwa1l1blJjcTVqLXpOdWxoT1BnNklrVG1vRUstdl9WNU4wWTRWRHNIb3p6T0lSdmdBbUktbWZXTm9kOTc0bWpXN3BhVmxPRndlY3FOdWM2NVRlTDV3cWVETmQzUlVkclFOSnp0NmdtV1BkTU5pdEplc21vckhIeG55Z3ZQ0gHAAUFVX3lxTFBvQzBTVG5iMTNEU0NHTFJYNWJDbjNMUF96S2piamNoYXZFQTJ4cjM2QlpRb3JfT2JEeGx4OEZZNkNRNUgtZFVXaWZzTnRnRFhucDRRRjdoRmkwMmNkVDB3bU1fakJlN3h4eUJpRGEtLXdBSWs2Z1RTWlNBM2d3UklxM2FCZ2hQOGZZRjJjemxaemM4SWdLOV93dEF2YVhvZEtYSjNORFAxQWVZWm5sXzJTYzdxS1FmRHIteEJ2M0dvWg": "https://www.telemundo51.com/noticias/local/avanzan-en-la-contencion-de-incendio-forestal-al-oeste-de-broward/2805545/",
     "CBMivgFBVV95cUxPUUstY0FnS2FaUzFyU29KYnZFZDRvSnlKUmtSaVUzMllxYzZYTEJjUkhRZ0RfdmEwcTlhclhmc1FMTXZ2Z0FCLWNBZWIySVlfMjlRNzJJTXhKUXM2X2ZaNlgzUE8wSUYyTk1EampFaVZwRFJhWXdEUkNsTENoTmVteGM5QWtJbEVfWmczN1REMlVLYnNzUlhjMzdyTzd5NkVqZFBqcXB6Z2VpWXVkcUNrb216WkhkYUZ3VlNEaVdB": "https://www.monumentos.gob.cl/noticias/aclaracion-sobre-proyectos-relacionados-con-la-fuente-alemana-y-el-parque-forestal",
