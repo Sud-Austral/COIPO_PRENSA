@@ -1,6 +1,6 @@
 // Agregaciones puras para analytics (Dashboard, Estadísticas).
 
-export function calcularKpis(noticias, historico) {
+export function calcularKpis(noticias) {
   if (!noticias) return {}
 
   const ahora = new Date()

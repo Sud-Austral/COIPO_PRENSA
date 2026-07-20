@@ -137,6 +137,29 @@ export default function Buscar() {
               </select>
             </div>
           )}
+
+          {/* Período */}
+          <div style={{ marginBottom: '2rem' }}>
+            <label style={{ display: 'block', fontSize: '0.875rem', fontWeight: '600', marginBottom: '0.5rem' }}>
+              Período
+            </label>
+            <select
+              value={filtros.periodo || ''}
+              onChange={e => setFiltros({ ...filtros, periodo: e.target.value || undefined })}
+              style={{
+                width: '100%',
+                padding: '0.5rem',
+                borderRadius: '0.5rem',
+                border: '1px solid var(--linea)',
+                background: 'var(--tarjeta)',
+                fontSize: '0.875rem',
+              }}
+            >
+              <option value="">Todas las fechas</option>
+              <option value="hoy">Hoy</option>
+              <option value="hoy-ayer">Hoy + Ayer</option>
+            </select>
+          </div>
         </aside>
 
         {/* Main: Resultados */}

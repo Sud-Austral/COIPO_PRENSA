@@ -1,17 +1,86 @@
 import { useState } from 'react'
+import { tiempoRelativo } from '../utilidades/fechas.js'
 
-const FECHA_ITEM = new Intl.DateTimeFormat('es-CL', {
-  timeZone: 'America/Santiago',
-  day: '2-digit',
-  month: 'short',
-  year: 'numeric',
-})
+function truncarExtracto(extractoSegmentos, maxChars = 500) {
+  if (!extractoSegmentos?.length) return []
 
-function formatearFecha(iso) {
-  if (!iso) return ''
-  const fecha = new Date(iso)
-  if (Number.isNaN(fecha.getTime())) return ''
-  return FECHA_ITEM.format(fecha).replace('.', '')
+  const textoCompleto = extractoSegmentos.map(s => s.texto).join('')
+  if (textoCompleto.length <= maxChars) return extractoSegmentos
+
+  // Buscar la mención resaltada (más probable que sea cerca del inicio o centro)
+  let posicionMencion = -1
+  for (let i = 0; i < extractoSegmentos.length; i++) {
+    if (extractoSegmentos[i].resaltado) {
+      posicionMencion = extractoSegmentos.slice(0, i).reduce((sum, s) => sum + s.texto.length, 0)
+      break
+    }
+  }
+
+  // Si no hay mención, truncar desde el inicio
+  if (posicionMencion === -1) {
+    let count = 0
+    const resultado = []
+    for (const seg of extractoSegmentos) {
+      if (count + seg.texto.length <= maxChars) {
+        resultado.push(seg)
+        count += seg.texto.length
+      } else {
+        const textoRestante = maxChars - count
+        if (textoRestante > 0) {
+          resultado.push({
+            ...seg,
+            texto: seg.texto.slice(0, textoRestante) + '…',
+          })
+        }
+        break
+      }
+    }
+    return resultado
+  }
+
+  // Centrar la mención en la ventana de 500 caracteres
+  const inicioOptimo = Math.max(0, posicionMencion - Math.floor(maxChars * 0.3))
+  const finOptimo = inicioOptimo + maxChars
+
+  let count = 0
+  const resultado = []
+  let encontradoInicio = false
+
+  for (const seg of extractoSegmentos) {
+    const lenSeg = seg.texto.length
+    const finSeg = count + lenSeg
+
+    // ¿Este segmento entra en la ventana?
+    if (finSeg > inicioOptimo && count < finOptimo) {
+      if (!encontradoInicio) {
+        // Primer segmento: trimear desde inicioOptimo
+        const offset = Math.max(0, inicioOptimo - count)
+        const textoTrimmed = seg.texto.slice(offset)
+        resultado.push({
+          ...seg,
+          texto: textoTrimmed,
+        })
+        encontradoInicio = true
+      } else {
+        // Segmentos intermedios: agregar completo
+        resultado.push(seg)
+      }
+
+      // ¿Hemos alcanzado el fin?
+      if (finSeg >= finOptimo) {
+        const overflow = finSeg - finOptimo
+        if (overflow > 0) {
+          const ultimoIdx = resultado.length - 1
+          resultado[ultimoIdx].texto = resultado[ultimoIdx].texto.slice(0, -overflow) + '…'
+        }
+        break
+      }
+    }
+
+    count += lenSeg
+  }
+
+  return resultado.length > 0 ? resultado : extractoSegmentos.slice(0, 1)
 }
 
 // Imagen de portada con degradación elegante: si el hotlink falla (medio que
@@ -27,13 +96,15 @@ function ImagenPortada({ src, alt }) {
 }
 
 export default function NoticiaItem({ noticia }) {
+  const extractoTruncado = truncarExtracto(noticia.extracto)
+
   return (
     <article className={noticia.imagen ? 'tarjeta tarjeta-con-imagen' : 'tarjeta'}>
       <ImagenPortada src={noticia.imagen} alt="" />
       <div className="tarjeta-cuerpo">
         <div className="tarjeta-meta">
           <span className="chip-medio">{noticia.medioNombre}</span>
-          <span className="tarjeta-fecha">{formatearFecha(noticia.fecha)}</span>
+          <span className="tarjeta-fecha">{tiempoRelativo(noticia.fecha)}</span>
         </div>
         <a
           className="tarjeta-titular"
@@ -43,9 +114,9 @@ export default function NoticiaItem({ noticia }) {
         >
           {noticia.titular}
         </a>
-        {noticia.extracto.length > 0 && (
+        {extractoTruncado.length > 0 && (
           <p className="tarjeta-extracto">
-            {noticia.extracto.map((segmento, indice) =>
+            {extractoTruncado.map((segmento, indice) =>
               segmento.resaltado ? (
                 <mark key={indice}>{segmento.texto}</mark>
               ) : (

@@ -1,12 +1,10 @@
 import { useMemo } from 'react'
 import {
   LineChart, Line, BarChart, Bar, PieChart, Pie, Cell,
-  XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
+  XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer
 } from 'recharts'
 import { useDatos } from '../contexto/ProveedorDatos.jsx'
 import Kpi from '../componentes/Kpi.jsx'
-import ChipSentimiento from '../componentes/ChipSentimiento.jsx'
-import ChipCategoria from '../componentes/ChipCategoria.jsx'
 import {
   calcularKpis, agruparPorDia, agruparPorMedio, agruparPorCategoria,
   agruparPorSentimiento, topPalabras, topOrganizaciones, topPersonas,

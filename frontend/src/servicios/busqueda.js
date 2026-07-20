@@ -70,6 +70,13 @@ export function obtenerFacetas(noticias) {
 }
 
 export function filtrarNoticias(noticias, filtros = {}) {
+  const ahora = new Date()
+  const hoyComienzo = new Date(ahora)
+  hoyComienzo.setHours(0, 0, 0, 0)
+
+  const ayerComienzo = new Date(hoyComienzo)
+  ayerComienzo.setDate(ayerComienzo.getDate() - 1)
+
   return noticias.filter(n => {
     if (filtros.seccion && n.seccionId !== filtros.seccion) return false
     if (filtros.medio && n.medioId !== filtros.medio) return false
@@ -79,6 +86,22 @@ export function filtrarNoticias(noticias, filtros = {}) {
     if (filtros.region && !n.analisis?.regiones?.includes(filtros.region)) return false
     if (filtros.fechaDesde && new Date(n.fecha) < new Date(filtros.fechaDesde)) return false
     if (filtros.fechaHasta && new Date(n.fecha) > new Date(filtros.fechaHasta)) return false
+
+    // Filtro de período personalizado
+    if (filtros.periodo === 'hoy') {
+      const noticiaDía = new Date(n.fecha)
+      noticiaDía.setHours(0, 0, 0, 0)
+      if (noticiaDía.getTime() !== hoyComienzo.getTime()) return false
+    }
+    if (filtros.periodo === 'hoy-ayer') {
+      const noticiaDía = new Date(n.fecha)
+      noticiaDía.setHours(0, 0, 0, 0)
+      const tiempoNoticia = noticiaDía.getTime()
+      const tiempoHoy = hoyComienzo.getTime()
+      const tiempoAyer = ayerComienzo.getTime()
+      if (tiempoNoticia !== tiempoHoy && tiempoNoticia !== tiempoAyer) return false
+    }
+
     return true
   })
 }
