@@ -179,6 +179,51 @@ export const MEDIOS = [
     feedUrl: 'https://www.diarioconstitucion.cl/feed/',
   },
 
+  // Principales nacionales (verificados 20-07-2026, ver docs/MEDIOS.md)
+
+  {
+    id: 'la-cuarta',
+    nombre: 'La Cuarta',
+    tipo: 'escrita',
+    feedUrl: 'https://www.lacuarta.com/arc/outboundfeeds/rss/?outputType=xml',
+  },
+
+  {
+    id: 'publimetro',
+    nombre: 'Publimetro',
+    tipo: 'escrita',
+    feedUrl: 'https://www.publimetro.cl/arc/outboundfeeds/rss/?outputType=xml',
+  },
+
+  {
+    id: 'la-nacion',
+    nombre: 'La Nación',
+    tipo: 'digital',
+    feedUrl: 'https://www.lanacion.cl/feed/',
+  },
+
+  {
+    id: 'ex-ante',
+    nombre: 'Ex-Ante',
+    tipo: 'digital',
+    // Solo funciona la variante con barra final; /feed sin barra responde 403.
+    feedUrl: 'https://www.ex-ante.cl/feed/',
+  },
+
+  {
+    id: 'el-periodista',
+    nombre: 'El Periodista',
+    tipo: 'otros',
+    feedUrl: 'https://www.elperiodista.cl/feed/',
+  },
+
+  {
+    id: 'radio-infinita',
+    nombre: 'Radio Infinita',
+    tipo: 'radio',
+    feedUrl: 'https://www.infinita.cl/rss.xml',
+  },
+
   // Del boletín ConectaMedia (verificados 20-07-2026, ver docs/MEDIOS.md)
 
   {
@@ -223,5 +268,36 @@ export const MEDIOS_SITEMAP = [
     nombre: 'Meganoticias',
     tipo: 'tv',
     sitemapUrl: 'https://www.meganoticias.cl/sitemaps/sitemap-news.xml',
+  },
+  {
+    id: 'cnn-chile',
+    nombre: 'CNN Chile',
+    tipo: 'tv',
+    sitemapUrl: 'https://www.cnnchile.com/_files/sitemaps/sitemap_news.xml',
+  },
+  {
+    id: 'radio-pauta',
+    nombre: 'Radio Pauta',
+    // Usa prefijo de namespace "n:" en vez de "news:" (el parser lo detecta solo).
+    tipo: 'radio',
+    sitemapUrl: 'https://www.pauta.cl/sitemap_news.xml',
+  },
+  {
+    id: 'el-libero',
+    nombre: 'El Líbero',
+    tipo: 'digital',
+    sitemapUrl: 'https://ellibero.cl/news-sitemap.xml',
+  },
+  {
+    id: 'el-divisadero',
+    nombre: 'El Divisadero',
+    tipo: 'regional',
+    sitemapUrl: 'https://www.eldivisadero.cl/news-sitemap.php',
+  },
+  {
+    id: 'puranoticia',
+    nombre: 'Puranoticia',
+    tipo: 'regional',
+    sitemapUrl: 'https://puranoticia.pnt.cl/cms/site/sitemap_news.xml',
   },
 ]

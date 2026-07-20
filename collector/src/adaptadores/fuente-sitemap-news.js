@@ -90,19 +90,27 @@ export function crearFuenteSitemapNews({
 
 // --- Parseo puro (exportado para tests) ---
 
-// Tolera los tres estilos vistos en sitemaps chilenos reales: XML de una sola
-// línea (Meganoticias), indentado multilínea (El Divisadero) y con CDATA
-// (Puranoticia). Bloques sin <loc> o sin <news:news> se descartan en silencio.
+// Tolera los estilos vistos en sitemaps chilenos reales: XML de una sola línea
+// (Meganoticias), indentado multilínea (El Divisadero), con CDATA (Puranoticia)
+// y con prefijo de namespace distinto de "news:" (Radio Pauta declara xmlns:n).
+// Bloques sin <loc> o sin <prefijo>:news se descartan en silencio.
 export function parsearSitemapNews(xml) {
+  const texto = String(xml)
+  // El prefijo del namespace de noticias lo elige cada medio: se lee de la
+  // declaración xmlns:<prefijo>="…sitemap-news…" (por defecto, "news").
+  const declaracion = texto.match(/xmlns:([\w-]+)\s*=\s*"[^"]*sitemap-news[^"]*"/i)
+  const prefijo = declaracion ? declaracion[1] : 'news'
+
   const entradas = []
-  for (const bloque of String(xml).split('</url>')) {
+  const marcaNews = new RegExp(`<${prefijo}:news[\\s>]`, 'i')
+  for (const bloque of texto.split('</url>')) {
     const url = extraerCampo(bloque, 'loc')
     if (!url) continue
-    if (!/<news:news[\s>]/i.test(bloque)) continue
+    if (!marcaNews.test(bloque)) continue
     entradas.push({
       url,
-      titular: extraerCampo(bloque, 'news:title') ?? '',
-      fecha: extraerCampo(bloque, 'news:publication_date') ?? null,
+      titular: extraerCampo(bloque, `${prefijo}:title`) ?? '',
+      fecha: extraerCampo(bloque, `${prefijo}:publication_date`) ?? null,
     })
   }
   return entradas

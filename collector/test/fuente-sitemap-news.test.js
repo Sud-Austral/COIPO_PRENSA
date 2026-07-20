@@ -94,6 +94,15 @@ describe('parsearSitemapNews', () => {
     expect(entradas[0].url).toBe('https://medio.cl/buena.html')
   })
 
+  it('soporta un prefijo de namespace distinto de news: (estilo Radio Pauta)', () => {
+    const xml = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:n="http://www.google.com/schemas/sitemap-news/0.9"><url>
+      <loc>https://medio.cl/nota-1.html</loc>
+      <n:news><n:publication_date>2026-07-20T10:00:00-04:00</n:publication_date>
+      <n:title>Conaf reabre parques</n:title></n:news>
+    </url></urlset>`
+    expect(parsearSitemapNews(xml)).toEqual([ENTRADA_ESPERADA])
+  })
+
   it('decodifica entidades XML en el título', () => {
     const xml = sitemapNews([
       { loc: 'https://medio.cl/n.html', titulo: 'Bosques &amp; parques: &quot;alerta&quot;', fecha: '2026-07-20T10:00:00-04:00' },

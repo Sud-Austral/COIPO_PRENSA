@@ -16,7 +16,18 @@ lista y el insumo para las preguntas abiertas 2, 8 y 12 del documento de requisi
 | El Pingüino | Prensa Regional | `https://www.elpinguino.com/feed/` | 2026-07-20 | RSS vivo, 40 ítems, links directos (corrige la ficha anterior que lo daba sin RSS). Del boletín ConectaMedia. |
 | Las Noticias de Malleco | Prensa Regional | `https://lasnoticiasdemalleco.cl/feed/` | 2026-07-20 | RSS WordPress, 10 ítems. Del boletín ConectaMedia. |
 | El Observador (Quillota) | Prensa Regional | `https://www.observador.cl/feed/` | 2026-07-20 | RSS WordPress, 10 ítems; en la corrida de verificación aportó 1 mención. Del boletín ConectaMedia. |
+| La Cuarta | Prensa Escrita | `https://www.lacuarta.com/arc/outboundfeeds/rss/?outputType=xml` | 2026-07-20 | RSS Arc (grupo Copesa), 100 ítems. Las variantes /feed y /rss devuelven HTML. |
+| Publimetro | Prensa Escrita | `https://www.publimetro.cl/arc/outboundfeeds/rss/?outputType=xml` | 2026-07-20 | RSS Arc, 100 ítems. Las demás variantes cortan la conexión. |
+| La Nación | Digital | `https://www.lanacion.cl/feed/` | 2026-07-20 | RSS WordPress, 10 ítems, links directos. |
+| Ex-Ante | Digital | `https://www.ex-ante.cl/feed/` | 2026-07-20 | RSS, 10 ítems. **Solo funciona con barra final**; `/feed` sin barra responde 403. |
+| El Periodista | Otros | `https://www.elperiodista.cl/feed/` | 2026-07-20 | RSS WordPress, 10 ítems. |
+| Radio Infinita | Radio | `https://www.infinita.cl/rss.xml` | 2026-07-20 | RSS, 10 ítems (corrige la ficha anterior: la ruta correcta es /rss.xml, no /feed/). |
 | Meganoticias | Televisión | sitemap: `https://www.meganoticias.cl/sitemaps/sitemap-news.xml` | 2026-07-20 | Piloto de la Fuente 3 (sitemap de noticias). ~140 URLs, retención ~48 h. |
+| CNN Chile | Televisión | sitemap: `https://www.cnnchile.com/_files/sitemaps/sitemap_news.xml` | 2026-07-20 | Google News sitemap, 200 URLs, declarado en robots.txt. El RSS devuelve HTML. |
+| Radio Pauta | Radio | sitemap: `https://www.pauta.cl/sitemap_news.xml` | 2026-07-20 | Google News sitemap con prefijo de namespace `n:` (el parser lo detecta). 100 URLs. |
+| El Líbero | Digital | sitemap: `https://ellibero.cl/news-sitemap.xml` | 2026-07-20 | Google News sitemap, 27 URLs (incluye avisos legales; los filtra la detección de menciones). RSS con redirección rota. |
+| El Divisadero | Prensa Regional | sitemap: `https://www.eldivisadero.cl/news-sitemap.php` | 2026-07-20 | Google News sitemap (XML indentado, títulos sin sufijo), 13 URLs. Del boletín ConectaMedia. |
+| Puranoticia | Prensa Regional | sitemap: `https://puranoticia.pnt.cl/cms/site/sitemap_news.xml` | 2026-07-20 | Google News sitemap con CDATA, 109 URLs. Del boletín ConectaMedia. |
 
 ## Medios del boletín ConectaMedia: candidatos a Fuente 3 (sitemap, fase 2)
 
@@ -27,22 +38,26 @@ verificar una corrida.
 
 | Medio | Sitemap | Nota |
 |---|---|---|
-| El Divisadero (Coyhaique) | `https://www.eldivisadero.cl/news-sitemap.php` | Google News sitemap válido, XML indentado, títulos sin sufijo. Candidato natural #2. |
-| Puranoticia (Valparaíso) | `https://puranoticia.pnt.cl/cms/site/sitemap_news.xml` | Google News sitemap con CDATA. `/feed` no existe. |
-| Radio Duna | `https://duna.cl/sitemaps/articles.xml` (vía sitemapindex) | `/feed/` devuelve la SPA. Formato del sub-sitemap por confirmar. |
-| Red soychile.cl | `https://www.soychile.cl/sitemap.xml` | Cubre soytemuco/soyvaldivia/soyosorno/soypuertomontt/soychiloe/soyvalparaiso/soyiquique (los dominios `soy*.cl` individuales ya no resuelven). Sitemap mixto: requiere clasificación regional por segmento de ruta. |
+| Radio Duna | `https://duna.cl/sitemaps/articles.xml` (vía sitemapindex) | Verificado 2026-07-20: urlset de 45.000 URLs **sin** `news:news`, sin fechas por hora ni títulos — no sirve como fuente de noticias con el adaptador actual. |
+| Red soychile.cl | `https://www.soychile.cl/sitemap.xml` | Verificado 2026-07-20: solo 61 landing pages de secciones/ciudades, 0 artículos, 0 `news:news`. No sirve como fuente. |
 | Red El Mercurio regional (elsur.cl, mercuriovalpo.cl, estrellaiquique.cl, australtemuco.cl, lidersanantonio.cl) | `https://www.<dominio>/sitemap.xml` | Sitemapindex compartido de ediciones impresas por diario; investigar sub-sitemaps (puede que solo liste portadas del papel). |
 
-## Medios del boletín ConectaMedia descartados (con evidencia)
+## Medios descartados (con evidencia)
 
 | Medio | Estado (2026-07-20) |
 |---|---|
+| Emol / El Mercurio | WAF corta la conexión en todas las rutas de feed y sitemap-news; el sitemapindex declarado (208 sub-sitemaps anuales) no trae `news:news` ni fechas. |
+| 24 Horas (TVN) | WAF corta feeds y sitemap-news; el sitemapindex mensual (.gz) existe pero sin `news:news`. |
+| T13 | Todas las variantes de feed y sitemap-news dan 404; `sitemap.xml` (Drupal) trae solo la home. |
+| CHV Noticias | CDN catch-all: TODA ruta responde 200 con la portada HTML — imposible descubrir un feed vía HTTP. |
+| La Segunda | Catch-all + e-paper; el sitemapindex anual no trae `news:news` ni fechas por URL. |
+| Radio USACH | Catch-all total: hasta `robots.txt` devuelve la misma página HTML. |
+| Interferencia | RSS vivo (`/rss.xml`) pero con `<link>` **malformado que da 404** (la URL real viene incrustada en el título). Agregarlo publicaría links rotos (error inaceptable SECOM): requiere manejo especial en el adaptador antes de darlo de alta. |
 | Radio Agricultura | `/feed/` corta la conexión (WAF); `sitemap.xml` responde 200 con cuerpo vacío. Reintentar más adelante. |
 | Digital FM | `/feed/` responde RSS válido pero con **0 ítems** (radio musical sin pauta escrita propia). |
 | El Labrador (Melipilla) | `ellabrador.cl` no resuelve DNS — medio aparentemente desaparecido. |
 | El Magallanes | `elmagallanes.com`/`.cl` no resuelven; su contenido lo cubre La Prensa Austral (mismo grupo, ya activa). |
 | Las Últimas Noticias | ePaper sin artículos web indexables; robots sin sitemap. Fuera por el criterio "si es alcanzable, entra". |
-| Radio Infinita | `/feed/` responde 404 (verificación 2026-07-14). Probar `wp-json`/sitemap más adelante. |
 | La Crónica de Chillán | No probado aún; posible vía ladiscusion.cl (mismo grupo). |
 
 ## Cómo verificar y agregar un medio
