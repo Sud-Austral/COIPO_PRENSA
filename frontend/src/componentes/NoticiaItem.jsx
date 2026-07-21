@@ -10,6 +10,14 @@ const ETIQUETAS_SENTIMIENTO = {
   mixta: 'Cobertura mixta',
 }
 
+// Ámbito de la noticia (no del medio): un medio regional puede publicar una
+// noticia nacional y un medio extranjero una noticia chilena.
+const ETIQUETAS_AMBITO = {
+  nacional: 'Nacional',
+  regional: 'Regional',
+  internacional: 'Internacional',
+}
+
 // Ajustes de corte a límite de palabra: un recorte a mitad de palabra
 // ("ndo otro, aunque…") se ve descuidado.
 function recortarInicioEnPalabra(texto) {
@@ -160,7 +168,14 @@ export default function NoticiaItem({ noticia }) {
       <div className="tarjeta-cuerpo">
         <div className="tarjeta-meta">
           <span className="chip-medio">{noticia.medioNombre}</span>
-          <span className="tarjeta-fecha">{tiempoRelativo(noticia.fecha)}</span>
+          <span className="tarjeta-meta-derecha">
+            {ETIQUETAS_AMBITO[noticia.analisis?.ambito] && (
+              <span className={`chip-ambito ambito-${noticia.analisis.ambito}`}>
+                {ETIQUETAS_AMBITO[noticia.analisis.ambito]}
+              </span>
+            )}
+            <span className="tarjeta-fecha">{tiempoRelativo(noticia.fecha)}</span>
+          </span>
         </div>
         <a
           className="tarjeta-titular"

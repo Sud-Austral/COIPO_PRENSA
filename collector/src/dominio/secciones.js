@@ -12,6 +12,9 @@ export const SECCIONES = [
   // Agregado por Google News: medios fuera de la lista curada o cuyo feed propio
   // ya rotó la noticia. Ver adaptadores/fuente-google-news.js.
   { id: 'otros', nombre: 'Otros medios', orden: 6 },
+  // Medios extranjeros que llegan por Google News (dominio no chileno, ver
+  // dominio/ambito.js). Separados para que no se mezclen con la prensa nacional.
+  { id: 'internacional', nombre: 'Medios internacionales', orden: 7 },
 ]
 
 export function validarTipoDeMedio(tipo) {

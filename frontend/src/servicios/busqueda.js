@@ -76,6 +76,7 @@ export function filtrarNoticias(noticias, filtros = {}) {
     if (filtros.medio && n.medioId !== filtros.medio) return false
     if (filtros.sentimiento && n.analisis?.sentimiento !== filtros.sentimiento) return false
     if (filtros.riesgo && n.analisis?.riesgo !== filtros.riesgo) return false
+    if (filtros.ambito && n.analisis?.ambito !== filtros.ambito) return false
     if (filtros.categoria && !n.analisis?.categorias?.includes(filtros.categoria)) return false
     if (filtros.region && !n.analisis?.regiones?.includes(filtros.region)) return false
     if (filtros.fechaDesde && new Date(n.fecha) < new Date(filtros.fechaDesde)) return false

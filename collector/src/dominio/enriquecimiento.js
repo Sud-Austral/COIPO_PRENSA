@@ -2,6 +2,7 @@
 
 import { analizarSentimiento } from './sentimiento.js'
 import { clasificarCategorias } from './categorias.js'
+import { determinarAmbito } from './ambito.js'
 import { extraerPersonas, extraerOrganizaciones } from './entidades.js'
 import { detectarRegiones, detectarLugares } from './geografia.js'
 import { calcularRiesgo, calcularTipo, calcularPrioridad, calcularImportancia } from './riesgo.js'
@@ -41,6 +42,14 @@ export function enriquecerNoticia(noticia, texto, config = {}) {
     const prioridad = calcularPrioridad(riesgo, resultadoSentimiento.sentimiento)
     const importancia = calcularImportancia(riesgo, resultadoSentimiento.sentimiento, 1)
 
+    // 7. Ámbito (nacional/regional/internacional): por noticia, no por medio.
+    // El titular entra siempre a la señal aunque el cuerpo no lo repita.
+    const ambito = determinarAmbito({
+      texto: `${noticia.titular}\n${texto}`,
+      regiones,
+      url: noticia.url,
+    })
+
     // Construir objeto análisis con claves en orden fijo
     const analisis = {
       version,
@@ -59,6 +68,7 @@ export function enriquecerNoticia(noticia, texto, config = {}) {
       prioridad,
       importancia,
       tipo,
+      ambito,
       cantidadPalabras,
       cantidadParrafos,
       tiempoLectura,

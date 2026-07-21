@@ -32,6 +32,7 @@ import {
   VERSION_ANALISIS,
 } from './config/parametros.js'
 import { actualizarHistorico } from './dominio/historico.js'
+import { esDominioExtranjero } from './dominio/ambito.js'
 import { construirDetector, recortarTexto } from './dominio/menciones.js'
 import { crearNoticia } from './dominio/noticia.js'
 import { enriquecerNoticia } from './dominio/enriquecimiento.js'
@@ -130,26 +131,33 @@ async function main() {
   )
   const clasificar = (dom, fuente) => {
     const curado = medioPorDominio.get(dom)
-    return curado
-      ? { medioId: curado.id, medioNombre: curado.nombre, seccionId: curado.tipo }
-      : { medioId: dom, medioNombre: fuente, seccionId: 'otros' }
+    if (curado) {
+      return { medioId: curado.id, medioNombre: curado.nombre, seccionId: curado.tipo }
+    }
+    // Los medios extranjeros no se mezclan con la prensa chilena no curada.
+    return { medioId: dom, medioNombre: fuente, seccionId: esDominioExtranjero(dom) ? 'internacional' : 'otros' }
   }
 
-  // Reclasificación retroactiva: una previa que entró por Google a "Otros medios"
-  // cuando su medio aún no estaba curado adopta el medio y la sección reales al
-  // curarse (ej.: notas de CNN Chile atrapadas en "Otros" al crear la sección TV).
+  // Reclasificación retroactiva sobre "Otros medios": (a) una previa cuyo medio
+  // se curó después adopta su medio y sección reales (ej.: CNN Chile → TV);
+  // (b) una previa de medio extranjero pasa a "Medios internacionales".
   // Solo se tocan noticias en 'otros': tras la primera pasada queda idempotente.
   let reclasificadas = 0
   for (const noticia of previas) {
     if (noticia.seccionId !== 'otros') continue
-    const curado = medioPorDominio.get(dominioDe(noticia.url))
-    if (!curado) continue
-    // Los medios curados con tipo 'otros' (El Mostrador, etc.) ya están bien.
-    if (noticia.medioId === curado.id && noticia.seccionId === curado.tipo) continue
-    noticia.medioId = curado.id
-    noticia.medioNombre = curado.nombre
-    noticia.seccionId = curado.tipo
-    reclasificadas += 1
+    const dominio = dominioDe(noticia.url)
+    const curado = medioPorDominio.get(dominio)
+    if (curado) {
+      // Los medios curados con tipo 'otros' (El Mostrador, etc.) ya están bien.
+      if (noticia.medioId === curado.id && noticia.seccionId === curado.tipo) continue
+      noticia.medioId = curado.id
+      noticia.medioNombre = curado.nombre
+      noticia.seccionId = curado.tipo
+      reclasificadas += 1
+    } else if (esDominioExtranjero(dominio)) {
+      noticia.seccionId = 'internacional'
+      reclasificadas += 1
+    }
   }
   if (reclasificadas > 0) {
     lineasResumen.push(`[OK] Reclasificadas: ${reclasificadas} noticias de "Otros" a su sección real`)

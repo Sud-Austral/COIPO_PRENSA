@@ -138,6 +138,30 @@ export default function Buscar() {
             </div>
           )}
 
+          {/* Ámbito */}
+          <div style={{ marginBottom: '2rem' }}>
+            <label style={{ display: 'block', fontSize: '0.875rem', fontWeight: '600', marginBottom: '0.5rem' }}>
+              Ámbito
+            </label>
+            <select
+              value={filtros.ambito || ''}
+              onChange={e => setFiltros({ ...filtros, ambito: e.target.value || undefined })}
+              style={{
+                width: '100%',
+                padding: '0.5rem',
+                borderRadius: '0.5rem',
+                border: '1px solid var(--linea)',
+                background: 'var(--tarjeta)',
+                fontSize: '0.875rem',
+              }}
+            >
+              <option value="">Todos</option>
+              <option value="nacional">Nacional</option>
+              <option value="regional">Regional</option>
+              <option value="internacional">Internacional</option>
+            </select>
+          </div>
+
           {/* Período */}
           <div style={{ marginBottom: '2rem' }}>
             <label style={{ display: 'block', fontSize: '0.875rem', fontWeight: '600', marginBottom: '0.5rem' }}>

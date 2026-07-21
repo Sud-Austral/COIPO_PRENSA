@@ -331,6 +331,44 @@ body {
   max-width: 70%;
 }
 
+.tarjeta-meta-derecha {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+/* Ámbito de la noticia (nacional / regional / internacional) */
+.chip-ambito {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 2px 8px;
+  white-space: nowrap;
+}
+
+.chip-ambito.ambito-nacional {
+  color: var(--verde);
+  background: var(--verde-muy-claro);
+}
+
+.chip-ambito.ambito-regional {
+  color: var(--gris);
+  background: color-mix(in srgb, var(--gris) 12%, transparent);
+}
+
+.chip-ambito.ambito-internacional {
+  color: #3d5a80;
+  background: rgba(61, 90, 128, 0.12);
+}
+
+[data-theme='oscuro'] .chip-ambito.ambito-internacional {
+  color: #8fb3d9;
+  background: rgba(143, 179, 217, 0.14);
+}
+
 .tarjeta-fecha {
   font-size: 12px;
   color: var(--gris-tenue);
