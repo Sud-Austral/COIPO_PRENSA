@@ -299,6 +299,41 @@ body {
   display: block;
 }
 
+/* Banda de marca: reemplaza a la imagen cuando la noticia no trae una.
+   Deliberadamente más baja que la imagen (16:9): señala identidad, no finge
+   contenido. */
+.tarjeta-logo-medio {
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--verde-muy-claro);
+  border-bottom: 1px solid var(--linea);
+}
+
+.logo-medio-insignia {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--tarjeta);
+  border: 1px solid var(--linea);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.logo-medio-insignia img {
+  width: 26px;
+  height: 26px;
+  display: block;
+}
+
+.logo-medio-inicial {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--verde);
+}
+
 .tarjeta-cuerpo {
   display: flex;
   flex-direction: column;

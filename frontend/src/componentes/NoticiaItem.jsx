@@ -136,14 +136,44 @@ function truncarExtracto(extractoSegmentos, maxChars = 500) {
   return resultado.length > 0 ? resultado : extractoSegmentos.slice(0, 1)
 }
 
-// Imagen de portada con degradación elegante: si el hotlink falla (medio que
-// bloquea, URL caída), no se renderiza nada — nunca el ícono de imagen rota.
-function ImagenPortada({ src, alt }) {
-  const [falló, setFalló] = useState(false)
-  if (!src || falló) return null
+function dominioDe(url) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '')
+  } catch {
+    return ''
+  }
+}
+
+// Bloque visual de la tarjeta con degradación en cadena: imagen de la noticia →
+// banda de marca con el favicon del medio → monograma con la inicial. Nunca un
+// ícono de imagen rota ni una tarjeta sin ancla visual.
+function VisualNoticia({ noticia }) {
+  const [fallóImagen, setFallóImagen] = useState(false)
+  const [fallóLogo, setFallóLogo] = useState(false)
+
+  if (noticia.imagen && !fallóImagen) {
+    return (
+      <div className="tarjeta-imagen">
+        <img src={noticia.imagen} alt="" loading="lazy" onError={() => setFallóImagen(true)} />
+      </div>
+    )
+  }
+
+  const dominio = dominioDe(noticia.url)
   return (
-    <div className="tarjeta-imagen">
-      <img src={src} alt={alt} loading="lazy" onError={() => setFalló(true)} />
+    <div className="tarjeta-logo-medio" aria-hidden="true">
+      <span className="logo-medio-insignia">
+        {dominio && !fallóLogo ? (
+          <img
+            src={`https://www.google.com/s2/favicons?domain=${dominio}&sz=64`}
+            alt=""
+            loading="lazy"
+            onError={() => setFallóLogo(true)}
+          />
+        ) : (
+          <span className="logo-medio-inicial">{(noticia.medioNombre || '·').charAt(0)}</span>
+        )}
+      </span>
     </div>
   )
 }
@@ -164,7 +194,7 @@ export default function NoticiaItem({ noticia }) {
 
   return (
     <article className={clases} title={ETIQUETAS_SENTIMIENTO[sentimiento]}>
-      <ImagenPortada src={noticia.imagen} alt="" />
+      <VisualNoticia noticia={noticia} />
       <div className="tarjeta-cuerpo">
         <div className="tarjeta-meta">
           <span className="chip-medio">{noticia.medioNombre}</span>

@@ -196,7 +196,7 @@ export default function Buscar() {
               No se encontraron resultados
             </div>
           ) : (
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1rem' }}>
+            <div className="grilla-noticias">
               {resultados.map(noticia => (
                 <NoticiaItem key={noticia.id} noticia={noticia} />
               ))}
