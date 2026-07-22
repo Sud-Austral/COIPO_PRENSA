@@ -308,7 +308,37 @@
         }
       ],
       "imagen": null,
-      "analisis": null
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.67,
+        "score": -2,
+        "keywords": [
+          "incendio",
+          "forestal",
+          "guadalajara",
+          "imagenes",
+          "fotos",
+          "espana"
+        ],
+        "categorias": [
+          "incendios-forestales"
+        ],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 9,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
     },
     {
       "id": "https://www.infobae.com/america/agencias/2026/07/22/china-condena-a-ex-alto-cargo-forestal-a-perpetua-por-sobornos-de-12-millones-de-dolares",
@@ -6065,7 +6095,38 @@
         }
       ],
       "imagen": null,
-      "analisis": null
+      "analisis": {
+        "version": 3,
+        "sentimiento": "neutra",
+        "polaridad": 0,
+        "score": 0,
+        "keywords": [
+          "ocupaciones",
+          "grupo",
+          "trabajadores",
+          "cualificados",
+          "sector",
+          "agricola",
+          "ganadero",
+          "forestal",
+          "pesquero"
+        ],
+        "categorias": [],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 50,
+        "tipo": "informativa",
+        "ambito": "nacional",
+        "cantidadPalabras": 13,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
     },
     {
       "id": "https://www.diariodeibiza.es/ibiza/2026/07/20/gen-advierte-tormenta-perfecta-riesgo-132622534.html",
@@ -20215,7 +20276,6 @@
     }
   ],
   "resolucionesGoogle": {
-    "CBMi0gFBVV95cUxPSVZqa3gzQy1tTEZrTUVRcmlnWVUyV21zdFFaeDJBV0N1MVRKOE9HSTFWODBhZUJBNmNoRW5xcE5LbWlhbERwelExS1g0Z0xfc1hXakVTVllPdkg2ZnpQVDM1anFXMDBELUFHNk9qdDJwQnNHV0xDMnNnU09mNy05T0JqTTZ4WEhLcWZWWkgyaDV0NEk2YUszckJBUmtrb3dKUFJDMWd2RmJmOWJlZkJMc093MklkQml1NlBXLU5KNlJJUGMzWERwamJ1U2gtQVNXRVE": "https://noticias.udec.cl/nueva-planta-piloto-de-lignina-impulsada-por-cmpc-y-udec-fortalece-la-innovacion-basada-en-recursos-renovables/",
     "CBMi0wFBVV95cUxQR2hFR1BRNHBlVUU4bWJoUVpjLVQ1aGJiaFloUlZTalJmSHpPU0Q2enQ2bkRSWFRaTE9HZHpZWDdDb0ZhSGpoeGhDSm1HanFvNHJVc2pzTmsxeVBOMTVFRUdMeTg5cDVHZjZyVjhpaE5zTFJGaHktd3RZbWwyaTl3S3ZSbWdBRkR5VkhGWVZYejJlV0JnVjNUTjQ1OVdib01zdXFXOHlKbEl5YmRkanJDS3N2ZXhWdnM4ZXRhb3dxb084V2xKSzZXel9SYnNCR1RxLVlz": "https://www.sernageomin.cl/convenio-entre-sernageomin-y-conaf-fortalecera-la-gestion-del-territorio-con-informacion-geologica-y-forestal/",
     "CBMi1gFBVV95cUxNVHBrdUFQNEhPbFVqYk5BMC05a2dUVk95aWFfQlRFRWhCLVJSeXFTMWhGdHczVW5scDhrYlc1LW9MMG1sc2lHYXNOUmpVSFpoMFh4X1JtelZKZjc5YnJ5Z096MlQ0WWFOZHUyazF0ejRUOVVZSUJsTUtuWVFzSEpoUlpqQmJzcXJMYWVuaG9IbmppV2tiSjlySFlhdFluWlgybGl0OHJOXzVSbWdQWEFQVkN2NmRPYlEzNGNGMGtrOXJHRi1vTnJuYUVVb2FEUEcwVUJyeDB30gHbAUFVX3lxTFBkTHUxTFlYSGZZUmRiMkZRbHFvRHo0dnlFOTRZS2twR3dULS1FNDlFZ0Vra05ZWnZtSHVhLWNSNGFnM3Q4aGRRUVZmTnhBdWJpTGFlVmZmOW5lYW9yeWJIaUVJNkRtUFlJYmoxWGs2TWcxMlZrRUtZZXVnT0JMek8zdkltOWg3RVd3X0dzbEVnZHVRZzYtSzZiZ0pyQUYyRXZKcmNiM2xTVkI0UXRlR0dmckRKbUNuVE9rd011ejlXVFExMERzV2l5RkRKMG5fSUVmVXFhWWpJWnhBbw": "https://www.elcorreogallego.es/santiago/2026/07/22/incendio-forestal-santiago-apunta-intencionado-obliga-intervenir-bomberos-132687120.html",
     "CBMi2AFBVV95cUxQbHhwbkJWeHJ1Z0dYdWNGcGRhUWRJdFc5YjV1RGhISk1QV0pGMGlpRG9RRjVQWXh1eFUxTlk5MU56UWpGZlk5ZXR5cW5zZkRhdGZaN0lqakxVNGVOWHVLMU5wdXhLTmRlMXZzX0VnMEYtNENaSzR6elNsSG1abS1jV2Y4MXNfMUF1WlFwLTZFTTdZX0dMbnd1RWpocDlqRnR0YUdmbW5ZMEsyekFnZVc2Vm5lYmpPRndqWGtyZlV1LUVpbmlpQ3Zrdk55VG1hQ0YzOTNZSWFyaUvSAfMBQVVfeXFMTWl6dmFrMHIxZ2JUU20wem5rMGt4Yld2OE1JT1o5RWpOQjU0TEtxLWFscTBSVXZyaWlRLVRDck85cGRMNGdvTThSTDExdFlvNU1RWmtXRF9KQ2hNTm9zV0lKNEJlUms4NXo0b1FpSFJTMHBYaV90bzlKS0Vsa243dDJNU1JkalYxYWFQUndXb2ptMWVuRW5HMmdMLVlBSUQtSXNiajRWY3NtOWx1emJqX016YjdyVzVudEpIRjJSYmxKeGw4OUxyN0ZxLXZ4b2dVV0RLQnZrNm5qUkNObEc3d3RtQm1uWVQzMVZUaDRlSC11dEcw": "https://www.infobae.com/america/agencias/2026/07/22/china-condena-a-ex-alto-cargo-forestal-a-perpetua-por-sobornos-de-12-millones-de-dolares/",
@@ -20647,7 +20707,6 @@
     ],
     "radio-pauta": [
       "https://www.pauta.cl/actualidad/2026/07/16/alerta-roja-en-arauco-por-riesgo-de-desborde-del-rio-pichilo.html",
-      "https://www.pauta.cl/actualidad/2026/07/16/presidente-kast-advierte-por-el-sistema-frontal-y-llama-a-no-acudir-a-zonas-de-riesgo-habra-situaciones-graves-y-criticas.html",
       "https://www.pauta.cl/actualidad/2026/07/16/presidente-kast-viajara-al-biobio-para-monitorear-en-terreno-los-efectos-del-sistema-frontal.html",
       "https://www.pauta.cl/actualidad/2026/07/16/roaming-automatico-de-emergencia-como-activarlo-en-tu-celular-para-mantener-la-senal-durante-el-sistema-frontal.html",
       "https://www.pauta.cl/actualidad/2026/07/16/sistema-frontal-se-intensificara-durante-la-madrugada-del-viernes-autoridades-advierten-lluvias-mas-fuertes-y-viento-en-la-region-metropolitana.html",
@@ -20715,6 +20774,7 @@
       "https://www.pauta.cl/actualidad/primera-pauta/2026/07/17/primera-pauta-17-de-julio-de-2026.html",
       "https://www.pauta.cl/actualidad/primera-pauta/2026/07/20/primera-pauta-20-de-julio-de-2026.html",
       "https://www.pauta.cl/actualidad/primera-pauta/2026/07/21/primera-pauta-21-de-julio-de-2026.html",
+      "https://www.pauta.cl/actualidad/primera-pauta/2026/07/22/primera-pauta-22-de-julio-de-2026.html",
       "https://www.pauta.cl/cultura/2026/07/20/fundacion-raipillan-celebrara-21-anos-de-trabajo-comunitario-con-una-gala-gratuita-en-el-teatro-municipal-de-santiago.html",
       "https://www.pauta.cl/dato-en-pauta/2026/07/17/multa-por-mojar-a-un-peaton-en-dias-de-lluvia-a-cuanto-puede-llegar-la-sancion.html",
       "https://www.pauta.cl/dato-en-pauta/2026/07/17/rumbo-al-superclasico-con-las-mejores-predicciones-de-futbol-para-el-choque-entre-colo-colo-y-la-universidad-de-chile.html",
@@ -20807,7 +20867,6 @@
       "https://www.eldivisadero.cl/_noticia/Voraz-incendio-acaba-con-la-vida-de-dos-jóvenes-en-Coyhaique/ODM1NzI="
     ],
     "puranoticia": [
-      "https://puranoticia.pnt.cl/deportes/alejandro-tabilo-regresa-al-top-30-del-ranking-atp-luego-de-casi-un-ano-y",
       "https://puranoticia.pnt.cl/deportes/alejandro-tabilo-ya-tiene-programacion-para-hacer-su-debut-en-el-atp-250-de",
       "https://puranoticia.pnt.cl/deportes/alejandro-tabilo-ya-tiene-rival-para-su-debut-en-el-atp-250-de-estoril",
       "https://puranoticia.pnt.cl/deportes/claudio-bravo-lanza-dardos-a-argentina-tras-la-consagracion-de-espana-en-el",
@@ -20866,7 +20925,6 @@
       "https://puranoticia.pnt.cl/nacional/johannes-kaiser-asegura-que-libertarios-tienen-al-gobierno-bailando-la",
       "https://puranoticia.pnt.cl/nacional/kast-asegura-que-el-gobierno-se-ha-preparado-y-anticipado-ante-inedito",
       "https://puranoticia.pnt.cl/nacional/mara-sedini-aborda-por-primera-vez-su-salida-de-la-moneda-y-asegura-que-me",
-      "https://puranoticia.pnt.cl/nacional/mineduc-extiende-suspension-clases-en-la-provincia-de-copiapo-y-en-san-jose",
       "https://puranoticia.pnt.cl/nacional/ministra-rincon-advierte-que-reposicion-del-suministro-electrico-en",
       "https://puranoticia.pnt.cl/nacional/ministro-de-defensa-responde-a-criticas-por-viaje-a-hawai-durante",
       "https://puranoticia.pnt.cl/nacional/ministro-quiroz-asegura-que-el-gobierno-cuenta-con-los-recursos-para",
@@ -20956,6 +21014,7 @@
       "https://puranoticia.pnt.cl/regiones/camion-cayo-a-un-rio-luego-que-un-socavon-afectara-al-puente-maitencillo-en",
       "https://puranoticia.pnt.cl/regiones/carabineros-evacua-en-helicoptero-a-tres-mujeres-que-permanecian-aisladas",
       "https://puranoticia.pnt.cl/regiones/carabineros-ha-rescatado-a-57-personas-y-21-mascotas-durante-emergencia",
+      "https://puranoticia.pnt.cl/regiones/corte-confirma-expulsion-de-alumno-de-la-unab-por-amenazas-de-tiroteo-en",
       "https://puranoticia.pnt.cl/regiones/decretan-prision-preventiva-para-imputado-por-el-homicidio-del-carabinero",
       "https://puranoticia.pnt.cl/regiones/delegado-de-huasco-reporta-mas-de-21-mil-aislados-y-confirma-un-fallecido",
       "https://puranoticia.pnt.cl/regiones/desborde-del-rio-elqui-obliga-a-extender-el-corte-del-suministro-de-agua-en",
@@ -21240,13 +21299,15 @@
     "araucania-diario": [
       "https://araucaniadiario.cl/contenido/34406/agricultores-unidos-le-paran-el-carro-al-ministro-de-agricultura-y-lo-desmienten",
       "https://araucaniadiario.cl/contenido/34447/el-presidente-kast-podria-cambiar-la-historia-y-eliminar-el-anatocismo",
-      "https://araucaniadiario.cl/contenido/34452/presidente-kast-llega-al-responso-del-ahora-suboficial-mayor-marcos-cosme-barque",
       "https://araucaniadiario.cl/contenido/34458/dia-mundial-del-perro-celebrando-a-quienes-nos-cuidan-sin-pedir-nada-a-cambio",
+      "https://araucaniadiario.cl/contenido/34462/el-frio-realmente-empeora-los-dolores-musculares",
       "https://araucaniadiario.cl/contenido/34463/comunidades-mapuche-exigen-investigar-a-fiscal-velasquez-por-racismo-y-difamacio",
+      "https://araucaniadiario.cl/contenido/34464/mas-de-3-mil-millones-fortaleceran-infraestructura-de-alcantarillado-en-la-regio",
       "https://araucaniadiario.cl/contenido/34465/exconcejal-cuestiona-condiciones-de-licitacion-para-el-nuevo-casino-de-pucon",
       "https://araucaniadiario.cl/contenido/34467/cge-pagara-40-mil-a-clientes-que-perdieron-alimentos-por-cortes-de-luz",
       "https://araucaniadiario.cl/contenido/34469/carlos-cancino-queda-en-prision-preventiva-por-homicidio-del-suboficial-mayor-eu",
-      "https://araucaniadiario.cl/contenido/34470/nuevo-accidente-de-narbus-deja-10-heridos-de-diversa-gravedad"
+      "https://araucaniadiario.cl/contenido/34470/nuevo-accidente-de-narbus-deja-10-heridos-de-diversa-gravedad",
+      "https://araucaniadiario.cl/contenido/34472/diputado-tomas-kast-solicita-auditoria-extraordinaria-a-empresas-electricas"
     ],
     "radio-polar": [
       "https://www.radiopolar.com/27-mil-estudiantes-magallanes-accederan-internet-alta-velocidad",
