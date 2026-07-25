@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-07-25T06:31:50.594Z",
+  "generadoEn": "2026-07-25T09:13:57.933Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -39,6 +39,152 @@
     }
   ],
   "noticias": [
+    {
+      "id": "https://www.infobae.com/america/agencias/2026/07/25/portugal-refuerza-el-combate-a-un-incendio-forestal-en-el-algarve",
+      "url": "https://www.infobae.com/america/agencias/2026/07/25/portugal-refuerza-el-combate-a-un-incendio-forestal-en-el-algarve/",
+      "medioId": "infobae.com",
+      "medioNombre": "Infobae",
+      "seccionId": "internacional",
+      "titular": "Portugal refuerza el combate a un incendio forestal en el Algarve",
+      "fecha": "2026-07-25T08:55:24.000Z",
+      "fechaDeteccion": "2026-07-25T09:13:57.933Z",
+      "extracto": [
+        {
+          "texto": "Portugal refuerza el combate a un incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " en el Algarve",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "autor": null,
+      "fechaReal": "2026-07-25T08:46:44.085Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.57,
+        "score": -12,
+        "keywords": [
+          "incendio",
+          "monchique",
+          "algarve",
+          "portugues",
+          "viento",
+          "fuego",
+          "proteccion",
+          "civil",
+          "jul",
+          "efe"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "emergencias",
+          "institucional-vocerias"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "EFE",
+          "EST",
+          "GMT",
+          "IPMA",
+          "bomberos",
+          "unesco"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 400,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 2
+      }
+    },
+    {
+      "id": "https://apnews.com/article/europa-incendios-forestales-francia-espana-644a2e7b301b2376964214411cee3699",
+      "url": "https://apnews.com/article/europa-incendios-forestales-francia-espana-644a2e7b301b2376964214411cee3699",
+      "medioId": "apnews.com",
+      "medioNombre": "AP News",
+      "seccionId": "otros",
+      "titular": "Incendio forestal provoca evacuaciones en algunos suburbios de la ciudad francesa de Burdeos",
+      "fecha": "2026-07-25T07:29:00.000Z",
+      "fechaDeteccion": "2026-07-25T09:13:57.933Z",
+      "extracto": [
+        {
+          "texto": "Incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " provoca evacuaciones en algunos suburbios de la ciudad francesa de Burdeos",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://dims.apnews.com/dims4/default/549ee00/2147483647/strip/true/crop/8256x5501+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa9%2F9f%2F57b9cb703e4ce9de9717907b84bd%2F30fd2fe8fa0047ceaf9b3f8d447936dc",
+      "autor": null,
+      "fechaReal": "2026-07-25T07:19:43.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "mixta",
+        "polaridad": -0.58,
+        "score": -21,
+        "keywords": [
+          "incendio",
+          "read",
+          "more",
+          "bomberos",
+          "burdeos",
+          "francia",
+          "agua",
+          "llamas",
+          "oeste",
+          "julio"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "emergencias",
+          "manejo-bosques"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "AMPM",
+          "AP",
+          "ARCACH",
+          "MIN",
+          "POR",
+          "PRESS",
+          "READ",
+          "bomberos"
+        ],
+        "lugares": [],
+        "regiones": [
+          "metropolitana"
+        ],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "medio",
+        "prioridad": 2,
+        "importancia": 65,
+        "tipo": "emergencia",
+        "ambito": "regional",
+        "cantidadPalabras": 840,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 4
+      }
+    },
     {
       "id": "https://informaalminuto.cl/conaf-y-municipalidad-de-lanco-lanzan-programa-mi-pueblo-mi-arbol-en-malalhue-y-firmaron-convenio-de-cooperacion-para-el-arbolado-urbano",
       "url": "https://informaalminuto.cl/conaf-y-municipalidad-de-lanco-lanzan-programa-mi-pueblo-mi-arbol-en-malalhue-y-firmaron-convenio-de-cooperacion-para-el-arbolado-urbano/",
@@ -292,6 +438,93 @@
         "tipo": "emergencia",
         "ambito": "internacional",
         "cantidadPalabras": 842,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 4
+      }
+    },
+    {
+      "id": "https://www.portalagrochile.cl/2026/07/25/consejo-de-politica-forestal-conoce-avances-de-la-nueva-institucionalidad-forestal-y-de-la-agenda-legislativa-para-fortalecer-el-sector",
+      "url": "https://www.portalagrochile.cl/2026/07/25/consejo-de-politica-forestal-conoce-avances-de-la-nueva-institucionalidad-forestal-y-de-la-agenda-legislativa-para-fortalecer-el-sector/",
+      "medioId": "portalagrochile.cl",
+      "medioNombre": "Portal Agro Chile",
+      "seccionId": "otros",
+      "titular": "Consejo de Política Forestal conoce avances de la nueva institucionalidad forestal y de la agenda legislativa para fortalecer el sector",
+      "fecha": "2026-07-25T02:36:16.000Z",
+      "fechaDeteccion": "2026-07-25T09:13:57.933Z",
+      "extracto": [
+        {
+          "texto": "Consejo de Política ",
+          "resaltado": false
+        },
+        {
+          "texto": "Forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " conoce avances de la nueva institucionalidad ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " y de la agenda legislativa para fortalecer el sector",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.portalagrochile.cl/wp-content/uploads/2026/07/Consejo-de-Politica-Forestal-conoce-avances-de-la-nueva-institucionalidad-forestal-y-de-la-agenda-legislativa-para-fortalecer-el-sector-1.jpg",
+      "autor": "Portal Agro Chile | Grupo Prensa Digital | F.M",
+      "fechaReal": "2026-07-25T06:36:16.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "positiva",
+        "polaridad": 0.43,
+        "score": 9,
+        "keywords": [
+          "forestal",
+          "sector",
+          "nueva",
+          "agricultura",
+          "institucionalidad",
+          "consejo",
+          "politicas",
+          "politica",
+          "avances",
+          "desarrollo"
+        ],
+        "categorias": [
+          "normativa-legislativo",
+          "prevención",
+          "sbap-ley-21600"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "DE",
+          "INIA",
+          "LA",
+          "PARA",
+          "SEREMI",
+          "USD",
+          "VISITA",
+          "conaf"
+        ],
+        "lugares": [],
+        "regiones": [
+          "araucania",
+          "atacama",
+          "maule",
+          "nuble",
+          "valparaiso"
+        ],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 55,
+        "tipo": "informativa",
+        "ambito": "regional",
+        "cantidadPalabras": 728,
         "cantidadParrafos": 1,
         "tiempoLectura": 4
       }
@@ -4044,6 +4277,74 @@
         }
       ],
       "imagen": "https://images.adsttc.com/media/images/5b3c/b3cb/f197/ccb4/7d00/00fa/large_jpg/PF01.jpg?1530704827",
+      "autor": null,
+      "fechaReal": null,
+      "analisis": {
+        "version": 3,
+        "sentimiento": "neutra",
+        "polaridad": 0,
+        "score": 0,
+        "keywords": [
+          "compartir",
+          "importante",
+          "parque",
+          "forestal",
+          "santiago",
+          "chile",
+          "imagen",
+          "galeria",
+          "agrandar",
+          "ver"
+        ],
+        "categorias": [
+          "parques-asp"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "URL"
+        ],
+        "lugares": [
+          "Parque Forestal"
+        ],
+        "regiones": [
+          "metropolitana"
+        ],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 50,
+        "tipo": "informativa",
+        "ambito": "regional",
+        "cantidadPalabras": 43,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
+    },
+    {
+      "id": "https://www.archdaily.com/es/897153/por-que-es-importante-el-parque-forestal-de-santiago-de-chile/5b32c224f197cc88af0007dd-por-que-es-importante-el-parque-forestal-de-santiago-de-chile-fotografia-aerea",
+      "url": "https://www.archdaily.com/es/897153/por-que-es-importante-el-parque-forestal-de-santiago-de-chile/5b32c224f197cc88af0007dd-por-que-es-importante-el-parque-forestal-de-santiago-de-chile-fotografia-aerea",
+      "medioId": "archdaily.com",
+      "medioNombre": "ArchDaily",
+      "seccionId": "otros",
+      "titular": "Galería de ¿Por qué es importante el Parque Forestal de Santiago de Chile? - 21",
+      "fecha": "2026-07-24T10:18:35.000Z",
+      "fechaDeteccion": "2026-07-25T09:13:57.933Z",
+      "extracto": [
+        {
+          "texto": "Galería de ¿Por qué es importante el Parque ",
+          "resaltado": false
+        },
+        {
+          "texto": "Forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " de Santiago de Chile? - 21",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://images.adsttc.com/media/images/5b32/c224/f197/cc88/af00/07dd/large_jpg/18.jpg?1530053139",
       "autor": null,
       "fechaReal": null,
       "analisis": {
@@ -34357,8 +34658,7 @@
     }
   ],
   "resolucionesGoogle": {
-    "CBMi-AFBVV95cUxORWROc2htMlBNN0hyVmZzN0VtakRNWmdNVmtIXzhfZzlUSzRFS0FkU3RFOHZQbzk2RmVSSE4yQ25Ib3pGamFvMDNMRkhKTUhBRk5LS3F4YlRBc2hZWlhQMUpSVVNKSlc5bVBBbmwtNUVaOUhJMGNtVFcxdkFIZHlzaVVJcmNYUG9qdFduZEdadHdqbWdYbGtQT1FpNkJRenowUDdZYUoxZ0Y0MlhRTkVhdFNuNWJUOHZzWlUtaGtJV0RhRUg1b3VZci16V3R3WTJDbWNRa21keTRJX1FZM01JUmlEUXBiMnVwTHRrMGtaNkdmZ0pCWTl6dw": "https://www.france24.com/es/europa/20260724-en-directo-m%C3%A1s-de-100-000-personas-evacuadas-en-francia-por-el-fuego-el-incendio-de-madrid-es-imposible-de-controlar",
-    "CBMi0gFBVV95cUxQZ3hBWGFSVmxJWEUteDhmRnUtNXRHUHkxTGlIc0xSOXk5YzQ1MGFHV1N3UWpMYU55MEYtRE5mZ2N1ZjRPSDNsVFVIbUYtdFNlYzJ5QlIxMzV2QUE3TGpudnliYWNmYXBDOVlRTmhDZUxUcTl5TWphM3hna0ZIQUdveU83eGZZNlBSNk90Tk5PbVpPUUZXSS1EZ2FOQjRKTzZyTVd3Zm5LTFpISENHNjdzQkluMFdMOE1VS3BxRVpIaUMwNGRaXy1FNDk0ZkdwaDlKVUE": "https://www.bostonherald.com/2026/07/24/uganda-reubica-jirafas-para-escapar-de-las-perforaciones-petroleras-en-parque-ms-grande-del-pas/",
+    "CBMi0AFBVV95cUxNME5JNXlNR0s5ZGJNTHFHb2JXZFMybTNCY0lfYWI2by1OcEdGY3MzMGNaNktQc2U1dFhERnRQRVJBcEFKNmM2cWFsZmJFNkZhb3JCelhDNl9rNHpaYWoxcU51MEdCaW1PejFDb1N4ZlJiWGF2S3dXUmZWNjIyTDUtYV9OZm9FSG9aYkVGc3lpSzd5NURuellwdlZnZ0FGYnJUOWV6LURHUmZDZHZraTg1NjNGSVVFNkh1dWxGVG9PMEx2bURnVU5fdHdOS3pydDYx0gHkAUFVX3lxTFA0Y2JDU3YwNEhxMk1PUVpLR1lNRnhoY3Y3WVZHTmZrdy1Ga0RtbllfRGlqY1lDQlpFdVc1OFpLSUtMRFl1TkR1dFlmakxxeUctc1pfQ3lNRlktZS1wQV9haHVaZGxrRDRYeUxYRlJPS3JwQzFoRWp0YUN5ZlB0QWNkMHE3Z3Bld1JSaE9HcHl3d2hIMExOaktnT0poU09QSzBPMHFfWjZDNzI1Vm9MeWJkUGdrMDVyWGU3aFFTbXMtakZ5T2hGdUxXMktQZkJUa2JQa1pQWEp1ODJkNTVRWXNCS2xMeg": "https://www.adnradio.cl/2026/07/23/megaincendio-de-valparaiso-formalizaran-a-dos-exfuncionarios-de-conaf-por-la-muerte-de-138-personas/",
     "CBMi0wFBVV95cUxPNWN0R2FqNlJ3LVV6WFI4dUNtdy05OHJLeW9lXzdSc0p5NzdyNzE1YURpU3lTa05CR1Y3NHFjeFdIaTdDWVptbnYwQ3pxMFJCdnJQOFVXb0hGTU8tdUxqOUpLakRJek96QjFaUjlWZDVoMDNQX3I4ZUw0VWk2YW4zMm9SSjdKSGdHQmhLZElFM3E2RWtTQmRZTngwb1ZESXVNb1FQZEU1azhwTzFzTFRpYUFpMFlIUWY0QmZOS3ZieDVZcHJPSElLeTl0cmdhNnloXzJj": "https://radarbiobio.cl/noticias/2026/07/23/dos-exfuncionarios-de-conaf-seran-formalizados-por-el-megaincendio-en-la-region-de-valparaiso/",
     "CBMi1AFBVV95cUxOOF9CaUJMdk50VkRPZTBEdjVjOXRDSFJncXJWcjVhVVRkRXdDSlVRTnFJNDBCOFFVOVY3MG9Nd21JVW9GcV9MMTdYa1Jhd3hSZmdZNmVYM09UcnRITXQxcVg5V0pQYUJyZzhCejZURjRqbzJYZ0dDRlVEbFlBOEQtZUZRNjQtZ2NnZ1p1Z3FRVmRGNFctVGNjNXlQX3haWm8zNU5BWVB5NHZoRWZ5QWJGVzJYcUxqYW9nWmRJajdyQV81NkowN093RlNvZWpJN0hEY0RrS9IB6AFBVV95cUxNNmVTX1lrc2I1ZHFCVkhfQm1CLXY2a3NRS0N1T3Y2dzlaVmRFVWlGRlNxX19qX3JsajFDVjJMcVQzLWRGSXBUNW1HSXpFTk9BaDNTRHZISFFzY3pubGZPS2xtQ3BwQ2R4TFNRWFlWNW5vdFhoYk9rNjVlWEtCVW0xUWpBVWZRaHFrYnZSWEZINW41aENIWkNhdWlmTmZDZzRFcjEzM01FaHl1SFN3QlpwMURkMVI1ZU80YjdIZWlRaF9iSGJOSUgyUGtpa2lVUVFLQnRLMDN5Snpua0NIVThqZ1p0Z3V3YW5L": "https://cadenaser.com/nacional/2026/07/24/ferran-dalmau-ingeniero-forestal-lo-que-no-gestionamos-nosotros-lo-gestiona-el-fuego-cadena-ser/",
     "CBMi1gFBVV95cUxQa2tPUzU4Y09HU3l4NXJVQ01VcXdUcllNS2hvNzFMSGd0RTJnUF9wSE5MNW5LVFpKbTBhVWxTdDE0V2w1Q2hkeVV6Y05VbE1LUVNzOXRhTHZOay1uc1Vsa1ZyQzV3MXcwbEp2aW96clQ2NHg5S2JMUmhpcTlIcG1DVm9fZUNabDJjWV8yekUyaVdQNER2eGwweFVuTVRUN1g5eGdVRmVsWkJLTnRaRHpyRWFoT0hpLWNQLXZRVUxJLVJLV2pDSkF1VnFZZlZtcUJxMUR1ckF30gHeAUFVX3lxTE92djdNRDVaY2FwNlI1OGhCUkMtSjExT2duaW5ZbjBIaWo5ZkFKWWZOWm4xVU9aRE9jbzF1NlpxZXRZMktaVEpBWjNPaWtoNU1zQWNOZUxTWk55RHNzTE03TVdBa29IZFlUYzNMSEQyVUl3Nmc1SmtTc0tMSU9VY2ZLa3AwcGowaUp5YlhxZ2FQcUVRZlQwUUdpZzdFV3RUVmFPMWlRWXhtRDVWR3lLLThjSTk4b2NOc1o0TURuaTIwa3lsVHowOEVpcXQ3WTN0Q0tPY1pfVDB6QlFPb21PQQ": "https://www.latribuna.cl/medio-ambiente/2026/07/24/conaf-cierra-preventivamente-el-parque-nacional-laguna-del-laja-por-sistema-frontal.html",
@@ -34380,21 +34680,23 @@
     "CBMigAJBVV95cUxQY0ZtNVN4Zk9pTjlBeTF0amc4SndkaUZTRVdHcHpVVVc1cVJack9pTjlVWmxRMFI1QjJLaVd0T3IxR1lMeE1ZS1VyVnZvQ2h2NlhaYUc2ajU3SDJ5UHZnckhON1J5NS1QQUZXcmVYSUpBMHQ0YjI5djZoUU1IcHpXVWprOHBjdS1NQXg3RlZPZGx5b0g3V3RUQjZ4Nnc2QVY5d1BKWGsxMElacVBIOVZNc1lYNWtnc09kVmdpd0gwZW1EOTFBUVhFYkZYejVmQ2E2d2xZODR4dWVlU1lJcHFlYUxqLW1nTVFtYkphWXQzVklJakgwUVVtQ1o5XzVYUFFY": "https://www.biobiochile.cl/noticias/nacional/region-de-nuble/2026/07/01/conaf-suspende-quemas-agricolas-y-forestales-en-tres-regiones-ante-alerta-por-vientos-fuertes.shtml",
     "CBMiggJBVV95cUxNMFZ4SkxVQzNTRUhnajh2N21CdWxNX2l5amdYM09GREx5bmU5NGJjc1pjMS1JYVYzZHZNVEVGWVR3MVU4WlNWcmV2UW5TVWxwenUwQlZ2VWVEQWlrZGp4eFozOTdKV1ZDNUFacFlCOEI5d2dPZmhvbDJRWXNYMGxrbEIteDd5a0hZczlxUTR4UFY2c3NoVGZzbHJTWmNXdW03SXI4aEY2T3ppTUM1RW53SVhCYVdQTzlEUl9pZmU0bXg1Ymp3dXRVZXFqeVk1NXJwZFVtR09PSTdyNjNiZDItVVZmeVJJVDFNU0pzNkhhNVdpLUduRUw5YjlNcTZEVzhHNnc": "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2026/07/23/valparaiso-formalizan-investigacion-contra-funcionarios-de-conaf-por-megaincendio-de-2024.shtml",
     "CBMigwJBVV95cUxPcEtYT0ZUb0MxWkFzRnVrb3IyakJyaVZNUzlEcWEtSVNnQld2dkFENzM1SlJHcjJ4cEN4V3BmOVBUeEM0a0ppVGNqbjFXNHF1SnhBNXg4U1Zwbkh6Q2YydjlPTm9ZdnZkblBrZ3d2NlRDTEZNWGZ3dzhKRmctblN0b00tbTJWbWJpdmNKSmczbkxGdTBGWE9HT01icEQ0UmJXY2ZMN1NRR242bFhXX05FZHdsX29wSXMxb2llTThuampoSFV0dVNadVZZdUF3RkRPaWhHZktkUkg1aXo2X01LcW95QWZmR0FJX0J6TGwyNTd6dEZyUWVzUExpclpQZkFqZjA0": "https://noticias.udec.cl/en-la-prensa/experto-en-ecologia-del-fuego-hay-que-adquirir-una-cultura-forestal-si-estoy-en-el-area-rural-en-algun-momento-va-a-llegar-un-incendio/",
-    "CBMihgJBVV95cUxNT0RGZ0w5eW5QQTFONkdTSlNwRTY2bkFtRmY0SV9KVXkyVjdJQ2xyM3RRU19CNGk1WnZiMkpTQnZYaFFGMUxnMW90endyR3otZERrYm5SSlA4UHpSYU94cVp3NHAyeUFRaUpaaXBWZzZjTHdDSWpVU3BMUVVETWpoYnFGVVo0aW9HaXViY2lTNHEzSld3RnNBUW9GdjI5SGFOQU9nc3VIdWZfZnZWZjYwYTJFa3RlaGJjMGVFeDRpdHNjRHZVdktsbHltUV8zSkstc1E3UVRvUUVHMnk2djBlc3FVLUR2NTU5X1NoV0dhdEhESmVYXzd4T3ZFeDlxSHlid0VITzdn": "https://www.biobiochile.cl/noticias/nacional/region-de-la-araucania/2026/07/03/solo-uno-permanecera-cerrado-conaf-reabre-parques-nacionales-tras-temporal-en-la-araucania.shtml",
     "CBMihwJBVV95cUxPS1FqaVpOY01LeWpibldPVlI5aW5SV0dsMGVSSzZob3Y4bVRzV0RsYUVDTEtCUVktMkR6UW5CbVhBblhrWmMxNFVhU2pCVFJ4X1hzVUFqZktJLUFmSy00bzdjNFI3TXFEREtXbDU5dHVEQXIwMEJZWEh5UlQxMVg1V0xwTWVKaU9xdFIwdkJrVVA4bFVhdUZnTTZPN2FvbEFuUXotbDYyQkY3M1dtYlRmRTlBdi01ZnZDbHlIYl9qd3BQWGtJaTBDeXI1ajlJZlZTdEV0Zm54WFpVN1M0UEJlSjNQZzgtVkhBdWFpUVJBS3A2SDRweFh0VEhxUDUwMDM3WU9Pcm1IUQ": "https://www.biobiochile.cl/noticias/ciencia-y-tecnologia/ciencia/2026/07/07/de-las-inversiones-mas-relevantes-cmpc-renueva-centro-de-innovacion-para-la-industria-forestal.shtml",
+    "CBMiigJBVV95cUxPSkRyUk0takRVaEk3STY0eFJkQ29XaElzUDZNSGJTUlhzekRXbDhPbVZkRUI2bEZiVzFYVS0xM1M5R3FEX3JsUVJyazdpcnBBV3Z1T2J0YmJWcEZuZG1YWURRRUJfNERJbFFUREhzYWZBcDVfT1ZEbDMxWGY1WldXVWMwTUxGb2xDNFJXODhtUU9iTC1GRkZiTnZ4VnlmZHl2b2lDOHRUWTk5bzNGVUx1YTRaaXgxNk9mLWItdm5Yekw5Sk5TTUFrcmVoMXJseWc0Y2tQRWhUT2xmeWRYSW8waTBkemNkRGZvVHhwTVFxeTZudlVhNnZFU0ZTZk9POGlQVldENE0yUkdlUQ": "https://www.portalagrochile.cl/2026/07/25/consejo-de-politica-forestal-conoce-avances-de-la-nueva-institucionalidad-forestal-y-de-la-agenda-legislativa-para-fortalecer-el-sector/",
     "CBMijAFBVV95cUxQdnhtRTltemZLZkViS1d2VFM2Q0tZbXkzUEFYcUR2MFMwc0F2SkRJdnh3cm9sa0R5cmtTdFpOSUZPWDZneTdqT3FrVGNVODkwcHFXTENPZVhDSW1lYnhUWEtXamFkRjJScnhQakRoSDBSQlJKYWhhUXIzY0ZiZjFwQmxuOWxoUlFLZ1RGTw": "https://trade-news.cl/una-cascada-amplia-el-valor-del-patrimonio-forestal-de-arauco/",
     "CBMikgJBVV95cUxOMEQ0d0hkeE9yb3hCc0FnUXBFQWRNTjlydDNJdXVTRzdMOW5hb1c3YVhSNVRyLU51cEJNUmZDQnRITDk0R0h3Y0ptbUR1U2lhYmtScWJkbTFUcVg4RC1WRTlUN0pJcm1RVGlpQnVqMmlCOXBIWWd6d0tReG9USXQxa3c4dnpHS1E3Yml0OVBZM2R3U2lYLXBGeXhTMTI5eFp0NUFYTnhsS0Q5RWFTZjE4TnVlREZMMzlhWG1FdGZVc2lHS1JoRnhRMXJxVk0zc09tRTQ0cTNFUFZ4dUxVNTFKNDBjWVpjVDdzTFc3VURpVjJ1NHIzcUp2WG9VN3Bkcm1adXVhaHp5dVRlRUJTRGVrZHJR": "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/06/16/crisis-en-sector-forestal-empresas-contratistas-de-cmpc-suman-cerca-de-700-trabajadores-desvinculados.shtml",
     "CBMilwFBVV95cUxPMTFPLU9pRmxpYTFmR0tjeWJKdHIwYTBackRRWVowSkFaRGUySFRvNG51QWJnVVVMSURmTmpKbUZfZVdfQWtuTk5sU3ZkY2hHTUI1MWhwTkJ4QTV1WTRCV2YyajlPZzhMOXFSWUtxeW9Tc3k3VXdQc3NZa2FFT1ZHS3h4OFp1R0ZYRnJ1bHhxWGRsenFQZXFj0gGXAUFVX3lxTE1JUWhDazd6U3dDWG5PQlBJS3NQcm04UWxYQ0NQcW11ZGxJS044dXJjOUxiTGVtN0F2bm03a1JjYjZoRHFtWDhocUpfeF9paDdRZVg0eWYzUjJZMnA3eTQ4ZFFaZmxPdWp4MEJaUnZTcTdjdW80S1ZCdmpFQUJ5VXpaMVdERzE4aEtKZzRzM3lKSFBtcHVlU0E": "https://www.dw.com/es/evacuaciones-masivas-por-feroces-incendios-en-sur-de-europa/a-78092576",
     "CBMimwFBVV95cUxPYUJ4R1ROMTFjRFN0MEEyVHhNV3JUaEh3T3BycUFfSXluSE1fbVZjU1UtNVIzeVNPSW5xZjUwd3RuWGluN19LYjdGQkZDNEJKSnJPYlgzZkhlM0Rpd193U1kyenNVaXRIUlU1d1BFbU1hUk1QMEVkejJURlB3MTl2ckxYbHZ2dk5LcWFMTjk0Qkp5RUc4RzRjREs1UdIBmwFBVV95cUxQemxUNTBGV0VOU1ptSEJLbDY0dTFvZWk0Q25VdThkVW0tSTRNU3VZZHQzSGZhUGJGS0RWMHNHNDBKdHlUcnpSdFdDaEY2QUE5OWd0THJsV3ZqcXRNVlJzQ2VIeG16ZDdGcnBvbTdnQ05PaDJJanFycHJmRU1NOEY2NWtYaDc2bmVGQ3UxRWdTa1ZFUlBsUHcwUVBUTQ": "https://www.dw.com/es/voraz-incendio-forestal-consume-1700-hect%C3%A1reas-en-francia/a-78060450",
     "CBMimwJBVV95cUxPczYzZUkwR29FMVJPM0I1REpsN1YzY1g0b0pNcEdzZy1pSF9ZYmpJVEZyLVVBVzJVSEttbkRMWERJeTNzVnlFS0t3dTQxaXlIZkNtWm5LVUNST0NleXRqWFk1eG1LamFKR3pmRUtleVFlbTNFN2xVYjl6Yy0tMDhyUFNxajZveFh5N0FHV2Job2ZnaUNKd25Ma0UzVVZxRV8xSVZTUVEyN3FjeGNac0w0X0hzcGQzaEh3SzF4TnRaakt4UXJ6YV85Tk9kZFRLYnFBc3czVWhZSVFkOGM3YjRJQXdXeU5JTGk4WDVsZktzM202STk3WTBHQlV4ZU9aUE5CZk5PdlBIUGpucUdfaDU3ZnhLaC12ejQ2WEY0": "https://www.archdaily.com/es/779556/segundo-lugar-en-concurso-de-futuro-edificio-fadeu-cmpc-chile/5682ad37e58ece2d3c000115-segundo-lugar-en-concurso-de-futuro-edificio-fadeu-cmpc-chile-imagen",
-    "CBMimwJBVV95cUxQZ3pNcXp6dENoYmtGek9aQUhGN0Voc0Y1VFNXVE13NzhkVFZLSnNVVUo5QWFPdWlzTVBxZzJfWlZKRnlFVlQzUW93SGh5dGFMRUthZ0lYU1FHdUNqYXB1RlA1WFMxRm9Xc05LQlNNalJaZ3pfbm1lR2N2Nl9EX0lieVp3SktWTEpkODVNeW9JZ3BkTThhNjR5SXpoSFRLUVRURDVIS2V3bVdPTjNnbDFDVmEyUHpyZUlVeThHd0FTM1BVUW83OGgwbVpQdW43ajBlUk4zRjJxczYzYVRnNkY4WENMZjJ1LW5Ubi11NWFiRE5fTmVNWmFoZWpSaTNORmhlYTB1TGY3WV9TbDQ2Z0RKWi1ZbEZfaGFtZkZn": "https://www.archdaily.com/es/897153/por-que-es-importante-el-parque-forestal-de-santiago-de-chile/5b3cb3cbf197ccb47d0000fa-por-que-es-importante-el-parque-forestal-de-santiago-de-chile-bordes",
     "CBMinAFBVV95cUxNMWRoa0MtMndtanJHYmhrU0FySFVuTFRubHd0eHhNX1psNWJWU2hEcUc1QzEwWl9wWnVZSU9uX09HRzJIMmVFTnQzOGF4Qzc0WlZJeE42Tzk0eW9uNU5rOUJuR1ctOGFOUmdVUTZQbU5JdkoxZXd1Rm9nOHRpN2h5cG9qMFYyWkhzMG5ReUprTnBpYTR1aW00dE9TbnE": "https://portalmetropolitano.cl/sbap-y-guardaparques-firman-acuerdo-para-el-traspaso-desde-conaf/",
     "CBMinAFBVV95cUxNWUpwRW1GREFoNXI1S25XaURtQ3J1NlpONnBDbW5BTFZoVC11TUpHZzY3Um9MR3hBbm85VUxFamZ5c19pVTNmSWs3Sk9YSTRNeG96c3BlbWxwQ2pQYkFYMHJzTDhURWV2QW1NNWJrY0czSkprSjdMRHpwTXRyUThJWW10NzF4ay1WTC11OXRCOTdNcENQcHdSZ0Z0N3I": "https://artes.uchile.cl/agenda/241934/exposicion-obras-extraordinarias-en-el-mac-parque-forestal",
     "CBMinwFBVV95cUxPaElEV01vbHN3d2RuWVFCLUJzM3ZTUU11ZGtOa2gyTG5aQnpNLTVxclpyQmxSRWE4SmRKdlBtTzlvLXRjQndXOFhtenFIck1Kc1Y1QUJtTXdmQjV5QlgzOG1pcEpoSWlYanV6NVN4eGw0d2MxQkFGTXp5YnBSTDFkSUp4cFQ0cVNNanhzaTFIMGZYUFRhZDh2QUNVVktXWUk": "https://uchile.cl/agenda/241956/exhibicion-tierras-raras-quadra-minerale-en-el-mac-parque-forestal",
+    "CBMipAFBVV95cUxQRzNZZUV6WGp2ZXpFd1FXRGhDdzZIZkRsQktoRm02a3VUUmd5OG9Ib3lCbUpzcm9PVFR4NEdmSm8zVXdzMG9LcHhqaUhESGlHQTl3cW1Hc0h3VGRfejlXNzZGRDc2OXItVjVuYXR4V2lCSFZ0MVFadlVoTkc0LUotVzRFTWRMRUlncFZiYjBxQnlpUUlIVVc5OG1udm9LY0h6ZzRyQw": "https://apnews.com/article/europa-incendios-forestales-francia-espana-644a2e7b301b2376964214411cee3699",
     "CBMipwFBVV95cUxQSEpXTWtPS3diUVp6NnZpVVE2WmRHZWppOHZyRFI4MGx0cjBPQjVVZGVnOGQwZGdZdlNScXRMLUtJQXNram1pZUNVa3ZfMnVDVFpfRmt4UnVDYWk3UDhOcFNERG5xV3J1cTZINFYtaWN3ckYwRmw3MWhYS2ZmeHBFcVEzVGpoalhYaTRNUkhhbnpqbEVpeXliMDVFUExBNkdYOC1yOG4zUQ": "https://artes.uchile.cl/agenda/241956/exhibicion-tierras-raras-quadra-minerale-en-el-mac-parque-forestal",
+    "CBMiqAJBVV95cUxQNkF4NkJsTXRQQjRhbXdKV1hDNDBZbk5sLW11VUZqZDZBWWYzU1lIR2oySXJGZTlRRGlUODBiZHlEcVVraVFlOVhTNkNjWUNqakNUaGRzQlBlNmF3R0F2bHhCWU4tWXA2bGwzbE1VR2d3TXZaUElkXzkyTUJ3eUE2WE1yWEN0VFFxTTZMY0hxb2pQTG9rcmlBNUFzb09xN2hxVjliMnF3Qk80Q1NoNm5oQlNMLUF2SUdmZHpyb1l3SkhXUzNBSUNDb2oxUTFBa1V6dVotMzFLdWJ4M3dVX0dzdDNRYXBLTzk5NGdyNllkODBhc3VsLWRRdDNSejROZDRjVWdRZXhDTmxaZFF3dFFXYlpTcG8xaEdCYnhtX19kZ2tnSEFvRVRPUQ": "https://www.archdaily.com/es/897153/por-que-es-importante-el-parque-forestal-de-santiago-de-chile/5b32c224f197cc88af0007dd-por-que-es-importante-el-parque-forestal-de-santiago-de-chile-fotografia-aerea",
     "CBMiqgFBVV95cUxOajhncGtlLUV0ODB2bWZjLW52aS1nUWE1Nm1SdEt2Sk5wbk4xSnQ5U21JYnF6aGd1RnItSEVDOGZPME5JNUlTaFpmMWlJTk11d2ZxMVZFV1Zka0tnbTV5VXowWlZXN0dvTU51d0xsd2pFVDRZTkNveVMydDVrRUxLbDhMVUpLQXI1ZjNkbkcyWWU0R2V2WHRMVzZTbnFvR0hnanB6SVlxT0stUQ": "https://www.t13.cl/videos/mundo/incendio-forestal-amenaza-madrid-hay-evacuaciones-masivas-europa-24-7-2026",
     "CBMiqwFBVV95cUxNWm5rVm5ZbmZhdU10M2E5QnZlMmUyaXp2NmJpb3pjZGctSXJ0My1ZajRucVNiY3hranJsSGItVHJwX2RFejk1RHE2ekprZ2NZUGZoaXUyX0x4d3AtTjd0Q1FDZlhEeTJoUXhIN1Z0LUczWGdiLXhKTzFWQktuV3o5SWRyU2RBbk9VckVMYXBYdHU1QWZ3MF9MUTJqRjktRm1VcDRSZFlBc2xfeGc": "https://www.saladeprensa.cl/cierran-preventivamente-el-parque-nacional-nonguen-debido-a-sistemas-frontales/",
     "CBMiqwFBVV95cUxNdzladU5ITjQ0ZlN0VXg4dEo2SWZISS1ZM19xX1FmeXV3UkdhczRPdllnTUx5MTNjQ1V1SVY3dzBNenFhODgwRFNTZHhVa291RUctMnhvWExsaExzSV9EN2Uya29la1ROQUoxM0xKakRhSWtzYkYzOFFxQzdMMHY4TV9RT3VmWmpMYkx3aU5KeXFCUk1MSW5iVlhHNUVKTms3TWx1Q2plVWdGaXM": "https://soychile.cl/valparaiso/sociedad/2026/07/24/958705/formalizacion-megaincendio-funcionario-conaf.html",
+    "CBMirgFBVV95cUxOakh5VUFEeC1nWGcwdVN3ZDNUa01FUk81ZGRDOTdSaVl4TU9vMWdaZWVOaFlycGZCZzlUcUI2Y1pDVVZyMjNWNmRtOUlkQUxkc1MxR1pFQ0xkTVBwRkU0V2plTkF6QmtkNlZtdWFnUFllOFNWQUNEY1ZkV01KT2RIWjlzNEZXdUFUUHVmeU1hZld1elloRU5rSGFsUTFsaDRsMFdKYmp3bzB0dVV5UVE": "https://www.cnnchile.com/pais/conaf-anuncia-cierre-de-parques-por-sistema-frontal-revisa-el-listado-completo/",
     "CBMirgFBVV95cUxPSVlMdnBxTVB4YmtJejVGX096NHZtUWlhUDRtSldwUzBtbzB6Z1pyaXM5dUJVU0dUM1J1U01KZjlDLUZDT1JrWFloVGJtTF9kMk5IQlVEbVBmOEJkQm5fdFUwRFFrWUhXQ25qQTMteVVScHF3R2JfTGtySl9XeUl5VTZsMHgyMzVrUkZtY0Z4by01TEhUbXBjNmZSejNVSEV1eFlxT3BPeUhwZkJTT3c": "https://uchile.cl/noticias/242349/mac-parque-forestal-inauguro-su-segundo-ciclo-2026-con-seis-nuevas-muestras",
     "CBMisAFBVV95cUxQYWVTS2drdU5kVnppa1Vqd05OWDFsODNLMUhic20yQktKY3pobFR0cHZFTUlxanNpUGRoMTREc09pOFdwSmtKcUJGVDdpdy1LWTBsMnJMV2QzLXAzc3FHMEVYY0gwOXByWHQ4SnlacWVCU0lheWk1MS1VbDZzdkx4NW5qU2U2eWNOOUhOOGxVeXdRcmY1QXhGZzVWaDJCSTdMcjJuWW05d3FERmlmemlSMA": "https://forestal.uchile.cl/noticias/242701/publicacion-de-nomina-para-la-eleccion-de-director-a-de-departamento",
     "CBMisgFBVV95cUxPeENFd2xPUFE1eHRKcWUteHgwZ0lHaUo4eF96Y2xQeHRzRldXT2pKZmpmNWxSUGlmekZSdGowcmd4amloWC02T0xFSjd5YVZMYlc0bXpVYURRLUdyYXFiRDE5OGxLZ3BpUy1STjllNFpJbGY5SUtwa08xNHJvcWMyWFFFVFYxemxsX1pUYUpldDR5Sm1OYW1VNDRYQjZpRGI2MWFMZHlFU1hvYVh0ZE53UWJn": "https://forestal.uchile.cl/noticias/242725/estudio-revela-el-aporte-de-la-arquitectura-en-la-semana-de-la-madera",
@@ -34403,6 +34705,7 @@
     "CBMitgFBVV95cUxPZTJIZnhsVUFNTk53M3F1VjVWSWswUUg4dDFoMHEzb2tGcEVDREk2alpPQ0ZTMDJRdGdYVnpGaGIyUXFYc0FFQ3pDN1V4TV9oQ0w2ZlFfXzdVT1ViVm5WcUFWeFlzNlc2eDZ5b0VVNUZ5VjhySEpDcE1KQkZpVnVfQmxvVFhQc003MWFYS3V2M1BqY1UyeG5lN1RtOFdrLVo1eU1UR2NFcVpkTEJaN3cxUkNTbk9pQQ": "https://www.comunidad.madrid/seguridad-emergencias-asem-112/incendio-forestal-sierra-oeste-ifsierraoeste-julio-2026",
     "CBMitwFBVV95cUxPQ2tlREJSWjdXQXB3bE5INDNxWWFCSGkyQXJ1X0h4QmR5ZWVrTU1ibjllR0p0aW9OQVdXd3dTUTd1SmtRbkZZRVgxNGZ3dlRFTmlrUkNmZHRCbEItYmx2MFViLVoxUE5BM2xWYlZfcG95aXZkMkF5aDNMQlFsbmZtc1p0dTNMOHQ4NC1RajJCekZuM3lXOHdSbjZSNktyN0RPTVJENzNVNm94cXpTU0R6aERRU0hWQW_SAbwBQVVfeXFMUDdSTzc5MTM1TnlFLW9salk2NlMxUXdrMnplUDl6OWx3OFNTNU1XYmRQaXBxcDd6OHJaVThBM3Q0QkdyVzZrTEcxbUVyTTlGU2xKbVc3ZGZSRGY2Z0tGZXV6b3AtTXJSZHo1RU5ZYzRMUGh3U1ZBTUkxM2VfcjM5X1dlS2YwOEt6Y3F6REJrY1hmV0FKaW14RmZiUy16WWEyalFneG45V1dnNVZYNzNJY3FjZ1NseHNEM0tvNEE": "https://eltribunodejujuy.com/informacion-general/2026-7-24-20-58-0-lograron-extinguir-el-incendio-forestal-en-volcan",
     "CBMiuAFBVV95cUxNSHBNcXNIRmZmNk45WV9wdVVwS2FMSURLRjA2c2RNbEV3N3p0VXRxTjZCODVIeUZLZHlDR1N5anZONkc2NGV0eDBmSXliTU8tX2d4WGNlR2tPd0o0OTNHdFpXbTVQMGZhS2lNSDR5OE50MEN5R2gtcmtIVVRGZnlIbnFabVV4aGhVdlRRaFRXYVJYU1dPTFZhWHl0UTBwamR2X0VGZXBMTmVEelBWTUNnVzg1bVV2OTI4": "https://puranoticia.pnt.cl/region-valparaiso/formalizacion-de-funcionarios-de-conaf-reabre-debate-por-responsabilidad",
+    "CBMiugFBVV95cUxOcENyNlg0Q0hjRmxGZFNhX3JBb3dzUldyWW4tNkp6NzN4NzU0SWlxX3ZtUTZBZUVkZVEtbzJHTTVleU5iOEVRd2p4SExkSE0tczQtSWNOcVByVTZURTVsb3RVVDZZeFp3dUdrZGkyRmVRTnd0WUFGLUItbVl2WnFCaklvbTNxY2JMaWcwelZVWlN6UFdQNHJtQ1Bac2UtU2x0NnYxSFpXVXRkMkJhSE5SRnFKQ2Y0c3AxYXfSAdQBQVVfeXFMTzFOMm1jSnNzVDlOT0h2UkVPNEVKY2tLdk5IVGd2dTZQQXk4MWJPa01SUzd1MFEtVWZzNVZneG9CWEhGRjVIQ3RsU3VlSlczdHRNWnNGTzhNZzV5andNb1Jid3BoZTh4YzRFMk5wZTYtcnZVNUJvZUs2a3haSmR1d0QwQldLSkE4Unlhem5pR3hwZ1lXNWl3cFluOEVsb0RmRDFsSEpveUxsNHhfZXBkTnJ0bFREUUctNnZpdXJQUktHUFVmTDRDY21MQi1kYTYwU1NEODQ": "https://www.infobae.com/america/agencias/2026/07/25/portugal-refuerza-el-combate-a-un-incendio-forestal-en-el-algarve/",
     "CBMiuwFBVV95cUxNYlJxbXVFNDVVRHZ6c0VJMjN0Y0V0dmY3TWYzLVUxZkNZdGlwdTIyQ0FyaVQ1R1BHdmFqVW9zTmNDSUVXNlllQXFCbk15bTRzSGpDdUk0QkFvR0RrT1hQMXpfY3hXOWQ1dlhrNGI5Y0JIa0ZnTU1lZFhIY28teTAxSmxSSVRWWWNIUW0yYTNvR3RqMlA4amZxX21PRjVBT05INmYxQXl0bHMwUVR3aUVVWXJqZVJITTFGWnRR": "https://www.portalagrochile.cl/2026/07/24/conaf-busca-repatriar-216-cactaceas-que-se-encuentran-bajo-custodia-en-tacna/",
     "CBMivAFBVV95cUxPd3ZoazZ2R1RhX0lMWlR0YVBaVUpQQzNOUkNnaVJYT1k4UFZjZWZlbzdERm5Bbm9Idlc4c0FUcXVZck1qV2hYOVk3ZkRHY1paQ2ZaaklZa1lrbTczanc4bm4yc0FkTmxBWXZPVlpzZDkxSVFpMW9GQnNaZDhfZ29TN0pWZlZFU2x4OExULWRmb09WLUI1SmZKM0ZfcEdwYWlDaXJhclRTM2tWUThRREx0RDdnOWNia0RWTmcyVw": "https://sabes.cl/2026/07/24/parque-nacional-laguna-del-laja-cerrara-este-fin-de-semana-por-sistema-frontal-en-el-biobio/",
     "CBMivgFBVV95cUxPUUstY0FnS2FaUzFyU29KYnZFZDRvSnlKUmtSaVUzMllxYzZYTEJjUkhRZ0RfdmEwcTlhclhmc1FMTXZ2Z0FCLWNBZWIySVlfMjlRNzJJTXhKUXM2X2ZaNlgzUE8wSUYyTk1EampFaVZwRFJhWXdEUkNsTENoTmVteGM5QWtJbEVfWmczN1REMlVLYnNzUlhjMzdyTzd5NkVqZFBqcXB6Z2VpWXVkcUNrb216WkhkYUZ3VlNEaVdB": "https://www.monumentos.gob.cl/noticias/aclaracion-sobre-proyectos-relacionados-con-la-fuente-alemana-y-el-parque-forestal",
@@ -34414,7 +34717,9 @@
     "CBMixgFBVV95cUxPc2pZc0tTWnhmRGwyclg4OWYtRXMxRFlTYnkydmIyWnlyZjFTRHo0TFZrcVJLak1aQmUzMDNSWGxxZmh4cE9DaXBURjU4c3lHUGNiTkVqY2VSVkhuU0wwUEljQndGTDJWaWExYkxoVHhCbVJhdmtrcGxNb1g5MXZmX3o3M19lQWRFZ0NuQ2VDcVM3SVVyTmVvbksxZ3VvOGtidEQ0M3BnSFMta3Bya2Y1U0N2clZzSUI4MERHNVdYVFJPeDZJcXc": "https://elcontraste.cl/policial/2026/07/23/recuperan-vehiculos-robados-que-estaban-escondidos-en-un-predio-forestal-de-cabrero/",
     "CBMiyAFBVV95cUxPOExkdVFmTkFJMTNQVVpsLVN1cjZUTkhFUG9qUU8zZE5iUnJNdWlhOW1DNzFJQU9SS05wZWlTNGlRald4Z1hmcFFONjJxNmdNbFF4RG90TGhJQ0t3elFyXy1wc0RGN25KX2lpdXFfeGVzQVR6Z2g3M2ZDWWZKZEVoOWhEcU1GX0FFdzNxNjMzYlNNbno4VlFEREgzUERUMzVJZ0NVYzREekQ4aG12M3pEZzJxa2JfWkpLMlJ0aFRDbF9fZnNtTGZYZNIB6gFBVV95cUxOUjJzWHRUNzdiVTNwd0xsLS1FMUQ3Zl9mTUZlRjNIR091Sk9zRDhheXhJZGdRX09hVUpzdmZEMnVIZjdPOWRaOUprRjA4ejNKSGNGNEdjdmljT1ZyWm5zWnFSYXRidGZWUWJORjlyS3YwZm9tb2gxbEFkenR0RmFoOGkySFZZeExzdUR4cUp3YjdBaGRqd1FTUFBrZFJsSW1QcVJFVTF5QXlnQUZ3VTQwc0FPS1pCNXZwVFZScl82ZkVUclA1dlZzNFVkMmMzN2d5Tjc1MV9uaXZiQlN6dGw1QVNhamtzVW9VMVE": "https://www.latercera.com/pulso/noticia/cmpc-redefine-los-plazos-para-obtener-los-permisos-de-su-megaproyecto-natureza-en-brasil/",
     "CBMiyAFBVV95cUxPUkZwdXpJSXhtVTJSYnVNX1pVdTh6QmF1TnA5ZEVCU3o3eGEyMEI5Um1CdUxKMWdEbWhOVjZ1YnVseUhPTU9FQXB0Vk1NdE4wcFNDT3YyN19ZVlF2UkhBNHp4ZW9mMEk4ZVFJUGVkSlhZNy1vSGZTUXhqM2QzQXJXTFJpZ0puRWRVSmR0Nm5uYk9maWM0Vk14MGdIR0VwVHdmSnhKclZVTXlHbjk2eXp6QS0wck9sMTgwWEoyMkp3RXpKTEkyWW1STg": "https://electromineria.cl/sec-reconoce-a-planta-de-cmpc-como-autoproductora-electrica-y-amplia-alcance-para-procesos-de-terceros/",
+    "CBMiyAFBVV95cUxPblNmU195MXBDT3RWMlF2NDk2U0lBeHE2bk5GQ3RWSG5aVWJzbHpJMFZpVGQ5M3BEOVZ1c2ZWSm02UUxFTEY1Y2U0OTJLTm52Y3p1TVN1N1VDWGJGdzIyTFNPempiVXpUb3VzeWVHU3gyVlpONHIxdVBUelVEYXJxRWZ1UXk4VzR6dXg3Y25RQVpiQmZHM0o4bzE2ODR4YnJQZGpBR3FCb3hQRi12QlMtTVFpMEFMR3U1VnA0S3YwMGZOajdOV3RVZtIByAFBVV95cUxQMzV6NDBaa21pZDAxUzAwU0N4bFY4bm9NZzJHVVpteUw5aWJyZjJiQTJmY0RaYktkS2xhd01QRjZ0ajlOQV9iNkRjVS1GTlhDS2dBTThhY25oQzM1Z19ES2dLQjlrOFRmYThyQXNFaVFHRmdBOFN2NTRwX2FrSV9PaEw1Y0dKeG1Iam9lTnBLTWViNHRtN2dGdXdOTzVILV90QUVnRFJyQ1NMNkhQV01JVi1mUjRHLUhyaE9CVXp4dWZUOHVENWR2OQ": "https://www.dw.com/es/pedro-s%C3%A1nchez-califica-de-dram%C3%A1tica-la-situaci%C3%B3n-por-los-incendios-en-espa%C3%B1a/a-78095585",
     "CBMiyAFBVV95cUxQSTJvNmpYREJPRFB1aHl5RnNiRkhkejJEUktTMXdKUF9PN1pzTkt1Z2tISEpEWnd2eUROREJZRmRlZUNlc1BJR2tPajRzVWgyNmVUc3hKdkZQTm5hYzlEb3J3cDM4alFZYTJIYW50bTFIUGJremdfaTdSZndkdUdXNmUzaWZoa1I2MlpsOEZfQjRzNjVKT29PMzc1VTkyUThCT0V5aHBhT3Q1RmM5Ty1KTnBuWVpsYlprN2JLZ3RNVUZzLVg0SlU0Z9IBzgFBVV95cUxNYWppUVY5X04tQ0NfaFVtUVhudjVhLWxwRDdMMFBmQnlqV3NqS0pTQ3hTYnlreWc2LVNEd29VMFoyU0NTbEk1ald3X0o3dFdvY0tqRFFHc2tmZ0p6Q3BBb2tsVFpuT0VYUThnT0VncWl1Nmpkdmw4bGZhYWJlYm1adzhPb0Z0TFFBTXlibTRRQlhnWEJJQzJZSWFfaGhTalVIU0hjWmdwQ0NwSGJzMWNNa3Zwd3FCZXk2Y0FGemI0R2pLM3hOQmt4ZlhzRTZ6QQ": "https://www.gentedesalta.com/mundo/un-devastador-incendio-forestal-francia-dejo-20-mil-evacuados-3100-hectareas-destruidas-n10131",
+    "CBMizAFBVV95cUxQMnZBTjhNZlFsdm9Za0ZjOTBJOG1JaW81Qkg2WFFnWWdrS0ZTTy1oVGI0NnRCOTVDMDJiVUp0V29vbnF3RVdBMUExQ3pwUENSZmdGVUdIbEd5QTZXZjAxTUx1MVNHeFY5RU1zdk81OVE5Tkc2NkJwSzFUbnM5NDFBX3BTTjdsaHhoVFZQbjBjOF9tM1RwRnZyeEd4Z2drR3B1bFZzTWpkaWFzazhQcF9HWWd3cFRTYW1ZZm41Q2lPTGFhSHMxUjNySjVKbjnSAdIBQVVfeXFMT2l6elk5VEdvYnRyUVRNZGF5WEFZLWJweEVWTGFZZUw3Z2Z2alY0WkFVRnNSd1hWTGZpX3BIczZHdldKNC1nMHVabU94bklYcUc5a2JRM250NTJsQzZQVFBZZDNjUHZmZktjWjNHT1cwOHRDeHNjek5mRDNheXJNb0xUVm5pVzVTb3pqSXpmTXhVSFo0UEtpeVJIWHIzQ184bm54TGgtaXFrdFFBYXYyWk4xUUxHbE94RjRPNk1pVVpzSDdVeUdOZXh6d2h6R3VrS1J3": "https://okdiario.com/espana/seguro-del-hogar-cubre-danos-incendio-forestal-lo-que-debes-saber-antes-que-sea-demasiado-tarde-19064539",
     "CBMizgFBVV95cUxPR0FzOElLNVNINHlBM1ZSeVBhS0MtUmxtSlVlTGFXYjBBcndMVVZ0ZlJRSmZCTjZ2N3FBRTdaWHJyOEk4U05hNFVieDBNQ3BtWUp4TVlQZW1Oa1VTbVg4X1NseUpYV20yd0duMGlBc3pCcWhwM2xNUHlhaG94NmJCaFVFdVVSaUc5ZzN2SWxqXzlQZ3VBOV90OU85eHlVaGMyRkVNdUpFNjVBZXd6LWdDaThvUjl1QjZheDRMRTh4WVF3RXJXekFzOWNSaHZlZw": "https://eldesconcierto.cl/actualidad/sbap-y-sindicato-nacional-guardaparques-firman-protocolo-acuerdo-ordenar-traspaso-conaf-n5460743"
   },
   "sitemapVisto": {
@@ -34445,7 +34750,6 @@
       "https://www.meganoticias.cl/mundo/527710-banco-mundial-revela-millonario-impacto-economico-tras-terremoto-en-venezuela-danos-millonarios-reconstruccion-23-07-2026.html",
       "https://www.meganoticias.cl/mundo/527749-enfermero-encontrado-muerto-jeringa-abdomen-hospital-argentina-24-07-2026.html",
       "https://www.meganoticias.cl/mundo/527821-trump-venezuela-no-esta-lista-elecciones-destaca-avances-delcy-rodriguez-24-07-2026.html",
-      "https://www.meganoticias.cl/nacional/527659-temblor-quintero-valparaiso-hoy-jueves-sismologia-magnitud-23-07-2026.html",
       "https://www.meganoticias.cl/nacional/527661-persecucion-policial-robo-vehiculo-san-fernando-tres-detenidos-puente-alto-23-07-2026.html",
       "https://www.meganoticias.cl/nacional/527662-detienen-hombre-ordenes-vigentes-homicidio-femicidio-frustrado-recoleta-23-07-2026.html",
       "https://www.meganoticias.cl/nacional/527663-exencion-contribuciones-adultos-mayores-como-funciona-requisitos-23-07-2026.html",
@@ -34535,7 +34839,6 @@
       "https://www.meganoticias.cl/patrocinados/527718-el-conferencista-daniel-duenas-llega-a-chile-con-su-primera-gira-internacional-se-presentara-en-metropolitan-santiago.html",
       "https://www.meganoticias.cl/reportajes/527742-hospital-linares-cinco-anos-retrasos-obras-paralizadas-reportaje-mega-investiga-23-07-2026.html",
       "https://www.meganoticias.cl/reportajes/527830-testigos-en-la-frontera-armas-prohibidas-contrabando-fiscalizaciones-fronteras-chile-24-07-2026.html",
-      "https://www.meganoticias.cl/tendencias/527658-ignacia-michelson-acusacion-contra-cony-capelli-parejas-rehabilitacion-23-07-2026.html",
       "https://www.meganoticias.cl/tendencias/527665-luli-volverias-con-tu-ex-2-23-7-2026.html",
       "https://www.meganoticias.cl/tendencias/527667-savka-pollak-primer-nieto-thiago-convertirse-en-abuela-estados-unidos-23-07-2026.html",
       "https://www.meganoticias.cl/tendencias/527673-jose-antonio-neme-estafa-sms-tag-falso-cobro-autopista-23-07-2026.html",
@@ -35385,6 +35688,7 @@
       "https://www.radiopolar.com/columna-opinion-hyst-pan-hambre-manana",
       "https://www.radiopolar.com/corfo-reafirma-compromiso-hidrogeno-verde-proyecta-magallanes-plataforma-desarrollo-antartico",
       "https://www.radiopolar.com/corte-punta-arenas-confirma-prision-preventiva-imputada-robos-estafa-tenencia-drogas",
+      "https://www.radiopolar.com/dedecon-advierte-doble-cobro-iva-compras-temu-shein-aliexpress-pide-cambios-sistema-aduanero",
       "https://www.radiopolar.com/dialogos-australes-proyecta-memoria-oral-magallanes-alianzas-academicas-nacionales-internacionales",
       "https://www.radiopolar.com/diputado-alejandro-riquelme-prep-reunio-direccion-aeropuertos-aerodromo-natales-corremos-riesgos-accidente-pista-cierre-temporada",
       "https://www.radiopolar.com/diputado-bianchi-revela-beneficio-per-capita-proyecto-reembolsa-panales-medicamentos-3534-mensuales",
@@ -35393,9 +35697,11 @@
       "https://www.radiopolar.com/escuela-carabineros-magallanes-gobierno-regional-alto-mando-policial-delegacion-presidencial-suman-avance-proyecto",
       "https://www.radiopolar.com/estudio-impacto-inversion-ruta-parques-dolar-invertido-nacionales-patagonia-retornan-economia-local",
       "https://www.radiopolar.com/expresidente-boric-invitado-lanzamiento-memorias-periodista-vladimiro-mimica",
+      "https://www.radiopolar.com/fach-traslada-insumos-necesidad-comunidades-aisladas-monte-patria",
       "https://www.radiopolar.com/falta-agua-heladas-obliga-cierre-temporal-reserva-nacional-magallanes",
       "https://www.radiopolar.com/familias-jardin-infantil-cumbres-patagonicas-piden-mejoras-iluminacion-transporte-publico-entorno-recinto",
       "https://www.radiopolar.com/gobernador-regional-seremi-ambiente-priorizaran-gestion-residuos-magallanes",
+      "https://www.radiopolar.com/gobierno-presenta-proyecto-fortalecer-carabineros-mejoras-remuneraciones-carrera-equipamiento",
       "https://www.radiopolar.com/hyst-participa-presentacion-estatuto-laboral-turismo-incentivos-fortalecer",
       "https://www.radiopolar.com/ind-magallanes-confirma-corrida-nocturna-realizara-pese-pronostico-nieve-espera-reunir-mil-participantes",
       "https://www.radiopolar.com/intendente-jaime-jelincic-plantea-duplicar-produccion-salmonera-construir-regional-impulsar-desarrollo-magallanes",
