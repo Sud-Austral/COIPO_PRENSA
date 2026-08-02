@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-08-02T06:47:02.793Z",
+  "generadoEn": "2026-08-02T09:24:18.517Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -39,6 +39,75 @@
     }
   ],
   "noticias": [
+    {
+      "id": "https://www.marca.com/tiramillas/sociedad/2026/08/02/roman-garcia-bombero-forestal-sobre-incendios-fuego-declara-extinguido-peligro-desaparece.html",
+      "url": "https://www.marca.com/tiramillas/sociedad/2026/08/02/roman-garcia-bombero-forestal-sobre-incendios-fuego-declara-extinguido-peligro-desaparece.html",
+      "medioId": "marca.com",
+      "medioNombre": "MARCA",
+      "seccionId": "otros",
+      "titular": "Román García, bombero forestal, sobre los incendios: \"Hasta que un fuego no se declara extinguido, el peligro no desaparece\"",
+      "fecha": "2026-08-02T06:42:32.000Z",
+      "fechaDeteccion": "2026-08-02T09:24:18.517Z",
+      "extracto": [
+        {
+          "texto": "Román García, bombero ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": ", sobre los incendios: \"Hasta que un fuego no se declara extinguido, el peligro no desaparece\"",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/08/02/6a6ee5afd023f.jpeg",
+      "autor": "Sergio Belinchón Rodríguez",
+      "fechaReal": "2026-08-02T06:42:32.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.29,
+        "score": -7,
+        "keywords": [
+          "incendios",
+          "sociedad",
+          "bombero",
+          "sexta",
+          "compartir",
+          "roman",
+          "garcia",
+          "forestal",
+          "extinguido",
+          "fuego"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "emergencias",
+          "parques-asp"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "CEST",
+          "GIF",
+          "SMM",
+          "bomberos"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "medio",
+        "prioridad": 2,
+        "importancia": 75,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 470,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 3
+      }
+    },
     {
       "id": "https://www.cadena3.com/noticia/mundo/incendio-forestal-en-spokane-provoca-evacuaciones-por-vientos-intensos-y-altas-temperaturas_579445",
       "url": "https://www.cadena3.com/noticia/mundo/incendio-forestal-en-spokane-provoca-evacuaciones-por-vientos-intensos-y-altas-temperaturas_579445",
@@ -66037,74 +66106,17 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 1
       }
-    },
-    {
-      "id": "https://www.soychile.cl/temuco/sociedad/2026/07/01/956024/conaf-suspension-uso-fuego-araucania.html",
-      "url": "https://www.soychile.cl/temuco/sociedad/2026/07/01/956024/conaf-suspension-uso-fuego-araucania.html",
-      "medioId": "soychile.cl",
-      "medioNombre": "SoyChile.cl",
-      "seccionId": "otros",
-      "titular": "Conaf suspende uso del fuego y cierra senderos en áreas protegidas de La Araucanía por evento de fuertes vientos",
-      "fecha": "2026-07-01T18:54:10.000Z",
-      "fechaDeteccion": "2026-07-15T23:38:31.337Z",
-      "extracto": [
-        {
-          "texto": "Conaf",
-          "resaltado": true
-        },
-        {
-          "texto": " suspende uso del fuego y cierra senderos en áreas protegidas de La Araucanía por evento de fuertes vientos",
-          "resaltado": false
-        }
-      ],
-      "analisis": {
-        "version": 3,
-        "sentimiento": "neutra",
-        "polaridad": 0,
-        "score": 0,
-        "keywords": [
-          "conaf",
-          "suspende",
-          "uso",
-          "fuego",
-          "cierra",
-          "senderos",
-          "areas",
-          "protegidas",
-          "araucania",
-          "evento"
-        ],
-        "categorias": [
-          "incendios-forestales"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "conaf"
-        ],
-        "lugares": [],
-        "regiones": [
-          "araucania"
-        ],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "medio",
-        "prioridad": 2,
-        "importancia": 65,
-        "tipo": "emergencia",
-        "ambito": "regional",
-        "cantidadPalabras": 19,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 1
-      }
     }
   ],
   "resolucionesGoogle": {
     "CBMi-gFBVV95cUxQQ1ZKamQxY0lsNTVCWlRMZm1XemhuVGZuNnkyNE9Gek1vWGFheEdneWNXWnQ5dTFlWEl2RTdUWnZNeThIYjl0MG83eng1SlR5ZlJkQnV5bmprMlRfM3J3eGxJeU5mZldqQ2JZMzNGUkdfVVZzTXVQdWIzM1JDck9nektib2M5aDVrVlZka3loYjdxRE1va1BFMVVyUzlFa1pYTE1tTDkyTllKN0ZWd20wUW50QkxVOHNTWnllZGN6b0hzRHprZS1uUmtFMFRvVExzTHY4dkNzYnB6U1FwZTF1czNnODUtTE5fb3BaekdVNlV2WUpGdzE2ZU5R": "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2026/07/29/abogado-felipe-olea-y-megaincendio-de-valparaiso-van-a-caer-mas-personeros-de-conaf.shtml",
-    "CBMi0gFBVV95cUxNc2F0YWVxMnBTVmpLUUlKM3BkaDhxVEVOTzFrcHR4cTJ3MFdlTzI5UlNxY3pUQ3hSXzgxOU13azU1VFJLS0ctT1c1ZjYteVlyYXN5dXBWekRuQ041VklvR3MzR21KdG84TWtiWVdtVTlLSlFCNlBlWDFMSE13YVJncjZQYmN0RkZ3U1JHN2tWR3o3REtjOWlCOXVwT1c4WFcxN0p1Wm9oLVJMUTVkbWVCTnUzVmJzaWY5RUN5bDZRa0VlZmw4VE9kb0ZwR05Uc2lpcHfSAdcBQVVfeXFMUDVCeVVTakY5cHlvVU82RXdmZ1BycWVhdWZOWldQOWxsajlkQzZsY0dES1QyWVNpcmlpWHZFVmk5U1duUm1wRXNqdkdfdlIyZUlqcFc0aUdUalFENEtzTjJ4eFNCSmJ1d2dXZ3gwbmNpWnFKVjNXaUJSVzNzRkdaVmZXSUc0eW91RnFMWGV0azc0RjBxOXZMWFljSzlSYVpHeHA4T016TVNNcTQyY0ZjTkc4X0VRTlp4dExldGd1RWhSeTRXTEk4aEhPaEo5Qmd4RU5OZWlzM3c": "https://www.cadena3.com/noticia/mundo/incendio-forestal-en-spokane-provoca-evacuaciones-por-vientos-intensos-y-altas-temperaturas_579445",
     "CBMi0wFBVV95cUxPMldJWkR1TTRHbWhNQWprRU54Zl83bFNuaGdaZ2hhTEFOSTh4NVgxOHlfRmd3NllfZnc3QllxVGdMVmtRc2dZeWNSSl9HUTNiMThzQktocS1yTk1ZTzR0ZjBMZ0VCTno4ZFlHd2xIVm04bUtKQjY0UXNFX1BRemRXYy0xcTdtODVKUEczX3VPbnZ3QmtWdkFfRndZQ3NuVTBfX1hwd0lOVURDUGc5bVFhZHNtY1ZfbENKQ041ZTRRWHMtNnRCcUNlRjVDVUU5YUJpYTJr": "https://www.diariodeosorno.cl/noticia/diario-sostenible/2026/07/invitan-a-celebrar-los-100-anos-del-parque-nacional-vicente-perez-rosales",
+    "CBMi0wFBVV95cUxQR2hFR1BRNHBlVUU4bWJoUVpjLVQ1aGJiaFloUlZTalJmSHpPU0Q2enQ2bkRSWFRaTE9HZHpZWDdDb0ZhSGpoeGhDSm1HanFvNHJVc2pzTmsxeVBOMTVFRUdMeTg5cDVHZjZyVjhpaE5zTFJGaHktd3RZbWwyaTl3S3ZSbWdBRkR5VkhGWVZYejJlV0JnVjNUTjQ1OVdib01zdXFXOHlKbEl5YmRkanJDS3N2ZXhWdnM4ZXRhb3dxb084V2xKSzZXel9SYnNCR1RxLVlz": "https://www.sernageomin.cl/convenio-entre-sernageomin-y-conaf-fortalecera-la-gestion-del-territorio-con-informacion-geologica-y-forestal/",
     "CBMi1AFBVV95cUxPRmEzc2ZZaUwxODJadXVsd1FuMWF2N0lDd25LemRJODZud0RnYnlFVVB2S0V4SFpBdTBYOXRldXQ1Q2Y1NEkyRWVuR1hPRERfQk5BLVMtbWtUbHFuRDkydHB3UEZMamVkMlQ0a1daeTJIbUx3amFEWm5EbElNRnVfbjdpcXh5UjY1Nzc1Y1NxVmFIa0RkQ1NjLVZzNXFoSEQ3Xy1uZFQ0NmRLcXpoY3Z6d1BvRjhRYjhxY0xzQnRqcHp6WmR2WjQ0S2s1X2F6M3BVRDdTMtIB9gFBVV95cUxNQ09mOVB0bDNCU0tXYWJSRjI3ZkVPR194LS1uckJSMFhwZFlxeGc1bnF0dHhhZWxGa0NwQkZtRllpOWFiR2lpUXpkY2NiNzNqZlJaTkdnYkNHRV9MNDN2ZDBlNjVtRzNMWkVRSGpJUUIxeFZHSndFSF82ampEdDlNTlROb1kzcFZJWm1MWXFqdHMzbXdnN1BlTU1mcHJ6bm4wNVM3X2huemgtWUZ2T2U3NHBsZjRja0s0ZFNhMkoxQkJ1T3VUaHhNbEFKRjRMalQzSVJXcG1xa3AxRmZfSDBweklrNDhpcFRwYUhVZWFRUGExMXlEOFE": "https://www.latercera.com/videos/noticia/centro-ecuestre-libera-a-caballos-en-medio-de-incendio-forestal-en-francia-huyeron-entre-el-humo/",
     "CBMi1wFBVV95cUxQRXhBVG0zazBod0R5bWNPeHdGcmpDcFNNZzN5LU9HTEZ0SzNLZHVzeTZTVjd1LWhld1RZejVMNWJOMGh4Yl9DZVBxYmNjUmZuY3ExOW01V1NlRzloa0FWblVuNFhDVG1TVmJZZURfODJmVV9OYVBvQWZuUlNlazBzQUR1WmwzaXMxdE1iUkZ6dUJjWWdWSy1KN0pzSTNGb2p3R0FFMmxwNXRpSmVUandsNlJlSGI3LWllZnJUTzFOSThsQ0lLNm1BMERJSnNxa09IazhfTzN0VQ": "https://www.france24.com/es/europa/20260801-el-fuego-devora-m%C3%BAltiples-viviendas-en-grecia-y-obliga-a-huir-por-mar-a-cientos-de-personas",
+    "CBMi3AFBVV95cUxNbkc2aDk3c2hLNm9ySFVKd1h5OFVGU0Z5cGsxMjZuTXhLcGwwTnA5WFgwUkZGdWlQNl9MSlQ3SWhUeWhYQzNMQXl0YU14ck9HbXctdTNoYWgtZzdnSUVtcnFtODZ5N3ZIUjA2R1NybC1NQ2VuOTlsaV9NTDdnSk5GbVljU2lWUzRLSmhYSVVjWm1fRlhTeUJqR0t0UXVKeHZOWHRZUERnSGx1SkdkbGs2SzVaVW1QRmNSRGIwS3YxeF9vMC1pYlh5WnVfS3NKc3pEMU80SS1Nb3h3R0w2": "https://fen.uchile.cl/circulo-de-honor-y-presidente-de-entel-luis-felipe-gazitua-dictara-clase-magistral-sobre-estrategia-de-negocios-en-la-fen/",
     "CBMi3AFBVV95cUxPbm1PWFhHSkozRGZZUXZDb0NMRmhGVGFJY0tGY2NPMVZDbHV5SGNVVFYtaG1Gd2hTQk0zWjB2LUlYQVBIVkFuY0JGNEs4Uk5OcmFpVFpDdDZBeW90S01VLTJ0Z2pnOWsxXzNaQ0ZUT3Uta3BGa1VZVGlsYkJRQmhETlBiNXlKSjJtWWFUekJRWURzMEd0LXllbjVZem1UejhEVDd6R0pqXzhIbUpPTXdvMjdCSlJSelMwTWQzY1h1R3k5OEV1cTkxT3F4dGlZSUpPSDhLZmFDRDVoQWhp0gHcAUFVX3lxTFA0RU0wQUFCU1VlQmdxZlhXUTZ4UUxNSi13MDJIcWo2ZDdWQzI1ZWtWbjhwc0d0UDVleWxUSldGakE1OHpESkdXN3E1aVlkMGpOSnN0OE5PNjhCeGRZLXF4b1dMWmNaU293OWhLTV9TY2hrWnkyWWV4QU05bWY0ZWFwUjBOSkM4TjhLNkRFeUhuMmY0MWoxNDdVSGJQVFRhMWwtekZMeHdhMVlKczI4TmdQS0dvX1Z4ZWp1OXd1bUd6U1JVRjl2TWpQbHEyX0gyakFBaW5HRFZfdUZKaGU": "https://www.antena3.com/noticias/sociedad/bombero-sufre-quemaduras-segundo-grado-incendio-forestal-badajoz_202608016a6e28a1a5690f04735e92e1.html",
+    "CBMi4AFBVV95cUxOMUlXaC05WURqSXVsenBXY3BoelQxQk9Oem1TUjV6LUZKTHZDYmt0eXM0dkNaYkE1S0d3eFhQSHZaRVRYZEwzYW41YWhJbDJkZ291MXl6MHdTSTNyVmM0UFFmNEYtTnJzOWxPV1F5MmRfM3VCbkV1Z0pGYWZpLXgxSTNxVmdTWlk1amFscGlQamRTZW92Mm9EU1JiYUVpSGZybFZWOGNSOXpScFNzOEduYndmTnRLbjlYVUIyTURJdmo1OFBMWlNGVU80STZKUGgzNHR3UjlXQzEwM01jbnl6YdIB4AFBVV95cUxNd3NjdHJrb0h3TnNJdHBkTDBONkRrQnNuVGRLOFI4WGlxOTVyeS1EYTd6eFIyZlQ5UzhnNklDRHBhZW40LWFDWWk3alBPSUt0ZEdsblJHZ19nTGdPcnNmWWlFb3ZlbVVqUmdRclZLd2JPYWJEeElrQTlhUHhRNk9WS0NSeE1LTldjZFlmX2I2R2o3dFNDaHVkN2NEaktLQkVDZ2wyRUZNMnEtQzdHbmpNWF8xVEdIOXlEYU9QVVRzSUNmZFBMUEgyRmZlOU8zQk45dzdERmtiaWlTYURhajJSaQ": "https://www.marca.com/tiramillas/sociedad/2026/08/02/roman-garcia-bombero-forestal-sobre-incendios-fuego-declara-extinguido-peligro-desaparece.html",
     "CBMi4gFBVV95cUxOMU9LZGFIc0UtWklkTm91UXhjbTExa1VENGEtM2w0bnRVMnZBSXZXcGt4elpXTEFPMXB6TUJocnNqSGxreVBRb2c0ZzFEMlJIZDFWT1p4b2xsNlczeFdXVy1maW1SWjRCb0RMRU0zU0V1a1JaU1pLZTliVHRySmI0NTl3cl8yZDd6UFd5dm5xNkFyNFZhbkhqaHBVTEJKZk1vNm91aVFXZUNqVEpUd2dhWEV5VW15OVlXb3F2SXp6bzZCSWN1YzFIWkVfbWpyaXZBRWlqWGwxNlhveWFxZkxLTVNB0gHqAUFVX3lxTE43SWlzUWQyQTM3cGZqUFNydWw0U3g0Yk9fVEgyM2lxWVdZVE5wZE80cUpwWmZiSU1MX1NvN3BlQkExQXpHcjZHNUZGekhvZlA0OEdOZTBwcHlNV25PU1ctNGJwdlN0TTRZbFZzMm1GNlg1NUVtOFk0Um5DcUdEeGZJaWFkX0ZaSWlCTlIwR194Sm5RMTBhb1pjWGJMRzFGRGloUUJBTVVTZ0I3YWVSZWFrcnpwQ3E3Skl0aEcwRXlCZ3pNR3BkTUV0cjNXMU1rMHBVeDZpRWZEX2YtOWpBTlV5dzh0VmlUSzB0UQ": "https://www.diarioconcepcion.cl/politica/2026/06/29/crisis-en-sector-forestal-congresistas-plantean-ideas-para-reactivar-la-industria-en-biobio.html",
     "CBMi4gFBVV95cUxPMGdwdjVGVVpjWUU0bE52czRJcDdHeEJoUGpBZUswVmpNNWxuNk53ZzFMbWlQdDRMdlM4bl9CYUJITEdaajdDcnFGWXg1TWRwa0FuUmhkbUhXdWoyVk5MN0F4ZDBtWTduRmFyYWhDdW1Yakp1bDNsX1FHdXBtTGZ0c3NlQnhpWU0xNXJpLVR4eHhRclJOc1ZTeW5DR2lCVW5rNmNaVGgyd3pXZUFRLVY4X1ptTFNad0lpZ0s5OGFvc2ZWZFBxUjFEM1R2RC1FT1JDbjM4Wm9PQnd2dEs2RDVWbzBR": "https://www.diarioestrategia.cl/texto-diario/mostrar/5972303/autoridades-griegas-ordenan-evacuar-localidades-cercanas-atenas-nuevo-incendio-forestal",
     "CBMi5AFBVV95cUxNTU92ckhsdGdyZVJBaWdFQjBfN1JOY1g1dG9BOEpBaFRzTGtZX1JoaGJ1SWdoVGdOYnIwUnlZY3NPSVpWTTZMN19EOTAzZC1zWk5NU3ZxbFNEUEdWdGtiQWpaYV8tVEZYemhZWTNmUlFib3NzNWhKNzlkQVh4V1JzUUF3WkNfZGJQenZULVBzbXFHWTBJcS1kWFhfbWQ2OHZvdGZpRzNxV2VWYmJtMmtRTDdPWU9jd0VrN3FBUzhyV0pRdXIzNGdRTUJCNkdxWkQ4a3NLdkFwcWVlMDBySHZfUjZtcnI": "https://laderasur.com/articulo/atencion-abren-postulaciones-para-voluntarios-interesados-en-la-conservacion-del-nandu-en-el-parque-nacional-patagonia/",
@@ -66141,7 +66153,6 @@
     "CBMipwFBVV95cUxOOHlkRWh1Zlo3WGtZNGltRXlqbGtDYjVEX1NMQkZ3MjRiTTBkMUp1RlUwbTFJcWE3VlI2Vm50NFBHcnBfQUJOdnU5X2U4OGhRaFR1QVR1YWJYcHpGcW9xYU9EdjM4R25JMEJJRm0xbmdxZEw4Z203U1V0dHpkeFlGT2JBejZyRmpwR2NMWHIwY2trb1BacXdrLWZPeEdXNGxWYXJRYTNWUQ": "https://www.tiempo21.cl/parque-nacional-tolhuaca-sigue-cerrado-por-aumento-de-caudales-tras-el-temporal/",
     "CBMipwFBVV95cUxPOExEek8xaXJoYmtHQWFzeXNGdjhVb2VtOHRDY1AwMmM1d1BvRF9SR200TUVGYmNqN0YyQ3BGTEhQcERIRGxORUtDeHZkNkRRQmFtSUV4WllvYjBRS0hWdUt4MlBjN2RkQk80Nmt0aGVSZEFvWVRSWnhTZ3ZSMkxLNzZaeW4tZkdEREpaMm5wWEtQYlMtZ21OQTd6Tzl1anFXRTlLdXFDUQ": "https://mma.gob.cl/autoridades-regionales-coordinan-el-traspaso-de-areas-protegidas-desde-conaf-al-sbap/",
     "CBMiqAFBVV95cUxNMkxWT2NENVdnNGd2MHNpcHNVbVNGTXJ2X0t6VVM2ckNrZ245SGhjWlJpeEJmUU1EeVV4Qzl6cGZsSG1na1ZyRWVHSVZqZTRIZWJNUlBWcGN0TnljUXZ2b3ZuYXJIVGRndnFORThuaEhMeU9NWEZTTV80ZnBMZklfRDd4NmF3Z2tla2gxQVMtZ2RJQmZxWnhJMzlaZ1d1bUhOa2xaWnJyYWU": "https://www.soychile.cl/temuco/sociedad/2026/08/01/959741/conaf-corma-coordinacion-incendios-rurales.html",
-    "CBMiqAFBVV95cUxOWW9CdmxscVBqWExVUi0tYXo5a3VmQmtLN3UtTjZfUVJraEpHb2FZQlhEU0Jod3NTaGpmQmFHRnl2V1piaVRBSTRuNzA1bWVpeEdldV9ndDNqMWRyOWYtRG5PbzJ5NXNpY0V3TFFrblBUUnh1YnY0alktZmhRZXA4S2steW9TSkRvT1VZckRGOTdCR0lpdTFHOVVoeHdqLU1BeXRvYloyX0_SAa4BQVVfeXFMT2swM1FUa2p1ZjZhSjQzRkRaVzFBWUYxc0JPbWhVOGg2T0xlWFpDdFNOVzdmVlJrbWFuZGRXTTVwYnFjMXVVWXNQbEMwLWdmbnN1clNkeENlODlOWFMyeDh2V29qN3cwVk9wYTNpQUFWWmZyZzlReWI4cFlTcFhvYUoyLUV5UHVLb2Z6MG8wSnZzWjNvaWg4SENNRU5ONFMteGd1eW1rWXRMcndSZzV3": "https://www.abc.es/sevilla/ciudad/agua-suficiente-apagar-ningun-incendio-forestal-20260802184812-nts.html",
     "CBMiqgFBVV95cUxNa3ExY0JBc3FfYzd0RXVQdWU3WHZ3OS0yX1BoM282cHpEYXluT3NMSDF3YTNQMFdpRHdBN1VkT2JMNXV1bGV6UzdMc2RFWTVBeUtDR3dCMXBmT1BVUjZzSnhFNkpRNzhlbEd5V245bEpGYk84cFh4YWpFYU1QRzU3TXUyaFZyeDFjdVJ5ZUs4MEVBV2duZzloRHAyWXFLTHMtR0JUT1ltRHpPQQ": "https://austerra.org/articulos/la-noble-mision-guardaparques-parque-nacional-cerro-castillo-salvar-huemul/",
     "CBMitgFBVV95cUxPTkZ3Z1FscHVJR2lyREZ0Ulh1aGtzLXRLd1ljYmFXcHdyMmNGb2YzdjdyWHQ3QlJLbTk0aGRGMVQzWldYbktQRVpMdG1wbWNMUmMzZkprTlNUcmlON2tyM3dWaTU3V0Nad3FyQ3FtS0tHbDB5Tk9xU0FfYzFiRnVpSmNBeGNkdzFvRkN6a1RxR0pJeUcxWHVuamsyWTRRb3NwOHV4RFNjc0pyazBHRU1uaTVuUVFaUQ": "https://mma.gob.cl/conaf-nuble-lanza-programa-mi-pueblo-mi-arbol-e-inicia-transicion-al-servicio-nacional-forestal/",
     "CBMitwFBVV95cUxNUjZGNFd3T2hIaDBHdmhnYjE0VlpIVVBCcGdoRkF4anlfSnBQaHl2OEtHcEt0bjBuWGFNQXZEUU8xSTA4eUlDTXFBckJraVFwci1WQnkwSzE4VXBncXhNRU83cUlEbzNqOHFtaUdfei16Mm8xRFBfR0RFQ3pkSXg4MExBRzBpbEk3VjlwYUwtbGp1ZGRab3IwbzE0UjNQQjlsNExyNXBySnQ4VWMwcjZkaDJXWHYweEE": "https://es.euronews.com/my-europe/2026/08/01/incendios-en-europa-los-fuegos-siguen-extendiendose-en-francia-y-grecia",
@@ -66171,7 +66182,6 @@
       "https://www.meganoticias.cl/dato-util/528347-bono-recuperacion-primer-pago-coquimbo-quienes-reciben-mon-31-07-2026.html",
       "https://www.meganoticias.cl/dato-util/528352-dia-del-nino-en-chile-2026-cuando-es-fecha-oficial-31-07-2026.html",
       "https://www.meganoticias.cl/dato-util/528353-ley-quiebras-personales-requisitos-renegociar-deudas-superir-31-07-2026.html",
-      "https://www.meganoticias.cl/deportes/528273-muere-franco-baresi-66-anos-ac-milan-comunicado-31-07-2026.html",
       "https://www.meganoticias.cl/deportes/528293-foto-vozinha-redes-sociales-incertidumbre-llegada-colo-colo-31-07-2026.html",
       "https://www.meganoticias.cl/deportes/528356-colo-colo-arquero-vozinha-fichaje-rs-berkane-marruecos-mercado-de-pases-dt-cabo-verde-bubista-31-07-2026.html",
       "https://www.meganoticias.cl/deportes/528371-fifa-retira-proyecto-inversionistas-privados-torneos-infantino-trump-31-07-2026.html",
@@ -66186,7 +66196,6 @@
       "https://www.meganoticias.cl/mundo/528389-confirman-muerte-famoso-alpinista-nirmal-purja-avalanza-pakistan-documental-netflix-01-08-2026.html",
       "https://www.meganoticias.cl/mundo/528405-trece-muertos-al-caer-avioneta-con-turistas-peru-01-08-2026.html",
       "https://www.meganoticias.cl/mundo/528409-tres-muertos-y-21-heridos-en-una-explosion-en-moscu-rusia-01-08-2026.html",
-      "https://www.meganoticias.cl/nacional/528272-sistema-frontal-santiago-lluvia-viento-viernes-31-julio-precipitaciones-31-07-2026.html",
       "https://www.meganoticias.cl/nacional/528274-corte-de-agua-viernes-31-julio-comunas-santiago-region-metropolitana-31-07-2026.html",
       "https://www.meganoticias.cl/nacional/528275-identifican-sospechoso-matar-companero-de-colegio-estudiante-san-bernardo-31-07-2026.html",
       "https://www.meganoticias.cl/nacional/528276-aviso-por-lluvias-tormentas-electricas-precipitaciones-hoy-regiones-31-07-2026.html",
@@ -66266,6 +66275,8 @@
       "https://www.meganoticias.cl/nacional/528418-familias-cruzan-peligrosa-pasarela-para-salir-de-sus-casas-petorca-01-08-2026.html",
       "https://www.meganoticias.cl/nacional/528419-corte-de-luz-programado-santiago-rm-enel-comunas-afectadas-domingo-2-agosto-dcv-02-08-2026.html",
       "https://www.meganoticias.cl/nacional/528420-temblor-se-registra-en-la-zona-norte-magnitud-y-epicentro-del-sismo-01-08-2026.html",
+      "https://www.meganoticias.cl/nacional/528423-periodista-meganoticias-lluvia-constitucion-sistema-frontal-region-maule-david-aguayo-02-08-2026.html",
+      "https://www.meganoticias.cl/nacional/528424-temblor-epicentro-hoy-region-antofagasta-socaire-magnitud-sismo-02-08-2026.html",
       "https://www.meganoticias.cl/noticieros/528421-meganoticias-prime-sabado-1-agosto-2026.html",
       "https://www.meganoticias.cl/noticieros/528422-meganoticias-prime-viernes-31-julio-2026.html",
       "https://www.meganoticias.cl/patrocinados/528306-pagar-las-cuentas-en-un-solo-lugar-unired-simplifica-la-gestion-de-fin-de-mes-y-premia-a-sus-usuarios.html",
@@ -67056,11 +67067,13 @@
       "https://www.radiopolar.com/autoridad-maritima-detiene-tripulante-ordenes-detencion-pendientes-fiscalizacion-golfo-almirante-montt",
       "https://www.radiopolar.com/avistamiento-registrado-magallanes-compatible-paso-cohete-chino-long-march-6a",
       "https://www.radiopolar.com/canciones-competiran-sabado-xlv-festival-folclorico-patagonia",
+      "https://www.radiopolar.com/carabineros-destaca-rol-logistica-fortalecer-servicio-policial-magallanes",
       "https://www.radiopolar.com/carabineros-detiene-hombre-microtrafico-fiscalizacion-centro-punta-arenas",
       "https://www.radiopolar.com/carabineros-detuvo-hombre-robo-vehiculo-puerto-natales-encontrado-principio-hipotermia",
       "https://www.radiopolar.com/cartelera-cultural-01-agosto",
       "https://www.radiopolar.com/cde-presenta-querella-filtracion-informacion-reservada-caso-ninos-haitianos",
       "https://www.radiopolar.com/columna-opinion-316-nota-pusimos-proteccion-social",
+      "https://www.radiopolar.com/columna-opinion-escuchar-corazon",
       "https://www.radiopolar.com/comision-economia-aprueba-proyecto-fomentar-turismo-industria-audiovisual",
       "https://www.radiopolar.com/conoce-jurados-festival-folclorico-patagonia-2026",
       "https://www.radiopolar.com/coordinacion-fenpruss-magallanes-alerta-salud-mental-recortes-brechas-personal-reunion-diputado-bianchi",
@@ -67102,6 +67115,7 @@
       "https://www.radiopolar.com/municipio-punta-arenas-entrega-17-millones-subvenciones-22-organizaciones-sociales",
       "https://www.radiopolar.com/nasa-destaca-imagenes-glaciar-tyndall-captadas-estacion-espacial-internacional",
       "https://www.radiopolar.com/noche-festival-folclorico-patagonia-cueca-rancheras-competencia-homenaje-chito-reyes",
+      "https://www.radiopolar.com/parlamento-andino-firma-acuerdos-bcn-clarciev-fortalecer-labor-legislativa-derecho-identidad",
       "https://www.radiopolar.com/patricio-mladinic-centurione-reflexiono-50-anos-trayectoria-designado-ciudadano-ilustre-magallanes-2026",
       "https://www.radiopolar.com/pdi-detiene-puerto-aysen-profugo-justicia-estupro-abuso-sexual-reiterado-investigado-punta-arenas",
       "https://www.radiopolar.com/publica-2026-minvu-presento-principales-avances-vivienda-desarrollo-urbano-magallanes",
