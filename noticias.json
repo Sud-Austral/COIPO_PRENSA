@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-08-02T11:35:52.868Z",
+  "generadoEn": "2026-08-02T11:46:40.104Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -216,6 +216,78 @@
       }
     },
     {
+      "id": "https://www.abc.es/espana/incendio-forestal-caceres-vias-estabilizacion-perimetrado-20260802120940-nt.html",
+      "url": "https://www.abc.es/espana/incendio-forestal-caceres-vias-estabilizacion-perimetrado-20260802120940-nt.html",
+      "medioId": "abc.es",
+      "medioNombre": "ABC",
+      "seccionId": "internacional",
+      "titular": "El incendio forestal de Cáceres, en vías de estabilización y con el 70 % perimetrado",
+      "fecha": "2026-08-02T10:09:44.000Z",
+      "fechaDeteccion": "2026-08-02T11:46:40.104Z",
+      "extracto": [
+        {
+          "texto": "El incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " de Cáceres, en vías de estabilización y con el 70 % perimetrado",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/08/02/VIDEO-incendio-forestal-cceres-estabilizacin.jpg",
+      "autor": "Agencia EFE",
+      "fechaReal": "2026-08-02T10:09:44.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.67,
+        "score": -6,
+        "keywords": [
+          "incendio",
+          "forestal",
+          "caceres",
+          "vias",
+          "efe",
+          "casas",
+          "estabilizacion",
+          "perimetrado",
+          "merida",
+          "ago"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "presupuesto-recursos"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "CECOP",
+          "DE",
+          "EFE",
+          "GENES",
+          "IM",
+          "PALOMO",
+          "TOTAL",
+          "agencia"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 171,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
+    },
+    {
       "id": "https://castellonplaza.com/castellonplaza/comarcas/declarado-un-incendio-forestal-en-morella-los-bomberos-trabajan-con-dos-unidades-y-un-medio-aereo",
       "url": "https://castellonplaza.com/castellonplaza/comarcas/declarado-un-incendio-forestal-en-morella-los-bomberos-trabajan-con-dos-unidades-y-un-medio-aereo",
       "medioId": "castellonplaza.com",
@@ -307,7 +379,39 @@
         }
       ],
       "imagen": null,
-      "analisis": null
+      "analisis": {
+        "version": 3,
+        "sentimiento": "neutra",
+        "polaridad": 0,
+        "score": 0,
+        "keywords": [
+          "autoridades",
+          "investigan",
+          "misteriosas",
+          "muertes",
+          "elefantes",
+          "parque",
+          "nacional",
+          "kenia"
+        ],
+        "categorias": [
+          "parques-asp"
+        ],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 50,
+        "tipo": "informativa",
+        "ambito": "nacional",
+        "cantidadPalabras": 15,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
     },
     {
       "id": "https://www.diarioconcepcion.cl/economia/2026/08/02/como-buscar-trabajo-biobio-curriculum.html",
@@ -66070,57 +66174,6 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 1
       }
-    },
-    {
-      "id": "https://www.latercera.com/cartas-al-director/noticia/rejas-en-el-parque-forestal",
-      "url": "https://www.latercera.com/cartas-al-director/noticia/rejas-en-el-parque-forestal/",
-      "medioId": "pulso",
-      "medioNombre": "Pulso",
-      "seccionId": "digital",
-      "titular": "Rejas en el Parque Forestal",
-      "fecha": "2026-07-04T07:00:00.000Z",
-      "fechaDeteccion": "2026-07-17T22:08:25.546Z",
-      "extracto": [
-        {
-          "texto": "Rejas en el Parque ",
-          "resaltado": false
-        },
-        {
-          "texto": "Forestal",
-          "resaltado": true
-        }
-      ],
-      "imagen": "https://www.latercera.com/resizer/v2/6TFCLHAKPVFOHGQVQYCCAP33JE.jpg?auth=83e41d859b348cfa39f7312fe59668f3c70fb540190afdc594eb5badc51a34b8&height=630&width=1200&smart=true",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "neutra",
-        "polaridad": 0,
-        "score": 0,
-        "keywords": [
-          "rejas",
-          "parque",
-          "forestal"
-        ],
-        "categorias": [
-          "parques-asp"
-        ],
-        "personas": [],
-        "organizaciones": [],
-        "lugares": [
-          "Parque Forestal"
-        ],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 50,
-        "tipo": "informativa",
-        "ambito": "nacional",
-        "cantidadPalabras": 5,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 1
-      }
     }
   ],
   "resolucionesGoogle": {
@@ -66163,11 +66216,11 @@
     "CBMioAFBVV95cUxNNDI2dUdpM29CMnhLeERLd0ZNbzNJV1RYWDRQZEMwd1NTdEQ5d1diYUxYR2xiX28wamxaRS1LdWFLYTVoZDFXbTAtYWJoSEQtcHA0cm43d3kzUXpmVXJYNmI5eVhnY1ZzTHZla2JET3RXZ0tpeWI1dkJhTU8tZ0k3MkVLSG1FbW5uTkg3bGxBcTAtWlI3MmctSjhyTlJWNUlw": "https://usm.cl/noticias/estudiante-usm-expone-su-memoria-de-titulo-en-seminario-del-rubro-forestal/",
     "CBMioAFBVV95cUxNZUl5dVM0WFhFbld4X3RsNkp6Yzh4SVdrdzlOR3ZyMGwtV0wxMENhRXFNamczTVJKYUZDRkY4OVFwTlpNUTFCU1dEV2VCWmpXVzBreU92UWt1WUtlNjlqaU8tMkM3SHg4bkJMbmJSaUpldjNGRjlYSDBvWFJWb0NwOFhZSUdVTjZzTUU5LXlZQnM0SU5zc3Y3VElzdWtITDZr0gGmAUFVX3lxTFB1QjRLSjYyTHdlWkI3V1FMOTA4NllfWWpUc0ltWGsydjJrSXRHSVRTc0Uxb19WNmx3VGNCUVFwVmlGd0pwQmJxYWNNek56VDc2cVhvRXl5UjFDOS1lWGUwQVpjWkJvQk5WY19YZUZyNllaXzFtY08zd0JSemItUmNjcTRiUmNHSVY5THI3VkY2SVVDZ190aXFUcGVVdWxxcG54TTdISVE": "https://www.tvn.cl/noticias/tendencias/video-burros-logran-sobrevivir-a-incendio-forestal-en-espana",
     "CBMipgFBVV95cUxNSV9mQkVIMHFWR21oQk9TdU5yRnZpUTNRdG9teTc2YUM3dThtNnF0TzJhUl9WMlRNOGVaTk5qWEtuR3hxZlFZMVU3Q0Nzbk91MWtwNG5LR3lRaFZUOHZQV3ZxR19oUFFGdnVYNnRHYkIxZGotVGE2X1ZjY0YwYnhLd3JHSjVhWUhIWGZ6Z3RUOTZjTWlweDdZU05xZ0FxWnJQSktlM2J30gGmAUFVX3lxTE9QOFpQT3RhU01wNmt6LVJXVURLYmxDSFVMOXFFNWJINmQwS2RTYUI0ZUtzbkZqam82ajRmY2duVDlzWWFTZVFjY3JTVy1RUkpxNi1UaGlaUmljNkFNVUVCZmRMRHVGbDFVamRORGwzRS01YkJWU2ZfdlFOMzB1TDI5VE9vSndzNk9ZMTI4aThTWkQ5WEhjdVpLbEFtazZ3SzJkbW8zNGc": "https://www.dw.com/es/espa%C3%B1a-combate-el-mayor-incendio-forestal-de-su-historia-reciente/a-78123046",
-    "CBMipgJBVV95cUxQbDFOaklzbVduUk93S2N1SGNPSVMwWC04aGxOX0FlSFlJMi04c0xBWUVzLUctdC1NbFY2dlhINGQ3Szc2UXhOeWFHRE1KWWNxeF8tNHppUVFvY2hsOEdwNV9tQ1Q5S2NpaF9LTzNyM3BDOVdvMmtwd0V0UlZHTlpfRnVqdTVkdE9HSnpzRzdwSmdOdUN4ZExvYUdjUE95b20xQmtXWExtci1lWlpMdGtMMEREWlZ3Q0JSTmVFUnA0LU45eXk4Ykx5ZV9aWDhZemJtQzVWOV9RMkhfUF9HS1oxaXZ1MzkzTzZRN001eC16dUFiZVV3bHE2VFpUY2VWTGU2NTBzQjhBWTVfRHFPd3B4ZFJoZkJYcTlhUV9RMHA3MHByeWljTFHSAasCQVVfeXFMT0w4OHp0NDctYTNBVUs5ZFMtOWdYZFR6QnNZMnhrNEdWRk8zbGJQQTU4OHhHdEUydkJ5cWlJZ0ZrRnM0T19fdnhvazFnaFpYaGVrQk82anN2YlkzamJHcEhKcjBEalNKcmtWSUVoMHY1VVg5dTlxRzdmeHIwUFAzWlRvQVFzeTI1THI4UXAzUmgxdWRmYWpZbUNDR0V5elpHVTVtUTRIMHNzTTU4VFkxcHE4TWc0WWNMS3ZfSEVkWXRtOWtIT2tyX2x3RlBadkRFU0MwQWNYU1FUNVBpa3BXbzFFV05KZHRqVE1TMzdPalQyQ19hNTluV2lnVjZGYlp2UXZRNG80dFpuUlZ0LWdBUU05d0h5bHRYTnMtSjFfVmlQcTVkQTlFeV9oc1U": "https://www.eltiempo.com/vida/medio-ambiente/mineria-ilegal-no-da-tregua-en-el-parque-nacional-natural-rio-pure-identifican-41-balsas-activas-que-podrian-extraer-hasta-120-kilos-de-oro-al-mes-3575463",
     "CBMipwFBVV95cUxOOHlkRWh1Zlo3WGtZNGltRXlqbGtDYjVEX1NMQkZ3MjRiTTBkMUp1RlUwbTFJcWE3VlI2Vm50NFBHcnBfQUJOdnU5X2U4OGhRaFR1QVR1YWJYcHpGcW9xYU9EdjM4R25JMEJJRm0xbmdxZEw4Z203U1V0dHpkeFlGT2JBejZyRmpwR2NMWHIwY2trb1BacXdrLWZPeEdXNGxWYXJRYTNWUQ": "https://www.tiempo21.cl/parque-nacional-tolhuaca-sigue-cerrado-por-aumento-de-caudales-tras-el-temporal/",
     "CBMipwFBVV95cUxPOExEek8xaXJoYmtHQWFzeXNGdjhVb2VtOHRDY1AwMmM1d1BvRF9SR200TUVGYmNqN0YyQ3BGTEhQcERIRGxORUtDeHZkNkRRQmFtSUV4WllvYjBRS0hWdUt4MlBjN2RkQk80Nmt0aGVSZEFvWVRSWnhTZ3ZSMkxLNzZaeW4tZkdEREpaMm5wWEtQYlMtZ21OQTd6Tzl1anFXRTlLdXFDUQ": "https://mma.gob.cl/autoridades-regionales-coordinan-el-traspaso-de-areas-protegidas-desde-conaf-al-sbap/",
     "CBMiqAFBVV95cUxNMkxWT2NENVdnNGd2MHNpcHNVbVNGTXJ2X0t6VVM2ckNrZ245SGhjWlJpeEJmUU1EeVV4Qzl6cGZsSG1na1ZyRWVHSVZqZTRIZWJNUlBWcGN0TnljUXZ2b3ZuYXJIVGRndnFORThuaEhMeU9NWEZTTV80ZnBMZklfRDd4NmF3Z2tla2gxQVMtZ2RJQmZxWnhJMzlaZ1d1bUhOa2xaWnJyYWU": "https://www.soychile.cl/temuco/sociedad/2026/08/01/959741/conaf-corma-coordinacion-incendios-rurales.html",
     "CBMiqgFBVV95cUxNa3ExY0JBc3FfYzd0RXVQdWU3WHZ3OS0yX1BoM282cHpEYXluT3NMSDF3YTNQMFdpRHdBN1VkT2JMNXV1bGV6UzdMc2RFWTVBeUtDR3dCMXBmT1BVUjZzSnhFNkpRNzhlbEd5V245bEpGYk84cFh4YWpFYU1QRzU3TXUyaFZyeDFjdVJ5ZUs4MEVBV2duZzloRHAyWXFLTHMtR0JUT1ltRHpPQQ": "https://austerra.org/articulos/la-noble-mision-guardaparques-parque-nacional-cerro-castillo-salvar-huemul/",
+    "CBMiqgFBVV95cUxNdGFYUWpTTnRwWkVTMXJwYW9jSVR2V055VmNzeHlWRG5yR0k3RnRQQTh1amdWQXZSdUdTTWhiNzBuUXpfbklURzFSdU5MclhiWk4xaDlwWlhORGZFZGJ2RnptTzN3TUtvWkRja1hfRU9zLU45LUFFY1dDRjduaHc1Y01tblAtci1TalE4MGFkZzhRVUlFQU9lc2RRaWlGTk53ZXotNzlFQi1mQQ": "https://www.abc.es/espana/incendio-forestal-caceres-vias-estabilizacion-perimetrado-20260802120940-nt.html",
     "CBMitgFBVV95cUxPTkZ3Z1FscHVJR2lyREZ0Ulh1aGtzLXRLd1ljYmFXcHdyMmNGb2YzdjdyWHQ3QlJLbTk0aGRGMVQzWldYbktQRVpMdG1wbWNMUmMzZkprTlNUcmlON2tyM3dWaTU3V0Nad3FyQ3FtS0tHbDB5Tk9xU0FfYzFiRnVpSmNBeGNkdzFvRkN6a1RxR0pJeUcxWHVuamsyWTRRb3NwOHV4RFNjc0pyazBHRU1uaTVuUVFaUQ": "https://mma.gob.cl/conaf-nuble-lanza-programa-mi-pueblo-mi-arbol-e-inicia-transicion-al-servicio-nacional-forestal/",
     "CBMiugFBVV95cUxNWGp6eFRUWjBvdTRnZ1RpbVVRLUM2WWQyczVHSFAteWRrQzlkSWh0LW55cFg2RGlHOHFqaE1SdUtjYzJXYmo2TTlOeXhEM1ZxZkVKaFBNN0tsTUd2SHVEZ1hkeUJjN0ZQR3pPdXcyb1B0dEpkYXlVeUs0TkFtQnpWSldWVkJDQlJEVU44ZTEyQ1BtaEs0T054bG1qVWxNTGRONHN5cTdKZW8zQXNHY2FlVHM0NzRiTzZNUXfSAdsBQVVfeXFMT2x2bUt6WHhfcms0MzI2V016NlluaFFWSVZzdHYyVFlEejk2NkowNHBsWG5wbEtzSzJNQlJyN3g5OG1XaWdQaDJtS3FocEpjdUZWLW5HZTlDOTROemJkZ3FMMW40RG9FUU9MMUNPeFQzRHFhV3VYNkZQMEdBVzF4dXdIWUtNOG1hbUxBTFBNek4xNzNQVlJ4RDRWVEJtR05UREZWMk1hSGl4NEthTWNFNE9oSG1Ec2xmSFgzS3Y2bXVEYjZndzgxVEJzSXRaTXVPNGREMW05cnp2MGVZ": "https://www.latercera.com/pulso/noticia/la-presion-financiera-sobre-cmpc-de-cara-a-su-megaproyecto-natureza-en-brasil/",
     "CBMiugFBVV95cUxNd3o4X2FiTGo0THcwOVFqQ2hKbVVqeVdRVVNRLWxYOTBFUDJUelZrWU1GYWItdlBMb1h5cDgxZW9SWm1CSl90X1hqTS13MkJ3RkQwVWdxdFNkMkFqakxmb2pzcE5ydDBpZWdKOEVpX2dVX3hQeHhjbFd4Y3FiWUE0dDkzNXZlb0Z4UjFPYW5ZNmlXanFSZFF2NFBsVElfelpPYTFEUlNJbW5ETzJMSER2bnI0bnYtRG42N2fSAb8BQVVfeXFMTjE0azVCLWFFeEVKaFFCRWdJZlBYRkhhOVFQalNfZ2VGdXVwZUNlUU9rdXg4Q3FxaHZHeWx2SlhaZ1IyRzc4RGpta1NUdlV1VlBaYnNjS2lmcW5TV2hnM3JSQnFncW92V3VhTVZvUWFlbl9WckhHRExoNG90emczTERGSzdYNEt2QkRGTndwRHBPSmZNbjdiZEl5Z2lQR195bGo2cHpzYm1MRFJQMHhkcDFXTVVnWmFnNFVSYk5jSk0": "https://www.levante-emv.com/comunitat-valenciana/2026/08/01/incendio-forestal-cortes-pallas-ultima-hora-133024962.html",
@@ -66745,7 +66798,6 @@
       "https://puranoticia.pnt.cl/nacional/tribunal-revisara-el-lunes-3-si-mantiene-o-modifica-la-prision-preventiva",
       "https://puranoticia.pnt.cl/region-valparaiso/alcalde-de-villa-alemana-obtuvo-la-certificacion-que-lo-habilita-para",
       "https://puranoticia.pnt.cl/region-valparaiso/alcalde-de-villa-alemana-y-cinco-concejales-se-someten-a-test-de-drogas",
-      "https://puranoticia.pnt.cl/region-valparaiso/alcaldes-del-valle-del-aconcagua-piden-a-la-fiscalia-regional-agilizar",
       "https://puranoticia.pnt.cl/region-valparaiso/arbol-de-gran-tamano-cae-sobre-una-vivienda-en-el-cerro-rodelillo-de",
       "https://puranoticia.pnt.cl/region-valparaiso/banista-fue-rescatado-tras-presentar-dificultades-en-playa-las-torpederas",
       "https://puranoticia.pnt.cl/region-valparaiso/caida-de-rocas-en-av-espana-obliga-a-extremar-precauciones-en-direccion-a",
@@ -67062,7 +67114,8 @@
       "https://araucaniadiario.cl/contenido/34627/concejales-cambian-de-opinion-y-renuevan-patentes-a-locales-nocturnos-en-temuco",
       "https://araucaniadiario.cl/contenido/34628/mas-de-50-funcionarios-seran-desvinculados-por-viajar-con-licencia-medica-en-tem",
       "https://araucaniadiario.cl/contenido/34631/fiscalia-nacional-aun-no-instruye-sumario-contra-fiscal-garrido-por-denuncia-de-",
-      "https://araucaniadiario.cl/contenido/34635/luis-lambis-llega-con-su-cumbia-a-dreams"
+      "https://araucaniadiario.cl/contenido/34635/luis-lambis-llega-con-su-cumbia-a-dreams",
+      "https://araucaniadiario.cl/contenido/34637/comandante-de-bomberos-de-villarrica-y-su-pareja-fallecen-tras-caida-de-arbol-po"
     ],
     "radio-polar": [
       "https://www.radiopolar.com/100-alcaldes-piden-gobierno-revisar-compensacion-exencion-contribuciones",
