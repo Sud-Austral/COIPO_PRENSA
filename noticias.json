@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-08-04T12:20:16.030Z",
+  "generadoEn": "2026-08-04T12:30:20.116Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -759,7 +759,38 @@
         }
       ],
       "imagen": null,
-      "analisis": null
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.67,
+        "score": -4,
+        "keywords": [
+          "incendio",
+          "forestal",
+          "fuera",
+          "control",
+          "amenaza",
+          "miquimu",
+          "trujillo"
+        ],
+        "categorias": [
+          "incendios-forestales"
+        ],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "nacional",
+        "cantidadPalabras": 10,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
     },
     {
       "id": "https://elpais.com/espana/catalunya/2026-08-04/los-bomberos-de-la-generalitat-compran-de-urgencia-1500-mangueras-en-plena-campana-forestal.html",
@@ -1164,6 +1195,65 @@
         "cantidadPalabras": 436,
         "cantidadParrafos": 1,
         "tiempoLectura": 2
+      }
+    },
+    {
+      "id": "https://www.regiondigital.com/noticias/badajoz-y-provincia/433694-desactivado-nivel-1-en-incendio-forestal-en-arroyo-de-san-servan-que-esta-estabilizado.html",
+      "url": "https://www.regiondigital.com/noticias/badajoz-y-provincia/433694-desactivado-nivel-1-en-incendio-forestal-en-arroyo-de-san-servan-que-esta-estabilizado.html",
+      "medioId": "regiondigital.com",
+      "medioNombre": "Región Digital",
+      "seccionId": "otros",
+      "titular": "Desactivado nivel 1 en incendio forestal en Arroyo de San Serván, que está estabilizado",
+      "fecha": "2026-08-03T21:13:23.000Z",
+      "fechaDeteccion": "2026-08-04T12:30:20.116Z",
+      "extracto": [
+        {
+          "texto": "Desactivado nivel 1 en incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " en Arroyo de San Serván, que está estabilizado",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.regiondigital.com/m/p/770x410/media/files/205309_fotonoticia-20260803205916-1920.jpg",
+      "autor": "The Geco Company",
+      "fechaReal": "2026-08-03T23:10:47.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "neutra",
+        "polaridad": 0,
+        "score": 0,
+        "keywords": [
+          "incendios",
+          "forestales",
+          "extremadura",
+          "infoex",
+          "interviene",
+          "100",
+          "semana",
+          "participado",
+          "incidentes"
+        ],
+        "categorias": [],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 50,
+        "tipo": "informativa",
+        "ambito": "internacional",
+        "cantidadPalabras": 27,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
       }
     },
     {
@@ -1838,7 +1928,35 @@
         }
       ],
       "imagen": null,
-      "analisis": null
+      "analisis": {
+        "version": 3,
+        "sentimiento": "neutra",
+        "polaridad": 0,
+        "score": 0,
+        "keywords": [
+          "ponencia",
+          "magistral",
+          "restauracion",
+          "forestal"
+        ],
+        "categorias": [
+          "arbolado-urbano"
+        ],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 50,
+        "tipo": "informativa",
+        "ambito": "nacional",
+        "cantidadPalabras": 5,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
     },
     {
       "id": "https://www.infobae.com/revista-chacra/2026/08/03/la-certificacion-forestal-gana-terreno-y-ya-supera-las-380000-hectareas-en-argentina",
@@ -66886,64 +67004,6 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 1
       }
-    },
-    {
-      "id": "https://www.xunta.gal/es/notas-de-prensa/-/nova/026876/xunta-consolida-como-referente-internacional-certificacion-forestal-los-servicios",
-      "url": "https://www.xunta.gal/es/notas-de-prensa/-/nova/026876/xunta-consolida-como-referente-internacional-certificacion-forestal-los-servicios",
-      "medioId": "xunta.gal",
-      "medioNombre": "Xunta de Galicia",
-      "seccionId": "otros",
-      "titular": "La Xunta se consolida como referente internacional en la certificación forestal de los servicios que aporta el monte para mejorar los ecosistemas",
-      "fecha": "2026-07-17T15:22:00.000Z",
-      "fechaDeteccion": "2026-07-17T15:43:54.349Z",
-      "extracto": [
-        {
-          "texto": "La Xunta se consolida como referente internacional en la certificación ",
-          "resaltado": false
-        },
-        {
-          "texto": "forestal",
-          "resaltado": true
-        },
-        {
-          "texto": " de los servicios que aporta el monte para mejorar los ecosistemas",
-          "resaltado": false
-        }
-      ],
-      "imagen": null,
-      "analisis": {
-        "version": 3,
-        "sentimiento": "neutra",
-        "polaridad": 0,
-        "score": 0,
-        "keywords": [
-          "xunta",
-          "consolida",
-          "referente",
-          "internacional",
-          "certificacion",
-          "forestal",
-          "servicios",
-          "aporta",
-          "monte",
-          "mejorar"
-        ],
-        "categorias": [],
-        "personas": [],
-        "organizaciones": [],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 50,
-        "tipo": "informativa",
-        "ambito": "nacional",
-        "cantidadPalabras": 22,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 1
-      }
     }
   ],
   "resolucionesGoogle": {
@@ -66961,6 +67021,7 @@
     "CBMi4wFBVV95cUxQQ0xZTmg0dTRRNnRhNDFZNnZpd1dvdkhud0c1OURwc18wTTNaOVJvSGtKLXdsQ2h0aGVtRHZhdXhTaGZHUHFCTE9VbFkzZjJXMURMOUx4cWItQTd1Mjg1enIxYy1BeTdKWnZTZFMyMlhDNUdGLWdpbHZsV1RJUWhNbmJhQ3F2VVZWTDlqWVB4ajVObjNHaWdWZUJnWjdkbTdrZ0xzQks4dTNHOWZWZE12R2Y0clEyT2QxMzNBbjNPb3BqaFdCU2VYRGpqUDlVdExQMFJBTnlCT3h0YzlXSElpM21Ma9IB6AFBVV95cUxPcXluMnowbUczcEl3M0JuajE0d21DUkNvSE5lR05ZWVpLV0xiWk1TS1htRFVRZ3VNZzk0ckVQMXNTWnh0Tm5hS2JPMkNOSlQ0NEVHUzdnZUgtRjc3SjBmMUhhanlveGJsQ2NPY3hBVUhCUlNyNnNyUWdtR0lzVXhKZWJQVk4zTTRSS05mZEh5YVlENk1ZSm54U2tDNnQ4NXRKQXZzY3hSN0tRYmxFRG5oT0s0WEdKQ2NKTkJNMlV5c21DZkdZYnZueGY0enhNTHNQbmdtaDNKWk54a3YtQ1Uta01JVEZoRHBr": "https://www.ellitoral.com/internacionales/video-viral-imagenes-impactantes-grecia-incendio-forestal-caballos-escapando-llamas-fuego_0_KfVmenXXmi.html",
     "CBMi5gFBVV95cUxOM0ZzV3g3czdwOE1LQUJ1dDd2c1FzMUZCUWQ1YnhQS1hSTDJPNGgxeldnanBNdjFlS1gydkdSeGV2eDltc3VJM29KQk1pNWl1ak1BblZHRlJPR3dORkZIVlR5bHR2S0R3QTMtUjF3YnBrdWNlb0Vfc0lUdUg4Nm1RQTRnakZuOGRWazgyMmQ0elQxQmtISHNUZUJTZjFuZ1hBNDV3cFQwcmRmbUNQbnA3ZV9YSklHNno1UFR0SUNjTVlrcl9MREs3S3Foa3o3R1lnajNMQWpmY2dCdkdwYUhTZnFFYWIwUQ": "https://delatribunatv.com/cambioclimatico/sustentabilidad/ecologia-realizo-una-nueva-mesa-forestal-para-optimizar-los-planes-de-manejo-de-uso-de-suelo/",
     "CBMi5wFBVV95cUxPOVQ2eG1nTDR0SFpxX1hRbDY4dzFJckZPRkFIYmI4OXp4Y0pyS0NXbkx6TUExci1kWkd2cWgxR0RvOF9Nbk03b3pDVWQta2RlcXZxSEZuWkRvWk9uR3BVSGIzOExpMkZtVWhsX3lDZzcxN2Y5MHZqMXRDR1RSZ1JBMzlOVHd5RjZpSE40aHFfRXpQT0FMa3ZqOGc3MEVGRzVueEZBZGJsY0VsaXByNGprR0hzcnB1SGVDY2I0b3lOMmRxZkpTLWtCa1kxVnVDZGlHS2MzNHVJZjhzdFBlSk5hWkJXOG9wVzQ": "https://www.prochile.gob.cl/noticias/detalle-noticia/2026/07/27/prochile-destaca-a-empresa-forestal-del-maule-que-agrega-valor-a-la-madera-de-%C3%A1lamo",
+    "CBMi7gFBVV95cUxOLTMyalBIZ25PQl9MeGsyOGNYUTdnXzM4Q2t5cDhvZERNazJVeVQ4amRyWWs1QzBrY2tEaUlJclZDd0FZRktES3Z3YUlvOUdxSmFfV2tIZVlRbW5UTmlxZ2tDbTJpZE9BNExQRGZvNnBfZWZkZ3ljQUF3NXhPeC10YnNUMzRlSGF2eHBTa01pNy1sOGF6OXVaU1dTRmtZZVBZU0V1Z2RZQzl4MVdselpqRDhjZ3l6eURMVEZrSXhmQUZ1azRwNkdKQ0IySktROFRralZyZzZyZkczQjNpQllGeUYzUWRkYXRFbFB3b0hn0gHzAUFVX3lxTE84cnlXRVM4UnJoY1dBWVJoRHFQT2pSSGFfQ2dnR0lxSFl6dzlQTnRlMHBfTXVkMzBQWjRSeFNBZWRRejZEaU5pUktTQW5xZGNwN090SnZSX2JMeVc1SUEtcWJQYWVPdWt2VmtaVWYxNnRLRkQzRjFXTHRRM3B1am1nNlRHa3hKWXhZdkJxdkFRa2Nsa1JwckNiN2lpeHRod2pvWXdLeXM2WUliZ2twWnZCekNjb2pwRDk3bmNxbXpJSFlyTFJRWUtPRWVoSkE3a2hEZnQ1dmp2MC1XU0tEMXZGb0lZMEVkaE8zVlBsNXZGMmN6MA": "https://www.regiondigital.com/noticias/badajoz-y-provincia/433694-desactivado-nivel-1-en-incendio-forestal-en-arroyo-de-san-servan-que-esta-estabilizado.html",
     "CBMi8AFBVV95cUxQaFdIYkVqTExYZzM2dTBiejFpRFVKTGdtWV95OWdaWkpFQS1COWZiSllaeHhodjdGTmxSNFZTVHZrSUJyUkl3ZFlOZ3BBU1h6aXFTWnNoOTJEUTZqSnE3YmR4QnVIY3ZkN2Nmc3cyZVRnbXdZNWt3ZzA4NXRPaXRzVll4eXVuYXotdklKQUwxZTBrY3hwdGRqUVdnTXgyQ2FQeHhYNzNadmZ4cXN0TFRvQVEzLWlnQmdoYm1qNExWYnliYktLakt3RnFrSXZQWHJ0U0hMbWJiNjRxVFRaMW82V0JWUnRVSWZvZDlZVXpGOHg": "https://g5noticias.cl/2026/08/03/megaincendio-corte-de-valparaiso-revoca-el-arresto-domiciliario-de-funcionario-de-conaf-imputado-por-cuasidelito-de-homicidio/",
     "CBMi8gFBVV95cUxON3gyX3JkTVNqNFY4cjFhbW02MktjejBKU1NxSlRxbWcxSTFqdmctYW5GUThRVGNlUG1hVGhzTzZjVS1YVFdKbmdISTRNZkZzLTJmTnA2NzJ2RTBGbnJpb1lpcHVHS25pY0p6QktCbF9JT1NBS1Q2ckxBWWRqaWpLX0xRbXJxU080ak4xMUd0MldJaWpWc3dEU080b01YRERzdTZ5ekt0dXp1NTNVSUVnaXUwaTlWNlFNcVFvX1JnVlBMNEdjazQ5VThHLV9iekEzWU5VWDJidkF5ZkVKbzdCZGt4blBoQ1M1SVpPZHhNbDZzd9IBjAFBVV95cUxOeXFvWWprZDYtVS1OOTgtRjlPRGxyaGpIeXdNZXQwbjN3U0tzOEZoOWZRWU94Y2lPV2MzMWhJeHNGdTBya0VRc0FyY3RtbktWcTAxZjdVWmdlRmJOcWVYSjFDLUxldHNiTjJ4LU1IZnpvcHdpdmFiMUJrckYweXREN1paRzVqZVgwLTNJNQ": "https://www.cooperativa.cl/noticias/pais/judicial/casos-emblematicos/megaincendio-de-valparaiso-revocan-arresto-de-exfuncionario-de-conaf/2026-08-04/003004.html",
     "CBMi8gFBVV95cUxQekVPWko2d0dVaUZjQm1aUk1iNlV6bmM2YkUzX1ZpZjFfWGxUMEVGY0RRT2VIQU5leXpvNHBOZ3A5dml4MTM4c3Y3ZE43a3QyZDhlSXFSXzF2cE13YjBfRTd5cHU1M3ZTc25GQ08xOV91cWo4d1pDMEZOM1VpUVQ5bU55ZEl6OV9zTjlHSUMwR19HTWh3MGlRSGVka1BESXJ5dGdzS1pwX21aU3lkNWNPZ0RBMndjNm1URnZmYTIwWTQzVkwwUC1odGZoVGhYNl95bGtJNG1Ld015X2NlcE5aZFRTMlVSclRlWkZicC1SNFNNZw": "https://www.ciperchile.cl/2026/07/25/megaincendio-de-valparaiso-pdi-concluye-que-funcionario-de-conaf-ordeno-anotar-alertas-de-evacuacion-falsas-en-la-bitacora/",
@@ -66968,10 +67029,8 @@
     "CBMiW0FVX3lxTE8wOGdfVlVQSVd1RWlUWmc1N0NUYVF5SHBjYjFINWJPM0QydmNucXBBTjlCQjNxTUFoRl96bjhNVXJtSGhXQzdnQVJXN2ZtMUt0TllQS0NLT1lRSmfSAWBBVV95cUxPMTJTSEVNanlvUWVXQkUtdmtWTkptckphWDVPRHVCUkx0YmZLaHlFYVNpY1RYNUg0QVhYclk4djRjcXZiVTlyaVVTMXgxRTVWbXJXNUJacnk3YW5LRUxEd3M": "https://www.bbc.com/mundo/articles/cj63rx7z35yo",
     "CBMi_AFBVV95cUxNeVh3ZFRTQl9mQXIzNmxfMXF1bFQxNGJud0VBUUdieXVYcVpuUk1nWG5kRHYwNXBQNWNodV91WExMNVhrT244T2RyUm9JZG9xeUhKd2p0UjZZaHpFbmo1TktHbTJ0R1l1QS1peDhRQXItWFkxeFg3dXZLbFpnR3Y2NWk1bWVaN19hUmtwTkY1UFlPRTYwcm56WUNCYUEzZGNxZ3hESmxteTRnOTk2WXd5RTBoRWJlTnF5Y3BpRF92MVhEdXUxdVdYeS1UQWtGUERNd2tZRTNlMjk3QXhxRTlzYzNvbjVYcXNKc1VXUmpqb2gyM0lmRFRtbUQ2THPSAZcCQVVfeXFMTjloS0FwYVJuY3AyTmVhdV9QM19QTEtOY0ozYlNZMUFiMlk1dnE4S3Y3RGlpbGpOVE8xUWt6aGt2andtTkYwOTVRQ3BKZjNlYTV4NnRQMmFaU0Y4eWxfX3ZyX1IwYlQxMVNtSXZKWjFKdkdjSFNWU2dDbHA3ZmJDazE5Qk03a0l5WUd4bzFQSktXRmFuUkFuZ1laRkdYRTlSSlV1dWxTRmM0T3UxSVBFaUFKc29weVh6UmdFR2EtQTdYMmRULTJXX2hUYUpUUVp3OENEVXZ0UE5fb0pWSWtQSXBRWWl3YlA5M1lWLVh6RG92RW96ZEtLVGpUNkI3Wl96MVdVT2MtMlN5QmFSdlZ4VzMwanNtTjR3": "https://www.infobae.com/peru/2026/08/02/incendio-forestal-en-el-santuario-historico-de-machu-picchu-fue-extinguido-pero-mantienen-vigilancia-por-riesgo-de-reactivacion/",
     "CBMi_AFBVV95cUxOSFlKbjhfMmtuMjRwdG5RRktGMDJ2ajQ0TWlZR3hHQnBNN2g4OTE2Ym9WZG0wQXBVSUw3VHZCV1Z0VDZWeUJlMXgzVnByeUtsdk5fZzY5eXU4YVh6WFI4TjBkcGVRNng0aTVOVUt0RWpKSnhmR3ZuUC12ZzQ4M052TkFSRUpHbDY0T1lneWctMHI5WXlDYkRxRmI0ZlZQRWpWeFpFUVc2dFhVWFVXUHZaUklOcjE2eUdkZVRSWlh3SXVfNm01dUh3TTh3emZqNEN6bzFlUlAyWUZOUDhYaFMxekJCZ2RkOU5tb2RlUnJ6MUZhME9rbHIweHJMUTk": "https://www.diarioconstitucional.cl/2026/07/13/extrabajadores-de-conaf-despedidos-por-falta-de-probidad-no-podran-ingresar-al-servicio-nacional-forestal-por-cinco-anos/",
-    "CBMi_AFBVV95cUxQT2RXV1NQWjVPQXNkdlhtRTM3Zkx0a3JvRWotSGRncHhqNmptb1phREJ2NnJqZ2pScnBtQjJ5Uk5uS0tRYkRVM1BpSEV3VjhlZzV3S1ZkVHdxR1FYZk9PZlFhNW1fUUVQLTN3VE84ODhVSXRtVzRXaXpyX0FPQ0lUUGY4eFZSdTJnREpTTXZYNV91cnJUREQ0ODdqVjY5S2xkaXFra3l3eVlpUjhMdlhLTTU4NGsyQU10ZTVrZVZoQ3Q3dEhHVkRQaDh4b0tmZVplendZNmJ2MXdsR3lSbEZpLWozdm5wRHNOQURzeE0ybVVWZVNIZ1lLNU1xYWE": "https://www.archdaily.com/pt/1117080/por-que-o-parque-forestal-de-santiago-do-chile-e-importante/5b32c326f197cc6734000373-why-is-santiagos-forestal-park-important-image",
     "CBMi_wFBVV95cUxQM1hIdlphTXJmTUliNWlQcmpRWnJDRlBZLUk0OUE1SC1HaHZFSHctaFhvYVRVZHkzaHEyTVBxZFp1eHRNdXRzc1VJcHcyX1U3YUZnZGZNTmVYaXdPcXNSa2lncWtfZGZDQ2RqU0RlTXVIemJ4azl1U1hBc2ZrcXBCNDhOUEZwOHpFT0JhZWNURUoySEVzMlFOdGl4NE1xS3JxUnBZWnlRckdNTml6X0lTMENHLWgyT3ZMcDRHRFVuSVJjRTRweVpuUkEtV1RqNU1MbFVaVkZicjQ0Vl9HUm1vMUFjUmFNSlNqLWR2dkxCcm9jZERmb3lMNkRCZVZJcnPSAYQCQVVfeXFMTmtaNUtLWnB2dmxPbnhyaEFZYzVzSUtrdktPWTJfS091dmd4MnRZOGVKNGtGZkllbVF3amNzR252NVpxaUstbHJoZzF6aVJiVnpXV1VyaGIwbEVSclFJRk5NZTZKUTN3X25RdVFZMm9WWXpoVmJ2dHJiRW1ELUl4WjVIcGJZTmJBb0I4a1hoZnpLekdJd2hpazhrcXU5VzlHZDRzMUZhUmxYNFppREQyd0Z6Z0tWa3NVc242U1h5Rkw1dEszZXNZbGhLRWpEZ041UUExbmR1SlNtWjRBQ1lWb3N5cnhTdzFzalNWWEVkVG9Vd190MlRJZzV2b01qR083VHp2RXI": "https://www.ellitoral.com/internacionales/incendioforestalenwashington-spokane-evacuaciones-emergencia-washington-incendiosforestales-defensacivil-fuego_0_khMEgHNQ1Y.html",
     "CBMickFVX3lxTE9iVTgzMDRMSy0wMHAyTjNDbUo5U21IY2Z6YTZGaFlwWUNFZU5aQUVZMGlsNlE3NUNqSFdfVnc1WG8zVDFUcjB5XzVqeVhrS1RRTTFuZTh2MWJ0cnZNWWl4SVdhU3AzNXVIdHA5aEhNbkpEUQ": "https://es.tradingview.com/symbols/BCS-CMPC/financials-segments/",
-    "CBMid0FVX3lxTE11Y283UDl3ME5mbmtfM3RJQzZEbXZDWkJCckJYWk5PRDN0S0U4UnF1UGh5QkswUmV3Y3FpS0U4SWhmQTc3eUd5N0h6VEtVdEM1TFZudzlpLUVLRVEzc2hqamIxRURPR0dNaDRwQU52UUNCanhqR1Yw": "https://www.landscapealliance.org/es/conocimiento/video/YqyxXLIvgTI/",
     "CBMidEFVX3lxTE4zcnhSdXlGNTg2azJMQ2VRYTlBbHlZS2tBTDVfOUlfQ0Noc3ZObXFBWnNCeUhSY21WWGxuZ2xXVjFqTmxiQVI5YUl4TmNtNG9YM0FfMERTaG9sM2RPMWpPZnd2amN1NjQya0o2eE1tb0Vpa0tq": "https://es.tradingview.com/symbols/BCS-CMPC/forecast-price-target/",
     "CBMigwJBVV95cUxPV045UklpNG5oV0I1dGp4dDlDbDZ6alFZYXc1YkxtLVlCV1FtY1BoN2ZNWjlKUnhjSkI4NnBsRWFuTDYwY2hYemhTVnQzMl9pOEtpZXFhM2FRVUUwNmxSdUJCM2NYN3BIYU8xaHNyQXlFcEFJY29HUThuaFVOd0lYSUNYOFVPOWZxMUpsRGtrZ1VPcFIwaXI3N3lHMHdRVjVLNjEyRUwtNTdaZGdLRmdyVy1vSkFqbnJVaExoczBWaDA2a2dOcllZOG1DYzV0WHZqMHV5WS16MzJGQm1DSHE5end3dU5QejBqdGk1T1hLZjA1OEhDaW9tNEw1TmhBa2M4V2FJ": "https://www.biobiochile.cl/noticias/nacional/region-de-los-rios/2026/07/20/valdivia-conaf-afirma-que-bosques-de-arauco-en-venta-serian-explotados-no-antes-de-ocho-anos.shtml",
     "CBMihwFBVV95cUxPS296MFlaNEwxZFJqcGg2Y1FXSDJCSDNxa0FRNl9WRm05SUdEaGlPS2hKLWtiQlFSb2hsV0tBUjJnQnZwRlBxdUVaZjV5NkJ1cXk2VHZDX3Ntc3JuZTVzZG1PVEhKMks4R3MydkxZSkFZdTdWOU9GdXJxaWNmLWZXVllmc2Y1RVE": "https://www.radioguatapuri.com/noticias/valledupar-incendio-forestal-agosto-2026",
@@ -67055,7 +67114,6 @@
       "https://www.meganoticias.cl/mundo/528560-guatemala-declara-alerta-por-erupcion-del-volcan-de-fuego-y-ordena-evacuaciones-04-08-2026.html",
       "https://www.meganoticias.cl/nacional/528334-nueva-autopista-de-66-kilometros-conectara-el-poniente-de-santiago-02-08-2026.html",
       "https://www.meganoticias.cl/nacional/528348-cambiaran-el-nombre-de-una-tradicional-calle-de-patronato-republica-de-corea-02-08-2026.html",
-      "https://www.meganoticias.cl/nacional/528425-el-tiempo-domingo-lluvias-santiago-region-metropolitana-jaime-leyton-02-08-2026.html",
       "https://www.meganoticias.cl/nacional/528428-carabinero-da-muerte-delincuente-violento-asalto-pareja-quilicura-02-08-2026.html",
       "https://www.meganoticias.cl/nacional/528429-cambio-a-sistema-de-tarjeta-de-coordenadas-bancoestado-confirma-que-el-94-de-sus-clientes-ya-utiliza-mecanismos-mas-seguros-02-08-2026.html",
       "https://www.meganoticias.cl/nacional/528430-alcalde-santa-barbara-acusa-centrales-electricas-graves-inundaciones-sistema-frontal-02-08-2026.html",
@@ -67137,7 +67195,9 @@
       "https://www.meganoticias.cl/nacional/528562-robo-frustrado-pudahuel-cuatro-detenidos-carabineros-04-08-2026.html",
       "https://www.meganoticias.cl/nacional/528563-reabren-estacion-santa-isabel-linea-5-metro-incendio-vagones-04-08-2026.html",
       "https://www.meganoticias.cl/nacional/528565-presidente-kast-reacciona-absolucion-claudio-crespo-justicia-ha-hablado-fuerte-y-claro-04-08-2026.html",
+      "https://www.meganoticias.cl/nacional/528567-nuevo-mall-outlet-antofagasta-inversion-grupo-patio-04-08-2026.html",
       "https://www.meganoticias.cl/nacional/528569-venta-cilindros-gas-vacios-redes-sociales-hasta-45-mil-pesos-04-08-2026.html",
+      "https://www.meganoticias.cl/nacional/528573-guardia-hermano-asaltante-robo-empresa-pudahuel-detalles-04-08-2026.html",
       "https://www.meganoticias.cl/noticieros/528465-meganoticias-prime-sabado-1-agosto-2026.html",
       "https://www.meganoticias.cl/noticieros/528553-meganoticias-prime-lunes-3-agosto-03-08-2026.html",
       "https://www.meganoticias.cl/reportajes/528551-becas-chile-informe-deudas-millonarias-documentos-falsos-incumplimiento-03-08-2026.html",
@@ -67200,6 +67260,7 @@
       "https://www.cnnchile.com/deportes/una-renuncia-clave-y-revueltas-en-las-confederaciones-el-complejo-momento-que-enfrenta-el-presidente-de-la-fifa-gianni-infantino/",
       "https://www.cnnchile.com/deportes/vozinha-sigue-sin-arribar-a-chile-pese-a-acuerdo-con-colo-colo-y-aumentan-las-expectativas-por-su-fichaje/",
       "https://www.cnnchile.com/deportes/vozinha-ya-es-albo-firmo-su-contrato-y-se-suma-como-refuerzo-de-colo-colo/",
+      "https://www.cnnchile.com/lodijeronencnn/cardenal-chomali-y-el-desafio-social-de-la-inteligencia-artificial-las-tecnologias-van-a-mil-por-hora-la-reflexion-etica-va-a-100-por-hora-y-la-legislacion-va-a-1-por-hora/",
       "https://www.cnnchile.com/lodijeronencnn/daniel-mansuy-y-el-caso-del-exsubsecretario-rodriguez-el-debido-proceso-aqui-no-parece-haber-tenido-mucho-lugar/",
       "https://www.cnnchile.com/lodijeronencnn/estamos-al-debe-como-oposicion-ricardo-lagos-weber-ppd-aborda-la-discusion-de-la-megarreforma/",
       "https://www.cnnchile.com/lodijeronencnn/excanciller-valdes-estados-unidos-gobierno-iba-ser-aplaudido-pie-cuando-llegara-y-le-iban-facilitar-aranceles-por-amistad-ideologica-era-ilusion/",
@@ -67225,7 +67286,6 @@
       "https://www.cnnchile.com/mundo/embajadas-de-ee-uu-llaman-a-sus-ciudadanos-a-evaluar-salida-de-oriente-medio-ante-riesgo-de-una-nueva-escalada/",
       "https://www.cnnchile.com/mundo/espana-dice-que-casi-50-mil-migrantes-que-cruzaron-a-ceuta-desde-marruecos-ya-regresaron-al-menos-67-personas-murieron/",
       "https://www.cnnchile.com/mundo/espana-informa-que-la-mayoria-de-los-50-000-migrantes-que-cruzaron-desde-marruecos-ya-regreso/",
-      "https://www.cnnchile.com/mundo/estados-unidos-pasaporte-imagen-donald-trump-250-anos/",
       "https://www.cnnchile.com/mundo/explosion-de-vehiculo-bomba-deja-11-heridos-en-cucuta-a-dias-del-cambio-de-mando-presidencial-en-colombia/",
       "https://www.cnnchile.com/mundo/expresidenta-bachelet-necesitamos-unas-naciones-unidas-mas-eficaces-y-cercanas-a-las-personas/",
       "https://www.cnnchile.com/mundo/felipe-vi-manifiesta-su-inquietud-por-crisis-migratoria-en-ceuta-y-melilla-y-pide-reforzar-la-seguridad/",
@@ -67271,7 +67331,6 @@
       "https://www.cnnchile.com/pais/cientos-de-mujeres-llegan-a-la-moneda-para-rechazar-proyecto-que-obliga-a-escuchar-latidos-fetales-antes-de-abortar/",
       "https://www.cnnchile.com/pais/cierre-temporal-del-puente-temporal-huerfanos-en-santiago-realizaran-trabajos-de-recuperacion-para-erradicar-focos-de-delincuencia/",
       "https://www.cnnchile.com/pais/cinco-detenidos-por-secuestro-de-familia-enganaron-a-victima-para-realizar-supuesto-arreglo-mecanico/",
-      "https://www.cnnchile.com/pais/clases-suspendidas-viernes-31-julio-58-comunas-sistema-frontal/",
       "https://www.cnnchile.com/pais/colegio-de-quimicos-farmaceuticos-advierte-riesgos-ante-eventual-llegada-del-modelo-de-farmacia-digital-a-chile/",
       "https://www.cnnchile.com/pais/colmevet-reitera-rechazo-a-carreras-de-galgos-apuntan-graves-e-injustificados-danos-fisicos-y-psicologicos-en-los-canes/",
       "https://www.cnnchile.com/pais/comision-encargada-evalua-lugar-para-instalar-monumento-en-honor-al-expresidente-sebastian-pinera/",
@@ -67359,6 +67418,7 @@
       "https://www.cnnchile.com/servicios/restriccion-vehicular-martes-4-de-agosto-revisa-las-patentes-que-tienen-prohibido-circular/",
       "https://www.cnnchile.com/servicios/sin-planes-para-el-fin-de-semana-estos-son-los-estrenos-que-puedes-disfrutar-en-los-cines-chilenos/",
       "https://www.cnnchile.com/servicios/sistema-frontal-dmc-emite-aviso-por-probable-formacion-de-tornados-en-tres-regiones-del-sur/",
+      "https://www.cnnchile.com/servicios/venta-bodega-gamer-las-condes-descuentos-dust2-agosto/",
       "https://www.cnnchile.com/tendencias/adios-a-los-descuentos-que-vencen-wom-vuelve-a-mover-el-mercado-con-nueva-propuesta-de-precios-sin-cambios/",
       "https://www.cnnchile.com/tendencias/alerta-por-vapers-intoxicaciones-aumentan-un-400-y-especialista-advierte-que-afectan-principalmente-a-menores-de-edad/",
       "https://www.cnnchile.com/tendencias/como-se-crea-el-agua-bendita-capellan-muestar-el-paso-a-paso-y-se-vuelve-viral/",
@@ -67412,6 +67472,7 @@
       "https://www.pauta.cl/actualidad/2026/08/03/miss-universo-chile-2026-dominga-lopez-gana-la-corona-y-representara-a-chile-en-el-certamen-internacional.html",
       "https://www.pauta.cl/actualidad/2026/08/03/reforma-al-indh-ministro-rabat-propone-quitar-facultad-querellante-y-acusa-sesgo-ideologico-en-el-organismo.html",
       "https://www.pauta.cl/actualidad/2026/08/03/sistema-frontal-deja-dos-fallecidos-y-mas-de-6-mil-aislados-ejercito-resguardara-viviendas-evacuadas-en-angol.html",
+      "https://www.pauta.cl/actualidad/2026/08/04/gobierno-busca-cerrar-hoy-la-tramitacion-de-la-megarreforma-senado-votara-compensacion-a-los-municipios.html",
       "https://www.pauta.cl/actualidad/2026/08/04/presidente-kast-destaca-absolucion-de-claudio-crespo-la-justicia-ha-hablado-fuerte-y-claro.html",
       "https://www.pauta.cl/actualidad/pauta-abierta/2026/07/30/pauta-abierta-30-de-julio-de-2026.html",
       "https://www.pauta.cl/actualidad/pauta-abierta/2026/07/31/pauta-abierta-31-de-julio-de-2026.html",
@@ -67419,7 +67480,6 @@
       "https://www.pauta.cl/actualidad/pauta-de-analisis/2026/07/30/pauta-de-analisis-30-de-julio-de-2026.html",
       "https://www.pauta.cl/actualidad/pauta-de-analisis/2026/07/31/pauta-de-analisis-31-de-julio-de-2026.html",
       "https://www.pauta.cl/actualidad/pauta-de-analisis/2026/08/03/pauta-de-analisis-03-de-agosto-de-2026.html",
-      "https://www.pauta.cl/actualidad/primera-pauta/2026/07/30/primera-pauta-30-de-julio-de-2026.html",
       "https://www.pauta.cl/actualidad/primera-pauta/2026/07/31/primera-pauta-31-de-julio-de-2026.html",
       "https://www.pauta.cl/actualidad/primera-pauta/2026/08/03/primera-pauta-03-de-agosto-de-2026.html",
       "https://www.pauta.cl/cultura/2026/07/31/hoy-cierran-las-postulaciones-al-premio-nacional-de-literatura-2026-quienes-pueden-presentar-candidaturas-y-cuales-son-las-nuevas-reglas.html",
@@ -67569,6 +67629,7 @@
       "https://puranoticia.pnt.cl/internacional/inteligencia-de-colombia-alerta-sobre-supuesto-plan-del-eln-para-afectar-la",
       "https://puranoticia.pnt.cl/internacional/javier-milei-vuelve-a-lanzar-duros-ataques-contra-lula-y-lo-tilda-de",
       "https://puranoticia.pnt.cl/internacional/keiko-fujimori-anuncia-despliegue-de-las-fuerzas-armadas-en-las-calles-para",
+      "https://puranoticia.pnt.cl/internacional/la-mitad-de-los-estados-de-estados-unidos-demanda-al-presidente-donald",
       "https://puranoticia.pnt.cl/internacional/lula-da-silva-formaliza-su-candidatura-para-un-cuarto-mandato-en-brasil",
       "https://puranoticia.pnt.cl/internacional/marco-rubio-acusa-a-cuba-de-infiltrar-espias-y-defiende-la-politica-de",
       "https://puranoticia.pnt.cl/internacional/trump-suspende-ataque-a-iran-y-exige-acuerdo-para-evitar-respuesta-militar",
