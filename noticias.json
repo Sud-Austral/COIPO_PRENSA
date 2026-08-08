@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-08-08T02:23:46.617Z",
+  "generadoEn": "2026-08-08T04:29:58.150Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -39,6 +39,71 @@
     }
   ],
   "noticias": [
+    {
+      "id": "https://www.univision.com/local/los-angeles-kmex/incendio-forestal-avanza-rapidamente-en-el-condado-de-kern-y-obliga-el-cierre-de-la-autopista-5-video",
+      "url": "https://www.univision.com/local/los-angeles-kmex/incendio-forestal-avanza-rapidamente-en-el-condado-de-kern-y-obliga-el-cierre-de-la-autopista-5-video",
+      "medioId": "univision.com",
+      "medioNombre": "Univision",
+      "seccionId": "internacional",
+      "titular": "Incendio forestal avanza rápidamente en el condado de Kern y obliga el cierre de la Autopista 5",
+      "fecha": "2026-08-08T02:48:00.000Z",
+      "fechaDeteccion": "2026-08-08T04:29:58.150Z",
+      "extracto": [
+        {
+          "texto": "Incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " avanza rápidamente en el condado de Kern y obliga el cierre de la Autopista 5",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.univision.com/api/image/og/us/local/los-angeles-kmex/incendio-forestal-avanza-rapidamente-en-el-condado-de-kern-y-obliga-el-cierre-de-la-autopista-5-video",
+      "autor": null,
+      "fechaReal": null,
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.67,
+        "score": -8,
+        "keywords": [
+          "incendio",
+          "contener",
+          "informacion",
+          "pendientes",
+          "cerrados",
+          "cinco",
+          "area",
+          "transcripcion",
+          "genera",
+          "uso"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "emergencias"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "bomberos"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 141,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
+    },
     {
       "id": "https://www.theclinic.cl/2026/08/07/senderos-miradores-y-accesibilidad-el-millonario-plan-con-que-se-busca-transformar-el-parque-vicente-perez-rosales",
       "url": "https://www.theclinic.cl/2026/08/07/senderos-miradores-y-accesibilidad-el-millonario-plan-con-que-se-busca-transformar-el-parque-vicente-perez-rosales/",
@@ -128,7 +193,45 @@
         }
       ],
       "imagen": null,
-      "analisis": null
+      "analisis": {
+        "version": 3,
+        "sentimiento": "neutra",
+        "polaridad": 0,
+        "score": 0,
+        "keywords": [
+          "organizacion",
+          "personas",
+          "pueblo",
+          "ayuda",
+          "ciudadano",
+          "agrupacion",
+          "monserrat",
+          "fierro",
+          "sociales",
+          "hualpen"
+        ],
+        "categorias": [
+          "comunidades-territorio"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "voluntarios"
+        ],
+        "lugares": [],
+        "regiones": [
+          "biobio"
+        ],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 50,
+        "tipo": "informativa",
+        "ambito": "regional",
+        "cantidadPalabras": 439,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 2
+      }
     },
     {
       "id": "https://www.independentespanol.com/noticias/eeuu/se-estrella-helicoptero-que-combatia-incendio-forestal-en-utah-se-desconoce-estado-de-los-pilotos-b3029637.html",
@@ -843,6 +946,76 @@
         "cantidadPalabras": 49,
         "cantidadParrafos": 1,
         "tiempoLectura": 1
+      }
+    },
+    {
+      "id": "https://www.telemundoutah.com/noticias/local/faa-confirma-accidente-helicoptero-cerca-incendio-wide-mouth-2-utah/2410437",
+      "url": "https://www.telemundoutah.com/noticias/local/faa-confirma-accidente-helicoptero-cerca-incendio-wide-mouth-2-utah/2410437/",
+      "medioId": "telemundoutah.com",
+      "medioNombre": "Telemundo Utah",
+      "seccionId": "internacional",
+      "titular": "Cae helicóptero que combatía incendio forestal; se desconoce estado de los pilotos",
+      "fecha": "2026-08-07T20:43:32.000Z",
+      "fechaDeteccion": "2026-08-08T04:29:58.150Z",
+      "extracto": [
+        {
+          "texto": "Cae helicóptero que combatía incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": "; se desconoce estado de los pilotos",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://media.telemundoutah.com/2026/08/tlmd-utah-incendio-wide-mouth2.jpg?quality=85&strip=all&resize=1200%2C675",
+      "autor": null,
+      "fechaReal": "2026-08-07T20:43:32.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "mixta",
+        "polaridad": -0.51,
+        "score": -23,
+        "keywords": [
+          "utah",
+          "incendio",
+          "forestal",
+          "faa",
+          "dos",
+          "cerca",
+          "helicoptero",
+          "personas",
+          "bordo",
+          "wide"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "emergencias",
+          "manejo-bosques"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "AP",
+          "FAA",
+          "NBC",
+          "bomberos",
+          "roja"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "medio",
+        "prioridad": 2,
+        "importancia": 65,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 769,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 4
       }
     },
     {
@@ -1652,6 +1825,70 @@
         "cantidadPalabras": 306,
         "cantidadParrafos": 1,
         "tiempoLectura": 2
+      }
+    },
+    {
+      "id": "https://www.archdaily.com/es/775712/concurso-edificio-fadeu-cmpc-campus-lo-contador/56265c89e58ecee6f0000124-concurso-edificio-fadeu-cmpc-campus-lo-contador-imagen",
+      "url": "https://www.archdaily.com/es/775712/concurso-edificio-fadeu-cmpc-campus-lo-contador/56265c89e58ecee6f0000124-concurso-edificio-fadeu-cmpc-campus-lo-contador-imagen",
+      "medioId": "archdaily.com",
+      "medioNombre": "ArchDaily",
+      "seccionId": "otros",
+      "titular": "Galería de Convocatoria: Concurso Edificio FADEU-CMPC Campus Lo Contador - 1",
+      "fecha": "2026-08-07T17:34:28.000Z",
+      "fechaDeteccion": "2026-08-08T04:29:58.150Z",
+      "extracto": [
+        {
+          "texto": "Galería de Convocatoria: Concurso Edificio FADEU-",
+          "resaltado": false
+        },
+        {
+          "texto": "CMPC",
+          "resaltado": true
+        },
+        {
+          "texto": " Campus Lo Contador - 1",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://images.adsttc.com/media/images/5626/5c89/e58e/cee6/f000/0124/large_jpg/0001_(2).jpg?1445354611",
+      "autor": null,
+      "fechaReal": null,
+      "analisis": {
+        "version": 3,
+        "sentimiento": "neutra",
+        "polaridad": 0,
+        "score": 0,
+        "keywords": [
+          "compartir",
+          "convocatoria",
+          "concurso",
+          "edificio",
+          "fadeu-cmpc",
+          "campus",
+          "contador",
+          "imagen",
+          "galeria",
+          "agrandar"
+        ],
+        "categorias": [],
+        "personas": [],
+        "organizaciones": [
+          "CMPC",
+          "FADEU",
+          "URL"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 50,
+        "tipo": "informativa",
+        "ambito": "nacional",
+        "cantidadPalabras": 35,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
       }
     },
     {
@@ -67712,211 +67949,9 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 2
       }
-    },
-    {
-      "id": "https://dialogosur.cl/2026/07/por-falta-de-suministro-de-agua-potable-cierran-reserva-magallanes",
-      "url": "https://dialogosur.cl/2026/07/por-falta-de-suministro-de-agua-potable-cierran-reserva-magallanes/",
-      "medioId": "dialogosur.cl",
-      "medioNombre": "Diálogo Sur",
-      "seccionId": "otros",
-      "titular": "Por falta de suministro de agua potable cierran Reserva Magallanes",
-      "fecha": "2026-07-23T12:57:46.000Z",
-      "fechaDeteccion": "2026-07-23T13:11:41.859Z",
-      "extracto": [],
-      "imagen": "https://dialogosur.cl/wp-content/uploads/2026/07/conafCH4-scaled.jpg",
-      "autor": "Gonzalo Espina",
-      "fechaReal": "2026-07-23T12:54:28.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "positiva",
-        "polaridad": 0.33,
-        "score": 1,
-        "keywords": [
-          "magallanes",
-          "suministro",
-          "agua",
-          "reserva",
-          "clima",
-          "julio",
-          "conaf",
-          "falta",
-          "potable",
-          "cierran"
-        ],
-        "categorias": [
-          "parques-asp"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "CONAF",
-          "conaf"
-        ],
-        "lugares": [
-          "Reserva Magallanes Por",
-          "Reserva Magallanes Publicado",
-          "Reserva Nacional Magallanes"
-        ],
-        "regiones": [
-          "magallanes"
-        ],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 55,
-        "tipo": "informativa",
-        "ambito": "regional",
-        "cantidadPalabras": 143,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 1
-      }
-    },
-    {
-      "id": "https://es.marketscreener.com/noticias/incendio-forestal-en-francia-obliga-a-huir-a-miles-de-personas-persiste-riesgo-en-europa-ce7f51dedc88fe2c",
-      "url": "https://es.marketscreener.com/noticias/incendio-forestal-en-francia-obliga-a-huir-a-miles-de-personas-persiste-riesgo-en-europa-ce7f51dedc88fe2c",
-      "medioId": "es.marketscreener.com",
-      "medioNombre": "MarketScreener España",
-      "seccionId": "otros",
-      "titular": "Incendio forestal en Francia obliga a huir a miles de personas; persiste riesgo en Europa",
-      "fecha": "2026-07-23T12:55:40.000Z",
-      "fechaDeteccion": "2026-07-23T13:11:41.859Z",
-      "extracto": [
-        {
-          "texto": "Incendio ",
-          "resaltado": false
-        },
-        {
-          "texto": "forestal",
-          "resaltado": true
-        },
-        {
-          "texto": " en Francia obliga a huir a miles de personas; persiste riesgo en Europa",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://cdn.zonebourse.com/static/resize/0/0//images/reuters/2026-07/2026-07-23T122608Z_2_LYNXMPEM6M185_RTROPTP_4_EUROPE-WEATHER-FRANCE-WILDFIRE.JPG",
-      "autor": "Reuters",
-      "fechaReal": "2026-07-23T12:55:40.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "negativa",
-        "polaridad": -0.64,
-        "score": -21,
-        "keywords": [
-          "incendio",
-          "europa",
-          "francia",
-          "forestal",
-          "000",
-          "calor",
-          "agua",
-          "incendios",
-          "jueves",
-          "personas"
-        ],
-        "categorias": [
-          "incendios-forestales",
-          "emergencias",
-          "manejo-bosques"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "CATTLE",
-          "CMG",
-          "FUTURE",
-          "GSCI",
-          "INDEX",
-          "LE",
-          "LIVE",
-          "bomberos"
-        ],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "alto",
-        "prioridad": 1,
-        "importancia": 90,
-        "tipo": "emergencia",
-        "ambito": "internacional",
-        "cantidadPalabras": 834,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 4
-      }
-    },
-    {
-      "id": "https://es-us.noticias.yahoo.com/incendio-forestal-francia-obliga-huir-125509972.html",
-      "url": "https://es-us.noticias.yahoo.com/incendio-forestal-francia-obliga-huir-125509972.html",
-      "medioId": "es-us.noticias.yahoo.com",
-      "medioNombre": "Yahoo",
-      "seccionId": "otros",
-      "titular": "Incendio forestal en Francia obliga a huir a miles de personas; persiste riesgo en Europa",
-      "fecha": "2026-07-23T12:55:09.000Z",
-      "fechaDeteccion": "2026-07-23T14:35:16.454Z",
-      "extracto": [
-        {
-          "texto": "Incendio ",
-          "resaltado": false
-        },
-        {
-          "texto": "forestal",
-          "resaltado": true
-        },
-        {
-          "texto": " en Francia obliga a huir a miles de personas; persiste riesgo en Europa",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://s.yimg.com/lo/mysterio/api/4801ce5829830181c175f3730a43944aec1f3e9c39088430f40444ce3db351b6/lightyear_networkapi/resizefill_w800_h533;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fes%2Freuters.com%2Fa8cbcf6e9348d3b1a49d23a1fb8ca2ba",
-      "autor": "Por Stephane Mahe",
-      "fechaReal": "2026-07-23T12:55:09.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "negativa",
-        "polaridad": -0.64,
-        "score": -21,
-        "keywords": [
-          "publicidad",
-          "incendio",
-          "francia",
-          "forestal",
-          "europa",
-          "calor",
-          "000",
-          "incendios",
-          "personas",
-          "sequia"
-        ],
-        "categorias": [
-          "incendios-forestales",
-          "manejo-bosques"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "CAP",
-          "FERRET",
-          "LEGE",
-          "UTC",
-          "XXI",
-          "bomberos"
-        ],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "alto",
-        "prioridad": 1,
-        "importancia": 90,
-        "tipo": "emergencia",
-        "ambito": "internacional",
-        "cantidadPalabras": 823,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 4
-      }
     }
   ],
   "resolucionesGoogle": {
-    "CBMi0AFBVV95cUxNLU9sOV9KN0dteTZHbVRENzhtMlJQTXc3cm12amZ3WkItRjExWTYtUExVOTJ3U05LTWFVc3oyRlNRSk1HbmNuS2JWTGxqdDhuczRNSUVrOVBXN004OHZ6blV2X3lWWDBfTVJkNHVhMHMxbF9UM1RxZXJBRnRkbmdiMkVOeVU4cUhmSVFaTkpPY29mTFJTbEpoQjNDUmpadmkzVGNJSlc3cXdqb1BRdFE1Y3dhYU9nbGN3UDVxbldPUkVxeGFRNGVwWWdrYWpQU3RL": "https://andina.pe/agencia/noticia-turistas-ingresan-sin-contratiempos-a-machu-picchu-tras-ser-controlado-incendio-forestal-1086643.aspx",
     "CBMi0gFBVV95cUxNeFZYR0Zua1BaTWhpMVhhN2UtZHZOdFdONHJIOGVGWjdOOExCMTRpQnV1ZnZhcG5CYVhqbHhxYU9QNkpMWnZXUS1WaXU0UktmVmR0dUl0b2xzSlFHU1A0UUowRWZtaWdBTEtLWk9OUFU5U2NKTHhoVmlnTWtXZTZyTmNmY185MkdRR1NpMXc0SHBWM1hOSUxMQzhTdHE1NnNIRXhFVU16clFiYWpyc3UzMUR0cUF4NkpucjgzRUxva0J6dE1jdk9wRjh3cFRxeU8wNEE": "https://www.univision.com/noticias/acusan-a-aaron-farinacci-de-provocar-incendio-forestal-en-spokane-lo-interrogaron-el-ano-pasado-video",
     "CBMi1AFBVV95cUxOM0ZPcVZKQmxHc3NTOWZaSExPU01IN3F2dGIzc093V0c5VGVyTDMwNG1Fc1M0c3lrOEF5X2lzUjZLZjdwTmtNS0JTVXFqUXZnUVk0dHFTaUJjNFM4NW55THY5bm81dTV5OEtDMHZPRG55MzVSYmlLLUpreExvTHh5eDZxUXhCLXFsUFRhaVJ6bDMxNGRpQ0VnMlEzQ09iN2tzUTBROU96Z0xJUkZBRW90aVZfWHlSOUFKczZzZmk2blV3Vk5RVkhhWlRCNGhDamRNaTFpZw": "https://enlacelatinonc.org/ice-dice-que-el-servicio-forestal-pidio-el-operativo-en-wilson-creek-la-agencia-nacional-dice-que-solo-coopero/",
     "CBMi2AFBVV95cUxPZFJKaVFnNUtNcE9rUmpxeVVwc09vTDZkOUxpWUEtdG9hUnhDcVJtWGpaZUJjc01VVzRFb05PTFBOV2FXaGlyTTBtbHEtM1E1U25yTjB6eHRaeFdIRkliZlZ5WWk1YTUtRVZ2cm9NemlsS3lkaHUwci0tM2l4SEp2YTdSRi1Mc0taTXh0NGhod3BycVdzbE50QnRoOGhDd20xZlJjajZIVDhXSXVxbldEQUFQUlhReFRRbjNHSkhWSUNzOVpfZld2V1F6ejN2VmktZDM0RjlORGI": "https://sabes.cl/2026/08/06/trabajadores-y-maquinaria-forestal-han-sido-clave-en-el-apoyo-a-comunidades-afectadas-por-los-sistemas-frontales/",
@@ -67924,24 +67959,25 @@
     "CBMi2wFBVV95cUxNTUtBWTBaR3pfVnkya2JjbmRjMGZnblZEZ1B4eFpoa3F6ekZkaDhHVG5ZTWQ1Y2RwbmpwemNFZGNlZEpOVTc1Smo3Ql9vaS14WmxueHNzX21FeXZQVVg5c2IzSEFoNEFnTDFKMXA5dk9YNURyS2NFQzJzVEl4bUV3bVBKVXFzM1pzVGhNT2VsdjIzRlYwLXR6bDRXMjVJbTNqOHJjakRuLXpQZDVPQmFwd18tQnYwbml2Qnk2MmN0bzNUazVfc2lkNFJlXzhVcXk4TkZOOENCNTgwV2s": "https://eldesconcierto.cl/hoja-ruta/puerto-varas-sera-el-primer-municipio-chile-liderar-y-financiar-un-plan-maestro-un-parque-nacional-n5461156",
     "CBMi3AFBVV95cUxNbkc2aDk3c2hLNm9ySFVKd1h5OFVGU0Z5cGsxMjZuTXhLcGwwTnA5WFgwUkZGdWlQNl9MSlQ3SWhUeWhYQzNMQXl0YU14ck9HbXctdTNoYWgtZzdnSUVtcnFtODZ5N3ZIUjA2R1NybC1NQ2VuOTlsaV9NTDdnSk5GbVljU2lWUzRLSmhYSVVjWm1fRlhTeUJqR0t0UXVKeHZOWHRZUERnSGx1SkdkbGs2SzVaVW1QRmNSRGIwS3YxeF9vMC1pYlh5WnVfS3NKc3pEMU80SS1Nb3h3R0w2": "https://fen.uchile.cl/circulo-de-honor-y-presidente-de-entel-luis-felipe-gazitua-dictara-clase-magistral-sobre-estrategia-de-negocios-en-la-fen/",
     "CBMi4gFBVV95cUxOMU9LZGFIc0UtWklkTm91UXhjbTExa1VENGEtM2w0bnRVMnZBSXZXcGt4elpXTEFPMXB6TUJocnNqSGxreVBRb2c0ZzFEMlJIZDFWT1p4b2xsNlczeFdXVy1maW1SWjRCb0RMRU0zU0V1a1JaU1pLZTliVHRySmI0NTl3cl8yZDd6UFd5dm5xNkFyNFZhbkhqaHBVTEJKZk1vNm91aVFXZUNqVEpUd2dhWEV5VW15OVlXb3F2SXp6bzZCSWN1YzFIWkVfbWpyaXZBRWlqWGwxNlhveWFxZkxLTVNB0gHqAUFVX3lxTE43SWlzUWQyQTM3cGZqUFNydWw0U3g0Yk9fVEgyM2lxWVdZVE5wZE80cUpwWmZiSU1MX1NvN3BlQkExQXpHcjZHNUZGekhvZlA0OEdOZTBwcHlNV25PU1ctNGJwdlN0TTRZbFZzMm1GNlg1NUVtOFk0Um5DcUdEeGZJaWFkX0ZaSWlCTlIwR194Sm5RMTBhb1pjWGJMRzFGRGloUUJBTVVTZ0I3YWVSZWFrcnpwQ3E3Skl0aEcwRXlCZ3pNR3BkTUV0cjNXMU1rMHBVeDZpRWZEX2YtOWpBTlV5dzh0VmlUSzB0UQ": "https://www.diarioconcepcion.cl/politica/2026/06/29/crisis-en-sector-forestal-congresistas-plantean-ideas-para-reactivar-la-industria-en-biobio.html",
-    "CBMi5AFBVV95cUxQRVZSVlBhTFlvT1JaYnFwZmFCX3NvOWFHOHFmVjhIUHkySkMxazZBRUEyM0dURnEtUWtYekpoRy05bHVFdklCWWU1Y3FsMWFjeG1CUHU5d005amZqRFZWWFk1ZWY4OU9qak51VXBtaGFtOU9ZLTI0NUU2ZnpsdmIxNEtMbzdFTFgzMnZnelJiTkhaQm5lTzZaVU90V3lsTGJwZWRXNVo2SHRxVE0yaW56emhKQTk2WF9tWnBQc0ZjTGxLZE1Hd216OFBQMzRXT3c1aHVNZTZ2cTU5YWF4cGFCRWxudWTSAeoBQVVfeXFMUFJuV0RKRU9hVVloUjBDaXA0OExsWjZqUlVLUmZDS1FSVzQ1eXZRQ205WGVkVDBXdTVtajZEM082NjRmZmxwamZvOXZCNHBnQjF4N1prazhVYzdHYkVyVE9DN3JRVnBYOW9LUTRTYkhWRjZKQXQzdjExWlA3Q0lWZkxCcGp2NmNGYU53eFBVVnhMQ05SX0NaOEx5YkdLcjN6aWd4R19wNnJ4WTVlSnFzc21KMlRuLTRIc1RJbUtPcXJtMXFpd1BRVWJ5cWlvSmNpWExjaG9oWmJxR2hVNUhEUTdNMFE1VGduWEJB": "https://www.lavanguardia.com/natural/20260806/11608814/incendio-forestal-machu-picchu-amenaza-bosque-nativo-obliga-suspender-circulacion-turistas.html",
+    "CBMi5AFBVV95cUxOem5MSG1PWkQyYWZCZEJoVTFTRElsRDV1d0VpbEV6ZVd0N1ZfZUxsYy1OR1NvVU1DMDVISkZsYmJhX1VzWTd5ejVHbnBLQlNrNGRBT0NydXVISGJpLXZfMFRNVDlHMkFVMVVaa1F2a3ZqM1Q0UGFEbkNmdkdzWWtaQXdSTkxDNC0yN050SnJCdDJ6TzdjNU9SVFFJZ25OMjNydTV2bk9HOFJOZnBoeVUzdjdCQTVQRHB0d01mMUQ0a1hxYWRQZ2ZUeUJqVUJLdTZqeEpmLVN5QUVMeEFjU3cwX0FwcTY": "https://www.univision.com/local/los-angeles-kmex/incendio-forestal-avanza-rapidamente-en-el-condado-de-kern-y-obliga-el-cierre-de-la-autopista-5-video",
     "CBMi5gFBVV95cUxNT1Jrc3pqcFBNdUd4MVVEUXEtcjBNMk1MZXdTV2JhbS1FTEFDdnZOUlRUanptOFJMYWlneVo5cTJOY1JxNlF0ODhZLUhRODFELVp2YktOWDJraWMzc3lHYWtsd0ZRZ21fQjJVamNuMm9tdDNqV2ZVV0doaktsQkMxZ3dHUkV3dHNGbk9kXzFiRk1vUzFIanhaQzFpSUtEM3liV2Mzb1JDWFF0enk2Z3RSeUdsX0tBejUxQVZDTUt3Rm1feDc0V2pvRDZuSmVfWnlLcDN1NnVtWU9hdkJBZzFORmNKVXVlUdIB6wFBVV95cUxNbGh5ekhUcVVaQnJxUW93cThuQlRUMXlCei1RTUFYb0xra0xFRlVSajFxMGxPMkg0UjExVGhINC03YjJIN0JaclByYXBpYWxLbWk4VlJzQl9ESXVLMExqZmZCTnloazkyYnBnTDRCb09KckZybzAtd2RXYjkyeFhxS3I5LXVFNzFDVFI2WFN3ZHNGeUhNWHIxZ2pVVFpPcHZYV3VZRmlDTEpFTGE2enNidzFGSmNnWExkemRVYmY1bWFBcGQ4Rm1XX3lqZi1rWFNPUTgtVzM5bU92QURtaVoydWhxS1U4U2JsTVNN": "https://www.theclinic.cl/2026/08/07/senderos-miradores-y-accesibilidad-el-millonario-plan-con-que-se-busca-transformar-el-parque-vicente-perez-rosales/",
     "CBMi5wFBVV95cUxPOVQ2eG1nTDR0SFpxX1hRbDY4dzFJckZPRkFIYmI4OXp4Y0pyS0NXbkx6TUExci1kWkd2cWgxR0RvOF9Nbk03b3pDVWQta2RlcXZxSEZuWkRvWk9uR3BVSGIzOExpMkZtVWhsX3lDZzcxN2Y5MHZqMXRDR1RSZ1JBMzlOVHd5RjZpSE40aHFfRXpQT0FMa3ZqOGc3MEVGRzVueEZBZGJsY0VsaXByNGprR0hzcnB1SGVDY2I0b3lOMmRxZkpTLWtCa1kxVnVDZGlHS2MzNHVJZjhzdFBlSk5hWkJXOG9wVzQ": "https://www.prochile.gob.cl/noticias/detalle-noticia/2026/07/27/prochile-destaca-a-empresa-forestal-del-maule-que-agrega-valor-a-la-madera-de-%C3%A1lamo",
     "CBMi6AFBVV95cUxNd0x2YzY3ci00RmxNVERKcGdTdFFqMU4wWVd2dnpuU2tDbGxlajRmR0RZdm56WWVrQjRMUWFUeVlzVjZobnFfVjdaUThlZl8tNElVMHpnVjZpTGhhRFFMNWJIV1lRdkR1bDVuNEw2d2tLaDhjSnFmYmpqaFlMQ2M3XzZLQlFNbU42V29PNEtOTlBKNUtqUzg3dm5ROURiRC1Nd012RGVYa25aV1pKek5xMS1KZEozelhOaVZ3bkpGbjFBS3B3LU9qLVg0alBublozby0yZnhnRHFXMi10a0ZkLW9xMElmdk5k": "https://www.radioagricultura.cl/noticias/nacional/conaf-abre-mas-de-3-mil-cupos-para-brigadistas-forestales-conoce-los-requisitos-para-postular_20260807/",
     "CBMi6gFBVV95cUxPbEdOaXhTUF83NWstZmt6ZkxobmFMdGY3ZFFVWFVSMzFUbzdtYXNMdFVXWElVbzQtNU54dU9IVmZkMUVNY1FBSWU4RC1oZTl1cndBNVUta3NmM2JyOUhTSEsyVmgydFk0aVRPTENITXQzVzhQRkNMMUtVdloxaUhLZDEwX1BJQlZLQzQ0Z0cwaFRxWG5qRnhjc21KVTN6OFFvVVMxVUp2SGNOQ1lrbEFwWUN2WWZOWF9GWEh1UDNaUE5TZEpWcGJfRVBZUEdqZVZLbl9hTXc3T0lqNk9QQVZFNmkxQk1kQjcwWnc": "https://es.investing.com/news/transcripts/informe-de-resultados-de-cmpc-q2-2026-el-bpa-decepciona-mientras-los-ingresos-se-mantienen-estables-93CH-3786569",
     "CBMi6wFBVV95cUxNV01SV1dCeWdOUmZXcms1VkNQc1Jia0xCS1FncmRRYUQzTWFIWjJGTHE4bDRORTJqQVdHSEFJYTRYZjcwQXlTdmN1THF1TG41MWFpNklqS0RoSTJwdzY3dW1aWXk3WjRFSWFPQWxaTXozSy01aThSYnEzZzd1YTQ1RC1HNDk0cW9ZaGIyektMdGRaNDRmbnJMWEphYURZNHAyRWR5Z3BGMkd3R0p4WUU2bTllRWpLeEZZZFhGaTRzejlocjFfV0s2VDdiRnRvQ2FQajh6bGxRU3ZPQWhzWUdBN3Q3MDMyd3BSMHQ4": "https://www.biobiochile.cl/noticias/nacional/chile/2026/06/21/conaf-y-os-5-de-carabineros-desmantelan-campamento-ilegal-en-parque-nacional-la-campana.shtml",
-    "CBMi7gFBVV95cUxNNGhFb2Vab1VHdHVPZzZwUmFnMTFHcTY2VHN6VnBYSUt3dTltTWhJc3lKLUh4NVBzbDJuTkI0MGt6d0o2VUlJZWdHamVpcWIzclk3eXR4dTlRNm40OGhVRndhSy02Q25kTlpzcFp2ekpnR0Q3QWV4Qk1VUkZrcnRSajdxMGJEaUo5aVJfZTJXOWx1R1BVbVEzQkQtNXFtX196blZmenJwTUxqQVBHUFR3VW9LZmVxeTFPQ0MxWHBRM1QwV1JGSkJwdDNOTEZyLWp1SkVfSXB6QzZHN3NvcjRUekFPM0pveWJmOTIwVUF30gHzAUFVX3lxTE5DMGg4eG01NDlNTzA2WXJtMjBMS2FVOEZZM0lOYml0VU54WmFVTVg2d2dkakNRalp5a0h6UUVkYUIySkVNaWhJOHUtdUI5dTVyczdEbWNIblVud0s2SmNiN1hJVjZvX2JyTmEyNm1oeUtqLW5qcXE5ZnBwYk05TENkY3VhemdDdGtsRm1JcGFiOWJXWlpTbW9lZlZEU1pGQW1lcnRMUUF4LXJlTDJEdTZqQUtFLThKMGlqZ1MydDhXQUJnYW41cE9TcVVLT3p3SlRrbzlQamc2OER1dUFQT3ZwRDE2S0M0b080V2VoR2w5S3dZTQ": "https://www.anbariloche.com.ar/noticias/2026/08/07/113476-advierten-por-el-ingreso-de-vehiculos-no-aptos-a-caminos-del-parque-nacional-tras-la-intensa-nevada",
     "CBMi8AFBVV95cUxPV3hTSDl2bzNFSzU0YUFreWl3V0JvaWhzMVNKQkhEM0RaMXdrOGpBdjhxbE9fS1ZzZ1lKbFVzSnJCVkJ3OU9TUG9SWnRhYWU2TEZvMEtEYnhBWG1YR25QZ2RvVmViSHRtYVVhdzk4Y2hXZ1lTOWx3ZjRHcWpOb09hR1UtcmN4eDBEcXJlMnBFYmVMRml3dnVTLXIyRXhrekJsM202QW01cmdDd3VPaC1JRDdvWVJvMFFPR1N5X3hmMVNObzRadlBET1RtcGVrQkNNVGRUOHgzWmJKQUtZOWlrYnZHV2JDc1hXX21hc0xnTHfSAZICQVVfeXFMTWdVVHp2LWg1cWdSb0FUTVpjcERrcm5MTmFVREhNMEQxZmcyY2JTY1NtdUs1TExDNWNiZUZHQzQ1TmlJZk1uVDRZb21haHJYQ3NZUU52WGIzMGJObGl3d0RfS3dDSkJmcmZDaVVVRk9RUm1WSWRUR2M0RUJqWDJKY09wbTIwQW1Id2hMRm91Y3hhMmdkM0FZNTVmLUJ5VkdqR19yV2VnS2EtWldoZEtkSGZhSTFMRHJvRllfS0tjMFFleHpjWENmeWpKOFFJcTU4d2s3ZzdKd0t4TV9lUG91Qk5wRGxISExkV183YkxLMDJRWHgtZnVBbUNXSU9KaVhUdFhKcFJ4SmhXQ3pfWU9UMVpKQQ": "https://www.latercera.com/pulso/noticia/ceo-de-forestal-santa-blanca-y-negocio-de-aserraderos-el-alza-del-diesel-nos-pego-muy-duro-estanco-bastante-la-demanda/",
+    "CBMi8gFBVV95cUxOSlA3Si0yUEp4TXRuQzc5Q05iQVgzQlI2N1czOXNMZTZYc2ZoNUZqakYxaE9rb1ZFb2FLak80YndsbENManN3c2VvRlNWUmhkdF8xdk1rVVJwWnAwQ21iY2dzeWhKVEp2c0pReUdZVkhOZUJfTUdrRVE2ck0zZnhfdTV0X3NuYURtMkZMdDZCaVF6M2RBSkxvYVdkLVd5ajhmeVp2TVZyZ21mU1FBQzNsakpTX29jcXdvT3JodGxkX19pOGFZMUFlN0VNR3dzZ0k2V0QyZmNOWmJPWlI1V3FhVjFaWmh2V083czNyc1pnbTJQZw": "https://www.independentespanol.com/noticias/eeuu/se-estrella-helicoptero-que-combatia-incendio-forestal-en-utah-se-desconoce-estado-de-los-pilotos-b3029637.html",
     "CBMi8gFBVV95cUxQekVPWko2d0dVaUZjQm1aUk1iNlV6bmM2YkUzX1ZpZjFfWGxUMEVGY0RRT2VIQU5leXpvNHBOZ3A5dml4MTM4c3Y3ZE43a3QyZDhlSXFSXzF2cE13YjBfRTd5cHU1M3ZTc25GQ08xOV91cWo4d1pDMEZOM1VpUVQ5bU55ZEl6OV9zTjlHSUMwR19HTWh3MGlRSGVka1BESXJ5dGdzS1pwX21aU3lkNWNPZ0RBMndjNm1URnZmYTIwWTQzVkwwUC1odGZoVGhYNl95bGtJNG1Ld015X2NlcE5aZFRTMlVSclRlWkZicC1SNFNNZw": "https://www.ciperchile.cl/2026/07/25/megaincendio-de-valparaiso-pdi-concluye-que-funcionario-de-conaf-ordeno-anotar-alertas-de-evacuacion-falsas-en-la-bitacora/",
+    "CBMi9gFBVV95cUxQZkVpSXNaMFFSdDRWTDFUSjk1bDlMdTgtR0FFRWM2a1h6NDVYdWVaUTZCZ3VGcXU5U3FxR0ppNTBhMEhoSkRqVDNla0NvcFZENExnSzE1ekJkWWZkOXRtdmZDRGE3UU9zdHRRZDFycDRBUkoyaXlOdExuX3FDYnVIdFJxN1V0SUM2Zm55dUctUEhCaW8xT3VxNW4xbXltM2pGMXNqY29tbEtNOUllR01YM1l0YnRQOEVmTTdESFNHQmZlUWJzb3VpaFF2N0l6QjN5anBRS1d1eXI5VUxrUkRhUG9fMy1ENVZYWnFtcURLRnFxbGhNSVE": "https://www.archdaily.com/es/775712/concurso-edificio-fadeu-cmpc-campus-lo-contador/56265c89e58ecee6f0000124-concurso-edificio-fadeu-cmpc-campus-lo-contador-imagen",
     "CBMi9gFBVV95cUxQbEJJQWwxcXVxSzJYY21wSFc5aTloazRqVnNiX1VzQU0tYkpBSHFXQ1VJUzU0d1IxcVlKTXFiWnV5NWotQmszVFRRNXY4UkFxR0VGS2VBeTZ1R0VZdjZVZGRQSERGb3BrbmswaDI5cUZ0QWNJVTRtdC13Uk10dnlzTVZvS1Q1akdDTkJpX29aSkE0dnlMR1ZtXzF4LVF0QUVZOFRSTWhTX0Q2bU9jcWdFekNSU2pWQzFiNW5DTW5TZ3V2UDRXWC01WVhwM1F0Mk5VMXAxRUhRc2IyOTQ4QzdVR2xUWlhyME9QN00zYUdXNUhiSXpMdXfSAZcCQVVfeXFMTlgyajZvUmt6Nzl0V0ZpWk42bzNpdzJDQnNNaEhCN01aVWpqMGhwdE9CVW9WZmxCYkZ5OFp2T0VDczBxSkR0NFdVR2FKM2ItV1Zwd2p5NXZqTWdxSVZ1M3ltS3hHYmoxVjZKQU4wcm1naGVLQjVXbTZoWFJoTWtxdWZOSDIyVGsyeXYtcHk3N3B1cFFuTHYwVnJXVF9rd09hREVrc2FzQ01Xc29XaHpyTkJ0YWFRdzBFeDZNRmd3Z0diOFhOQ3ROZlJxai1pQlZfLS00Xzc5aXRWM2VrdU9iN0F1MFlackxIcXRHUEx4cC1ZbjhQWDk1bmNjNFlNQng1cS1HejJxeFAxYjBfSDdEWUtUMEp3ZHRj": "https://www.latercera.com/nacional/noticia/cuasidelito-de-homicidio-exjefes-conaf-seran-formalizados-el-lunes-por-fallida-evacuacion-en-megaincendio-de-valparaiso/",
     "CBMi_AFBVV95cUxQT2RXV1NQWjVPQXNkdlhtRTM3Zkx0a3JvRWotSGRncHhqNmptb1phREJ2NnJqZ2pScnBtQjJ5Uk5uS0tRYkRVM1BpSEV3VjhlZzV3S1ZkVHdxR1FYZk9PZlFhNW1fUUVQLTN3VE84ODhVSXRtVzRXaXpyX0FPQ0lUUGY4eFZSdTJnREpTTXZYNV91cnJUREQ0ODdqVjY5S2xkaXFra3l3eVlpUjhMdlhLTTU4NGsyQU10ZTVrZVZoQ3Q3dEhHVkRQaDh4b0tmZVplendZNmJ2MXdsR3lSbEZpLWozdm5wRHNOQURzeE0ybVVWZVNIZ1lLNU1xYWE": "https://www.archdaily.com/pt/1117080/por-que-o-parque-forestal-de-santiago-do-chile-e-importante/5b32c326f197cc6734000373-why-is-santiagos-forestal-park-important-image",
+    "CBMi_gFBVV95cUxPc0hmTWtoaEpQamIxM3ZmU3k5MzZqLVpfZ0hhNXlpSmNOcm5UQjQyTEw5b212anF2aGZjNXR4RUVOTF9qeHh0VUdNS3RsU2k4d2pqNi14Y2JPWTZjbUdSaUgyRkNLel9zZ3NIS0lBUG1XaUhVc19mRHhZY2k0Z0Q5LXpMcEN1b2pSUVktc0l6T3FqY2loM1JYaGp2eHdfbUlEN0lLWHUyV0pBNkJ3aU1mdjUyUVNHaE9QSl9MeUl5MmRpd3FlN2NmTGt2N2UtNlllUGprX2FRMHVwS2duWnlWYmdYTk14S0RVWGV1Z2xtbHFuT2lqREZBdTBlU1VWQdIBhgJBVV95cUxOa0VOVEVla0dwV2Nkc2RfclFCTE9raGp0WktaT2ZDWWt3MnVlMmhob1RqN0h4bUNVRlNSYm1Pek5NTjVUUDdIV2l2U3B0V2FuWHNSeTRzcEJxRGJYU0VDZm5mVy1vTWZUbzN1NjBhZ0VlUTc3dE9zVkxyVmRfWURYMUd0c1N2SUI4U2pIWmx6aGk4dUR5azZQb3NpY1JBZ1VlbEtWUWl3d3VNUHBicEdILXFtbjJUYXo4cWhnNDNKOWJoZ0NqODhpUHNRUUxuTUFqWmU5Y2V3Tkl0eGo4eVVMMURMemxoUFR5NzNvMUx6aWhWbWE5ZUExVmExbTFGWHZpMDJhemxR": "https://www.diarioconcepcion.cl/politica/2026/06/08/esta-disminuyendo-el-patrimonio-forestal-de-chile-ministro-de-agricultura-advierte-baja-de-hectareas-disponibles.html",
     "CBMicEFVX3lxTE9hdWRDRnVaeFNXTE41RUNMbUJPRnBYU19EOU5zREdvMFAxTDU1c1RRNk44MDlhOTRkTkhIWGY3c1JmazdsNy1uc3ktbHY3TDJZa3p5UzI1MmRkYjlCZVhvaGJSZi1DY1AyaVQ1bFJJTTU": "https://www.observador.cl/carabineros-control-quemas-agricolas/",
     "CBMid0FVX3lxTE11Y283UDl3ME5mbmtfM3RJQzZEbXZDWkJCckJYWk5PRDN0S0U4UnF1UGh5QkswUmV3Y3FpS0U4SWhmQTc3eUd5N0h6VEtVdEM1TFZudzlpLUVLRVEzc2hqamIxRURPR0dNaDRwQU52UUNCanhqR1Yw": "https://www.landscapealliance.org/es/conocimiento/video/YqyxXLIvgTI/",
     "CBMidEFVX3lxTE4zcnhSdXlGNTg2azJMQ2VRYTlBbHlZS2tBTDVfOUlfQ0Noc3ZObXFBWnNCeUhSY21WWGxuZ2xXVjFqTmxiQVI5YUl4TmNtNG9YM0FfMERTaG9sM2RPMWpPZnd2amN1NjQya0o2eE1tb0Vpa0tq": "https://es.tradingview.com/symbols/BCS-CMPC/forecast-price-target/",
     "CBMifkFVX3lxTFBweUlTcUJnSXBrN0hBUEk0enAzT1c3Mkp1MVRrZ3YxUkFFcU5VMDhDT09RZFAyVFNmNENpa0E3NHk1NkZrdUo3UzJGLVZXUS1POTQtTWJrbm9JMG5HQ0hwMVdWakRFWjJLdHRtZVRXMHVYTG83YjRWamowVHN4Zw": "https://www.radioangelina.cl/portal/views/noticia.php?codNoticia",
     "CBMigAJBVV95cUxQY0ZtNVN4Zk9pTjlBeTF0amc4SndkaUZTRVdHcHpVVVc1cVJack9pTjlVWmxRMFI1QjJLaVd0T3IxR1lMeE1ZS1VyVnZvQ2h2NlhaYUc2ajU3SDJ5UHZnckhON1J5NS1QQUZXcmVYSUpBMHQ0YjI5djZoUU1IcHpXVWprOHBjdS1NQXg3RlZPZGx5b0g3V3RUQjZ4Nnc2QVY5d1BKWGsxMElacVBIOVZNc1lYNWtnc09kVmdpd0gwZW1EOTFBUVhFYkZYejVmQ2E2d2xZODR4dWVlU1lJcHFlYUxqLW1nTVFtYkphWXQzVklJakgwUVVtQ1o5XzVYUFFY": "https://www.biobiochile.cl/noticias/nacional/region-de-nuble/2026/07/01/conaf-suspende-quemas-agricolas-y-forestales-en-tres-regiones-ante-alerta-por-vientos-fuertes.shtml",
     "CBMigwJBVV95cUxOLUNLdE5OM0NhLTJQX2VMUE9uc1N0TVl4QmoxRUtaN0plUzhobEE3ekt1N0J0NjM1UmpnUHotOWtsNDUzWE1CMDJVSG1Jb0tjcFV4M0pyc0RzNUdpMWY4MmtfNGJEQmJzZzhURWgwN2w5Rk93NExZanRHeG1NRjJkSE5XRVhmUHBXb0VXOE9VU2xtemdud0VwQ1hldFdSdnRJa0JjQ0ZjZEhHSzVSOTFvSzNOMXh2SjB4ZEtpd2Ruc1h2TEQ3VFdZekRick43ZjBaRFB0VlAza2pMZzFTLWZoalFLMlRRbktxdldtd19XUWd3X0hzbm93U1dzankzdXBmbms4": "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/06/17/es-prioridad-la-renovacion-de-la-ley-forestal-que-afina-el-gobierno-bajo-cierto-hermetismo.shtml",
-    "CBMigwJBVV95cUxPV045UklpNG5oV0I1dGp4dDlDbDZ6alFZYXc1YkxtLVlCV1FtY1BoN2ZNWjlKUnhjSkI4NnBsRWFuTDYwY2hYemhTVnQzMl9pOEtpZXFhM2FRVUUwNmxSdUJCM2NYN3BIYU8xaHNyQXlFcEFJY29HUThuaFVOd0lYSUNYOFVPOWZxMUpsRGtrZ1VPcFIwaXI3N3lHMHdRVjVLNjEyRUwtNTdaZGdLRmdyVy1vSkFqbnJVaExoczBWaDA2a2dOcllZOG1DYzV0WHZqMHV5WS16MzJGQm1DSHE5end3dU5QejBqdGk1T1hLZjA1OEhDaW9tNEw1TmhBa2M4V2FJ": "https://www.biobiochile.cl/noticias/nacional/region-de-los-rios/2026/07/20/valdivia-conaf-afirma-que-bosques-de-arauco-en-venta-serian-explotados-no-antes-de-ocho-anos.shtml",
     "CBMihAFBVV95cUxOVW9tZzFKb3AwSEVQemVMaWFtMWdJaGJjdW1CWVlhU3dBTUI5azRWLWFWQmxoMDhnMi1xNFdhLTdJVDNsTXdxTlFRM0d4S3g1ZHRQNGk1c21hcXFiRDRKS3B3OTI0OWFCQjZOTm9xUC1iVGRvV2hpUDdSSTV0aXVWbzFDakw": "https://alertanoticiastemuco.cl/2026/08/07/cmpc-ayuda-afectados-lluvias-angol/",
     "CBMijwFBVV95cUxQcmpvcFF3c3NzSFlvTjRVcG5OemlxSGZfemxKVEVGNmFIbmdXU2tlQ1JabVZ0TjR1eXZGOGNSam56US1tMmlIbnBDLWt5Rlk0VVpLY2xLZ1MzWWFmdE1lMDVNNXpuTXJBUl9lQ0hNZHl4ZXJ4TktGRUR1bjlNNE0zQ25waThSWDhKQzlXbE9uMA": "https://www.seattlepi.com/news/se-estrella-helic-ptero-que-combat-a-incendio-a22379589",
     "CBMikgJBVV95cUxOMEQ0d0hkeE9yb3hCc0FnUXBFQWRNTjlydDNJdXVTRzdMOW5hb1c3YVhSNVRyLU51cEJNUmZDQnRITDk0R0h3Y0ptbUR1U2lhYmtScWJkbTFUcVg4RC1WRTlUN0pJcm1RVGlpQnVqMmlCOXBIWWd6d0tReG9USXQxa3c4dnpHS1E3Yml0OVBZM2R3U2lYLXBGeXhTMTI5eFp0NUFYTnhsS0Q5RWFTZjE4TnVlREZMMzlhWG1FdGZVc2lHS1JoRnhRMXJxVk0zc09tRTQ0cTNFUFZ4dUxVNTFKNDBjWVpjVDdzTFc3VURpVjJ1NHIzcUp2WG9VN3Bkcm1adXVhaHp5dVRlRUJTRGVrZHJR": "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/06/16/crisis-en-sector-forestal-empresas-contratistas-de-cmpc-suman-cerca-de-700-trabajadores-desvinculados.shtml",
@@ -67961,8 +67997,10 @@
     "CBMiugFBVV95cUxNWGp6eFRUWjBvdTRnZ1RpbVVRLUM2WWQyczVHSFAteWRrQzlkSWh0LW55cFg2RGlHOHFqaE1SdUtjYzJXYmo2TTlOeXhEM1ZxZkVKaFBNN0tsTUd2SHVEZ1hkeUJjN0ZQR3pPdXcyb1B0dEpkYXlVeUs0TkFtQnpWSldWVkJDQlJEVU44ZTEyQ1BtaEs0T054bG1qVWxNTGRONHN5cTdKZW8zQXNHY2FlVHM0NzRiTzZNUXfSAdsBQVVfeXFMT2x2bUt6WHhfcms0MzI2V016NlluaFFWSVZzdHYyVFlEejk2NkowNHBsWG5wbEtzSzJNQlJyN3g5OG1XaWdQaDJtS3FocEpjdUZWLW5HZTlDOTROemJkZ3FMMW40RG9FUU9MMUNPeFQzRHFhV3VYNkZQMEdBVzF4dXdIWUtNOG1hbUxBTFBNek4xNzNQVlJ4RDRWVEJtR05UREZWMk1hSGl4NEthTWNFNE9oSG1Ec2xmSFgzS3Y2bXVEYjZndzgxVEJzSXRaTXVPNGREMW05cnp2MGVZ": "https://www.latercera.com/pulso/noticia/la-presion-financiera-sobre-cmpc-de-cara-a-su-megaproyecto-natureza-en-brasil/",
     "CBMivAFBVV95cUxNcmVKLW9WVDJTOGhYVjcwUENrSXlZcnJQOUFrMGF4VDg0VDktamV2WlNxdlZjWGVHMkVYdnBRQzQ3TDBJYXpuYkJ5T1JkTHd4SEp6QmF4a01WaV9Kb2tjc3VzRWpCU3hVWGt2Z2NOR3Q4WWt0N2M3ZG9lejd4NUtEVUZrajdRWlRBNG1CVzBRSGx6MG00U2FjeV9TV3NJNkVSUkt1TG9ZWS03YldLOUZSVHcyQ2J0UkVDWi1SZQ": "https://www.cnnchile.com/negocios/cmpc-repunta-operacionalmente-pero-utilidad-semestral-se-hunde-74-hasta-us33-millones/",
     "CBMivgFBVV95cUxOM0hRbUQ4cjlBR2cyV2xibXh4ZU1sNFJnYTYtbFBhaVNxUWdhaUhCYTJFS01xdXQxay1YVWtqMnpEa2hEb0ZMdWk3bTZITW04b09peTBRUkJSWDM1SllOamdDQ2s1d1pxajNmMFdqR1NTSktEbmxzbGtFVXd0dU5tMWduVW1kbTBMT2xvbURyMFlCRkYxejdMb2Z6OGxBTUI3NWg5WmIydVliWUdUbHUyVFB1SEZmSFlWUjRUYkJB": "https://gorebiobio.cl/2026/08/07/gore-destina-mas-de-9-mil-millones-para-recuperacion-de-bosques-afectados-por-incendios/",
+    "CBMivgFBVV95cUxPRHZocXpvS3Q4T0ZqSFBxSFowYlVrSHJFam5uem5hY1JwVUQ0T1VaejJadTRXY3ZvSzRnc0JXWEY1ZUg1VUs4RHIyM2ZDa256Umw0NTEtai1neEJpOG1iYjAteUZ5cDZ3T2J1SmtRNHRrYjNmcUdaM0UwMWhlM0Z0OTNEdlYwYm56Y3d0ZkhRT2xIaXRwV1EtOWN1N1FBN3R1XzR2VGtsWlI2Um1SQVdTZkQxUW5UYkh5WnVGTjFn0gHGAUFVX3lxTE5VTk1PU015ZzNId0p1UlZ0Wk0wQUFxQjR1NDN3VXNNSGN3Wks4TVJPNGo1R2JHdFB4X3BlcHRCXzVVR2RLajhDdFBNMEhYYTV0cHFSM2xvVmd2VkdmOXhkSllLNGRRaTBfYmNZd3IwN3RLNl9Lb1VfMXBwSVRWRmZIT290TnhESUpHbHRCYW02QWdvQW1NbUVkX3NNVkI2bDlzTF9GT2FEZlhfV21tbk0zbnQyLWx3b3V3MlhSV0xXZ0E5SGVWdw": "https://www.telemundoutah.com/noticias/local/faa-confirma-accidente-helicoptero-cerca-incendio-wide-mouth-2-utah/2410437/",
     "CBMivgFBVV95cUxPY1FrZVlHMXlBbTAtTEN0ZXR0NGlzelplWlFTRkVmX0JqTGlweVJZRC1jdWJkbGE0Qy1RM3lMcGF1V3hTd3VkdlN2TTFGcTQwd2RWLXl4OHpiNEZUSUJheUtHQ0NIT0VPd1ZRQVRULTFpaFFXSE9lYkVyVnRLM3pFbkVSU3hHY0xVNEV2eXZZZERyWlY4NzZ3Zk9LWERnQlZTb3FENWlJRG10b3FHY0dHZXU0NDZqQ0lkOWQzcG9B": "https://www.munistgo.cl/parque-forestal-monitorean-mas-de-mil-arboles-afectados-por-podas-realizadas-hace-mas-de-10-anos/",
     "CBMiwAFBVV95cUxQZFlaSGNOcnR2THNFdFk4YkFfZmQ3eTFlRXpwTC13NWVKdzljRFlaTlVNejBnSWF2Y1BuY0tsYVNiYUpEblFVWG9tVFFFb3YybW5mVE4tLXd6Nm9ITEpnbXA2N3JxNWFEYkl0YlRLTFJ2bzkwM003UHB0SUlkc1NUc0swb1JpMkZRRXVJUXlFeHRmbUJfTUhfdUhfWHNnRGNMclJxLVJvM2ZEdzFxaG1BLUtYNGtXdGJCZE1sRjZJV3Q": "https://soydeosorno.cl/2026/08/06/conmemoran-los-100-anos-del-parque-nacional-vicente-perez-rosales-con-cicletada-familiar/",
+    "CBMiwgFBVV95cUxPMExiT0tmVl9wdHRfSDdEQUYtWWx6SmNmU3VsSWdVeVJ2MEdodkNUUHpnTUZIZVFvcEUtN3c1Q2JFcmNDZjFWMldiM3doMWVNd0R5MElEMHM4cXdSdmxZUlNlOVIxbUU2d1hMekpWM0taU19HWEJiNUg5MXJpRkVLZWY2Z1lZTF82cUc0MWVOM2ZIZjJZLVNiSkZiMmJ0el9XaDBOQ2tEN2tkYjBwUlp3WGFYQWlYZzBHSGNKRXpTSDF1QQ": "https://g5noticias.cl/2026/08/07/en-el-secano-costero-se-fortalecen-competencias-para-el-combate-de-la-plaga-sirex-noctilio/",
     "CBMixAFBVV95cUxPX3VycTdxUjE2LUZEWERsWkZzT3VSU3BuWWFtTTY5NTJCQ25sYVNJM0t1QkpPcF9TbG9KanE1aEhkRk0zbWZmYnE5ZEFKbkVNRVo0SEdnRlpPU0d2NzZnaXRsakYyeVVDSXQ3UncxVlJqQU1yV3ZSOHRZVE4xaE9CNVpUdnFPUW5md3NnLUdRZmJjbUdSSTltWW9rRlFZbnBuMGR5ZmttVFhhanhZSmpTcTRPMUVpcjVlLTVmc29WNkNEalJ4": "https://www.elmostrador.cl/mercados/2026/07/21/corfo-ficha-a-exejecutivo-de-cmpc-para-acercar-la-institucion-al-mundo-privado/",
     "CBMixgFBVV95cUxPaEdzVEM0eklENndPYjJlZnRwcDJTcHR6aEVFanBhNDBQRFZnRElpb1ZvTk9Id2otbDBPaVpJNkdSVVh4bmUxdUhDMFFnYmJuOTFnUkxNU1hwVUVKb3BjdUR0d3ZiZ3ZidXRNWkItRzdnSUR6SmFZUV83V3ZmNVlzLURvV2Vpdm1qeHVISFpnOUtJQjhsYUtjeUFaOEFpeVVyalRidHAxbl9vQ29BTmJ2TlUzalhMb3o2YnBsa3RLRW8tOFhGcnfSAecBQVVfeXFMT1pPazFQc3l3S19lMGt4TnpQRFp2eEMzRUNPbFk4QmtLbnZCOVNwQjB5YUVZLUZFZ0prNEhEMGgxU1h4TTJvWnhVZkI3YW9JZ3FmclNLcVk2RV9MdkcwWnlGQnA3VElUSkhMMjBod251V2E3Z0lUeTJOQlNMZVB5bTBFcl9ubFVzRWVTSHZraXpwVVBrV2pvZHdqWHh4NGUzaDh0anhpMEVaSk1kUUhGVm55QVEtUWxkNTdEWnN6YkRBdUtQZGVobFpNdElxbDFtU1NxeTJiVk9pSnlrQnBiUzBSRnk2OG5n": "https://www.latercera.com/mundo/noticia/accidente-aereo-en-grecia-dos-helicopteros-chocan-durante-combate-de-incendio-forestal/",
     "CBMixwFBVV95cUxNU3ItWEJ3RW1ZREd0TlFoX25yWjlId1gxWEFfU09YR2hsVW9nUlM5Slh4MW1UXzI0cWxSSk10WVAyc2ZkQlpYcGJWdUhMTnROU0tZVkh4eWsyVFpGQjM4U1kyY0gzcUZHN0p6QUhaOTNRc0MweG90YUI4TndlLW95bFFSY3VpYm1LMEctVDZManIxSk1Ud0xYY1B2b2dtZ2VueGZFNkFyNk5QNWsxZ29YY2JJaVlXbGFlaGRRWkMyYW50VE5HX1E0": "https://www.nubleactual.cl/region-de-nuble/conaf-corma-y-bomberos-se-coordinan-para-prevenir-y-responder-a-incendios-forestales/",
@@ -67997,8 +68035,6 @@
       "https://www.meganoticias.cl/mundo/528824-meta-multa-567-millones-de-dolares-por-exponer-a-menores-a-riesgos-en-redes-sociales-07-08-2026.html",
       "https://www.meganoticias.cl/mundo/528827-tiroteo-colegio-tailandia-adolescente-mata-a-ocho-personas-bangkok-07-08-2026.html",
       "https://www.meganoticias.cl/nacional/528728-cortes-de-luz-programados-enel-doce-comunas-region-metropolitana-06-08-2026html.html",
-      "https://www.meganoticias.cl/nacional/528730-corte-de-agua-aguas-andinas-region-metropolitana-6-de-agosto-06-08-2026.html",
-      "https://www.meganoticias.cl/nacional/528731-siete-detenidos-droga-fentanilo-armas-barrio-chino-lo-espejo-05-08-2026.html",
       "https://www.meganoticias.cl/nacional/528732-temblor-hoy-zona-chile-sismologia-nacional-06-08-2026.html",
       "https://www.meganoticias.cl/nacional/528734-puente-alto-banda-ingresa-a-vivienda-bajo-modalidad-turbazo-y-huye-disparando-06-08-2026.html",
       "https://www.meganoticias.cl/nacional/528735-conductora-aplicacion-secuestrada-extorsionada-retiros-dinero-la-serena-detenidos-prision-preventiva-06-08-2026.html",
@@ -68096,7 +68132,7 @@
       "https://www.meganoticias.cl/nacional/528924-corte-apelaciones-rechaza-querella-jueza-los-angeles-corrupcion-07-08-2026.html",
       "https://www.meganoticias.cl/nacional/528925-providencia-camaras-oxxo-red-vigilancia-1025-camaras-07-08-2026.html",
       "https://www.meganoticias.cl/nacional/528926-jaime-leyton-riesgo-aluviones-atacama-norte-lluvias-75-mm-07-08-2026.html",
-      "https://www.meganoticias.cl/noticieros/528729-meganoticias-prime-miercoes-5-agosto-04-08-2026.html",
+      "https://www.meganoticias.cl/nacional/528927-corte-de-luz-programado-santiago-rm-enel-comunas-afectadas-sabado-8-agosto-dcv-08-08-2026.html",
       "https://www.meganoticias.cl/noticieros/528817-meganoticias-prime-jueves-6-agosto-06-08-2026.html",
       "https://www.meganoticias.cl/patrocinados/528885-desde-calvin-harris-hasta-hardwell-conoce-el-line-up-de-creamfields-2026.html",
       "https://www.meganoticias.cl/tendencias/528733-fran-maira-internada-colapso-emocional-debido-agresion-fisica-06-08-2026.html",
@@ -68135,7 +68171,7 @@
       "https://www.cnnchile.com/cultura/dia-del-vinilo-2026-chile-gam/",
       "https://www.cnnchile.com/cultura/effem-impulsara-residencias-talleres-y-su-primer-festival-de-fotografia-en-chile/",
       "https://www.cnnchile.com/cultura/foo-fighters-anuncia-su-cuarta-visita-a-chile-tocaran-el-28-de-febrero-en-el-parque-estadio-nacional/",
-      "https://www.cnnchile.com/cultura/inde-navarrette-protagonista-de-obsession-debutara-en-un-proyecto-de-videojuego-aun-sin-revelar/",
+      "https://www.cnnchile.com/cultura/genera-expectacion-medio-especializado-destaca-a-la-actriz-mariana-di-girolamo-y-la-incluye-entre-las-posibles-candidatas-a-los-premios-oscar-2027/",
       "https://www.cnnchile.com/cultura/julieta-venegas-aterriza-en-chile-para-presentar-su-libro-nortena-memorias-de-un-comienzo-en-el-centro-cultural-la-moneda/",
       "https://www.cnnchile.com/cultura/karol-g-estrena-no-me-arrepiento-de-sentir-tanto-album-que-reune-baladas-regueton-y-colaboraciones-con-drake-y-bruno-mars/",
       "https://www.cnnchile.com/cultura/karol-g-revela-el-tracklist-de-su-nuevo-album-confirmo-colaboraciones-con-bruno-mars-drake-y-mas/",
@@ -68446,7 +68482,10 @@
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bice-03-08-2026-2/",
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bice-03-08-2026-3/",
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bice-05-08-2026-3/",
+      "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bice-06-08-2026-2/",
+      "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bice-06-08-2026-3/",
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bice-06-08-2026/",
+      "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bice-07-08-2026-2/",
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bice-07-08-2026/",
       "https://ellibero.cl/aviso-legal/ordenes-de-no-pago-banco-bice/orden-de-no-pago-banco-bice-05-08-2026-2/",
       "https://ellibero.cl/aviso-legal/penta-vida-compania-de-seguros-de-vida-s-a-citacion-a-junta-extraordinaria-de-accionistas-17/",
@@ -68482,6 +68521,7 @@
       "https://www.eldivisadero.cl/_noticia/Consultas-por-caídas-causadas-por-nieve-y-escarcha-aumentan-cerca-de-un-90/ODM3OTQ=",
       "https://www.eldivisadero.cl/_noticia/Coyhaique-Impactante-reportaje-revela-que-asesinato-por-quitada-de-drogas-involucró-a-amigos-de-la-víctima/ODM3OTM=",
       "https://www.eldivisadero.cl/_noticia/Coyhaique-contará-con-la-primera-plaza-canina-que-supera-los-170-millones-de-inversión/ODM3ODc=",
+      "https://www.eldivisadero.cl/_noticia/DOP-Aysén-y-Emporcha-abordan-expansión-de-convenio-estratégico-y-proyectan-administración-del-nuevo-Terminal-de-Puerto-Yungay/ODM4MDM=",
       "https://www.eldivisadero.cl/_noticia/Diputada-MacíasVivir-en-Aysén-no-puede-significar-tener-menos-posibilidades-de-sobrevivir/ODM4MDE=",
       "https://www.eldivisadero.cl/_noticia/Director-de-Vialidad-confirma-que-entre-noviembre-y-diciembre-se-inician-obras-de-conservación-del-puente-Ibáñez-/ODM3OTY=",
       "https://www.eldivisadero.cl/_noticia/Duro-golpe-a-punto-clave-de-conexión-Incendio-destruye-refugio-de-pasajeros-en-Puerto-Yungay/ODM4MDA=",
@@ -68509,9 +68549,7 @@
       "https://puranoticia.pnt.cl/deportes/claudio-bravo-abre-la-puerta-a-trabajar-con-manuel-pellegrini-en-la-roja",
       "https://puranoticia.pnt.cl/deportes/colo-colo-no-se-rinde-por-diego-valdes-y-evalua-formulas-financieras-para",
       "https://puranoticia.pnt.cl/deportes/conmebol-confirma-arbitros-para-los-partidos-de-la-uc-y-coquimbo-en-octavos",
-      "https://puranoticia.pnt.cl/deportes/coquimbo-unido-vence-a-san-marcos-de-arica-y-sella-su-clasificacion-a",
       "https://puranoticia.pnt.cl/deportes/d-antofagasta-se-ilusiona-con-ascender-tras-golear-a-u-espanola-en-el",
-      "https://puranoticia.pnt.cl/deportes/d-iquique-se-impone-con-comodidad-a-d-limache-y-avanza-a-octavos-de-final",
       "https://puranoticia.pnt.cl/deportes/dt-de-u-la-calera-admite-que-el-partido-ante-colo-colo-podria-marcar-su",
       "https://puranoticia.pnt.cl/deportes/el-inter-de-maripan-logro-sufrido-avance-en-copa-de-brasil-pese-a-caer-ante",
       "https://puranoticia.pnt.cl/deportes/emiliano-astorga-asume-como-nuevo-entrenador-de-d-temuco-tras-la-salida-de",
@@ -68520,6 +68558,7 @@
       "https://puranoticia.pnt.cl/deportes/fernando-ortiz-asegura-que-todavia-no-decide-si-cita-a-vozinha-para-el",
       "https://puranoticia.pnt.cl/deportes/fiscalia-y-el-sii-presentan-apelacion-para-dejar-sin-efecto-el",
       "https://puranoticia.pnt.cl/deportes/johnny-herrera-felicita-a-anibal-mosa-por-el-fichaje-de-vozinha-en",
+      "https://puranoticia.pnt.cl/deportes/la-uc-derrota-a-cobresal-por-la-liga-de-primera-y-llega-con-confianza-para",
       "https://puranoticia.pnt.cl/deportes/preocupacion-en-el-futbol-chileno-nelson-tapia-protagoniza-grave-accidente",
       "https://puranoticia.pnt.cl/deportes/presidente-de-la-uc-y-posibles-refuerzos-claramente-es-bastante-dificil",
       "https://puranoticia.pnt.cl/deportes/san-felipe-y-los-andes-reciben-el-mundial-sub-17-de-voleibol-femenino-en",
@@ -68556,14 +68595,13 @@
       "https://puranoticia.pnt.cl/nacional/canciller-francisco-perez-mackenna-cierra-gira-por-brasil-con-llamado-a",
       "https://puranoticia.pnt.cl/nacional/capturan-a-sujetos-que-intentaron-atropellar-a-carabineros-durante-control",
       "https://puranoticia.pnt.cl/nacional/chile-y-venezuela-intercambian-notas-diplomaticas-y-avanzan-en-el",
+      "https://puranoticia.pnt.cl/nacional/con-mas-de-5-mil-policias-ministro-arrau-encabeza-nuevo-megaoperativo-que",
       "https://puranoticia.pnt.cl/nacional/conaf-abre-postulaciones-para-labores-de-combate-de-incendios-forestales",
       "https://puranoticia.pnt.cl/nacional/decomisan-cerca-de-200-estoques-mas-de-30-celulares-licor-artesanal-y",
       "https://puranoticia.pnt.cl/nacional/delegado-presidencial-german-codina-plantea-reparar-la-honra-de",
       "https://puranoticia.pnt.cl/nacional/desarticulan-operacion-que-buscaba-armar-en-chile-miles-de-tintas-y-toner",
       "https://puranoticia.pnt.cl/nacional/detienen-a-ciudadano-ecuatoriano-vinculado-a-la-peligrosa-organizacion",
-      "https://puranoticia.pnt.cl/nacional/detienen-a-informatico-de-la-municipalidad-de-huechuraba-por-almacenamiento",
       "https://puranoticia.pnt.cl/nacional/detienen-a-tres-personas-e-incautan-mas-de-1-4-kilos-de-droga-durante",
-      "https://puranoticia.pnt.cl/nacional/detienen-al-presunto-autor-material-del-homicidio-de-estudiante-en-las",
       "https://puranoticia.pnt.cl/nacional/diputada-zandra-parisi-propone-declarar-feriado-el-17-de-septiembre-de-2026",
       "https://puranoticia.pnt.cl/nacional/diputado-leiva-critica-agenda-en-materia-seguridad-y-espera-que-arrau-no",
       "https://puranoticia.pnt.cl/nacional/diputado-schalper-llama-al-oficialismo-a-poner-el-foco-en-la-agenda-del",
@@ -68579,7 +68617,6 @@
       "https://puranoticia.pnt.cl/nacional/justicia-revoca-prision-preventiva-de-joaquin-lavin-leon-y-decreta-su",
       "https://puranoticia.pnt.cl/nacional/juzgado-de-san-bernardo-decreta-prision-preventiva-para-56-imputados-por",
       "https://puranoticia.pnt.cl/nacional/kast-detalla-agenda-contra-el-crimen-organizado-y-el-terrorismo-y-afirma",
-      "https://puranoticia.pnt.cl/nacional/mesa-del-senado-remite-a-comision-de-etica-enfrentamiento-entre-campillai-y",
       "https://puranoticia.pnt.cl/nacional/ministra-maria-paz-arzola-defiende-reforma-al-sae-y-afirma-que-busca",
       "https://puranoticia.pnt.cl/nacional/ministro-arrau-anuncia-ingreso-de-cerca-de-15-proyectos-para-reforzar",
       "https://puranoticia.pnt.cl/nacional/ministro-s-del-interior-descarta-regreso-de-exsubsecretario-de-hacienda",
@@ -68608,7 +68645,7 @@
       "https://puranoticia.pnt.cl/region-valparaiso/caso-de-presunto-acoso-laboral-y-sexual-en-el-municipio-de-valparaiso",
       "https://puranoticia.pnt.cl/region-valparaiso/chiara-barchiesi-apunta-a-liderar-republicanos-en-valparaiso-soy-la",
       "https://puranoticia.pnt.cl/region-valparaiso/cinco-detenidos-tras-allanamientos-en-cerros-de-valparaiso-incautan",
-      "https://puranoticia.pnt.cl/region-valparaiso/coordinadora-por-la-defensa-de-la-educacion-publica-de-valparaiso-rechaza",
+      "https://puranoticia.pnt.cl/region-valparaiso/comite-regional-de-humedales-de-valparaiso-aprueba-hoja-de-ruta-para",
       "https://puranoticia.pnt.cl/region-valparaiso/core-de-valparaiso-aprueba-millonaria-inversion-en-equipos-para-senapred",
       "https://puranoticia.pnt.cl/region-valparaiso/desarticulan-organizacion-dedicada-al-microtrafico-en-quintero-10",
       "https://puranoticia.pnt.cl/region-valparaiso/despejan-hasta-seis-metros-de-nieve-del-paso-los-libertadores-y-advierten",
@@ -68622,7 +68659,7 @@
       "https://puranoticia.pnt.cl/region-valparaiso/evaluan-implementar-buses-especiales-para-llegar-a-las-fondas-de-septiembre",
       "https://puranoticia.pnt.cl/region-valparaiso/fiscalia-confirma-investigacion-por-eventual-caso-de-violencia",
       "https://puranoticia.pnt.cl/region-valparaiso/fortalecen-ofensiva-contra-el-crimen-organizado-en-la-region-de-valparaiso",
-      "https://puranoticia.pnt.cl/region-valparaiso/gobierno-regional-de-valparaiso-destina-1-627-millones-para-mejorar-centro",
+      "https://puranoticia.pnt.cl/region-valparaiso/gobierno-regional-de-valparaiso-destaca-apuesta-por-el-deporte-y-el-turismo",
       "https://puranoticia.pnt.cl/region-valparaiso/habilitan-punto-de-vacunacion-en-la-estacion-puerto-de-efe-valparaiso-para",
       "https://puranoticia.pnt.cl/region-valparaiso/incendio-afecta-a-departamento-en-glorias-navales-y-obliga-a-evacuar-a-unas",
       "https://puranoticia.pnt.cl/region-valparaiso/infidelidades-papitos-corazon-y-principios-los-filtros-que-aplicaria",
@@ -68645,14 +68682,15 @@
       "https://puranoticia.pnt.cl/region-valparaiso/senador-habria-protagonizado-violenta-discusion-con-su-pareja-en-vina-del",
       "https://puranoticia.pnt.cl/region-valparaiso/simulacro-de-ebola-en-vina-del-mar-hospital-fricke-reforzo-los-protocolos",
       "https://puranoticia.pnt.cl/region-valparaiso/slep-costa-central-devela-que-recibio-menos-recursos-para-reparar-colegios",
+      "https://puranoticia.pnt.cl/region-valparaiso/u-de-playa-ancha-crea-observatorio-satelital-que-monitorea-la-nieve-de-46",
       "https://puranoticia.pnt.cl/region-valparaiso/valparaiso-celebrara-el-mes-de-la-ninez-con-multiples-actividades-gratuitas",
       "https://puranoticia.pnt.cl/region-valparaiso/vecinos-denuncian-traslado-de-aguas-servidas-desde-cuestionada-planta-de",
-      "https://puranoticia.pnt.cl/region-valparaiso/vina-del-mar-celebrara-el-mes-de-los-ninos-con-gran-jornada-gratuita-en-el",
       "https://puranoticia.pnt.cl/regiones/biministro-de-grange-ratifica-proyecto-de-corredores-de-transporte-publico",
       "https://puranoticia.pnt.cl/regiones/corte-de-temuco-rechaza-recurso-de-amparo-de-condenado-por-crimen-del",
       "https://puranoticia.pnt.cl/regiones/corte-de-valdivia-rechaza-recurso-de-enfermera-destituida-por-viajar-al",
       "https://puranoticia.pnt.cl/regiones/declaran-emergencia-agricola-para-la-region-de-nuble-hay-mas-de-800",
       "https://puranoticia.pnt.cl/regiones/exalcalde-de-renaico-fue-condenado-a-15-anos-de-carcel-por-delitos-de",
+      "https://puranoticia.pnt.cl/regiones/fiscalia-local-de-copiapo-investiga-fallecimiento-de-trabajador-en-la-mina",
       "https://puranoticia.pnt.cl/regiones/gobernador-del-biobio-cuestiona-al-ministro-quiroz-en-medio-de-polemica-por",
       "https://puranoticia.pnt.cl/regiones/mas-de-2-mil-hogares-de-atacama-integran-primera-nomina-de-potenciales",
       "https://puranoticia.pnt.cl/video/alcaldesa-de-valparaiso-y-sus-gritos-tras-la-aprobacion-de-la-megarreforma",
@@ -68665,10 +68703,8 @@
     ],
     "la-hora": [
       "https://lahora.cl/cronica/2026/08/01/a-que-hora-comienza-la-lluvia-en-santiago-un-domingo-con-precipitaciones-espera-a-los-capitalinos/",
-      "https://lahora.cl/cronica/2026/08/01/ambos-son-extranjeros-detienen-a-delincuentes-que-participaron-en-tiroteo-en-el-barrio-franklin/",
       "https://lahora.cl/cronica/2026/08/01/concejal-muere-en-medio-de-voraz-incendio-que-afecto-a-hosteria-de-villa-amengual/",
       "https://lahora.cl/cronica/2026/08/01/horoscopo-domingo-2-de-agosto-predicciones-de-yolanda-sultana/",
-      "https://lahora.cl/cronica/2026/08/01/insolito-gobernador-boliviano-aparece-sobre-camioneta-con-encargo-por-robo-en-chile/",
       "https://lahora.cl/cronica/2026/08/01/la-florida-inicia-segunda-entrega-masiva-de-vales-de-gas-gratuitos-para-familias-del-90-del-registro-social-de-hogares/",
       "https://lahora.cl/cronica/2026/08/02/amplian-detencion-de-arquero-de-osorno-imputado-por-atropello-fatal-conducia-bajo-los-efectos-del-alcohol/",
       "https://lahora.cl/cronica/2026/08/02/aprobacion-del-presidente-kast-cae-a-25-6-su-nivel-mas-bajo-desde-que-llego-a-la-moneda/",
@@ -68725,6 +68761,7 @@
       "https://lahora.cl/cronica/2026/08/07/alcalde-de-penalolen-hay-que-terminar-con-este-modelo-de-sin-filtros/",
       "https://lahora.cl/cronica/2026/08/07/atajan-a-ladron-en-san-felipe-con-aplaudida-patada-voladora-se-hizo-viral/",
       "https://lahora.cl/cronica/2026/08/07/cuatro-dias-de-fiestas-patrias-proponen-nuevo-feriado-para-septiembre/",
+      "https://lahora.cl/cronica/2026/08/07/horoscopo-sabado-8-de-agosto-predicciones-de-yolanda-sultana/",
       "https://lahora.cl/cronica/2026/08/07/imagenes-fuertes-no-hay-ningun-respeto-por-los-familiares-temporal-dejo-a-la-vista-los-restos-oseos-en-cementerio-de-puerto-montt/",
       "https://lahora.cl/cronica/2026/08/07/impacto-nelson-tapia-sufre-grave-accidente-de-transito-en-ruta-5-sur-exarquero-manejaba-en-estado-de-ebriedad/",
       "https://lahora.cl/cronica/2026/08/07/kast-fue-denunciado-ante-contraloria-por-entregar-informacion-falsa-en-cadena-nacional/",
@@ -68877,6 +68914,7 @@
       "https://lahora.cl/entretencion/2026/08/07/chaquetero-y-clasista-julio-cesar-no-dejo-pasar-humorada-de-nicolas-larrain-y-le-respondio-con-todo/",
       "https://lahora.cl/entretencion/2026/08/07/coliseo-tendra-el-regreso-de-una-dupla-clasica-de-la-comedia-chilena/",
       "https://lahora.cl/entretencion/2026/08/07/creamfields-chile-anuncia-line-up-historico-para-su-edicion-2026/",
+      "https://lahora.cl/entretencion/2026/08/07/dias-de-mucho-dolor-gissella-gallardo-se-muestra-en-urgencia-de-una-clinica-tras-ser-despedida-de-canal-13/",
       "https://lahora.cl/entretencion/2026/08/07/esta-ahi-por-votacion-popular-no-por-pena-lucho-miranda-envio-tremendo-facto-a-camila-flores/",
       "https://lahora.cl/entretencion/2026/08/07/filtran-video-intimo-que-habria-sido-grabado-al-interior-de-chilevision-quienes-son-los-protagonistas/",
       "https://lahora.cl/entretencion/2026/08/07/fotos-vivianne-dietz-supero-los-80-mil-likes-en-bikini-participara-en-el-miss-universo/",
@@ -68957,6 +68995,7 @@
       "https://www.radiopolar.com/declaracion-publica-pista-esperar-2027",
       "https://www.radiopolar.com/detienen-canales-australes-profugo-delito-explotacion-sexual",
       "https://www.radiopolar.com/diputado-alejandro-riquelme-prep-destaca-plan-reconstruccion-nacional-defiende-agenda-seguridad-gobierno-voluntad-logran",
+      "https://www.radiopolar.com/diputado-alejandro-riquelme-reune-subsecretaria-salud-abordar-crisis-mental-necesidades-sistema-magallanes",
       "https://www.radiopolar.com/diputado-bianchi-anuncia-proyecto-eliminar-doble-cobro-7-salud-pensionados",
       "https://www.radiopolar.com/directora-escuela-dellamira-rebeca-aguilar-destaca-apoyo-blumar-fortalecer-proyectos-educativos-pedagogicos",
       "https://www.radiopolar.com/directorio-magallanes-puerto-sostenible",
