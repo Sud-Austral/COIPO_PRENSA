@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-08-10T12:01:20.199Z",
+  "generadoEn": "2026-08-10T12:29:02.153Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -40,6 +40,77 @@
   ],
   "noticias": [
     {
+      "id": "https://www.elperiodico.com/es/videos/sociedad/trabajos-ume-incendio-forestal-niebla-huelva-video/133236190.shtml",
+      "url": "https://www.elperiodico.com/es/videos/sociedad/trabajos-ume-incendio-forestal-niebla-huelva-video/133236190.shtml",
+      "medioId": "elperiodico.com",
+      "medioNombre": "El Periódico",
+      "seccionId": "otros",
+      "titular": "Trabajos de la UME en el incendio forestal de Niebla (Huelva)",
+      "fecha": "2026-08-10T12:16:58.000Z",
+      "fechaDeteccion": "2026-08-10T12:29:02.153Z",
+      "extracto": [
+        {
+          "texto": "Trabajos de la UME en el incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " de Niebla (Huelva)",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://estaticos-cdn.prensaiberica.es/clip/29213917-a9d4-459b-b289-f41d36d92365_16-9-aspect-ratio_default_0_x1000y444.jpg",
+      "autor": "Mauri Buhigas / EFE / VÍDEO: EUROPA PRESS",
+      "fechaReal": "2026-08-10T12:16:58.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.67,
+        "score": -8,
+        "keywords": [
+          "trabajos",
+          "ume",
+          "incendio",
+          "forestal",
+          "niebla",
+          "huelva",
+          "rrss",
+          "2026",
+          "mauri",
+          "buhigas"
+        ],
+        "categorias": [
+          "incendios-forestales"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "AGO",
+          "DEO",
+          "EFE",
+          "EUROPA",
+          "PRESS",
+          "RRSS",
+          "UME",
+          "URL"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "nacional",
+        "cantidadPalabras": 112,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
+    },
+    {
       "id": "https://www.teleprensa.com/articulo/huelva/extinguido-incendio-forestal-declarado-sabado-paraje-cueva-mora-almonaster/202608101147262484830.html",
       "url": "https://www.teleprensa.com/articulo/huelva/extinguido-incendio-forestal-declarado-sabado-paraje-cueva-mora-almonaster/202608101147262484830.html",
       "medioId": "teleprensa.com",
@@ -63,7 +134,94 @@
         }
       ],
       "imagen": null,
-      "analisis": null
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.67,
+        "score": -2,
+        "keywords": [
+          "extinguido",
+          "incendio",
+          "forestal",
+          "declarado",
+          "sabado",
+          "paraje",
+          "cueva",
+          "mora",
+          "almonaster"
+        ],
+        "categorias": [
+          "incendios-forestales"
+        ],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "nacional",
+        "cantidadPalabras": 16,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
+    },
+    {
+      "id": "https://www.latribuna.cl/medio-ambiente/2026/08/10/los-angeles-registra-alerta-ambiental-y-restringe-emisiones-de-humo-durante-la-tarde-y-noche.html",
+      "url": "https://www.latribuna.cl/medio-ambiente/2026/08/10/los-angeles-registra-alerta-ambiental-y-restringe-emisiones-de-humo-durante-la-tarde-y-noche.html",
+      "medioId": "la-tribuna",
+      "medioNombre": "La Tribuna",
+      "seccionId": "regional",
+      "titular": "Los Ángeles registra alerta ambiental y restringe emisiones de humo durante la tarde y noche",
+      "fecha": "2026-08-10T11:45:00.000Z",
+      "fechaDeteccion": "2026-08-10T12:29:02.153Z",
+      "extracto": [],
+      "imagen": "https://img.latribuna.cl/upload/2026/07/17161D524C43436D15130F55504947711F121E1852424676101E-2000x1125.jpg",
+      "autor": "Jorge Monares Olivares",
+      "fechaReal": "2026-08-10T11:45:00.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "neutra",
+        "polaridad": 0,
+        "score": 0,
+        "keywords": [
+          "conaf",
+          "levanta",
+          "septiembre",
+          "restriccion",
+          "uso",
+          "fuego",
+          "comunas",
+          "biobio",
+          "medida",
+          "permite"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "normativa-legislativo"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "conaf"
+        ],
+        "lugares": [],
+        "regiones": [
+          "biobio"
+        ],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "medio",
+        "prioridad": 2,
+        "importancia": 65,
+        "tipo": "emergencia",
+        "ambito": "regional",
+        "cantidadPalabras": 26,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
     },
     {
       "id": "https://sabes.cl/2026/08/10/agricultura-pretende-presentar-durante-agosto-nueva-ley-de-fomento-forestal",
@@ -664,6 +822,101 @@
         "cantidadPalabras": 12,
         "cantidadParrafos": 1,
         "tiempoLectura": 1
+      }
+    },
+    {
+      "id": "https://www.radiopolar.com/recorrido-preventivo-cuenca-rio-robalo-fortalece-preparacion-riesgos-naturales-puerto-williams",
+      "url": "https://www.radiopolar.com/recorrido-preventivo-cuenca-rio-robalo-fortalece-preparacion-riesgos-naturales-puerto-williams",
+      "medioId": "radio-polar",
+      "medioNombre": "Radio Polar",
+      "seccionId": "radio",
+      "titular": "RECORRIDO PREVENTIVO EN LA CUENCA DEL RÍO RÓBALO FORTALECE PREPARACIÓN ANTE RIESGOS NATURALES EN PUERTO WILLIAMS",
+      "fecha": "2026-08-10T08:00:00.000Z",
+      "fechaDeteccion": "2026-08-10T12:29:02.153Z",
+      "extracto": [
+        {
+          "texto": "Punta Arenas, Buscar Búsqueda por palabra Búsqueda por palabra ​ 10 de agosto de 2026 RECORRIDO PREVENTIVO EN LA CUENCA DEL RÍO RÓBALO FORTALECE PREPARACIÓN ANTE RIESGOS NATURALES EN PUERTO WILLIAMS Delegación Antártica Chilena, Senapred y ",
+          "resaltado": false
+        },
+        {
+          "texto": "Conaf",
+          "resaltado": true
+        },
+        {
+          "texto": " realizaron un despliegue en terreno para identificar castoreras, evaluar el riesgo de incendios forestales, revisar el estado del sendero y recopilar información clave para la protección del afluente que abastece de agua potable a la comunidad, junto a la planificación de futuras medidas de mitigación. Con el propósito de anticipar posibles emergencias y fortalecer la protección de una zona clave para la comunidad, equipos de la Delegación Presidencial Provincial de la Antártica Chilena, Senapred y ",
+          "resaltado": false
+        },
+        {
+          "texto": "Conaf",
+          "resaltado": true
+        },
+        {
+          "texto": ", realizaron un despliegue preventivo en la cuenca del río Róbalo, afluente que abastece de agua potable a Puerto Williams. ​ Desde tempranas horas del día, en medio de condiciones invernales, con temperaturas bajo cero y la superficie del bosque subantártico y turberas cubiertas de nieve, el personal realizó una caminata de 3 horas y 30 minutos para llegar hasta la laguna Róbalo, localizada a unos 4 kilómetros desde el inicio del sendero, donde se ubica la bocatoma de agua. ​ Tanto en la ida como en el retorno de este recorrido, que totalizó 6 horas y 40 minutos, el delegado presidencial provincial de la Antártica Chilena, Rodolfo Moncada Salazar, pudo verificar en terreno y con el conocimiento técnico de los servicios públicos participantes, todas las variables de riesgo, como las castoreras, combustibles que pudieran generar incendios forestales, desbordes del río, estado del sendero, condiciones del terreno, entre otras. ​ La máxima autoridad provincial agradeció la invitación de Senapred y ",
+          "resaltado": false
+        },
+        {
+          "texto": "Conaf",
+          "resaltado": true
+        },
+        {
+          "texto": " en este despliegue preventivo. \"Lo importante es que cuidemos este entorno. Vivimos en un lugar muy privilegiado, pero también muy frágil. Pudimos ver el impacto de una especie invasora como el castor, que hace diques, corta los surcos de agua o inunda los bosques. Tenemos que ir viendo cómo lo podemos controlar para que no genere daño al entorno, al ecosistema, y tampoco pueda poner en riesgo algún incidente, como ocurrió el año 2024 con un desborde que afectó a la toma de agua para la población de Puerto Williams\", manifestó. ​ Además, el delegado Moncada recalcó que un despliegue en terreno durante esta época fortalece el trabajo anticipado frente a la temporada estival que se avecina. \"Sabemos que estas rutas, sobre todo en verano, son muy transitadas por turistas y personas de Puerto Williams. El llamado es a cuidarlas, a no realizar fogatas, a no exponernos a riesgos y a proteger entre todos el entorno en que vivimos y estos paisajes tan bonitos que tenemos en la provincia\", puntualizó. ​ Identificación de",
+          "resaltado": false
+        },
+        {
+          "texto": " (...)",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/658d9f90f0909def6c18fa2c/mediaLibrary/photo/0284c32a-bb95-4746-9ce3-59fc66742f9c-extra-large-standard-q100.jpg?v=1786363300",
+      "autor": null,
+      "fechaReal": "2026-08-10T12:00:00.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "mixta",
+        "polaridad": -0.4,
+        "score": -12,
+        "keywords": [
+          "agua",
+          "puerto",
+          "cuenca",
+          "rio",
+          "robalo",
+          "williams",
+          "terreno",
+          "antartica",
+          "chilena",
+          "senapred"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "prevención",
+          "emergencias"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "ANTE",
+          "BALO",
+          "CUENCA",
+          "DEL",
+          "EN",
+          "LA",
+          "conaf",
+          "senapred"
+        ],
+        "lugares": [],
+        "regiones": [
+          "magallanes"
+        ],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "medio",
+        "prioridad": 2,
+        "importancia": 65,
+        "tipo": "emergencia",
+        "ambito": "regional",
+        "cantidadPalabras": 788,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 4
       }
     },
     {
@@ -68076,208 +68329,6 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 4
       }
-    },
-    {
-      "id": "https://sabes.cl/2026/07/24/formacion-tecnica-en-la-era-digital-el-liderazgo-de-la-educacion-superior-en-la-conexion-entre-academia-e-industria",
-      "url": "https://sabes.cl/2026/07/24/formacion-tecnica-en-la-era-digital-el-liderazgo-de-la-educacion-superior-en-la-conexion-entre-academia-e-industria/",
-      "medioId": "sabes",
-      "medioNombre": "Sabes.cl",
-      "seccionId": "regional",
-      "titular": "Formación técnica en la era digital: El liderazgo de la educación superior en la conexión entre academia e industria",
-      "fecha": "2026-07-24T21:22:23.000Z",
-      "fechaDeteccion": "2026-07-24T21:30:47.601Z",
-      "extracto": [
-        {
-          "texto": "La Región del Biobío cuenta con una matriz productiva diversa que integra los sectores ",
-          "resaltado": false
-        },
-        {
-          "texto": "forestal",
-          "resaltado": true
-        },
-        {
-          "texto": ", energético, pesquero, logístico e industrial. Sin embargo, la clave para potenciar este hub de desarrollo radica en la retención del talento local.",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://i.ondapress.com/LvfQW26DiOzN9u3dUiPVoMZi4doKwhmRAHJlg0ecz08/rs:fit:1200:630:0:0/f:webp/plain/https%3A%2F%2Fassets.ondapress.com%2Fsabescl%2F2026%2F07%2Fportada-cap-14d444b8f3f51690e6bf-1784927837.jpg",
-      "autor": "Mario Saavedra",
-      "fechaReal": null,
-      "analisis": {
-        "version": 3,
-        "sentimiento": "neutra",
-        "polaridad": 0,
-        "score": 0,
-        "keywords": [
-          "formacion",
-          "tecnica",
-          "digital",
-          "liderazgo",
-          "educacion",
-          "superior",
-          "conexion",
-          "academia",
-          "industria"
-        ],
-        "categorias": [
-          "educacion-ambiental"
-        ],
-        "personas": [],
-        "organizaciones": [],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 50,
-        "tipo": "informativa",
-        "ambito": "nacional",
-        "cantidadPalabras": 19,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 1
-      }
-    },
-    {
-      "id": "https://www.t13.cl/noticia/nacional/es-hermano-sata-detienen-profugo-por-crimen-brigadista-conaf-20-anos-24-7-2026",
-      "url": "https://www.t13.cl/noticia/nacional/es-hermano-sata-detienen-profugo-por-crimen-brigadista-conaf-20-anos-24-7-2026",
-      "medioId": "t13.cl",
-      "medioNombre": "Teletrece",
-      "seccionId": "otros",
-      "titular": "Es hermano de \"El Sata\": detienen a prófugo por crimen de brigadista de la Conaf de 20 años",
-      "fecha": "2026-07-24T21:15:00.000Z",
-      "fechaDeteccion": "2026-07-24T21:30:47.601Z",
-      "extracto": [
-        {
-          "texto": "Es hermano de \"El Sata\": detienen a prófugo por crimen de brigadista de la ",
-          "resaltado": false
-        },
-        {
-          "texto": "Conaf",
-          "resaltado": true
-        },
-        {
-          "texto": " de 20 años",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://s.t13.cl/sites/default/files/styles/manualcrop_850x475/public/t13/field-imagen/2026-07/1784927231.jpg.jpeg?itok=kV9BiFPA",
-      "autor": "T13",
-      "fechaReal": null,
-      "analisis": {
-        "version": 3,
-        "sentimiento": "neutra",
-        "polaridad": 0,
-        "score": 0,
-        "keywords": [
-          "t13",
-          "brigadista",
-          "conaf",
-          "canete",
-          "hermano",
-          "sata",
-          "profugo",
-          "orellana",
-          "detencion",
-          "detienen"
-        ],
-        "categorias": [
-          "normativa-legislativo",
-          "parques-asp"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "CONAF",
-          "PDI",
-          "RML",
-          "conaf"
-        ],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 50,
-        "tipo": "informativa",
-        "ambito": "nacional",
-        "cantidadPalabras": 407,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 2
-      }
-    },
-    {
-      "id": "https://www.infobae.com/espana/agencias/2026/07/24/desalojada-por-el-incendio-forestal-la-estacion-de-la-nasa-en-robledo-de-chavela-madrid",
-      "url": "https://www.infobae.com/espana/agencias/2026/07/24/desalojada-por-el-incendio-forestal-la-estacion-de-la-nasa-en-robledo-de-chavela-madrid/",
-      "medioId": "infobae.com",
-      "medioNombre": "Infobae",
-      "seccionId": "internacional",
-      "titular": "Desalojada por el incendio forestal la estación de la NASA en Robledo de Chavela (Madrid)",
-      "fecha": "2026-07-24T20:37:53.000Z",
-      "fechaDeteccion": "2026-07-24T21:30:47.601Z",
-      "extracto": [
-        {
-          "texto": "Desalojada por el incendio ",
-          "resaltado": false
-        },
-        {
-          "texto": "forestal",
-          "resaltado": true
-        },
-        {
-          "texto": " la estación de la NASA en Robledo de Chavela (Madrid)",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
-      "autor": null,
-      "fechaReal": "2026-07-24T20:03:18.945Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "mixta",
-        "polaridad": -0.33,
-        "score": -3,
-        "keywords": [
-          "publicidad",
-          "viernes",
-          "espacio",
-          "profundo",
-          "madrid",
-          "nasa",
-          "estacion",
-          "complejo",
-          "misiones",
-          "robledo"
-        ],
-        "categorias": [
-          "incendios-forestales",
-          "emergencias",
-          "parques-asp"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "EFE",
-          "EST",
-          "INTA",
-          "MDSCC",
-          "NASA",
-          "RTVE",
-          "agencia",
-          "bomberos"
-        ],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "medio",
-        "prioridad": 2,
-        "importancia": 65,
-        "tipo": "emergencia",
-        "ambito": "internacional",
-        "cantidadPalabras": 696,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 4
-      }
     }
   ],
   "resolucionesGoogle": {
@@ -68293,6 +68344,7 @@
     "CBMi3AFBVV95cUxPa1NkV2VSdU56ampQQlU3dUVrZTRxeTlTcExvOFNzVGFldWNTNHVCdUFKUktfbHFIYW5FdGVJREZncENnbmM5VTB0X25nRmZjSTl4Z3pIMExXeW5sWDhpbHVXUzI0Z1BFNXZfNC1QMC1tYW1QTGNzbGVFYkdXZW04SXdubjRKTEZFdDN1endrV3dXeGZya3J4VUJDaFpOeFZPUi0wY0txZ0VMS3RhODI1MVl2NDRCSm4xaEFtVTgzTDk0VGdQVVBGOW44MlhId3RQVkgwYjVYZWk2UVFy": "https://www.teleprensa.com/articulo/huelva/extinguido-incendio-forestal-declarado-sabado-paraje-cueva-mora-almonaster/202608101147262484830.html",
     "CBMi4gFBVV95cUxOMU9LZGFIc0UtWklkTm91UXhjbTExa1VENGEtM2w0bnRVMnZBSXZXcGt4elpXTEFPMXB6TUJocnNqSGxreVBRb2c0ZzFEMlJIZDFWT1p4b2xsNlczeFdXVy1maW1SWjRCb0RMRU0zU0V1a1JaU1pLZTliVHRySmI0NTl3cl8yZDd6UFd5dm5xNkFyNFZhbkhqaHBVTEJKZk1vNm91aVFXZUNqVEpUd2dhWEV5VW15OVlXb3F2SXp6bzZCSWN1YzFIWkVfbWpyaXZBRWlqWGwxNlhveWFxZkxLTVNB0gHqAUFVX3lxTE43SWlzUWQyQTM3cGZqUFNydWw0U3g0Yk9fVEgyM2lxWVdZVE5wZE80cUpwWmZiSU1MX1NvN3BlQkExQXpHcjZHNUZGekhvZlA0OEdOZTBwcHlNV25PU1ctNGJwdlN0TTRZbFZzMm1GNlg1NUVtOFk0Um5DcUdEeGZJaWFkX0ZaSWlCTlIwR194Sm5RMTBhb1pjWGJMRzFGRGloUUJBTVVTZ0I3YWVSZWFrcnpwQ3E3Skl0aEcwRXlCZ3pNR3BkTUV0cjNXMU1rMHBVeDZpRWZEX2YtOWpBTlV5dzh0VmlUSzB0UQ": "https://www.diarioconcepcion.cl/politica/2026/06/29/crisis-en-sector-forestal-congresistas-plantean-ideas-para-reactivar-la-industria-en-biobio.html",
     "CBMi4gFBVV95cUxOTnR6Y1lvZzYtRGJSY3pOWjNaVHdNMl9ha3BOakM3czBOUUo5a3BPbjNPbmJmQmpsN2RIR3VNMkRVVkFHaUxkQ0tNaHhtMXBXb1B2aDhDOVdVemJEbmRvXy1xVUg0WGMyVXJXQlJnUFJsS3F0LXM2YVdsRW9MVXllVXJpNi1fQVF3Rm03ZDJPMHctN3RPcTdkSnhPYy1JQ2ZwZTdESk5MNE5MZEFJSndwVlctVFM0bWVBWlVVNWxxdkE0bGJwUUpSUW0wV0VteFljSU82RHo3YnVJbldWSmJoZUZB0gH8AUFVX3lxTE1lRHVrRGhYenBXR3lPRFZXOURhOHE0ZW1UZDI0Y21KbnpwTVBxQktYcGdkYlFOVkg3eWpCRzJSWnFZeVgxR0hubTVjWjVvMHk0ZkhDVVNpQnB1X3dKWi1zQTJPN2c1dHRxT1lFNk50Y1drM0VBR3VLZGNkZDFsOXRCdWpRSHE0MzlGOVYzR05obEpySFhYT3dURFR3VWZPNUd4MWV0YXZMa3R1RmhDQ1ZhX2E3SmY1b09aaFQ1Zkx3bHVyT3hyVUQ1SlNzczc0a2ZxUXhYT1h6eU1tNDZGMnMxdlpHOFlzT3VldG9ucjZ4ejR5cG1aTHhaLWNuOQ": "https://www.infobae.com/estados-unidos/2026/08/09/dos-pilotos-de-helicoptero-murieron-mientras-combatian-el-mayor-incendio-forestal-del-ano-en-utah/",
+    "CBMi4gFBVV95cUxQQ3JtNjRROWFCaUhUMnRDbnJ3dlgtSlNHV0hKMGt2N1VTX2M3Z3llakpoNEJfVDdmbnc2ZktvenZuTERJS3YwcE9KR0h0ekwxTW1TUWc1WjA2QWtiQmZCaFNVVk55Z0hLQ2V0QzdkckdnSjAyZUZ1TEFlSEtRMkp2bXRUNTgxa3d0a0VSelFuc0pwN2tqVDdvTlF0dDBRY1ZkaHotV3lGbFMwQzlVZ2pWNmhfWHdub3NyT1NpblQwajB0MnVXMnRidmxPaUZQYjBOcDlxSVVaTHBwQktVblR1WWVR0gHqAUFVX3lxTE1fRjZpYmpDZW1tOEhQbktUSzNsUVVqSDVEMTFhX1djelo2ODg0eTVNX2NfczlFNS1HWm5CM3NlVEcwbTFtYVJtcHJhTnVyTTdILThUWXRZMnVzRHJZSjVDcVFYY0ZSMWxjelduZndmanhJQTJTUTNRMGZhUEFxVlpKdmphdDhfYzU3UHZ6c2VHeEdtd2dnRTFRb0FtR1BGOFNXcHdMNGpsN1k5aGhSQUxnZnpqVHBvaWlDMTY3Z2VraTJMdDZUcDBBOFd3S3I5bno4MkYtMDlsQ2lITVJxQ1I2NlhHX3FXb1hadw": "https://www.latribuna.cl/medio-ambiente/2026/08/10/los-angeles-registra-alerta-ambiental-y-restringe-emisiones-de-humo-durante-la-tarde-y-noche.html",
     "CBMi5gFBVV95cUxQa2N0dmZLV0tqejgtR3pkblIyYmVXVWVVNmJCalBLeFppVEJwZnY4SHVWNE5xd0NoeXk4SkdzbVozX2l0ck5fS1dsTzRvbjVHZ25tVXg2QmRSNm12Q3hWSFoyajE4UndNMFM4YVIxQlJBNXppbzhxU011MC05OUZwSWhHbkJ6VDRzTWNnVzdVRmVLZEZpUkVnc0xMMG4wUVJPQ3lVZFRCb05rNTlmLTljQjAtWkczOGI1YmRxQ2R5clUyVWVPc0hBenIxYV9mVjJpVzMyd25Nc2g4NHpHTE16S1dTaU9Pd9IBgAJBVV95cUxPSEdrSmxZQS1TaGF1OV93dWFadTBOdW04TzdVU01oWG05ZC1rVkVQTVFOVXJUanVDamhUa3o5T0RDUWdHd05wZUdmYzR2a19aOHY2RWx3SEd0QnRna2lzb3lzMWRlc2RGUDB0RjltVzFmNGROY09MeWRCd29qYktxRjNqS0pjVkd0Z2FVaXpFRHh2ZmpxWnVfaEZoWUpNX0JYc0ZvYl96M1I2NHRQdDZFV1JQU282MUpybGJoclkxU3U4Mmtrcmg3MXFzWC1xb1hITGdGUy1nOEVvZXBrbklNdjNLcmhKVk1lbG9tb3l2NFZIYVBzbTdfZ2VMZ2ZXMzE2": "https://www.infobae.com/espana/2026/08/09/el-incendio-forestal-de-niebla-en-huelva-ya-afecta-a-8000-hectareas-mientras-467-personas-siguen-desalojadas/",
     "CBMi5wFBVV95cUxPOVQ2eG1nTDR0SFpxX1hRbDY4dzFJckZPRkFIYmI4OXp4Y0pyS0NXbkx6TUExci1kWkd2cWgxR0RvOF9Nbk03b3pDVWQta2RlcXZxSEZuWkRvWk9uR3BVSGIzOExpMkZtVWhsX3lDZzcxN2Y5MHZqMXRDR1RSZ1JBMzlOVHd5RjZpSE40aHFfRXpQT0FMa3ZqOGc3MEVGRzVueEZBZGJsY0VsaXByNGprR0hzcnB1SGVDY2I0b3lOMmRxZkpTLWtCa1kxVnVDZGlHS2MzNHVJZjhzdFBlSk5hWkJXOG9wVzQ": "https://www.prochile.gob.cl/noticias/detalle-noticia/2026/07/27/prochile-destaca-a-empresa-forestal-del-maule-que-agrega-valor-a-la-madera-de-%C3%A1lamo",
     "CBMi6gFBVV95cUxQTFJSNHZmUlRkeXFtb0wtWmpNUkxjYkZzOTVfeGw3MGxyN3RJSGRxYjZhRHVlb096N1RUa0ZXeThsdVdXRXRsTUxuR0R0aU13TFFqcjBMNVB3OFl4V1lmN2pacG9BeDV5eGRYN2EzWDdKOWxoMXJab3k1QVdfY2NwcmItZGl1VlJ5Ty0zQnNyeV9VU0lBdmNSY3p6VWZXN3dhV0NBZEhGRGtPSDBVX1h5SFRYa0JIems1RXRWdjljYUpOb19pc1B5d1B1aFlJZ0hkVl9Jd09JejQwMVdsSDUzb2lmZ3ZsZTRBaXc": "https://murciaplaza.com/murciaplaza/murcia/puesta-a-punto-en-el-majal-blanco-murcia-transforma-su-gran-parque-forestal-en-un-espacio-mas-comodo-y-equipado",
@@ -68320,8 +68372,8 @@
     "CBMirAFBVV95cUxPTGpIZUh5UUZKdGo1enFfdTBHTk9zenJJUG82N3R1SkNSMzNtSHhmLV9PeDNaWFhIaEJuU051TFBIQlc2U2RFWmdvdHFlblU4dDZVZ1diZGtnT2NKQkhZN1d3a2VFMkhLcFBkOUJ5QVM2U0tBRHRWRFpZYVVxQUdVWjlzZ3lIRWtTQXI1ZUhSQ0E5enlEcjZGUzVFbFo3ZXpPZHVyeDZxRGFwVUdu": "https://www.chile.gob.cl/china/noticias/embajada-de-chile-participa-en-sexta-reunion-ministerial-forestal-de",
     "CBMirwFBVV95cUxNOGpDTzVueF8xTy1BUm56X0NIXzNZWUd6YndsUkxIMDF0RGpjMUxFcy1jNVM0ZDEzdlc1R0h0bnFydlYxNmJpUDYtVFdHNGxFOF84cVBlOG9uak1wQTVEUGgwNFFScVFJaTBlWVpuYWFVdzNFNTRBVTFHdGwtN0JNRWVlN2pkZ1NxTUtnTTZRLXE1Wi1ER2F6N284bkFMQm9QeHBVTTJfUGNaNjBHbDNZ": "https://chileestuyo.cl/eventos/remando-por-los-100-anos-aniversario-del-parque-nacional-vicente-perez-rosales/",
     "CBMirwFBVV95cUxQbHlfc1ZQR1V2a3VwbnlJUXphRkUxbFdyQ1duOXFkUlBCcTBVM3FteS1melJYZUEwekJtMDVsTUF1b0JSNGdnQ0dRWEVsM2dCN2RhMk40cVEtTzF3WlhrVjM3WnFyYmNzQmdtR2tDXzdiVmtSeDJsd2dJcjNpcU9PV1Jndjd0RnkxVlN2UU9mUmQ3d21iWVd0VDNOUDVXOGhrcGp2S1NHalFQd29XM0NB": "https://www.recordpatriot.com/news/world/article/crece-el-incendio-forestal-en-un-parque-nacional-22380645.php",
+    "CBMiswFBVV95cUxPRUpfRGszWVo4aTkwbWVIcjJ1SzdCdlFuSjBjODNweUVKczRfcVR0b2RWNWY1dEtTOWFYeU1vOUpLbzJhNnNyTjhqb2s1RTU1MkZpdTdjSU5qLWVnSkw5TDgzR3hCVHpDQUlyRm43Q0dIdy1ZU2JxM1ZaYnBsTC1TSThrLUNYVktXY1Z4Zl9fTEoyazdNSWtFMS1VVzRnYXNoV1ZzRU1ydU00UnRGUElHZEtNb9IBswFBVV95cUxPQWFPeUZQMGNSQV84dFFGVjkxRlBEaTVjWF9PeU1jRW1Xa0RMSlhoblBoNXVzcGI0TWxwT013QVRCMUU1dGY0Sll1QkRhMTR3MkdwWGxDV1ZhSWp6YUROV3FvZ2IwQmdxQ2sxQlAyNFFqV3B0RUx2VHRKQTNKTlNub0NOX292UGtVb09LQzlHZTZmSFRLbXBkOElpRWRYQ01rczE1US1RU25MeXE0T1ViSVpjTQ": "https://www.elperiodico.com/es/videos/sociedad/trabajos-ume-incendio-forestal-niebla-huelva-video/133236190.shtml",
     "CBMitgFBVV95cUxNLXFBOHNzVmVienpCTkV1MDV0cTUydjEtRng5N1JKcDF3d1NUSUVoNzE0bTRJbVpoZjlGb0s0dmZ5Vm5CMHFNTWNCU1dFT1lEME0yMXFRVksyLTNEd09mdTBta2o5RlNmVUVDV0U5Nnkya1pFanNNR0lFZjJBLWJxVG1rVnNtWFVMUGs5RUhWVVlDNmhxTVhxc0FueHg2UTU3RnRYcXdkOEdlNVJ2NDAxbkpfNVdTUdIB0AFBVV95cUxNbzFMOUljRHB0dklJQUk2UUNYcTMtaG1Ubm12WkNBZDE5SS0wRHVQdmJ5RnBmZGNCV2Z1Y2xSNEZQTzBxMzU1QlNkN0lYLWhSSXdnZ2VoaWdwMFlKeG93RzNheXphdG9zMk5hczNzNTFLU29ER3c5aUtrdVdxOTA0TVpXOHllZXBlTkUtYnU0ODNKRTAtYWNONXlUaXFONVltcWpQcTFoUlNjWVVjMERmaHZ2UVNOMWZPNWZuU2cwaUp4bW1ubXB1MllJLUdtc2M2": "https://www.infobae.com/espana/agencias/2026/08/10/controlado-un-incendio-forestal-declarado-en-villablanca-huelva/",
-    "CBMitgJBVV95cUxPUkRCLUxic04tMUY4RTloWHB6ZW45Z2RXRGhmWEhVRl90MnVsWU1hM0h0c05XaDlvZjNVR2hlTmR2X3RtZ1UxUlpTY2FlOFRJaTU2QlRadFNjdDVMQjZKVWRxQnF0a0wtWEZkXzBESTd3TEZZWUlIT3VhbGFBa1RWY2lnbFNrYU11MENwTTQyVFcwU0Joc1l1SzMzVzlIajRjQldEcjgxMUdHbnZpaFl5ZDFzZW1WNGlkcUdlVjhVN3J3cGNOWnJnWUtFQW5rczJPSmdmMEVCaWVvSjhBU2d3T1FVcmxBSzlBOFZCVFVaTXBiZHA0RWx0R2FNcThYNDRUQkJfRzg0LUZMaHI2WFRQbkpiLUpEWU9RbjI3NFNjN245bmtLbjFOcWJEeUtaSXRXcThRSmN30gHQAkFVX3lxTE8zSVZEaG9xQVJXakpZZlhWS3ZPMGd3UUdZTkVBV1dmM3h0SU1OemNma1B6Ui1vWThSbDhqV2U4SERkS0RkQkVRY1ZHd1VIa3pGbWVlTXFtT1FmeXFHT2NYOGo1OF9SeXpvVlg4QVFjRFVZUXk2WWtjd0VacDRKVC03NkNpQ2xmanF3NW0tTTZFNzdmaGhscVFLQ0tFNmw5eUM2Y3JiV2dwTGRLSmh6WGZYTDZFNnVoZEpsZ0U4cW1yVW1tLWRfVmRNSkJfeHNvSE5vU0tPWE1IWndnSG5kT283QXMzRFpMNE42OVlOd1NsMnNhQnVqUzZvbjE1Z0hBWjNlUEJTaFdUOEpfSTJ1Q2FLUUJkNjZJTk1maFFaUHc5eG4zc21VUUJvUnp3LWRDOUpKU0d5TXRscW1OaUpTbFhyUmF5QldiUUFHU0VKQlFjUg": "https://www.infobae.com/espana/2026/08/10/el-incendio-forestal-de-tirig-castellon-ya-supera-las-800-hectareas-calcinadas-con-medio-centenar-de-vecinos-aun-fuera-de-sus-casas-pero-con-una-evolucion-muy-favorable/",
     "CBMitwFBVV95cUxPM3hkZ2FhQTZzVFZKRDJYNTY3QmYxc2o5WG5TUWdvRmpfYndlVmpxREZ2U0JHNlFwWlJRRmNNTVBVNnV4aHRLbjJ3MXJYR3F4WEZBeGE0OXlieDB1SUd3MXlNTEp1dm80MW1JaGJtOUJkYTRGeUd4WE44TEFtMkdDanFPb3dfUlI1U3ppSy1ZdlRrQld4WmxYdmw4a0dkTEdXZi12UjlQaDcyVFhlTEhKek8zb2VqNVk": "https://maulehoy.cl/2026/08/08/conaf-corma-y-bomberos-se-coordinan-para-prevenir-y-responder-a-incendios-forestales/",
     "CBMiugFBVV95cUxNWGp6eFRUWjBvdTRnZ1RpbVVRLUM2WWQyczVHSFAteWRrQzlkSWh0LW55cFg2RGlHOHFqaE1SdUtjYzJXYmo2TTlOeXhEM1ZxZkVKaFBNN0tsTUd2SHVEZ1hkeUJjN0ZQR3pPdXcyb1B0dEpkYXlVeUs0TkFtQnpWSldWVkJDQlJEVU44ZTEyQ1BtaEs0T054bG1qVWxNTGRONHN5cTdKZW8zQXNHY2FlVHM0NzRiTzZNUXfSAdsBQVVfeXFMT2x2bUt6WHhfcms0MzI2V016NlluaFFWSVZzdHYyVFlEejk2NkowNHBsWG5wbEtzSzJNQlJyN3g5OG1XaWdQaDJtS3FocEpjdUZWLW5HZTlDOTROemJkZ3FMMW40RG9FUU9MMUNPeFQzRHFhV3VYNkZQMEdBVzF4dXdIWUtNOG1hbUxBTFBNek4xNzNQVlJ4RDRWVEJtR05UREZWMk1hSGl4NEthTWNFNE9oSG1Ec2xmSFgzS3Y2bXVEYjZndzgxVEJzSXRaTXVPNGREMW05cnp2MGVZ": "https://www.latercera.com/pulso/noticia/la-presion-financiera-sobre-cmpc-de-cara-a-su-megaproyecto-natureza-en-brasil/",
     "CBMivAFBVV95cUxPYXdRWmZGWmN2Uk9rMC04VGlxMkJ3WElzUm80Q1BEMzJLcm5PV2FKb3BSUkFNVVMwckI1R1F6N0hZWDVLMlA3VGVwTnV5c2NSbE4yU0lXR1VKeEJ3MmljWlpPTmotd2kyRDNFX1Bwai1fbTV3RFhQV1d4Z3VmLVB4Qk1CUlFsTjJMYTdELXQ2bzkyWjRhVDZLWDFKNDhyVlowTHhFWUkwalFEYkJvS2NLeGxWRXd6cEgzV3hjUQ": "https://www.bostonherald.com/2026/08/09/incendios-forestales-en-el-oeste-de-eeuu-y-canad-obligan-a-evcauar-a-residentes/",
@@ -68329,7 +68381,6 @@
     "CBMivgFBVV95cUxPY1FrZVlHMXlBbTAtTEN0ZXR0NGlzelplWlFTRkVmX0JqTGlweVJZRC1jdWJkbGE0Qy1RM3lMcGF1V3hTd3VkdlN2TTFGcTQwd2RWLXl4OHpiNEZUSUJheUtHQ0NIT0VPd1ZRQVRULTFpaFFXSE9lYkVyVnRLM3pFbkVSU3hHY0xVNEV2eXZZZERyWlY4NzZ3Zk9LWERnQlZTb3FENWlJRG10b3FHY0dHZXU0NDZqQ0lkOWQzcG9B": "https://www.munistgo.cl/parque-forestal-monitorean-mas-de-mil-arboles-afectados-por-podas-realizadas-hace-mas-de-10-anos/",
     "CBMivgFBVV95cUxQRlB6Q0E3azFRMm1kaW02YkRCemJNLU9oNGN2bGw3Q1VISWRVQU05R01VMkZyV3lUSHBXSm9tcFprQ0o4M3d4QUQ0UDJnV0txcmRqd2pROVlGMURRaFU0dER0YktreU92eVRlTTRsc3ZMbmd3MHBmMXRIRE01RVNnMXR0b2E3dU5NendUbTZSTFFvc3Ruc2pkRUZxcG1CcGxMSW9MelE3VjBET0Q1VWVFaUhlTHh3UlpERmJtNzln0gHDAUFVX3lxTFBWS2xtd2sycm5FNVZRcnB1NTc5MzlwaHhYalZJekNOU0pycE5rQmRoWGZNWTFxQTdCSFF6aUhJa19fckhRNDUyaGNUcTFWWGczNllWclpGQ3QzZjRkdFRNVDlUaWphUUpycEZGMmFacVJwUTVVVjNzYWtfSGxOZFdmMzBCSVZRSks5a1ctMUZYbm1ZRndxQUp1eHN2R0k0NmNabFJKek8wRlAwZlh4djE2dlhMbDYxMUQ2M2hTRGdfRlhWYw": "https://www.levante-emv.com/los-serranos-rincon-de-ademuz/2026/08/10/incendio-forestal-aras-olmos-valencia-133225201.html",
     "CBMiwgFBVV95cUxONENueVE1SWpBekVkMF9rMk9qaTdJNndoeXVtdXNXelBEbEZmeXY3UEIxUzNUZmR5bkJYQlVCX2c0eEY5c0d6dTA4WnV6akZicVlYQjBWOXVmU01ZcTc0T0FkbUNIZHhDUXgwSjNNRlZiODRkWjZuU1BERWlFbUxQNDRzUG51a0NMcFdQZktqUllXNUczQmZVOXEwbFBvMC1pYU5GdkR5VFpnWUxYdkQtU3VsTnBfdlQwN0pfT0dZSUw4QQ": "https://www.france24.com/es/video/20260809-canad%C3%A1-evacuaciones-masivas-por-incendio-forestal-en-columbia-brit%C3%A1nica",
-    "CBMixAFBVV95cUxNaW9wNEdUenNwTmJ3V2ZmaVZ4WG5ZTHl3TmlTR051ajFRUWM0OUVkVzFWdlVsZDJ0cVpzOUxQS3pZN19ILWtvR204Ung1dmlMQTI0aWx3QjgzNVlCeUdIN3NVU3BVOWR2QnZVdGd5UldTcGJNVlFPbFQ3Ym9YeTduMUVfTUhweU92eHphdmZDaE5jWU9ndDB3UFpiQjBBazFWOUxvTlNId3I4YW1FVXZ5cDh1MjFjS2x0MzVIdG96ZzhNY3JB": "https://www.elmartutino.cl/noticia/economia/conaf-abre-mas-de-3-mil-empleos-en-13-regiones-de-chile-requisitos-y-como-postular",
     "CBMixgFBVV95cUxPaEdzVEM0eklENndPYjJlZnRwcDJTcHR6aEVFanBhNDBQRFZnRElpb1ZvTk9Id2otbDBPaVpJNkdSVVh4bmUxdUhDMFFnYmJuOTFnUkxNU1hwVUVKb3BjdUR0d3ZiZ3ZidXRNWkItRzdnSUR6SmFZUV83V3ZmNVlzLURvV2Vpdm1qeHVISFpnOUtJQjhsYUtjeUFaOEFpeVVyalRidHAxbl9vQ29BTmJ2TlUzalhMb3o2YnBsa3RLRW8tOFhGcnfSAecBQVVfeXFMT1pPazFQc3l3S19lMGt4TnpQRFp2eEMzRUNPbFk4QmtLbnZCOVNwQjB5YUVZLUZFZ0prNEhEMGgxU1h4TTJvWnhVZkI3YW9JZ3FmclNLcVk2RV9MdkcwWnlGQnA3VElUSkhMMjBod251V2E3Z0lUeTJOQlNMZVB5bTBFcl9ubFVzRWVTSHZraXpwVVBrV2pvZHdqWHh4NGUzaDh0anhpMEVaSk1kUUhGVm55QVEtUWxkNTdEWnN6YkRBdUtQZGVobFpNdElxbDFtU1NxeTJiVk9pSnlrQnBiUzBSRnk2OG5n": "https://www.latercera.com/mundo/noticia/accidente-aereo-en-grecia-dos-helicopteros-chocan-durante-combate-de-incendio-forestal/",
     "CBMixwFBVV95cUxNV0tYa2d4NS1LeUt1SzROTllpdE9ZaGFsUVNIN1JMa0FnbTBiV24ybERwb3UyNzV6UlMyVW1BdUNybjRvVkJrMDNldkRDeGh6YU42Um1uUEhUNVhlVlcwUWJ0N1pkZUJhbVA0bWtZc25NZnVuT1h6ZkJvNjliYW1mV3F3dW4tOVp2VmNpNzJyakxoWFZTZS1EWGNiOURfLTEyZFlZODJKTnVPNU5VUWVpbE5EWGNZcHJ1c1E0cW8wRi13NDljVXh30gHoAUFVX3lxTFB5bUZpaG8wcjNRR0FOMC00cGZfOGV6NUdXTWt2MHhMWHlmXzdEQ0V2MG4tNXM2MFMtR256aHEtQ0paUnNsQmthaEVtNFpRTUtnd1FZbUloNFdnSkxEeVdweTliQ0liZHBiMm1HR1RDSjcxS05NeGlHNFRhTlEwYU5GUzFZSjBrNW81UjZxa1BsLUM5dnJaS2FCbi13Z2Y0YlZlblFLTDd2Z0UzbDZvSGhTN21DYlpVMmpRVGZLNEpPZDJIUDV1R0VHNkdYbUxLYmE2dGFHbWk4dlJ0M2hQaGhkRlhHamNtRHM": "https://www.latercera.com/pulso/noticia/utilidades-de-cmpc-se-desploman-74-en-el-semestre-pero-ingresos-se-mantuvieron-estables/",
     "CBMiyAFBVV95cUxNTERBNjE1Sm9ZaDc0MWVZanRZdzljSGMxbUp4VTlPQVNLLTNOaEhYc0JmZDh1RFpWZGRYNS1PTlhiS0NQQW9GN2hXLWpxanh2Z194ZmpEcGlVSjZ2b2htWDJQR1h2THhxZHExWTlQbUNoYXlNRHNkOGFhR1pkcG02SVFkV3dRTWcwbTNlT010bFprVTRweUoxbGIxc09ic2JtWi15WXk3ZTFSbm53Y3h5VVJYRjROSVFVT0hKMlhBd1dHZFhpcEh6UNIB3AFBVV95cUxNWHl4eC1uOVJyZGkzSHVWYjA0Um5BQVJuZlM5SlJ5emNtTXZrSDdITDRlSDdnN2VMNkZnWm9qbFFpQzVjZmtITWxWOHBpTUZCRzliRmg3M21WTldzbGJmdzVGV2J1VEMxenVYeEc2UER0TXVKSzVCM2ppbURvRGVuZVlOV0plRDQtR0Rmamx1VG5idTZFb0QtRncwZUNkNWFiLVVMV0MwaVRvYnRsUFJnSXdOOWFuSnB2OGdkemhkNm5pZE9wdFJnc0YxRVg5X05KakhMTTNmUnRzQjdB": "https://elpais.com/chile/2026-07-30/serenata-afuera-de-su-hotel-y-un-paseo-por-el-parque-forestal-asi-paso-rosalia-por-chile.html",
@@ -68344,7 +68395,6 @@
     "meganoticias": [
       "https://www.meganoticias.cl/dato-util/528762-fechas-pago-aguinaldo-fiestas-patrias-dcv-08-08-2026.html",
       "https://www.meganoticias.cl/dato-util/528767-beneficiarios-aumento-automatico-pgu-septiembre-dcv-08-08-2026.html",
-      "https://www.meganoticias.cl/dato-util/528768-quienes-reciben-hasta-15-millones-del-bono-de-recuperacion-dcv-08-08-2026.html",
       "https://www.meganoticias.cl/dato-util/528772-cuenta-rut-banco-estado-tiene-linea-de-credito-si-me-quedo-sin-saldo-dcv-08-08-2026.html",
       "https://www.meganoticias.cl/dato-util/528780-sitio-revisar-seleccionados-subsidio-electrico-dcv-09-08-2026.html",
       "https://www.meganoticias.cl/dato-util/528783-bonos-para-pensionados-agosto-dcv-09-08-2026.html",
@@ -68357,6 +68407,7 @@
       "https://www.meganoticias.cl/dato-util/528863-como-solicitar-el-beneficio-fin-del-pago-de-contribuciones-para-adultos-mayores-dtcf01-09-08-2026.html",
       "https://www.meganoticias.cl/dato-util/528864-cuando-se-puede-pagar-el-bono-compensatorio-de-sala-cuna-dtcf01-09-08-2026.html",
       "https://www.meganoticias.cl/dato-util/528894-subsidio-electrico-montos-como-se-paga-requisitos-fecha-resultados-07-08-2026.html",
+      "https://www.meganoticias.cl/dato-util/528901-aguinaldo-sector-publico-sueldo-monto-mas-alto-fiestas-patrias-2026-07-08-2026.html",
       "https://www.meganoticias.cl/deportes/528938-muere-el-padre-de-lionel-messi-a-los-68-anos-informacion-fue-entregada-por-el-club-newells-old-boys-08-08-2026.html",
       "https://www.meganoticias.cl/deportes/528955-colo-colo-no-solo-sumo-a-vozinha-equipo-albo-anuncio-fichaje-del-zaguero-nacional-ivan-roman-08-08-2026.html",
       "https://www.meganoticias.cl/deportes/528958-nelson-tapia-renuncia-imperial-unido-tras-accidente-de-transito-efectos-alcohol-08-08-2026.html",
@@ -68384,7 +68435,6 @@
       "https://www.meganoticias.cl/nacional/528865-linea-a-del-metro-conectara-la-linea-7-con-el-aeropuerto-reduciendo-traslados-09-08-2026.html",
       "https://www.meganoticias.cl/nacional/528904-puerto-varas-primer-municipio-en-financiar-un-plan-maestro-parque-nacional-09-08-2026.html",
       "https://www.meganoticias.cl/nacional/528905-armada-inicia-construccion-buque-multiproposito-rapa-nui-en-talcahuano-08-08-2026.html",
-      "https://www.meganoticias.cl/nacional/528932-detienen-a-ciudadano-uruguayo-tras-ofrecer-60000-a-carabineros-08-08-2026.html",
       "https://www.meganoticias.cl/nacional/528933-meteorologa-de-megatiempo-y-su-pronostico-del-tiempo-el-dia-de-manana-domingo-sera-el-mas-frio-08-08-2026.html",
       "https://www.meganoticias.cl/nacional/528935-temblor-se-registra-zona-norte-socaire-magnitud-epicentro-sismo-08-08-2026.html",
       "https://www.meganoticias.cl/nacional/528936-autoridades-entregan-balance-de-nuevo-megaoperativo-policial-08-08-2026.html",
@@ -68444,6 +68494,9 @@
       "https://www.meganoticias.cl/nacional/529012-presidente-kast-lluviaas-vientos-sistema-frontal-zona-norte-regiones-10-08-2026.html",
       "https://www.meganoticias.cl/nacional/529013-hombre-detenido-disparos-al-aire-unidad-policial-carabineros-independencia-10-08-2026.html",
       "https://www.meganoticias.cl/nacional/529014-hombre-detenido-cohecho-ofrecio-10-mil-pesos-a-carabineros-soborno-pudahuel-10-08-2026.html",
+      "https://www.meganoticias.cl/nacional/529015-leonardo-di-caprio-pide-proteger-rana-pehuenche-en-chile-ecosistema-riesgo-especie-10-08-2026.html",
+      "https://www.meganoticias.cl/nacional/529019-tres-dias-de-lluvia-santiago-cuando-llovera-esta-semana-jaime-leyton-pronostico-10-08-2026.html",
+      "https://www.meganoticias.cl/nacional/529021-dia-del-enologo-por-que-se-celebra-8-8-2026.html",
       "https://www.meganoticias.cl/noticieros/528966-meganoticias-prime-sabado-8-agosto-noticieros-mega-08-08-2026.html",
       "https://www.meganoticias.cl/noticieros/529005-meganoticias-prime-domingo-9-de-agosto-2026-09-08-2026.html",
       "https://www.meganoticias.cl/reportajes/529006-clonacion-de-autos-caida-del-zar-detencion-criminal-vehiculos-reportaje-09-08-2026.html",
@@ -68611,6 +68664,7 @@
       "https://www.cnnchile.com/pais/karim-bianchi-es-elegido-presidente-de-comision-mixta-que-tramita-proyecto-sobre-reglas-de-uso-de-la-fuerza/",
       "https://www.cnnchile.com/pais/kast-despliegue-militar-barrios-criticos-reglas-uso-fuerza/",
       "https://www.cnnchile.com/pais/kast-ley-karin-suspension-cambios-propuesta-parlamentaria/",
+      "https://www.cnnchile.com/pais/la-esperanza-cae-porque-se-empieza-a-hablar-con-la-verdad-presidente-kast-aborda-caida-en-las-expectativas-de-los-chilenos-por-su-situacion-economica/",
       "https://www.cnnchile.com/pais/la-feria-de-artes-visuales-mas-grande-de-chile-confirma-su-version-2026-y-da-a-conocer-nombres-de-203-expositores/",
       "https://www.cnnchile.com/pais/la-reflexion-de-boric-de-cara-a-las-elecciones-del-fa-necesitamos-la-mas-amplia-unidad-de-las-fuerzas-progresistas-para-ofrecer-una-alternativa-convocante/",
       "https://www.cnnchile.com/pais/las-apreciaciones-politicas-ya-han-quedado-completamente-superadas-subsecretario-pavez-se-refiere-a-la-polemica-con-el-senador-squella/",
@@ -68662,8 +68716,7 @@
       "https://www.cnnchile.com/servicios/sernac-fiscaliza-centros-de-estetica-ante-aumento-de-procedimientos-estas-son-las-recomendaciones-para-evitar-riesgos/",
       "https://www.cnnchile.com/servicios/sin-fachadas-cnc-y-sii-lanzan-plataforma-para-denunciar-negocios-de-funcionamiento-irregular/",
       "https://www.cnnchile.com/tendencias/como-evoluciona-el-retail-paris-remodela-su-tienda-en-alto-las-condes-y-suma-nuevos-servicios/",
-      "https://www.cnnchile.com/tendencias/dia-del-nino-bajo-techo-y-con-cultura-panoramas-para-compartir-un-momento-distinto/",
-      "https://www.cnnchile.com/tendencias/reconversion-laboral-despues-de-los-60-anos-lanzan-programa-de-capacitacion-digital-e-inteligencia-artificial/"
+      "https://www.cnnchile.com/tendencias/dia-del-nino-bajo-techo-y-con-cultura-panoramas-para-compartir-un-momento-distinto/"
     ],
     "radio-pauta": [
       "https://www.pauta.cl/actualidad/2026/08/05/chile-deja-el-movimiento-de-paises-no-alineados-tras-55-anos-cancilleria-confirma-salida-del-bloque.html",
@@ -68696,6 +68749,8 @@
       "https://www.pauta.cl/actualidad/2026/08/07/kast-y-de-la-espriella-fortalecen-cooperacion-en-seguridad-y-comercio-durante-reunion-bilateral-en-colombia.html",
       "https://www.pauta.cl/actualidad/2026/08/07/luis-cordero-advierte-riesgos-por-propuesta-de-nuevo-estado-de-excepcion-y-cuestiona-rol-de-las-fuerzas-armadas.html",
       "https://www.pauta.cl/actualidad/2026/08/07/manalich-cuestiona-protocolo-de-test-de-drogas-en-cuatro-anos-la-mitad-de-los-funcionarios-va-a-salir-falsamente-positivo-al-menos-una-vez.html",
+      "https://www.pauta.cl/actualidad/2026/08/10/ministro-quiroz-anuncia-comision-transversal-para-revisar-estatuto-administrativo.html",
+      "https://www.pauta.cl/actualidad/2026/08/10/tres-de-cada-cuatro-chilenos-dicen-haber-visto-la-cadena-nacional-del-presidente-kast.html",
       "https://www.pauta.cl/actualidad/conversaciones-sin-pauta/2026/08/06/leon-cohen-fomes-y-pesimistas.html",
       "https://www.pauta.cl/actualidad/pauta-abierta/2026/08/05/pauta-abierta-05-de-agosto-de-2026.html",
       "https://www.pauta.cl/actualidad/pauta-abierta/2026/08/06/pauta-abierta-06-de-agosto-de-2026.html",
@@ -68703,9 +68758,7 @@
       "https://www.pauta.cl/actualidad/pauta-de-analisis/2026/08/07/pauta-de-analisis-07-de-agosto-de-2026.html",
       "https://www.pauta.cl/actualidad/primera-pauta/2026/08/06/primera-pauta-06-de-agosto-de-2026.html",
       "https://www.pauta.cl/actualidad/primera-pauta/2026/08/07/primera-pauta-07-de-agosto-de-2026.html",
-      "https://www.pauta.cl/ciudad/2026/08/05/santiago-sera-la-capital-mundial-del-vino-chile-albergara-por-primera-vez-los-premios-a-los-50-mejores-vinedos-del-planeta.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/05/precio-de-los-combustibles-en-chile-revisa-si-subira-o-bajara-la-bencina-este-jueves-6-de-agosto.html",
-      "https://www.pauta.cl/dato-en-pauta/2026/08/05/resultados-kino-hoy-sorteo-3262-miercoles-5-de-agosto.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/05/tu-empresa-esta-creciendo-turavion-te-ayuda-a-gestionar-viajes-de-negocios-de-forma-eficiente.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/06/cge-programa-corte-de-luz-para-hoy-jueves-6-de-agosto-cuales-son-las-comunas-afectadas.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/06/corte-de-agua-hoy-jueves-6-de-agosto-en-santiago-cuales-son-las-comunas-afectadas.html",
@@ -68736,6 +68789,7 @@
       "https://www.pauta.cl/dato-en-pauta/2026/08/09/dolar-a-peso-chileno-precio-del-dolar-en-chile-para-este-domingo-9-de-agosto.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/09/temblor-en-chile-hoy-domingo-9-de-agosto-epicentro-y-magnitud.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/09/uf-a-peso-chileno-precio-de-la-uf-para-este-domingo-9-de-agosto.html",
+      "https://www.pauta.cl/dato-en-pauta/2026/08/10/corte-de-agua-hoy-lunes-10-de-agosto-en-santiago-cuales-son-las-comunas-afectadas.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/10/corte-de-luz-en-santiago-hoy-lunes-10-de-agosto.html",
       "https://www.pauta.cl/deportes/2026/08/05/coquimbo-unido-vs-san-marcos-de-arica-donde-ver-en-vivo-y-online-la-fecha-6-de-la-copa-chile.html",
       "https://www.pauta.cl/deportes/2026/08/05/deportes-iquique-vs-deportes-limache-donde-ver-en-vivo-y-online-la-fecha-6-de-la-copa-chile.html",
@@ -68759,7 +68813,6 @@
       "https://www.pauta.cl/entretencion/2026/08/06/foo-fighters-confirma-su-regreso-a-chile-tocara-en-febrero-de-2027-en-el-parque-estadio-nacional.html",
       "https://www.pauta.cl/entretencion/2026/08/07/actividades-gratis-por-el-dia-del-nino-2026-en-santiago-revisa-los-mejores-panoramas-para-celebrar-en-familia.html",
       "https://www.pauta.cl/entretencion/2026/08/07/variety-ubica-a-mariana-di-girolamo-entre-sus-favoritas-al-oscar-podria-ser-la-primera-chilena-en-ganar-por-actuacion.html",
-      "https://www.pauta.cl/entretencion/sintonizados/2026/08/05/sintonizados-05-de-agosto-de-2026.html",
       "https://www.pauta.cl/entretencion/sintonizados/2026/08/06/sintonizados-06-de-agosto-de-2026.html",
       "https://www.pauta.cl/entretencion/sintonizados/2026/08/07/sintonizados-07-de-agosto-de-2026.html",
       "https://www.pauta.cl/sostenibilidad/clima-de-cambio/2026/08/07/clima-de-cambio-07-de-agosto-de-2026.html",
@@ -68840,10 +68893,10 @@
       "https://puranoticia.pnt.cl/deportes/universidad-de-chile-y-palestino-disputan-un-duelo-clave-por-el-chile-2",
       "https://puranoticia.pnt.cl/espectaculos/canal-13-confirma-la-salida-de-dos-reconocidos-rostros-del-panel-de-hay",
       "https://puranoticia.pnt.cl/espectaculos/inesperado-nombre-se-suma-a-fiebre-de-canto-comediante-mostrara-su",
-      "https://puranoticia.pnt.cl/espectaculos/jose-antonio-neme-protagonizo-accidente-de-transito-con-motociclista-en-las",
       "https://puranoticia.pnt.cl/espectaculos/kika-silva-abre-su-corazon-respecto-a-su-relacion-con-cristian-arriagada",
       "https://puranoticia.pnt.cl/espectaculos/revelan-nuevos-detalles-de-accidente-de-transito-entre-jose-antonio-neme-y",
       "https://puranoticia.pnt.cl/internacional/accidente-de-helicoptero-turistico-deja-cuatro-personas-fallecidas-en-rio",
+      "https://puranoticia.pnt.cl/internacional/aviones-f-16-interceptan-aeronaves-que-ingresaron-a-zona-restringida-cerca",
       "https://puranoticia.pnt.cl/internacional/descubren-mas-de-una-tonelada-de-cocaina-en-cajas-de-frutas-en-ecuador-con",
       "https://puranoticia.pnt.cl/internacional/flavio-bolsonaro-afirma-que-jueces-corruptos-tienen-pavor-de-su",
       "https://puranoticia.pnt.cl/internacional/hamas-reitera-apoyo-al-plan-de-paz-de-trump-tras-el-rechazo-de-netanyahu",
@@ -68899,7 +68952,6 @@
       "https://puranoticia.pnt.cl/regiones/destinan-9-800-millones-para-reforestar-4-000-hectareas-de-bosques",
       "https://puranoticia.pnt.cl/regiones/detienen-a-conductor-de-bus-de-deportes-temuco-tras-fatal-accidente-que",
       "https://puranoticia.pnt.cl/regiones/dos-personas-pierden-la-vida-en-accidente-entre-furgon-y-bus-que",
-      "https://puranoticia.pnt.cl/regiones/hallan-cuerpo-de-hombre-que-habia-sido-arrastrado-en-su-automovil-por-el",
       "https://puranoticia.pnt.cl/regiones/incautan-yate-britanico-por-turismo-ilegal-y-denuncian-a-extranjeros-en",
       "https://puranoticia.pnt.cl/regiones/persecucion-en-alto-hospicio-deja-cuatro-sujetos-detenidos-y-un-vehiculo",
       "https://puranoticia.pnt.cl/tendencias/la-etapa-de-carlos-lavin-en-afp-provida-y-su-trayectoria-en-la-industria"
@@ -69175,6 +69227,7 @@
       "https://www.radiopolar.com/aire-ve-club-andino-punta-arenas-pleno-invierno",
       "https://www.radiopolar.com/alcaldesa-primavera-aborda-urgencias-conectividad-salud-vivienda-cerro-sombrero",
       "https://www.radiopolar.com/amigo-familia",
+      "https://www.radiopolar.com/amplian-detencion-imputado-homicidio-ocurrido-bordo-embarcacion-punta-arenas",
       "https://www.radiopolar.com/artesanos-magallanes-postular-sello-artesania-indigena-2026-19-agosto",
       "https://www.radiopolar.com/auto-sabias-creadas-mujeres",
       "https://www.radiopolar.com/bloque-productivo-esperanza-exige-informacion-obras-aerodromo-teniente-julio-gallardo",
@@ -69226,6 +69279,7 @@
       "https://www.radiopolar.com/pdi-investiga-homicidio-bordo-embarcacion-pesquera-sur-punta-arenas",
       "https://www.radiopolar.com/plan-proteccion-canquen-colorado-completa-anos-monitoreo-educacion-ambiental-magallanes",
       "https://www.radiopolar.com/plaza-interactiva-reunio-mil-personas-celebracion-nino-punta-arenas",
+      "https://www.radiopolar.com/recorrido-preventivo-cuenca-rio-robalo-fortalece-preparacion-riesgos-naturales-puerto-williams",
       "https://www.radiopolar.com/rene-gomez-destaca-10-anos-halim-music-impulso-musica-independiente-magallanes",
       "https://www.radiopolar.com/sebastian-torrealba-asesor-presidencia-cargo-implementacion-inteligencia-artificial-gobierno",
       "https://www.radiopolar.com/sence-magallanes-beneficio-18-mil-personas-2025",
