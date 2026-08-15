@@ -148,7 +148,37 @@
         }
       ],
       "imagen": null,
-      "analisis": null
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.67,
+        "score": -2,
+        "keywords": [
+          "infoca",
+          "extinguido",
+          "incendio",
+          "forestal",
+          "laujar",
+          "andarax"
+        ],
+        "categorias": [
+          "incendios-forestales"
+        ],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "nacional",
+        "cantidadPalabras": 12,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
     },
     {
       "id": "https://www.diarioconcepcion.cl/politica/2026/08/15/aviso-tardio-defensoria-ampliacion-indagatoria-agentes-estatales-megaincendio.html",
@@ -69162,7 +69192,6 @@
       "https://www.meganoticias.cl/mundo/529416-terremoto-77-costas-indonesia-14-08-2026.html",
       "https://www.meganoticias.cl/mundo/529420-fuerte-replica-61-indonesia-terremoto-usgs-14-08-2026.html",
       "https://www.meganoticias.cl/mundo/529423-mueren-seis-trabajadores-explosion-mina-colombia-14-08-2026.html",
-      "https://www.meganoticias.cl/nacional/529255-masivo-operativo-policial-para-trasladar-a-mas-de-100-reos-a-talca-13-08-2026.html",
       "https://www.meganoticias.cl/nacional/529256-copamiento-barrial-en-el-bosque-y-san-ramon-450-controles-15-detenidos-13-08-2026.html",
       "https://www.meganoticias.cl/nacional/529257-se-complica-el-futuro-de-conocido-recinto-de-salud-reorganizacion-judicial-nucleo-salud-quiebra-disputa-entre-duenos-13-08-2026.html",
       "https://www.meganoticias.cl/nacional/529258-ruta-57-santiago-colina-los-andes-licitacion-obras-tunel-chacabuco-13-08-2026.html",
@@ -69236,6 +69265,7 @@
       "https://www.meganoticias.cl/nacional/529428-enel-cortes-de-luz-region-metropolitana-santiago-sectores-afectados-15-08-2026.html",
       "https://www.meganoticias.cl/nacional/529432-choque-accidente-fatal-biotren-auto-hombre-muere-mujer-herida-15-08-2026.html",
       "https://www.meganoticias.cl/nacional/529433-detencion-narco-militar-motosierra-colombiano-quinta-normal-interpol-15-08-2026.html",
+      "https://www.meganoticias.cl/nacional/529434-temblor-sismo-epicentro-hoy-sabado-magnitud-zona-centro-norte-region-coquimbo-15-08-2026.html",
       "https://www.meganoticias.cl/noticieros/529340-meganoticias-prime-noticiero-programa-miercoles-12-agosto-13-08-2026.html",
       "https://www.meganoticias.cl/noticieros/529429-meganoticias-prime-noticiero-programa-viernes-14-agosto-14-08-2026.html",
       "https://www.meganoticias.cl/tendencias/529222-volverias-con-tu-ex-2-react-en-vivo-mega-13-8-2026.html",
@@ -69582,6 +69612,7 @@
       "https://ellibero.cl/aviso-legal/inversiones-caja-re-s-a-en-liquidacion-pago-de-repartos-opcionales/",
       "https://ellibero.cl/aviso-legal/muelles-de-penco-s-a-citacion-a-junta-extraordinaria-de-accionistas-9/",
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-27-05-2026-2/",
+      "https://ellibero.cl/aviso-legal/orden-de-no-pago-27-05-2026-3/",
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-27-05-2026/",
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bci-10-08-2026-3/",
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bci-11-08-2026-2/",
@@ -70108,6 +70139,7 @@
       "https://www.radiopolar.com/filogenetica-galactica-investigadores-chilenos-adaptan-metodos-biologia-reconstruir-historia-galaxias",
       "https://www.radiopolar.com/fiscal-crisosto-paso-embarcaciones-droga-magallanes-denuncia-forma-abordar-barco",
       "https://www.radiopolar.com/fosis-defensoria-contribuyente-capacitan-temas-tributarios-emprendedores-punta-arenas",
+      "https://www.radiopolar.com/gobernador-flies-reunio-subsecretario-hacienda-abordar-futura-concesion-zona-franca",
       "https://www.radiopolar.com/gobierno-fortalece-implementacion-sistema-nacional-apoyos-cuidados",
       "https://www.radiopolar.com/grupo-eulen-chile-capacita-contrata-guardias-seguridad-punta-arenas",
       "https://www.radiopolar.com/hyst-cierra-promocion-internacional-2026-exitoso-evento-brasilia",
@@ -70125,6 +70157,7 @@
       "https://www.radiopolar.com/laboratorio-chileno-continente-blanco-nanoparticulas-cobre-bacterias-antarticas-brillan-scar-2026",
       "https://www.radiopolar.com/magallanes-fortalece-respuesta-oportuna-frente-ataque-cerebrovascular-estrategia-activados",
       "https://www.radiopolar.com/mba-pucv-destaca-evolucion-formacion-ejecutiva-desafios-mercado-laboral-magallanes",
+      "https://www.radiopolar.com/mejoramiento-rutas-y-160-y-156-sector-laguna-amarga-provincia-esperanza",
       "https://www.radiopolar.com/ministerio-ciencia-tecnologia-conocimiento-innovacion-presenta-publica-participativa-2026-punta-arenas",
       "https://www.radiopolar.com/ministro-hacienda-mario-marcel-encabezara-umag-presentacion-libro-montana-rusa",
       "https://www.radiopolar.com/municipio-abre-inscripciones-circulo-creando-vinculos",
