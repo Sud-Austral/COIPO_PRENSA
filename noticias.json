@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-08-15T10:41:54.039Z",
+  "generadoEn": "2026-08-15T11:53:30.566Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -39,6 +39,76 @@
     }
   ],
   "noticias": [
+    {
+      "id": "https://www.infobae.com/america/agencias/2026/08/15/un-incendio-forestal-en-el-este-de-belgica-quema-cerca-de-1600-hectareas",
+      "url": "https://www.infobae.com/america/agencias/2026/08/15/un-incendio-forestal-en-el-este-de-belgica-quema-cerca-de-1600-hectareas/",
+      "medioId": "infobae.com",
+      "medioNombre": "infobae.com",
+      "seccionId": "internacional",
+      "titular": "Un incendio forestal en el este de Bélgica quema cerca de 1.600 hectáreas",
+      "fecha": "2026-08-15T11:49:38.000Z",
+      "fechaDeteccion": "2026-08-15T11:53:30.566Z",
+      "extracto": [
+        {
+          "texto": "Un incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " en el este de Bélgica quema cerca de 1.600 hectáreas",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+      "autor": null,
+      "fechaReal": "2026-08-15T11:30:39.785Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "mixta",
+        "polaridad": -0.42,
+        "score": -5,
+        "keywords": [
+          "medios",
+          "publicidad",
+          "zona",
+          "dos",
+          "belgica",
+          "pais",
+          "ago",
+          "hectareas",
+          "aereos",
+          "efe"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "emergencias",
+          "prevención"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "AEMET",
+          "EFE",
+          "EST",
+          "agencia",
+          "bomberos"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "medio",
+        "prioridad": 2,
+        "importancia": 65,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 423,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 2
+      }
+    },
     {
       "id": "https://g5noticias.cl/2026/08/15/usm-reune-a-especialistas-de-chile-y-espana-para-fortalecer-la-gestion-de-incendios-forestales",
       "url": "https://g5noticias.cl/2026/08/15/usm-reune-a-especialistas-de-chile-y-espana-para-fortalecer-la-gestion-de-incendios-forestales/",
@@ -69014,79 +69084,6 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 1
       }
-    },
-    {
-      "id": "https://www.independentespanol.com/noticias/eeuu/area-51-incendio-forestal-extendiendose-contencion-nevada-b3024193.html",
-      "url": "https://www.independentespanol.com/noticias/eeuu/area-51-incendio-forestal-extendiendose-contencion-nevada-b3024193.html",
-      "medioId": "independentespanol.com",
-      "medioNombre": "Independent en Español",
-      "seccionId": "otros",
-      "titular": "Incendio forestal cerca de la misteriosa Área 51 continúa extendiéndose y no ha sido contenido en absoluto",
-      "fecha": "2026-07-29T23:19:00.000Z",
-      "fechaDeteccion": "2026-07-29T23:26:23.671Z",
-      "extracto": [
-        {
-          "texto": "Incendio ",
-          "resaltado": false
-        },
-        {
-          "texto": "forestal",
-          "resaltado": true
-        },
-        {
-          "texto": " cerca de la misteriosa Área 51 continúa extendiéndose y no ha sido contenido en absoluto",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://static.independentespanol.com/2026/07/29/20/58/Screenshot-2026-07-29-at-4-16-41-PM.png?trim=0,0,0,477&width=1200&height=800&crop=1200:800",
-      "autor": null,
-      "fechaReal": "2026-07-29T23:23:36.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "mixta",
-        "polaridad": -0.53,
-        "score": -24,
-        "keywords": [
-          "incendio",
-          "area",
-          "nevada",
-          "incendios",
-          "cerca",
-          "hectareas",
-          "campo",
-          "vida",
-          "extraterrestre",
-          "kelly"
-        ],
-        "categorias": [
-          "incendios-forestales",
-          "institucional-vocerias",
-          "parques-asp"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "EDT",
-          "EE",
-          "EEUU",
-          "NTTR",
-          "UU",
-          "agencia",
-          "bomberos",
-          "voluntarios"
-        ],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "medio",
-        "prioridad": 2,
-        "importancia": 65,
-        "tipo": "emergencia",
-        "ambito": "internacional",
-        "cantidadPalabras": 791,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 4
-      }
     }
   ],
   "resolucionesGoogle": {
@@ -69141,13 +69138,13 @@
     "CBMivgFBVV95cUxPY1FrZVlHMXlBbTAtTEN0ZXR0NGlzelplWlFTRkVmX0JqTGlweVJZRC1jdWJkbGE0Qy1RM3lMcGF1V3hTd3VkdlN2TTFGcTQwd2RWLXl4OHpiNEZUSUJheUtHQ0NIT0VPd1ZRQVRULTFpaFFXSE9lYkVyVnRLM3pFbkVSU3hHY0xVNEV2eXZZZERyWlY4NzZ3Zk9LWERnQlZTb3FENWlJRG10b3FHY0dHZXU0NDZqQ0lkOWQzcG9B": "https://www.munistgo.cl/parque-forestal-monitorean-mas-de-mil-arboles-afectados-por-podas-realizadas-hace-mas-de-10-anos/",
     "CBMivwFBVV95cUxPX2hieHRJNzBKOGlpYmhySVpFT2hQbHVjQkxCYmxJb2tPUk42U3ZJTFk0cWtnOFRfSzNwdWNqVlVaOGl0UkkzUlY3by1rZ3BhSmFmZUhEaGRkTXpCYWM4Z2VpemQyQ2xxYk5iX1FMZW5hR09fbG5wSlN6N1d3THZvbHVTVDhfMVQ3MlNEcHhpSFZiT3dSNS01Vzdnb2FjNjFCRi1NMlhhOGhYb1pVWUhDd0wzYUw3TUdnNkdMMEYtd9IB2gFBVV95cUxNY3VMNWQ0bS1JSkxxS3psODM2aXJqdktLTUlsZWlyZGRKYk5DUGRUeHE0aUxybUg1SjFic2puYnV5ZmFBTzUzRWJVVkE0MTJkZ0VZTndhMzVtV2lOS2xZa2NWNGQ5ZFpTU3k5ZExuajFpNW1wSWZUUXl3UW1ueW5nRklKYkJqcmI3TVpfaDhCaE4yQWk2dmNMaVRWbllKLUduckpmWjZQSGlHWnBFUjVkQ0R2SjBMWTRJYVByS2NIQXlqZWtnaWRDcm9MYUdVaTFrTUl4ZzhUWXR1UQ": "https://www.infobae.com/america/agencias/2026/08/15/un-incendio-forestal-en-el-este-de-belgica-quema-mas-de-800-hectareas/",
     "CBMiwgFBVV95cUxNWXFCNVo4emZyX1RRSzZwMVJrMmRBcXNSM1EwOWtpbTNXVXhjUWNqcl9wdFdvRVE1Y2ZIVVV1VndyZ0RteEZHX0puLW9WNjJ1SHZfWUZZc3k5SldPclViejBxcy1BVmdqNWdJSXM2dGU3RjRsQUgxZEl5Qkg4eHJDYXVEbmIyQlV3RmI3ZW9mU2NwUGZ3VC1iM3FBNGZRM1lsQm0wdG1OLWdUUXVZeWEwSWttMHR4OGM3U24yNEdkWUlpQdIBwgFBVV95cUxNb285b3pjd1M1TEw2OEpONW80MVNxc1h5eFhqY1QyVG1WWkc1eTk2bGx3M2RTcmQ3SkdyMHhRX0o5QllTVThhWFlYOVZfWWFHQVE1OUtLM2dpY3pKeEdhSmV3eTFxS2pYT0s2RDE5ZVA0N1lwWHhoUWVEcDJraDZ0Q3hwTjRLTnRvdlIxVmhZd0g4QTd6NzZZaS1lRGZmbEo4UUVhT0tTeFM0X3VLZlRaR2NmRkFqaC0zZlUxdS12a1NIUQ": "https://www.dw.com/es/un-incendio-forestal-en-el-oeste-de-alemania-obliga-a-evacuar-a-m%C3%A1s-de-2000-residentes/a-78364045",
+    "CBMiwwFBVV95cUxQSFI5aU02UHplVzV1d2tWLVk0cV9uRDRIZjBGMmdKNV9jMkY0OVFRM29mTy0wd3NJbGJhTFdDbDdrRlpJMnR5MXVwNDE4WXgyLU9fdDM5MmJGSXh1elpCMUFtS1lWMTlMbDFDam45bS1OVUZVYzBNT2VCR0tPZW5WM09jY1EyWDdpOV85TVh2akRzSU9KYmJKQnhOWEdDU3NJM0VuMmJNeXFWb1p2VW1MWXZtWE5IS1kyUjFVTU82TFBFOVXSAd4BQVVfeXFMTTZvMGl3Q1JCSDkwZGU3bWducGN4MTcwaUVlTVZHd2ZUd2xhdmlnUHk3Z3NFT0pzSml5T1lSTEw2c01zaDBnSGh1bHMzQmNxcjRGX3hQMWNRUmUyaV9LSWVxMlQtVVBrYnFhbTNwVHZXdDlDcFdDT3BfM3pPaGQyRHdpU3ZCRjNEaEdhd1l3SVdTcDY2Q3l6SloxQWZIZkN5MWM2MGZfTzF6Nld3NHJlZWVzUzNrT1dadm9WTFNkMGR5Q25rOHlCY3RtQ2FMNFhVYXZOc0dvNGxOeEpLWG9R": "https://www.infobae.com/america/agencias/2026/08/15/un-incendio-forestal-en-el-este-de-belgica-quema-cerca-de-1600-hectareas/",
     "CBMixgFBVV95cUxPTGJBSTNlcnRqak5KQWZGSC1ydGxoSl9vVXVxUGRzSW1sX0RmcE5Sem9Cald3Yy1TX1hpTEJPNVYzYU90LUdCWTFXMno0d0NuX0h1dnEtVFdlbTZtS1pqUXVMNzdGOW1Cd2xnMDZ1UXYxY0xzVE9WTXBNV2RwcFFmcEkzc2tQaGc5TjU0TXpTWXYxMDNqRm9MTW15LUNRLThuazZ4RThqYkJIVGViOWVSNm8yRGh6ODFWcVRkaUhuT0l4cmZTeWc": "https://www.fiscaliadechile.cl/actualidad/noticias/urac-valparaiso-formaliza-dos-ex-funcionarios-de-conaf-como-autores-de-cuasi",
     "CBMixwFBVV95cUxNV0tYa2d4NS1LeUt1SzROTllpdE9ZaGFsUVNIN1JMa0FnbTBiV24ybERwb3UyNzV6UlMyVW1BdUNybjRvVkJrMDNldkRDeGh6YU42Um1uUEhUNVhlVlcwUWJ0N1pkZUJhbVA0bWtZc25NZnVuT1h6ZkJvNjliYW1mV3F3dW4tOVp2VmNpNzJyakxoWFZTZS1EWGNiOURfLTEyZFlZODJKTnVPNU5VUWVpbE5EWGNZcHJ1c1E0cW8wRi13NDljVXh30gHoAUFVX3lxTFB5bUZpaG8wcjNRR0FOMC00cGZfOGV6NUdXTWt2MHhMWHlmXzdEQ0V2MG4tNXM2MFMtR256aHEtQ0paUnNsQmthaEVtNFpRTUtnd1FZbUloNFdnSkxEeVdweTliQ0liZHBiMm1HR1RDSjcxS05NeGlHNFRhTlEwYU5GUzFZSjBrNW81UjZxa1BsLUM5dnJaS2FCbi13Z2Y0YlZlblFLTDd2Z0UzbDZvSGhTN21DYlpVMmpRVGZLNEpPZDJIUDV1R0VHNkdYbUxLYmE2dGFHbWk4dlJ0M2hQaGhkRlhHamNtRHM": "https://www.latercera.com/pulso/noticia/utilidades-de-cmpc-se-desploman-74-en-el-semestre-pero-ingresos-se-mantuvieron-estables/",
     "CBMiyAFBVV95cUxPOExkdVFmTkFJMTNQVVpsLVN1cjZUTkhFUG9qUU8zZE5iUnJNdWlhOW1DNzFJQU9SS05wZWlTNGlRald4Z1hmcFFONjJxNmdNbFF4RG90TGhJQ0t3elFyXy1wc0RGN25KX2lpdXFfeGVzQVR6Z2g3M2ZDWWZKZEVoOWhEcU1GX0FFdzNxNjMzYlNNbno4VlFEREgzUERUMzVJZ0NVYzREekQ4aG12M3pEZzJxa2JfWkpLMlJ0aFRDbF9fZnNtTGZYZNIB6gFBVV95cUxOUjJzWHRUNzdiVTNwd0xsLS1FMUQ3Zl9mTUZlRjNIR091Sk9zRDhheXhJZGdRX09hVUpzdmZEMnVIZjdPOWRaOUprRjA4ejNKSGNGNEdjdmljT1ZyWm5zWnFSYXRidGZWUWJORjlyS3YwZm9tb2gxbEFkenR0RmFoOGkySFZZeExzdUR4cUp3YjdBaGRqd1FTUFBrZFJsSW1QcVJFVTF5QXlnQUZ3VTQwc0FPS1pCNXZwVFZScl82ZkVUclA1dlZzNFVkMmMzN2d5Tjc1MV9uaXZiQlN6dGw1QVNhamtzVW9VMVE": "https://www.latercera.com/pulso/noticia/cmpc-redefine-los-plazos-para-obtener-los-permisos-de-su-megaproyecto-natureza-en-brasil/",
     "CBMiygFBVV95cUxQMFFxcG40OE11Q1g4cFlLT3hWcVo3QUxWRnk5dVRqSWVuU0NvSEk3N09hdGFrUEVubjdXMi0wQ0E3cGV2TUtuQTFnZTVsS2poOHF1eE1Pb0MxYnAwY2s0LU9BbHk4MXljNmRLNHAzd3V0eVdfeG01dldjQkdjRktnbndOdWFEc2lLeEczUDVwU0NPWURZQU1OLUtoV25LaVp3SjBMa1FObkJVUlB0ZUdkYXA1YlUzYjkxQ2VfcU1jWVFKMk9DdjdxMnJ3": "https://www.reporteagricola.cl/noticia/noticias/2026/07/nueva-institucionalidad-forestal-acelera-implementacion-leyes-clave-sector",
     "CBMiygFBVV95cUxQb2JSUVpMZWFWeHZiZ29TeUoxcTY4NGM2Mzl0R2h0cnhfdksxZmxPMzF0TmF6RTZmd1N1Q19WQnhrMzNKR2J4WllTVWtveWFLSnZkc2lsdWVBbGdsUldpUzl0T3lROFB5SDZOdl9KVGFYNVdkOW1zVzFacUJpMHpQcVk2ZGNMMjhtZG1McllQcW8ycXp1V0Z6eGZYTW85ZzBsOWtnN1ZRS0xYRmQ1S1BfV3dzMzRYR1VZZ3ZYNzVoTXNyN2F2S251UFZB": "https://portalportuario.cl/transap-inicia-servicio-de-transporte-de-rollizos-para-cmpc-en-el-sur-de-chile/transap-forestal-cmpc-1/",
     "CBMiywFBVV95cUxQaEl2U3RrYTQzV18wd19wVmpDRndjUnpBMDlkeG9fZk10cGlGT1N6RTd1QmxFUk9GLTVCOHJxemMzM3doYzQ0TFZ5bEpjLTRZMEFCNTg3UWphRHpVQ3BJYUhIWGtZaU03Rl9EdWg4ZVJhc3F0VC04QVF2NjBjQXhQd0hWdTBfMjdFUkpTQzZfcjB6c1lUSEtOalZsWHdoS3gwQklEY2dNcjVWaUZiZVY1WkpNV3BWVUtlZEk1czktUDBhRmFPcHRKZXZESQ": "https://www.portalagrochile.cl/2026/08/14/cmpc-impulsa-la-construccion-en-madera-con-el-cuartel-de-bomberos-de-san-pedro-de-la-paz/",
-    "CBMizAFBVV95cUxOWWtMZEpHRVRTWThWV0tIejBKUU55cmhkTVNyZ1ktd3p2MERDc0dlc3AzU1IyLVdhT2t0RVFqZ1FxRmVvYkd0d25IVWF0SV81U2ppLXE5cV9rMDZsYTJqVV96cmJMaXJtN1E2MFRyNnJXTXhWZkVFNUtBc1RhbEFzYXVKXy1xOElRcC1KenVMY2JjZnJuRGI0dGh0OU5aVERFX01hT25lMzRDQmJaWXM3NGRMRzU1bHRabTZoYksycFpabFV0cG5fdGdxNjjSAdQBQVVfeXFMTUJTWUV1amJZc1N4eEVTZ1FLSzJteGg0Zlp2UmlJdFhzQkRIQlVQQ1JSX0tRWHE5OUR4ankxUk5nTW53TUJ1RkxpNDJQUmRGcXhCRnJtclcwYjYtVTFUa0ttZUVGQjAwdGlyT3F2WmkyWkYwUTFYOXNlUDU0U2loN1F0OHoyWkY2ZUtucVRqeEExdndjNVJvb2VYU3BqQnlrSzZhT3NsNXluLUFYN1JGYWs3TGRheWVkcUhXd0k2cEdzVTZvZEVhMUVvRl9FR2dVRmJLWkk": "https://www.telemundo51.com/video/noticiero-t51/incendio-forestal-en-el-suroeste-de-miami-dade-cerca-de-zonas-residenciales/2814341/",
     "CBMizwFBVV95cUxOMG1CbEtZcERCV1N0Tm9nWG9Jc1hWMVNDVEJaVWZsWVM5X0pFRTY5M0JaYmVPa0Z5aDY1UUtFLVp1TlktZmhQaUxoZXUxQXVFemZRZGNodzhSZW1OS2p5RTB3MlJlU3BjMnY3REQyLTVJbElOLThMOUNFU0l6NzJSSVRrRU5iQ09lMmRqVjhhRlhmNWZBQ0g4VUY2ek9tVVpIc1h5d3NwZHRGUkRFdTNrTVJRUEdtVzUyTGIwZ3JVSzhhRHlMemRYTHU1MVJLVk3SAdcBQVVfeXFMUDBBdVl6T2M4X3pldVh2SHE4Y2FvVWd1M21VQmd1aTJNandsd2FlU0MzclZ2V2VwWFlWWE8tWUhwWnI4bjdsTWJmakVJZVh4MUw0aVlhQVdOQnBUUzdhNUp0NHoyWEVtUUE1a21LdzJfdGphdmpPb0kwWWxyYzMxc1hzeGR2NHpscTI0SEkzSUxvcHFsY2w3R3BVTVMxYnpxOU9ZazFKdW85WUFoRUh1eWgtNGRNYXhRaFpqa3dheU8tNFRKU3JHdy11VVJfVkdrYzN3RE9VUlk": "https://www.latribuna.cl/vida-social/2026/08/14/ciclo-biobio-2050-abrio-espacio-de-dialogo-sobre-innovacion-y-desarrollo-forestal.html",
     "CBMizwFBVV95cUxQVVpwV0I5X0NEYzlJRGxvUVBEaWRfRDJ2NFZCamNzUzhnRkhjNWpiUjB3bzFZUmk2MjRybDhONU5seDdzTENiN3Qyajh1bFdtTGJrRWhaRmdSTjV2VmtNeHU0WFZzMTZnS2hPWjQ1dmx0SGt1c01BR2JfVnU4dXZCZjZYYVgtUnYwR0ZqSVdrWXVSNzB5RDIyM2gtMl9scVlUZmw4Ym15UUJIR1h4VDZQem5RNVZWZTlsU1hTbDh6R2YzN3RjOHNUcE1lTUFaaVU": "https://www.rfi.fr/es/m%C3%A1s-noticias/20260814-un-incendio-forestal-destruye-viviendas-y-obliga-a-evacuar-a-residentes-en-inglaterra"
   },
@@ -69562,6 +69559,7 @@
       "https://www.pauta.cl/dato-en-pauta/2026/08/14/temperatura-hoy-en-santiago-revisa-el-pronostico-para-este-viernes-14-de-agosto.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/14/uf-a-peso-chileno-precio-de-la-uf-para-este-viernes-14-de-agosto.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/15/corte-de-transito-este-sabado-15-de-agosto-revisa-el-estado-de-las-calles-en-santiago.html",
+      "https://www.pauta.cl/dato-en-pauta/2026/08/15/temperatura-hoy-en-santiago-revisa-el-pronostico-para-este-sabado-15-de-agosto.html",
       "https://www.pauta.cl/deportes/2026/08/12/coquimbo-unido-visita-a-platense-por-los-octavos-de-final-de-la-copa-libertadores.html",
       "https://www.pauta.cl/deportes/2026/08/14/de-palestino-a-santiago-2023-el-recorrido-deportivo-de-francisco-riveros-nuevo-ministro-del-deporte.html",
       "https://www.pauta.cl/deportes/2026/08/14/universidad-de-concepcion-vs-deportes-la-serena-donde-ver-en-vivo-y-online-la-fecha-19-de-la-liga-de-primera.html",
@@ -69570,7 +69568,6 @@
       "https://www.pauta.cl/deportes/la-previa-del-juego/2026/08/14/la-previa-del-juego-14-de-agosto-de-2026.html",
       "https://www.pauta.cl/deportes/pauta-de-juego/2026/08/12/pauta-de-juego-12-de-agosto-de-2026.html",
       "https://www.pauta.cl/deportes/pauta-de-juego/2026/08/13/pauta-de-juego-13-de-agosto-de-2026.html",
-      "https://www.pauta.cl/economia/2026/08/12/cochilco-anticipa-que-el-precio-del-cobre-podria-seguir-al-alza-nosotros-vemos-que-podria-eventualmente-seguir-subiendo.html",
       "https://www.pauta.cl/economia/2026/08/12/cpc-e-inacap-lanzan-cruzada-por-el-empleo-jimenez-llama-a-movilizar-a-las-empresas-y-palacios-afirma-que-el-empleo-es-la-mejor-politica-social.html",
       "https://www.pauta.cl/economia/2026/08/13/estudio-de-clapes-uc-estima-que-delincuencia-le-cuesta-a-chile-hasta-us20-mil-millones-al-ano-en-menor-actividad-economica.html",
       "https://www.pauta.cl/economia/la-columna-de-ackermann/2026/08/12/el-empujon-al-mercado-inmobiliario.html",
@@ -69731,7 +69728,6 @@
       "https://puranoticia.pnt.cl/nacional/camilo-huerta-figura-entre-investigados-por-trafico-de-drogas-y-lavado-de",
       "https://puranoticia.pnt.cl/nacional/carlos-barria-fue-designado-como-nuevo-secretario-ejecutivo-de-la-comision",
       "https://puranoticia.pnt.cl/nacional/centro-de-estudiantes-del-liceo-augusto-d-halmar-niega-participacion-en",
-      "https://puranoticia.pnt.cl/nacional/cerca-de-un-centenar-de-reos-de-alta-peligrosidad-son-trasladados-en",
       "https://puranoticia.pnt.cl/nacional/chile-concreta-envio-de-10-toneladas-de-ayuda-humanitaria-a-colombia-tras",
       "https://puranoticia.pnt.cl/nacional/chomali-alerta-que-restriccion-a-prestaciones-de-salud-propuesta-en",
       "https://puranoticia.pnt.cl/nacional/con-arraigo-nacional-y-firma-mensual-queda-mujer-que-amenazo-de-muerte-al",
