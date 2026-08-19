@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-08-19T03:12:37.824Z",
+  "generadoEn": "2026-08-19T04:53:57.397Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -39,6 +39,77 @@
     }
   ],
   "noticias": [
+    {
+      "id": "https://www.infobae.com/mexico/2026/08/19/franja-aguacatera-de-michoacan-profepa-desmantela-centro-forestal-clandestino-en-san-miguel-del-monte",
+      "url": "https://www.infobae.com/mexico/2026/08/19/franja-aguacatera-de-michoacan-profepa-desmantela-centro-forestal-clandestino-en-san-miguel-del-monte/",
+      "medioId": "infobae.com",
+      "medioNombre": "Infobae",
+      "seccionId": "internacional",
+      "titular": "Franja aguacatera de Michoacán: Profepa desmantela centro forestal clandestino en San Miguel del Monte",
+      "fecha": "2026-08-19T04:00:12.000Z",
+      "fechaDeteccion": "2026-08-19T04:53:57.397Z",
+      "extracto": [
+        {
+          "texto": "Franja aguacatera de Michoacán: Profepa desmantela centro ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " clandestino en San Miguel del Monte",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.infobae.com/resizer/v2/4UEFTSOY5BHMJL5XIDVYJP4AV4.png?auth=1a17bdf6dfb5f80ee6706067d655b1bbba6e5540b15dee07944fb74e231f7ec3&smart=true&width=1200&height=630&quality=85",
+      "autor": null,
+      "fechaReal": "2026-08-19T03:52:53.895Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "positiva",
+        "polaridad": 0.26,
+        "score": 7,
+        "keywords": [
+          "profepa",
+          "san",
+          "miguel",
+          "monte",
+          "madera",
+          "seguridad",
+          "michoacan",
+          "centro",
+          "metros",
+          "cubicos"
+        ],
+        "categorias": [
+          "normativa-legislativo",
+          "emergencias",
+          "institucional-vocerias"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "CAT",
+          "DEA",
+          "EN",
+          "EST",
+          "SCJN",
+          "VIVO"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "medio",
+        "prioridad": 2,
+        "importancia": 70,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 720,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 4
+      }
+    },
     {
       "id": "https://g5noticias.cl/2026/08/18/por-primera-vez-desde-que-existen-registros-julio-cierra-sin-episodios-criticos-de-contaminacion-del-aire-en-la-region-metropolitana",
       "url": "https://g5noticias.cl/2026/08/18/por-primera-vez-desde-que-existen-registros-julio-cierra-sin-episodios-criticos-de-contaminacion-del-aire-en-la-region-metropolitana/",
@@ -69393,81 +69464,6 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 3
       }
-    },
-    {
-      "id": "https://cadenaser.com/extremadura/2026/08/03/estabilizado-el-incendio-forestal-de-casas-de-millan-tras-quemar-1352-hectareas-radio-extremadura",
-      "url": "https://cadenaser.com/extremadura/2026/08/03/estabilizado-el-incendio-forestal-de-casas-de-millan-tras-quemar-1352-hectareas-radio-extremadura/",
-      "medioId": "cadenaser.com",
-      "medioNombre": "Cadena SER",
-      "seccionId": "otros",
-      "titular": "Estabilizado el incendio forestal de Casas de Millán tras quemar 1.352 hectáreas",
-      "fecha": "2026-08-03T07:27:22.000Z",
-      "fechaDeteccion": "2026-08-03T07:49:41.758Z",
-      "extracto": [
-        {
-          "texto": "Estabilizado el incendio ",
-          "resaltado": false
-        },
-        {
-          "texto": "forestal",
-          "resaltado": true
-        },
-        {
-          "texto": " de Casas de Millán tras quemar 1.352 hectáreas",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://cadenaser.com/resizer/v2/KNDU7PGMWRLFJLSTCM6X6QPBAM.jpg?auth=49575bfb96d47f5d2e0d29241a179e962d8a0f1f82298646db0cf3dbbc46359f&quality=70&width=1200&height=675&smart=true",
-      "autor": "Agencias",
-      "fechaReal": "2026-08-03T07:15:15.521Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "mixta",
-        "polaridad": -0.5,
-        "score": -12,
-        "keywords": [
-          "casas",
-          "millan",
-          "2026",
-          "incendio",
-          "grimaldo",
-          "caceres",
-          "extremadura",
-          "estabilizado",
-          "bautista",
-          "infoex"
-        ],
-        "categorias": [
-          "incendios-forestales",
-          "comunidades-territorio",
-          "sernafor-transicion"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "CASAS",
-          "CERES",
-          "DE",
-          "EFE",
-          "MILL",
-          "bomberos",
-          "cruz",
-          "roja"
-        ],
-        "lugares": [],
-        "regiones": [
-          "metropolitana"
-        ],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "medio",
-        "prioridad": 2,
-        "importancia": 65,
-        "tipo": "emergencia",
-        "ambito": "regional",
-        "cantidadPalabras": 646,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 3
-      }
     }
   ],
   "resolucionesGoogle": {
@@ -69476,7 +69472,9 @@
     "CBMi1AFBVV95cUxNSFJTLTQ1ZWhnVG9QRWU0UHJjRUIwS0x4aUtia1pxb3JuaXVTTzlvNkVZOEZSbXZBVmxRemMtTkN4N19mRU83RWNVMl9iMy0tb2hheEdNWXVzYzFITEJob3lueUhYd2JIczhZNU4zWWJ1eDZsWWhNa2QwaFBoSmN0SGsyMFBxM0lDQU5RakFzenNSM0Y1OXpUM1NfeFRseFhaazNDTU44MjlFeEpCUW16QkZVV2VabEtfb0N1R1pNdkFTRVNjYXowdjdBdXdVSENNd1pSaA": "https://www.elperiodista.cl/2026/08/administracion-trump-suspende-obras-de-seguridad-fronteriza-en-parque-nacional-de-texas-tras-criticas/",
     "CBMi1AFBVV95cUxNWGQ2bmViMnZFWkF2VmhFYzVGUll3dzQxWGVYa3FFWVV2dk44VWhzRWlkWWVobE90bGk1bHZPWUVUVkZtTTQyZG5UZTMzSEM0LTZ0ME5TLS0yLXFLaFBOR1l1bFVhLXpZSlVvXzJmYlJ6WUFvQjdTTU8xSG5GNmtjV3ZmRVdYYzBlbDQxbjM0alFOWHVKLVNISUZBdGlJRWZQSDFkVHhqUXlHWW5BbDFUSmxDcTZod1lZTjU5VmlRWEcxQ2pITm1Nbk12d1U5MHhtZlZ4RQ": "https://www.canal9.cl/episodios/2026/08/18/conaf-abre-536-cupos-para-brigadistas-forestales-en-el-bio-bio-de-cara-a-temporada-de-incendios",
     "CBMi1gFBVV95cUxQU3dRRkQwRWtPMjM3MjM4QlREQzJYTnFLaWRRMGFxLXhfNkVfc21rZVBWYU1OcG0yZnkxaFR1M0xSWjRMTFpUQ2RWbjJGblJiQVVuendGQk03UzVnQjhZMUJ5WllucGRSSW5FSHE2cWhHTVVfQ3dwaVZuNE80ZjJ1TzdJcXlzRUxzSnZhcDR3Tk5qUTVQVzhTWFdZZkVIbzFWc05wYV9NTnhXWXZFTGpQX3lFWXJUMUk0bzNldkVIU3VUeU1WeGVEbi0yTndFbXR2allDbE9R": "https://www.terram.cl/la-ligua-noticias-denuncian-afectacion-de-bosque-nativo-en-cerro-la-higuera-conaf-habia-constatado-corta-a-tala-rasa/",
+    "CBMi1wFBVV95cUxNdlBCS0hhNndOY1N0MVMwUTk3Nm51ZHNkWG1fSWFTcVRvNmNhcmt4blZCVENiLXlRa2ZxVnZqNWlhMW5yaDJaVDBnQnZVZW01dVUzY0R6ZzZuaXBfbHF3OVJ3eFo4X2VWak5COE9hWGR4S3RBVFBZblE4aUI2dGxtVkNvLV85eEFMa3U2bG50cG9OVmxvcks5REViSkRBcGVteldHWmlWc0t2Sl9CMHJDYXNxZmF2dFlKSlczVXVLR21wQVJ1Ny10T2VPSkZFU2ZQMjFPc1B5MNIB3wFBVV95cUxQVF9ENjBHbWdPLWtyNjIybllMVzRBY0p6S2JvVjNxOERKcGJPZnV5aEthX1gwM096U1M4Uzh6SXBVTmk2RlVTYngwSGwzUnVWLTlBbTI0ME1lU1RoQW1EZzVJTkdsUER5QVNnMEdNbGVfTkRjYXhITkROUGVpOG83RDUwMjhRbk5NYkZvZ3I2VEQ5Y09rMGhzWVFSbXNBZnpkQWx3OXM5QmxoV08wdndsdWRzSk0tRGV3dUdOMnMyUG5mMVBMc1E4RXBFakhuMUZpVy1ZbGdFNm9rX1FDdS1z": "https://www.latribuna.cl/agroforestal/2026/08/17/autoridades-plantean-nuevas-oportunidades-para-reimpulsar-el-sector-forestal-de-biobio.html",
     "CBMi2wFBVV95cUxNbnlZejdPczFadUNwcnRLNlpnM2E1NXdZNEJQRHhpRmh5RFFMeVFWOEJGaFRNc25Eb21FNUdHX0VNbnFqZWM1d1NNZmJJWklEVlRMTUdCbEN2cV9WQUdJb1dSdWxJcnRCOEdTSXBsMEs4ZVZIbXp6VThjUTl4eGdicDAwYklTN18xS3RFYkpRXzExcEtQWFNzdmlHdmFiUnFIYXRaTWVNdjBkcTlYaWNOTnJSblB5VWNQZmtybG8yMXJfWm9rbl9Mcm1mNGlyaG02cTlYeXh5UENUdWvSAeMBQVVfeXFMTzFud3h3aEFSYUVHUm5tUGVRc19wRW5XUTgyc1VPLVZsck5Ub3N2OWJQb1VWMHJiSjdxdnRwTThSWWtkU0ZCU1ZPLUdiRXQ0aW9BclktVk1ld1VJZHhGMk4tMEhtZXFvMHZpQjI4UWpld3h1WVB2djhEdVRvN2JPMEJuOHBlWm82b2R1MUlUaE9vc0Jyckp0dWhtUXBWQ203SmdKT01JSEtndkVuZVd2b0hOQkY1aDdkUXBzaEN0cS1KNlhac2ZHdVVlektTN25oNVZveTNUak9tZ1FBM2tDUXh4cDg": "https://www.latribuna.cl/cronica-ciudadana/2026/08/17/temporada-de-incendios-2026-2027-conaf-busca-536-brigadistas-en-la-region-del-biobio.html",
+    "CBMi3AFBVV95cUxNZHVFU05QbjNXQmZqNmpUaXRxNEx3LWlILWtNSkxCLXpONTRjVXlrSVZ1RW1BNEd6Zmc2dVU1U08zVGhMUldfbkNNT1JRVTh5RTFrQkw1V3BTN0wwVTN2dTFjcEtSSjZrWUNJdHlrWFRJR0JaSEdyaDR5TEhCbE42a2F0dS1KNWFJSUtjeE5La2dMbDBXYk1DSXNoTnp6V0ItZnZaaUg3RFpiVVZXaUxBbzcwckx1MWlYZUsxV2RoWl9QNjN1S3ZDbkxSUHRSV1BJcnJFT0dGR3NnVmVV0gH3AUFVX3lxTE9nQTlTcGdIaHRkUGY0ZWcxczgyVVlRMFZhYlFzYVdrVDJWV1h2dFpmbUhudGtaeFZSbGIzY0NzQkdfbldkemRSTmdhMnhkRXNJdzAyOGdaSzVqMHdjeFVvZVRVRzJDZHRhaGhDdktKc25IRXBUbFhNYXlVZlo5dlpySkVFTEhpYU8xaGdRZzgzbm04cGRjT0JhLXNwdEE0ODEzOXVzbFJCX3hnX3VHbWlIcDZ3bDN6SV9WZHRSV1U4UWtFY1E1ZmN3bVN4OC01RDZ6cng3RERjZ3JOeDRkY2ZBa0hjZkRVLXdZT2thbFZyUkZaOVlfUUk": "https://www.infobae.com/mexico/2026/08/19/franja-aguacatera-de-michoacan-profepa-desmantela-centro-forestal-clandestino-en-san-miguel-del-monte/",
     "CBMi3wFBVV95cUxOeGxEd2ZIYjFETnFkamFRMlFMUjhzeUlNUmhDM0RRSXJINHNIREVYZ2wzUzNxWGJ0eWdNYjZEa3ZOdnVLek81RktCVzFSYVBPV1FhQ0N0djJBSFNiZ2c2ekF6MnJhU0xOS2FQMDNDYWJFMTR1WE5rM3FnV1hpQndyRXJqbFJZRkpNNlpqdjlWZUxzTXBjN0RJVFRmV0RWTFB2NWZFcENqUWR3bkU0ZXVCaVM5bGoyNllCa0ZWSkI1X2FhRDcxNlFDZ2NUWlZfUWtkaERJTzhCRjdnWWJ1ZEdB0gH6AUFVX3lxTE45Rks0NWZwYWQ5eUk4TEloTzZnX2pLSFBCR0M0TDNHZUdrSlVOLUxWSENfc29ERGdubG94d0RIbld4MmNRbUtWNm9RYk5qLTd4Wk41aXpQZ1lpZ3VWbFdrZ0pNdlZrSEVBa0NjQUNXRGhOVUFJSl9pTy1aTGtwS2tjYVdzNDE1UTJhNzltZjVFbmpoNVY1Ykp4eVV3Y2Z6WVFIcHBzOF9XT3NoLUdCNHBJTEI2SDBRdjVWTExpdnNOMWJWYXRRdFFqQzdMd2Z5V2xiMnFleTNlZERUcnRZSUZGaGM5NDdxa2ZrRWEyN1dPWmthZTlITTEwMHc": "https://www.infobae.com/america/mundo/2026/08/16/belgica-combate-su-mayor-incendio-forestal-mientras-las-llamas-amenazan-la-frontera-con-alemania/",
     "CBMi4wFBVV95cUxOMjduN0dZUFVxNTllWnBGN0t3UFJ2VGwycWFrT0xEc2ZBcVFEdXRrakN4Y1hPZVgtS3N2ekxiek5ESjlnWjd3NEZkQ21nX3VyendhX2RpU0pJUllNRHNoRC1Ma052cHljUzRJUW1ZTjFIV1NUcDQxMTVac2QzQjVnNWhRWVdrR2xUM25xVVpMLVVvcGZoaC1fd2p0aG5TWVdVcUtQLVhmUTdibEVfWDBVcGpBNWFSdF80cHljY1RnYXFON1RzOGFkMEZtSzRGVlVEY1Vnb3dTT1NXT1hFTW1mdWFNSQ": "https://sence.gob.cl/personas/noticias/miercoles-19-de-agosto-reclutamiento-laboral-para-sector-forestal-en-plataforma-laboral-del-sence-la-araucania",
     "CBMi6wFBVV95cUxORmlQSV9qNHhveklweTlGM2ItREJTU0tJeGhmZXVUWGZsODQ2WGRMTHA1SmdNMHVKSXZNVHVYOHJYLXIzSjZMYlhwX2MxRUJ5Q1lHNG85anRwMUdCbFFWendWYl9xR2Z0Q1kwQlRadVVTMnBOY3lNaWNxd24tcEZzN2RWd0JGZzVnaktPS3U1MG5JRE9sdkRmVGRPVTdpRmdiei1ETk9vUWpwSU8yZ2VTTm9QSHU5eXJjMkJwblZSUjAxZjVwUjZyMHBQZFFnaFNad0FrNDkzanBxX3FCUFVqTGpPb0FmUkVCMnRF": "https://www.paiscircular.cl/empresa-e-innovacion/certificacion-forestal-puerta-de-entrada-a-consumidores-y-mercados-exigentes-en-materia-de-sostenibilidad/",
@@ -69499,7 +69497,6 @@
     "CBMiiwFBVV95cUxPeERZaTctTkdIc3BKVENsVVJXeVB0a3Q2bklUZ3QtaHFNeGxDRU9FMzB3ZTUzNThYMXNudVJGbGlDbWR3T2RvRkFjU05WWTBpeGJra1NxZW5VdTYtbmYzaEprdUFOODRFV0t0bHNfU2pCZi1qS1NSMjMyd19xNUw5dzBXTklfWm41VGlR": "https://www.sancarlosonline.cl/2026/08/trabajador-forestal-muere-aplastado-por.html",
     "CBMijAFBVV95cUxOT0p6S05MRjdaNEl1LXBoeHR6T253LWk4akoyWnNlRE5wZ0IwcV9rdWVjTzRpcFhoQWdTTmxYazhORUFWMld1b1l3cS1qd3o5RkVXUTFXbXlBejlsLVFGdVVIYkNyYUZvU1dRMWNUQWZFbGRlc3pZRUJ2dUJ6XzU0NUdRcTJwVHJ1TVRfSw": "https://lafontana.cl/2026/08/18/trabajador-muere-arbol-cobquecura-accidente-laboral/",
     "CBMikgJBVV95cUxQUUZiTkVGVmlFbGZjUnA0azRlMTBWSnlPZTQxOUMweWV1aVRJb1kzZFBTbE0tWGF1STk3Xy1HeUltX0o1WjNMZFhwQld4a2pBVzgxcTRsRUNEOWM5OHNySnE2bURBV1FNUUlONFUxTDh5bUR5X1drZ05zM2JySEV3LUoxUU5MUEZfSmN5dzdOOUx1SHppeFkyMHQtMXlnUW5kV0VJRWY2ajk3OEVvX2lMNzNkNm5PSmJFQXF5bzNGSUhfNkVWd2FFS1FYVzlhQUNYT3M2aXpnT01vZjZQMU9qSnNBeXBPT0N1WmZDN1l4YUNwUjU5QUlSbnhFaE5LWEtCUzJObS1QdHhSeXFEZEtvNTlR0gGsAkFVX3lxTE5GU29rYWJmaExRc3lpbHc0MkthdEZkSGdJUlJfbERNS2pBM1ByeC0xRVdZT2xVYzdIQ2piUTZKNnpGQ09jSEk5UWNxdk4yOEdXNkRGUnEyazc0MDRKa3RvTnFuZVBWYXVxQUdsSV9FSDNUT203MFJuYTQ4QVA1VzVNamVPbEY0T2VmLVVTOVJWaW8xUTlmS3RVdHMwM0drVkNPOG1helk0MEcwV2FNQ1RkRjBLNVk2T1FtQWNxUElkeXZVYk82RUpuZDdXRXFXLWFVcmlsU2pZS3ItMWREQnVHcVpTcEhEUWNwN3NCWjFIODZvMXA3ZDRRQm1kc2dTbjZJYWF5RkR2MEJpRFVmRXBVZHhTaWI2Y1hocUs2RE9wX3ZfdHIzUEpPcVYzUA": "https://www.infobae.com/colombia/2026/08/18/responsable-de-grave-incendio-forestal-en-huesca-espana-seria-un-colombiano-fue-enviado-a-prision-provisional-sin-fianza-por-riesgo-de-fuga/",
-    "CBMilgFBVV95cUxNLWI4NFJ1N3hfR0daUmt3a1lYWTJWQlpZZGxSMXRIVzc2NnJfM3d0dzFrd1otM3pLSUlRQXJyeHFmZUtoT2I4bUowREUtNWMyX3EzSkxzd083YUw3VEtCODV2QzJ3XzZHb0Y1SHJLTkxLWEpkU29PYjExM1FsbWVCalFkdG9PdWpFOVF6RUpjZElWQVhfZXc": "https://unlp.edu.ar/investiga/bajolalupa/16-de-agosto-dia-de-la-ingenieria-forestal-129533/",
     "CBMilgFBVV95cUxPSk9pN3praW1ZV3dacVB0WEZkX1hHWi15aUNmZ2Z0QWRMOUNla05rZnpzYnh5QUVZV3AyY1pmLWdvMEpzQ0Z5YWVzY2pHWnk2YTNJTVhDMjNTc2R4dGl2RUxnblA2NFJzU2tWQ3lub3YwS0ZxZjFyT241eFRTdTVoM0s3Z2cxZmhQX1E4dTMxSkJQUGRNZ0E": "https://www.vietnam.vn/es/bi-no-luc-khoanh-vung-dam-chay-rung-lon-nhat-trong-hon-mot-the-ky",
     "CBMilwFBVV95cUxOd0o4dWNwcHE5NWJVNlh2U1M5OGlJOWxNN29JNURYX04yODBwYlViUllNTXNtcnlQeFI5di1WbTBRMmNZRG1qRnNrbi1kamI2c0UzalI5WEh6QkpibV9Fd2l1ajNFaEREYXJFeUpMWXI1M2RGem5xbU5uam9seENORlc5QmltZ21LS3B2QkFIRTFNWkxON0U0": "https://ladiscusion.cl/conaf-necesita-197-brigadistas-para-el-combate-de-incendios-en-nuble/",
     "CBMimAFBVV95cUxPb01iSDA5OHZFTkFjRFR5aTVGS3pPY1ZZWXZvd0tGYjJkRkg0ZnpCdjc3b3JWRE5OalNpWW1uZFVVQWIzRHoxU1N2TFBKV2hZdzhmdzNOQS0xYU82STJhSTlTU1RiRWh1Sl9uY2dCQVlKTkhILWpvTW44bF9pVlJ3Mkh1cEdxR2JDeGZNbTJvMktfSW5tVmNWTw": "https://www.esquire.com/es/actualidad/a73453340/entrevista-bombero-forestal-incendios-espana/",
@@ -69532,7 +69529,8 @@
     "CBMixwFBVV95cUxNV0tYa2d4NS1LeUt1SzROTllpdE9ZaGFsUVNIN1JMa0FnbTBiV24ybERwb3UyNzV6UlMyVW1BdUNybjRvVkJrMDNldkRDeGh6YU42Um1uUEhUNVhlVlcwUWJ0N1pkZUJhbVA0bWtZc25NZnVuT1h6ZkJvNjliYW1mV3F3dW4tOVp2VmNpNzJyakxoWFZTZS1EWGNiOURfLTEyZFlZODJKTnVPNU5VUWVpbE5EWGNZcHJ1c1E0cW8wRi13NDljVXh30gHoAUFVX3lxTFB5bUZpaG8wcjNRR0FOMC00cGZfOGV6NUdXTWt2MHhMWHlmXzdEQ0V2MG4tNXM2MFMtR256aHEtQ0paUnNsQmthaEVtNFpRTUtnd1FZbUloNFdnSkxEeVdweTliQ0liZHBiMm1HR1RDSjcxS05NeGlHNFRhTlEwYU5GUzFZSjBrNW81UjZxa1BsLUM5dnJaS2FCbi13Z2Y0YlZlblFLTDd2Z0UzbDZvSGhTN21DYlpVMmpRVGZLNEpPZDJIUDV1R0VHNkdYbUxLYmE2dGFHbWk4dlJ0M2hQaGhkRlhHamNtRHM": "https://www.latercera.com/pulso/noticia/utilidades-de-cmpc-se-desploman-74-en-el-semestre-pero-ingresos-se-mantuvieron-estables/",
     "CBMixwFBVV95cUxNWEpZbUxKMTVsMlZCaDcxdXNFQ2VDMjhMRzZpeHowMXFIUFkwUWVjbVMtNklsREd5SXBFamdlU0NobVhWRTJKY1VVd01XeGtIUlN3N0F4MEptUkZwLWFMTkFEZEVZSUZTLVh1dXVESE41N3p1RmhTdFR2LTRjMW42bjdyQlFpS2gzc1dIY2FhckJSLW9Mb0U1MWJ2cDFzNUpETXo0bXdrZndlY1h2MlUtSVhkVVh2cFNrX0cyN2lJdVNDNEFOdEk4": "https://radiomagallanes.cl/conaf-inicia-celebracion-de-los-60-anos-del-monumento-natural-los-pinguinos-con-exposicion-artistica/",
     "CBMixwFBVV95cUxPa3VCMGZodUx4MnhMTHhoSGV5QmxNZTRTaEdON2FReUJoYmswTTNjUlRLQllGMTNjZ3lZMUNNNWE0Yjg2U1U5TUp3YlFMY2ZjazgydTlYX3BpZEQwck5hMm50OUpsVER3ZWEzOWZQN3A0YmFyc3c5MXY1cFRrNDA5MkJMMTQ1RndtOC1zUHk1bXFERk1mcFJOeHJIMGdNX2pzQ24tUXBQb3BWRmhKWWlWcF95dlZjZWNjZUZ6ZDlkUklXcDNTVmxr": "https://eltipografo.cl/2026/08/100-anos-de-parques-nacionales-en-chile-conaf-ohiggins-conmemoro-fecha-en-los-cipreses-de-machali",
-    "CBMizAFBVV95cUxOa00xXy1na0tKQlY4SVc2MGJaeEliYnlQbWRFVHAzWTh2dk1XUDh6UUxhLTRSSUNJZkM2SFFqWTRfdHdlTDIyMkJKREwzaDJnMUd5NGNhWWI4RkZsWV9jdXVrcHR5eTQ1SHpacG5XUHA3TWo1bm84cW9KeTQzWFk2UEtNd04tZENwQmRqdGJlQkU3LUdZR1g0OHJPMEViZmNYRERPM2duWld5RUYtdGwxUTRwaUplRHd2VUhPZ0RaWURHT3lnZThpbU5PaWQ": "https://www.diariodeosorno.cl/noticia/actualidad/2026/08/puerto-octay-conmemoro-centenario-del-parque-nacional-vicente-perez-rosales"
+    "CBMizAFBVV95cUxOa00xXy1na0tKQlY4SVc2MGJaeEliYnlQbWRFVHAzWTh2dk1XUDh6UUxhLTRSSUNJZkM2SFFqWTRfdHdlTDIyMkJKREwzaDJnMUd5NGNhWWI4RkZsWV9jdXVrcHR5eTQ1SHpacG5XUHA3TWo1bm84cW9KeTQzWFk2UEtNd04tZENwQmRqdGJlQkU3LUdZR1g0OHJPMEViZmNYRERPM2duWld5RUYtdGwxUTRwaUplRHd2VUhPZ0RaWURHT3lnZThpbU5PaWQ": "https://www.diariodeosorno.cl/noticia/actualidad/2026/08/puerto-octay-conmemoro-centenario-del-parque-nacional-vicente-perez-rosales",
+    "CBMizgFBVV95cUxOZlRiYXpXQThNY0FDclRSMVpkVS0wdWtLNU1nbmNzRjBFd2RDNUliMXdrZnBIN2ZaRDVRUkxGWEI5T3ZxZk9QMkNZNGRMSEFvdEk2bjNiWkZnSVJkOEUzQ2NTdldmbk9wNFU5NU5kd250eHF2U1VGMUpSSTJjak85YXRlMzI5ZUdLV0dzWjhrbExZd3JGejJyUF9oVXBOMjIxSjVEZV81MVRfZUFuRm1JZng1VEpPbnZIVTlEdVpscEIzT3VqSDJKa2p0NUhYQQ": "https://www.elclarin.cl/2026/08/17/parque-nacional-vicente-perez-rosales-conmemoro-100-anos-como-simbolo-de-la-conservacion-en-chile/"
   },
   "sitemapVisto": {
     "meganoticias": [
@@ -69650,11 +69648,12 @@
       "https://www.meganoticias.cl/nacional/529680-corte-de-luz-santiago-martes-17-de-agosto-comunas-santiago-18-08-2026.html",
       "https://www.meganoticias.cl/nacional/529681-trabajadores-aislados-ruta-1-iquique-aluvion-lluvias-testimonio-18-08-2026.html",
       "https://www.meganoticias.cl/nacional/529682-carreras-perros-prohibicion-chile-sanciones-camara-diputados-18-08-2026.html",
+      "https://www.meganoticias.cl/nacional/529683-corte-de-agua-las-condes-el-bosque-macul-hoy-martes-19-09-2026.html",
+      "https://www.meganoticias.cl/nacional/529685-entrevista-completa-angela-vivanco-meganoticias-mega-salir-carcel-19-08-2026.html",
       "https://www.meganoticias.cl/noticieros/529597-noticiero-meganoticias-prime-mega-lunes-17-08-2026.html",
       "https://www.meganoticias.cl/noticieros/529684-noticiero-mega-meganoticias-prime-martes-lluvias-norte-antofagasta-18-08-2026.html",
       "https://www.meganoticias.cl/patrocinados/529628-nissan-marco-el-inicio-de-su-nueva-etapa-en-chile-con-show-de-drones-en-el-parquemet.html",
       "https://www.meganoticias.cl/reportajes/529596-angela-vivanco-personas-corte-suprema-querian-ver-ese-espectaculo-17-08-2026.html",
-      "https://www.meganoticias.cl/tendencias/529512-hayden-panettiere-muere-36-anos-heroes-nashville-malcolm-17-08-2026.html",
       "https://www.meganoticias.cl/tendencias/529523-mensaje-paula-pavic-camilo-huerta-escandalo-instagram-17-08-2026.html",
       "https://www.meganoticias.cl/tendencias/529526-fernando-solabarrieta-detencion-ivette-vergara-160-kmh-costanera-norte-conduccion-temeraria-17-08-2026.html",
       "https://www.meganoticias.cl/tendencias/529530-fernando-godoy-confirma-triste-fallecimiento-a-traves-de-sus-redes-sociales-17-08-2026.html",
@@ -69997,6 +69996,7 @@
       "https://ellibero.cl/aviso-legal/belaunde-rodriguez-extracto-de-notificacion-3/",
       "https://ellibero.cl/aviso-legal/belaunde-rodriguez-extracto-de-notificacion/",
       "https://ellibero.cl/aviso-legal/corporacion-de-apoyo-familiar-citacion-a-asamblea-general-extraordinaria-2/",
+      "https://ellibero.cl/aviso-legal/corporacion-de-apoyo-familiar-citacion-a-asamblea-general-extraordinaria-3/",
       "https://ellibero.cl/aviso-legal/corporacion-de-apoyo-familiar-citacion-a-asamblea-general-extraordinaria/",
       "https://ellibero.cl/aviso-legal/corporacion-de-ex-alumnas-villa-maria-academy-citacion-a-asamblea-general-extraordinaria-3/",
       "https://ellibero.cl/aviso-legal/corporacion-de-ex-alumnas-villa-maria-academy-citacion-a-asamblea-general-extraordinaria-4/",
@@ -70006,6 +70006,7 @@
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bci-14-08-2026-2/",
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bci-14-08-2026/",
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bci-17-08-2026/",
+      "https://ellibero.cl/aviso-legal/pampa-investments-s-a-citacion-a-herederos-o-legatarios/",
       "https://ellibero.cl/aviso-legal/potasios-investments-s-a-citacion-a-herederos-o-legatarios/",
       "https://ellibero.cl/carta/filantropia-en-la-casa-de-allende/",
       "https://ellibero.cl/carta/impulso-necesario/",
@@ -70219,7 +70220,6 @@
       "https://puranoticia.pnt.cl/video/seremi-del-deporte-asegura-que-el-estadio-de-san-antonio-sera-inaugurado"
     ],
     "la-hora": [
-      "https://lahora.cl/cronica/2026/08/12/confirman-muerte-de-nino-chileno-de-6-anos-en-el-terremoto-de-colombia-su-colegio-colapso/",
       "https://lahora.cl/cronica/2026/08/12/confirman-suspension-total-de-clases-para-este-jueves-atacama-y-coquimbo-suman-4-dias-consecutivos-sin-actividad/",
       "https://lahora.cl/cronica/2026/08/12/horoscopo-jueves-13-de-agosto-predicciones-de-yolanda-sultana/",
       "https://lahora.cl/cronica/2026/08/12/impacto-en-la-region-de-aysen-por-repentina-muerte-de-alcalde-durante-la-manana-presidio-concejo-municipal/",
@@ -70268,13 +70268,13 @@
       "https://lahora.cl/cronica/2026/08/18/detalles-escabrosos-sujeto-de-71-anos-decapito-a-otro-de-67-en-talcahuano/",
       "https://lahora.cl/cronica/2026/08/18/estudio-advierte-sobre-el-consumo-frecuente-de-frituras-que-tener-en-cuenta-para-este-18/",
       "https://lahora.cl/cronica/2026/08/18/ex-concejala-hallada-en-el-centro-de-santiago-decidio-volver-a-vivir-en-situacion-de-calle/",
+      "https://lahora.cl/cronica/2026/08/18/horoscopo-miercoles-19-de-agosto-predicciones-de-yolanda-sultana/",
       "https://lahora.cl/cronica/2026/08/18/iquique-sigue-sufriendo-con-las-lluvias-deslizamientos-en-la-zofri-arrasaron-con-camiones/",
       "https://lahora.cl/cronica/2026/08/18/la-florida-se-prepara-para-recibir-a-miles-de-familias-en-una-nueva-version-de-expo-patitas-2026/",
       "https://lahora.cl/cronica/2026/08/18/nuevo-estudio-cadem-ripamonti-es-la-alcaldesa-con-mayor-aprobacion-de-chile/",
       "https://lahora.cl/cronica/2026/08/18/sale-a-la-luz-nuevo-audio-de-camilo-huerta-supuesta-pension-de-90-millones-de-arturo-vidal-a-marite-matus/",
       "https://lahora.cl/cronica/2026/08/18/tiquitiuiti-sepa-cuando-le-depositaran-los-25280-de-aguinaldo-en-estas-fiestas-patrias-2026/",
       "https://lahora.cl/cronica/2026/08/18/videos-terribles-tocopilla-acaba-de-sufrir-aluvion-y-personas-huyen-por-sus-vidas/",
-      "https://lahora.cl/cultura/2026/08/12/malta-oxford-y-nueva-york-son-los-destinos-favoritos-de-los-chilenos-para-aprender-idiomas-en-el-extranjero/",
       "https://lahora.cl/cultura/2026/08/13/bajo-el-cielo-del-norte-y-al-extremo-sur-francisca-valenzuela-suma-tres-fechas-nuevas-a-su-maldita-tour/",
       "https://lahora.cl/cultura/2026/08/13/campeones-mundiales-de-baile-celta-sorprenden-con-show-popular/",
       "https://lahora.cl/cultura/2026/08/13/david-cross-regresa-a-chile-con-su-banda-para-revivir-los-clasicos-de-king-crimson/",
@@ -70451,6 +70451,7 @@
       "https://lahora.cl/entretencion/2026/08/18/si-no-fiera-por-el-rafa-araneda-ella-no-existe-daniella-campos-lapido-el-regreso-de-marcela-vacarezza-a-la-tv/",
       "https://lahora.cl/entretencion/2026/08/18/soy-alergico-a-la-callampa-gonzalo-caceres-sorprendio-con-intima-confesion-en-plena-entrevista/",
       "https://lahora.cl/entretencion/2026/08/18/vale-roth-revelo-el-nombre-de-su-bebe-eleccion-paso-por-una-de-sus-hijas/",
+      "https://lahora.cl/entretencion/2026/08/19/marcela-vacarezza-respondio-a-las-duras-criticas-de-daniella-campos-yo-me-quedo-con/",
       "https://lahora.cl/estilo-de-vida/2026/08/13/el-nuevo-estandar-regulatorio-y-el-rol-del-compliance-en-la-gestion-corporativa/",
       "https://lahora.cl/estilo-de-vida/2026/08/13/tu-casa-termina-desordenada-cada-semana-prueba-la-rutina-sunday-reset/",
       "https://lahora.cl/estilo-de-vida/2026/08/14/josefa-ramirez-publica-entiende-a-tu-gathijo-la-guia-definitiva-para-comprender-el-mundo-emocional-de-los-felinos/",
