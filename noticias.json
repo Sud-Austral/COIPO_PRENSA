@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-08-19T07:55:57.378Z",
+  "generadoEn": "2026-08-19T08:56:38.725Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -39,6 +39,77 @@
     }
   ],
   "noticias": [
+    {
+      "id": "https://www.infobae.com/espana/2026/08/19/el-incendio-forestal-del-pinofranqueado-caceres-crea-su-propia-meteorologia-con-nubes-de-tormenta-y-rayos-que-no-se-habrian-formado-sin-el-fuego",
+      "url": "https://www.infobae.com/espana/2026/08/19/el-incendio-forestal-del-pinofranqueado-caceres-crea-su-propia-meteorologia-con-nubes-de-tormenta-y-rayos-que-no-se-habrian-formado-sin-el-fuego/",
+      "medioId": "infobae.com",
+      "medioNombre": "Infobae",
+      "seccionId": "internacional",
+      "titular": "El incendio forestal del Pinofranqueado (Cáceres) crea su propia meteorología con nubes de tormenta y rayos que no se habrían formado sin el fuego",
+      "fecha": "2026-08-19T08:16:17.000Z",
+      "fechaDeteccion": "2026-08-19T08:56:38.725Z",
+      "extracto": [
+        {
+          "texto": "El incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " del Pinofranqueado (Cáceres) crea su propia meteorología con nubes de tormenta y rayos que no se habrían formado sin el fuego",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.infobae.com/resizer/v2/GJGABOGQMVH6TLDYKHKZ7CM5FY.jpeg?auth=45d67fd10db6fa50d7a427db63c4c6fcd6e39ec028949a3d38f74e100f22fcba&smart=true&width=1200&height=630&quality=85",
+      "autor": null,
+      "fechaReal": "2026-08-19T07:59:29.554Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.52,
+        "score": -14,
+        "keywords": [
+          "incendio",
+          "fuego",
+          "publicidad",
+          "hurdes",
+          "junta",
+          "pinofranqueado",
+          "caceres",
+          "2026",
+          "incendios",
+          "aemet"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "normativa-legislativo",
+          "comunidades-territorio"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "DOP",
+          "EFE",
+          "EST",
+          "IGP",
+          "agencia",
+          "bomberos"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 798,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 4
+      }
+    },
     {
       "id": "https://cadenaser.com/comunitat-valenciana/2026/08/19/los-bomberos-dan-por-controlado-el-incendio-forestal-de-beniarda-radio-benidorm",
       "url": "https://cadenaser.com/comunitat-valenciana/2026/08/19/los-bomberos-dan-por-controlado-el-incendio-forestal-de-beniarda-radio-benidorm/",
@@ -104,6 +175,79 @@
         "tipo": "emergencia",
         "ambito": "internacional",
         "cantidadPalabras": 555,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 3
+      }
+    },
+    {
+      "id": "https://www.europapress.es/murcia/noticia-nivel-riesgo-incendio-forestal-miercoles-extremo-altiplano-guadalentin-20260819090712.html",
+      "url": "https://www.europapress.es/murcia/noticia-nivel-riesgo-incendio-forestal-miercoles-extremo-altiplano-guadalentin-20260819090712.html",
+      "medioId": "europapress.es",
+      "medioNombre": "Europa Press",
+      "seccionId": "internacional",
+      "titular": "El nivel de riesgo de incendio forestal este miércoles es extremo en la Altiplano y Guadalentín",
+      "fecha": "2026-08-19T07:07:12.000Z",
+      "fechaDeteccion": "2026-08-19T08:56:38.725Z",
+      "extracto": [
+        {
+          "texto": "El nivel de riesgo de incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " este miércoles es extremo en la Altiplano y Guadalentín",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20260819090712_1200.jpg",
+      "autor": null,
+      "fechaReal": "2026-08-19T07:07:12.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.54,
+        "score": -21,
+        "keywords": [
+          "incendio",
+          "forestal",
+          "europa",
+          "murcia",
+          "riesgo",
+          "press",
+          "nivel",
+          "miercoles",
+          "extremo",
+          "granada"
+        ],
+        "categorias": [
+          "incendios-forestales"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "AEMET",
+          "AI",
+          "EUROPA",
+          "IA",
+          "MURCIA",
+          "TDAH",
+          "TEA",
+          "agencia"
+        ],
+        "lugares": [],
+        "regiones": [
+          "metropolitana"
+        ],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "regional",
+        "cantidadPalabras": 520,
         "cantidadParrafos": 1,
         "tiempoLectura": 3
       }
@@ -69279,145 +69423,6 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 3
       }
-    },
-    {
-      "id": "https://www.lavanguardia.com/local/catalunya/20260803/11606338/veinte-anos-fuegos-emporda-bosque-sigue-sucio.html",
-      "url": "https://www.lavanguardia.com/local/catalunya/20260803/11606338/veinte-anos-fuegos-emporda-bosque-sigue-sucio.html",
-      "medioId": "lavanguardia.com",
-      "medioNombre": "La Vanguardia",
-      "seccionId": "otros",
-      "titular": "La gestión forestal, la gran asignatura pendiente veinte años después de los fuegos del Empordà",
-      "fecha": "2026-08-03T10:23:10.000Z",
-      "fechaDeteccion": "2026-08-03T11:46:51.330Z",
-      "extracto": [
-        {
-          "texto": "La gestión ",
-          "resaltado": false
-        },
-        {
-          "texto": "forestal",
-          "resaltado": true
-        },
-        {
-          "texto": ", la gran asignatura pendiente veinte años después de los fuegos del Empordà",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/08/02/6a6f823daa28b.r_d.1233-829-4870.jpeg",
-      "autor": null,
-      "fechaReal": "2026-08-03T04:00:00.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "negativa",
-        "polaridad": -0.67,
-        "score": -12,
-        "keywords": [
-          "hectareas",
-          "forestal",
-          "fuego",
-          "quemo",
-          "emporda",
-          "catalunya",
-          "incendio",
-          "tenemos",
-          "gestion",
-          "gran"
-        ],
-        "categorias": [
-          "incendios-forestales",
-          "prevención",
-          "manejo-bosques"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "AP",
-          "ARXIU",
-          "BETE",
-          "II",
-          "MEDIA",
-          "NORD",
-          "SUSCR",
-          "voluntarios"
-        ],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "alto",
-        "prioridad": 1,
-        "importancia": 90,
-        "tipo": "emergencia",
-        "ambito": "internacional",
-        "cantidadPalabras": 878,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 4
-      }
-    },
-    {
-      "id": "https://www.noticiasnqn.com.ar/noticias/2026/08/03/346183-impactante-registraron-el-congelamiento-del-lago-frias-en-el-parque-nacional-nahuel-huapi",
-      "url": "https://www.noticiasnqn.com.ar/noticias/2026/08/03/346183-impactante-registraron-el-congelamiento-del-lago-frias-en-el-parque-nacional-nahuel-huapi",
-      "medioId": "noticiasnqn.com.ar",
-      "medioNombre": "NoticiasNQN",
-      "seccionId": "internacional",
-      "titular": "Impactante: registraron el congelamiento del lago Frías en el Parque Nacional Nahuel Huapi",
-      "fecha": "2026-08-03T10:21:12.000Z",
-      "fechaDeteccion": "2026-08-03T13:30:34.735Z",
-      "extracto": [
-        {
-          "texto": "Impactante: registraron el congelamiento del lago Frías en el ",
-          "resaltado": false
-        },
-        {
-          "texto": "Parque Nacional",
-          "resaltado": true
-        },
-        {
-          "texto": " Nahuel Huapi",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://noticiasnqn-s3.cdn.net.ar/s3i233/2026/08/noticiasnqn/images/02/70/85/2708576_6c61cc58fa2034dc9667ab19fb91a087e06015c0688508d35fc02b0434cb7ce9/lg.webp?_v=v3-245",
-      "autor": "Corresponsal Bariloche",
-      "fechaReal": "2026-08-03T10:03:18.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "negativa",
-        "polaridad": -0.67,
-        "score": -2,
-        "keywords": [
-          "oacute",
-          "lago",
-          "aacute",
-          "iacute",
-          "eacute",
-          "natural",
-          "parque",
-          "nacional",
-          "nahuel",
-          "huapi"
-        ],
-        "categorias": [
-          "parques-asp",
-          "incendios-forestales"
-        ],
-        "personas": [],
-        "organizaciones": [],
-        "lugares": [
-          "Parque Nacional Nahuel Huapi",
-          "Parque Nacional Nahuel Huapi Navegantes"
-        ],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "alto",
-        "prioridad": 1,
-        "importancia": 90,
-        "tipo": "emergencia",
-        "ambito": "internacional",
-        "cantidadPalabras": 343,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 2
-      }
     }
   ],
   "resolucionesGoogle": {
@@ -69441,7 +69446,6 @@
     "CBMi9wFBVV95cUxORHc1T25oYld4TC0xaWdKeUEtdGZoRXYxek00SjJGYkNoLWZLZm1seGJ5YjRSaVY5TmdGWGRuOGNOSkdMMFV2Yk9lRWxfTnJYTEF6TWhvR3pPSy1GVFppTUFuMFJyZHZXUUtURFZlM1YxLWlBOEFWS0tRWVdaTU9BMXFpQVlramV4Z1Rpb0kxR2h0Wnl1WnIzZDF0UUItS1U3bEY3Mm9ZS3l3QWhVYkVLWERRYUhTZ09udjk3Q0ZQNHdqRFE3QjFYSklhdjhRcWhQN09XbF9UNUpEbWtOempfY2R2UXR3eW94QlVFQ2Q1RFBVUDgzOWZv": "https://www.cooperativaciencia.cl/radiociencia/2026/08/17/100-anos-del-parque-nacional-vicente-perez-rosales-el-desafio-de-fortalecer-las-areas-protegidas-en-chile/",
     "CBMi9wFBVV95cUxQbXB3YjEtTHZrM3FIWXdWcDRmbDl0WW1DOERuQkUzZk8xV1NUS3hMckJCX2J3MW5JZzRtZFJZNEhBaC1na2UzaTYtdUNkRWJFWHNYOGVobmQ0LW5VZjlKMVgtZ3R5WHZzbDNwYVBMcDlhejRKRWduMlprWW9DZklQSUg0Q3pKRzJoa1J5d29sVE9ZRnM2VGdKVDJRMWtVblUzN1BmOHdOb3poY21taWFkWkU0Y01ZRUgxM1ROSVl6dHVWenptNmRxWnJId0hvMHlCdWlzd3lLei1meDlFeXo0ZDNPM3RmNHdlN1RXTExaNWVpOE5wOE1v": "https://mma.gob.cl/seremi-del-medio-ambiente-nuble-conaf-y-sbap-abordan-avances-ambientales-y-fortalecimiento-de-la-gestion-de-la-reserva-los-huemules-del-niblinto/",
     "CBMiY0FVX3lxTFBGWDFLOEN0N3kwUE5CWFpTek1KeTFmYmJ0UnJ6NnJZODkyMkRLM0gzclBhM3NoRDlidEJFM1RhTVExVUtCUXNHUzl1LXE4ZGZuVjNhZFA3b2tEcTIyajFES0E4bw": "https://www.saladeprensa.cl/tema/brigadista-forestal/",
-    "CBMi_AFBVV95cUxNaFBEeE90UVFiZ3BQNk05V1pWTUgxQ0lnMWthekRPTnQzSnVJLWlKUWxCekVrQTJ4aktEcFRWT3ZLVDRmM1YxbmFKMmxQelFSYkx3cXB2M01uX3NTdTN5cEhoZ2lHT0dHbkFQWk02NGhtNkJNNGVMUHRmSnlsSVg5eXBTczFDR0FMQXJWWmhzcnJoQlZJMERtSzJiZE1zR3NqWW9xaldWaXR6TlNodS1mbnNtZGJTRnAySmFQUkl5RkRGUlBILWw4VFFzODJMZW8zY3dwZHRMWVc4OUluSzlHVlY4T1JVQkxLVDAxNDlKSW1XdVhUSnJ6UEEzOHDSAYQCQVVfeXFMUFFGZkh2b19KUmRlX1N4bm9pS1pIUlJXQThMc1lnbEJLdDV3VUVNV0UwbmVSeVlrLU5sWVAtSTBaUEd5dl9mLWdNak50cHpROHF3UDdwR0JReEk4NWdFd2dtbFdyOXB2bFI5c2E3TEhNclZBVEswelpFTTEwcWxuYngzNzhhckhpTzFmRlFtaXByYjJXTlo0RTRmX2lVcWJTbUU1ZzJsR3p0NGlYSTloUDVsVEFDTUE0MGdLNXR0RnlHel9xTTN4eU5LWWVXMi0zdGFhVGM4ZWF2anZyUnFnSGhSWjM5YzBCOEpVZ09CcGRQT3dITkJMd0x3UHlueFk3MEFyUW0": "https://www.latribuna.cl/cronica-ciudadana/2026/08/18/gobierno-decreta-estado-de-excepcion-de-catastrofe-en-la-provincia-de-tocopilla-por-afectaciones-del-temporal.html",
     "CBMi_AFBVV95cUxQT2RXV1NQWjVPQXNkdlhtRTM3Zkx0a3JvRWotSGRncHhqNmptb1phREJ2NnJqZ2pScnBtQjJ5Uk5uS0tRYkRVM1BpSEV3VjhlZzV3S1ZkVHdxR1FYZk9PZlFhNW1fUUVQLTN3VE84ODhVSXRtVzRXaXpyX0FPQ0lUUGY4eFZSdTJnREpTTXZYNV91cnJUREQ0ODdqVjY5S2xkaXFra3l3eVlpUjhMdlhLTTU4NGsyQU10ZTVrZVZoQ3Q3dEhHVkRQaDh4b0tmZVplendZNmJ2MXdsR3lSbEZpLWozdm5wRHNOQURzeE0ybVVWZVNIZ1lLNU1xYWE": "https://www.archdaily.com/pt/1117080/por-que-o-parque-forestal-de-santiago-do-chile-e-importante/5b32c326f197cc6734000373-why-is-santiagos-forestal-park-important-image",
     "CBMi_wFBVV95cUxNSUhnWDg2U1ZSMnZJY0gxclFUQ2ViWkV5UHhmZFhkbTlXUTZxSTd1aXZMMmhCcXgteXpDSXJQZVhFT3hDbGhRdFV2bVhXeDFMblFOQjdsdU1YZ2VRYnJsU0x0cG5wam5NY0gtSmg3eU4zZDZSOGJGX3dIb2dKYmZkX2J1Ml94WkpiQ0NxWUMyc29wdVFRdkpCSTRMU3daU09hQTJJUmxtN1R3RTFZTDZGVDhRbkdXUHZMRUozWmpjdFpXRnlHLW5adnVYSzRHdlpqR25DZFJ2ZDd6eHBKRmhQY19xdjZhaG1FeGd5bGs3Q0ZjSGZLbnZYRXJtcVYxZUXSAaACQVVfeXFMTlVYVGFtNjNmSDlScWVCVGc4UXNCeEQxdS1vVGlSSTdYeWRENkF2ZXN1WW1feDBCQ3k1SXBzbUJzc2JmU0diN2l1cDJRU3hQSnltUE95NF9LenpQUDJaeXQ0d2xSbUpDTlptd2dwUHZDZnJJUU03cXZ1MjNCN3hocENGa2dzak5yTExJZlp4M3pNTkdXZ3FBaGZTd0VaczdQTGRSYjZBZmNHSnRENVV2ZE9PUk94eXVINmVFYUpuTWtJWlF5QW02b2N1cjVkR18xQmZrVHpKN0RVNXE3QmtIX1VpTXIzbkZHLVFXVWg5VzhNbGN6S3VPUXFOd3lkWlVLS21Oc0E4YVl0Sm1IUDdBOGw5enF0bGU5VF92OUJsNGxC": "https://www.latercera.com/nacional/noticia/parque-vicente-perez-rosales-cumple-100-anos-en-medio-del-traspaso-de-areas-protegidas-de-conaf-a-ministerio-de-medio-ambiente/",
     "CBMickFVX3lxTE41Z0RIaFdzeUZ0bGt0SXMzbE1rQ2J6c25ULVdSZ1Q3WTE3QmFYVS0tNFhVVXhGZ2JOZFRmUDVXbUU2SGNWdEJwQ2doeDZYaWpFQzFmdUxXVUNNNHdva0pJUXgyTDNTb0E0d0dCVHJzVXhBQQ": "https://www.vietnam.vn/es/mo-rong-quy-mo-vuon-quoc-gia-konkakinh",
@@ -69456,6 +69460,7 @@
     "CBMikgJBVV95cUxQUUZiTkVGVmlFbGZjUnA0azRlMTBWSnlPZTQxOUMweWV1aVRJb1kzZFBTbE0tWGF1STk3Xy1HeUltX0o1WjNMZFhwQld4a2pBVzgxcTRsRUNEOWM5OHNySnE2bURBV1FNUUlONFUxTDh5bUR5X1drZ05zM2JySEV3LUoxUU5MUEZfSmN5dzdOOUx1SHppeFkyMHQtMXlnUW5kV0VJRWY2ajk3OEVvX2lMNzNkNm5PSmJFQXF5bzNGSUhfNkVWd2FFS1FYVzlhQUNYT3M2aXpnT01vZjZQMU9qSnNBeXBPT0N1WmZDN1l4YUNwUjU5QUlSbnhFaE5LWEtCUzJObS1QdHhSeXFEZEtvNTlR0gGsAkFVX3lxTE5GU29rYWJmaExRc3lpbHc0MkthdEZkSGdJUlJfbERNS2pBM1ByeC0xRVdZT2xVYzdIQ2piUTZKNnpGQ09jSEk5UWNxdk4yOEdXNkRGUnEyazc0MDRKa3RvTnFuZVBWYXVxQUdsSV9FSDNUT203MFJuYTQ4QVA1VzVNamVPbEY0T2VmLVVTOVJWaW8xUTlmS3RVdHMwM0drVkNPOG1helk0MEcwV2FNQ1RkRjBLNVk2T1FtQWNxUElkeXZVYk82RUpuZDdXRXFXLWFVcmlsU2pZS3ItMWREQnVHcVpTcEhEUWNwN3NCWjFIODZvMXA3ZDRRQm1kc2dTbjZJYWF5RkR2MEJpRFVmRXBVZHhTaWI2Y1hocUs2RE9wX3ZfdHIzUEpPcVYzUA": "https://www.infobae.com/colombia/2026/08/18/responsable-de-grave-incendio-forestal-en-huesca-espana-seria-un-colombiano-fue-enviado-a-prision-provisional-sin-fianza-por-riesgo-de-fuga/",
     "CBMilgFBVV95cUxNLWI4NFJ1N3hfR0daUmt3a1lYWTJWQlpZZGxSMXRIVzc2NnJfM3d0dzFrd1otM3pLSUlRQXJyeHFmZUtoT2I4bUowREUtNWMyX3EzSkxzd083YUw3VEtCODV2QzJ3XzZHb0Y1SHJLTkxLWEpkU29PYjExM1FsbWVCalFkdG9PdWpFOVF6RUpjZElWQVhfZXc": "https://unlp.edu.ar/investiga/bajolalupa/16-de-agosto-dia-de-la-ingenieria-forestal-129533/",
     "CBMilgFBVV95cUxPSk9pN3praW1ZV3dacVB0WEZkX1hHWi15aUNmZ2Z0QWRMOUNla05rZnpzYnh5QUVZV3AyY1pmLWdvMEpzQ0Z5YWVzY2pHWnk2YTNJTVhDMjNTc2R4dGl2RUxnblA2NFJzU2tWQ3lub3YwS0ZxZjFyT241eFRTdTVoM0s3Z2cxZmhQX1E4dTMxSkJQUGRNZ0E": "https://www.vietnam.vn/es/bi-no-luc-khoanh-vung-dam-chay-rung-lon-nhat-trong-hon-mot-the-ky",
+    "CBMilgJBVV95cUxOUmlacUN0X1VKNFZkM05YUXoxWURWd0tYY1c1S21RdFE1bXRieS1PdXpkYnA5ZWE1bWJOeFBZdlNHVnZCeGRnWGxtZTlZX2VUdG9NUnBIZ29ZM2s0VDlEZHBRT09jaXlncmR2RkdHTWJNamtKLWtReXJLS3JVcFVJWW01Qk45d1Z0VnpiVXlDVHhOUzhOemN3Rl9TbFF1dk5oMmRyclZfX2E4YVkyRG9RNEdkamhIZ2hpZ290NVRVRWlSOW1oZnlwNEdsN0lvbnMxMmdyVFBVaGtvQkFUN3h0U2E1cWFpZUV1bXhSczQyY3F1QkpCb1JTQWNCbUpERWtrRU5Ea2ZKUVJsQXBKQjFwQ1VYMnY5d9IBsAJBVV95cUxOZDVoMTJnaXI4V2xTOUJfdlVfQ2lPeEM3Tmt1WEJuSFpxUlF3bGlYRDROdXV3NEdhZElLWWE2ODlnZUR4ZXJxekRiN1Z1RWdFSHVwNF82X2dWV3N4ckhQaUkyYzRQRXlCMEtaYlYyNnotemZFbElWY29jbWlqUmM3QkxpRDBiUUs3Mk15YTlXVVNMNDNmamUtOEF2Y0NmcUJ5N1VlZ1U0Yi1zTFNSOTFuMmxOWEhlWXA0Z25fOFE5YkRwbjZEUVlVT05KcGxMVENIc1V0X3lzSHdRTnZqZ2ktNGlhMHJWMi0tM2RROVpNcGJOcUFsd2N3b0lLWXJYaEowaG0zVkR0NFIzU0JWVEVhd3h1YzlUOXpPVi1IYXp6cm1BQkducXYxLUlVQ2VJWkxt": "https://www.infobae.com/espana/2026/08/19/el-incendio-forestal-del-pinofranqueado-caceres-crea-su-propia-meteorologia-con-nubes-de-tormenta-y-rayos-que-no-se-habrian-formado-sin-el-fuego/",
     "CBMilwFBVV95cUxOd0o4dWNwcHE5NWJVNlh2U1M5OGlJOWxNN29JNURYX04yODBwYlViUllNTXNtcnlQeFI5di1WbTBRMmNZRG1qRnNrbi1kamI2c0UzalI5WEh6QkpibV9Fd2l1ajNFaEREYXJFeUpMWXI1M2RGem5xbU5uam9seENORlc5QmltZ21LS3B2QkFIRTFNWkxON0U0": "https://ladiscusion.cl/conaf-necesita-197-brigadistas-para-el-combate-de-incendios-en-nuble/",
     "CBMimAFBVV95cUxPb01iSDA5OHZFTkFjRFR5aTVGS3pPY1ZZWXZvd0tGYjJkRkg0ZnpCdjc3b3JWRE5OalNpWW1uZFVVQWIzRHoxU1N2TFBKV2hZdzhmdzNOQS0xYU82STJhSTlTU1RiRWh1Sl9uY2dCQVlKTkhILWpvTW44bF9pVlJ3Mkh1cEdxR2JDeGZNbTJvMktfSW5tVmNWTw": "https://www.esquire.com/es/actualidad/a73453340/entrevista-bombero-forestal-incendios-espana/",
     "CBMingFBVV95cUxPWEFiOVNBTUtfTjV1ZlM1UVFNVFI2bF96OXpiUzB1ZzNwWFJHYk84UUV5ZUw2SnpSRVdyT2RKY0QyTUZIVkI4LVE5RUhSbUpUdUFCOWV4d0x5MTd1YXBIanNvUmQ4NHFVZFEtdnloZTlPTGhqS3REMDQzOFdRcG5FaHM0MHpXR3VJbWpCZnZSdTdrOVBXNXRydl9BSFgwQQ": "https://austerra.org/articulos/theodore-roosevelt-parque-nacional-vicente-perez-rosales-100-anos/",
@@ -69492,9 +69497,9 @@
     "CBMiyAFBVV95cUxNTERBNjE1Sm9ZaDc0MWVZanRZdzljSGMxbUp4VTlPQVNLLTNOaEhYc0JmZDh1RFpWZGRYNS1PTlhiS0NQQW9GN2hXLWpxanh2Z194ZmpEcGlVSjZ2b2htWDJQR1h2THhxZHExWTlQbUNoYXlNRHNkOGFhR1pkcG02SVFkV3dRTWcwbTNlT010bFprVTRweUoxbGIxc09ic2JtWi15WXk3ZTFSbm53Y3h5VVJYRjROSVFVT0hKMlhBd1dHZFhpcEh6UNIB3AFBVV95cUxNWHl4eC1uOVJyZGkzSHVWYjA0Um5BQVJuZlM5SlJ5emNtTXZrSDdITDRlSDdnN2VMNkZnWm9qbFFpQzVjZmtITWxWOHBpTUZCRzliRmg3M21WTldzbGJmdzVGV2J1VEMxenVYeEc2UER0TXVKSzVCM2ppbURvRGVuZVlOV0plRDQtR0Rmamx1VG5idTZFb0QtRncwZUNkNWFiLVVMV0MwaVRvYnRsUFJnSXdOOWFuSnB2OGdkemhkNm5pZE9wdFJnc0YxRVg5X05KakhMTTNmUnRzQjdB": "https://elpais.com/chile/2026-07-30/serenata-afuera-de-su-hotel-y-un-paseo-por-el-parque-forestal-asi-paso-rosalia-por-chile.html",
     "CBMiygFBVV95cUxQX0U1MktpZDFXd081X2MxUWdGb29NQmZ2ZDRHVnRnX1JlSVBSaE9WS3YtZjdjNEhHd0kzTHo1Ui1VMzlmWUxpWDdaUlNyVmpRcU1vblVqVWZwYjh5ektjM2ZNYVlQbG9KaW95Rzl2ZmYyVVFBMmJlaE9CWFAyVG4zSDFEWkd5bDRVTHBDclpIeVNfTHFHbjdDLUJkQmRRM2I4U1lMWFJ1WW15aXZQOXNyTmxMbEZ4U2VkNlM4M3RzRXlrbEJNVGdRUWpR0gHkAUFVX3lxTE1INTVyZDhLenpyYmR0aGt5TVl6VmFTSmxMam1KWEZnLXFOODhBRl93bW82bTU2MFFvNXA4LXp6MHJjUmJxbklnVFlHcGN4cE5tVHRhUExVSXlscFB2SFdfRlEwc3QyWVB1M2pibmlmV2QyU2laVVlmUkEtRDV1NDVnekRERnR0TjQwZVVtajJ0VUtxbWZxTThaMXo2Z0hYMnRhOTk3cHJhYWY0NjZseDFsam83dkhXaFkxV25xaUtmbTdGN3V3ZzIwd1RnZWd1UEJGYWp3c2RoWTFmZl9ZZG9UTFNZTA": "https://www.infobae.com/america/agencias/2026/08/18/activado-el-nivel-2-de-peligrosidad-en-el-incendio-forestal-en-pinofranqueado/",
     "CBMizAFBVV95cUxOa00xXy1na0tKQlY4SVc2MGJaeEliYnlQbWRFVHAzWTh2dk1XUDh6UUxhLTRSSUNJZkM2SFFqWTRfdHdlTDIyMkJKREwzaDJnMUd5NGNhWWI4RkZsWV9jdXVrcHR5eTQ1SHpacG5XUHA3TWo1bm84cW9KeTQzWFk2UEtNd04tZENwQmRqdGJlQkU3LUdZR1g0OHJPMEViZmNYRERPM2duWld5RUYtdGwxUTRwaUplRHd2VUhPZ0RaWURHT3lnZThpbU5PaWQ": "https://www.diariodeosorno.cl/noticia/actualidad/2026/08/puerto-octay-conmemoro-centenario-del-parque-nacional-vicente-perez-rosales",
-    "CBMizgFBVV95cUxOZlRiYXpXQThNY0FDclRSMVpkVS0wdWtLNU1nbmNzRjBFd2RDNUliMXdrZnBIN2ZaRDVRUkxGWEI5T3ZxZk9QMkNZNGRMSEFvdEk2bjNiWkZnSVJkOEUzQ2NTdldmbk9wNFU5NU5kd250eHF2U1VGMUpSSTJjak85YXRlMzI5ZUdLV0dzWjhrbExZd3JGejJyUF9oVXBOMjIxSjVEZV81MVRfZUFuRm1JZng1VEpPbnZIVTlEdVpscEIzT3VqSDJKa2p0NUhYQQ": "https://www.elclarin.cl/2026/08/17/parque-nacional-vicente-perez-rosales-conmemoro-100-anos-como-simbolo-de-la-conservacion-en-chile/",
-    "CBMizwFBVV95cUxNZ0JZTGpQNlc3bzNNS0pvZFBaVHFLWWhTX0FZMThKWUdraHpjQkN6MEluWEpMei1aakpHY3EyNDRrZ3pTMnppTXRlR1BEbmNaMC1nNDctVUtXSFpyNlVGT3lVRW83R1MzWDBueUNkNkF1LW1fNW5GVl84Qmd3YnlRekFMNVFkVER5Z3BGWklaNE5Ic2lBa1h1d1E3d3pLX3I3UlpPMDdJY29xYTR4a1pnLTFreFM0TXI3akZybHpwUWFfWnpEakZaMWxHSUhJTnPSAeMBQVVfeXFMT3N1UEdXNzFzYXE4ajVDSF9zRndNY0VXaGVHQ2hJVEdmSnZzRmdjdExrdmtuc25ZRWdIeHlKNUp0U3hsenFXdDZjY1YwOVNDbFFoWFZLVTIydlg4anBtcWEtNXlpVjBjanp2Rncwcjd1dEJPVjRPckFDMjZUV1pDR1NBTF93bThQcFJkbkVCRHU3ZWJWdjBXTEtwakowOVFqaEFyN3dNNUVRaG8zcGRiR0pMblpLSHMyYmdIWnRpaXBHVXMzVU1ySFljLVFURVI3WUxwLW4tWTJidi0wR3phRzZIREE": "https://cadenaser.com/comunitat-valenciana/2026/08/19/los-bomberos-dan-por-controlado-el-incendio-forestal-de-beniarda-radio-benidorm/",
-    "CBMizwFBVV95cUxORUYwbHA4dVQtTTRXZmk0UUcxOWVUemhQZFNyeGcxOWVwZVR1UEFrdUVWbFE1UGxFUllPMUF0M2dpSTYwREVNSDRvNG9aZlJNZWxISjJfYXN2Z3c0Ym5DSWo1U1FLVmI5bHRFaEZBU2hnSTdZbDVXQVEwako4WUZFMVpJdVVZME1uNUpJY1laWXVOQVdCUU1LdDg2T0V1MHJVRy1HMTAzQkthaGJOV2JDUWtqNkU0ZnpSRFU4ZkJ1WWppRV9YWFJ1RXl1aHJzZ1E": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/agosto/la-superficie-forestal-afectada-por-incendios-se-situa-en-254-73.html"
+    "CBMizAFBVV95cUxPd2JJMGNFbVVCcm5wWVFpMnE5M1hXTlprSTgyUUM0RFhWd3BtNUZNZFVXRXRfd1FTZndBSURJQ2ZqenBEbk1ZMWVRTEhWLW9SZERjS2ZCaWhidHBSQ05LcEpzRTNkdW9ZclJ1U0VodU40QzJQdFJvV3pUVWNuZmZvcV9sdVd2RldvTDZXOGFMTlJ3cUlCcENRWHY1TC16MWlCZ0NRWTFweDk3UkxUcy1qeHFVUmpBMWFNMmVkbGxETk9hRXlLVmszMDdBT1U": "https://www.europapress.es/murcia/noticia-nivel-riesgo-incendio-forestal-miercoles-extremo-altiplano-guadalentin-20260819090712.html",
+    "CBMizgFBVV95cUxOMm5aRTdkUVpKOW5ONFk5MmdYYjZVQTVKTkZYWnlULUstMGRUMExqRXVBM0xWSW05d0ZSREFmYXBFa3QxbWtsb0t5YlNaaFh6LTRVNURpQ2Y0VlcycloxOTY5Q0lRampuak1JclVyRmxUZTJja1JJbkpzdVotRlJYT3VOd2p1Y3pUSnczcUJpVEpldEdFNmJWbXJldE1ZakRJNno2Z0tfOHNQQzk2TXlEX0ZDSTJidW1ybmhWZmRsVjBiV19kZkN3RjYxd0VPdw": "https://g5noticias.cl/2026/08/18/conaf-y-labocar-refuerzan-trabajo-tecnico-para-enfrentar-temporada-de-incendios-forestales-en-nuble/",
+    "CBMizwFBVV95cUxNZ0JZTGpQNlc3bzNNS0pvZFBaVHFLWWhTX0FZMThKWUdraHpjQkN6MEluWEpMei1aakpHY3EyNDRrZ3pTMnppTXRlR1BEbmNaMC1nNDctVUtXSFpyNlVGT3lVRW83R1MzWDBueUNkNkF1LW1fNW5GVl84Qmd3YnlRekFMNVFkVER5Z3BGWklaNE5Ic2lBa1h1d1E3d3pLX3I3UlpPMDdJY29xYTR4a1pnLTFreFM0TXI3akZybHpwUWFfWnpEakZaMWxHSUhJTnPSAeMBQVVfeXFMT3N1UEdXNzFzYXE4ajVDSF9zRndNY0VXaGVHQ2hJVEdmSnZzRmdjdExrdmtuc25ZRWdIeHlKNUp0U3hsenFXdDZjY1YwOVNDbFFoWFZLVTIydlg4anBtcWEtNXlpVjBjanp2Rncwcjd1dEJPVjRPckFDMjZUV1pDR1NBTF93bThQcFJkbkVCRHU3ZWJWdjBXTEtwakowOVFqaEFyN3dNNUVRaG8zcGRiR0pMblpLSHMyYmdIWnRpaXBHVXMzVU1ySFljLVFURVI3WUxwLW4tWTJidi0wR3phRzZIREE": "https://cadenaser.com/comunitat-valenciana/2026/08/19/los-bomberos-dan-por-controlado-el-incendio-forestal-de-beniarda-radio-benidorm/"
   },
   "sitemapVisto": {
     "meganoticias": [
@@ -69525,7 +69530,6 @@
       "https://www.meganoticias.cl/mundo/529649-dt-egipto-hossam-hassan-desmayo-pelea-dos-esposas-18-08-2026.html",
       "https://www.meganoticias.cl/mundo/529657-ex-asesor-milei-fernando-cerimedo-detenido-bolivia-ataque-expareja-nadia-beller-18-08-2026.html",
       "https://www.meganoticias.cl/nacional/528883-temblor-mina-collahuasi-pica-tarapaca-hoy-miercoles-sismologia-19-08-2026.html",
-      "https://www.meganoticias.cl/nacional/529516-los-yoghurt-pdi-robo-tarjetas-adultos-mayores-sector-oriente-17-08-2026.html",
       "https://www.meganoticias.cl/nacional/529517-fiscalizacion-carabineros-conductor-herido-bala-detenido-quinta-normal-17-08-2026.html",
       "https://www.meganoticias.cl/nacional/529519-camilo-huerta-habria-regresado-al-pais-sera-formalizado-tras-operativo-de-carabineros-trafico-de-drogas-17-08-2026.html",
       "https://www.meganoticias.cl/nacional/529520-camilo-huerta-en-chile-detenido-en-el-aeropuerto-vuelo-desde-miami-trasladado-por-carabineros-y-pdi-17-08-2026.html",
@@ -69645,7 +69649,8 @@
       "https://www.meganoticias.cl/tendencias/529644-fede-vigevani-vuelve-a-chile-como-comprar-entradas-youtuber-18-08-2026.html",
       "https://www.meganoticias.cl/tendencias/529661-foto-nelson-tapia-reaparece-moretones-rostro-accidente-estado-ebriedad-18-08-2026.html",
       "https://www.meganoticias.cl/tendencias/529667-cuanto-dinero-recibia-marite-matus-pension-arturo-vidal-escuchas-a-camilo-huerta-18-08-2026.html",
-      "https://www.meganoticias.cl/tendencias/529669-muere-mago-juan-tamariz-edo-caro-lo-despide-en-redes-sociales-18-08-2026.html"
+      "https://www.meganoticias.cl/tendencias/529669-muere-mago-juan-tamariz-edo-caro-lo-despide-en-redes-sociales-18-08-2026.html",
+      "https://www.meganoticias.cl/tendencias/529691-tamara-acosta-cambio-look-rubia-criticas-la-puta-vida-pelicula-19-08-2026.html"
     ],
     "cnn-chile": [
       "https://www.cnnchile.com/bits/columna-de-mario-saavedra-la-arana-que-hace-uber-por-que-peter-parker-es-el-heroe-definitivo-de-este-chile-hiperconectado/",
@@ -70500,6 +70505,7 @@
       "https://www.radiopolar.com/puerto-natales-fortalece-capital-humano-certificacion-curso-operacion-grua-horquilla",
       "https://www.radiopolar.com/punta-arenas-novo-nordisk-enfatiza-importancia-prevencion-acceso-tratamientos-enfrentar-obesidad-diabetes",
       "https://www.radiopolar.com/regimiento-chacabuco-ejercito-chile-punta-arenas-lst-rancagua-ejercicio-jauken",
+      "https://www.radiopolar.com/santo-tomas-realizara-jornada-gratuita-compostaje-fondos-concursables-abierta-comunidad",
       "https://www.radiopolar.com/sector-salud-puerto-williams-refuerza-prevencion-obesidad-infantil-taller-cocina-saludable",
       "https://www.radiopolar.com/semana-social-2026-pone-centro-solidaridad-50-anos-vicaria-magallanes",
       "https://www.radiopolar.com/senador-bianchi-exige-medidas-urgentes-gobierno-bloqueos-camioneros-chilenos-argentina-pide-priorizar-ruta-maritima-abastecimiento-magallanes",
