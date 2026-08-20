@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-08-20T11:45:11.345Z",
+  "generadoEn": "2026-08-20T11:58:46.918Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -39,6 +39,68 @@
     }
   ],
   "noticias": [
+    {
+      "id": "https://www.diariocronica.com.ar/noticias/2026/08/20/161791-incendio-por-falla-electrica-en-el-cordon-forestal",
+      "url": "https://www.diariocronica.com.ar/noticias/2026/08/20/161791-incendio-por-falla-electrica-en-el-cordon-forestal",
+      "medioId": "diariocronica.com.ar",
+      "medioNombre": "diariocronica.com.ar",
+      "seccionId": "internacional",
+      "titular": "Incendio por falla eléctrica en el Cordón Forestal",
+      "fecha": "2026-08-20T11:42:05.000Z",
+      "fechaDeteccion": "2026-08-20T11:58:46.918Z",
+      "extracto": [
+        {
+          "texto": "Incendio por falla eléctrica en el Cordón ",
+          "resaltado": false
+        },
+        {
+          "texto": "Forestal",
+          "resaltado": true
+        }
+      ],
+      "imagen": "https://diariocronica-s3.cdn.net.ar/s3i233/2026/08/diariocronica/images/02/73/39/2733966_dadf9988308133d121414792caa7709bb54daf1b0028f1c892d8e3a56261d078/xs.webp?_v=v3-186",
+      "autor": "Diario Crónica",
+      "fechaReal": "2026-08-20T11:31:55.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.58,
+        "score": -7,
+        "keywords": [
+          "oacute",
+          "incendio",
+          "forestal",
+          "cordon",
+          "vivienda",
+          "barrio",
+          "desperfecto",
+          "bomberos",
+          "voluntarios",
+          "heridos"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "emergencias"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "bomberos",
+          "voluntarios"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 261,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 2
+      }
+    },
     {
       "id": "https://laprensaaustral.cl/2026/08/20/scout-cruz-del-sur-se-prepara-para-representar-a-natales-en-encuentro-nacional",
       "url": "https://laprensaaustral.cl/2026/08/20/scout-cruz-del-sur-se-prepara-para-representar-a-natales-en-encuentro-nacional/",
@@ -69761,84 +69823,12 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 4
       }
-    },
-    {
-      "id": "https://www.20minutos.es/andalucia/granada/dos-detenidos-por-un-incendio-forestal-turbera-padul-sierra-nevada_7022531_0.html",
-      "url": "https://www.20minutos.es/andalucia/granada/dos-detenidos-por-un-incendio-forestal-turbera-padul-sierra-nevada_7022531_0.html",
-      "medioId": "20minutos.es",
-      "medioNombre": "20Minutos",
-      "seccionId": "internacional",
-      "titular": "Dos detenidos por un incendio forestal en la turbera de Padul de Sierra Nevada",
-      "fecha": "2026-08-04T13:47:28.000Z",
-      "fechaDeteccion": "2026-08-04T15:37:47.038Z",
-      "extracto": [
-        {
-          "texto": "Dos detenidos por un incendio ",
-          "resaltado": false
-        },
-        {
-          "texto": "forestal",
-          "resaltado": true
-        },
-        {
-          "texto": " en la turbera de Padul de Sierra Nevada",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/08/04/6a71ec23f3e971-24642301.jpeg",
-      "autor": "Europa Press .",
-      "fechaReal": "2026-08-04T13:47:28.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "mixta",
-        "polaridad": -0.56,
-        "score": -15,
-        "keywords": [
-          "incendio",
-          "dos",
-          "agentes",
-          "fuego",
-          "guardia",
-          "zona",
-          "turbera",
-          "seprona",
-          "granada",
-          "forestal"
-        ],
-        "categorias": [
-          "incendios-forestales",
-          "quemas-controladas",
-          "emergencias"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "BIIF",
-          "CIVIL",
-          "COS",
-          "URL",
-          "bomberos",
-          "brigada"
-        ],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "medio",
-        "prioridad": 2,
-        "importancia": 65,
-        "tipo": "emergencia",
-        "ambito": "internacional",
-        "cantidadPalabras": 543,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 3
-      }
     }
   ],
   "resolucionesGoogle": {
     "CBMi-gFBVV95cUxNVEpqTUVUZzdHOFRIM2o5emd0SUJJMXFMVTJ2OE5MN3pCTUdGUWlSTDJvYUE5TUxkTTVBMXN4dFI5WEh4eHRjWklIQ05WTmZ3c0YxTGd6UnVfRzV1eU5hNDZZVWVsYmI1b0JMbXpsWU1yR0NIRGY5VlBnb2RWVWs5N2paV0dIUE84bDd2cXBCMFE0MlN4YUJBbi1vWVFwNWwteWRiYURRUnJQLWNkM1NYLTE5RnJKWkNvVnVaRVpUM1NuUkVUbXQxMnpyOVVfdWRwM1RUdVppN05RU2JmOEdqbzh2eDhrbUxCYU03bHdRemdFOFRHemZ5Q2hR": "https://laderasur.com/articulo/preocupacion-en-la-region-de-valparaiso-conaf-verifica-tala-ilegal-de-bosque-nativo-para-construccion-de-camino-en-el-cerro-la-higuera/",
     "CBMi-wFBVV95cUxQM053M05xM2xGQ3M3NlRmb2d1X1h0XzRlNjFYdDRjbHJURi0tbzhwZEZFdThpTGpnRm4xM0tWYmVZQU5tZXZVQzV3UjJVYzV1ZlQ4SzhUX3ZPYmh2NHFJLTdMNDR1N1E2UUJ3SlhmRmVNb0xxcklORkJqS3V3bTdyVG5xNTI1X2RFeXphd1JYb3hONlY2TkkyVTlhUEF5dnJ4OVpSc0d1TFVBOS1aeS1pRGtMWnBoenNiUzkxY3VUU0lsSE9qeFN5b2o5c3JPS25QSXVOZDdqc1VQREJGNFFoUlllN2V2VVNySlNESjF0bno2NGQtT2NXeExXY9IBgAJBVV95cUxOSW1qLXNMajl1RDhPN1J2bXlNNjFoLUw4Und2cjE4dzhrdDVjXzNaVzlLRlpxanNLbjRJMlMtNEhrMGR4N2NtRV9feWtVRDBuNDhkaDBDRTZnQ3dRekVjY0o1OU42WGF2NE14bnRKUUtMdXk5UUNkanh2QTZwMGVxQ3JSZVh5bFBkV3kyMDQzVmNmTlRIY2ZDZVEtRHpLVnFOOXRBX2VvdU5iZ3dDbmdoWnBFWWpKMU1fVFoxN2RhdDhXZ1ExWnNxMjc3dk14NS1GNmdUaFh3QUNPMzVZSWh4dlZwUUIydFlfUUo0MVdrWmc5TjVqQzR5NU4yVElNUGhu": "https://navarra.okdiario.com/articulo/sucesos/cinco-helicopteros-combaten-incendio-urzainki-mientras-orografia-impide-ataque-directo-bomberos/20260820123434657489.html",
     "CBMi0AFBVV95cUxNeEJ2aG5qTk1PT0VZMjROeWZpb1ktVF95dTNCb0J5TUdhRFRTbWFCRml3STk3dGpzdXZ4aVdVbnYzOFFuY0Y4eHhDVFB1eFo3ZnZ1Rmo2bkM3anE0UUZZeG83N0FDTlFaQUNxZW9FY3ltd3k0aF95dEVfVFo3aUZ5dFNyVFdiNmVfMHloNEtsUTRqWnpsSlh5Nm4xN2kwd1VKSmN4d2xOaEVpMDVLSFJFeHdLa2djNk1zUmJvazI1RVlIeFVGU0xmWF9kX0FTZHlq0gGrAUFVX3lxTE5PWWoyWmVvemRaVWNDTGY3YklkUlAyQkFCUkQ2Z2VRYkxBOVdSRDhXTk1yd0s5ZXpZeER6eThacWhZb2tldVRXbFZiVUtlT29zd0VwM1pKeUNrWGpMcUl3ZjZOTDFHVUFyZHYtUnBKemVyMUhIay0tYVpLaVFRRHFDeU00VGtpRVFwajJqZ2J3bWRtMkVZWGd2WUc5RFVXWDlxQlFRYklNYVNqUQ": "https://www.diarioconcepcion.cl/ciudad/2026/08/17/hualqui-realizan-jornada-de-restauracion-ecologica-en-el-parque-nacional-nonguen.html",
-    "CBMi1AFBVV95cUxNWGQ2bmViMnZFWkF2VmhFYzVGUll3dzQxWGVYa3FFWVV2dk44VWhzRWlkWWVobE90bGk1bHZPWUVUVkZtTTQyZG5UZTMzSEM0LTZ0ME5TLS0yLXFLaFBOR1l1bFVhLXpZSlVvXzJmYlJ6WUFvQjdTTU8xSG5GNmtjV3ZmRVdYYzBlbDQxbjM0alFOWHVKLVNISUZBdGlJRWZQSDFkVHhqUXlHWW5BbDFUSmxDcTZod1lZTjU5VmlRWEcxQ2pITm1Nbk12d1U5MHhtZlZ4RQ": "https://www.canal9.cl/episodios/2026/08/18/conaf-abre-536-cupos-para-brigadistas-forestales-en-el-bio-bio-de-cara-a-temporada-de-incendios",
     "CBMi2AFBVV95cUxQNkRoZThqaHdZdWZoSGVBblJiV3hyd0xSLXY5V25UaXA1U1N2VGx5eGJzNDI2b1E1Q3JNUHJBdEVYZEt1a0E1TGQxbmEtWTh0UmJ6YVFHc0JrRmlra1dtR2lmRTFVSF9vU3VPZ0JQSU40ZDJRSjdPTXlCNGtVbGdlb2gwZzhhWGhOMkkzclJjZWdrUDQxQTdYRkVlNk5SRmxNOUNwMmxxejZTRDdaLXo3dzdsbUlMUFJPbXJNQUZXYzlaUWdNMVU5VTZlVXFLdTNSYzE0clNqYTE": "https://sence.gob.cl/personas/noticias/miercoles-19-de-agosto-reclutamiento-para-sector-forestal-en-plataforma-laboral-del-sence-la-araucania",
     "CBMi3gFBVV95cUxNX1BUV1NDZWxEVW8wNUVrODJmamdIY3BjY1VuaUd4d1lmelNtZ0Nnd1ZUVTdpdXlaX1VFMGhWVGJrMFJyYzlrLUpaMkZmM01EdXhVdkVDVEhIa0Vjc2hZX19pUUc5bkZsaThvdVI0M2stamRvbUNZb0pGTHg3clh0RnB6b1dBS1ZqdXN6WmYydnhVVUpqSF95TW8zSXhmZXVpY2p1Y2ZpRDFXcUtfV1F4QUx6ZG5INXpYUWk4cmpqVExaWllGRFp5eVlsbk5QVGJJaThuVEpnZUM2VmV0Y2c": "https://araucanianoticias.cl/2026/corporacion-umbrales-y-conaf-plantan-400-arboles-nativos-en-la-araucania-mediante-el-metodo-miyawaki/0819313891",
     "CBMi3gFBVV95cUxOcTJWZl9WYTlVWDJqS19TcENNc1F0c3liN003cXdlUEdVSHY1djRfckMwcWVDMVV3VWp2NVlLcHVyMXpYSzcyYlpmTS1JMHk2VnZKWDJYdE1MSkNwV3NvVVk1T0JqeFV3NW1vemhnRjdrdUVYbnF1NmNtRVJCSFhRR1YyOW8zc2VXWnJkOGdwZHA2WjhkbHRvbUFyVzFOdnhVaXhiSTU2UTZuLXFlelhjNW9lX2FKWE9XeXdpNHYxZW9VQUtEcENxaDl1Z19uR2twYjJjYUhLaWVGYjVNTGc": "https://www.radiosantamaria.cl/2026/08/19/presentan-cuarta-version-del-trail-running-coyhaique-con-500-participantes-en-el-parque-cmpc-el-condor/",
@@ -69876,6 +69866,7 @@
     "CBMiqwFBVV95cUxQd3g1RDNUOEd5Yk9sQkVnWWZtOVNQNHVxd09iVHdvSGtoWkhocmZzZl8zRFhScmRzTDJaLTRULXVDVW5hZlJnUmZkYUppaHR4b2R2MzIwQk9odlE3QTVJaXkwOUFZcTRIRVAyMGcyNktBamJQY250Sk9TOWNhazNYRjd2UmpXNEpvUk5DQWpCTHQ1aU5NOGptX0w1bDZkV09fM3hUNmtwZkRPRms": "https://www.df.cl/empresas/industria/participacion-de-comunidades-enfrenta-a-cmpc-con-ministerio-publico-de",
     "CBMirgFBVV95cUxPSVlMdnBxTVB4YmtJejVGX096NHZtUWlhUDRtSldwUzBtbzB6Z1pyaXM5dUJVU0dUM1J1U01KZjlDLUZDT1JrWFloVGJtTF9kMk5IQlVEbVBmOEJkQm5fdFUwRFFrWUhXQ25qQTMteVVScHF3R2JfTGtySl9XeUl5VTZsMHgyMzVrUkZtY0Z4by01TEhUbXBjNmZSejNVSEV1eFlxT3BPeUhwZkJTT3c": "https://uchile.cl/noticias/242349/mac-parque-forestal-inauguro-su-segundo-ciclo-2026-con-seis-nuevas-muestras",
     "CBMirgFBVV95cUxQbFBfN3lGQjlBU0FxbThqakhNT2RZNlVvcjM0aERaTm5tSEhPUzFOWWRHMzRGSTR0LTFpQmp5MUMwWjhJMFRCZlp5WDI3M2JTOGg0NFNxcDdTSEl0eEp6T1ZiS2tyT0lMcWJEekVyRHE1MTR6SGFweWZMU2ttN3o4WDR4aVBGUjdiOWFQN2VHMmRRNjJrN2oxUzlaUENINXZzdHhSWmJRM05pNEd4OUE": "https://www.diarioconcepcion.cl/ciudad/2026/08/17/conaf-abre-postulaciones-brigadistas-forestales-biobio.html",
+    "CBMirwFBVV95cUxNYm1jNkFVcXFpTVU0M1NtcjZnbVdHNmhwMXFIaW5paFdfdFQxcGp4SjMwYVl1UER1T2M0VVo1c21nT0kyRUtBMEtEWVpfaGxIZlUxanl3VWNYUWxLZHFwUkNIUUVfTThMLWFLNmdadjU2YkNTbGQ2MWMzM2hJVGRjVkJHTW80ZUhxVW5LRzdZRW13bnN4Q2c1MWlFZWI4aXRadnhJRkpMSEgwcTIzLU1J0gG0AUFVX3lxTFBzWkJNQnAxYmZ5X3FHeGRJdXUzVGhfdWpSeVhHRVduSVpOa3dsaV9TSExycnhCSzZna3V4Q19pcGx0NF9FeDcxYzMtNUFDaVROSkhEcWpYbWh1REZUcXlPcFV6Ui1TRVdhT0xCaWhyaVlWN1QtaXl6Y0kzRXZpREVqN3hGRUhlVUpIb3g4V1FhelgxaW50cjVWREhXRmdJc3J1NldmNllLclFtb1p5Q0RLcFVCUw": "https://www.diariocronica.com.ar/noticias/2026/08/20/161791-incendio-por-falla-electrica-en-el-cordon-forestal",
     "CBMisAFBVV95cUxNQ0ZkZUFfbHA2b1BiWldTUXBubVcwTzMxR3o4emFJZC10Qm1md2Vmc055cE1Mb0FSQVAtUHJ1UWUwUnk4eFY1LWpQWGdvSUtJMVVGX1RRQ2tkX0gzR05rLXJDUjhmWnRhU2R4WEZfaWt4SmtiN2pSdjNlOUNNVkZJcjVGSTl1NjFOZy1XZFdQUDBrdkNwYzZSRzJmbTNSQ1Bua0hrRldzcmRjeXh1Qktnbg": "https://www.radioudec.cl/conaf-biobio-abre-postulaciones-de-brigadistas-forestales-para-la-temporada-2026-2027/",
     "CBMisAFBVV95cUxPSFZPaHRMT3gxN3BuS0x6SEdHVEZoVjRIVmYtcGFFZ3RUWXVZT0ZxRW44NmdVZzJXU2VJVVVwb3Z3UlhoV016dlJBbzNBQTB0MWNST3EyMkhYZU9ZVktLUTRyM3VTNW5vSG5EcFgzYThtYTAtbG5maDU2QmRWLWdHa3RGZTRmWHdhdmloYVFKeDl6N21hUnNJOWhMdlI0dkZNdWtGR2dHN1dEUlB0N3U4NQ": "https://www.soychile.cl/temuco/sociedad/2026/08/19/961910/conaf-lautaro-arborizacion-parque-isabelriquelme.html",
     "CBMisgFBVV95cUxNLVY5dzRackJ0Y1hUNWNndkpGQlk4cFNyNVUwdkhRUXhrTzhvY1JnUUxrNDM5eHRMT1hsMlRsdVIxekRidFpJVl9YTnFwX1ZLWnZTUFNjdHVxRmlBNDltNGZobEJvOW42UnU2eElZeVB1X3pOc0traDR1b0hkUkg4aWdkeDNSczNHMjNwVDlNN1A2QUJIdElaNVlFekhYOGtTNHl1ODVQaXU5RVpWMldrMEdn": "https://www.elmostrador.cl/noticias/opinion/columnas/2026/08/20/ley-de-fomento-forestal-para-que-y-para-quienes/",
@@ -70209,7 +70200,6 @@
       "https://www.cnnchile.com/pais/meteorologia-emite-alarma-por-lluvias-intensas-en-zonas-de-antofagasta-se-pronostica-caida-de-hasta-25-mm-de-agua/",
       "https://www.cnnchile.com/pais/metro-informa-el-cierre-de-cuatro-estaciones-de-la-linea-1-por-persona-en-la-via/",
       "https://www.cnnchile.com/pais/michelle-bachelet-aborda-los-desafios-de-la-secretaria-general-de-la-onu-en-un-mundo-marcado-por-una-creciente-desconfianza-recuperar-la-credibilidad-de-naciones-unidas-exige-coherencia/",
-      "https://www.cnnchile.com/pais/millonaria-disputa-de-metro-con-contratista-de-la-tuneladora-de-linea-7-empresa-china-cuestiona-cobro-de-garantias-por-us-69-millones/",
       "https://www.cnnchile.com/pais/mineduc-anuncia-suspension-de-clases-este-miercoles-por-sistema-frontal-revisa-las-comunas-y-regiones-afectadas/",
       "https://www.cnnchile.com/pais/mineduc-suspende-clases-en-cuatro-regiones-del-norte-por-sistema-frontal/",
       "https://www.cnnchile.com/pais/ministra-de-medio-ambiente-tras-reves-en-el-tc-aseguro-que-no-altera-la-agenda-ambiental-del-gobierno/",
@@ -70217,6 +70207,7 @@
       "https://www.cnnchile.com/pais/ministro-mas-aborda-numeros-rojos-en-crecimiento-de-segundo-trimestre-de-2026-hemos-enfrentado-un-semestre-exigente/",
       "https://www.cnnchile.com/pais/minsal-emite-alerta-alimentaria-por-presencia-listeria-en-queso-mantecoso/",
       "https://www.cnnchile.com/pais/no-puede-ser-que-tengamos-un-presidente-de-derecha-que-no-tenga-el-coraje-para-indultar-senadora-kaiser-arremete-contra-el-presidente-kast-por-uniformados-condenados/",
+      "https://www.cnnchile.com/pais/paso-los-libertadores-avanza-en-su-reapertura-camiones-podran-salir-de-chile-este-jueves/",
       "https://www.cnnchile.com/pais/pdi-abate-sujeto-orden-homicidio-arrastro-detective-colina/",
       "https://www.cnnchile.com/pais/pdi-confirma-hallazgo-con-vida-de-exconcejala-de-graneros-tras-dos-semanas-de-busqueda/",
       "https://www.cnnchile.com/pais/pgu-corte-de-valparaiso-acoge-recurso-de-proteccion-y-ordeno-al-isp-pronunciarse-sobre-acceso-a-pension-de-68-personas/",
@@ -70475,6 +70466,7 @@
       "https://puranoticia.pnt.cl/espectaculos/no-vengo-a-reemplazar-a-nadie-marcela-vacarezza-alza-la-voz-tras-su",
       "https://puranoticia.pnt.cl/espectaculos/paula-pavic-rompe-el-silencio-tras-detencion-de-camilo-huerta-se-replican",
       "https://puranoticia.pnt.cl/espectaculos/shakira-financiara-reconstruccion-de-universidad-y-apoyara-construccion-de",
+      "https://puranoticia.pnt.cl/espectaculos/standly-recupera-auto-robado-y-arremete-contra-delincuentes-a-esos-giles",
       "https://puranoticia.pnt.cl/hora-de-noticias-18-de-agosto",
       "https://puranoticia.pnt.cl/internacional/de-la-espriella-asegura-que-ee-uu-tiene-toda-la-disposicion-de-suspender",
       "https://puranoticia.pnt.cl/internacional/el-pacto-de-la-meca-4-claves-para-entender-la-otan-musulmana-creada-por",
@@ -70510,7 +70502,6 @@
       "https://puranoticia.pnt.cl/nacional/franco-parisi-reafirma-que-el-pdg-no-apoyara-la-reforma-constitucional-en",
       "https://puranoticia.pnt.cl/nacional/frei-afirma-que-la-permisologia-frena-la-inversion-en-chile-inventan-la",
       "https://puranoticia.pnt.cl/nacional/hijo-de-cuidador-mato-a-tiros-a-presunto-ladron-que-robaba-acelgas-en",
-      "https://puranoticia.pnt.cl/nacional/justicia-resuelve-prision-preventiva-de-michael-clark-y-otros-exejecutivos",
       "https://puranoticia.pnt.cl/nacional/kast-reflexiona-sobre-el-rol-de-los-medios-de-comunicacion-y-asegura-tener",
       "https://puranoticia.pnt.cl/nacional/ministerio-de-energia-anuncio-que-durante-septiembre-se-excluira-el-periodo",
       "https://puranoticia.pnt.cl/nacional/persecucion-policial-culmina-con-dos-detenidos-tras-intento-de-homicidio",
@@ -70557,6 +70548,7 @@
       "https://puranoticia.pnt.cl/region-valparaiso/la-estrategia-de-la-jefa-de-carabineros-en-valparaiso-para-reforzar",
       "https://puranoticia.pnt.cl/region-valparaiso/mas-de-mil-camiones-cruzaron-el-paso-los-libertadores-durante-la-primera",
       "https://puranoticia.pnt.cl/region-valparaiso/ministra-de-salud-anticipa-avances-para-el-hospital-van-buren-de",
+      "https://puranoticia.pnt.cl/region-valparaiso/ministra-de-salud-compromete-apoyo-a-centro-integral-para-personas-mayores",
       "https://puranoticia.pnt.cl/region-valparaiso/operativo-contra-el-crimen-organizado-deja-cinco-detenidos-en-el-puerto-de",
       "https://puranoticia.pnt.cl/region-valparaiso/peligran-las-fondas-meteored-ratifica-un-18-lluvioso-en-la-region-de",
       "https://puranoticia.pnt.cl/region-valparaiso/persecucion-a-pie-termina-con-hombre-detenido-tras-robo-de-celular-en-pleno",
@@ -70861,7 +70853,6 @@
     "araucania-diario": [
       "https://araucaniadiario.cl/contenido/34772/mes-del-corazon-el-36-de-la-poblacion-chilena-sufre-de-hipertension-arterial",
       "https://araucaniadiario.cl/contenido/34872/diputado-cretton-recorre-lonquimay-y-gestiona-soluciones-para-vecinos-afectados",
-      "https://araucaniadiario.cl/contenido/34880/el-dia-en-que-el-fiscal-roberto-garrido-trato-de-ignorante-al-gobernador-regiona",
       "https://araucaniadiario.cl/contenido/34887/fosis-y-aiep-lanzan-curso-gratuito-para-cinco-mil-personas-cuidadoras-de-adultos",
       "https://araucaniadiario.cl/contenido/34888/diputado-tomas-kast-ayuda-a-concretar-el-apr-mas-grande-de-chile-y-la-araucania",
       "https://araucaniadiario.cl/contenido/34889/universidad-autonoma-declara-que-la-contraloria-no-ha-establecido-que-haya-comet",
