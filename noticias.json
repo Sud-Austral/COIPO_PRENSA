@@ -197,7 +197,38 @@
         }
       ],
       "imagen": null,
-      "analisis": null
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.67,
+        "score": -2,
+        "keywords": [
+          "incendio",
+          "forestal",
+          "consume",
+          "mil",
+          "hectareas",
+          "jimenez",
+          "tamaulipas"
+        ],
+        "categorias": [
+          "incendios-forestales"
+        ],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 10,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
     },
     {
       "id": "https://andina.pe/agencia/noticia-descubren-una-nueva-especie-orquidea-el-parque-nacional-yanachaga-chemillen-1088565.aspx",
@@ -905,7 +936,38 @@
         }
       ],
       "imagen": null,
-      "analisis": null
+      "analisis": {
+        "version": 3,
+        "sentimiento": "neutra",
+        "polaridad": 0,
+        "score": 0,
+        "keywords": [
+          "asociacion",
+          "forestal",
+          "argentina",
+          "destaco",
+          "potencial",
+          "provincia",
+          "inversiones",
+          "mercados",
+          "carbono"
+        ],
+        "categorias": [],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 50,
+        "tipo": "informativa",
+        "ambito": "internacional",
+        "cantidadPalabras": 16,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
     },
     {
       "id": "https://www.nubleactual.cl/region-de-nuble/conaf-entrega-boro-a-productores-forestales-de-quirihue-para-potenciar-desarrollo-de-plantaciones-jovenes",
@@ -5089,7 +5151,41 @@
         }
       ],
       "imagen": null,
-      "analisis": null
+      "analisis": {
+        "version": 3,
+        "sentimiento": "neutra",
+        "polaridad": 0,
+        "score": 0,
+        "keywords": [
+          "tesorito",
+          "reaparecio",
+          "parque",
+          "nacional",
+          "iguazu",
+          "desato",
+          "peregrinacion",
+          "observadores"
+        ],
+        "categorias": [
+          "parques-asp"
+        ],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [
+          "Parque Nacional Iguaz"
+        ],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 50,
+        "tipo": "informativa",
+        "ambito": "nacional",
+        "cantidadPalabras": 14,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
     },
     {
       "id": "https://www.argentina.gob.ar/noticias/el-ciervo-de-los-pantanos-rescatado-en-panamericana-vuelve-al-parque-nacional-que-lleva-el",
@@ -69936,7 +70032,6 @@
       "https://www.meganoticias.cl/mundo/529960-tiktok-acuerdo-millonario-eeuu-demanda-privacidad-infantil-coppa-21-08-2026.html",
       "https://www.meganoticias.cl/mundo/529971-lula-llama-trump-aranceles-eeuu-brasil-dialogo-21-08-2026.html",
       "https://www.meganoticias.cl/nacional/529778-temblor-iquique-tarapaca-patache-hoy-jueves-sismologia-20-08-2026.html",
-      "https://www.meganoticias.cl/nacional/529781-detienen-hombre-amenazas-presidente-jose-antonio-kast-video-arma-redes-sociales-20-08-2026.html",
       "https://www.meganoticias.cl/nacional/529782-temblor-tongoy-coquimbo-hoy-viernes-jueves-sismologia-21-08-2026.html",
       "https://www.meganoticias.cl/nacional/529783-violento-robo-perfumeria-curanilahue-en-solo-30-segundos-registro-camaras-de-seguridad-20-08-2026.html",
       "https://www.meganoticias.cl/nacional/529784-metro-informa-retrasos-funcionamiento-linea-2-anuncia-modificaciones-en-dos-estaciones-toesca-parque-ohiggins-20-08-2026.html",
