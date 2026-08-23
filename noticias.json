@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-08-23T03:17:07.162Z",
+  "generadoEn": "2026-08-23T07:03:58.547Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -39,6 +39,102 @@
     }
   ],
   "noticias": [
+    {
+      "id": "https://www.lasexta.com/noticias/sociedad/estabilizado-incendio-forestal-segorbe-haber-calcinado-630-hectareas_202608236a8a98da71b42a0b5d002491.html",
+      "url": "https://www.lasexta.com/noticias/sociedad/estabilizado-incendio-forestal-segorbe-haber-calcinado-630-hectareas_202608236a8a98da71b42a0b5d002491.html",
+      "medioId": "lasexta.com",
+      "medioNombre": "LaSexta",
+      "seccionId": "otros",
+      "titular": "Estabilizado el incendio forestal en Segorbe tras haber calcinado 630 hectáreas",
+      "fecha": "2026-08-23T06:53:14.000Z",
+      "fechaDeteccion": "2026-08-23T07:03:58.547Z",
+      "extracto": [
+        {
+          "texto": "Estabilizado el incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " en Segorbe tras haber calcinado 630 hectáreas",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://fotografias.lasexta.com/clipping/cmsimages01/2026/08/23/44ED676B-E78A-45A5-ACBE-C9E0755CBE08/vehiculo-bomberos-circula-zona-que-aun-trabajan-evitar-rebrotes-segorbe-castellon_69.jpg?crop=1920,1080,x0,y140&width=1280&height=720&optimize=low&format=webply",
+      "autor": null,
+      "fechaReal": "2026-08-23T06:53:14.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.22,
+        "score": -4,
+        "keywords": [
+          "bomberos",
+          "castellon",
+          "coordinacion",
+          "emergencias",
+          "forestales",
+          "segorbe",
+          "consorcio",
+          "provincial",
+          "compartir",
+          "centro"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "prevención"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "EFE",
+          "IA",
+          "SPEIS",
+          "UME",
+          "agencia",
+          "bomberos"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "medio",
+        "prioridad": 2,
+        "importancia": 75,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 488,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 3
+      }
+    },
+    {
+      "id": "https://elpais.com/espana/comunidad-valenciana/2026-08-23/estabilizado-el-incendio-forestal-de-segorbe-tras-calcinar-630-hectareas-en-la-sierra-calderona.html",
+      "url": "https://elpais.com/espana/comunidad-valenciana/2026-08-23/estabilizado-el-incendio-forestal-de-segorbe-tras-calcinar-630-hectareas-en-la-sierra-calderona.html",
+      "medioId": "elpais.com",
+      "medioNombre": "EL PAÍS",
+      "seccionId": "otros",
+      "titular": "Estabilizado el incendio forestal de Segorbe tras calcinar 630 hectáreas en la Sierra Calderona",
+      "fecha": "2026-08-23T06:42:49.000Z",
+      "fechaDeteccion": "2026-08-23T07:03:58.547Z",
+      "extracto": [
+        {
+          "texto": "Estabilizado el incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " de Segorbe tras calcinar 630 hectáreas en la Sierra Calderona",
+          "resaltado": false
+        }
+      ],
+      "imagen": null,
+      "analisis": null
+    },
     {
       "id": "https://www.biobiochile.cl/noticias/nacional/region-de-los-lagos/2026/08/22/arresto-domiciliario-total-y-arraigo-nacional-para-tres-imputados-por-robo-de-madera-en-puerto-varas.shtml",
       "url": "https://www.biobiochile.cl/noticias/nacional/region-de-los-lagos/2026/08/22/arresto-domiciliario-total-y-arraigo-nacional-para-tres-imputados-por-robo-de-madera-en-puerto-varas.shtml",
@@ -163,6 +259,89 @@
         "cantidadPalabras": 509,
         "cantidadParrafos": 1,
         "tiempoLectura": 3
+      }
+    },
+    {
+      "id": "https://www.radiopolar.com/senda-magallanes-certifico-trabajadores-zona-austral-programa-parentalidad",
+      "url": "https://www.radiopolar.com/senda-magallanes-certifico-trabajadores-zona-austral-programa-parentalidad",
+      "medioId": "radio-polar",
+      "medioNombre": "Radio Polar",
+      "seccionId": "radio",
+      "titular": "SENDA MAGALLANES CERTIFICÓ A TRABAJADORES DE ZONA AUSTRAL EN PROGRAMA DE PARENTALIDAD",
+      "fecha": "2026-08-22T23:00:00.000Z",
+      "fechaDeteccion": "2026-08-23T07:03:58.547Z",
+      "extracto": [
+        {
+          "texto": "(...) ",
+          "resaltado": false
+        },
+        {
+          "texto": "TECNOLÓGICOS Y USO RESPONSABLE DE LA INTELIGENCIA ARTIFICIAL 22/08/2026 15:00 SENADOR KUSANOVIC COORDINA CON EL MOP AVANCE DE PROYECTOS ESTRATÉGICOS PARA MAGALLANES 22/08/2026 14:00 ANTONIO WALKER ABORDA DESAFÍOS DE LA GANADERÍA EN MAGALLANES 22/08/2026 11:23 DIPUTADO ALEJANDRO RIQUELME BUSCA IMPULSAR VUELOS DIRECTOS ENTRE MAGALLANES Y BRASIL 22/08/2026 10:00 CARTELERA CULTURAL 21 DE AGOSTO 22/08/2026 00:00 SERVICIO DE SALUD MAGALLANES INVITA A PARTICIPAR EN FERIA EDUCATIVA POR EL MES DE LA NIÑEZ 21/08/2026 22:00 SEREMI DE JUSTICIA DESTACA AVANCES LEGISLATIVOS EN PRO DE LA REINSERCIÓN Y LA SEGURIDAD PÚBLICA 21/08/2026 18:00 FISCALIZACIÓN DE CARABINEROS Y SENDA DETECTA A CONDUCTOR EBRIO Y CON POSITIVO PARA COCAÍNA EN PUNTA ARENAS 21/08/2026 16:00 PROYECTOS IMPULSARÁN LA REHABILITACIÓN DE PERSONAS CON PARKINSON Y LA EDUCACIÓN INMERSIVA DE NIÑOS Y ADOLESCENTES EN MAGALLANES 21/08/2026 14:00 JUVENTUD RN MAGALLANES ABORDA EL DISTANCIAMIENTO DE LOS JÓVENES CON LA POLÍTICA Y LLAMA A RECUPERAR ESPACIOS DE PARTICIPACIÓN 21/08/2026 12:45 ÚLTIMOS DÍAS PARA PARTICIPAR EN MAGALLANES EN 100 PALABRAS: CONVOCATORIA CIERRA ESTE LUNES 24 DE AGOSTO 21/08/2026 12:15 FOSIS ABRE POSTULACIONES PARA EL PROGRAMA EMPRENDAMOS GRUPAL AUTOGESTIONADO 21/08/2026 12:00 DIPUTADO RIQUELME APUNTA CONTRA EL DIRECTOR DEL SERVIU Y AL GOBERNADOR POR PROYECTO HABITACIONAL OBSERVADO EN PORVENIR 21/08/2026 11:45 ",
+          "resaltado": false
+        },
+        {
+          "texto": "CONAF",
+          "resaltado": true
+        },
+        {
+          "texto": " ABRE PROCESO DE POSTULACIÓN PARA BRIGADISTAS FORESTALES DE LA TEMPORADA 2026-2027 EN MAGALLANES 21/08/2026 11:15 Noticias Relacionadas MUNICIPIO REALIZÓ SEXTA FERIA INCLUSIVA EN ZONA AUSTRAL Leer Más ​La iniciativa reunió a 18 instituciones y organizaciones sociales para exhibir y comercializar productos elaborados por personas con discapacidad y sus familias en Punta Arenas. ​La iniciativa reunió a 18 instituciones y organizaciones sociales para exhibir y comercializar productos elaborados por personas con discapacidad y sus familias en Punta Arenas. 22/08/2026 17:00 SENDA MAGALLANES CERTIFICÓ A TRABAJADORES DE ZONA AUSTRAL EN PROGRAMA DE PARENTALIDAD 22/08/2026 23:00 Noticias Destacadas SUBDERE FINANCIA CAPACITACIÓN DE MÁS DE 3.000 FUNCIONARIOS MUNICIPALES Y REGIONALES DE TODO EL PAÍS 22/08/2026 22:00 ESTUDIO DE TECHO-CHILE REVELA QUE MAYORÍA DE HOGARES VUELVE A LA INFORMALIDAD TRAS DESALOJOS DE CAMPAMENTOS 22/08/2026 20:30 SENDA MAGALLANES CERTIFICÓ A TRABAJADORES DE ZONA AUSTRAL EN PROGRAMA DE PARENTALIDAD 22/08/2026 23:00 SUBDERE FINANCIA CAPACITACIÓN DE MÁS DE 3.000 FUNCIONARIOS MUNICIPALES Y REGIONALES DE TODO EL PAÍS 22/08/2026 22:00 COCINA ANCESTRAL Y SOBERANÍA ALIMENTARIA MARCARON EL PRIMER CAPÍTULO DE “CUENTAN LOS ANTIGUOS” 22/08/2026 21:00 ESTUDIO DE TECHO-CHILE REVELA QUE MAYORÍA DE HOGARES VUELVE A LA INFORMALIDAD TRAS DESALOJOS DE CAMPAMENTOS 22/08/2026 20:30",
+          "resaltado": false
+        },
+        {
+          "texto": " (...)",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/658d9f90f0909def6c18fa2c/mediaLibrary/photo/cd92fed0-19a3-4106-9981-ea13d8c58af0-extra-large-standard-q100.jpeg?v=1787411082",
+      "autor": null,
+      "fechaReal": "2026-08-23T03:00:00.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "positiva",
+        "polaridad": 0.56,
+        "score": 5,
+        "keywords": [
+          "2026",
+          "magallanes",
+          "senda",
+          "personas",
+          "programa",
+          "punta",
+          "arenas",
+          "trabajadores",
+          "zona",
+          "austral"
+        ],
+        "categorias": [
+          "prevención",
+          "educacion-ambiental",
+          "incendios-forestales"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "DE",
+          "EN",
+          "LA",
+          "MAGALL",
+          "SENDA",
+          "ZONA",
+          "carabineros",
+          "conaf"
+        ],
+        "lugares": [],
+        "regiones": [
+          "magallanes"
+        ],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "medio",
+        "prioridad": 2,
+        "importancia": 70,
+        "tipo": "emergencia",
+        "ambito": "regional",
+        "cantidadPalabras": 782,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 4
       }
     },
     {
@@ -69898,240 +70077,6 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 3
       }
-    },
-    {
-      "id": "https://www.cnnchile.com/pais/biministro-daniel-mas-dice-no-tener-problema-en-achicar-el-estado-si-mejora-su-eficiencia",
-      "url": "https://www.cnnchile.com/pais/biministro-daniel-mas-dice-no-tener-problema-en-achicar-el-estado-si-mejora-su-eficiencia/",
-      "medioId": "cnn-chile",
-      "medioNombre": "CNN Chile",
-      "seccionId": "tv",
-      "titular": "\"Ningún problema en achicar el Estado\": La medida que baraja el Biministro Daniel Mas en pos de la \"eficiencia\"",
-      "fecha": "2026-08-07T16:43:31.000Z",
-      "fechaDeteccion": "2026-08-07T17:10:24.473Z",
-      "extracto": [
-        {
-          "texto": "“Ningún problema en achicar el Estado”: La medida que baraja el Biministro Daniel Mas en pos de la “eficiencia” Por José Ferrada --> --> --> --> --> --> El biministro de Economía y Minería, Daniel Mas, aseguró no tener “ningún problema en achicar el Estado” , siempre que esto se traduzca en una administración más eficiente. Así lo señaló durante una entrevista con Radio Universo, donde precisó que esta afirmación corresponde a su opinión política y no a un objetivo formal dentro de la revisión de activos prescindibles que realiza el Gobierno. Evaluación sobre la venta de participación en sanitarias Durante la conversación, la autoridad fue consultada sobre la posible venta de la participación estatal en las empresas sanitarias Aguas Andinas, Essbio, Esval y Suralis. Previamente, en declaraciones a BioBioChile , Mas había señalado que los recursos públicos deben mantenerse en movimiento y orientarse hacia la venta de activos prescindibles que puedan mejorar la calidad de vida de la ciudadanía. El ministro reiteró que, tanto él como Bernardo Fontaine, han descartado la venta de Codelco a capitales privados, aunque confirmó que la compañía está evaluando qué activos y pertenencias mineras podrían considerarse prescindibles para su operación. Respecto a la participación en las sanitarias, Mas indicó: “Lo que estamos mirando en general, en todos los ministerios, es activos prescindibles” , y explicó, en conversació con Radio Universo , que en el caso de Corfo se evalúa cómo estructurar ese proceso para maximizar la recaudación en beneficio de la ciudadanía. Consultado sobre si esta estrategia implica “achicar el Estado”, el biministro respondió que los recursos obtenidos podrían destinarse a otros activos más rentables o estratégicos, y concluyó: “Yo no tengo ningún problema en achicar el Estado si es un Estado que es más eficiente, que es más eficaz y que llega con mejores soluciones a todos los chilenos”. Lo más leído ",
-          "resaltado": false
-        },
-        {
-          "texto": "CMPC",
-          "resaltado": true
-        },
-        {
-          "texto": " repunta operacionalmente pero utilidad semestral se hunde 74% hasta US$ 33 millones Tiroteo en Tailandia: Estudiante ataca a sus abuelos y a cinco docentes en su colegio \"Ningún problema en achicar el Estado\": La medida que baraja el Biministro Daniel Mas en pos de la \"eficiencia\" La feria de artes visuales más grande de Chile confirma su versión 2026 y da a conocer nombres de 203 expositores “Esto no va a ser sufrido como lo de Quiroz”: Presidente de la Cámara anticipa amplio respaldo a proyectos de seguridad",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://media.cnnchile.com/2026/08/daniel-mas-venta-activos-estatales-sanitarias.jpg-768x432.jpg",
-      "autor": "Digitalproserver",
-      "fechaReal": null,
-      "analisis": {
-        "version": 3,
-        "sentimiento": "positiva",
-        "polaridad": 0.5,
-        "score": 3,
-        "keywords": [
-          "achicar",
-          "activos",
-          "ningun",
-          "problema",
-          "biministro",
-          "prescindibles",
-          "venta",
-          "daniel",
-          "participacion",
-          "sanitarias"
-        ],
-        "categorias": [
-          "presupuesto-recursos",
-          "institucional-vocerias"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "CMPC",
-          "US"
-        ],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 55,
-        "tipo": "institucional",
-        "ambito": "nacional",
-        "cantidadPalabras": 394,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 2
-      }
-    },
-    {
-      "id": "https://g5noticias.cl/2026/08/07/conaf-abre-postulaciones-para-labores-de-combate-de-incendios-forestales-2026-2027",
-      "url": "https://g5noticias.cl/2026/08/07/conaf-abre-postulaciones-para-labores-de-combate-de-incendios-forestales-2026-2027/",
-      "medioId": "g5noticias",
-      "medioNombre": "G5noticias",
-      "seccionId": "regional",
-      "titular": "CONAF abre postulaciones para labores de combate de incendios forestales 2026-2027",
-      "fecha": "2026-08-07T16:26:19.000Z",
-      "fechaDeteccion": "2026-08-07T17:10:24.473Z",
-      "extracto": [
-        {
-          "texto": "La institución ha dispuesto más de 3 mil cupos distribuidos en 13 regiones del país, a fin de trabajar en el área de control de estos siniestros durante el período de mayor ocurrencia. La ",
-          "resaltado": false
-        },
-        {
-          "texto": "Corporación Nacional Forestal",
-          "resaltado": true
-        },
-        {
-          "texto": " (",
-          "resaltado": false
-        },
-        {
-          "texto": "CONAF",
-          "resaltado": true
-        },
-        {
-          "texto": ") abrió la convocatoria de brigadistas forestales para el periodo de mayor ocurrencia de incendios forestales 2026-2027. Este año, se han dispuesto más de 3 mil cupos para postulaciones en las regiones de Atacama, Coquimbo, Valparaíso, Metropolitana, O’Higgins, Maule, Ñuble, Biobío, La Araucanía, Los Ríos, Los Lagos, Aysén y Magallanes. Las personas interesadas podrán acceder a los formularios de inscripción por región, además de conocer el perfil del cargo y los pasos de selección, a través del sitio web oficial de ",
-          "resaltado": false
-        },
-        {
-          "texto": "CONAF",
-          "resaltado": true
-        },
-        {
-          "texto": " ( www.",
-          "resaltado": false
-        },
-        {
-          "texto": "conaf",
-          "resaltado": true
-        },
-        {
-          "texto": ".cl [1]). Al respecto, el ministro de Agricultura, Jaime Campos, indicó que “los brigadistas forestales de ",
-          "resaltado": false
-        },
-        {
-          "texto": "CONAF",
-          "resaltado": true
-        },
-        {
-          "texto": " defienden lo que no se puede reemplazar, estamos hablando de la vida de las personas, de la naturaleza, de los bosques y sus bienes. Ese es el trabajo de nuestras brigadas, por eso estamos haciendo este llamado a postular a las personas que sientan ese compromiso de protección hacía nuestras comunidades, con el mundo rural, en distintas regiones del país. Son más de tres mil puestos de trabajo, en distintas áreas de control de los incendios forestales a los cuales se puede postular en diferentes regiones de nuestro país”. Por su parte, la directora ejecutiva de ",
-          "resaltado": false
-        },
-        {
-          "texto": "CONAF",
-          "resaltado": true
-        },
-        {
-          "texto": ", Aída Baldini, invitó también a participar de esta actividad, “inscribiéndose en los formularios para los cargos que deseen desempeñar en la región que escojan. El trámite es bien amigable, y los interesados pueden encontrar toda la información en el sitio web de la institución. Trabajar en el control de los incendios forestales es tener espíritu de servicio público, de protección de la naturaleza y de entrega hacia los demás”. Dentro de los requisitos que tendrán que cumplir las y los postulantes se consideran poseer una salud compatible con las funciones encomendadas, no registrar antecedentes penales de ningún tipo y educación básica completa, entre otros. La postulación de los brigadistas contempla seis etapas: convocatoria, recepción de antecedentes, verificación de requisitos, evaluaciones (físicas, técnicas, psicolaborales), selección y contratación. La convocatoria se mantendrá abierta hasta completar los cupos disponibles. Los postulantes a brigadistas que resulten seleccionados recibirán capacitación especializada en comportamiento del fuego, uso de herramientas y equipos, seguridad y protocolos operativos, además de entrenamiento práctico en terreno con instructores de amplia experiencia nacional e internacional que les permita una operación óptima de cara a la nueva temporada de incendios que se avecina.",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://g5noticias.cl/wp-content/uploads/2026/08/imagen-noticia-1.jpg",
-      "autor": null,
-      "fechaReal": "2026-08-07T16:26:19.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "positiva",
-        "polaridad": 0.33,
-        "score": 1,
-        "keywords": [
-          "conaf",
-          "forestales",
-          "regiones",
-          "brigadistas",
-          "incendios",
-          "mil",
-          "cupos",
-          "pais",
-          "control",
-          "convocatoria"
-        ],
-        "categorias": [
-          "incendios-forestales",
-          "parques-asp",
-          "educacion-ambiental"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "CONAF",
-          "conaf"
-        ],
-        "lugares": [],
-        "regiones": [
-          "araucania",
-          "atacama",
-          "biobio",
-          "coquimbo",
-          "maule",
-          "metropolitana",
-          "nuble",
-          "valparaiso"
-        ],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "medio",
-        "prioridad": 2,
-        "importancia": 70,
-        "tipo": "emergencia",
-        "ambito": "regional",
-        "cantidadPalabras": 428,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 2
-      }
-    },
-    {
-      "id": "https://www.df.cl/empresas/industria/cmpc-tras-complicaciones-de-proyecto-natureza-en-brasil-hemos-sido",
-      "url": "https://www.df.cl/empresas/industria/cmpc-tras-complicaciones-de-proyecto-natureza-en-brasil-hemos-sido",
-      "medioId": "diario-financiero",
-      "medioNombre": "Diario Financiero",
-      "seccionId": "digital",
-      "titular": "CMPC tras complicaciones de proyecto Natureza en Brasil: \"Hemos sido realmente cuidadosos, trabajando duro en todos los pasos que necesitamos para aprobar esto\"",
-      "fecha": "2026-08-07T16:18:00.000Z",
-      "fechaDeteccion": "2026-08-07T17:10:24.473Z",
-      "extracto": [
-        {
-          "texto": "CMPC",
-          "resaltado": true
-        },
-        {
-          "texto": " tras complicaciones de proyecto Natureza en Brasil: \"Hemos sido realmente cuidadosos, trabajando duro en todos los pasos que necesitamos para aprobar esto\"",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://www.df.cl/noticias/site/artic/20260807/imag/foto_0000000620260807115201/Captura_de_pantalla_2026-08-07_a_las_11.png",
-      "autor": "Catalina Vicuña",
-      "fechaReal": null,
-      "analisis": {
-        "version": 3,
-        "sentimiento": "neutra",
-        "polaridad": 0,
-        "score": 0,
-        "keywords": [
-          "link",
-          "txt",
-          "fotofija",
-          "comun600",
-          "bajada",
-          "titular"
-        ],
-        "categorias": [],
-        "personas": [],
-        "organizaciones": [],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 50,
-        "tipo": "informativa",
-        "ambito": "internacional",
-        "cantidadPalabras": 35,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 1
-      }
     }
   ],
   "resolucionesGoogle": {
@@ -70142,15 +70087,15 @@
     "CBMi2AFBVV95cUxQNkRoZThqaHdZdWZoSGVBblJiV3hyd0xSLXY5V25UaXA1U1N2VGx5eGJzNDI2b1E1Q3JNUHJBdEVYZEt1a0E1TGQxbmEtWTh0UmJ6YVFHc0JrRmlra1dtR2lmRTFVSF9vU3VPZ0JQSU40ZDJRSjdPTXlCNGtVbGdlb2gwZzhhWGhOMkkzclJjZWdrUDQxQTdYRkVlNk5SRmxNOUNwMmxxejZTRDdaLXo3dzdsbUlMUFJPbXJNQUZXYzlaUWdNMVU5VTZlVXFLdTNSYzE0clNqYTE": "https://sence.gob.cl/personas/noticias/miercoles-19-de-agosto-reclutamiento-para-sector-forestal-en-plataforma-laboral-del-sence-la-araucania",
     "CBMi2wFBVV95cUxOazdNd09jZ0NieGdGSnRjSXpyYzJPQTg2TGdhNjJNdmprSXpBc0UzMUhhaUhRc0w2OUVGcHZnbXdRcmQ0bnpaWV9XVUFlUnV0TjFDXzU1YUItNlU0TU0wYWlrYUd4V2FjMlFiU2ZIbEE4TDVKU09tdWEyaXRHNWgwdGxxOURocEtKSHBvNHEtU01kQ2NRcjVmMEdBblBaUTFqUUotbjM2V0pmNER6VGZYZFdGUFBDcmZZVlk0WE1VRGowNHNRdElpLUI5MjRkV1U5N1VzNWlneVNkOEHSAe8BQVVfeXFMTllkdnRXMWJJVVZRZEtLSFFIaUhadEJWeHJIeU05blFicHV0dDJWM2xRNGxNSnBlNVVmLUxmYmFKZmxKZWVPZnZ4Ui11UkZRV05qZHFMNmEwNmM5eDIyTnBwZ0pCc0N0ZmRvOHdZTmxTNUk3bWdaX0ZFMlFkbU45Ml9EWllDZUhtdWtwVG1SNkJvRGp0MzNHRnU2ZWNtUkR3TnVUQ1JqNDBUQllxWWxuc01xeUZjbVR2UHpGNGg5NWRPelAzUGttajBNUVFicGJ0dTMzbzBPaXVnS3RHMVppT0dpUnJ1TnM3dllzUkl2cDQ": "https://www.adnradio.cl/2026/08/21/conaf-denuncia-ingreso-ilegal-de-motos-de-nieve-a-reserva-en-la-araucania-y-alerta-por-dano-a-flora-y-fauna/",
     "CBMi3AFBVV95cUxQejBBRHJEaXl0WlFMdzQxSmpLVGJrMnhuUG1RaVVTUUxOODFjcjRfdGU2Nmk1WDNBZktLQmdjcm85dGRxUVAtSDR1WktXR2ozZzlQYkktMzIwUmVobEs0LU1mdkQ5UXR5dHB3dmtpb1p0Ui1QWDQ3Z1laSDR3TWFHZU90VkFjNlJXRFd6bDZtOHJmMWZUUnQ5ajJhdG1zY3ViRHRGdTVsS3NwR3JJd3V3Uk02Z21DTzdGZGZISVJyWjhZM1hVUXdxbWYwMEQ3UU9GVXBsUEdkV1RXb3lf0gH-AUFVX3lxTFBsdjEteTVwTkhwZG5qaF8ya0s0N2xsdjNuMUZzcHFhc2RNQ2dqdkxIdktaNTFTRUxkMzN5d29kN1BmMnExanJIR2NxOFJWbGt1WWRucmJIZjkwenhjWTZISDQ1OW1RZU9uMWxSdTFYU1BPMmVFYUtrTE1FelRPcEl4emdES0paLV8ydmJtNFA1T1RfLW9NTzV6YS1fTHJ0UFN2ZnQ0TU1WUXFEMkVJX2N2QXNXVm1Bbkd0eW9sbTF6YmU2dzNjSTdnRjJnOXNPY1h0dTBmZE9zRnFPS2RBNlplaG1RT2NXSnROYkg3VkhENG1VbWxzdXdGZjdaaGFn": "https://www.latercera.com/nacional/noticia/conaf-denuncia-presencia-de-motos-de-nieve-en-actividades-ilegales-en-reserva-nacional-malalcaguello/",
-    "CBMi4gFBVV95cUxOMU9LZGFIc0UtWklkTm91UXhjbTExa1VENGEtM2w0bnRVMnZBSXZXcGt4elpXTEFPMXB6TUJocnNqSGxreVBRb2c0ZzFEMlJIZDFWT1p4b2xsNlczeFdXVy1maW1SWjRCb0RMRU0zU0V1a1JaU1pLZTliVHRySmI0NTl3cl8yZDd6UFd5dm5xNkFyNFZhbkhqaHBVTEJKZk1vNm91aVFXZUNqVEpUd2dhWEV5VW15OVlXb3F2SXp6bzZCSWN1YzFIWkVfbWpyaXZBRWlqWGwxNlhveWFxZkxLTVNB0gHqAUFVX3lxTE43SWlzUWQyQTM3cGZqUFNydWw0U3g0Yk9fVEgyM2lxWVdZVE5wZE80cUpwWmZiSU1MX1NvN3BlQkExQXpHcjZHNUZGekhvZlA0OEdOZTBwcHlNV25PU1ctNGJwdlN0TTRZbFZzMm1GNlg1NUVtOFk0Um5DcUdEeGZJaWFkX0ZaSWlCTlIwR194Sm5RMTBhb1pjWGJMRzFGRGloUUJBTVVTZ0I3YWVSZWFrcnpwQ3E3Skl0aEcwRXlCZ3pNR3BkTUV0cjNXMU1rMHBVeDZpRWZEX2YtOWpBTlV5dzh0VmlUSzB0UQ": "https://www.diarioconcepcion.cl/politica/2026/06/29/crisis-en-sector-forestal-congresistas-plantean-ideas-para-reactivar-la-industria-en-biobio.html",
+    "CBMi4gFBVV95cUxPdXM4ZU9kR0NIZ2tKQ0wzajNza0tMRzB3UFhqOF9pRlE5Sjh2Q2ZNenlBUjJ0YkpERVZqYnRxMFF2TW1RRjJ2bEs4M1JmUFRVdnFxVzd5WG1JeF94ZXNlcnhIZ2dUaFBHdzR5TXpMYVc2VDl2RTdmN0wzcW8tN3h3SzV0UGs3RkNsaUlpZUZnTG03WlNrQkdOYkM2dWtHNkhlQl94SHUwMUU4UTlUYl92YzZ4QWVUMDQ3OHhZcEZRZXg2cU0tZ2VxamcyRGlTNFJEeE0zVXVUc3pzMEtZY0VJczJR0gHiAUFVX3lxTE4tWmRvLS1JOFc4ZXRfc2p2VktQYURzVmI4VzdWS0RzeTVJQXQ0QUNUSEEyVXc4V2swLVVPTVUwN1pyaWhXMlNyOU81Y2pYVkxVU05GMG1ZelZoN3lXTHFHUXhjd0RJOU5KTEs4a2RHU05naUMzdlNzR25scWk5cjg2WVZqdkdCQlYtMVhIWlZ3X1dTWExkTkJPTkxVWjMydnh2MTZxTGM5bHZTZHBONlJ0YzJfWnlrd3hKeURvWUhLdWJ5S2lJdFZEcU03RVRzVV9hbHBidzY5TnN6TWRSZ2w0Mnc": "https://www.lasexta.com/noticias/sociedad/estabilizado-incendio-forestal-segorbe-haber-calcinado-630-hectareas_202608236a8a98da71b42a0b5d002491.html",
     "CBMi4wFBVV95cUxOMjduN0dZUFVxNTllWnBGN0t3UFJ2VGwycWFrT0xEc2ZBcVFEdXRrakN4Y1hPZVgtS3N2ekxiek5ESjlnWjd3NEZkQ21nX3VyendhX2RpU0pJUllNRHNoRC1Ma052cHljUzRJUW1ZTjFIV1NUcDQxMTVac2QzQjVnNWhRWVdrR2xUM25xVVpMLVVvcGZoaC1fd2p0aG5TWVdVcUtQLVhmUTdibEVfWDBVcGpBNWFSdF80cHljY1RnYXFON1RzOGFkMEZtSzRGVlVEY1Vnb3dTT1NXT1hFTW1mdWFNSQ": "https://sence.gob.cl/personas/noticias/miercoles-19-de-agosto-reclutamiento-laboral-para-sector-forestal-en-plataforma-laboral-del-sence-la-araucania",
     "CBMi4wFBVV95cUxOcVBxc3Z3eXRINm5meWR4UEdnUXpBbHdnZ0twNTV4SjdrS05GajFDUDI3M0xOdHRZbS1OMzBrbzJVamVoVHJGMEhaRzREaDZTWUVIdk5VZk05XzNPNnVVeHpyTndobU9JWU5tbEJLdGo1VU15aXVGbEZaVWpHaURaaU9VZUNUYWVZbzJEYWdNcU9UTUZ4SHc3c1h2U2hkTk1LV0o1dm00Qng3S1NCc2I1SDRsNDREX2JXWW9YX3VBX0dOSHVTbTU5bGdZMWE4djNVT1NHcklGY3ZaSG82YmdMN2kzRQ": "https://www.nubleactual.cl/region-de-nuble/conaf-entrega-boro-a-productores-forestales-de-quirihue-para-potenciar-desarrollo-de-plantaciones-jovenes/",
     "CBMi6wFBVV95cUxORmlQSV9qNHhveklweTlGM2ItREJTU0tJeGhmZXVUWGZsODQ2WGRMTHA1SmdNMHVKSXZNVHVYOHJYLXIzSjZMYlhwX2MxRUJ5Q1lHNG85anRwMUdCbFFWendWYl9xR2Z0Q1kwQlRadVVTMnBOY3lNaWNxd24tcEZzN2RWd0JGZzVnaktPS3U1MG5JRE9sdkRmVGRPVTdpRmdiei1ETk9vUWpwSU8yZ2VTTm9QSHU5eXJjMkJwblZSUjAxZjVwUjZyMHBQZFFnaFNad0FrNDkzanBxX3FCUFVqTGpPb0FmUkVCMnRF": "https://www.paiscircular.cl/empresa-e-innovacion/certificacion-forestal-puerta-de-entrada-a-consumidores-y-mercados-exigentes-en-materia-de-sostenibilidad/",
     "CBMi7AFBVV95cUxPNkMzb19kdGlfem11LTNqYUlhemFwNUZ1TUZiODdNS0RDTTlPWEk5WGV3LWdMaTNROXRCZlRwaU94cmV4OEpwc0dndnNWSkhqRnZuZG81cEZwZ0loaTI5bGJhejZnV25IenVDTkQ0SFNzRHhkbzNpUFZMY09KY29SNGw1Um1tTThNZC0tTkI1aTZEbjV6aGk1UjJ4WTc3RHltc25VTHhmX2NEd0tzVTZuUWNIeHFFZnhTeHc0VFpMcldKM21KQmNmTkhaRF9LV1dGTWh5MmdnV05yaWU4M3hEYUNDbWtlODFTbE9adg": "https://www.biobiochile.cl/noticias/nacional/region-de-nuble/2026/08/18/trabajador-forestal-muere-tras-recibir-golpe-de-arbol-que-talaba-en-cobquecura.shtml",
     "CBMi7wFBVV95cUxQUEN1NWVmZG9RWk1wbzBaSk5YbWtNMGpfYW93cEJZdldxZ3hfckZta2sxQTFCdzBUT1NmRmtkdEQ2VnNSNE5PazQzb3BkcW1ReGp4TGh5VVZmMUMwX0J6Ql9Wa2NxX0VmSzBNVG5fVTJKUXpXYm9feHNaVEw4eWh2QWVpOGJtMzBFZDJEellzN2xhSkN1LWRqbEJfN3Bid1lUdmlrdVN2R1dqd3laYTc3LVFtUmR4WFV3dUdVSkw2WGJnclVoeFFwZVlHX2g0RFczWm16WEJ3NVV3ektXSFNydmtjWW1BYUF1SjN3TGd5UdIBjAFBVV95cUxPVTV5UHJnZVFkcHdBcXk2eGZ4N3NPLTRpemhVbVN1Q1BfSVlLMVktWG1nbW9SUkxoNEZ2X2lDSmF0OGdQSUR4QnJ6UkJUaVZQNlhJN2FrSUEzWl9fVG52VmNYU0xPTzIzT0NNNjRsaklTNC1xRHRMTko2SERxM3lFRURXanhKTHBDS19Icg": "https://www.cooperativa.cl/noticias/pais/region-de-la-araucania/conaf-denuncio-ingreso-ilegal-de-motos-de-nieve-y-danos-a-araucarias-en/2026-08-21/160122.html",
+    "CBMi7wFBVV95cUxQVlllQWVOcG9vVlpRSGtXbUJINHNPR0RPWDc1MFp1SEU5ZmJqMWU1QlRhU2NSQWxKOGplOXl6ZUVnNU1RTDh1cTBnT1BaVDJsUUZGcGVfTXkzQlRiZUJkOTlfN21UVWx5OTdmaGhtcVRydS1pbHpOQ1ZDWk1JWXFodV9yVkppXzNXMzNDc3NCMXBfTEdvamp0a0RKNXZHS0VEenJhOG5KZlNET2VxRlBldHBjZXNLZWdwcDVVLXF6NC1iQlo2dVN5cmRfWjRTSkpSbUR0N0ZzODE0ZVZ3V1YwUTA0ZVN2dFZUY2JPVGZ6NNIBgwJBVV95cUxOTEVvLWlnOFJPc1Z1V1lWUndiOXhhZWUycXhJS0JwOGdQNTNHT2FaRDhIMVUzalM5cVlOa21VTWpzejM2b2FsWV9Ud1g2NU12YVZsaU9OekxHUklVQUxfQk9ERTl1QXFyTFVvQnFlN3gzTzFaamdvdU9UVDdzZUttREhQUGtLUjBBRXhNOWREem93amVUTHRoYU9VZ2tydUtMSl9MYWQ2ZDhZcXNha1lzX2dFM2pLd1ZETkJfeVk4WUt0c0ZOSDh4MHVHTTNaN3UyNXd4X3l2dk1wYjVFcHI3S0YtSk42X0pLYWdKTDJFZDlXMlRXOEd2bEYtWi1PY0FnVGV3": "https://elpais.com/espana/comunidad-valenciana/2026-08-23/estabilizado-el-incendio-forestal-de-segorbe-tras-calcinar-630-hectareas-en-la-sierra-calderona.html",
     "CBMi8gFBVV95cUxQekVPWko2d0dVaUZjQm1aUk1iNlV6bmM2YkUzX1ZpZjFfWGxUMEVGY0RRT2VIQU5leXpvNHBOZ3A5dml4MTM4c3Y3ZE43a3QyZDhlSXFSXzF2cE13YjBfRTd5cHU1M3ZTc25GQ08xOV91cWo4d1pDMEZOM1VpUVQ5bU55ZEl6OV9zTjlHSUMwR19HTWh3MGlRSGVka1BESXJ5dGdzS1pwX21aU3lkNWNPZ0RBMndjNm1URnZmYTIwWTQzVkwwUC1odGZoVGhYNl95bGtJNG1Ld015X2NlcE5aZFRTMlVSclRlWkZicC1SNFNNZw": "https://www.ciperchile.cl/2026/07/25/megaincendio-de-valparaiso-pdi-concluye-que-funcionario-de-conaf-ordeno-anotar-alertas-de-evacuacion-falsas-en-la-bitacora/",
     "CBMi9gFBVV95cUxQbEJJQWwxcXVxSzJYY21wSFc5aTloazRqVnNiX1VzQU0tYkpBSHFXQ1VJUzU0d1IxcVlKTXFiWnV5NWotQmszVFRRNXY4UkFxR0VGS2VBeTZ1R0VZdjZVZGRQSERGb3BrbmswaDI5cUZ0QWNJVTRtdC13Uk10dnlzTVZvS1Q1akdDTkJpX29aSkE0dnlMR1ZtXzF4LVF0QUVZOFRSTWhTX0Q2bU9jcWdFekNSU2pWQzFiNW5DTW5TZ3V2UDRXWC01WVhwM1F0Mk5VMXAxRUhRc2IyOTQ4QzdVR2xUWlhyME9QN00zYUdXNUhiSXpMdXfSAZcCQVVfeXFMTlgyajZvUmt6Nzl0V0ZpWk42bzNpdzJDQnNNaEhCN01aVWpqMGhwdE9CVW9WZmxCYkZ5OFp2T0VDczBxSkR0NFdVR2FKM2ItV1Zwd2p5NXZqTWdxSVZ1M3ltS3hHYmoxVjZKQU4wcm1naGVLQjVXbTZoWFJoTWtxdWZOSDIyVGsyeXYtcHk3N3B1cFFuTHYwVnJXVF9rd09hREVrc2FzQ01Xc29XaHpyTkJ0YWFRdzBFeDZNRmd3Z0diOFhOQ3ROZlJxai1pQlZfLS00Xzc5aXRWM2VrdU9iN0F1MFlackxIcXRHUEx4cC1ZbjhQWDk1bmNjNFlNQng1cS1HejJxeFAxYjBfSDdEWUtUMEp3ZHRj": "https://www.latercera.com/nacional/noticia/cuasidelito-de-homicidio-exjefes-conaf-seran-formalizados-el-lunes-por-fallida-evacuacion-en-megaincendio-de-valparaiso/",
-    "CBMi9wFBVV95cUxNSHpXZ1dRN0RNVEVjWEt1MTNnUmRRRy1rZmh4QmpnSnNTd0JNc2pqU0hwNVNWY0ZmSF9wMWpBMTZFei11QWZqdEFWUDR0TTNXZjdjMGV3ZkZ6N3JvMlZCbjl3U3hGWjk0eHlENmhDX1NkUGV2eGZCbml1dTcxaG5QOHRCUVl5QVlrazJCUFlKaVMxcDNDUTduT0FUTGwtSl84TDJWbjZfa3FBcExFeDRHcnRDTFcxU0RuUnlFXzFGWXU0VkFHUzVBcTRNLXJlSGZxcF85MGFvUGFnSjhpWDhGNkhBb2xSdjZ4UVN6c1ZhN05PRjMwMXBn": "https://www.meteored.com.ar/noticias/ciencia/que-la-naturaleza-haga-su-trabajo-la-regeneracion-forestal-natural-podria-reducir-los-costos-de-restauracion-en-un.html",
     "CBMi9wFBVV95cUxQZlR5dmFGVDVwOGFvTFVGVHhscVFObzlzUWVfUzE5TFhzalltY21sa19QODVQZ1VxTXhQTlFJY0JPNEx2dWRlZ1RMNDVQTGdQZUJCbUR4d1dqRzJ5aGxrTW1VV1AwOHU3elRBM1Vqb0I2bTR3Q2kybXhvMkVYZ1hiM0hPTEkyVjAxckNCejl3VXdTY3hoYTk5eHhNeEx5aC1BRzhmRmowR2lLMGdvRDlaZmQ0ZnhETWJZZ0JrSElNYmhWSHBwVGM5MllIRWVsNE1DX05jWFdOTGJrNU5LUmlYQ0NjU0FJcHF4TEkwR1cwQlpsOVFOZkNv": "https://soydeosorno.cl/2026/08/22/operacion-alerta-forestal-pdi-detiene-a-7-personas-por-tala-sustraccion-de-bosque-nativo-y-usurpacion-de-terrenos-en-puerto-varas/",
     "CBMi9wFBVV95cUxQbXB3YjEtTHZrM3FIWXdWcDRmbDl0WW1DOERuQkUzZk8xV1NUS3hMckJCX2J3MW5JZzRtZFJZNEhBaC1na2UzaTYtdUNkRWJFWHNYOGVobmQ0LW5VZjlKMVgtZ3R5WHZzbDNwYVBMcDlhejRKRWduMlprWW9DZklQSUg0Q3pKRzJoa1J5d29sVE9ZRnM2VGdKVDJRMWtVblUzN1BmOHdOb3poY21taWFkWkU0Y01ZRUgxM1ROSVl6dHVWenptNmRxWnJId0hvMHlCdWlzd3lLei1meDlFeXo0ZDNPM3RmNHdlN1RXTExaNWVpOE5wOE1v": "https://mma.gob.cl/seremi-del-medio-ambiente-nuble-conaf-y-sbap-abordan-avances-ambientales-y-fortalecimiento-de-la-gestion-de-la-reserva-los-huemules-del-niblinto/",
     "CBMiYEFVX3lxTE8yeTRnU2ZtRUhpeFl3eGEzR0l5YV9LSFFfYUU0TTdreGh5S2dzazR0ZndXWlludFFjWkt4Wm1sMDBwbUpsYnNvV0ItLWV0b2J4b29EUVZLekhkWFkzVGpiWQ": "https://www.observador.cl/empleos-conaf-valparaiso/",
@@ -70196,7 +70141,7 @@
     "CBMixgFBVV95cUxPZ2NXYjJtR2Izd1FjaXFkSHE1c0RZajBCYXZWWDlDSXBnUzNEU1ZndW9SRjFubE9UYlYwbksxYmVTR0UtYUxfNGlYRlVySkRZbDJ0Z1ZHY3Y3M1l0YXZFbUEwclktZ1cxMFpjTjhnUi1TMDJsUTVyTFgwVkwxU1VWTjI5UzdEYklaVm9PTEZZV0hKMmlvT0x1UThoT0hZMldBb2t2OGFGUHNuMGxqeEVQWVNJVkVnZ3BaMURzMmJ5Ym9kVjJ4Wnc": "https://www.radiopolar.com/gobierno-regional-renovo-concesion-conaf-terreno-san-juan-construira-base-brigada-centro-informacion",
     "CBMixwFBVV95cUxNV0tYa2d4NS1LeUt1SzROTllpdE9ZaGFsUVNIN1JMa0FnbTBiV24ybERwb3UyNzV6UlMyVW1BdUNybjRvVkJrMDNldkRDeGh6YU42Um1uUEhUNVhlVlcwUWJ0N1pkZUJhbVA0bWtZc25NZnVuT1h6ZkJvNjliYW1mV3F3dW4tOVp2VmNpNzJyakxoWFZTZS1EWGNiOURfLTEyZFlZODJKTnVPNU5VUWVpbE5EWGNZcHJ1c1E0cW8wRi13NDljVXh30gHoAUFVX3lxTFB5bUZpaG8wcjNRR0FOMC00cGZfOGV6NUdXTWt2MHhMWHlmXzdEQ0V2MG4tNXM2MFMtR256aHEtQ0paUnNsQmthaEVtNFpRTUtnd1FZbUloNFdnSkxEeVdweTliQ0liZHBiMm1HR1RDSjcxS05NeGlHNFRhTlEwYU5GUzFZSjBrNW81UjZxa1BsLUM5dnJaS2FCbi13Z2Y0YlZlblFLTDd2Z0UzbDZvSGhTN21DYlpVMmpRVGZLNEpPZDJIUDV1R0VHNkdYbUxLYmE2dGFHbWk4dlJ0M2hQaGhkRlhHamNtRHM": "https://www.latercera.com/pulso/noticia/utilidades-de-cmpc-se-desploman-74-en-el-semestre-pero-ingresos-se-mantuvieron-estables/",
     "CBMiyAFBVV95cUxPOExkdVFmTkFJMTNQVVpsLVN1cjZUTkhFUG9qUU8zZE5iUnJNdWlhOW1DNzFJQU9SS05wZWlTNGlRald4Z1hmcFFONjJxNmdNbFF4RG90TGhJQ0t3elFyXy1wc0RGN25KX2lpdXFfeGVzQVR6Z2g3M2ZDWWZKZEVoOWhEcU1GX0FFdzNxNjMzYlNNbno4VlFEREgzUERUMzVJZ0NVYzREekQ4aG12M3pEZzJxa2JfWkpLMlJ0aFRDbF9fZnNtTGZYZNIB6gFBVV95cUxOUjJzWHRUNzdiVTNwd0xsLS1FMUQ3Zl9mTUZlRjNIR091Sk9zRDhheXhJZGdRX09hVUpzdmZEMnVIZjdPOWRaOUprRjA4ejNKSGNGNEdjdmljT1ZyWm5zWnFSYXRidGZWUWJORjlyS3YwZm9tb2gxbEFkenR0RmFoOGkySFZZeExzdUR4cUp3YjdBaGRqd1FTUFBrZFJsSW1QcVJFVTF5QXlnQUZ3VTQwc0FPS1pCNXZwVFZScl82ZkVUclA1dlZzNFVkMmMzN2d5Tjc1MV9uaXZiQlN6dGw1QVNhamtzVW9VMVE": "https://www.latercera.com/pulso/noticia/cmpc-redefine-los-plazos-para-obtener-los-permisos-de-su-megaproyecto-natureza-en-brasil/",
-    "CBMiyAFBVV95cUxPbElzcWktSHRaSDBEclNNZVFzRThBN0NoVDFyZlRRM2ZUZEctZlpaLWNHWVNTQkhWRVV6Z3pFbXlYUGg1bGpHVS1XU2lhMy1nMWNSWUdSLW5mMmU3Z292bGZxa3lucU92ak05TkQyS215R1VNOUxHQnlUTms2RXFBZFpDN0FkLUFTSlpyQXlTMkJ0Z3hCdm1vb3NrM0ZFV1FFdnlqXzJ3RWhNTjJnSlpQZ2dIUUgtM0xvVVZ3NnZNbFM1S01JTUp6MQ": "https://www.informacion.es/opinion/cartas-de-los-lectores/2026/08/22/llamas-radiografia-legislacion-forestal-llega-133554630.html",
+    "CBMiyAFBVV95cUxPbElzcWktSHRaSDBEclNNZVFzRThBN0NoVDFyZlRRM2ZUZEctZlpaLWNHWVNTQkhWRVV6Z3pFbXlYUGg1bGpHVS1XU2lhMy1nMWNSWUdSLW5mMmU3Z292bGZxa3lucU92ak05TkQyS215R1VNOUxHQnlUTms2RXFBZFpDN0FkLUFTSlpyQXlTMkJ0Z3hCdm1vb3NrM0ZFV1FFdnlqXzJ3RWhNTjJnSlpQZ2dIUUgtM0xvVVZ3NnZNbFM1S01JTUp6MdIBzgFBVV95cUxQLVEzN3FyRS0tSEhOQkFEZVFrTTVZSEVMNTM0MDVKbzM3cm1rTnp4M2ZOZDhnWTEtYU9NUlMwbVNlYklrcHpRMzR0VFJTbVNGUl9LWjJlZkRpZkZrVHNMZjdTamlXMExFc3RMbzF0aVpweVp6OUFSTWowamxob1pfbUJ0RlN3UTBGOXhqUXJrbTRtakVSSWlDRUNHWVJNY21GUXNXeDZjQkVyaktjU2VxWldoOUwyQm9RLVRJTzZkWTNJN05MQkJpR05wakluQQ": "https://www.informacion.es/opinion/cartas-de-los-lectores/2026/08/22/llamas-radiografia-legislacion-forestal-llega-133554630.html",
     "CBMizgFBVV95cUxQUUllRzk5OHZjY3lpMDdpUzlGM3pReFpET0NxRjdRRlI3SHR2SGFiWnpRTWFyUVY5UlpXS0tuSVVKUFNGdENFbFlkaDd1Tmc2OHNEMm9QYktEbVlGMngyWkR0aXlOeDB3QW9YODdmemRyY0c5NFR6aHY1NXBSUHdlekNkX3lVZXRYdXdJM0Y0VGdiQkhQTjJPaThuLUxkVWtNZ1VHUTBqTlExNW1KdFZoMG9UUll3T2lhcnh6bXFnN051NDdmbTQyLXlaSEtQQQ": "https://www.itvpatagonia.com/noticias/regional/22-08-2026/servicio-de-biodiversidad-prepara-transicion-de-torres-del-paine-para-2027/"
   },
   "sitemapVisto": {
@@ -70228,7 +70173,6 @@
       "https://www.meganoticias.cl/mundo/529960-tiktok-acuerdo-millonario-eeuu-demanda-privacidad-infantil-coppa-21-08-2026.html",
       "https://www.meganoticias.cl/mundo/529971-lula-llama-trump-aranceles-eeuu-brasil-dialogo-21-08-2026.html",
       "https://www.meganoticias.cl/mundo/529984-jueza-de-eeuu-anula-la-suspension-de-visas-impuesta-por-donald-trump-a-75-paises-22-08-2026.html",
-      "https://www.meganoticias.cl/nacional/529872-armas-municiones-fusil-cuatro-detenidos-operativo-carabineros-el-bosque-21-08-2026.html",
       "https://www.meganoticias.cl/nacional/529873-accidente-ruta-5-sur-militar-fallecido-tres-heridos-ejercito-los-angeles-21-08-2026.html",
       "https://www.meganoticias.cl/nacional/529874-detienen-mujer-robos-macul-nunoa-incautan-auto-penalolen-21-08-2026.html",
       "https://www.meganoticias.cl/nacional/529876-fatal-accidente-termina-con-un-fallecido-y-auto-calcinado-en-el-monte-ruta-78-colision-21-08-2026.html",
@@ -71096,103 +71040,71 @@
     ],
     "radio-polar": [
       "https://www.radiopolar.com/agrupacion-pacientes-oncologicos-magallanes-reitero-necesidad-contar-espacio-labor-comunitaria",
-      "https://www.radiopolar.com/alcalde-porvenir-pide-destrabar-observaciones-contraloria-avanzar-viviendas-sociales-integradas",
       "https://www.radiopolar.com/amenaza-multas-fiscalia-ve-obligada-reconocer-gobernador-flies-imputado-investigado",
-      "https://www.radiopolar.com/anef-magallanes-inaugurara-terceras-olimpiadas-deportivas-30-servicios-publicos-participantes",
+      "https://www.radiopolar.com/amigo-familia",
       "https://www.radiopolar.com/antonio-walker-aborda-desafios-ganaderia-magallanes",
       "https://www.radiopolar.com/auren-aborda-punta-arenas-alcances-reforma-tributaria-oportunidades-empresas-inversionistas-24-agosto",
       "https://www.radiopolar.com/autoridad-maritima-incauta-199-gramos-cannabis-operativo-fiscalizacion-bahia-carrera",
-      "https://www.radiopolar.com/avanza-proceso-recuperacion-terrenos-toma-lautaro",
-      "https://www.radiopolar.com/buscas-feria-laboral-sence-2026-ofrecera-450-oportunidades-laborales-punta-arenas",
       "https://www.radiopolar.com/carabineros-detecta-clandestino-venta-alcohol-denuncia-ruidos-molestos-punta-arenas",
       "https://www.radiopolar.com/cartelera-cultural-21-agosto",
       "https://www.radiopolar.com/cft-magallanes-anuncia-carreras-avanza-ampliacion-oferta-formativa-region",
       "https://www.radiopolar.com/chile-argentina-actualizan-estrategia-conservar-ranitas-darwin",
       "https://www.radiopolar.com/cientificos-chilenos-avanzan-desarrollo-vacuna-enfermedad-afecta-salmon",
       "https://www.radiopolar.com/cocina-ancestral-soberania-alimentaria-marcaron-capitulo-cuentan-antiguos",
-      "https://www.radiopolar.com/colegio-profesores-advierte-pretexto-pausar-slep-busca-detener-fortalecimiento-educacion-publica-razones-ideologicas",
       "https://www.radiopolar.com/columna-opinion-mes-solidaridad-solo-emergencia",
       "https://www.radiopolar.com/columna-opinion-plebiscito",
       "https://www.radiopolar.com/comision-nacional-leche-analiza-recuperacion-sector-define-prioridades-2026-2027",
       "https://www.radiopolar.com/comision-rree-camara-aprueba-comercial-chile-trinidad-tobago",
       "https://www.radiopolar.com/conaf-abre-proceso-postulacion-brigadistas-forestales-temporada-2026-2027-magallanes",
-      "https://www.radiopolar.com/cormag-ist-impulsan-bienestar-empleabilidad-personas-busqueda",
-      "https://www.radiopolar.com/declaracion-publica-colegio-profesoras-profesores-regional-magallanes-ag-exige-respuestas-concretas-situacion-liceo-maria-behety-menendez",
       "https://www.radiopolar.com/delegacion-antartica-chilena-conmemora-215-anos-ministerio-interior-ceremonia-puerto-williams",
       "https://www.radiopolar.com/delegacion-chilena-destaca-conferencia-internacional-ciencia-antartica-noruega",
-      "https://www.radiopolar.com/dicrep-magallanes-realizara-remate-online-alhajas-objetos",
       "https://www.radiopolar.com/diputado-alejandro-riquelme-busca-impulsar-vuelos-directos-magallanes-brasil",
       "https://www.radiopolar.com/diputado-riquelme-apunta-director-serviu-gobernador-proyecto-habitacional-observado-porvenir",
-      "https://www.radiopolar.com/director-carabineros-respalda-creacion-escuela-formacion-provisoria-magallanes-impulsada-senador-karim-bianchi",
       "https://www.radiopolar.com/division-ejercito-puso-prueba-capacidad-sostenimiento-logistico-tierra-fuego",
-      "https://www.radiopolar.com/duenos-predio-cerraron-acceso-captacion-agua-abastece-habitantes-porvenir-corte-ordeno-abrirlo",
       "https://www.radiopolar.com/edelmag-realiza-trabajos-preventivos-poda-sec-seremi-energia",
-      "https://www.radiopolar.com/emprendedores-pymes-participan-jornada-pladeco-cabo-hornos",
-      "https://www.radiopolar.com/enami-universidad-magallanes-firman-convenio-laboratorio-analisis-oro",
-      "https://www.radiopolar.com/encuentro-empresarial-magallanes-supera-90-inscritos-prepara-agenda-centrada-inversion-desarrollo-regional",
       "https://www.radiopolar.com/equipo-legal-embarcacion-bandera-britanica-incautada-puerto-natales-rechaza-comercial",
       "https://www.radiopolar.com/escuela-elba-ojeda-gomez-rio-seco-english-week-2026-actividades-interactivas",
-      "https://www.radiopolar.com/escuela-formacion-carabineros-magallanes-terreno-entregado-comienzan-estudios-futura-construccion",
       "https://www.radiopolar.com/escuelas-protegidas-ministra-educacion-aclara-revision-mochilas-voluntaria-debera-contemplada-reglamentos-colegio",
       "https://www.radiopolar.com/estudio-techo-chile-revela-mayoria-hogares-vuelve-informalidad-desalojos-campamentos",
       "https://www.radiopolar.com/exjefe-regional-desvinculado-reemplazado-juzgado-punta-arenas-ordena-millonaria-indemnizacion",
       "https://www.radiopolar.com/feria-acercara-servicios-domiciliarios-apoyo-adultos-mayores-punta-arenas",
-      "https://www.radiopolar.com/festival-juventud-reunira-ninos-ninas-jovenes-cabo-hornos",
       "https://www.radiopolar.com/fiscalizacion-carabineros-senda-detecta-conductor-ebrio-positivo-cocaina-punta-arenas",
       "https://www.radiopolar.com/fosis-abre-postulaciones-programa-emprendamos-grupal-autogestionado",
       "https://www.radiopolar.com/frente-estudiantil-amplio-inicia-despliegue-magallanes-busca-fortalecer-organizacion-juvenil",
-      "https://www.radiopolar.com/funcionarios-division-fiscalizacion-actualizan-procedimientos-inspeccion-transporte-maritimo-prt",
       "https://www.radiopolar.com/fundacion-hijos-inicia-colecta-nacional-2026-apoyar-familias-enfrentan-cancer-infantil",
       "https://www.radiopolar.com/gasco-magallanes-plan-revision-medidores-llamo-regularizar-casos-puntuales-seguridad",
       "https://www.radiopolar.com/gobierno-presenta-resultados-quinta-convocatoria-subsidio-electrico-magallanes-suma-1450-hogares-beneficiados",
-      "https://www.radiopolar.com/gobierno-regional-apuesta-fortalecer-economia-antartica-posicionar-magallanes-plataforma-estrategica",
       "https://www.radiopolar.com/gobierno-regional-renovo-concesion-conaf-terreno-san-juan-construira-base-brigada-centro-informacion",
       "https://www.radiopolar.com/hacia-salud-natales-municipio-destina-terreno-cesfam-lidera-plan-integral-mental",
       "https://www.radiopolar.com/inacap-punta-arenas-reune-mujeres-referentes-sector-energetico-abordar-oportunidades-desafios-industria",
-      "https://www.radiopolar.com/indh-presento-informe-complementario-comite-onu-examina-cumplimiento-obligaciones-chile-personas-discapacidad",
       "https://www.radiopolar.com/inicia-retiro-invitaciones-eduardo-manos-tijera",
       "https://www.radiopolar.com/iniciaron-busqueda-terrenos-emplazamiento-planta-aguas-puerto-williams",
       "https://www.radiopolar.com/invitan-comunidad-magallanica-participar-jurado-ciudadano-feria-antartica-escolar-2026",
       "https://www.radiopolar.com/iva-brigada-aerea-acerco-estudiantes-punta-arenas-oportunidades-ofrece-fuerza-chile-futuro",
       "https://www.radiopolar.com/juventud-rn-magallanes-aborda-distanciamiento-jovenes-politica-llama-recuperar-espacios-participacion",
       "https://www.radiopolar.com/kauyeken-realiza-cuarto-taller-creacion-textil-comunitaria-rio-verde",
-      "https://www.radiopolar.com/kipaventour-patagonie-analizo-desafios-turismo-regional-promocion-internacional-asociatividad-magallanes",
       "https://www.radiopolar.com/laureado-tributo-mon-laferte-viernes-dreams-punta-arenas",
-      "https://www.radiopolar.com/mesa-magallanes-avanza-sesion-integrando-gremios-productivos-plan-reactivacion-laboral",
       "https://www.radiopolar.com/muestra-antartica-66-latitud-sur-frontera-llega-parque-estrecho",
-      "https://www.radiopolar.com/mujeres-jefas-hogar-fortalecen-emprendimientos-innovacion-digital-punta-arenas",
       "https://www.radiopolar.com/municipalidad-punta-arenas-premio-agrupaciones-destacadas-carnaval-invierno-2026",
       "https://www.radiopolar.com/municipio-entrega-subvenciones-11-agrupaciones-sociales-punta-arenas",
-      "https://www.radiopolar.com/municipio-punta-arenas-invita-jornada-co-creacion-proyectos-postulacion-fondo-climatico",
       "https://www.radiopolar.com/municipio-sexta-feria-inclusiva-zona-austral",
       "https://www.radiopolar.com/nadadora-punta-arenas-maite-anos-vargas-nominada-seleccion-chilena-copa-sierras-club-2026",
       "https://www.radiopolar.com/natalia-easton-asume-consul-honoraria-paises-bajos-magallanes",
       "https://www.radiopolar.com/participar-magallanes-100-palabras-convocatoria-cierra-lunes-24-agosto",
       "https://www.radiopolar.com/personas-mayores-celebraran-tradiciones-encuentro-folclorico-raices-oro",
-      "https://www.radiopolar.com/prochile-destaca-crecimiento-exportaciones-pesqueras-magallanes-abre-oportunidades-mercados-internacionales",
       "https://www.radiopolar.com/proyecto-telares-vive-exitoso-lanzamiento-inicia-transformacion-interdisciplinaria-umag",
       "https://www.radiopolar.com/proyectos-impulsaran-rehabilitacion-personas-parkinson-educacion-inmersiva-ninos-adolescentes-magallanes",
-      "https://www.radiopolar.com/red-formativa-celebrara-aniversario-expo-deportiva-abierta-comunidad-punta-arenas",
       "https://www.radiopolar.com/reinsercion-social-juvenil-participa-feria-preventiva-liceo-politecnico-cardenal-raul-silva-henriquez",
-      "https://www.radiopolar.com/ruta-medica-inicia-recorrido-atender-personas-situacion-calle-punta-arenas",
-      "https://www.radiopolar.com/salud-magallanes-colegio-medico-coordinan-acciones-reducir-tiempos-espera",
       "https://www.radiopolar.com/santo-tomas-otorga-beca-deportista-destacado-estudiantes",
       "https://www.radiopolar.com/senador-kusanovic-coordina-mop-avance-proyectos-estrategicos-magallanes",
-      "https://www.radiopolar.com/senador-kusanovic-respalda-gestion-directorio-epa-cuestiona-filtraciones-informacion-confidencial",
+      "https://www.radiopolar.com/senda-magallanes-certifico-trabajadores-zona-austral-programa-parentalidad",
       "https://www.radiopolar.com/seremi-economia-valora-aporte-alvarez-desarrollo-productivo-puerto-natales",
       "https://www.radiopolar.com/seremi-justicia-destaca-avances-legislativos-pro-reinsercion-seguridad-publica",
-      "https://www.radiopolar.com/seremi-salud-refuerza-medidas-preventivas-deteccion-casos-norovirus-magallanes",
-      "https://www.radiopolar.com/seremi-seguridad-publica-asegura-diagnostico-paso-anuncia-acciones-delincuencia-magallanes",
       "https://www.radiopolar.com/servicio-biodiversidad-prepara-terreno-integracion-parque-nacional-torres-paine",
-      "https://www.radiopolar.com/servicio-salud-hospital-naval-avanzan-cooperacion-interinstitucional",
       "https://www.radiopolar.com/servicio-salud-magallanes-invita-participar-feria-educativa-mes-ninez",
       "https://www.radiopolar.com/subdere-financia-capacitacion-3000-funcionarios-municipales-regionales-pais",
-      "https://www.radiopolar.com/subjefe-conjunto-revista-inspectiva-iva-brigada-aerea",
-      "https://www.radiopolar.com/suprema-confirma-absolucion-exejecutivos-salmonera-nova-austral-acusados-contaminacion-aguas-porvenir",
       "https://www.radiopolar.com/tic-carabineros-magallanes-aborda-avances-tecnologicos-responsable-inteligencia-artificial",
       "https://www.radiopolar.com/travesia-austral-ofrece-talleres-gratuitos-danza-ninos-jovenes-adultos-punta-arenas",
-      "https://www.radiopolar.com/tributo-dreams-punta-arenas-vibrara-ritmo-exitos-ke-personajes",
-      "https://www.radiopolar.com/viaje-memoria-vladimiro-mimica-llega-punta-arenas-21-agosto",
       "https://www.radiopolar.com/voces-centenario-carabineros-acerca-musica-faceta-labor-comunidad-puerto-williams",
       "https://www.radiopolar.com/whalesound-fortalece-vinculos-autoridades-nacionales-ciencia-innovacion"
     ]
