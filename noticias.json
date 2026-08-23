@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-08-23T10:43:39.439Z",
+  "generadoEn": "2026-08-23T11:01:31.640Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -197,7 +197,39 @@
         }
       ],
       "imagen": null,
-      "analisis": null
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.67,
+        "score": -2,
+        "keywords": [
+          "detenido",
+          "presunto",
+          "autor",
+          "incendio",
+          "forestal",
+          "castellvi",
+          "marca",
+          "barcelona"
+        ],
+        "categorias": [
+          "incendios-forestales"
+        ],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 13,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
     },
     {
       "id": "https://cadenaser.com/navarra/2026/08/23/estabilizado-el-incendio-forestal-declarado-en-urzainki-radio-pamplona",
@@ -335,6 +367,85 @@
         "cantidadPalabras": 380,
         "cantidadParrafos": 1,
         "tiempoLectura": 2
+      }
+    },
+    {
+      "id": "https://www.radiopolar.com/eduardo-manos-tijera-cautiva-publico-xxviii-feria-libro-dinko-pavlov",
+      "url": "https://www.radiopolar.com/eduardo-manos-tijera-cautiva-publico-xxviii-feria-libro-dinko-pavlov",
+      "medioId": "radio-polar",
+      "medioNombre": "Radio Polar",
+      "seccionId": "radio",
+      "titular": "“EDUARDO MANOS DE TIJERA” CAUTIVA AL PÚBLICO EN EL SEGUNDO DÍA DE LA XXVIII FERIA DEL LIBRO DINKO PAVLOV",
+      "fecha": "2026-08-23T07:00:00.000Z",
+      "fechaDeteccion": "2026-08-23T11:01:31.640Z",
+      "extracto": [
+        {
+          "texto": "(...) ",
+          "resaltado": false
+        },
+        {
+          "texto": "editoriales. ​La tradicional feria literaria de Punta Arenas continuó este sábado con funciones a sala llena de la obra presentada por el elenco del Teatro Municipal, además de cuentacuentos, libros y la participación de 17 stands de editoriales. 23/08/2026 07:00 PESCADORES Y ACUICULTORES ARTESANALES AFECTADOS POR SISTEMAS FRONTALES PUEDEN POSTULAR A FONDO DE INDESPA 23/08/2026 06:00 Noticias Destacadas FENATRAMA PIDE PARTICIPACIÓN DE LOS TRABAJADORES ANTE EVENTUAL REFORMA AL ESTATUTO ADMINISTRATIVO 23/08/2026 05:00 SENDA MAGALLANES CERTIFICÓ A TRABAJADORES DE ZONA AUSTRAL EN PROGRAMA DE PARENTALIDAD 22/08/2026 23:00 “EDUARDO MANOS DE TIJERA” CAUTIVA AL PÚBLICO EN EL SEGUNDO DÍA DE LA XXVIII FERIA DEL LIBRO DINKO PAVLOV 23/08/2026 07:00 PESCADORES Y ACUICULTORES ARTESANALES AFECTADOS POR SISTEMAS FRONTALES PUEDEN POSTULAR A FONDO DE INDESPA 23/08/2026 06:00 FENATRAMA PIDE PARTICIPACIÓN DE LOS TRABAJADORES ANTE EVENTUAL REFORMA AL ESTATUTO ADMINISTRATIVO 23/08/2026 05:00 COLUMNA DE OPINIÓN | LA VICARÍA DE LA SOLIDARIDAD, 50 AÑOS EN LA MEMORIA AGRADECIDA DE NUESTRO PUEBLO 23/08/2026 04:00 EL AMIGO DE LA FAMILIA 23/08/2026 03:00 SENDA MAGALLANES CERTIFICÓ A TRABAJADORES DE ZONA AUSTRAL EN PROGRAMA DE PARENTALIDAD 22/08/2026 23:00 SUBDERE FINANCIA CAPACITACIÓN DE MÁS DE 3.000 FUNCIONARIOS MUNICIPALES Y REGIONALES DE TODO EL PAÍS 22/08/2026 22:00 COCINA ANCESTRAL Y SOBERANÍA ALIMENTARIA MARCARON EL PRIMER CAPÍTULO DE “CUENTAN LOS ANTIGUOS” 22/08/2026 21:00 ESTUDIO DE TECHO-CHILE REVELA QUE MAYORÍA DE HOGARES VUELVE A LA INFORMALIDAD TRAS DESALOJOS DE CAMPAMENTOS 22/08/2026 20:30 INVITAN A LA COMUNIDAD MAGALLÁNICA A PARTICIPAR COMO JURADO CIUDADANO DE LA FERIA ANTÁRTICA ESCOLAR 2026 22/08/2026 20:00 COLUMNA DE OPINIÓN | ¿PLEBISCITO O ACUERDO? 22/08/2026 19:30 NADADORA DE PUNTA ARENAS MAITE AÑOS VARGAS ES NOMINADA A LA SELECCIÓN CHILENA PARA LA COPA SIERRAS CLUB 2026 22/08/2026 19:03 AUTORIDAD MARÍTIMA INCAUTA 199 GRAMOS DE CANNABIS DURANTE OPERATIVO DE FISCALIZACIÓN EN BAHÍA CARRERA 22/08/2026 19:00 ESCUELA ELBA OJEDA GÓMEZ DE RÍO SECO REALIZÓ ENGLISH WEEK 2026 CON ACTIVIDADES INTERACTIVAS 22/08/2026 18:30 MUESTRA ANTÁRTICA “66° LATITUD SUR, LA ÚLTIMA FRONTERA” LLEGA AL PARQUE DEL ESTRECHO 22/08/2026 18:00 CFT MAGALLANES ANUNCIA NUEVAS CARRERAS Y AVANZA EN LA AMPLIACIÓN DE SU OFERTA FORMATIVA EN LA REGIÓN 22/08/2026 17:30 MUNICIPIO REALIZÓ SEXTA FERIA INCLUSIVA EN ZONA AUSTRAL 22/08/2026 17:00 SERVICIO DE BIODIVERSIDAD PREPARA EN TERRENO INTEGRACIÓN DEL ",
+          "resaltado": false
+        },
+        {
+          "texto": "PARQUE NACIONAL",
+          "resaltado": true
+        },
+        {
+          "texto": " TORRES DEL PAINE 22/08/2026 16:00 TIC DE CARABINEROS EN MAGALLANES ABORDA AVANCES TECNOLÓGICOS Y USO RESPONSABLE DE LA INTELIGENCIA ARTIFICIAL 22/08/2026 15:00 SENADOR KUSANOVIC COORDINA CON EL MOP AVANCE DE PROYECTOS ESTRATÉGICOS PARA MAGALLANES 22/08/2026 14:00 CIENTÍFICOS CHILENOS AVAN",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/658d9f90f0909def6c18fa2c/mediaLibrary/photo/16b93b1b-cb63-4e42-b959-bdf9c5bea6a6-extra-large-standard-q100.jpeg?v=1787476260",
+      "autor": null,
+      "fechaReal": "2026-08-23T11:00:00.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "positiva",
+        "polaridad": 0.67,
+        "score": 2,
+        "keywords": [
+          "2026",
+          "feria",
+          "punta",
+          "arenas",
+          "libro",
+          "participacion",
+          "publico",
+          "segundo",
+          "xxviii",
+          "dinko"
+        ],
+        "categorias": [
+          "parques-asp",
+          "comunidades-territorio",
+          "fiscalizacion"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "AL",
+          "BLICO",
+          "DE",
+          "EL",
+          "EN",
+          "MANOS",
+          "TIJERA",
+          "carabineros"
+        ],
+        "lugares": [],
+        "regiones": [
+          "magallanes"
+        ],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 55,
+        "tipo": "informativa",
+        "ambito": "regional",
+        "cantidadPalabras": 834,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 4
       }
     },
     {
@@ -70025,67 +70136,6 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 1
       }
-    },
-    {
-      "id": "https://www.cnnchile.com/negocios/cmpc-repunta-operacionalmente-pero-utilidad-semestral-se-hunde-74-hasta-us33-millones",
-      "url": "https://www.cnnchile.com/negocios/cmpc-repunta-operacionalmente-pero-utilidad-semestral-se-hunde-74-hasta-us33-millones/",
-      "medioId": "cnn-chile",
-      "medioNombre": "CNN Chile",
-      "seccionId": "tv",
-      "titular": "CMPC repunta operacionalmente pero utilidad semestral se hunde 74% hasta US$ 33 millones",
-      "fecha": "2026-08-07T17:06:30.000Z",
-      "fechaDeteccion": "2026-08-07T17:10:24.473Z",
-      "extracto": [
-        {
-          "texto": "CMPC",
-          "resaltado": true
-        },
-        {
-          "texto": " repunta operacionalmente pero utilidad semestral se hunde 74% hasta US$ 33 millones",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://media.cnnchile.com/2026/08/cmpc-repunta-operacionalmente-pero-utilidad-semestral-se-hunde-74-hasta-us33-millones-e1786117734147-768x433.jpg",
-      "autor": "Digitalproserver",
-      "fechaReal": null,
-      "analisis": {
-        "version": 3,
-        "sentimiento": "neutra",
-        "polaridad": 0,
-        "score": 0,
-        "keywords": [
-          "millones",
-          "2025",
-          "trimestre",
-          "cmpc",
-          "semestral",
-          "ganancia",
-          "primer",
-          "semestre",
-          "caida",
-          "frente"
-        ],
-        "categorias": [],
-        "personas": [],
-        "organizaciones": [
-          "CMF",
-          "CMPC",
-          "EBITDA",
-          "US"
-        ],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 50,
-        "tipo": "informativa",
-        "ambito": "nacional",
-        "cantidadPalabras": 242,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 2
-      }
     }
   ],
   "resolucionesGoogle": {
@@ -70095,7 +70145,6 @@
     "CBMi1AFBVV95cUxPRnVzMXpOSDhiR0praTBUNlZkN3FUQVRfQ2Fub0k5SHJNMlpfUkZsanNCZ3lueVFQRThWMENvaGNmOG1FMGppX3M4MGNNV2dFcXRIYUp1SjBEb1FacGQ5VGxqMnAweEJCYzRKdElIM2hWY0Q2bjNXUk1EUloxTFNHNldtaTNBZndFREZDOUt0X1pMV3VKM0VUbFIydGJfUWxPenNrM3JIbEhwYy1DejZYVlZiVXU2S3cwdnQtU3dOTUZjekdNR3hNWmZRUnd4dndfZUVhYw": "https://www.noticiaslosrios.cl/2026/08/22/pdi-detiene-a-siete-personas-por-tala-de-bosque-nativo-y-usurpacion-de-terrenos-en-puerto-varas/",
     "CBMi1AFBVV95cUxQX0kzWG9FTFA2UzVHRjJDM1VpOVFuOXdCSlFKRXJZRy14MzNsNUZBRUNWWE8yRGZJNENxOW8tS0hHeFlObFQtOVV1MzB4T3FSaGkzdlRkVmVQekxYcFZVZVB2VUE5d2s3VkF1UzZaV3FCVnNCbVphZWw5Ym9jMS1CVUd5R0FvSFJzRFBSQk4zdGV0T3g1MUpTeG1BYWNqZWtMLXdTUWVhNkVaTTAxc0trcVJPejJqb2djWnlQQjRQdXIzQVZfVE9UZlFkVUxjcWxILS1PNw": "https://g5noticias.cl/2026/08/21/chile-comparte-en-bolivia-su-experiencia-de-conservacion-efectiva-y-avances-en-la-lista-verde-de-la-uicn/",
     "CBMi1wFBVV95cUxNN05lT2gzUjU2TnpoSGQ4M1BMdVNVTDVia01oUmFKQlQ0ZzNlQ1JuVVBHT1k3eWNrUXA3WTJISEJpa1pZRHMtRktVTGU4S0p2TUNDOHRGdzBvVGFmRi1HN2tYRmVjZlhxcGNKNEoxaWZEUzQtZzRaNUFTVkdfOUE5S0xkZnJXYU5sUERYUTFVNU9pNlJpc3pyQXNZT2pEVEZqWE5ybWNudjFZSjVXNnp5WF9tWXF0U0lycU0zN3dPSmUzRzJGMVVkaHJZWWYyYS1DTnlFbFU3VdIB8gFBVV95cUxQUGJzZHo2RDhXeE4wNkFhM1hBajJZVTkzYUoxS3NnOFpLZFdMME4zTnpETXY2S0E4ak1TM3hqVU9DVEVtUldGM2l3WDNGX2xEWlUyM3lKWUNOLXhYeDVmUkkwdVZuWDViNUZXQVUzSDV6Uzg0dnVqandPNnNxQURwS2NyV1VVa29McXRJMG5Selg2RWIwc2RTZ21NUG03MDJLcEhTNmdTWGticlM2THNqbFUwRGhIOF9JdE9WeUxIVzYwOVZ3eEdReERqZGJROVp6a21vUzFVbVFVZURGYzhRWEZWYWUtcEpFQ3E0bWktLWFpQQ": "https://www.infobae.com/espana/agencias/2026/08/23/un-incendio-forestal-en-padrenda-ourense-iniciado-este-domingo-ha-calcinado-20-hectareas/",
-    "CBMi2AFBVV95cUxNd2o1a3Z5Y3Mzc1ktbXIza3kxVDFZVGtwdWt0Ty1leVNlX3dISnBCX3U4QndGb3Racms2ZHRsVGJsTndCdzlMMmdtdC1oQnV1UDBmS2NNaGk1dUd0WEpUWTVCUEJkdlFVdDNHa1JFRnBOTXZqZU9QclJrQ2tpOVAzRkU2QUt0NXVWVThHblV1ZTRmTGhuTGxjWVQ2UjlPTXNVazN6S2QyNS1HN08wN2VzRklYMHpjMlZNdlprVU10X0tvMFdfcWY0YnAwRkJmOEt0Y0FfckpUQ3XSAfMBQVVfeXFMTlZMMmxKVjFkcmZwY01nVDlmQzZkSTZvTG9adWZQVGVZX0ZucGJxQWp2NnIwS1dpN0swS1g3Mk85MFNSWWh5T1FWb2pkWFlqSmpZc2hINnFtQ1VlUXBMMHN3Vzl3RXMtZmRsYmVULWxkdzJmdWpxdUVqd3M4eFlCNFVLOUFnblYyeUszSmRsOER6TEVHdXBwRmk0bVkxaGoxeGpLemd5d0Y1Ykl0U1ltQzdTdUpLTk9nVmZiS2xnN3NwQUtvMUE3STlhZWRsOUViY1B6V2M2RDl1NGJ2cHB2Q3RENjhmQmJhdGJheGxQYUNkNUxF": "https://www.infobae.com/espana/agencias/2026/08/23/un-detenido-acusado-de-incendio-forestal-imprudente-por-el-fuego-de-castellvi-de-la-marca/",
     "CBMi2AFBVV95cUxQNkRoZThqaHdZdWZoSGVBblJiV3hyd0xSLXY5V25UaXA1U1N2VGx5eGJzNDI2b1E1Q3JNUHJBdEVYZEt1a0E1TGQxbmEtWTh0UmJ6YVFHc0JrRmlra1dtR2lmRTFVSF9vU3VPZ0JQSU40ZDJRSjdPTXlCNGtVbGdlb2gwZzhhWGhOMkkzclJjZWdrUDQxQTdYRkVlNk5SRmxNOUNwMmxxejZTRDdaLXo3dzdsbUlMUFJPbXJNQUZXYzlaUWdNMVU5VTZlVXFLdTNSYzE0clNqYTE": "https://sence.gob.cl/personas/noticias/miercoles-19-de-agosto-reclutamiento-para-sector-forestal-en-plataforma-laboral-del-sence-la-araucania",
     "CBMi2wFBVV95cUxOazdNd09jZ0NieGdGSnRjSXpyYzJPQTg2TGdhNjJNdmprSXpBc0UzMUhhaUhRc0w2OUVGcHZnbXdRcmQ0bnpaWV9XVUFlUnV0TjFDXzU1YUItNlU0TU0wYWlrYUd4V2FjMlFiU2ZIbEE4TDVKU09tdWEyaXRHNWgwdGxxOURocEtKSHBvNHEtU01kQ2NRcjVmMEdBblBaUTFqUUotbjM2V0pmNER6VGZYZFdGUFBDcmZZVlk0WE1VRGowNHNRdElpLUI5MjRkV1U5N1VzNWlneVNkOEHSAe8BQVVfeXFMTllkdnRXMWJJVVZRZEtLSFFIaUhadEJWeHJIeU05blFicHV0dDJWM2xRNGxNSnBlNVVmLUxmYmFKZmxKZWVPZnZ4Ui11UkZRV05qZHFMNmEwNmM5eDIyTnBwZ0pCc0N0ZmRvOHdZTmxTNUk3bWdaX0ZFMlFkbU45Ml9EWllDZUhtdWtwVG1SNkJvRGp0MzNHRnU2ZWNtUkR3TnVUQ1JqNDBUQllxWWxuc01xeUZjbVR2UHpGNGg5NWRPelAzUGttajBNUVFicGJ0dTMzbzBPaXVnS3RHMVppT0dpUnJ1TnM3dllzUkl2cDQ": "https://www.adnradio.cl/2026/08/21/conaf-denuncia-ingreso-ilegal-de-motos-de-nieve-a-reserva-en-la-araucania-y-alerta-por-dano-a-flora-y-fauna/",
     "CBMi3AFBVV95cUxQejBBRHJEaXl0WlFMdzQxSmpLVGJrMnhuUG1RaVVTUUxOODFjcjRfdGU2Nmk1WDNBZktLQmdjcm85dGRxUVAtSDR1WktXR2ozZzlQYkktMzIwUmVobEs0LU1mdkQ5UXR5dHB3dmtpb1p0Ui1QWDQ3Z1laSDR3TWFHZU90VkFjNlJXRFd6bDZtOHJmMWZUUnQ5ajJhdG1zY3ViRHRGdTVsS3NwR3JJd3V3Uk02Z21DTzdGZGZISVJyWjhZM1hVUXdxbWYwMEQ3UU9GVXBsUEdkV1RXb3lf0gH-AUFVX3lxTFBsdjEteTVwTkhwZG5qaF8ya0s0N2xsdjNuMUZzcHFhc2RNQ2dqdkxIdktaNTFTRUxkMzN5d29kN1BmMnExanJIR2NxOFJWbGt1WWRucmJIZjkwenhjWTZISDQ1OW1RZU9uMWxSdTFYU1BPMmVFYUtrTE1FelRPcEl4emdES0paLV8ydmJtNFA1T1RfLW9NTzV6YS1fTHJ0UFN2ZnQ0TU1WUXFEMkVJX2N2QXNXVm1Bbkd0eW9sbTF6YmU2dzNjSTdnRjJnOXNPY1h0dTBmZE9zRnFPS2RBNlplaG1RT2NXSnROYkg3VkhENG1VbWxzdXdGZjdaaGFn": "https://www.latercera.com/nacional/noticia/conaf-denuncia-presencia-de-motos-de-nieve-en-actividades-ilegales-en-reserva-nacional-malalcaguello/",
@@ -70131,6 +70180,7 @@
     "CBMiqwFBVV95cUxQd3g1RDNUOEd5Yk9sQkVnWWZtOVNQNHVxd09iVHdvSGtoWkhocmZzZl8zRFhScmRzTDJaLTRULXVDVW5hZlJnUmZkYUppaHR4b2R2MzIwQk9odlE3QTVJaXkwOUFZcTRIRVAyMGcyNktBamJQY250Sk9TOWNhazNYRjd2UmpXNEpvUk5DQWpCTHQ1aU5NOGptX0w1bDZkV09fM3hUNmtwZkRPRms": "https://www.df.cl/empresas/industria/participacion-de-comunidades-enfrenta-a-cmpc-con-ministerio-publico-de",
     "CBMirAFBVV95cUxNMTlyR3RTdVQ5RDA3aHI3SXBFUGx6MjlnTjUzRWowbjU3Ym9PUHlaSjVVWVFLVVIxVjN1SzV3S2VEcGpyR0FDYTNqT1k1Qmx2SnVvLWtGN0VSTUkxd2xhSEJlbndtOXVINXBDMHJ0cmsyS1V0NHBJUkVqZmo5d0RrbFVKaUhJenh4eTZ5WUwteWRUYk5vR1dWVU9wbzhndTlxa0gwWFNFQ3FwcHMy": "https://forestal.uchile.cl/noticias/243806/red-internacional-impulsa-la-conservacion-genetica-de-los-bosques",
     "CBMirgFBVV95cUxNWktHcWkzeFlQdE9JYlVHSk85OWp4Ry05d01pVVY3dVRZOUJjMV9Oc0dBOWxJS0NCTklsN1hCYW5KOHdWY0NaMXJYeDRqRGl1WFY0eFNZTVdfQmNranRia1VMVUdlcV85OTREUzl6NTJxSTJKbUJGU1hYdFcyd1RXYXd4ZVRUTHpia3BzRklPbWxTNzRDQm1SWUg3cjI3elRmS2JYY1M2RGZUZXFIZ0E": "https://www.radionacional.co/actualidad/medio-ambiente/que-pasa-con-un-bosque-despues-de-un-incendio-forestal",
+    "CBMirgFBVV95cUxPSVlMdnBxTVB4YmtJejVGX096NHZtUWlhUDRtSldwUzBtbzB6Z1pyaXM5dUJVU0dUM1J1U01KZjlDLUZDT1JrWFloVGJtTF9kMk5IQlVEbVBmOEJkQm5fdFUwRFFrWUhXQ25qQTMteVVScHF3R2JfTGtySl9XeUl5VTZsMHgyMzVrUkZtY0Z4by01TEhUbXBjNmZSejNVSEV1eFlxT3BPeUhwZkJTT3c": "https://uchile.cl/noticias/242349/mac-parque-forestal-inauguro-su-segundo-ciclo-2026-con-seis-nuevas-muestras",
     "CBMirgFBVV95cUxQbFBfN3lGQjlBU0FxbThqakhNT2RZNlVvcjM0aERaTm5tSEhPUzFOWWRHMzRGSTR0LTFpQmp5MUMwWjhJMFRCZlp5WDI3M2JTOGg0NFNxcDdTSEl0eEp6T1ZiS2tyT0lMcWJEekVyRHE1MTR6SGFweWZMU2ttN3o4WDR4aVBGUjdiOWFQN2VHMmRRNjJrN2oxUzlaUENINXZzdHhSWmJRM05pNEd4OUE": "https://www.diarioconcepcion.cl/ciudad/2026/08/17/conaf-abre-postulaciones-brigadistas-forestales-biobio.html",
     "CBMirwFBVV95cUxOaXNhMDBWS2ozZm9UZzJ2UnVIUVBPS1lWSmZLTVpXNVVSdHphQzQ4U3pNaHZmakVQQ1l4U1VSWng5am1SSElDSUdjLWNqYnlERC1pSGJvT1ItcHF4ZXRlV3gwUzlWZTdEVDlMUV9LSXVwTjFvXzZRV2xSRzNfYldJS3MyRnRJTHgzNjJOWWpqbERlU29nNkw0OGZoY09QZFdwZ0VKVWd0SVlqRmpEbkNR": "https://www.radiouniversal.cl/conaf-denuncia-ingreso-ilegal-de-motos-de-nieve-a-reserva-nacional-malalcahuello",
     "CBMirwFBVV95cUxQRWlwMl9wYVhxQVduTDhiVmtWMWNIRUs0U3ZvMEt2SzQ3VUgwMV9zWGVPZF9ndi0zQk53WGNLZDBVdUtJY2JJTlltVDRQVHRPaFBiU29oazIyenM1M1htTElWLW9YX3Vrd01MMmg0R1dBdlFjV1dBSW5wZkhrbk1sRUdxcmlMak5KZlZnazRnaC1zMzJmQzNFQldwMmx5Vi1US2RFa2E1Wkswb285ZjFV0gG0AUFVX3lxTE9ma1ljb3RxMmVqN1plbTJLUW9IamtnbGM2VkJ0aE05RTVwNzdwVzJncVlydlBwWURMa3Z3MHVDZ0JYUlZjbUp5MjRTc3ZRREdpSF9WdkEwVk0xNVl1eXBIUWZ1aXNhQlg4Wmh6bVJvWkRPVnpQNVhzN0NKdExoc21CZUNZLS1lS2FSOHZ0dlgwT1ZmR1RDbWJwRmJBUXljdUxOOXZXOHpab2o3WlU2bjhFSGxrTQ": "https://www.24horas.cl/regiones/zona-sur/araucania/conaf-denuncia-motos-nieve-reserva-malalcahuello-araucarias",
@@ -70182,7 +70232,6 @@
       "https://www.meganoticias.cl/mundo/529960-tiktok-acuerdo-millonario-eeuu-demanda-privacidad-infantil-coppa-21-08-2026.html",
       "https://www.meganoticias.cl/mundo/529971-lula-llama-trump-aranceles-eeuu-brasil-dialogo-21-08-2026.html",
       "https://www.meganoticias.cl/mundo/529984-jueza-de-eeuu-anula-la-suspension-de-visas-impuesta-por-donald-trump-a-75-paises-22-08-2026.html",
-      "https://www.meganoticias.cl/nacional/529876-fatal-accidente-termina-con-un-fallecido-y-auto-calcinado-en-el-monte-ruta-78-colision-21-08-2026.html",
       "https://www.meganoticias.cl/nacional/529877-alza-precio-bencina-combustibles-cuanto-subira-fiestas-patrias-18-septiembre-21-08-2026.html",
       "https://www.meganoticias.cl/nacional/529879-alza-cuenta-luz-segundo-semestre-2026-comunas-en-que-mas-aumento-tarifas-21-08-2026.html",
       "https://www.meganoticias.cl/nacional/529880-campana-de-invierno-influenza-7-de-cada-10-personas-fallecidas-no-estaban-vacunadas-campana-de-invierno-21-08-2026.html",
@@ -71053,6 +71102,7 @@
       "https://www.radiopolar.com/diputado-riquelme-apunta-director-serviu-gobernador-proyecto-habitacional-observado-porvenir",
       "https://www.radiopolar.com/division-ejercito-puso-prueba-capacidad-sostenimiento-logistico-tierra-fuego",
       "https://www.radiopolar.com/edelmag-realiza-trabajos-preventivos-poda-sec-seremi-energia",
+      "https://www.radiopolar.com/eduardo-manos-tijera-cautiva-publico-xxviii-feria-libro-dinko-pavlov",
       "https://www.radiopolar.com/equipo-legal-embarcacion-bandera-britanica-incautada-puerto-natales-rechaza-comercial",
       "https://www.radiopolar.com/escuela-elba-ojeda-gomez-rio-seco-english-week-2026-actividades-interactivas",
       "https://www.radiopolar.com/escuelas-protegidas-ministra-educacion-aclara-revision-mochilas-voluntaria-debera-contemplada-reglamentos-colegio",
