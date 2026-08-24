@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-08-24T10:55:47.845Z",
+  "generadoEn": "2026-08-24T11:45:45.396Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -39,6 +39,75 @@
     }
   ],
   "noticias": [
+    {
+      "id": "https://rpp.pe/mundo/europa/belgica-incendio-forestal-en-el-este-sufre-varios-rebrotes-y-ya-alcanza-los-27-kilometros-de-extension-noticia-1703294",
+      "url": "https://rpp.pe/mundo/europa/belgica-incendio-forestal-en-el-este-sufre-varios-rebrotes-y-ya-alcanza-los-27-kilometros-de-extension-noticia-1703294",
+      "medioId": "rpp.pe",
+      "medioNombre": "RPP Noticias",
+      "seccionId": "internacional",
+      "titular": "Bélgica: incendio forestal en el este sufre varios rebrotes y ya alcanza los 27 kilómetros de extensión",
+      "fecha": "2026-08-24T11:34:32.000Z",
+      "fechaDeteccion": "2026-08-24T11:45:45.396Z",
+      "extracto": [
+        {
+          "texto": "Bélgica: incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " en el este sufre varios rebrotes y ya alcanza los 27 kilómetros de extensión",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://f.rpp-noticias.io/2026/08/24/193819_1899623.jpg?width=1200&quality=85",
+      "autor": "Agencia EFE",
+      "fechaReal": null,
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.6,
+        "score": -18,
+        "keywords": [
+          "belgica",
+          "incendios",
+          "europa",
+          "incendio",
+          "rebrotes",
+          "hautes",
+          "fagnes",
+          "fuego",
+          "belga",
+          "europea"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "emergencias",
+          "institucional-vocerias"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "EFE",
+          "RPP",
+          "agencia",
+          "bomberos"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 548,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 3
+      }
+    },
     {
       "id": "https://www.ellitoral.com/internacionales/incendioforestal-nevada-reno-evacuaciones-evacuados-42mil-heridos-victimas_0_5peNmrrT9A.html",
       "url": "https://www.ellitoral.com/internacionales/incendioforestal-nevada-reno-evacuaciones-evacuados-42mil-heridos-victimas_0_5peNmrrT9A.html",
@@ -70307,117 +70376,6 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 1
       }
-    },
-    {
-      "id": "https://www.latercera.com/sustentabilidad/noticia/director-del-sbap-sobre-permisos-ambientales-el-foco-ha-sido-la-calidad-tecnica-no-la-mera-agilizacion",
-      "url": "https://www.latercera.com/sustentabilidad/noticia/director-del-sbap-sobre-permisos-ambientales-el-foco-ha-sido-la-calidad-tecnica-no-la-mera-agilizacion/",
-      "medioId": "la-tercera",
-      "medioNombre": "La Tercera",
-      "seccionId": "escrita",
-      "titular": "Director del SBAP sobre permisos ambientales: “El foco ha sido la calidad técnica, no la mera agilización”",
-      "fecha": "2026-08-08T13:45:31.000Z",
-      "fechaDeteccion": "2026-08-08T14:00:20.408Z",
-      "extracto": [
-        {
-          "texto": "A casi cuatro meses del nombramiento de Saratscheff como director nacional del SBAP , y tras la entrada en operaciones de la institución en febrero de este año, el organismo realizó su primera Cuenta Pública Participativa. En la instancia presentó los principales avances en la implementación del nuevo sistema y los desafíos previstos para los próximos años. Al día siguiente, en el marco del Día Internacional del Guardaparque, el SBAP presentó el Plan de Gestión del Cambio 2026-2027 en el Centro de Información Ambiental del ",
-          "resaltado": false
-        },
-        {
-          "texto": "Parque Nacional",
-          "resaltado": true
-        },
-        {
-          "texto": " Río Clarillo. La iniciativa establece la hoja de ruta para el traspaso definitivo de las áreas silvestres protegidas desde la ",
-          "resaltado": false
-        },
-        {
-          "texto": "Corporación Nacional Forestal",
-          "resaltado": true
-        },
-        {
-          "texto": " (",
-          "resaltado": false
-        },
-        {
-          "texto": "Conaf",
-          "resaltado": true
-        },
-        {
-          "texto": ") al nuevo servicio, proceso cuya fecha se aplazó desde el 1 de agosto de 2026 hasta marzo de 2027. En conversación con Hub Sustentabilidad, Saratscheff abordó los principales desafíos de la nueva institucionalidad, las amenazas más urgentes para los ecosistemas y el papel que deberán desempeñar el sector privado y el Estado para fortalecer la conservación de la biodiversidad en el país. ¿Qué balance hace de estos primeros meses de implementación y cuáles son los desafíos y prioridades que tendrá su gestión? - El balance sin duda es positivo. Chile logra instalar la última pieza de una nueva institucionalidad ambiental que viene creándose desde el año 2010 a raíz de observaciones de la OCDE. A la fecha se ha avanzado en una hoja de ruta para implementar esta política de Estado, que ha contado con el apoyo transversal de los últimos seis gobiernos. Sabemos que aún quedan desafíos importantes, pero existe un compromiso transversal de las instituciones involucradas para que esta transición sea ordenada y exitosa. Hoy, la prioridad es avanzar en el proceso de Gestión del Cambio, producto del traspaso que se producirá de los guardaparques y de las áreas protegidas de ",
-          "resaltado": false
-        },
-        {
-          "texto": "CONAF",
-          "resaltado": true
-        },
-        {
-          "texto": " a este nuevo Servicio. Desarrollar herramientas de gestión, consolidar la presencia regional y establecer una forma de trabajo basada en criterios técnicos, coordinación interinstitucional y trabajo permanente con los distintos actores. El desafío es consolidar una institución eficiente, moderna y técnica que integra diferentes funciones y personas provenientes de diferentes instituciones, para liderar la gestión de la naturaleza en Chile. ¿Qué implica el traspaso de las áreas protegidas desde ",
-          "resaltado": false
-        },
-        {
-          "texto": "CONAF",
-          "resaltado": true
-        },
-        {
-          "texto": " al SBAP y cuáles son sus principales desafíos? - Este es uno de los procesos de implementación más importantes que ha vivido la institucionalidad ambiental en las últimas décadas. Por primera vez, Chile contará con un organismo especializado que administrará de manera integrada el Sistema Nacional de Áreas Protegidas (SNAP), lo que permitirá una planificación coherente, estándares comunes de",
-          "resaltado": false
-        },
-        {
-          "texto": " (...)",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://www.latercera.com/resizer/v2/VHIEHCKZGJGNXIRUX3EISFWLWY.JPG?auth=390300e3e749c951e393fcca3a756aad86ae072cce09d6c554c78de755a8cbf7&height=630&width=1200&smart=true",
-      "autor": "Paulina Reyes",
-      "fechaReal": "2026-08-08T13:45:31.885Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "negativa",
-        "polaridad": -0.67,
-        "score": -2,
-        "keywords": [
-          "areas",
-          "protegidas",
-          "nacional",
-          "gestion",
-          "sbap",
-          "traspaso",
-          "conaf",
-          "principales",
-          "desafios",
-          "nuevo"
-        ],
-        "categorias": [
-          "sbap-ley-21600",
-          "parques-asp",
-          "educacion-ambiental"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "AGOSTO",
-          "CONAF",
-          "OCDE",
-          "SBAP",
-          "SNAP",
-          "conaf"
-        ],
-        "lugares": [
-          "Guardaparque",
-          "Guardaparques",
-          "Parque Nacional Río Clarillo"
-        ],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "medio",
-        "prioridad": 2,
-        "importancia": 75,
-        "tipo": "informativa",
-        "ambito": "nacional",
-        "cantidadPalabras": 757,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 4
-      }
     }
   ],
   "resolucionesGoogle": {
@@ -70431,6 +70389,7 @@
     "CBMi2gFBVV95cUxPZ18wTTJPbWZnZkVERmUxRWR6aU9mN0JYbm5XSWMzVTBuNTRNNHFSVkxNd01iMXBMbzh3VWFkOExncGQtMlFXRzRZNjJjN0MySlpMY2dPVmlvaGJoZ0tGd2xsY21CbU9JOS1fMFd3cWY3ZGQwdHh4RHpfekFhWmhaeThTSFNOR3dmUEtZenNlVjlPYlJZZjc5SHBzend3RlRrRHEwYkxVVUR4aHV6M1lpOWF6X0tlMll1cnVWR0dhSHIyRlg3a1ZlcHM4bWtQNkstdVdJY25CUFh2QdIBjAFBVV95cUxOa0JlR1NHcnFKbndRZFVnaENxa1ZncURuSDBFVVNaMDJUQ3JlOTJMcTd2Vnh6c1FYVHA4Qk9oWEozRTlHUXVkV1ZhV01TMHpEeTVPQmtpQzlPdnA3X094Z0YyUnBKTVNsa2ZnZUpQeTVpa19zQkpYSzhsVjlSLWtJRFhKY3RodUNhSVNEMg": "https://www.cooperativa.cl/noticias/pais/policial/puerto-varas-siete-detenidos-en-operativo-por-tala-de-bosque-nativo-y/2026-08-23/125225.html",
     "CBMi3AFBVV95cUxQTmltMGdkbFZxNzZDZ254MWpWRFNGNVJ6c2dlMEUwOHZHTDFiU0Y2QkI2ck1EakpidmE3b2twai1aVFBYWUw4V2JOX1ByWG5qbE5hRjJkU2NMeFVBdk5tT3ZER2U0NzFjb2RNemc2VV9OT3B1V3RYbjBRMy0wa3k0MFRUWkpSQTYxMi1WTG54Tk0yUVc1YkpBajJXZUpNYzZFZmhHX29zTXByTmNnR1lqNVZfNzhqYk9OSG1xZzF6enhzZUlWMjBpVVJyQXVqZzdKa2VIZzNtaVpWc0Q5": "https://tierramarillano.cl/2026/08/23/plataforma-chile-finlandia-activa-su-gobernanza-y-profundiza-agenda-tecnologica-con-sectores-estrategicos/",
     "CBMi3AFBVV95cUxQejBBRHJEaXl0WlFMdzQxSmpLVGJrMnhuUG1RaVVTUUxOODFjcjRfdGU2Nmk1WDNBZktLQmdjcm85dGRxUVAtSDR1WktXR2ozZzlQYkktMzIwUmVobEs0LU1mdkQ5UXR5dHB3dmtpb1p0Ui1QWDQ3Z1laSDR3TWFHZU90VkFjNlJXRFd6bDZtOHJmMWZUUnQ5ajJhdG1zY3ViRHRGdTVsS3NwR3JJd3V3Uk02Z21DTzdGZGZISVJyWjhZM1hVUXdxbWYwMEQ3UU9GVXBsUEdkV1RXb3lf0gH-AUFVX3lxTFBsdjEteTVwTkhwZG5qaF8ya0s0N2xsdjNuMUZzcHFhc2RNQ2dqdkxIdktaNTFTRUxkMzN5d29kN1BmMnExanJIR2NxOFJWbGt1WWRucmJIZjkwenhjWTZISDQ1OW1RZU9uMWxSdTFYU1BPMmVFYUtrTE1FelRPcEl4emdES0paLV8ydmJtNFA1T1RfLW9NTzV6YS1fTHJ0UFN2ZnQ0TU1WUXFEMkVJX2N2QXNXVm1Bbkd0eW9sbTF6YmU2dzNjSTdnRjJnOXNPY1h0dTBmZE9zRnFPS2RBNlplaG1RT2NXSnROYkg3VkhENG1VbWxzdXdGZjdaaGFn": "https://www.latercera.com/nacional/noticia/conaf-denuncia-presencia-de-motos-de-nieve-en-actividades-ilegales-en-reserva-nacional-malalcaguello/",
+    "CBMi3wFBVV95cUxQZW81bm03VUt6TFU4cWdaQ3NpYmprblU2ek9JVlBNcXBpOXZaUTVKME1XX1dKRUlmbnFYZm9OZDRad0p4YXR2TVkwc2RlRmZrcDBzSmZxekFIQlRRRnRKR2dmdXE3SjhGMm1wQjdoTE14NkdNOWx5Sk9Qemk3TzZFMWxxT00tejkzalBCS3BvR2FxekZnM0V2M0tBWkpnUDFsbXZJR0RsaG1wcDh0YllBV0JuMl9wMW9IdXNwVVd3RjhKOHY4dHFlWHlLaU13dklTelMtZUxSM0ZxOHpqUG1N": "https://rpp.pe/mundo/europa/belgica-incendio-forestal-en-el-este-sufre-varios-rebrotes-y-ya-alcanza-los-27-kilometros-de-extension-noticia-1703294",
     "CBMi4AFBVV95cUxONE52MzhJdXJlVzBMWlF6NVowcXV1akFVV25oMC1CZmdPV29fSHdCZkV1MWlZazNiWVkzdHllWWtOQk1ucGpvSTBxLWpFTWI3RkdKdkNkTnpwY2NHdzlHSVhTdHIzak9KcjlNa003QmMtUzA2aU9pZ3NwQURMSmlsWDFmVkdtWWpHR1ZqU1c3Vmx2Y2RGWkVpdTQ4NVJLem1CemNjeWVNOHUtN3poRGJsVng4Z1NSeGNoc0dvTFFzTmIzNWl5amQyVFlVWExwcWQybjczdHlVSTI4RnlmXzlNVA": "https://www.independentespanol.com/noticias/eeuu/incendio-forestal-provocado-se-acerca-a-la-ciudad-de-reno-y-obliga-a-evacuar-a-miles-b3037885.html",
     "CBMi4gFBVV95cUxOMU9LZGFIc0UtWklkTm91UXhjbTExa1VENGEtM2w0bnRVMnZBSXZXcGt4elpXTEFPMXB6TUJocnNqSGxreVBRb2c0ZzFEMlJIZDFWT1p4b2xsNlczeFdXVy1maW1SWjRCb0RMRU0zU0V1a1JaU1pLZTliVHRySmI0NTl3cl8yZDd6UFd5dm5xNkFyNFZhbkhqaHBVTEJKZk1vNm91aVFXZUNqVEpUd2dhWEV5VW15OVlXb3F2SXp6bzZCSWN1YzFIWkVfbWpyaXZBRWlqWGwxNlhveWFxZkxLTVNB0gHqAUFVX3lxTE43SWlzUWQyQTM3cGZqUFNydWw0U3g0Yk9fVEgyM2lxWVdZVE5wZE80cUpwWmZiSU1MX1NvN3BlQkExQXpHcjZHNUZGekhvZlA0OEdOZTBwcHlNV25PU1ctNGJwdlN0TTRZbFZzMm1GNlg1NUVtOFk0Um5DcUdEeGZJaWFkX0ZaSWlCTlIwR194Sm5RMTBhb1pjWGJMRzFGRGloUUJBTVVTZ0I3YWVSZWFrcnpwQ3E3Skl0aEcwRXlCZ3pNR3BkTUV0cjNXMU1rMHBVeDZpRWZEX2YtOWpBTlV5dzh0VmlUSzB0UQ": "https://www.diarioconcepcion.cl/politica/2026/06/29/crisis-en-sector-forestal-congresistas-plantean-ideas-para-reactivar-la-industria-en-biobio.html",
     "CBMi4wFBVV95cUxOMjduN0dZUFVxNTllWnBGN0t3UFJ2VGwycWFrT0xEc2ZBcVFEdXRrakN4Y1hPZVgtS3N2ekxiek5ESjlnWjd3NEZkQ21nX3VyendhX2RpU0pJUllNRHNoRC1Ma052cHljUzRJUW1ZTjFIV1NUcDQxMTVac2QzQjVnNWhRWVdrR2xUM25xVVpMLVVvcGZoaC1fd2p0aG5TWVdVcUtQLVhmUTdibEVfWDBVcGpBNWFSdF80cHljY1RnYXFON1RzOGFkMEZtSzRGVlVEY1Vnb3dTT1NXT1hFTW1mdWFNSQ": "https://sence.gob.cl/personas/noticias/miercoles-19-de-agosto-reclutamiento-laboral-para-sector-forestal-en-plataforma-laboral-del-sence-la-araucania",
@@ -70443,7 +70402,6 @@
     "CBMi9gFBVV95cUxPZ2wybzFFOWNDNlBhMzhYbUJWMlRONk8yLXRxRk1GMmYyQW5YSFB3ZXJjMVRYU0tWcURGYThDUUtRRWZVQjZHTk9Nd1BRYjd5LWlPU3hBdVFXNWhBZXVBV1M3Uk42RHYtMFpvaUFyOU5SdmJDaWstRU9wejJzS0p3RjhrTlJoWUVUdzJYMlRrMTBsWVFFNEtqelRMb0JLMlA5NnVhV3F0STctNzRQVVU5cl9INjJvbUd4Zm01dE15UDUwNXpwSXdRS2lRelViN0wza1UxTzY3bDZDdHdmVkNtYWpmaHlDa04xRmZKZGZMLVAxZG1nVFE": "https://g5noticias.cl/2026/08/23/gobierno-regional-renovo-concesion-a-conaf-de-terreno-en-san-juan-donde-se-construira-una-base-de-brigada-y-centro-de-informacion/",
     "CBMi9gFBVV95cUxQbEJJQWwxcXVxSzJYY21wSFc5aTloazRqVnNiX1VzQU0tYkpBSHFXQ1VJUzU0d1IxcVlKTXFiWnV5NWotQmszVFRRNXY4UkFxR0VGS2VBeTZ1R0VZdjZVZGRQSERGb3BrbmswaDI5cUZ0QWNJVTRtdC13Uk10dnlzTVZvS1Q1akdDTkJpX29aSkE0dnlMR1ZtXzF4LVF0QUVZOFRSTWhTX0Q2bU9jcWdFekNSU2pWQzFiNW5DTW5TZ3V2UDRXWC01WVhwM1F0Mk5VMXAxRUhRc2IyOTQ4QzdVR2xUWlhyME9QN00zYUdXNUhiSXpMdXfSAZcCQVVfeXFMTlgyajZvUmt6Nzl0V0ZpWk42bzNpdzJDQnNNaEhCN01aVWpqMGhwdE9CVW9WZmxCYkZ5OFp2T0VDczBxSkR0NFdVR2FKM2ItV1Zwd2p5NXZqTWdxSVZ1M3ltS3hHYmoxVjZKQU4wcm1naGVLQjVXbTZoWFJoTWtxdWZOSDIyVGsyeXYtcHk3N3B1cFFuTHYwVnJXVF9rd09hREVrc2FzQ01Xc29XaHpyTkJ0YWFRdzBFeDZNRmd3Z0diOFhOQ3ROZlJxai1pQlZfLS00Xzc5aXRWM2VrdU9iN0F1MFlackxIcXRHUEx4cC1ZbjhQWDk1bmNjNFlNQng1cS1HejJxeFAxYjBfSDdEWUtUMEp3ZHRj": "https://www.latercera.com/nacional/noticia/cuasidelito-de-homicidio-exjefes-conaf-seran-formalizados-el-lunes-por-fallida-evacuacion-en-megaincendio-de-valparaiso/",
     "CBMi9wFBVV95cUxQZlR5dmFGVDVwOGFvTFVGVHhscVFObzlzUWVfUzE5TFhzalltY21sa19QODVQZ1VxTXhQTlFJY0JPNEx2dWRlZ1RMNDVQTGdQZUJCbUR4d1dqRzJ5aGxrTW1VV1AwOHU3elRBM1Vqb0I2bTR3Q2kybXhvMkVYZ1hiM0hPTEkyVjAxckNCejl3VXdTY3hoYTk5eHhNeEx5aC1BRzhmRmowR2lLMGdvRDlaZmQ0ZnhETWJZZ0JrSElNYmhWSHBwVGM5MllIRWVsNE1DX05jWFdOTGJrNU5LUmlYQ0NjU0FJcHF4TEkwR1cwQlpsOVFOZkNv": "https://soydeosorno.cl/2026/08/22/operacion-alerta-forestal-pdi-detiene-a-7-personas-por-tala-sustraccion-de-bosque-nativo-y-usurpacion-de-terrenos-en-puerto-varas/",
-    "CBMi_AFBVV95cUxOSFlKbjhfMmtuMjRwdG5RRktGMDJ2ajQ0TWlZR3hHQnBNN2g4OTE2Ym9WZG0wQXBVSUw3VHZCV1Z0VDZWeUJlMXgzVnByeUtsdk5fZzY5eXU4YVh6WFI4TjBkcGVRNng0aTVOVUt0RWpKSnhmR3ZuUC12ZzQ4M052TkFSRUpHbDY0T1lneWctMHI5WXlDYkRxRmI0ZlZQRWpWeFpFUVc2dFhVWFVXUHZaUklOcjE2eUdkZVRSWlh3SXVfNm01dUh3TTh3emZqNEN6bzFlUlAyWUZOUDhYaFMxekJCZ2RkOU5tb2RlUnJ6MUZhME9rbHIweHJMUTk": "https://www.diarioconstitucional.cl/2026/07/13/extrabajadores-de-conaf-despedidos-por-falta-de-probidad-no-podran-ingresar-al-servicio-nacional-forestal-por-cinco-anos/",
     "CBMifkFVX3lxTE5Wb0FvSVRkcmhDSVlQZjV5a2w4akNncU5IU0NTaUNILTRGSWF2cUZTR1puLWhUOU1LV1FIR04tMk56S0VKUU5tTlNORXkxRHc3MFh2Vmp4bjdFenZ6bmJQLUU0TFNFS3podnJtZmZVclhQTENsM1VFcUNoQVk3dw": "https://www.radioangelina.cl/portal/views/noticia.php?codNoticia",
     "CBMiggFBVV95cUxPM0JqTW1ST0wxV0ktTlJIeE94bzFRTHh5QXQyT2R6NFFFRC1zYjRLQjhnLWlrWWJEdnQtT2x4RC1ETmZwSWJFV2xhVnlLcUdFY0NTeUxKY1BMUTRtNFczcDZxRWcwNGdiWTNkSE1EeVpXQ3ozOXZDZzRyUy1DcU56S3R3": "https://madera.fordaq.com/news/El_inventario_forestal_de_Estonia_124616.html",
     "CBMigwJBVV95cUxOLUNLdE5OM0NhLTJQX2VMUE9uc1N0TVl4QmoxRUtaN0plUzhobEE3ekt1N0J0NjM1UmpnUHotOWtsNDUzWE1CMDJVSG1Jb0tjcFV4M0pyc0RzNUdpMWY4MmtfNGJEQmJzZzhURWgwN2w5Rk93NExZanRHeG1NRjJkSE5XRVhmUHBXb0VXOE9VU2xtemdud0VwQ1hldFdSdnRJa0JjQ0ZjZEhHSzVSOTFvSzNOMXh2SjB4ZEtpd2Ruc1h2TEQ3VFdZekRick43ZjBaRFB0VlAza2pMZzFTLWZoalFLMlRRbktxdldtd19XUWd3X0hzbm93U1dzankzdXBmbms4": "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/06/17/es-prioridad-la-renovacion-de-la-ley-forestal-que-afina-el-gobierno-bajo-cierto-hermetismo.shtml",
@@ -70596,6 +70554,7 @@
       "https://www.meganoticias.cl/nacional/530073-atrapados-133-persecuciones-robos-delincuentes-sin-limites-24-08-2026.html",
       "https://www.meganoticias.cl/nacional/530075-accidente-san-pablo-brasil-motociclista-fallecido-conductor-detenido-24-08-2026.html",
       "https://www.meganoticias.cl/nacional/530076-anuncian-cierre-paso-los-libertadores-este-lunes-sistema-frontal-24-08-2026.html",
+      "https://www.meganoticias.cl/nacional/530077-presidente-jose-antonio-kast-entrevista-radio-infinita-juan-manuel-astorga-24-08-2026.html",
       "https://www.meganoticias.cl/noticieros/530022-meganoticias-prime-viernes-22-agosto-2026.html",
       "https://www.meganoticias.cl/noticieros/530069-meganoticias-prime-domingo-23-agosto-2026.html",
       "https://www.meganoticias.cl/reportajes/530070-hijos-de-la-autopista-personas-en-situacion-de-calle-rucos-santiago-reportaje-mega-investiga-23-08-2026.html",
@@ -70622,6 +70581,7 @@
       "https://www.cnnchile.com/bits/farmear-aura-robots-humanoides-y-el-emoji-de-llanto-como-sinonimo-de-risa-las-noticias-tech-de-la-semana/",
       "https://www.cnnchile.com/bits/google-assistant-desaparece-android-gemini-hey-google-septiembre/",
       "https://www.cnnchile.com/bits/google-gemini-gratis-estudiantes-chile-ai-plus-requisitos-como-activar/",
+      "https://www.cnnchile.com/bits/gta-6-extended-look-netflix-youtube-hora-chile-27-agosto/",
       "https://www.cnnchile.com/bits/noticias-tech-de-la-semana-nuevo-chatgpt-para-adolescentes-gemini-gratis-para-universitarios-y-mas/",
       "https://www.cnnchile.com/bits/un-robot-humanoide-corrio-los-100-metros-en-939-segundos-y-dejo-atras-el-record-de-usain-bolt/",
       "https://www.cnnchile.com/bits/videojuegos-chilenos-gamescom-2026-alemania-nueve-estudios-prochile/",
@@ -70759,7 +70719,6 @@
       "https://www.cnnchile.com/pais/juan-carlos-eichholz-y-el-panorama-politico-en-chile-creo-que-el-proximo-presidente-va-a-ser-franco-parisi/",
       "https://www.cnnchile.com/pais/junaeb-coimas-allanamiento-en-el-congreso-fiscalia-lidera-diligencias-por-trama-que-apuntaria-contra-senadores-calisto-ind-y-gahona-udi-y-exdiputado-gutierrez-pc/",
       "https://www.cnnchile.com/pais/kast-aborda-criticas-por-reforma-de-seguridad-y-afirma-que-los-parlamentarios-tendran-que-decidir-y-enfrentar-a-sus-electores/",
-      "https://www.cnnchile.com/pais/la-dura-critica-de-ximena-lincolao-ministra-de-ciencias-de-kast-chile-es-un-pais-clasista-y-racista/",
       "https://www.cnnchile.com/pais/la-odisea-de-leer-en-chile-feria-chilena-del-libro-habilita-puntos-blue-express-en-todo-el-pais-para-facilitar-acceso-a-la-lectura/",
       "https://www.cnnchile.com/pais/luis-thayer-renuncia-frente-amplio-ninos-haitianos-falta-respaldo/",
       "https://www.cnnchile.com/pais/mas-de-435-mil-personas-estan-desempleadas-en-la-rm-buscan-impulsar-16-mil-nuevos-empleos/",
@@ -70772,6 +70731,7 @@
       "https://www.cnnchile.com/pais/ministro-garcia-ruminot-se-abre-a-bajar-urgencia-de-reforma-de-seguridad-y-admite-que-debimos-haber-tenido-una-mejor-recepcion-en-el-congreso/",
       "https://www.cnnchile.com/pais/ministro-poduje-confirma-el-fin-del-programa-arriendo-a-precio-justo/",
       "https://www.cnnchile.com/pais/ministros-ruminot-y-alvarado-descartan-llamar-a-plebiscito-por-reforma-de-seguridad-timonel-republicano-aseguro-que-es-una-opcion-que-no-se-puede-descartar/",
+      "https://www.cnnchile.com/pais/motociclista-murio-tras-choque-con-auto-en-el-centro-de-santiago-se-investiga-cual-de-los-dos-cruzo-en-rojo/",
       "https://www.cnnchile.com/pais/no-es-un-capricho-ni-una-moda-impulsada-por-figuras-internacionales-organizacion-medioambiental-exige-a-ministra-rincon-que-rectifique-por-dichos-tras-el-rechazo-de-proyecto-electrico-en/",
       "https://www.cnnchile.com/pais/no-podemos-seguir-reiniciando-el-pais-cada-cuatro-anos-vodanovic-fa-y-bellolio-udi-llaman-a-construir-acuerdos-para-los-proximos-30-anos/",
       "https://www.cnnchile.com/pais/no-vamos-a-innovar-ministro-alvarado-pone-freno-a-la-idea-de-salir-del-convenio-169-de-la-oit-tras-dichos-de-barros/",
@@ -70812,7 +70772,6 @@
       "https://www.cnnchile.com/servicios/pago-de-45-mil-por-colusion-de-medicamentos-quienes-reciben-la-compensacion/",
       "https://www.cnnchile.com/servicios/que-es-el-derecho-real-de-conservacion-la-legislacion-para-proteger-la-naturaleza-que-cumple-10-anos/",
       "https://www.cnnchile.com/servicios/sabes-que-hacer-durante-un-terremoto-revisa-la-guia-oficial-de-senapred-para-prepararte/",
-      "https://www.cnnchile.com/tendencias/barbie-de-marilyn-monroe-mattel-lanza-muneca-tributo-en-el-centenario-de-la-actriz/",
       "https://www.cnnchile.com/tendencias/daily-mail-confunde-mujer-meg-white-retira-articulo/",
       "https://www.cnnchile.com/tendencias/desde-2028-habra-mas-mayores-de-65-que-menores-de-15-en-chile-la-urgencia-de-prepararnos-para-un-pais-que-envejece/",
       "https://www.cnnchile.com/tendencias/en-la-antesala-del-superclasico-colo-colo-se-suma-a-la-tendencia-de-farmear-aura-recordando-al-excapitan-esteban-paredes/",
@@ -70822,7 +70781,6 @@
       "https://www.pauta.cl/actualidad/2026/08/20/allanamientos-por-caso-junaeb-fiscalia-indaga-eventuales-coimas-y-diligencias-alcanzan-a-senadores-y-exautoridades.html",
       "https://www.pauta.cl/actualidad/2026/08/20/bachelet-refuerza-su-candidatura-a-la-onu-a-dias-de-una-nueva-votacion-informal-del-consejo-de-seguridad.html",
       "https://www.pauta.cl/actualidad/2026/08/20/catedrales-prime-video-revela-el-primer-trailer-y-fecha-de-estreno-de-su-nueva-serie-chilena.html",
-      "https://www.pauta.cl/actualidad/2026/08/20/ministra-lincolao-atribuye-rechazo-a-cambios-del-fondecyt-a-interes-economico-de-universidades.html",
       "https://www.pauta.cl/actualidad/2026/08/20/plebiscito-por-reforma-de-seguridad-aparece-como-alternativa-ante-complejo-escenario-del-gobierno-en-el-senado.html",
       "https://www.pauta.cl/actualidad/2026/08/20/puede-kast-convocar-a-un-plebiscito-por-la-reforma-de-seguridad-esto-dice-la-constitucion.html",
       "https://www.pauta.cl/actualidad/2026/08/20/raimundo-rencoret-es-elegido-nuevo-presidente-de-la-camara-chilena-de-la-construccion.html",
@@ -70841,17 +70799,17 @@
       "https://www.pauta.cl/actualidad/2026/08/21/tres-universidades-suspenden-clases-presenciales-tras-recibir-amenazas-de-tiroteos.html",
       "https://www.pauta.cl/actualidad/2026/08/21/van-klaveren-plantea-evaluar-candidatura-de-bachelet-a-la-onu-si-nuevo-sondeo-confirma-escenario-adverso.html",
       "https://www.pauta.cl/actualidad/2026/08/22/coaniquem-inicia-gira-nacional-para-distribuir-manual-de-quemaduras-a-profesionales-de-la-salud.html",
+      "https://www.pauta.cl/actualidad/2026/08/24/cadem-49-esta-en-desacuerdo-con-el-estado-de-excepcion-propuesto-por-el-gobierno-y-61-pide-control-del-congreso.html",
+      "https://www.pauta.cl/actualidad/2026/08/24/vodanovic-y-bellolio-llaman-a-superar-las-diferencias-politicas-y-construir-acuerdos-de-estado-para-los-proximos-30-anos.html",
       "https://www.pauta.cl/actualidad/conversaciones-sin-pauta/2026/08/20/genaro-arriagada-trump-y-el-auge-de-las-derechas.html",
       "https://www.pauta.cl/actualidad/pauta-abierta/2026/08/20/pauta-abierta-20-de-agosto-de-2026.html",
       "https://www.pauta.cl/actualidad/pauta-abierta/2026/08/21/pauta-abierta-21-de-agosto-de-2026.html",
-      "https://www.pauta.cl/actualidad/pauta-de-analisis/2026/08/20/pauta-de-analisis-20-de-agosto-de-2026.html",
       "https://www.pauta.cl/actualidad/pauta-de-analisis/2026/08/21/pauta-de-analisis-21-de-agosto-de-2026.html",
       "https://www.pauta.cl/actualidad/primera-pauta/2026/08/21/primera-pauta-21-de-agosto-de-2026.html",
       "https://www.pauta.cl/cultura/2026/08/20/emmanuel-carrere-regresa-a-chile-despues-de-11-anos-sera-parte-de-la-catedra-bolano-de-la-udp.html",
       "https://www.pauta.cl/cultura/2026/08/20/romina-pistolas-recuerda-sus-inicios-como-escritora-solo-sabia-que-me-gustaba-contar-historias-y-que-se-me-daba-bien-hacerlo.html",
       "https://www.pauta.cl/cultura/2026/08/21/el-dia-en-que-la-mona-lisa-desaparecio-del-louvre-el-robo-que-convirtio-a-la-gioconda-en-un-icono-mundial.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/20/cge-programa-corte-de-luz-para-hoy-jueves-20-de-agosto-cuales-son-las-comunas-afectadas.html",
-      "https://www.pauta.cl/dato-en-pauta/2026/08/20/corte-de-luz-en-santiago-hoy-jueves-20-de-agosto.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/20/la-uc-y-coquimbo-unido-en-octavos-de-final-2026-que-tan-lejos-ha-llegado-chile-en-la-historia-de-la-copa-libertadores.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/20/temblor-en-chile-hoy-jueves-20-de-agosto-epicentro-y-magnitud.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/21/cge-programa-corte-de-luz-para-hoy-viernes-21-de-agosto-cuales-son-las-comunas-afectadas.html",
@@ -70882,6 +70840,7 @@
       "https://www.pauta.cl/dato-en-pauta/2026/08/23/dolar-hoy-en-chile-precio-y-valor-de-la-divisa-este-domingo-23-de-agosto.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/23/temblor-en-chile-hoy-domingo-23-de-agosto-epicentro-y-magnitud.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/23/uf-a-peso-chileno-precio-de-la-uf-para-este-domingo-23-de-agosto.html",
+      "https://www.pauta.cl/dato-en-pauta/2026/08/24/cierre-de-estaciones-del-metro-este-lunes-24-de-agosto-revisa-el-estado-de-la-red-en-santiago.html",
       "https://www.pauta.cl/dato-en-pauta/2026/08/24/corte-de-transito-este-lunes-24-de-agosto-revisa-el-estado-de-las-calles-en-santiago.html",
       "https://www.pauta.cl/deportes/2026/08/20/agustin-arce-vs-leandro-hernandez-los-sub-21-que-se-toman-el-superclasico-entre-colo-colo-y-la-u.html",
       "https://www.pauta.cl/deportes/2026/08/21/audax-italiano-vs-union-la-calera-donde-ver-en-vivo-y-online-la-fecha-20-de-la-liga-de-primera.html",
@@ -71000,6 +70959,7 @@
       "https://puranoticia.pnt.cl/internacional/terremoto-de-magnitud-5-9-sacude-tokio-y-deja-37-heridos",
       "https://puranoticia.pnt.cl/internacional/trece-desaparecidos-tras-naufragio-de-embarcacion-con-migrantes-en-tunez",
       "https://puranoticia.pnt.cl/internacional/trump-niega-que-guerra-economica-a-iran-implique-opciones-militares",
+      "https://puranoticia.pnt.cl/nacional/cae-clan-familiar-que-poseia-mas-de-68-millones-en-marihuana-y-cocaina-en",
       "https://puranoticia.pnt.cl/nacional/canciller-perez-mackenna-finaliza-gira-en-china-con-visita-al-puerto-de",
       "https://puranoticia.pnt.cl/nacional/cancilleria-anuncia-cierre-de-la-embajada-de-chile-en-iran-por-seguridad-y",
       "https://puranoticia.pnt.cl/nacional/carabineros-detiene-a-dos-sujetos-por-lanzar-fuegos-artificiales-en-san",
@@ -71022,6 +70982,7 @@
       "https://puranoticia.pnt.cl/nacional/mara-sedini-hace-balance-de-su-paso-por-el-gobierno-y-confirma-su",
       "https://puranoticia.pnt.cl/negocios/canciller-perez-mackenna-inicia-visita-a-vietnam-para-afianzar-lazos",
       "https://puranoticia.pnt.cl/region-valparaiso/camara-regional-del-comercio-de-valparaiso-condena-robo-a-joyeria-en-vina",
+      "https://puranoticia.pnt.cl/region-valparaiso/camioneta-traspasa-muro-e-impacta-a-toda-velocidad-contra-una-vivienda-en",
       "https://puranoticia.pnt.cl/region-valparaiso/dan-a-conocer-nuevos-detalles-de-violento-robo-a-joyeria-en-centro-de-vina",
       "https://puranoticia.pnt.cl/region-valparaiso/en-san-antonio-recuperan-vehiculo-robado-en-valparaiso-en-medio-de",
       "https://puranoticia.pnt.cl/region-valparaiso/hombre-fue-encontrado-fallecido-en-plena-via-publica-en-centro-de-villa",
@@ -71294,7 +71255,6 @@
       "https://lahora.cl/tv/2026/08/22/punto-para-colo-colo-esteban-paredes-bailarin-se-puso-fichas-por-sobre-mauricio-pinilla-cantante/"
     ],
     "araucania-diario": [
-      "https://araucaniadiario.cl/contenido/34921/recibiste-un-sms-con-un-cobro-o-enlace-no-lo-abras",
       "https://araucaniadiario.cl/contenido/34922/corte-suprema-sentencia-que-funcionarios-con-mas-de-6-meses-de-licencia-en-2-ano",
       "https://araucaniadiario.cl/contenido/34924/era-inocente-tras-dos-anos-en-la-carcel-absuelven-al-ex-jefe-de-gabinete-del-alc"
     ],
