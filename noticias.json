@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-09-05T01:00:37.865Z",
+  "generadoEn": "2026-09-05T05:47:45.348Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -39,6 +39,330 @@
     }
   ],
   "noticias": [
+    {
+      "id": "https://www.anred.org/arauco-la-forestal-esta-involucrad-en-el-incendio-de-10-casas",
+      "url": "https://www.anred.org/arauco-la-forestal-esta-involucrad-en-el-incendio-de-10-casas/",
+      "medioId": "anred.org",
+      "medioNombre": "ANRed",
+      "seccionId": "otros",
+      "titular": "Arauco, la forestal, está involucrada en el incendio de 10 casas",
+      "fecha": "2026-09-05T03:54:18.000Z",
+      "fechaDeteccion": "2026-09-05T05:47:45.348Z",
+      "extracto": [
+        {
+          "texto": "Arauco, la ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": ", está involucrada en el incendio de 10 casas",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.anred.org/wp-content/uploads/2026/09/incendio-casa.jpg",
+      "autor": null,
+      "fechaReal": null,
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.4,
+        "score": -6,
+        "keywords": [
+          "arauco",
+          "misiones",
+          "familias",
+          "forestal",
+          "tierra",
+          "casa",
+          "gobierno",
+          "anred",
+          "cristian",
+          "chacra"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "normativa-legislativo",
+          "comunidades-territorio"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "ANRED",
+          "CVU"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "medio",
+        "prioridad": 2,
+        "importancia": 75,
+        "tipo": "emergencia",
+        "ambito": "nacional",
+        "cantidadPalabras": 788,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 4
+      }
+    },
+    {
+      "id": "https://www.vietnam.vn/es/nang-cao-hieu-qua-hoat-dong-quy-moi-truong-dong-nai-chi-tra-dich-vu-moi-truong-rung-don-bay-kinh-te-cho-bao-ton-va-phat-trien-lam-nghiep",
+      "url": "https://www.vietnam.vn/es/nang-cao-hieu-qua-hoat-dong-quy-moi-truong-dong-nai-chi-tra-dich-vu-moi-truong-rung-don-bay-kinh-te-cho-bao-ton-va-phat-trien-lam-nghiep",
+      "medioId": "vietnam.vn",
+      "medioNombre": "Vietnam.vn",
+      "seccionId": "internacional",
+      "titular": "Mejorar la eficiencia operativa del Fondo Ambiental Dong Nai: Pago por servicios ambientales forestales: Una \"palanca\" económica para la conservación y el desarrollo forestal.",
+      "fecha": "2026-09-05T03:52:08.000Z",
+      "fechaDeteccion": "2026-09-05T05:47:45.348Z",
+      "extracto": [
+        {
+          "texto": "Mejorar la eficiencia operativa del Fondo Ambiental Dong Nai: Pago por servicios ambientales forestales: Una \"palanca\" económica para la conservación y el desarrollo ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": ".",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/09/05/1788568721324_bai-1-chi-tra-dich-vu-moi-truong-rung-don-bay-kinh-te-cho-cong-tac-bao-ton-va-phat-trien-lam-nghiep-anh-tuan-phuoc.png",
+      "autor": "vietnam.vn",
+      "fechaReal": null,
+      "analisis": {
+        "version": 3,
+        "sentimiento": "positiva",
+        "polaridad": 0.33,
+        "score": 3,
+        "keywords": [
+          "forestal",
+          "proteccion",
+          "forestales",
+          "servicios",
+          "bosques",
+          "recursos",
+          "fondos",
+          "gestion",
+          "ingresos",
+          "politica"
+        ],
+        "categorias": [
+          "presupuesto-recursos",
+          "prevención",
+          "manejo-bosques"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "DVMTR",
+          "SAF",
+          "VND"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 55,
+        "tipo": "informativa",
+        "ambito": "internacional",
+        "cantidadPalabras": 771,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 4
+      }
+    },
+    {
+      "id": "https://www.vietnam.vn/es/dong-bo-giai-phap-phong-chay-chua-chay-rung",
+      "url": "https://www.vietnam.vn/es/dong-bo-giai-phap-phong-chay-chua-chay-rung",
+      "medioId": "vietnam.vn",
+      "medioNombre": "Vietnam.vn",
+      "seccionId": "internacional",
+      "titular": "Sincronización de las soluciones de prevención y control de incendios forestales",
+      "fecha": "2026-09-05T03:23:13.000Z",
+      "fechaDeteccion": "2026-09-05T05:47:45.348Z",
+      "extracto": [],
+      "imagen": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/09/05/1788574433655_img_3023.jpeg",
+      "autor": "vietnam.vn",
+      "fechaReal": null,
+      "analisis": {
+        "version": 3,
+        "sentimiento": "mixta",
+        "polaridad": -0.33,
+        "score": -7,
+        "keywords": [
+          "incendios",
+          "forestales",
+          "forestal",
+          "proteccion",
+          "ciudad",
+          "prevencion",
+          "departamento",
+          "quema",
+          "maleza",
+          "gestion"
+        ],
+        "categorias": [
+          "prevención",
+          "quemas-controladas",
+          "incendios-forestales"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "CP",
+          "IV",
+          "ND",
+          "TRAN",
+          "TRUC"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "medio",
+        "prioridad": 2,
+        "importancia": 65,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 802,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 4
+      }
+    },
+    {
+      "id": "https://www.vietnam.vn/es/nhung-ky-tich-cua-nganh-lam-nghiep",
+      "url": "https://www.vietnam.vn/es/nhung-ky-tich-cua-nganh-lam-nghiep",
+      "medioId": "vietnam.vn",
+      "medioNombre": "Vietnam.vn",
+      "seccionId": "internacional",
+      "titular": "Los logros de la industria forestal.",
+      "fecha": "2026-09-05T01:13:28.000Z",
+      "fechaDeteccion": "2026-09-05T05:47:45.348Z",
+      "extracto": [
+        {
+          "texto": "Los logros de la industria ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": ".",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/09/05/1788567486658_8afb8247-c2d8-4ded-b5ba-06e4a3465a99.jpeg",
+      "autor": "Báo Pháp Luật Việt Nam",
+      "fechaReal": null,
+      "analisis": {
+        "version": 3,
+        "sentimiento": "positiva",
+        "polaridad": 0.27,
+        "score": 4,
+        "keywords": [
+          "vietnam",
+          "forestal",
+          "forestales",
+          "bosques",
+          "millones",
+          "proteccion",
+          "superficie",
+          "hectareas",
+          "departamento",
+          "silvicultura"
+        ],
+        "categorias": [
+          "manejo-bosques",
+          "arbolado-urbano",
+          "presupuesto-recursos"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "FAO",
+          "VND",
+          "fao"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 55,
+        "tipo": "informativa",
+        "ambito": "internacional",
+        "cantidadPalabras": 764,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 4
+      }
+    },
+    {
+      "id": "https://www.telemundoutah.com/video/noticias/local/recomendaciones-visitas-parque-nacional-zion-labor-day-utah/2414701",
+      "url": "https://www.telemundoutah.com/video/noticias/local/recomendaciones-visitas-parque-nacional-zion-labor-day-utah/2414701/",
+      "medioId": "telemundoutah.com",
+      "medioNombre": "Telemundo Utah",
+      "seccionId": "internacional",
+      "titular": "Lo que debes saber si planeas ir al Parque Nacional Zion el fin de semana de Labor Day",
+      "fecha": "2026-09-04T23:38:37.000Z",
+      "fechaDeteccion": "2026-09-05T05:47:45.348Z",
+      "extracto": [
+        {
+          "texto": "Lo que debes saber si planeas ir al ",
+          "resaltado": false
+        },
+        {
+          "texto": "Parque Nacional",
+          "resaltado": true
+        },
+        {
+          "texto": " Zion el fin de semana de Labor Day",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://media.telemundoutah.com/2026/09/50933828263-1080pnbcstations.jpg?quality=85&strip=all&resize=1200%2C675",
+      "autor": null,
+      "fechaReal": "2026-09-04T23:38:37.000Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "neutra",
+        "polaridad": 0,
+        "score": 0,
+        "keywords": [
+          "noticias",
+          "debes",
+          "saber",
+          "planeas",
+          "parque",
+          "nacional",
+          "zion",
+          "fin",
+          "semana",
+          "labor"
+        ],
+        "categorias": [
+          "parques-asp"
+        ],
+        "personas": [],
+        "organizaciones": [],
+        "lugares": [
+          "Parque Nacional Zion"
+        ],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "bajo",
+        "prioridad": 3,
+        "importancia": 50,
+        "tipo": "informativa",
+        "ambito": "internacional",
+        "cantidadPalabras": 19,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 1
+      }
+    },
     {
       "id": "https://www.diarioantofagasta.cl/antofalovers/230536/pinguinos-de-magallanes-en-antofagasta-asi-fue-la-emotiva-liberacion-de-ejemplar-juvenil-tras-un-exitoso-proceso-de-rehabilitacion",
       "url": "https://www.diarioantofagasta.cl/antofalovers/230536/pinguinos-de-magallanes-en-antofagasta-asi-fue-la-emotiva-liberacion-de-ejemplar-juvenil-tras-un-exitoso-proceso-de-rehabilitacion/",
@@ -68680,418 +69004,36 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 3
       }
-    },
-    {
-      "id": "https://g5noticias.cl/2026/08/18/ministro-de-seguridad-destaca-tendencia-a-la-baja-en-cifras-de-homicidios-secuestros-e-ingresos-irregulares",
-      "url": "https://g5noticias.cl/2026/08/18/ministro-de-seguridad-destaca-tendencia-a-la-baja-en-cifras-de-homicidios-secuestros-e-ingresos-irregulares/",
-      "medioId": "g5noticias",
-      "medioNombre": "G5noticias",
-      "seccionId": "regional",
-      "titular": "Ministro de Seguridad destaca tendencia a la baja en cifras de homicidios, secuestros e ingresos irregulares",
-      "fecha": "2026-08-18T18:00:45.000Z",
-      "fechaDeteccion": "2026-08-18T18:58:30.968Z",
-      "extracto": [
-        {
-          "texto": "(...) ",
-          "resaltado": false
-        },
-        {
-          "texto": "en las víctimas de homicidios respecto de igual periodo del año anterior. Los secuestros confirmados por la Policía de Investigaciones (PDI) disminuyeron 41,1%, mientras que las incautaciones de drogas aumentaron 63,9%. En materia migratoria, los ingresos irregulares detectados en las fronteras disminuyeron 86,9% respecto de igual fecha del año anterior. “Es una semana que nos mantiene con mejorías en las cifras, siendo muy cautos y conscientes del largo camino que nos queda por delante. Lo importante es que la labor cotidiana de las policías y de las distintas instituciones está dando resultados”, señaló el ministro Arrau. Principales operativos Entre los procedimientos destacados, el ministro valoró la detención de Rosamel Antonio Fierro en Carahue. Un prófugo que llevaba cinco años evadiendo a la justicia, buscado por su participación en un violento robo contra trabajadores forestales en Nehuentúe. El detenido quedó en prisión preventiva. En la Región Metropolitana, la PDI realizó la Operación Halcón Negro, que permitió incautar 829 kilos de droga, avaluados en aproximadamente $2.500 millones, y detener a tres personas extranjeras. En La Araucanía, el OS-7 de Carabineros incautó cerca de 30 kilos de marihuana durante un control carretero con destino a Temuco. El ministro destacó el fortalecimiento de estos controles, junto con la participación de organismos como el SII, ",
-          "resaltado": false
-        },
-        {
-          "texto": "CONAF",
-          "resaltado": true
-        },
-        {
-          "texto": " y el Ministerio de Transportes. En Gorbea, Carabineros detuvo durante la misma noche a cuatro sujetos que habían cometido tres delitos en 30 minutos, entre ellos un ataque a balazos que dejó a una persona herida. Asimismo, Carabineros y la Fiscalía Sur desarticularon la cúpula de una organización criminal en La Legua. En otro operativo, 19 personas fueron formalizadas por delitos vinculados al tráfico de drogas y Ley de Armas, quedando 16 en prisión preventiva. Otro procedimiento relevante se desarrolló en San Antonio, donde la PDI, junto a la Fiscalía, Policía Marítima, Aduanas, la Policía de Fronteras de Australia y la DEA de Estados Unidos, desarticuló una organización que utilizaba Chile como plataforma para exportar droga. Se incautaron 400 kilos de clorhidrato de cocaína y fueron detenidas 10 personas chilenas, colombianas y mexicanas. Seguridad penitenciaria y persecución de prófugos El ministro también destacó el inicio del poblamiento de la cárcel La Laguna de Talca, con el traslado de internos de mayor peligrosidad bajo un régimen especial de alta seguridad, que contempla cerca de 22 horas diarias en celda, salidas acotadas a patio, visitas mediante vidrio y restricciones de encomiendas. Arrau recordó que el sistema penitenciario enfrenta un escenario complejo, con 65.200 personas privadas de libertad aproximadamente y una sobrepoblación cercana al 150%, por lo que",
-          "resaltado": false
-        },
-        {
-          "texto": " (...)",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://g5noticias.cl/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-17-at-08.32.14-2-1024x683-1.jpeg",
-      "autor": null,
-      "fechaReal": "2026-08-18T18:00:45.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "positiva",
-        "polaridad": 0.33,
-        "score": 5,
-        "keywords": [
-          "ministro",
-          "destaco",
-          "personas",
-          "seguridad",
-          "arrau",
-          "carabineros",
-          "semana",
-          "policias",
-          "gendarmeria",
-          "organismos"
-        ],
-        "categorias": [
-          "normativa-legislativo",
-          "prevención",
-          "institucional-vocerias"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "ASIVA",
-          "CONAF",
-          "OS",
-          "PDI",
-          "SENCE",
-          "SII",
-          "carabineros",
-          "conaf"
-        ],
-        "lugares": [],
-        "regiones": [
-          "araucania",
-          "maule",
-          "metropolitana"
-        ],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 55,
-        "tipo": "institucional",
-        "ambito": "regional",
-        "cantidadPalabras": 683,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 4
-      }
-    },
-    {
-      "id": "https://www.radiopolar.com/regimiento-chacabuco-ejercito-chile-punta-arenas-lst-rancagua-ejercicio-jauken",
-      "url": "https://www.radiopolar.com/regimiento-chacabuco-ejercito-chile-punta-arenas-lst-rancagua-ejercicio-jauken",
-      "medioId": "radio-polar",
-      "medioNombre": "Radio Polar",
-      "seccionId": "radio",
-      "titular": "EL REGIMIENTO CHACABUCO DEL EJÉRCITO DE CHILE ARRIBA A PUNTA ARENAS EN LA LST RANCAGUA PARA EL EJERCICIO JAUKEN",
-      "fecha": "2026-08-18T18:00:00.000Z",
-      "fechaDeteccion": "2026-08-18T22:43:46.102Z",
-      "extracto": [
-        {
-          "texto": "(...) ",
-          "resaltado": false
-        },
-        {
-          "texto": "SEXUAL 14/08/2026 07:00 PREMIO NACIONAL DE ARQUITECTURA ABORDÓ LOS DESAFÍOS DEL NUEVO PLAN REGULADOR DE PUNTA ARENAS 12/08/2026 20:00 DETIENEN A HOMBRE POR PRESENTAR FALSA DENUNCIA DE ROBO DE VEHÍCULO EN PUNTA ARENAS 11/08/2026 14:00 ALCALDE Y VECINOS PIDEN PRIORIZAR RECURSOS PARA EL PARQUE RAMÓN RADA EN PUNTA ARENAS 10/08/2026 22:00 LAS FFAA DE CHILE EVALÚAN SUS CAPACIDADES DE DESPLIEGUE LOGÍSTICO EN EL EJERCICIO KARUKINKA EN MAGALLANES 10/08/2026 20:00 AMPLÍAN DETENCIÓN DE IMPUTADO POR HOMICIDIO OCURRIDO A BORDO DE EMBARCACIÓN EN PUNTA ARENAS 10/08/2026 07:00 CORTE DE PUNTA ARENAS ACOGE RECURSO DE NULIDAD Y ORDENA NUEVO JUICIO POR TRÁFICO DE DROGA 07/08/2026 13:00 PLAN INTEGRAL DE FISCALIZACIÓN DEL MINVU PERMITE RECUPERAR OTRA VIVIENDA SOCIAL EN MAGALLANES 07/08/2026 06:00 CORMUPA MEJORA INFRAESTRUCTURA DEL CESFAM MATEO BENCUR CON INVERSIÓN DE $38 MILLONES 06/08/2026 20:00 DETIENEN EN LOS CANALES AUSTRALES A PRÓFUGO POR DELITO DE EXPLOTACIÓN SEXUAL 06/08/2026 15:00 MINVU HABILITA AL TRÁNSITO LA PRIMERA ETAPA DE AVENIDA 21 DE MAYO Y AVANZA CON LA RECUPERACIÓN VIAL EN PUNTA ARENAS 05/08/2026 20:00 PUNTA ARENAS INAUGURA SU OFICINA LOCAL DE LA NIÑEZ Y COMPLETA COBERTURA REGIONAL 05/08/2026 19:00 VECINOS AYUDAN A REDUCIR A DELINCUENTE TRAS ROBO CON VIOLENCIA A COLECTIVERO EN PUNTA ARENAS 05/08/2026 16:00 Noticias Relacionadas SEA DE MAGALLANES ADMITE A TRÁMITE DECLARACIÓN DE IMPACTO AMBIENTAL DE ENAP PARA FRACTURACIÓN HIDRÁULICA EN TIERRA DEL FUEGO Leer Más El Servicio de Evaluación Ambiental acogió a trámite el proyecto de US$ 5 millones para fracturar ocho pozos en el Multipozo Picuyo ZG-D e impulsar la extracción de gas no convencional. El Servicio de Evaluación Ambiental acogió a trámite el proyecto de US$ 5 millones para fracturar ocho pozos en el Multipozo Picuyo ZG-D e impulsar la extracción de gas no convencional. 18/08/2026 06:00 EL REGIMIENTO CHACABUCO DEL EJÉRCITO DE CHILE ARRIBA A PUNTA ARENAS EN LA LST RANCAGUA PARA EL EJERCICIO JAUKEN 18/08/2026 18:00 Noticias Destacadas CONDUCTOR PIERDE EL CONTROL DE SU VEHÍCULO Y TERMINA EN EL BORDE COSTERO DE PUNTA ARENAS 18/08/2026 17:00 DELEGACIÓN DE EMPRESAS DE PAÍSES BAJOS VISITARÁ MAGALLANES PARA FORTALECER LA COOPERACIÓN EN INFRAESTRUCTURA, LOGÍSTICA Y TRANSICIÓN ENERGÉTICA 18/08/2026 09:00 EL REGIMIENTO CHACABUCO DEL EJÉRCITO DE CHILE ARRIBA A PUNTA ARENAS EN LA LST RANCAGUA PARA EL EJERCICIO JAUKEN 18/08/2026 18:00 CONDUCTOR PIERDE EL CONTROL DE SU VEHÍCULO Y TERMINA EN EL BORDE COSTERO DE PUNTA ARENAS 18/08/2026 17:00 TRAS LAS HUELLAS DE CIUDAD DEL REY DON FELIPE: CERCA DE 100 PERSONAS PARTICIPARON EN WORKSHOP EN EL PARQUE DEL ESTRECHO 18/08/2026 16:00 CON EXPOSICIÓN ITINERANTE ",
-          "resaltado": false
-        },
-        {
-          "texto": "CONAF",
-          "resaltado": true
-        },
-        {
-          "texto": " INICIÓ CELEBRACIÓN DE LOS 60 AÑOS DEL MONUMENTO NATURAL LOS PINGÜINOS 18/08/2026 15:00 SECTOR SALUD ",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/658d9f90f0909def6c18fa2c/mediaLibrary/photo/a0300e45-b1ab-4f15-abf1-08201569ace6-extra-large-standard-q100.webp?v=1787083121",
-      "autor": null,
-      "fechaReal": "2026-08-18T22:00:00.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "positiva",
-        "polaridad": 0.67,
-        "score": 2,
-        "keywords": [
-          "2026",
-          "punta",
-          "arenas",
-          "chile",
-          "ejercicio",
-          "regimiento",
-          "chacabuco",
-          "ejercito",
-          "rancagua",
-          "jauken"
-        ],
-        "categorias": [
-          "incendios-forestales",
-          "fiscalizacion",
-          "parques-asp"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "DEL",
-          "EJ",
-          "EL",
-          "RCITO",
-          "armada",
-          "brigada",
-          "carabineros",
-          "conaf"
-        ],
-        "lugares": [],
-        "regiones": [
-          "magallanes",
-          "ohiggins"
-        ],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "medio",
-        "prioridad": 2,
-        "importancia": 70,
-        "tipo": "emergencia",
-        "ambito": "regional",
-        "cantidadPalabras": 843,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 4
-      }
-    },
-    {
-      "id": "https://portalinnova.cl/sector-forestal-reune-a-autoridades-y-gremios-productivos-en-lanzamiento-de-expocorma-2026",
-      "url": "https://portalinnova.cl/sector-forestal-reune-a-autoridades-y-gremios-productivos-en-lanzamiento-de-expocorma-2026/",
-      "medioId": "portalinnova.cl",
-      "medioNombre": "Portal Innova",
-      "seccionId": "otros",
-      "titular": "Sector forestal reúne a autoridades y gremios productivos en lanzamiento de ExpoCorma 2026",
-      "fecha": "2026-08-18T17:44:12.000Z",
-      "fechaDeteccion": "2026-08-19T17:43:30.128Z",
-      "extracto": [
-        {
-          "texto": "Sector ",
-          "resaltado": false
-        },
-        {
-          "texto": "forestal",
-          "resaltado": true
-        },
-        {
-          "texto": " reúne a autoridades y gremios productivos en lanzamiento de ExpoCorma 2026",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://portalinnova.cl/wp-content/uploads/2026/08/Sector-forestal-reune-a-autoridades-y-gremios-productivos-en-lanzamiento-de-ExpoCorma-2026.jpg",
-      "autor": "Portal Innova | Grupo Prensa Digital | I.V",
-      "fechaReal": "2026-08-18T21:44:12.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "positiva",
-        "polaridad": 0.53,
-        "score": 8,
-        "keywords": [
-          "forestal",
-          "sector",
-          "expocorma",
-          "2026",
-          "productivos",
-          "lanzamiento",
-          "region",
-          "biobio",
-          "empresas",
-          "chile"
-        ],
-        "categorias": [
-          "prevención",
-          "normativa-legislativo",
-          "parques-asp"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "CEO",
-          "CONAF",
-          "CORFO",
-          "CORMA",
-          "FISA",
-          "GL",
-          "INFOR",
-          "conaf"
-        ],
-        "lugares": [],
-        "regiones": [
-          "biobio",
-          "metropolitana"
-        ],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 55,
-        "tipo": "informativa",
-        "ambito": "regional",
-        "cantidadPalabras": 784,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 4
-      }
-    },
-    {
-      "id": "https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/08/18/se-viene-el-18-y-el-aguinaldo-de-fiestas-patrias-para-el-sector-publico-revisa-cuanto-recibiran.shtml",
-      "url": "https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/08/18/se-viene-el-18-y-el-aguinaldo-de-fiestas-patrias-para-el-sector-publico-revisa-cuanto-recibiran.shtml",
-      "medioId": "radio-biobio",
-      "medioNombre": "Radio Bío-Bío",
-      "seccionId": "radio",
-      "titular": "Se viene el 18 y el aguinaldo de Fiestas Patrias para el sector público: revisa cuánto recibirán",
-      "fecha": "2026-08-18T17:05:42.000Z",
-      "fechaDeteccion": "2026-08-18T17:45:58.199Z",
-      "extracto": [
-        {
-          "texto": "(...) ",
-          "resaltado": false
-        },
-        {
-          "texto": "públicos se preguntan cómo será el aguinaldo de Fiestas Patrias , si lo recibirán o no y cuándo podrían recibirlo. La misma interrogante rodea a quienes desempeñan labores en el ámbito privado. En febrero pasado se publicó la ley de reajuste de remuneraciones del sector público , que definió los montos que les corresponden en cuanto a salarios, pero también los nuevos montos de aguinaldos, bonos y otras asignaciones. Monto del aguinaldo de Fiestas Patrias para el sector público Sobre esa línea, definió que los trabajadores del sector público reciban $91.682 este 2026 por el concepto de aguinaldo de Fiestas Patrias, siempre que su remuneración líquida sea igual o inferior a $1.060.493 en agosto. Si los funcionarios superan esta cifra, el monto será de $63.645. ¿Qué funcionarios públicos recibirán el aguinaldo? Según indica la ley , el beneficio se pagará en septiembre a los trabajadores que se desempeñen en cargos de planta o a contrata hasta el 31 de agosto de 2026 . Incluye a integrantes de: • Poder Judicial • Contraloría General de la República • Fiscalía Nacional Económica • Personal de los Tribunales Tributarios y Aduaneros • Dirección del Trabajo • Superintendencia de Seguridad Social • Personal de las municipalidades • Personal de las Fuerzas Armadas • Personal de Carabineros • Personal de la Policía de Investigaciones de Chile • Personal de la Junji • Personal de Junaeb • Trabajadores de las universidades estatales • Profesionales del área de la salud • Trabajadoras y trabajadores de Astilleros y Maestranzas de la Armada (ASMAR) • Trabajadoras y trabajadores de Fábricas y Maestranzas del Ejército (FAMAE) • Trabajadoras y trabajadores de la Empresa Nacional de Aeronáutica de Chile (ENAER) • Asistentes de la educación pública en establecimientos dependientes de los Servicios Locales de Educación Pública (SLEP) • Profesionales de la educación (docentes) que se desempeñen en establecimientos dependientes de los SLEP • Profesionales de la educación traspasados a los niveles internos de los SLEP • Personal del Servicio de Biodiversidad y Áreas Silvestres Protegidas (SBAP) • Personal del Servicio Nacional ",
-          "resaltado": false
-        },
-        {
-          "texto": "Forestal",
-          "resaltado": true
-        },
-        {
-          "texto": " (",
-          "resaltado": false
-        },
-        {
-          "texto": "SERNAFOR",
-          "resaltado": true
-        },
-        {
-          "texto": ", ex ",
-          "resaltado": false
-        },
-        {
-          "texto": "Conaf",
-          "resaltado": true
-        },
-        {
-          "texto": ") y más. ¿Qué pasa con el aguinaldo para trabajadores del sector privado? Los empleadores del sector privado no están obligados por ley a otorgar aguinaldo a sus trabajadores. Según un artículo del Gobierno, los empleados solo tendrán derecho a recibirlo si: Está contemplado en su contrato de trabajo. Existe un contrato o convenio colectivo donde el aguinaldo esté incorporado como cláusula. En ese sentido, el beneficio solo puede ser exigido al empleador como un derecho en estos casos. The post Se viene el 18 y el aguinaldo de Fiestas Patrias para el sector público: revisa cuánto recibirán appeared first on BioBioChile .",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://media.biobiochile.cl/wp-content/uploads/2026/08/social-aguinaldo-fiestas-patrias-sector-publico.png",
-      "autor": "Nicolás Díaz",
-      "fechaReal": "2026-08-18T17:05:42.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "neutra",
-        "polaridad": 0,
-        "score": 0,
-        "keywords": [
-          "article",
-          "datehour"
-        ],
-        "categorias": [],
-        "personas": [],
-        "organizaciones": [],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 50,
-        "tipo": "informativa",
-        "ambito": "nacional",
-        "cantidadPalabras": 2,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 1
-      }
-    },
-    {
-      "id": "https://eltipografo.cl/2026/08/100-anos-de-parques-nacionales-en-chile-conaf-ohiggins-conmemoro-fecha-en-los-cipreses-de-machali",
-      "url": "https://eltipografo.cl/2026/08/100-anos-de-parques-nacionales-en-chile-conaf-ohiggins-conmemoro-fecha-en-los-cipreses-de-machali",
-      "medioId": "el-tipografo",
-      "medioNombre": "El Tipógrafo",
-      "seccionId": "regional",
-      "titular": "100 años de parques nacionales en Chile: Conaf O'Higgins conmemoró fecha en Los Cipreses de Machalí",
-      "fecha": "2026-08-18T17:02:17.000Z",
-      "fechaDeteccion": "2026-08-18T17:45:58.199Z",
-      "extracto": [
-        {
-          "texto": "100 años de parques nacionales en Chile: ",
-          "resaltado": false
-        },
-        {
-          "texto": "Conaf",
-          "resaltado": true
-        },
-        {
-          "texto": " O'Higgins conmemoró fecha en Los Cipreses de Machalí",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://s3.us-east-2.amazonaws.com/img2.eltipografo.cl/media/2026/08/IMG_2820-750x500.jpg",
-      "autor": null,
-      "fechaReal": null,
-      "analisis": {
-        "version": 3,
-        "sentimiento": "positiva",
-        "polaridad": 0.5,
-        "score": 3,
-        "keywords": [
-          "nacional",
-          "pais",
-          "agricultura",
-          "conaf",
-          "hito",
-          "region",
-          "higgins",
-          "reserva",
-          "cipreses",
-          "reapertura"
-        ],
-        "categorias": [
-          "parques-asp",
-          "educacion-ambiental",
-          "comunidades-territorio"
-        ],
-        "personas": [],
-        "organizaciones": [
-          "CONAF",
-          "XXI",
-          "conaf"
-        ],
-        "lugares": [
-          "Reserva Nacional Río"
-        ],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 55,
-        "tipo": "informativa",
-        "ambito": "nacional",
-        "cantidadPalabras": 303,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 2
-      }
     }
   ],
   "resolucionesGoogle": {
     "CBMi0AFBVV95cUxQeVZWX2RhUjhPS1BNOG9vOW5uTF9qUEt5SllvcjVkclAwMXRQaV9KX3dCOTQyTHJWY2V4S3kxQmg4MnBFcFlWaDJUeTdLbGpoUk0wYmFtZHNHYVdHUk9mb0NreXpXdGZwMndEcXpmUUw3UzhGNW5YY21zWHJ2NlVCcWJWWDlLTTV0Zmt4ZXYwZUt5VU1fSVhXTW1BemZDVEp0SjFpWVQ1NmhpRmNNZDI0Y1A5Sm9HSTRXeDd3Z3prVl9kRWtwR3dOTGFvTkdmV3Q0": "https://www.canal9.cl/episodios/2026/09/02/diputado-rivas-ps-pide-a-conaf-comprar-camiones-aljibe-para-combatir-incendios-en-el-bio-bio",
     "CBMi0gFBVV95cUxNTUdMdmpnTFNKNnU2T0xOSVVtNUFqUTh4NWZuaUxXbktWZEQ5RVVjRFRiME1uUGw5Y09lWVRvZDdodC11UUhjV3JEbkgzY2JsUTdVdnF4NGxYU0N2QmRUbEx3Q1VySWxRQXRFYjhrRzlKaHJNcTZVWTl4MG5YN2o4d09SdWZKTFE3R0tXU3AyVklBREc1UGJmSUZjZUFCTUN0Y19rVUlpZXlKRk9hUURsU0RfRlgzMHBwNWpJYXpaYTZRVWJ4b0NRTXE3QlUtQ2lMWEHSAewBQVVfeXFMTzF3c2o0d3Y3NzFJRk5rNGRLRVNEMXJyYmR1WkxVM3k2RExrLWlxQmp1Z2FHemhZYkdZYU1aZHRSVXdvQlItUmdNOWdrZENMbnE0OXl4dGJrcmxZSHlXZUtkR3VCblVwU29UOG9CaHVWVmItTWNoTFB5b0J6a2Y1TkFBbUNsTUdXMjFTOUNoaFdGMVpYTy1rR1VoSTh0NEdZaUxiWFhHX1k2VFc2bzgwYVNjdDhONi1KLURQUXF6bVZGeFRKUzM5SEE3XzduVzRHREpqUnVKQUo2UTVLYlJVZnRRYko1el80WVdlN0o": "https://www.infobae.com/espana/agencias/2026/09/04/controlan-un-incendio-forestal-declarado-en-el-cerro-de-san-miguel-en-burgos-capital/",
     "CBMi0gFBVV95cUxQQjNLR0VvRUoyeXRucUgwQ015Mi1TX1NySkEwWEF2cmlreFFmNmdkRUNNV0J2dm9vdEFxdFFURV9EWUNheTMxZC1mZjhNVjJwNTZoeTE2ckZjV0R0ME9vdWtfNEkzRDl2SXJkNWZmMU00b18zRklCZGRTcjRCZnAtZ2drZVFsNnVhZEJZWjAySjJlT09neVRmTDBWVC0ydlQxbVFpZGF1YkpSNGhHc1gxWGhSaTRmR0Itam54R0dpWENYa2ltdHdQSDRiWHVCN1N3SWc": "https://www.reporteagricola.cl/noticia/noticias/2026/09/nuble-fortalece-patrimonio-forestal-entrega-18-mil-plantas-pequenos-propietarios",
+    "CBMi0wFBVV95cUxQR2hFR1BRNHBlVUU4bWJoUVpjLVQ1aGJiaFloUlZTalJmSHpPU0Q2enQ2bkRSWFRaTE9HZHpZWDdDb0ZhSGpoeGhDSm1HanFvNHJVc2pzTmsxeVBOMTVFRUdMeTg5cDVHZjZyVjhpaE5zTFJGaHktd3RZbWwyaTl3S3ZSbWdBRkR5VkhGWVZYejJlV0JnVjNUTjQ1OVdib01zdXFXOHlKbEl5YmRkanJDS3N2ZXhWdnM4ZXRhb3dxb084V2xKSzZXel9SYnNCR1RxLVlz": "https://www.sernageomin.cl/convenio-entre-sernageomin-y-conaf-fortalecera-la-gestion-del-territorio-con-informacion-geologica-y-forestal/",
     "CBMi1wFBVV95cUxQYlp4T2tRNEN5Mko1MFA2NDlEa3NGbHNWYUJleGhnMHp2YzZGTHo1SndpaXVDaE9WT1liMGJhdEJmVXhwQ21xTmlLNDYwZzlWVXhFYkVxS1lDMHFtellmbndUS3NVMEFfaGFHUU1ZMlNLdDNBVXB1Z01TNWhkejRPNVhwdnNkbTBKQkdkcXowenpJTV8ySFA2NUNRUjM0MG1GcWwwZ0JTYVMwMlZhcHBOakFFUUVWNTN4QUh6bTlYMWt5M0pLQUdqdV91WGxoblBSY0lON1FmMA": "https://eldesconcierto.cl/hoja-ruta/reforestacion-chile-estudiantes-plantaron-mil-ejemplares-lenga-parque-nacional-torres-del-paine-n5461674",
     "CBMi2AFBVV95cUxQNkRoZThqaHdZdWZoSGVBblJiV3hyd0xSLXY5V25UaXA1U1N2VGx5eGJzNDI2b1E1Q3JNUHJBdEVYZEt1a0E1TGQxbmEtWTh0UmJ6YVFHc0JrRmlra1dtR2lmRTFVSF9vU3VPZ0JQSU40ZDJRSjdPTXlCNGtVbGdlb2gwZzhhWGhOMkkzclJjZWdrUDQxQTdYRkVlNk5SRmxNOUNwMmxxejZTRDdaLXo3dzdsbUlMUFJPbXJNQUZXYzlaUWdNMVU5VTZlVXFLdTNSYzE0clNqYTE": "https://sence.gob.cl/personas/noticias/miercoles-19-de-agosto-reclutamiento-para-sector-forestal-en-plataforma-laboral-del-sence-la-araucania",
     "CBMi2gFBVV95cUxPNWM1V1JjVFJTSnZPTWFPWFBCNE5nMkhNMWdNZHM5WEVrM2E1OUl0djc0cnpWUDRyMDBldWtiWkNfMUNKeUVra0ZhU0NMblVjTUxQcWZNTVgxVW0zSWVBZGtQSUpnZExHSzV0UTlFUzdyWHd0clA0b19RSkxONWJoT3k5ZFl5WnBKSWJrSUZTMkdNMVVDOEc3b3F6bmZlaVdGaEUxdmNQMy1aaGljRktnQW4yOHdabkJZcDRjZGVRaW15MGg1SUMwWi16akx1WnVLM0ZLRHZRQWFrdw": "https://www.diarioestrategia.cl/texto-diario/mostrar/6003875/camara-comision-analizo-programa-proteccion-contra-incendios-forestales-2026-2027",
     "CBMi4gFBVV95cUxOMU9LZGFIc0UtWklkTm91UXhjbTExa1VENGEtM2w0bnRVMnZBSXZXcGt4elpXTEFPMXB6TUJocnNqSGxreVBRb2c0ZzFEMlJIZDFWT1p4b2xsNlczeFdXVy1maW1SWjRCb0RMRU0zU0V1a1JaU1pLZTliVHRySmI0NTl3cl8yZDd6UFd5dm5xNkFyNFZhbkhqaHBVTEJKZk1vNm91aVFXZUNqVEpUd2dhWEV5VW15OVlXb3F2SXp6bzZCSWN1YzFIWkVfbWpyaXZBRWlqWGwxNlhveWFxZkxLTVNB0gHqAUFVX3lxTE43SWlzUWQyQTM3cGZqUFNydWw0U3g0Yk9fVEgyM2lxWVdZVE5wZE80cUpwWmZiSU1MX1NvN3BlQkExQXpHcjZHNUZGekhvZlA0OEdOZTBwcHlNV25PU1ctNGJwdlN0TTRZbFZzMm1GNlg1NUVtOFk0Um5DcUdEeGZJaWFkX0ZaSWlCTlIwR194Sm5RMTBhb1pjWGJMRzFGRGloUUJBTVVTZ0I3YWVSZWFrcnpwQ3E3Skl0aEcwRXlCZ3pNR3BkTUV0cjNXMU1rMHBVeDZpRWZEX2YtOWpBTlV5dzh0VmlUSzB0UQ": "https://www.diarioconcepcion.cl/politica/2026/06/29/crisis-en-sector-forestal-congresistas-plantean-ideas-para-reactivar-la-industria-en-biobio.html",
     "CBMi6wFBVV95cUxORmlQSV9qNHhveklweTlGM2ItREJTU0tJeGhmZXVUWGZsODQ2WGRMTHA1SmdNMHVKSXZNVHVYOHJYLXIzSjZMYlhwX2MxRUJ5Q1lHNG85anRwMUdCbFFWendWYl9xR2Z0Q1kwQlRadVVTMnBOY3lNaWNxd24tcEZzN2RWd0JGZzVnaktPS3U1MG5JRE9sdkRmVGRPVTdpRmdiei1ETk9vUWpwSU8yZ2VTTm9QSHU5eXJjMkJwblZSUjAxZjVwUjZyMHBQZFFnaFNad0FrNDkzanBxX3FCUFVqTGpPb0FmUkVCMnRF": "https://www.paiscircular.cl/empresa-e-innovacion/certificacion-forestal-puerta-de-entrada-a-consumidores-y-mercados-exigentes-en-materia-de-sostenibilidad/",
     "CBMi7gFBVV95cUxPRGx4ZjFVSHA1YlRZajUtVXM0X1J2akVhdjM3Sl9zdm5MRmtqZDJsV1ZiMHFhMFZLeTVSNlh6WjNFMEppcEJNT2lYbG9XdlM5UUxweGl4OVhLSUh3Mm9nd2djRzUtOGgwSzFZOTBOVVRJTDNGWDZvSVlfZjRja21UZkt3TFI5azVhWUlERjI0WWJfOUNJbWV5aFBibFY3a0hhQ1VVbVE5emF0X1VsNU9SWEpRRTUtQ2RqOE90cmxhSUpLa1VWUWFBSGF6MXpnbExmY1pxZlZWY3FjU3NTeVhtUUpyS2V2Z19JWm9TRGZ3": "https://g5noticias.cl/2026/09/03/indap-y-conaf-capacitan-a-familias-de-panguipulli-en-plantacion-de-avellano-chileno-como-alternativa-productiva-sustentable/",
-    "CBMi7wFBVV95cUxNTHlVdkVCaTVIdG9JbFlqT1FWWWk4bVNEaWN5TVhOcm9WT0taSWNxaHVzUmJ1bFUzRWJXejh6UjRXZHBIMWxTYzllRWVxTTdtZGl5YmtDdWQ1d19RdW0xa1JrYzdjQTR4alZPZkRqVFFGVk5scTRuODBfUjljUGUtTi1JNjBGTnZzZG5Ha3pzcHZKcmhfbVVneEhHd09OMm5ubzRpNkw4U3Z4Yk1ZSTdiaWx2czJKNUQtUElHMmM1Tng3Vm9YV1pSOG0wRVM1eFphTlYxYTlwOVpZMzAxTFkxazdiUE9USTd2NnJTblJUbw": "https://www.diarioconcepcion.cl/ciudad/2026/08/24/para-recuperar-areas-afectadas-por-incendios-inician-restauracion-ecologica-del-parque-nacional-nonguen.html",
-    "CBMi7wFBVV95cUxOeEc1RG9Hei1QV2VpU1FyZC1Cek9fWEhZLV9uRE9FVU9fRk9kNlU1VXYwRzJoSGNFS3VMZUJ1UTdUdVZ5QTkxTEgyLVNDa2NjR3c2YTdrLVhzVi1fN0pQcFFFTnRTYWZZUXpBejlzT010c1RETndYUWdJZjBOc2JJRmE5NTlYbXRrMWhtRU9ldGRPU2Y3elgwQXlzY1Ftd3E5TlpoRG9zc3BtMkdxUHlpUzQ4WUcwTksxU1pqUFBRRVNsZ2VzYkw3YTVLWVNMYzZMN0VpZnhVdFd4X25uMWxfWkZOdC1uY0RsODBDZ0o1UQ": "https://sabes.cl/2026/09/03/rodeados-por-senderos-de-naturaleza-e-incluso-un-parque-nacional-el-privilegio-invaluable-que-resguardan-quienes-viven-en-nonguen/",
     "CBMi7wFBVV95cUxQQ2FSbXZua29udUhGbXhQMHhpTGlTWkJuY3h5WEloVEtLQV9yNFFlTHI4cTY3cXhXQXJob2pJQ0J2SXZFTTBjQTJ5Wk1INzdYNTJkU1d1RlViZjRxand4VnlQN2xPUU1DMk5RS21rZGtteUZiV1dtVTA3LXBWcWttTHd0M25Ea3NGU3NXNEJwZ1kwMFI1Q2xJTEkxcXpRWjFVTDhLcDNNQnBnNzM5cW4zX0hKQlJveHdGZkY4ZEF4U0xQc21iMm00RlU0bkFHS0RfWmtVRWZpWjRpRmV1YjNvWEJOSWVYZE1tN3VTUWs1a9IBkAJBVV95cUxPQ0RrWHFybWNXaS1kQnc0X0E5bU00d1Rmb2o3RktMbUpoTHhhM3NHN21RdjItTlJjUU9TanY2cVZNTy03R3duWGtZcy16eEhDdzVSSzBPTDhuQTNycHZvZDVmS0pTQ2REU2wxVlZLcjRNYThrSm42MlV2VHpJLTRmTlZiTHRubElWUW5QazZfN0RBaTJnNTA0WUNLWExtYXNiYV9tUk9Wam41bmY3cHAxdF9ZLW9TTWVncXlTU0NGdTNhbmdLZG1YUkhBWEkxNGJNWmNjdE5hQVMtM1RBeW5IZkc5ai1ybDNNMF9qdEVfOHhCdU9yRFVTWHpHZ2VYMGI0b2wzVWFFd0xXdnI1QUxncg": "https://www.latercera.com/pulso/noticia/el-negativo-balance-del-negocio-forestal-en-ultima-decada-disminucion-de-empleo-menos-aserraderos-y-lenta-forestacion/",
     "CBMi8AFBVV95cUxQaFhOenZQN0RfVFE5VFNoOEFrcVFzYTVqb00zVmpiYVZteW41N1ZtenJJOTlRbWlyZGtDbVBOdFNtdXpIT1FuYW03b3Jwai02S09ieU5IT3ZZUU1zTDZpekNQRERkdDFGNGJDbkRVQW9odjhRUWtiLXNQVjNkZ05BSUYtY3hjQ0N0S2dNOGdhbm9lVHJXbUZoV01iRkQ2WE55eWpkNFBxa2RpbEYtN0djbURmcDJTb2MtbWZOVTJheVpvNmU1WUlpc21TWmhzU015dGxQUWp6MGZWWVlfbnJYUGp4NEVDTmcyMVZwVWtGTTXSAfYBQVVfeXFMT2dXVGpTR19aRHVXZHFWM0tDMmtUTTVtY1JLTjNfLUNDenlPbEFfeGZMMjJGWFhZemdfVjlxT3p6eVNuSkFZYVZ1ellnY25vZER3cVc1VTZyMmNIc2hfRDB0a3JOZWdscGRBR2l0NDcyUkFtbElpZTRZMzVIeXhYanZoMzA1WE5LdzdfNnpQWjRBcV8zTEFULU8wTVpSQkJmVFF0anROODJrQkc2cTBBZUxwckhWN3U0OXhQMXZ2MEMxaFBfRF9vNDVJUV84S2tRTHh4b2VNRGtod1E0Y2xWbk1OdzhEQmtXR0U5LW11aWRBX3lpSXVn": "https://www.rockandpop.cl/2026/09/mas-de-20-mil-hectareas-al-sur-de-chiloe-el-proyecto-de-leonardo-dicaprio-que-podria-crear-un-nuevo-parque-nacional-en-chile/",
     "CBMi8gFBVV95cUxQekVPWko2d0dVaUZjQm1aUk1iNlV6bmM2YkUzX1ZpZjFfWGxUMEVGY0RRT2VIQU5leXpvNHBOZ3A5dml4MTM4c3Y3ZE43a3QyZDhlSXFSXzF2cE13YjBfRTd5cHU1M3ZTc25GQ08xOV91cWo4d1pDMEZOM1VpUVQ5bU55ZEl6OV9zTjlHSUMwR19HTWh3MGlRSGVka1BESXJ5dGdzS1pwX21aU3lkNWNPZ0RBMndjNm1URnZmYTIwWTQzVkwwUC1odGZoVGhYNl95bGtJNG1Ld015X2NlcE5aZFRTMlVSclRlWkZicC1SNFNNZw": "https://www.ciperchile.cl/2026/07/25/megaincendio-de-valparaiso-pdi-concluye-que-funcionario-de-conaf-ordeno-anotar-alertas-de-evacuacion-falsas-en-la-bitacora/",
+    "CBMi9AFBVV95cUxPQnNXc1FuNnkzcDV0SFBTWll1MzVuWmxxTXlzR3BQd3QyWFpLZXBrQW9FQ1ZWSUE5YlZySXR3TVZnNzJmNUIwNDZ4aG9rLXNGMnhicDNZYWc2dVVOWHRlX0VoNWVMeS1HR2RReDFnd1h5akNHTjlFbDhadEVhd185eEZId3lXTlVfNWotUldVMmJwTU5HaTAxYVZhLV9ld1huNG1JZ2pScFRuUG9JQUw5aGRTTHFzOGp4bXp0WGNWSXN6ZUx1WHR2Nnd1aFpMVjR1MDNiODRMazhFS3NpRVRSazl1aklHZlpZZVZqWjFRNmlmdHhi": "https://www.vietnam.vn/es/nang-cao-hieu-qua-hoat-dong-quy-moi-truong-dong-nai-chi-tra-dich-vu-moi-truong-rung-don-bay-kinh-te-cho-bao-ton-va-phat-trien-lam-nghiep",
     "CBMi9gFBVV95cUxQbEJJQWwxcXVxSzJYY21wSFc5aTloazRqVnNiX1VzQU0tYkpBSHFXQ1VJUzU0d1IxcVlKTXFiWnV5NWotQmszVFRRNXY4UkFxR0VGS2VBeTZ1R0VZdjZVZGRQSERGb3BrbmswaDI5cUZ0QWNJVTRtdC13Uk10dnlzTVZvS1Q1akdDTkJpX29aSkE0dnlMR1ZtXzF4LVF0QUVZOFRSTWhTX0Q2bU9jcWdFekNSU2pWQzFiNW5DTW5TZ3V2UDRXWC01WVhwM1F0Mk5VMXAxRUhRc2IyOTQ4QzdVR2xUWlhyME9QN00zYUdXNUhiSXpMdXfSAZcCQVVfeXFMTlgyajZvUmt6Nzl0V0ZpWk42bzNpdzJDQnNNaEhCN01aVWpqMGhwdE9CVW9WZmxCYkZ5OFp2T0VDczBxSkR0NFdVR2FKM2ItV1Zwd2p5NXZqTWdxSVZ1M3ltS3hHYmoxVjZKQU4wcm1naGVLQjVXbTZoWFJoTWtxdWZOSDIyVGsyeXYtcHk3N3B1cFFuTHYwVnJXVF9rd09hREVrc2FzQ01Xc29XaHpyTkJ0YWFRdzBFeDZNRmd3Z0diOFhOQ3ROZlJxai1pQlZfLS00Xzc5aXRWM2VrdU9iN0F1MFlackxIcXRHUEx4cC1ZbjhQWDk1bmNjNFlNQng1cS1HejJxeFAxYjBfSDdEWUtUMEp3ZHRj": "https://www.latercera.com/nacional/noticia/cuasidelito-de-homicidio-exjefes-conaf-seran-formalizados-el-lunes-por-fallida-evacuacion-en-megaincendio-de-valparaiso/",
-    "CBMi9wFBVV95cUxNem13QXJnci1DUTF6Qm04MmgzVk91U1lUZEdvaVhkTDBUc2pjdTd5RWJnWG43VlhtY0tlUC01OXVTSld5ajllbUFFYVY3Z2MzODdIM0Y2cHAyNkg3VWpEVGh2cm42QXg3LVNibmQ5Z3lNdDNKOGZXVkxpam83WDI2TllTYU1tcTZDVUZpZlcyd2V2THYxS2p2OHhoalFsNmxwYk1ROFRMQkhKYUJhSHdkNlhuNk9jZmR5eG9kYWhKbEVySGIzYnRRWUFBcmprMUJMZW44blVZVGp1RHdCYUp5cjFFSW1ONHAtREJ3TWtKckllcjdTZ2RF": "https://www.semana.com/turismo/articulo/realizan-recomendaciones-para-visitar-el-parque-nacional-los-nevados-visitar-este-territorio-implica-responsabilidad/202605/",
     "CBMiW0FVX3lxTE1WNHpKMEllM2xrTEtMSnp4bHNqb2QwalpHYXYxVXVRYmxfVkFoVFBGOHRXRXFJaDJYbnhiU2s4TWZMOUlHcFNvUE11Yjl0TlFtOFF1ay1kVHFHSWvSAWBBVV95cUxQUTFDa2NnRG5IeHliZGY5N1Y4VlNwNm54UzJlSFAyOWE5YmcwOGVKVm1kcjJ1TXJMeWZBakFzLVBRNHEyM1lrMl9vSEtSNkFWZGhidGhVcnNTQUl5QkNOU18": "https://www.bbc.com/mundo/articles/c1dlgvg9rneo",
+    "CBMi_AFBVV95cUxOSFlKbjhfMmtuMjRwdG5RRktGMDJ2ajQ0TWlZR3hHQnBNN2g4OTE2Ym9WZG0wQXBVSUw3VHZCV1Z0VDZWeUJlMXgzVnByeUtsdk5fZzY5eXU4YVh6WFI4TjBkcGVRNng0aTVOVUt0RWpKSnhmR3ZuUC12ZzQ4M052TkFSRUpHbDY0T1lneWctMHI5WXlDYkRxRmI0ZlZQRWpWeFpFUVc2dFhVWFVXUHZaUklOcjE2eUdkZVRSWlh3SXVfNm01dUh3TTh3emZqNEN6bzFlUlAyWUZOUDhYaFMxekJCZ2RkOU5tb2RlUnJ6MUZhME9rbHIweHJMUTk": "https://www.diarioconstitucional.cl/2026/07/13/extrabajadores-de-conaf-despedidos-por-falta-de-probidad-no-podran-ingresar-al-servicio-nacional-forestal-por-cinco-anos/",
+    "CBMibEFVX3lxTE5CLVBaa1VWOXlLa3hUQkdYNzRlN1JTRFZSMGZtR1BZN2RKd2xOUDlINFl3YVY3MFhnX0FRSVpiM2VwSXJuRGIzdGRPSGN3azVXZXJwaTRtak5LT0pLb09Nb3hwdGZ5UUgxZWdJbg": "https://www.vietnam.vn/es/nhung-ky-tich-cua-nganh-lam-nghiep",
+    "CBMieEFVX3lxTE91Rmt6UGVYOXNZRXBJM203d0M3SDJsNXFETXJXZWh5UTM5bDBDYW45ODYxYW9yclVTSWVkWWtCMTdrcUhOZUNyZTJMcEFDWHBNYlMwRGdzQnNZUzJTcFJaTm1GdXZVMFh6djFGZFVHdHh5dXpWN3BUNw": "https://www.vietnam.vn/es/dong-bo-giai-phap-phong-chay-chua-chay-rung",
     "CBMigwJBVV95cUxOLUNLdE5OM0NhLTJQX2VMUE9uc1N0TVl4QmoxRUtaN0plUzhobEE3ekt1N0J0NjM1UmpnUHotOWtsNDUzWE1CMDJVSG1Jb0tjcFV4M0pyc0RzNUdpMWY4MmtfNGJEQmJzZzhURWgwN2w5Rk93NExZanRHeG1NRjJkSE5XRVhmUHBXb0VXOE9VU2xtemdud0VwQ1hldFdSdnRJa0JjQ0ZjZEhHSzVSOTFvSzNOMXh2SjB4ZEtpd2Ruc1h2TEQ3VFdZekRick43ZjBaRFB0VlAza2pMZzFTLWZoalFLMlRRbktxdldtd19XUWd3X0hzbm93U1dzankzdXBmbms4": "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/06/17/es-prioridad-la-renovacion-de-la-ley-forestal-que-afina-el-gobierno-bajo-cierto-hermetismo.shtml",
     "CBMigwJBVV95cUxOYVhVT0M5VF9kQ0xDZFdTNUxJdE1BUmNjTURuRmVrZVRrdmllSDNHX2EzSTJhWDhicHNqQ1FELW8yUXY2N2NjMnExVmhrczlQRzJzZjFnbE5UaDZWWG8wdlhQMG5yR0RicGZmQjdya2QySmNZc2NJaUdLeWktbTR3UDRBTHVnWF8yNm95VEQ2WGdOYXl0MHFURkdTSVMydVJObGhFWHBFWGF0dVFDemhpX2xjTGxWWHJuamx0bXg3am1ZR1poM1A1Z19LaWJnRFBycTRRX3VtLWw4dm1BNVBXTko3WllNM1lTT0ltOWlhN01KTXFOS285Z2p4dmRTMU1UZWxR": "https://www.biobiochile.cl/noticias/nacional/region-del-bio-bio/2026/09/02/diputado-rivas-ps-pide-a-conaf-comprar-camiones-aljibe-para-combatir-incendios-en-el-bio-bio.shtml",
     "CBMihAFBVV95cUxNa0p2VDd6czlsakU1c1dmMGFjMF9WWnhlVXZ6ZndwTk9rdG1aMXI3MUZZZGRNNVlXdTl4STZwWFdiWjlzbGhkd1ZCbnFGUkFhcTRRNUdEUEJTTjhrOUItSHN3OWM2NkQ2U2EtRnVETkFqeWtiSEs5ZHJPeTNxd1ZnX0RUSlE": "https://portalmetropolitano.cl/rm-refuerza-prevencion-de-incendios-forestales/",
     "CBMiiAJBVV95cUxOcmR5bHZDT2pKNmhpLURfOFVJU0hTUk9TS2JOaGdXNGVKT09nTzNnYmVyYmU2RndQSTFsZTlhVzJNTFM3VFlUSmJmUHdxVkVMaldac0RWVWw1ZDVmaElZVF9RaWZaZUx4aE1feFJwSHoxX0l3NEdheXlnTjNEZzF5YWtpakxTZ2kxaTZaOTdETE9jbkZWOVB1RG56UHJ1Y1N4SkZaaVRpVG5rd1JtNmw3WVpYcmlrYnVteVpYRTVSTmRoRzdYbm5PRnJhZ2hHVkRXNHUyUjlPOEpTUXpndEhqaU93YjJaZkZvdEdHenhCM1c0Z3pqLVNaM05DNkp2aDVrcW9TcUtvX08": "https://www.biobiochile.cl/noticias/nacional/region-de-la-araucania/2026/08/18/conaf-usa-imagenes-satelitales-para-detectar-quemas-y-proteger-bosque-nativo-en-la-araucania.shtml",
     "CBMiiwFBVV95cUxQb3g3bTIwa08wcDZMRHZQMmVKUW9ENlpZV2lmVFBOUGZ4N2RKY0ZkQ3c4UjJlVG91OVdLRE16TndvNkZhWGtELTlGYUQ2N1VWVXczeXlCaUg1WlRLdF9ULThTRXVaV2g5cUFSbUhJUFlkNGRXT2hNVWFBdjFnaEs2bV9SdUdqd0NEN1JF": "https://ucvradio.cl/news/asume-nueva-directora-de-conaf-en-la-region-de-valparaiso/",
-    "CBMijwJBVV95cUxOaFpUOEpJRlNyald6YXJOVWpWOTBGbVJmRUNEdWFNd3dHSlp0bzVpYS13djlKWGZ1SHowc1RXaDV3Yk5PMV9FaEpTaVFkbnlyZ3JGVDQ0VmF5SXhpb0duTFZFNEhXZ0tWSzJNU2FhYU85VGhzRUM1TkNFX2FkV1ZqYkY5NldsNlR6QmpJbi1IdnBxZWp6NjNCd3BLaVVhdU9iUVRQRVBienM1NXJGLTNXcHJvcERUX0ljRm5qMlh5bWlDSkZZcDhVWHE1ak5IVlRFNXllZnlXYnU3SDdBMnlnTHo1WTQydXJXM09kR0JXMnNDZ0FiT1V0NTlEZXlVS0xuLXVUMUV5VlNmQXBRVVk4": "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2026/08/04/rebajan-cautelares-de-exfuncionario-de-conaf-imputado-por-megaincendio-y-queda-con-arraigo-nacional.shtml",
+    "CBMijAFBVV95cUxPUk9BWkpSSHJLcEJZaXQ4WmZuc2dQSHd0ejkxcE8xaWtXSzE0Vkp1TldzOFRwTGg3X1lyZFhVOWR3aUxzX1hWN1lwVEpvT182a1F5dlNQU0E4ZzhUbUUtSENVNlAwaTlNNTU3UTFZeEk0U0xUQjc1OEJOV0ZZeGV5ZVNoWndMMWZacTFvaQ": "https://www.anred.org/arauco-la-forestal-esta-involucrad-en-el-incendio-de-10-casas/",
     "CBMijwJBVV95cUxQQ0R1bEZQSHJ2T3JlYkQ5VV8wejFINTNOclJEcUZyV3lhRFVvMTdZYlpxY21veS1uR1ptMnVHaEEyNFNEQXNqSDdjeWx3UUE0QmxZZU9QbmdlMEZHYTItODhWSlBmalpmSnBvMkxJMDAwY3duYmdJTkxXR3Z1cU0xbVltd29CZXV0by1aQXNPcEV1dUhyUk5RUVFxNEpWbzF2aXB3MElFRUgtV1FZX1h3WG9UUURpWVF5dDltRC1rNmdUb3VrWTBRSUZpYmZDSGVHZXlBQXhXcEpQUTR6VmhTc3NmTmVDd1lkcm41SHBkWUxpSEYwd0lJaVJuSDc1NGduX2stNks5SDBwMDNTNG9n": "https://www.biobiochile.cl/noticias/nacional/region-de-los-lagos/2026/08/25/puerto-varas-conaf-pide-multa-de-8-300-millones-a-clan-familiar-por-tala-ilegal-a-predio-de-ejercito.shtml",
     "CBMikAFBVV95cUxNUjZacVdJSWNQd2l1Y0lVM0VEU2tmNTNpUUlGLS1FZjVtSjY0RkMwODVDUnk2S1g0SzVDM3ZLYWFmSEtEeXVPN2JxVHNIZUY5ck54N2ZaVlRGTDU5UmJKRUhGRG1HM3o1ZFhzVml5NE1jNFdRbXI1VEZXRFpGMGVDdm1QRjk4dHRHLUQ2Ukotd1U": "https://es-us.noticias.yahoo.com/regreso-huillin-parque-nacional-alerces-182507840.html",
-    "CBMikgFBVV95cUxPTzBkWUZEYjBzRlVSb1NvZkZ6UXJSUjVveXJ2eXlVQXdxYUdhOVl3cXdoTXdCaDBpZFRBTnl3U2R1aXNNdENhdVNpTE1JQmllV2haR01IWGJLbkZQb0dTR1g0YUk5UVJUMlpPemYwaUhFdmZZMzMyRE1PM2xNdy1tMHhnZTkwbTFwc281UHc4aDB0dw": "https://miradasurtv.cl/indap-y-conaf-capacitan-en-liquine-para-plantar-avellano-chileno/",
     "CBMilAFBVV95cUxOdHpMVE1BalBUdUYyUmRIOU9Ydmh6U1lNcWlXZE5XWWdLNlB6a1l5eE02VjJTR2p2dGJqUDhwU1VsbHFpeHBHRW5QWFI5STRPODdBdlM3Si1DMlhjay1yZGNsWndvTjB6OUxZNlE4Rmc3MjgyNkV3VV9PM2NzbzFZZTAyOHhOYjAyS3BTekZ2bGtrQk0t0gGcAUFVX3lxTE1EVVR3YVJJMTRnSDFKU3lKXzd3OXhIVlpkR0s4elhwV2hKV1RESzZzeXJwT1BzeFdqdXNScTJqN1MwRFllSi1sWjFtay1sSktWZ1BtNGpCX29sRm50d1FSNW5wOUtueC1zT0FDOHF3RWxTZVdvSkwzRnBMS3A2RFQtQ0lwNjgtRTBzTEluWVoyblJ4MzRJV2o0WG9VMg": "https://www.diarioconcepcion.cl/ciudad/2026/09/02/tala-ilegal-parque-nacional-nonguen.html",
     "CBMilwFBVV95cUxOd0o4dWNwcHE5NWJVNlh2U1M5OGlJOWxNN29JNURYX04yODBwYlViUllNTXNtcnlQeFI5di1WbTBRMmNZRG1qRnNrbi1kamI2c0UzalI5WEh6QkpibV9Fd2l1ajNFaEREYXJFeUpMWXI1M2RGem5xbU5uam9seENORlc5QmltZ21LS3B2QkFIRTFNWkxON0U0": "https://ladiscusion.cl/conaf-necesita-197-brigadistas-para-el-combate-de-incendios-en-nuble/",
     "CBMimwFBVV95cUxOcVlXUlJSY2NrbHdHaUtQQXhIaXFMTTNKalhFVlJwT09EXzRXT2phZlpTMWxjdWt0UWRRWXB3Q0szdjNtQm40emYxRG1zR2F2a0JaYVhTYmpUTklHWTI2U2hMUTRJNFgzZUY3Y1VsNXFzZ0xWSGNOSGFNZF9MblNJM18tZ0lxa1E2T19DUU81MUs4cW90QVpLU0hqSQ": "https://www.diarioconcepcion.cl/ciudad/2026/08/21/simulacro-biobio-plaga-forestal-polillas.html",
@@ -69099,7 +69041,7 @@
     "CBMinwFBVV95cUxQR2lyQ3dQU2NYaWxTR1J6dUJaMm1EdXFNWnBIRXlqZTBoTFY0WkJxNFp5YTNtYk9WSDhfTk1QamhsMWZfM0RNOF9hS3VSLTRRNk9GNHMtUTZTaTVuUTdmZzBvOV9hcnZCb2hRWEFZMjBXbkZDMXdmMmVUYjJKeEhKOHNUMjBaaC1CWmpFXzBsY1htMTJxLUJRMHBfcnd4clU": "https://www.dw.com/es/letonia-crecimiento-econ%C3%B3mico-o-protecci%C3%B3n-forestal/video-75570687",
     "CBMiowFBVV95cUxNVFFTZ21oSVM0NGdmYlpvaDJwRXBzMUI0WFZQTnFSYmw3QUVKc1N2THhMNUtFZVN6cktNcmNjbFFxUnlVTXJrcDEtcDVQTkJnZ0F6QW5rNVNvWlNtLTJKNk1xNjBYODFnblctbFlfV3VjdGxZTTdibVcwRkpaZlZnMlFpWmc0SDYxa3lkWkRVNjMwN2o0bXJZODhtajBVNWx5aWRF": "https://forestal.uchile.cl/noticias/244245/nueva-reunion-del-consejo-de-decano-de-ingenieria-forestal",
     "CBMiowJBVV95cUxOYjhGTmtkVVpiM242Z0NpenFuLVA3T3VkeTM4aW0zQ3BmQnBkYmhOR0lhZnpPbWZJLVlxdVBWaENzcVRwQTZMSTR5ZF9mN1BDWGJPTkprQnozOTM3dUt1SE0wck01NnAxMEJkQ0RiSFVDeWhPb3ZDMGR3Ni04dzVNbUVKa1JHRHZMVnM1M0w0Y1pXY3lrZUQyOVVDR193OUtPamZHYlRwNVd1MGZyaEpmV2lBd0p5eFA0SFo2SkZlMGoxXzZGdjYxeEx3ZERDc1BjdlZNOHFac2podUJNRXZ5eFdRQVRHWGtWSW1ya0NncmpxY2QwSFM1dFdZRlhXWmRDTEtxVkJiRGstY21fbXlVeURoTGpOTGJXalMxUXU3aU9KMFU": "https://www.fao.org/chile/news-and-opinion/news/detail/subsecretario-de-agricultura-inaugura-obras-de-mejora-en-vivero-de-conaf-maule-que-fortalecer%C3%A1-la-restauraci%C3%B3n-de-bosques-nativos/es",
-    "CBMipwFBVV95cUxOZnZMa0lXbnptTk9KY3NNMlE4bXIxTUdnQnJKWlU2cER0bzFfanBFZzVFSFphek1sVUhpcVJ0UFZQckVJSDk5Z2g1aGdiS1VHTDFZMzhCTEplMG1zNjB4cS1mdUVwQkRXOExKbHh1RndZVGI3SGlsNG9zSGltRkVpbkxKWkRlQlFzUXJqRy1hbGhKMDJaU0JVYTRVcVFpb2hhZzJxNWRzUQ": "https://elmercurio.com.ec/ultimas-noticias/2026/09/04/incendio-forestal-vegetacion-cochapamba-molleturo/",
+    "CBMipAFBVV95cUxNYTAxUi1CTW9MVzRCN2hyYU5VTXVNRGdkVFhvWE4yZ0cyZjB1dDI4UHpFZzBDekFKTnJsVkFKbjZFcDZpZW00My1TUDhXRHVQVGdFVk9NdVZuQ1dXbmhfdFhwQy1CemF3cG1SVDhTT1RXZXNLbHkzQTE0ZXZjOXNsMml0bmVveUNKTXB1VFB0Xzd4ejVQck5jN3g5TnlNYmdwZWtJOA": "https://www.puertomontt.cl/puerto-montt-y-conaf-inauguran-en-la-region-el-programa-mi-pueblo-mi-arbol/",
     "CBMiqAJBVV95cUxNYmZTYmJVTXYyVWJRRHliWVY2UXJLcnNYMW1iM05Zb1lMUVJ3c3RzVzN3LVFucld1NG52TGsxdnFUQTFCeXZ0YzhzNHEzNzdvemV1aTVPcmF5Y1RrN1cxZk5hQU1CT3Z0QVVyVmxoNnYtbDRlcVhhUXk2VlRVYnRqckpMN2N0RFY1RlVmZFVSTXk2aHNheGtRYmp5Uk1GRXBnSHFsUWtMVUJ5TWFGQmFQY2hqUEY0UWZUejJMbFFRcDRBQW1VS2hnNG5hNk9ud2JlRW5mYnp6azR1WUJ6dnNrY0dxOG5PaURRYlU1LVBtRDlfVFRBaG9tRloyUURyWUtLQWhoeVdfcUhVSmk2WTc3RllwTkh1WUhKTHFMcWdLUzBjWHp6NkJ3RQ": "https://dppmelipilla.dpp.gob.cl/noticias/autoridades-visitan-central-de-camaras-roble-1-de-conaf-metropolitana-para-conocer-sus-capacidades-operativas-ante-la-proxima-temporada-de-incendios-forestales/",
     "CBMiqgFBVV95cUxPLTZna3V4VzhENW1Bak1wWjFMTnpFdkFhODRSbUJVN2NfS25rRF9PX2tfeXNzc21WY1VTWWpJdEtCNXExQzlKM0hubXZ1ckc5US1SZXNNS2FKc1hxUG01SkkyQ0NuZFBHandtUlVqX0dnS0d0Mkp1VTlJcm1IT0VCbDhfNVloSUtfLXpkMzloY2tSNl9ZWjZ3dTBIaEpQU3Fub3VKYkdDbmtRdw": "https://www.radiopolar.com/conaf-municipalidad-punta-arenas-inauguran-proyecto-mejorara-plaza-villa-nieves",
     "CBMiqgFBVV95cUxQWEZjZFU5UjluNHlGZVhxMjlOVGg5YWhZMlg2ZGlrOHhWRVB5U2g1aER2X2dLa2VUUWNDWHJSb2NOTndTb1NsZnJBNzE3MjNDVTktaENRS0tfNFlJVU91eUpjT1FBNnYwckVET0otYUozem1IcXpYZTZYd1hFdEg1M1hNdG9HTHNfRzNTN203aUprRWlXc3ZYSFFtSTJLNGZ2cmRyRE5tdzRWZw": "https://artes.uchile.cl/noticias/241932/mac-sede-parque-forestal-inaugura-su-segundo-ciclo-de-exposiciones",
@@ -69112,23 +69054,23 @@
     "CBMitgFBVV95cUxPTkZ3Z1FscHVJR2lyREZ0Ulh1aGtzLXRLd1ljYmFXcHdyMmNGb2YzdjdyWHQ3QlJLbTk0aGRGMVQzWldYbktQRVpMdG1wbWNMUmMzZkprTlNUcmlON2tyM3dWaTU3V0Nad3FyQ3FtS0tHbDB5Tk9xU0FfYzFiRnVpSmNBeGNkdzFvRkN6a1RxR0pJeUcxWHVuamsyWTRRb3NwOHV4RFNjc0pyazBHRU1uaTVuUVFaUQ": "https://mma.gob.cl/conaf-nuble-lanza-programa-mi-pueblo-mi-arbol-e-inicia-transicion-al-servicio-nacional-forestal/",
     "CBMiugFBVV95cUxNWGp6eFRUWjBvdTRnZ1RpbVVRLUM2WWQyczVHSFAteWRrQzlkSWh0LW55cFg2RGlHOHFqaE1SdUtjYzJXYmo2TTlOeXhEM1ZxZkVKaFBNN0tsTUd2SHVEZ1hkeUJjN0ZQR3pPdXcyb1B0dEpkYXlVeUs0TkFtQnpWSldWVkJDQlJEVU44ZTEyQ1BtaEs0T054bG1qVWxNTGRONHN5cTdKZW8zQXNHY2FlVHM0NzRiTzZNUXfSAdsBQVVfeXFMT2x2bUt6WHhfcms0MzI2V016NlluaFFWSVZzdHYyVFlEejk2NkowNHBsWG5wbEtzSzJNQlJyN3g5OG1XaWdQaDJtS3FocEpjdUZWLW5HZTlDOTROemJkZ3FMMW40RG9FUU9MMUNPeFQzRHFhV3VYNkZQMEdBVzF4dXdIWUtNOG1hbUxBTFBNek4xNzNQVlJ4RDRWVEJtR05UREZWMk1hSGl4NEthTWNFNE9oSG1Ec2xmSFgzS3Y2bXVEYjZndzgxVEJzSXRaTXVPNGREMW05cnp2MGVZ": "https://www.latercera.com/pulso/noticia/la-presion-financiera-sobre-cmpc-de-cara-a-su-megaproyecto-natureza-en-brasil/",
     "CBMiugFBVV95cUxNYXJIaEJXaVF3YzJNVW9kc1J6X0tScUtyY2JZWTVneXQzSlMzTnZfbVJkdU1iay1vd09xVWx0WjVGVE84RXA1WEJpOTVuU2VUZ2syMTdDQThqcElOcl9NRU9CeWpSSjc2c2w1VW0yN21VVktKYVBFNWlRTlBMZW94VzlBOEJoRVNQd05oWEJXTXFvRXhYSkV3ZHQySTY2WHVFbGpuMl9qTkZzb3JQZWFvUEtLbnhDU2ZUSXc": "https://ucvradio.cl/news/yenny-prieto-toma-el-mando-de-conaf-en-valparaiso-y-fija-sus-prioridades-para-la-nueva-etapa/",
-    "CBMiuwFBVV95cUxOSVhRZUtQSXBXby1ieHB0UllremV1Y3U0aGlPWW5takxBNHpNRzZpTUpjTXdBMVdzaW1wVUFvMmpRMDBVSnVxenpDSlhOOWM0WEpGTmQ1d3I2RlNXelNBQ1lhZ0ZhYzZSQWxhcVFoUGl5MFNZN1c2dk9FZjZUVEZORVQ2WXJFZmJzOFZaaEJtenZzVVVPZ1Q3X24xLXJWYUF2aVhNSmdrVkhpZmtadV9ieDg3Yl9UVjE3aW1Z": "https://infogate.cl/2026/09/conaf-biob-o-present-denuncia-por-tala-ilegal-de-rbol-nativo-en-el-parque-nacional-nongu-n/",
-    "CBMivgFBVV95cUxNZXYydTk4WC1NcWh6S2E2bmN2SlpucnNzOHhvMmp0X2Qta21zSGRhWDJieUNVaDkzaTY1WG9KTW02Q0dUX241RjRRclhqZDlNbUJmYkptRnZqWGZvVldmVXQ2RzlEb1ZvNzRfaU5pZV9RMWFZWUdSRjMtMlgyanIwR0podUNZQkVibVFUX2lYTWNQWGZ0NS0tTkx1QlZXVUhHTjZIb0dnQ3ZWYVBZZ0luU1Y0clkyaXdUMFlhczB3": "https://www.radiouniversal.cl/pitrufquen-inicia-plantacion-de-cientos-de-arboles-nativos-para-fortalecer-sus-areas-verdes",
+    "CBMiuwFBVV95cUxQMWpYcG1TTTdYV1hPMVZwUWJUUDlib01oQ0RUbGZSRGJrLUwybkJCNE1PcEU2ajQxcDRabjdIY3dyenNkel9vTXZfVW9Yd1FmcnJhWHpCVTdzOVlObkxBbWd6VE5JSmd4YVdqczZiVDBWcG1DUExjQ2dNNkk1VTN3bkFDWmVsaDBEaDBOZ29vcEg5N2FKR3NaTXE2SDAyX1ZuZlViaGx6RFU1aHhrak1TcU9qS0pHQUEtdU9J0gHDAUFVX3lxTE1yeDBzMFdaN3hSamZqbHFtSmJLRHE4elZnaEMzcTRzazc2LUFaOUZQQ2FQS21UX2JkWWp6SjFwRGhSN0d5UHJ6SU9YYkhBUlNjZ29fdkhvMHpEcTMxMnBtYnprUHlQYXJXZENIR2ktZXdmaXpPMjdRUExjYUFfTTFxeEZHNzBseUhqZG56UUNRLXhULWNoWmtnWHlacmF1eDFKeTZiT2E5aUhlZ2tMQnhXNG5yUWpXVU1rclAta0RObWUzYw": "https://www.telemundoutah.com/video/noticias/local/recomendaciones-visitas-parque-nacional-zion-labor-day-utah/2414701/",
     "CBMivgFBVV95cUxPY1FrZVlHMXlBbTAtTEN0ZXR0NGlzelplWlFTRkVmX0JqTGlweVJZRC1jdWJkbGE0Qy1RM3lMcGF1V3hTd3VkdlN2TTFGcTQwd2RWLXl4OHpiNEZUSUJheUtHQ0NIT0VPd1ZRQVRULTFpaFFXSE9lYkVyVnRLM3pFbkVSU3hHY0xVNEV2eXZZZERyWlY4NzZ3Zk9LWERnQlZTb3FENWlJRG10b3FHY0dHZXU0NDZqQ0lkOWQzcG9B": "https://www.munistgo.cl/parque-forestal-monitorean-mas-de-mil-arboles-afectados-por-podas-realizadas-hace-mas-de-10-anos/",
     "CBMivgFBVV95cUxQMUw2SEJDQXRTSXZ5OFc2MEN2amFrYXFUM0JHYkktNmFxUVNEYTM0M1drMi1ka0hGbGZEMldJTUROOGtPWjdBdTBiM19NUEkyZjVvckQwaTRmMkJvRmdaZ1VJeUkteTBPWmY4ZUF2REo0TWI0aVoyWER2QXcyd2xfUVlYTzBhQW9SUVhjb29GS3JUb0JvaVVNaUNxTzF4Tm5nZ1pmTlRUN0lJWWRPX3hIYU51cXJhREZrY0FvMUtn": "https://www.df.cl/senal-df/senales-financieras/los-megafondos-forestales-que-avanzan-en-chile-y-miran-los-bosques-de-cmpc",
     "CBMiwAFBVV95cUxPbHBiSmdKeHlOaWJwRjFNdjJwdGlzSU9lcFVhamxlTHUwZFBCbE13cmRFTFUzSmI5M0J4SnBkUEwzQXdkSGZJRzVYSExCZlRvT3FqZG9KWGZ2eGRIUUpWS0w4UnZRb1NSd1VfV1pISkh5R3FsYlBBRWdIbVFESzhOanhxUW91U0pvM1NQUS1mNnhjNHZ1NmVzLUhfVWFIX1h5c28wSU02d2dLSE00WVA3Z0cwTWVqb1BVR1NKb0xFSEU": "https://elreporterodeiquique.com/conaf-tarapaca-informa-que-el-uso-recreativo-de-drones-esta-prohibido-en-areas-protegidas/",
+    "CBMiwAFBVV95cUxQSUp4b0NraktrWG4xQ2hEVTNfbTVibGFKWllhaExUUEM5MXdJanczNW1uTGloWExpZ3hwLXQycXhOeDItTWFEcEIwX2h4S09kekQtU190Q1NUNGFkaHlzZVRSMktyc0RtWlRMSEZhZUp0aldKNjJmVERqdFZXQ0ZfMEJtdUI5MW1ta3RkMGdvRjhnUXZXaXEyejZxMHF0cXlyMlFYdU1kd0xLQlNTbW5fTDdzZ1hEMkZnWWIySXVLSHc": "https://www.radiofestival.cl/conaf-valparaiso-abre-596-cupos-para-integrar-sus-brigadas-de-combate-de-incendios-forestales/",
+    "CBMiwAFBVV95cUxQYjVZbzBwZzBvRUt5VTdNcG1CLTU0dDdFSDlTTndnMHYwd2IxN2tFUXpZMDVfRXE0ZkhCRTRqQjhIdGRaU0g4a1BIV21Eb0xaRGUxRGRVM3QwVVpjZ3YxTVoxRXlkQmNEa3hueE5pejRzWXpBSGYzSjVmVF9taWw2U2hDSVpKNVZNOGZMVW5ERFlBM0p5Sl94b2ZEWGZWaTliSE81OUVkQzNDQmEwb3NKOXBGV2xLQkpYUGRaWlFybkM": "https://www.infogate.cl/2026/09/conaf-biob-o-present-denuncia-por-tala-ilegal-de-rbol-nativo-en-el-parque-nacional-nongu-n/",
     "CBMixgFBVV95cUxOclI0THZtSzZqM2ZoNVJCcmllRENTZ1ByZWlPY3Z1dml2OWpOQk81OGlLdDBUaGg4WVItbHVVMEExMUJHcG1LTUJZZ3ZWQzZrVFQyRzlkZXBaaGctb1NjcTFTbGlMa2FBcGZMNVdqNk0xWkRkbi1qZTNVRkhFamJFQ2I1YnE5bEk4c05hWHdqa2FTUEcyeGp5NVZBMTVXaFZHUGRYcFdtaGx2dHJsTEh1N0h6dnBJUkhxX3NZZlVDZ0hDZVVyVmc": "https://eldesconcierto.cl/opinion/les-falta-bosque-que-esperamos-del-bosque-nativo-quienes-cohabitamos-sus-ecosistemas-n5461921",
+    "CBMixgFBVV95cUxPTGJBSTNlcnRqak5KQWZGSC1ydGxoSl9vVXVxUGRzSW1sX0RmcE5Sem9Cald3Yy1TX1hpTEJPNVYzYU90LUdCWTFXMno0d0NuX0h1dnEtVFdlbTZtS1pqUXVMNzdGOW1Cd2xnMDZ1UXYxY0xzVE9WTXBNV2RwcFFmcEkzc2tQaGc5TjU0TXpTWXYxMDNqRm9MTW15LUNRLThuazZ4RThqYkJIVGViOWVSNm8yRGh6ODFWcVRkaUhuT0l4cmZTeWc": "https://www.fiscaliadechile.cl/actualidad/noticias/urac-valparaiso-formaliza-dos-ex-funcionarios-de-conaf-como-autores-de-cuasi",
     "CBMixwFBVV95cUxNV0tYa2d4NS1LeUt1SzROTllpdE9ZaGFsUVNIN1JMa0FnbTBiV24ybERwb3UyNzV6UlMyVW1BdUNybjRvVkJrMDNldkRDeGh6YU42Um1uUEhUNVhlVlcwUWJ0N1pkZUJhbVA0bWtZc25NZnVuT1h6ZkJvNjliYW1mV3F3dW4tOVp2VmNpNzJyakxoWFZTZS1EWGNiOURfLTEyZFlZODJKTnVPNU5VUWVpbE5EWGNZcHJ1c1E0cW8wRi13NDljVXh30gHoAUFVX3lxTFB5bUZpaG8wcjNRR0FOMC00cGZfOGV6NUdXTWt2MHhMWHlmXzdEQ0V2MG4tNXM2MFMtR256aHEtQ0paUnNsQmthaEVtNFpRTUtnd1FZbUloNFdnSkxEeVdweTliQ0liZHBiMm1HR1RDSjcxS05NeGlHNFRhTlEwYU5GUzFZSjBrNW81UjZxa1BsLUM5dnJaS2FCbi13Z2Y0YlZlblFLTDd2Z0UzbDZvSGhTN21DYlpVMmpRVGZLNEpPZDJIUDV1R0VHNkdYbUxLYmE2dGFHbWk4dlJ0M2hQaGhkRlhHamNtRHM": "https://www.latercera.com/pulso/noticia/utilidades-de-cmpc-se-desploman-74-en-el-semestre-pero-ingresos-se-mantuvieron-estables/",
     "CBMixwFBVV95cUxNcTFNdUNWeUhESU03SmJqVE56aXlrRzg3czFyVl9aSFBWeFAwQUJ1RnBFX3hSb1YwWTdaa004WTMyaGZodTVtWlJ1bkg5cFlWQl9VdzNPeGZXZW5KVWZISFpkTnNQUzV2aVJ3LWJKX2phc0FkaTZZU09rbDA5ckVudTFpWUhBSVU3U2ZvY3BUVTNyWnUyM1BwY1dabnoteDhtRFdFb0Nsb2JPaTd4ZWNNTVlScjRDcWh6cHhnNDUzQzJJZmFEdXZv": "https://rvl.uv.cl/noticias/11740-megaincendio-formalizacion-de-funcionarios-de-conaf-reabre-debate-sobre-responsabilidad-estatal",
     "CBMixwFBVV95cUxOWkt2YlozUUl2VUg3ekVzMExVU1RfM052M2QyOW9oeGZTQld2N2dGMlNmMG9PN3l1QXRybnpRcDR4TDJVc1NUdFYybGF1S2N1Qzh5WEhJSExQSWI2UzQ0TXp5OGJtVFZZYW5QN2tlbGhUVnNuYXhmbFg3bjlqUmV3LXdoSVdOVlUzUWI1dFhUckkycDhkS0NWbVZ5S0c0bFQyN2FKbzIxTDRNc1pnT1F1UW9vWXpETlRSeDJvNW5ZbHIxTlhKUlRj": "https://www.terram.cl/buscan-anular-la-declaracion-de-interes-nacional-de-obras-de-la-central-hidroelectrica-rucalhue-en-biobio/",
-    "CBMixwFBVV95cUxQcUZZdW9rdnFpOVlIWVZwVDFZQ0lBQml5Z0lDSTFrQVFna0hLNERJRlY2ODhRSjNHVFlaS09JUWhVZGNqcHBWSm9uLUotSks5dG11VWFBR2lRUmoyR3FrbjQzUXNqcXk0MzFMME53MkxISnFyaERMOWhDWmRsamVNQTRRcWduLThMUV9MRUNxeWpNOGJicUhNN3JKMHZDeldaU21Tdl82Y0pUXzVtSWlnSVdDWlFNWFozZmRFMkxHOWtuUHk2RzQ40gHPAUFVX3lxTE5XUFVaVW5JekZ3NXVQcXB0cm5MUEd2MFVvOTYtOEZwNGtKQjh2bTF0cjBSUFdGYTJIVFQ2VUNLM3ktMXV4eHBxZk05c3U0NU56TmNmRVg5bTVMVVFralZHcHRmZXRQQmtqbTFhR1M0ZzFHNklSV2Z2TmNSSVdGc2tFRlIyYU9nUnBoZEFiMFpjVW1zdXlLSzhsVUxwSXlhU3NJSG1PS3JBN09FX0NLVE9LaUFRaHM1Nk8yUW84V0xuMy0wdmVxODVxYVBRbnZvaw": "https://www.latribuna.cl/policial/2026/08/28/incendio-destruye-maquinaria-forestal-durante-la-noche-en-sector-caliboro-alto.html",
     "CBMiyAFBVV95cUxPOExkdVFmTkFJMTNQVVpsLVN1cjZUTkhFUG9qUU8zZE5iUnJNdWlhOW1DNzFJQU9SS05wZWlTNGlRald4Z1hmcFFONjJxNmdNbFF4RG90TGhJQ0t3elFyXy1wc0RGN25KX2lpdXFfeGVzQVR6Z2g3M2ZDWWZKZEVoOWhEcU1GX0FFdzNxNjMzYlNNbno4VlFEREgzUERUMzVJZ0NVYzREekQ4aG12M3pEZzJxa2JfWkpLMlJ0aFRDbF9fZnNtTGZYZNIB6gFBVV95cUxOUjJzWHRUNzdiVTNwd0xsLS1FMUQ3Zl9mTUZlRjNIR091Sk9zRDhheXhJZGdRX09hVUpzdmZEMnVIZjdPOWRaOUprRjA4ejNKSGNGNEdjdmljT1ZyWm5zWnFSYXRidGZWUWJORjlyS3YwZm9tb2gxbEFkenR0RmFoOGkySFZZeExzdUR4cUp3YjdBaGRqd1FTUFBrZFJsSW1QcVJFVTF5QXlnQUZ3VTQwc0FPS1pCNXZwVFZScl82ZkVUclA1dlZzNFVkMmMzN2d5Tjc1MV9uaXZiQlN6dGw1QVNhamtzVW9VMVE": "https://www.latercera.com/pulso/noticia/cmpc-redefine-los-plazos-para-obtener-los-permisos-de-su-megaproyecto-natureza-en-brasil/",
     "CBMiyAFBVV95cUxQaEtzMi03VGszRmk4RFVXQ0RocE9CcGstckYyWW03NU5GSENlYVpUZFppXzhwWUU1M041aVhxc3pyOWxIclN6bG5wdG9ZYldQb3YzUzJjZXJjT1NHMTBiNC0zYkVnMkR5c1BET1h0d0hodlRFZjROYTA1aEg5Si1malZJdC1fUFh4anYwU2oyQ1JCOWlCT1U0UGlYSG56TlhlRVpJTGo2QjdielBGRGRrWV9hVzB5Sjg5Y293aFYyS1BCWGJqY3hUVw": "https://www.primerahora.com/noticias/policia-tribunales/notas/bomberos-combaten-incendio-forestal-en-terrenos-de-jardin-botanico/",
     "CBMiywFBVV95cUxObmtEbFJJeGstakFsWk9MV1gzVlBTQU8xclRnM2lLVmVqcjFySE81SmdMbkxZNHNHZnNHc18xWVpoaGFLYTJNdENmY1Bwc3RjeklfTXRsRWRndDZOYlp6QktjVUpWZHJmNlNPb0dDaTlMOUc0emtBaWJuNkV6aFRKZ05lT2loalprSzdVRWVlV0ZIM1dnM1NMOWtHWkJ2N21abVR3UW5SVU9sT0VQeEJCN1Y1MEtVaTRFWlBUV1NieHRnSXl5Q19SWlpxY9IB5gFBVV95cUxPRGEzb1g2N0RmbThrdWZDenQwNF9RVVlNTFZYWUpHSG1zX1dBaFhKX1B0TlVVeVdsdmdFQm1SSzNtdmowQ1plQ3VtbGRiYkVHMTgyd01td2RmcEptUThFTXcwZmFIN045eDlWWkZCVjh3cUhrd25DNi1BYzk2bTNrVnprUFBsaTN3Zm1yWnRFTVlVWTJ5MHM4RnpWX2ZhWUVfWkIwOEUyZzN6TEx3OTk3R3BSSEY5Ti1VcFdZRDFldDBhajhVdEUxcGxBdnNMQ1V0eUZ1T292a1dDcm5zUWxzbVVIbFdyQQ": "https://www.infobae.com/espana/agencias/2026/09/04/un-incendio-amenaza-una-masa-forestal-en-arza-en-el-limite-entre-burgos-y-alava/"
   },
   "sitemapVisto": {
     "meganoticias": [
-      "https://www.meganoticias.cl/dato-util/530433-ley-jacinta-declaracion-jurada-renovacion-licencia-conducir-chile-cuando-rige.html",
       "https://www.meganoticias.cl/dato-util/530720-cuanto-cuesta-viajar-santiago-pucon-auto-peajes-bencina-2026.html",
       "https://www.meganoticias.cl/dato-util/530788-bono-logro-escolar-monto-alumnos-rendimiento-requisitos-03-09-2026.html",
       "https://www.meganoticias.cl/dato-util/530791-beneficio-por-anos-cotizados-edad-minima-requisitos-03-09-2026.html",
@@ -69145,6 +69087,7 @@
       "https://www.meganoticias.cl/dato-util/530921-bonos-mujeres-septiembre-requisitos-beneficios-04-09-2026.html",
       "https://www.meganoticias.cl/dato-util/530927-ofertas-laborales-fondas-fiestas-patrias-parque-ohiggins-requisitos-sueldos-04-09-2026.html",
       "https://www.meganoticias.cl/dato-util/530949-empleos-carabineros-civiles-sueldos-postulaciones-04-09-2026.html",
+      "https://www.meganoticias.cl/dato-util/530951-cuanto-cuesta-viajar-en-auto-de-santiago-a-la-serena-en-2026-peajes-bencina-y-costo-total.html",
       "https://www.meganoticias.cl/dato-util/530967-bono-por-hijo-desde-que-edad-cuanto-dinero-entrega-04-09-2026.html",
       "https://www.meganoticias.cl/deportes/530863-vozinha-posible-titularidad-colo-colo-vs-huachipato-torneo-nacional-03-09-2026.html",
       "https://www.meganoticias.cl/deportes/530968-colo-colo-vozinha-titular-huachipato-fernando-ortiz-04-09-2026.html",
@@ -69159,17 +69102,11 @@
       "https://www.meganoticias.cl/mundo/530989-colombia-compra-aviones-de-guerra-cazas-gripen-renovacion-aerea-chile-f16-04-09-2026.html",
       "https://www.meganoticias.cl/mundo/531001-trump-acusa-democratas-guerra-iran-teheran-pide-retirada-tropas-04-09-2026.html",
       "https://www.meganoticias.cl/mundo/531002-uruguay-emergencia-sanitaria-gripe-aviar-h5-aves-04-09-2026.html",
+      "https://www.meganoticias.cl/mundo/531007-explosion-recinto-militar-bolivia-viacha-muertos-heridos-04-09-2026.html",
+      "https://www.meganoticias.cl/mundo/531009-explosion-recinto-militar-bolivia-pirotecnia-fallecidos-05-09-2026.html",
       "https://www.meganoticias.cl/nacional/529777-descartan-tsunami-en-chile-temblor-coquimbo-canela-baja-hoy-jueves-shoa-03-09-2026.html",
       "https://www.meganoticias.cl/nacional/530637-temblor-canela-baja-illapel-coquimbo-hoy-jueves-sismologia-03-09-2026.html",
       "https://www.meganoticias.cl/nacional/530729-tunel-tierra-del-fuego-chile-continente-estrecho-de-magallanes-bajo-el-mar-03-09-2026.html",
-      "https://www.meganoticias.cl/nacional/530806-estudiantes-chilenas-buscan-financiamiento-mundial-robotica-corea-del-sur-02-09-2026.html",
-      "https://www.meganoticias.cl/nacional/530809-contraloria-detecta-vencimiento-vacunas-influenza-ministerio-salud-02-09-2026.html",
-      "https://www.meganoticias.cl/nacional/530811-ministro-arrau-fallo-permanencia-clan-chen-carcel-talca-02-09-2026.html",
-      "https://www.meganoticias.cl/nacional/530812-cortes-de-luz-jueves-3-septiembre-comunas-region-metropolitana-03-09-2026.html",
-      "https://www.meganoticias.cl/nacional/530814-cortes-de-agua-jueves-3-septiembre-comunas-region-metropolitana-03-09-2026.html",
-      "https://www.meganoticias.cl/nacional/530815-camilo-huerta-incumplimiento-arresto-domiciliario-total-oxo-nunoa-02-09-2026.html",
-      "https://www.meganoticias.cl/nacional/530816-persecucion-disparos-sujetos-vehiculo-robado-macul-zanjon-03-09-2026.html",
-      "https://www.meganoticias.cl/nacional/530817-camilo-escalona-estado-salud-se-agrava-familia-dirigentes-clinica-03-09-2026.html",
       "https://www.meganoticias.cl/nacional/530818-sismo-magnitud-4-2-oeste-san-pedro-de-atacama-region-antofagasta-madrugada-03-09-2026.html",
       "https://www.meganoticias.cl/nacional/530819-sismo-noroeste-la-serena-region-coquimbo-madrugada-03-09-2026.html",
       "https://www.meganoticias.cl/nacional/530822-temblor-oeste-quintero-region-coquimbo-madrugada-03-09-2026.html",
@@ -69251,9 +69188,9 @@
       "https://www.meganoticias.cl/nacional/531003-disparan-carabineros-fiscalizacion-vehiculo-seis-impactos-bala-04-09-2026.html",
       "https://www.meganoticias.cl/nacional/531004-sernageomin-sube-alerta-volcan-villarrica-amarilla-ascenso-lava-04-09-2026.html",
       "https://www.meganoticias.cl/nacional/531005-muere-camilo-escalona-presidente-senado-partido-socialista-04-09-2026.html",
-      "https://www.meganoticias.cl/noticieros/530808-meganoticias-prime-2-de-septiembre-2026-cony-santa-maria-juan-manuel-astorga-02-09-2026.html",
+      "https://www.meganoticias.cl/nacional/531006-kast-lamenta-muerte-camilo-escalona-historico-dirigente-ps-04-09-2026.html",
+      "https://www.meganoticias.cl/nacional/531008-corte-de-luz-programado-santiago-rm-enel-comunas-afectadas-sabado-5-septiembre-dcv-05-09-2026.html",
       "https://www.meganoticias.cl/noticieros/530903-meganoticias-prime-3-de-septiembre-2026-cony-santa-maria-juan-manuel-astorga-03-09-2026.html",
-      "https://www.meganoticias.cl/reportajes/530810-760-mil-vacunas-influenza-vencieron-bodegas-perjuicio-fiscal-contraloria-02-09-2026.html",
       "https://www.meganoticias.cl/reportajes/530904-operacion-imperio-amsterdam-cannabis-medicinal-camilo-huerta-dispensario-nacional-03-09-2026.html",
       "https://www.meganoticias.cl/tendencias/530831-daniela-aranguiz-revela-por-que-esta-enojada-con-cuco-cerda-03-09-2026.html",
       "https://www.meganoticias.cl/tendencias/530833-faloon-larraguibel-celos-rai-cerda-volverias-con-tu-ex-2-3-2-2026.html",
@@ -69314,8 +69251,8 @@
       "https://www.cnnchile.com/deportes/tomas-barrios-cambia-de-entrenador-estoy-con-muchas-ganas-y-convencido-de-que-sera-una-etapa-muy-positiva-para-consolidarme-en-los-torneos-grandes/",
       "https://www.cnnchile.com/deportes/vozinha-tendra-su-debut-en-la-liga-de-primera-colo-colo-enfrenta-a-huachipato-este-domingo/",
       "https://www.cnnchile.com/lodijeronencnn/alcaldesa-de-lo-espejo-pc-afirma-que-el-gobierno-esta-al-debe-en-seguridad-y-que-al-ministro-arrau-le-falta-mirar-la-dinamica-que-se-produce-en-las-poblaciones/",
-      "https://www.cnnchile.com/lodijeronencnn/diputada-constanza-hube-cuestiona-formula-para-nueva-directiva-de-la-udi-no-es-una-buena-dupla-jorge-alessandri-pablo-longueira/",
       "https://www.cnnchile.com/lodijeronencnn/francisco-orrego-rn-dice-que-me-enojaria-bastante-si-el-presidente-kast-no-indulta-a-uniformados-condenados-por-el-estallido-social-fue-un-compromiso-de-campana/",
+      "https://www.cnnchile.com/lodijeronencnn/jose-montalva-ind-ppd-aborda-el-proposito-de-la-comision-investigadora-queremos-ver-hasta-donde-llego-la-huella-de-fernando-cerimedo-en-chile/",
       "https://www.cnnchile.com/lodijeronencnn/juan-gabriel-valdehttps-b-cnnchile-com-wp-admin-edit-phps-advierte-por-base-anunciada-por-milei-en-tierra-del-fuego-no-es-algo-que-favorezca-a-chile-en-absoluto/",
       "https://www.cnnchile.com/lodijeronencnn/raul-sohr-por-foro-madrid-es-complicado-nos-pone-en-un-mapa-en-que-no-necesariamente-pais-esta/",
       "https://www.cnnchile.com/mundo/argentin-milei-anuncia-sanciones-a-empresas-que-operen-en-malvinas-e-instalara-base-naval-en-el-sur-del-pais/",
@@ -69383,13 +69320,11 @@
       "https://www.cnnchile.com/pais/contraloria-detecta-incumplimientos-a-la-norma-sismica-e-inicio-de-obras-sin-permiso-en-la-biblioteca-de-putre/",
       "https://www.cnnchile.com/pais/corte-de-corriente-afecta-a-linea-2-del-metro-por-perrito-que-ingreso-a-las-vias/",
       "https://www.cnnchile.com/pais/corte-de-iquique-respalda-decision-de-gendarmeria-y-ordena-que-el-clan-chen-regrese-a-la-carcel-de-la-laguna-de-talca/",
-      "https://www.cnnchile.com/pais/corte-suprema-56-jueces-remocion-licencias-medicas-viajes/",
       "https://www.cnnchile.com/pais/crisis-en-prodemu-ministra-de-la-mujer-acusa-que-heredo-deficit-financiero-de-mas-de-2-mil-millones/",
       "https://www.cnnchile.com/pais/cuarta-persona-detenida-amenazas-presidente-kast-instagram-chacabuco/",
       "https://www.cnnchile.com/pais/despegar-debera-indemnizar-con-mas-de-1-millon-a-clienta-a-quien-le-cancelo-reserva-a-brasil-empresa-tambien-fue-multada-con-mas-de-700-mil/",
       "https://www.cnnchile.com/pais/detenido-copiapo-74-ovoides-cocaina-base-interior-cuerpo/",
       "https://www.cnnchile.com/pais/detienen-nueve-personas-robo-banco-itau-valparaiso-6-mil-millones/",
-      "https://www.cnnchile.com/pais/diputado-bassa-fa-ingresa-proyecto-que-tipifica-como-delito-el-uso-de-bots-en-campanas-electorales/",
       "https://www.cnnchile.com/pais/embajador-de-estados-unidos-y-la-doctrina-donroe-en-chile-con-una-administracion-como-kast-convierte-algo-facil/",
       "https://www.cnnchile.com/pais/encuesta-de-bienestar-social-15-millones-de-adultos-en-chile-se-sienten-solos-casi-siempre-o-siempre/",
       "https://www.cnnchile.com/pais/es-fundamental-dimensionar-el-riesgo-institucional-udi-propone-ensenar-periodo-entre-el-18-o-y-la-convencion-constitucional-en-la-asignatura-de-historia/",
@@ -69397,7 +69332,6 @@
       "https://www.cnnchile.com/pais/estudio-de-salud-bucal-infantil-prevalencia-de-caries-disminuyo-pero-el-42-de-los-ninos-tiene-afecciones-dentales-sin-tratar/",
       "https://www.cnnchile.com/pais/estudio-por-fiestas-patrias-87-cree-que-es-facil-para-menores-comprar-alcohol-y-64-estima-que-su-consumo-es-socialmente-aceptado/",
       "https://www.cnnchile.com/pais/exministra-maya-fernandez-tilda-extremadamente-graves-dichos-milei-sobre-derrocamiento-de-allende/",
-      "https://www.cnnchile.com/pais/expectativa-por-reunion-entre-kast-y-milei-aumenta-presion-del-congreso-para-derogar-decreto-argentino-sobre-el-estrecho-de-magallanes/",
       "https://www.cnnchile.com/pais/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos-vinculados-a-fernando-cerimedo/",
       "https://www.cnnchile.com/pais/fiscalia-entrega-nuevos-antecedentes-por-muerte-de-hombre-en-estacion-pajaritos-del-metro/",
       "https://www.cnnchile.com/pais/fondas-en-la-region-del-biobio-tendran-hora-de-cierre-deberan-terminar-a-la-medianoche/",
@@ -69407,15 +69341,17 @@
       "https://www.cnnchile.com/pais/hospital-debera-pagar-380-millones-por-muerte-de-paciente-tras-anestesia-aplicada-por-tens-no-entrenado-para-ello/",
       "https://www.cnnchile.com/pais/jose-antonio-kast-adriasola-aborda-el-rol-del-progresismo-a-cuatro-anos-del-triunfo-del-rechazo-la-izquierda-no-aprendio-no-maduro-y-no-cambio/",
       "https://www.cnnchile.com/pais/juan-luis-castro-chevesich-jueces-licencias-medicas-cuadernos-remocion/",
+      "https://www.cnnchile.com/pais/juan-luis-castro-por-fallecimiento-de-camilo-escalona-es-una-perdida-irreparable-para-la-vida-e-historia-del-partido-socialista/",
       "https://www.cnnchile.com/pais/kast-responde-a-polemica-de-senadores-republicanos-que-rechazarian-reforma-de-seguridad-si-fuera-de-izquierda-alguien-como-jeannette-jara-jamas-habria-presentado-algo-asi/",
+      "https://www.cnnchile.com/pais/le-prometi-que-las-nuevas-generaciones-iban-a-saber-de-su-lucha-y-deja-una-huella-profunda-en-la-historia-gabriel-boric-y-alvaro-elizalde-despiden-a-camilo-escalon/",
       "https://www.cnnchile.com/pais/lluvia-region-metropolitana-hoy-sistema-frontal-san-jose-maipo-lo-barnechea/",
       "https://www.cnnchile.com/pais/lo-golpearon-y-amenazaron-a-su-familia-gremio-entrega-crudo-relato-sobre-ataque-a-tutor-del-centro-de-internacion-provisoria-de-coronel/",
       "https://www.cnnchile.com/pais/lo-que-dice-un-documento-que-existe-en-otro-pais-no-puede-alterar-los-tratados-ministro-barros-y-polemica-por-soberania-del-estrecho-de-magallanes/",
+      "https://www.cnnchile.com/pais/luchador-por-la-democracia-gran-lider-y-figura-fundamental-el-mundo-politico-se-despide-de-camilo-escalona/",
       "https://www.cnnchile.com/pais/luego-de-7-anos-autoridades-confirman-el-regreso-del-canonazo-de-las-12-en-santiago/",
       "https://www.cnnchile.com/pais/manouchehri-critica-dichos-de-milei-grita-como-energumeno-y-se-comporta-como-maton-de-bar-reivindicando-una-dictadura-y-kast-actua-como-un-pusilanime/",
       "https://www.cnnchile.com/pais/mas-de-cinco-decadas-en-politica-la-vida-de-camilo-escalona-historico-dirigente-del-ps/",
       "https://www.cnnchile.com/pais/mayor-carabineros-detenido-hurto-easy-portal-la-reina/",
-      "https://www.cnnchile.com/pais/me-parece-una-mezquindad-y-esto-es-un-sinsentido-guillermo-ramirez-udi-critica-interpelacion-de-nelson-venegas-ps-contra-el-canciller-francisco-perez-mackenna/",
       "https://www.cnnchile.com/pais/metro-confirma-muerte-de-pasajero-tras-accidente-en-estacion-pajaritos/",
       "https://www.cnnchile.com/pais/metro-linea-4-ruta-expresa-san-jose-estrella-estacion-comun-viernes/",
       "https://www.cnnchile.com/pais/metro-opera-con-servicio-parcial-en-linea-1-por-emergencia-medica-cuatro-estaciones-fueron-suspendidas/",
@@ -69425,6 +69361,7 @@
       "https://www.cnnchile.com/pais/mineduc-presento-hoja-de-ruta-con-20-medidas-desde-reducir-la-carga-administrativa-a-promover-la-participacion-de-las-familias/",
       "https://www.cnnchile.com/pais/ministerio-de-hacienda-solicita-renuncia-a-directora-nacional-de-aduanas/",
       "https://www.cnnchile.com/pais/ministra-arzola-defiende-reforma-al-sae-en-el-sistema-actual-el-merito-tiene-muy-poco-espacio/",
+      "https://www.cnnchile.com/pais/ministra-rincon-lamenta-muerte-de-camilo-escalona-un-gran-lider-y-un-firme-representante-de-la-politica-en-chile/",
       "https://www.cnnchile.com/pais/ministro-arrau-cancela-participacion-en-el-foro-madrid-tras-excusarse-por-una-emergencia/",
       "https://www.cnnchile.com/pais/ministro-arrau-por-fuga-de-interno-tras-autorizacion-del-tribunal-para-asistir-al-bautizo-de-su-hijo-sin-custodia-ninguna-consideracion-particular-puede-estar-por-encima-del-bien-comun/",
       "https://www.cnnchile.com/pais/ministro-arrau-se-reune-con-la-achm-y-acuerdan-medidas-de-seguridad-tras-amenazas-contra-alcalde-white/",
@@ -69433,9 +69370,11 @@
       "https://www.cnnchile.com/pais/panoramas-para-este-4-5-y-6-de-septiembre-cueca-moda-circular-circo-en-penalolen-y-ferias-de-autor/",
       "https://www.cnnchile.com/pais/penalolen-prohibe-nuevas-botillerias-barrios-residenciales-ordenanza-alcoholes/",
       "https://www.cnnchile.com/pais/portazo-a-reos-de-carcel-de-valparaiso-corte-rechazo-recurso-de-amparo-presentado-por-traslado-a-carcel-de-talca/",
+      "https://www.cnnchile.com/pais/presidenta-del-partido-socialista-destaca-el-legado-de-camilo-escalona-un-gran-democrata-un-luchador/",
       "https://www.cnnchile.com/pais/presidente-kast-advierte-a-su-sector-a-seis-meses-de-asumir-si-en-estos-tres-anos-no-hacemos-cosas-como-correspond-izquierda-podria-volver/",
       "https://www.cnnchile.com/pais/presidente-kast-en-el-foro-madrid-nuestro-adversario-es-mucho-mas-grande-que-la-izquierda-son-las-urgencias-sociales/",
       "https://www.cnnchile.com/pais/presidente-kast-evita-polemizar-con-jeannette-jara-pero-le-responde-recordando-su-triunfo-electoral-mas-de-7-millones-de-votos-contra-5-millones/",
+      "https://www.cnnchile.com/pais/presidente-kast-lamenta-muerte-de-camilo-escalona-ejercio-su-liderazgo-de-manera-clara-y-directa/",
       "https://www.cnnchile.com/pais/presidente-kast-recibe-a-autoridades-de-el-salvador-para-abordar-seguridad-crimen-organizado-y-sistema-penitenciario/",
       "https://www.cnnchile.com/pais/presidente-kast-y-amenaza-de-muerte-contra-alcalde-christopher-white-a-todos-aquellos-que-osen-amenazar-a-una-autoridad-sepan-que-vamos-a-ir-por-ellos/",
       "https://www.cnnchile.com/pais/ps-llama-al-gobierno-a-rechazar-declaraciones-de-milei-por-allende-golpe-de-estado/",
@@ -69451,9 +69390,9 @@
       "https://www.cnnchile.com/pais/se-desploma-el-optimismo-economico-segun-cadem-un-63-cree-que-chile-va-por-mal-camino-y-un-91-tiene-expectativas-negativas-sobre-el-empleo/",
       "https://www.cnnchile.com/pais/se-que-no-voy-a-ser-secretaria-general-bachelet-sincera-postura-en-medio-de-complejo-escenario-para-liderar-naciones-unidas/",
       "https://www.cnnchile.com/pais/senadores-squella-macaya-nunez-y-cruz-coke-a-cuatro-anos-del-triunfo-del-rechazo-es-la-derrota-mas-significativa-del-proyecto-ideologico-que-encarnan-hoy-el-fa-y-el-pc/",
+      "https://www.cnnchile.com/pais/sera-recordado-como-una-figura-relevante-senado-despide-al-historico-lider-socialista-camilo-escalona-y-destaca-su-trayectoria-politica/",
       "https://www.cnnchile.com/pais/sernac-emite-alerta-de-seguridad-por-linternas-led-con-posible-defecto-hay-mas-de-900-en-manos-de-consumidores/",
       "https://www.cnnchile.com/pais/suspenden-de-forma-preventiva-el-transito-en-el-paso-los-libertadores-por-frente-de-mal-tiempo-en-la-alta-cordillera/",
-      "https://www.cnnchile.com/pais/tension-en-el-senado-suspenden-sesion-por-sala-cuna-tras-interrupciones-desde-la-galeria/",
       "https://www.cnnchile.com/pais/termino-la-veda-de-la-merluza-austral-sernapesca-incauto-11-toneladas-del-recurso-pesquero/",
       "https://www.cnnchile.com/pais/transportes-anuncio-la-llegada-de-130-buses-electricos-a-punta-arenas-autoridades-destacaron-mejora-en-trazados-y-cobertura/",
       "https://www.cnnchile.com/pais/tras-amenazas-de-muerte-alcaldes-piden-que-presidente-kast-visite-a-white/",
@@ -69462,11 +69401,9 @@
       "https://www.cnnchile.com/pais/tras-detectarse-mas-de-100-futbolistas-sin-permiso-laboral-anfp-y-sermig-firman-alianza-para-combatir-la-contratacion-regular-de-jugadores/",
       "https://www.cnnchile.com/pais/tras-fracaso-por-falta-de-quorum-camara-de-diputados-aprobo-comision-investigadora-por-caso-cerimedo/",
       "https://www.cnnchile.com/pais/tres-islas-del-sur-buscan-nuevo-dueno-bienes-nacionales-las-incluyo-en-venta-de-inmuebles-fiscales/",
-      "https://www.cnnchile.com/pais/tribunal-acoge-recurso-de-amparo-de-senadora-camila-flores-y-ordena-limitar-informacion-de-dispositivos-incautados/",
       "https://www.cnnchile.com/pais/un-poco-mas-de-pudor-y-oportunismo-brutal-jaime-bassa-fa-responde-a-carolina-toha-por-dichos-sobre-la-convencion-constitucional/",
       "https://www.cnnchile.com/pais/viera-gallo-kast-estrecho-magallanes-argentina-tono/",
       "https://www.cnnchile.com/pais/white-tras-plan-para-asesinarlo-cruzamos-una-linea-roja-historica-como-pais-si-me-voy-por-miedo-los-narcos-ganan/",
-      "https://www.cnnchile.com/presentados/ante-recambio-tecnologico-refrigeracion-del-retail-epta-instala-en-chile-su-cuarto-centro-de-entrenamiento-en-america/",
       "https://www.cnnchile.com/presentados/cenco-malls-inaugura-auto-city-en-cenco-costanera-y-cenco-florida-reuniendo-mas-de-25-marcas-para-transformar-la-experiencia-automotriz-en-chile/",
       "https://www.cnnchile.com/presentados/chile-te-quiero-comer-sheraton-invita-a-recorrer-chile-a-traves-de-sus-sabores-y-vinos/",
       "https://www.cnnchile.com/presentados/la-desconocida-paleta-pimentada-chilena-que-conquista-japon-y-arrasa-en-ventas/",
@@ -69506,6 +69443,7 @@
       "https://www.pauta.cl/actualidad/2026/09/04/kast-advierte-a-la-derecha-en-foro-madrid-si-no-hacemos-las-cosas-como-corresponde-la-izquierda-podria-volver.html",
       "https://www.pauta.cl/actualidad/2026/09/04/matthei-arremete-contra-fernando-cerimedo-y-lo-tilda-de-delincuente-por-caso-de-los-bots.html",
       "https://www.pauta.cl/actualidad/2026/09/04/milei-endurece-ofensiva-por-malvinas-ante-avance-de-proyecto-petrolero-y-acelera-base-naval.html",
+      "https://www.pauta.cl/actualidad/2026/09/04/muere-camilo-escalona-historico-lider-del-socialismo-chileno-y-figura-clave-de-la-transicion.html",
       "https://www.pauta.cl/actualidad/2026/09/04/richard-von-appen-lanza-candidatura-para-presidir-la-cpc-y-antonio-walker-evalua-competir.html",
       "https://www.pauta.cl/actualidad/2026/09/04/schalper-a-cuatro-anos-del-4-s-fuimos-nosotros-los-que-tuvimos-que-defender-la-democracia-frente-a-los-delirios-de-una-minoria.html",
       "https://www.pauta.cl/actualidad/2026/09/04/viera-gallo-respalda-a-kast-por-no-exigir-a-milei-derogar-decreto-y-afirma-que-el-tema-ya-es-secundario.html",
@@ -69566,7 +69504,6 @@
       "https://www.pauta.cl/deportes/pauta-de-juego/2026/09/03/pauta-de-juego-03-de-septiembre-de-2026.html",
       "https://www.pauta.cl/deportes/pauta-de-juego/2026/09/04/pauta-de-juego-04-de-septiembre-de-2026.html",
       "https://www.pauta.cl/economia/2026/09/02/fedefruta-y-fb-latam-sellan-alianza-para-fortalecer-la-cadena-de-frio-de-la-industria-fruticola-chilena.html",
-      "https://www.pauta.cl/economia/2026/09/02/reforma-al-mercado-de-capitales-en-que-consiste-el-proyecto-que-impulsa-el-ministro-jorge-quiroz.html",
       "https://www.pauta.cl/economia/2026/09/03/macias-advierte-conservadurismo-en-nuevos-fondos-generacionales-me-parecia-razonable-introducir-mas-riesgo-y-mayor-rentabilidad-esperada.html",
       "https://www.pauta.cl/economia/2026/09/04/rodrigo-krell-descarta-impacto-de-bonos-y-rebajas-tributarias-para-elevar-la-natalidad-no-tienen-mucho-efecto.html",
       "https://www.pauta.cl/economia/la-columna-de-ackermann/2026/09/02/como-detectar-cuando-te-estan-vendiendo-humo.html",
@@ -69604,6 +69541,7 @@
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-bice-27-08-2026-3/",
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-security-31-08-2026-2/",
       "https://ellibero.cl/aviso-legal/orden-de-no-pago-banco-security-31-08-2026/",
+      "https://ellibero.cl/aviso-legal/principal-administradora-general-de-fondos-s-a-reparto-de-beneficios-29/",
       "https://ellibero.cl/aviso-legal/puerto-ventanas-s-a-pago-dividendo-provisorio-no118/",
       "https://ellibero.cl/aviso-legal/sigdo-koppers-s-a-pago-de-dividendo-provisorio/",
       "https://ellibero.cl/aviso-legal/toesca-infraestructura-fondo-de-inversion-citacion-a-junta-extraordinaria-de-aportantes-2/",
@@ -69672,10 +69610,10 @@
       "https://puranoticia.pnt.cl/deportes/advierten-por-mal-estado-de-la-cancha-del-ester-roa-para-el-duelo-entre",
       "https://puranoticia.pnt.cl/deportes/alejandro-tabilo-avanza-por-primera-vez-a-la-tercera-ronda-del-us-open-tras",
       "https://puranoticia.pnt.cl/deportes/alexis-sanchez-lamento-un-gol-anulado-en-empate-del-montreal-por-el",
+      "https://puranoticia.pnt.cl/deportes/audax-italiano-se-impone-a-domicilio-ante-d-concepcion-y-se-aleja-de-la",
       "https://puranoticia.pnt.cl/deportes/aun-estoy-en-pie-christian-bravo-rompe-el-silencio-tras-sufrir-danos",
       "https://puranoticia.pnt.cl/deportes/betis-de-manuel-pellegrini-vence-al-real-madrid-y-continua-en-la-parte-alta",
       "https://puranoticia.pnt.cl/deportes/bruno-barticciotto-se-despidio-de-talleres-con-un-emotivo-mensaje-el-ano",
-      "https://puranoticia.pnt.cl/deportes/d-limache-vence-a-nublense-y-trepa-al-septimo-lugar-de-la-tabla-de",
       "https://puranoticia.pnt.cl/deportes/dt-del-crystal-palace-llena-de-elogios-a-dario-osorio-y-avisa-que-cambiara",
       "https://puranoticia.pnt.cl/deportes/erick-pulgar-saca-aplausos-en-brasil-con-un-gran-pase-en-triunfo-del",
       "https://puranoticia.pnt.cl/deportes/fernando-gago-descarta-quiebre-en-la-u-y-asegura-que-la-relacion-con-el",
@@ -69684,9 +69622,9 @@
       "https://puranoticia.pnt.cl/deportes/jorge-uauy-tendria-el-apoyo-de-14-clubes-para-candidatearse-a-la",
       "https://puranoticia.pnt.cl/deportes/mourinho-elogia-a-pellegrini-y-se-arrepiente-de-sus-dichos-dije",
       "https://puranoticia.pnt.cl/deportes/prensa-inglesa-y-arribo-de-osorio-a-la-premier-el-proximo-alexis-sanchez",
+      "https://puranoticia.pnt.cl/deportes/rangers-derrota-a-temuco-suma-su-tercera-victoria-consecutiva-y-se",
       "https://puranoticia.pnt.cl/deportes/s-wanderers-vence-por-la-minima-a-d-iquique-y-retoma-el-liderato",
       "https://puranoticia.pnt.cl/deportes/tabilo-ya-tiene-rival-en-tercera-ronda-del-us-open-enfrentara-al-n-2",
-      "https://puranoticia.pnt.cl/deportes/zamorano-fue-categorico-con-el-eventual-arribo-a-la-roja-de-pellegrini-lo",
       "https://puranoticia.pnt.cl/editorial/editorial-las-palabras-de-milei-en-el-foro-de-madrid-la-peor-cara-de-la",
       "https://puranoticia.pnt.cl/editorial/editorial-triste-fome-desganado-y-sin-caracter-el-peor-momento-de-kast",
       "https://puranoticia.pnt.cl/espectaculos/de-la-copa-piston-a-la-formula-1-rayo-mcqueen-celebrara-los-20-anos-de-la",
@@ -69703,7 +69641,6 @@
       "https://puranoticia.pnt.cl/hora-de-noticias-4-de-septiembre",
       "https://puranoticia.pnt.cl/internacional/al-menos-37-murieron-en-nigeria-por-inhalar-gases-toxicos-durante-una",
       "https://puranoticia.pnt.cl/internacional/defensa-de-nicolas-maduro-pide-a-la-justicia-de-estados-unidos-desestimar",
-      "https://puranoticia.pnt.cl/internacional/delcy-rodriguez-asegura-que-habra-elecciones-cuando-venezuela-este",
       "https://puranoticia.pnt.cl/internacional/donald-trump-tilda-a-espana-de-pais-arruinado-y-arremete-contra-su",
       "https://puranoticia.pnt.cl/internacional/el-brote-de-ebola-en-republica-democratica-del-congo-supera-los-6-300-casos",
       "https://puranoticia.pnt.cl/internacional/estados-unidos-sanciona-a-un-nieto-de-raul-castro-y-a-sectores-clave-de-la",
@@ -69726,7 +69663,6 @@
       "https://puranoticia.pnt.cl/nacional/camara-expresa-preocupacion-por-datos-publicados-por-el-banco-central-que",
       "https://puranoticia.pnt.cl/nacional/canciller-confirma-que-argentina-modificara-decreto-de-control-compartido",
       "https://puranoticia.pnt.cl/nacional/claudia-pizarro-revela-que-hay-mas-de-20-alcaldes-con-proteccion-policial",
-      "https://puranoticia.pnt.cl/nacional/comision-de-derechos-humanos-de-la-camara-aprueba-en-general-el-proyecto",
       "https://puranoticia.pnt.cl/nacional/comision-de-la-camara-de-diputados-aprueba-indicacion-que-sanciona-con",
       "https://puranoticia.pnt.cl/nacional/comision-mixta-acuerda-aumentar-a-24-horas-el-plazo-de-detencion-por",
       "https://puranoticia.pnt.cl/nacional/contraloria-detecta-graves-deficiencias-en-aduanas-y-hacienda-solicita",
@@ -69735,6 +69671,7 @@
       "https://puranoticia.pnt.cl/nacional/diputado-bassa-emplaza-al-sistema-politico-tras-cuatro-anos-del-rechazo",
       "https://puranoticia.pnt.cl/nacional/diputado-ilabaca-llama-al-presidente-kast-a-condenar-dichos-de-milei-sobre",
       "https://puranoticia.pnt.cl/nacional/diputado-venegas-llama-a-condenar-los-dichos-de-milei-en-foro-madrid-y",
+      "https://puranoticia.pnt.cl/nacional/fallece-a-los-71-anos-camilo-escalona-historico-dirigente-del-ps-y",
       "https://puranoticia.pnt.cl/nacional/fiscalia-centro-norte-abre-investigacion-por-presuntos-delitos-informaticos",
       "https://puranoticia.pnt.cl/nacional/fiscalia-cierra-nuevamente-investigacion-por-fraude-al-fisco-y-presenta",
       "https://puranoticia.pnt.cl/nacional/gendarme-fallece-en-dependencias-de-la-institucion-en-santiago-su-deceso",
@@ -69747,23 +69684,22 @@
       "https://puranoticia.pnt.cl/nacional/michelle-bachelet-reconoce-que-su-candidatura-para-llegar-a-la-onu-no",
       "https://puranoticia.pnt.cl/nacional/milei-abre-en-chile-el-v-encuentro-del-foro-de-madrid-y-kast-cerrara",
       "https://puranoticia.pnt.cl/nacional/milei-abrio-el-foro-de-madrid-arremetiendo-contra-la-izquierda-chilena",
-      "https://puranoticia.pnt.cl/nacional/ministro-arrau-se-reune-con-el-alcalde-white-tras-revelarse-plan-para",
+      "https://puranoticia.pnt.cl/nacional/ministro-arrau-cuestiona-a-tribunal-de-copiapo-tras-fuga-de-condenado-por",
       "https://puranoticia.pnt.cl/nacional/minsal-emite-alerta-alimentaria-por-presencia-de-listeria-en-pasta-coctel",
       "https://puranoticia.pnt.cl/nacional/nino-y-adulto-resultan-heridos-a-bala-tras-quedar-en-medio-de-tiroteo-en-lo",
       "https://puranoticia.pnt.cl/nacional/oposicion-responde-al-foro-madrid-con-encuentro-democracia-siempre-en",
       "https://puranoticia.pnt.cl/nacional/orrego-revela-que-una-autoridad-le-recomendo-al-alcalde-white-quedarse-en",
       "https://puranoticia.pnt.cl/nacional/presidente-de-la-achm-advierte-que-un-dia-va-a-aparecer-un-alcalde",
+      "https://puranoticia.pnt.cl/nacional/presidente-kast-lamento-la-muerte-de-camilo-escalona-ejercio-su-liderazgo",
       "https://puranoticia.pnt.cl/nacional/presidente-kast-visita-a-alcalde-de-san-bernardo-tras-destaparse-plan-para",
       "https://puranoticia.pnt.cl/nacional/reporte-semanal-campana-de-invierno-positividad-asciende-al-57-9-la",
       "https://puranoticia.pnt.cl/nacional/sernac-emite-alerta-de-seguridad-por-linterna-led-tactica-marca-maxwell-que",
       "https://puranoticia.pnt.cl/nacional/superintendencia-de-pensiones-instruye-activacion-de-dos-pagos-adicionales",
       "https://puranoticia.pnt.cl/nacional/tras-reunion-con-el-gobierno-gremios-del-transporte-alertan-que-no-tienen",
       "https://puranoticia.pnt.cl/nacional/tras-reunion-entre-kast-y-milei-chile-y-argentina-ratifican-que-tratados",
-      "https://puranoticia.pnt.cl/nacional/tras-siete-anos-en-silencio-vuelve-el-tradicional-canonazo-de-las-12-al",
       "https://puranoticia.pnt.cl/nacional/udi-se-reune-con-el-canciller-perez-mackenna-y-exige-a-la-oposicion-retirar",
       "https://puranoticia.pnt.cl/negocios/codelco-logra-reubicar-a-1-782-trabajadores-tras-suspension-de-andes-norte",
       "https://puranoticia.pnt.cl/negocios/ine-modernizara-el-indice-de-costos-del-transporte-para-enfrentar-la",
-      "https://puranoticia.pnt.cl/puranoticia-matinal-2-de-septiembre",
       "https://puranoticia.pnt.cl/puranoticia-matinal-3-de-septiembre",
       "https://puranoticia.pnt.cl/puranoticia-matinal-4-de-septiembre",
       "https://puranoticia.pnt.cl/puranoticia-pm-2-de-septiembre",
@@ -69772,7 +69708,6 @@
       "https://puranoticia.pnt.cl/region-valparaiso/alcalde-de-puchuncavi-asegura-que-proyecto-de-planta-de-jibia-no-existe",
       "https://puranoticia.pnt.cl/region-valparaiso/alcalde-de-quillota-luis-mella-ingreso-a-cirugia-tras-presentar-problemas",
       "https://puranoticia.pnt.cl/region-valparaiso/aumento-automatico-de-la-pgu-llega-a-250-mil-y-beneficia-a-mas-de-57-mil",
-      "https://puranoticia.pnt.cl/region-valparaiso/bienes-nacionales-licitara-demolicion-de-inmueble-fiscal-deteriorado-en",
       "https://puranoticia.pnt.cl/region-valparaiso/carabineros-realiza-impactante-simulacion-de-accidente-en-vina-del-mar-para",
       "https://puranoticia.pnt.cl/region-valparaiso/casablanca-y-quillota-se-movilizaron-en-emotiva-marcha-con-alma-2026-por",
       "https://puranoticia.pnt.cl/region-valparaiso/colision-multiple-involucra-a-tres-vehiculos-en-el-camino-internacional-de",
@@ -69783,6 +69718,7 @@
       "https://puranoticia.pnt.cl/region-valparaiso/desesperacion-en-el-tren-limache-puerto-pasajeros-intentaron-abrir",
       "https://puranoticia.pnt.cl/region-valparaiso/detienen-a-dos-bolivianos-con-mas-de-13-kilos-de-cocaina-en-bus-fiscalizado",
       "https://puranoticia.pnt.cl/region-valparaiso/detienen-a-dos-personas-en-villa-alemana-por-microtrafico-e-infraccion-a-la",
+      "https://puranoticia.pnt.cl/region-valparaiso/detienen-a-un-hombre-y-rescatan-a-cuatro-perros-galgos-que-se-encontraban",
       "https://puranoticia.pnt.cl/region-valparaiso/detienen-al-presunto-autor-de-femicidio-de-mujer-de-42-anos-en-playa-de-el",
       "https://puranoticia.pnt.cl/region-valparaiso/diputada-francisca-bello-se-encuentra-estable-y-fuera-de-riesgo-vital-tras",
       "https://puranoticia.pnt.cl/region-valparaiso/diputado-bassa-cuestiona-impacto-de-granjas-de-bots-en-campana-de-kast-y",
@@ -69791,6 +69727,7 @@
       "https://puranoticia.pnt.cl/region-valparaiso/duro-reves-judicial-para-la-administracion-ramirez-vulneracion-de-derechos",
       "https://puranoticia.pnt.cl/region-valparaiso/en-valparaiso-cae-el-presunto-autor-material-de-homicidio-ocurrido-en-2025",
       "https://puranoticia.pnt.cl/region-valparaiso/fiscalia-judicial-recomienda-a-la-corte-de-valparaiso-acoger-reclamo-contra",
+      "https://puranoticia.pnt.cl/region-valparaiso/fiscalizan-carnicerias-de-quilpue-para-reforzar-seguridad-de-alimentos-en",
       "https://puranoticia.pnt.cl/region-valparaiso/gobierno-regional-de-valparaiso-destina-mas-de-338-millones-para",
       "https://puranoticia.pnt.cl/region-valparaiso/gore-de-valparaiso-aprueba-proyectos-por-mas-de-3-189-millones-enfocados",
       "https://puranoticia.pnt.cl/region-valparaiso/historia-completa-el-plan-de-los-masterchef-de-enap-el-por-que-de-las",
@@ -69799,12 +69736,11 @@
       "https://puranoticia.pnt.cl/region-valparaiso/macrocentro-del-cancer-gobierno-busca-acelerar-proyecto-para-la-region-de",
       "https://puranoticia.pnt.cl/region-valparaiso/megaincendio-en-vina-del-mar-corte-escucho-argumentos-y-dejo-pendiente",
       "https://puranoticia.pnt.cl/region-valparaiso/microbus-desbarranca-y-queda-incrustado-en-vivienda-en-playa-ancha-tres",
+      "https://puranoticia.pnt.cl/region-valparaiso/municipio-de-valparaiso-lanza-fondo-para-financiar-proyectos-juveniles",
       "https://puranoticia.pnt.cl/region-valparaiso/municipio-de-vina-del-mar-repara-socavones-y-restablece-transito-en-calle",
       "https://puranoticia.pnt.cl/region-valparaiso/obras-del-embalse-las-palmas-de-petorca-comenzarian-durante-el-segundo",
-      "https://puranoticia.pnt.cl/region-valparaiso/olmue-renueva-dos-recintos-deportivos-con-inversion-superior-a-256",
       "https://puranoticia.pnt.cl/region-valparaiso/operativo-conjunto-permite-recuperar-taxi-colectivo-que-habia-sido",
-      "https://puranoticia.pnt.cl/region-valparaiso/papudo-prioriza-televigilancia-y-conservacion-de-avenidas-para-futuras",
-      "https://puranoticia.pnt.cl/region-valparaiso/quintero-anuncia-tres-dias-de-musica-gastronomia-y-tradiciones-para",
+      "https://puranoticia.pnt.cl/region-valparaiso/organizaciones-de-valparaiso-recurren-a-contraloria-a-denunciar",
       "https://puranoticia.pnt.cl/region-valparaiso/reinaldo-sanchez-en-la-mira-madre-de-escolar-que-murio-atropellado-por",
       "https://puranoticia.pnt.cl/region-valparaiso/retiran-de-circulacion-motocicleta-que-transitaba-sin-su-documentacion-en",
       "https://puranoticia.pnt.cl/region-valparaiso/senador-karim-bianchi-arremete-contra-gabriel-boric-por-su-gestion-en",
@@ -69818,10 +69754,11 @@
       "https://puranoticia.pnt.cl/region-valparaiso/tres-graves-heridas-cortantes-terminan-con-la-vida-de-un-hombre-en-san",
       "https://puranoticia.pnt.cl/region-valparaiso/tres-lesionados-dejo-colision-entre-microbus-y-dos-automoviles-en-el-acceso",
       "https://puranoticia.pnt.cl/region-valparaiso/valparaiso-licita-obras-para-reforzar-estructura-del-historico-edificio",
+      "https://puranoticia.pnt.cl/region-valparaiso/villa-alemana-dotara-de-kits-de-emergencia-a-juntas-de-vecinos-para",
+      "https://puranoticia.pnt.cl/region-valparaiso/vina-del-mar-abre-inscripciones-para-nueva-version-del-festival-del-cantar",
       "https://puranoticia.pnt.cl/region-valparaiso/yenny-prieto-asumio-como-nueva-directora-de-conaf-en-la-region-de",
       "https://puranoticia.pnt.cl/region-valparaiso/zapallar-estrena-nuevo-modelo-de-aseo-con-43-trabajadores-y-maquinaria",
       "https://puranoticia.pnt.cl/regiones/caso-julia-chunil-juzgado-de-garantia-de-los-lagos-revoca-la-prision",
-      "https://puranoticia.pnt.cl/regiones/condenan-a-hospital-de-calama-y-al-servicio-de-salud-por-muerte-de-paciente",
       "https://puranoticia.pnt.cl/regiones/contraloria-detecta-contratos-por-mas-de-750-millones-con-familiares-de",
       "https://puranoticia.pnt.cl/regiones/desarticulan-red-criminal-multinacional-en-el-norte-operativo-deja-13",
       "https://puranoticia.pnt.cl/regiones/dos-internos-fallecidos-deja-rina-al-interior-de-la-carcel-de-coyhaique",
@@ -69829,6 +69766,8 @@
       "https://puranoticia.pnt.cl/regiones/estudiante-de-13-anos-fue-apunalado-al-interior-de-un-colegio-en-la-serena",
       "https://puranoticia.pnt.cl/regiones/incautan-mas-de-250-kilos-de-drogas-en-la-ruta-5-norte-a-la-altura-de-la",
       "https://puranoticia.pnt.cl/regiones/punta-arenas-tendra-nueva-ruta-maritima-hacia-las-islas-falkland-con-primer",
+      "https://puranoticia.pnt.cl/regiones/un-hombre-fue-detenido-en-la-araucania-por-publicar-imagen-intervenida-del",
+      "https://puranoticia.pnt.cl/regiones/volcan-villarrica-entra-en-alerta-amarilla-tras-ascenso-del-lago-de-lava",
       "https://puranoticia.pnt.cl/tendencias/anfield-vuelve-a-calentarse-apuesta-sin-riesgo-en-el-liverpool-vs-atletico",
       "https://puranoticia.pnt.cl/tendencias/desde-el-saque-inicial-hasta-el-pitido-final-como-el-juego-responsable-te",
       "https://puranoticia.pnt.cl/tendencias/la-champions-2026-27-arranca-con-cinco-espanoles-y-una-fase-liga-llena-de",
@@ -69843,7 +69782,6 @@
       "https://puranoticia.pnt.cl/video/socio-director-de-feedback-udp-por-encuesta-sobre-la-forma-en-que-los"
     ],
     "la-hora": [
-      "https://lahora.cl/cronica/2026/08/30/horoscopo-lunes-31-de-agosto-predicciones-de-yolanda-sultana/",
       "https://lahora.cl/cronica/2026/08/31/galgos-rescatados-desfilaran-en-vivo-panoramico/",
       "https://lahora.cl/cronica/2026/08/31/horoscopo-martes-1-de-septiembre-predicciones-de-yolanda-sultana/",
       "https://lahora.cl/cronica/2026/08/31/joven-advierte-terribles-consecuencias-por-el-consumo-de-ketamina-perdi-mi-vejiga-ando-con-panales/",
@@ -69891,10 +69829,13 @@
       "https://lahora.cl/cronica/2026/09/03/sin-siestas-ni-cafeina-despues-del-mediodia-experto-da-el-dato-para-adaptarse-al-cambio-de-hora-de-este-sabado/",
       "https://lahora.cl/cronica/2026/09/03/tradicion-en-fiestas-patrias-cual-es-la-multa-para-quienes-no-instalen-la-bandera-en-su-casa-o-edificio/",
       "https://lahora.cl/cronica/2026/09/03/urgente-l-se-registran-serios-incidentes-en-la-alameda-manifestantes-rechazan-visita-de-javier-milei/",
+      "https://lahora.cl/cronica/2026/09/04/chile-lo-despide-con-respeto-presidente-kast-y-el-mundo-de-la-politica-lloran-la-muerte-de-camilo-escalona/",
       "https://lahora.cl/cronica/2026/09/04/el-drama-que-vive-el-parque-ohiggins-ambulantes-levantan-mall-callejero-y-hasta-bares-cuando-hay-conciertos/",
       "https://lahora.cl/cronica/2026/09/04/entre-las-10-y-el-mediodia-michelle-adam-adelanta-lluvia-en-santiago-justo-cuando-los-ninos-bailan-en-fiestas-patrias/",
+      "https://lahora.cl/cronica/2026/09/04/horoscopo-sabado-5-de-septiembre-predicciones-de-yolanda-sultana/",
       "https://lahora.cl/cronica/2026/09/04/la-florida-recupera-terreno-ocupado-irregularmente-e-inicia-acciones-legales-por-maltrato-animal/",
       "https://lahora.cl/cronica/2026/09/04/me-parece-abominable-una-cosa-espantosa-neme-lanzo-dura-critica-a-milei-por-sus-dichos-sobre-allende/",
+      "https://lahora.cl/cronica/2026/09/04/muere-camilo-escalona-a-los-71-anos-referente-del-partido-socialista-y-ex-presidente-del-senado/",
       "https://lahora.cl/cronica/2026/09/04/quien-era-wilmer-quispe-peruano-de-38-anos-fue-la-victima-de-la-atroz-tragedia-y-su-familia-acusa-negligencia-del-metro-de-santiago/",
       "https://lahora.cl/cronica/2026/09/04/tras-bromas-sobre-ninos-tea-italo-omegna-confirma-que-alista-su-primer-show-de-stand-up/",
       "https://lahora.cl/cronica/2026/09/04/video-pilates-de-terror-en-castro-mujer-cayo-en-maquina-y-se-atraveso-la-cara-con-un-fierro/",
@@ -69946,7 +69887,6 @@
       "https://lahora.cl/entretencion/2026/08/31/a-seis-meses-del-choque-fran-maira-quiere-ir-a-estados-unidos-y-pidio-que-le-levanten-el-arraigo/",
       "https://lahora.cl/entretencion/2026/08/31/acepto-lo-que-viene-pollo-fuentes-revela-que-su-retiro-de-los-escenarios-esta-muy-cerca/",
       "https://lahora.cl/entretencion/2026/08/31/ardera-troya-filtran-a-los-primeros-tres-confirmados-para-volverias-con-tu-ex-3/",
-      "https://lahora.cl/entretencion/2026/08/31/chile-para-mi-era-insoportable-luis-gnecco-cuenta-de-su-nueva-vida-en-europa/",
       "https://lahora.cl/entretencion/2026/08/31/cony-piccoli-expuso-importante-momento-familiar-en-redes-sociales-no-estoy-preparada-para/",
       "https://lahora.cl/entretencion/2026/08/31/diana-eterna-mito-tragedia-y-legado/",
       "https://lahora.cl/entretencion/2026/08/31/eso-no-fue-ordinario-es-violento-yamila-reyna-explico-su-chiste-de-pamela-diaz-pero-en-hay-que-decirlo-la-reventaron/",
@@ -69960,7 +69900,6 @@
       "https://lahora.cl/entretencion/2026/08/31/julio-cesar-rodriguez-destrozo-a-la-gestion-de-jose-antonio-kast-es-un-gobierno-triste/",
       "https://lahora.cl/entretencion/2026/08/31/llega-a-chile-la-primera-experiencia-inmersiva-al-aire-libre-de-minecraft/",
       "https://lahora.cl/entretencion/2026/08/31/llevo-cuatro-meses-camilisima-al-fin-conto-que-anda-con-futbolista-que-jugo-en-la-u-e-incluso-quiere-ser-mama/",
-      "https://lahora.cl/entretencion/2026/08/31/mas-que-un-dolor-de-garganta-filtran-que-rafael-cavada-hoy-debera-dar-explicaciones-por-su-sorpresiva-salida-del-aire-de-este-sabado/",
       "https://lahora.cl/entretencion/2026/08/31/me-puedo-morir-luego-pamela-diaz-impacto-con-confesion-y-dijo-que-necesitaba-hablar-con-un-abogado/",
       "https://lahora.cl/entretencion/2026/08/31/me-quiso-hacer-la-mula-el-compadre-otakin-funo-a-trabajador-de-bencinera-por-intentar-estafarlo-con-combustible/",
       "https://lahora.cl/entretencion/2026/08/31/nueva-version-misma-esencia-nicole-moreno-encanto-a-sus-seguidores-con-cambio-de-look/",
@@ -70085,13 +70024,13 @@
       "https://lahora.cl/lahoradelfuturo/2026/08/31/solo-el-3-6-de-las-empresas-chilenas-logra-escalar-proyectos-de-inteligencia-artificial/",
       "https://lahora.cl/lahoradesalir/2026/08/31/inauguran-el-pueblito-nuevo-espacio-gastronomico-con-cinco-locales-en-el-monticello/",
       "https://lahora.cl/mujeres/2026/08/31/de-la-mano-de-karol-g-vuelve-un-clasico-de-todos-los-tiempos/",
-      "https://lahora.cl/opinion/2026/08/30/juan-gabriel-mito-aplausos-y-heridas-de-vida/",
       "https://lahora.cl/opinion/2026/09/02/felipe-camiroaga-el-irreemplazable/",
       "https://lahora.cl/papel-digital/2026/08/31/maduro-impacta-al-mundo-con-foto-y-frases-en-prision-de-estados-unidos/",
       "https://lahora.cl/papel-digital/2026/09/01/condena-historica-a-medicos-por-megafraude-a-fonasa/",
       "https://lahora.cl/papel-digital/2026/09/01/historico-fichaje-de-dario-osorio-en-inglaterra-36-millones-de-dolares/",
       "https://lahora.cl/papel-digital/2026/09/03/kast-endure-discurso-sobre-soberania-del-estrecho/",
-      "https://lahora.cl/papel-digital/2026/09/04/milei-arremete-contra-el-18-0-y-llama-a-la-unidad-de-la-derecha/"
+      "https://lahora.cl/papel-digital/2026/09/04/milei-arremete-contra-el-18-0-y-llama-a-la-unidad-de-la-derecha/",
+      "https://lahora.cl/tv/2026/09/04/terminamos-a-los-gritos-mariela-montero-revelo-desconocido-conflicto-con-cristina-tocco/"
     ],
     "araucania-diario": [
       "https://araucaniadiario.cl/contenido/34795/mascotas-ayudan-a-reducir-la-soledad-y-fortalecer-el-bienestar-emocional",
@@ -70112,83 +70051,53 @@
     ],
     "radio-polar": [
       "https://www.radiopolar.com/130-buses-electricos-biministro-grange-anuncia-mejoras-proyecto-electromovilidad-punta-arenas",
-      "https://www.radiopolar.com/22-mil-700-pensionados-pensionadas-magallanes-comenzaron-recibir-aguinaldo-fiestas-patrias",
-      "https://www.radiopolar.com/2500-millones-pesos-destinaran-conservacion-infraestructura-educacional-region-magallanes",
       "https://www.radiopolar.com/400-personas-participaron-cultura-ninez-puerto-williams",
       "https://www.radiopolar.com/90-personas-participaron-jornada-salud-emocional-riesgos-psicosociales",
-      "https://www.radiopolar.com/agia-fortalece-alianzas-natales-proyecta-participacion-territorial-expo-magallanes-2027",
       "https://www.radiopolar.com/agricultura-refuerza-fiscalizacion-trazabilidad-alimentos-cara-fiestas-patrias-magallanes",
       "https://www.radiopolar.com/aguas-magallanes-celebra-15-anos-fondo-concursable-premia-104-organizaciones-punta-arenas",
-      "https://www.radiopolar.com/alcalde-punta-arenas-valora-acciones-cancilleria-controversia-argentina-estrecho-magallanes",
-      "https://www.radiopolar.com/ano-consecutivo-alumnas-liceo-maria-behety-realizaron-alternancia-santo-tomas",
       "https://www.radiopolar.com/bahia-chilota-recupera-antigua-escuela-fortalece-espacio-encuentro-comunitario",
+      "https://www.radiopolar.com/barometro-cadem-2026-95-magallanicos-zona-franca-seguir-creciendo-servicios-comunidad",
       "https://www.radiopolar.com/barometro-cadem-74-magallanicos-salmonicultura-pesca-esencial-desarrollo-regional",
-      "https://www.radiopolar.com/bienestar-postergacion-cambios-pequenos-cuidar-salud-llegue-primavera",
-      "https://www.radiopolar.com/biministro-alvarado-destaca-potencial-magallanes-compromete-acciones-destrabar-proyectos-inversion",
-      "https://www.radiopolar.com/biministro-grange-confima-deterioro-pista-obliga-programar-intervencion-aerodromo-puerto-natales-verano",
       "https://www.radiopolar.com/biministro-grange-presenta-diseno-futuro-centro-control-transito-magallanes",
       "https://www.radiopolar.com/carabineros-chile-conmemoro-suboficial-punta-arenas",
       "https://www.radiopolar.com/carrera-kilometros-fomento-actividad-fisica-reinsercion-complejo-penitenciario-punta-arenas",
-      "https://www.radiopolar.com/chic-seremi-salud-acercan-informacion-cientifica-preventiva-marea-roja-comunidad-puerto-williams",
+      "https://www.radiopolar.com/cartelera-cultural-05-septiembre",
       "https://www.radiopolar.com/cirugia-bariatrica-proceso-nutricionista-redsalud-magallanes-enfatiza-importancia-seguimiento-cambio-habitos-alimenticios",
       "https://www.radiopolar.com/colegio-profesores-denuncia-sueldos-impagos-falta-reemplazos-establecimientos-magallanes",
       "https://www.radiopolar.com/comision-zonas-extremas-aprueba-sesionar-punta-arenas-abordar-situacion-magallanes",
       "https://www.radiopolar.com/conaf-municipalidad-punta-arenas-inauguran-proyecto-mejorara-plaza-villa-nieves",
       "https://www.radiopolar.com/consejo-defensa-valora-veredicto-condenatorio-exalcalde-puerto-natales-caso-luminarias",
       "https://www.radiopolar.com/coordinador-macrozona-sur-austral-cuestiona-consulta-indigena-exige-transparencia-recursos-destinados-proceso",
-      "https://www.radiopolar.com/core-arturo-diaz-cuestiona-agenda-seguridad-gobierno-instaurar-dictadura-militar-atrevio",
-      "https://www.radiopolar.com/core-max-salas-cuestiona-falta-conduccion-politica-magallanes-acusa-exclusion-consejeros-agendas-nacionales",
-      "https://www.radiopolar.com/corporacion-estadio-fiscal-memoria-regional-punta-arenas-acogera-viernes-septiembre-jornada-democracia-ciudadania",
-      "https://www.radiopolar.com/dama-llega-punta-arenas-conoce-historia-cafe-inclusivo-ciudad",
       "https://www.radiopolar.com/delegado-rodolfo-moncada-aborda-avances-puerto-williams-asegura-continuidad-ruta-vicuna-yendegaia",
       "https://www.radiopolar.com/desarrollo-social-familia-supervisa-proceso-busqueda-familias-extensas-ninos-cuidado-alternativo",
       "https://www.radiopolar.com/detienen-hombre-acusado-agredir-arma-aire-comprimido-expareja-sustraerle-vehiculo-punta-arenas",
-      "https://www.radiopolar.com/diputado-alejandro-riquelme-advierte-reglamento-ley-marina-mercante-sepultar-industria-nacional",
+      "https://www.radiopolar.com/diecisiete-inmuebles-ubicados-magallanes-licitados-publicamente-ano",
       "https://www.radiopolar.com/diputado-radical-ruben-oyarzo-critica-manejo-gobierno-argentina-soberania-defiende-manana-campana",
       "https://www.radiopolar.com/diputado-riquelme-destaca-reconocimiento-argentino-soberania-chilena-estrecho-pide-avanzar-conectividad-austral",
-      "https://www.radiopolar.com/edelmag-entrega-50-tablets-estudiantes-establecimientos-tecnicos-punta-arenas",
       "https://www.radiopolar.com/educacion-continua-umag-busca-responder-necesidades-profesionales-desarrollo-magallanes",
       "https://www.radiopolar.com/edudown-apuesta-inclusion-laboral-magallanes-cafeteria-inclusiva-punta-arenas",
-      "https://www.radiopolar.com/enadel-2025-observatorio-laboral-identifica-principales-perfiles-necesidades-contratacion-magallanes",
       "https://www.radiopolar.com/estrecho-magallanes-seguridad-apablaza-temas-marcaron-bilateral-kast-milei",
-      "https://www.radiopolar.com/exito-convocatoria-finaliza-proceso-seleccion-inicia-curso-certificacion-innovacion-emprendimiento-logistica-magallanes",
       "https://www.radiopolar.com/familias-puerto-eden-solicitaron-bienes-nacionales-seguir-fortaleciendo-desarrollo-productivo-habitabilidad",
       "https://www.radiopolar.com/furor-apertura-h-m-punta-arenas-tienda-austral-mundo",
       "https://www.radiopolar.com/generar-polo-desarrollo-senador-bianchi-apunta-estrecho-eje-estrategico-magallanes",
       "https://www.radiopolar.com/gobierno-regional-reune-actores-publicos-privados-proyectar-futuro-zona-franca",
       "https://www.radiopolar.com/gobierno-regional-sercotec-presentan-programas-emprendimientos-negocios-comunidad-yagan-puerto-williams",
-      "https://www.radiopolar.com/gobierno-terreno-puerto-eden-marca-hito-presencia-estatal-dialogo-compromiso-comunidad",
       "https://www.radiopolar.com/gobierno-terreno-puerto-eden-servicios-publicos-destacan-resultados-despliegue-atencion-directa-comunidad",
       "https://www.radiopolar.com/h-m-abre-punta-arenas-tienda-austral-mundo-destaca-contratacion-41-trabajadores-locales",
       "https://www.radiopolar.com/h-m-inauguro-punta-arenas-tienda-austral-mundo",
       "https://www.radiopolar.com/historica-visita-dama-tierra-fuego",
       "https://www.radiopolar.com/hito-esperanza-hospital-puerto-natales-enfermera-especialista-oncologia",
       "https://www.radiopolar.com/hospital-clinico-magallanes-entrega-informacion-operativo-emergencia-registrado-jueves",
-      "https://www.radiopolar.com/hyst-reune-prochile-cnc-evaluar-2026-proyectar-colaboracion-internacional-2027",
-      "https://www.radiopolar.com/indh-magallanes-conversatorio-50-anos-vicaria-solidaridad-obispado-punta-arenas",
-      "https://www.radiopolar.com/infraestructura-municipal-pone-servicio-comunidad-cabo-hornos",
       "https://www.radiopolar.com/intercambio-verde-mateada-vuelve-rio-seco-semillas-talleres-saberes-cultivo",
-      "https://www.radiopolar.com/investigan-agresion-adolescente-14-anos-termino-herida-abdominal-punta-arenas",
-      "https://www.radiopolar.com/iv-campeonato-municipal-pesas-reunio-deportistas-locales-regionales",
       "https://www.radiopolar.com/jauken-2026-eficiencia-operativa-tierras-australes",
       "https://www.radiopolar.com/jovenes-magallanicos-avanzan-camino-ingresar-fuerza-aerea-chile",
-      "https://www.radiopolar.com/kast-exigira-milei-firmar-derogacion-decreto-tratados-establecen-soberania-chile-magallanes",
-      "https://www.radiopolar.com/kast-magallanes-estrecho-chileno-reconocido-distintas-autoridades-paises",
-      "https://www.radiopolar.com/kast-magallanes-polemica-argentina-soberania-estrecho",
-      "https://www.radiopolar.com/magallanes-avanza-captacion-congresos-eventos-visita-tecnica-referente-industria-mice",
-      "https://www.radiopolar.com/magallanes-incorpora-red-nacional-territorios-creativos-impulsar-desarrollo-economia-creativa",
       "https://www.radiopolar.com/mario-briones-figura-historica-logistica-antartica-chilena-retira-46-anos-inach",
       "https://www.radiopolar.com/mil-metros-cuadrados-centro-entrenamiento-deportivo-proyecta-punta-arenas-informa-seremi-deportes",
       "https://www.radiopolar.com/ministerio-hacienda-gobierno-regional-coordinan-antesala-mesa-zona-franca",
-      "https://www.radiopolar.com/mop-anhelado-proyecto-iluminacion-ruta-aeropuerto-punta-arenas",
-      "https://www.radiopolar.com/municipalidad-natales-impulsa-inedita-capacitacion-gratuita-auxilios-guias-turismo-zonas-remotas",
-      "https://www.radiopolar.com/municipalidad-punta-arenas-prepara-agenda-fiestas-patrias-empanadas-carrera-garzones-actividades-culturales",
-      "https://www.radiopolar.com/municipalidades-punta-arenas-condes-firman-convenio-colaboracion",
       "https://www.radiopolar.com/municipio-avanza-minvu-reactivacion-entidad-patrocinante-municipal",
       "https://www.radiopolar.com/objeto-impacto-linea-transmision-provoco-corte-energia-afecto-40-mil-clientes-punta-arenas",
       "https://www.radiopolar.com/obras-sede-club-deportivo-estrella-austral-retoman-ejecucion",
       "https://www.radiopolar.com/pesca-salmonicultura-consideradas-esenciales-magallanes-plantean-desafios-politica-regional",
-      "https://www.radiopolar.com/presidente-jose-antonio-kast-inicia-agenda-magallanes-reunion-gabinete-regional",
       "https://www.radiopolar.com/presidente-kast-inspecciona-obras-comisaria-punta-arenas-alcanza-98-avance",
       "https://www.radiopolar.com/presidente-republica-jose-antonio-kast-participo-navy-day-organizado-armada-magallanes",
       "https://www.radiopolar.com/programa-ds27-contempla-4-mil-millones-mejoramiento-viviendas-barrios-magallanes",
@@ -70204,16 +70113,11 @@
       "https://www.radiopolar.com/salud-impulsa-puerto-natales-jornadas-capacitacion-fortalecer-herramientas-atencion-autismo",
       "https://www.radiopolar.com/salud-puerto-williams-lanzan-programa-ejercicios-terapeuticos-fortalecimiento-muscular-auxilios-financiado-gobierno-regional",
       "https://www.radiopolar.com/salud-realiza-jornada-regional-autismo-fortalecer-atencion-integral-inclusiva",
-      "https://www.radiopolar.com/seremi-energia-destaca-avance-hnh-energy-proyecta-miles-empleos-asociados-transicion-energetica-magallanes",
       "https://www.radiopolar.com/seremi-prevision-social-destaca-subsidio-suma-72-empresas-163-trabajadores-postulantes-magallanes",
-      "https://www.radiopolar.com/sernapesca-servicios-publicos-llegaron-puerto-eden-atender-tramites",
-      "https://www.radiopolar.com/servicio-salud-magallanes-refuerza-estrategias-reducir-listas-espera-operativos-rondas-especialistas",
       "https://www.radiopolar.com/sesion-creti-miradas-mundo-publico-privado-unen-torno-proteccion-ninos-ninas-adolescentes",
       "https://www.radiopolar.com/subsidio-comienza-hacerse-realidad-magallanes-primeras-empresas-reciben-pagos-contrataciones",
       "https://www.radiopolar.com/turismo-alcanza-90-valoracion-positiva-posiciona-industria-evaluada-magallanes",
-      "https://www.radiopolar.com/turismo-antartico-impulsa-desarrollo-magallanes-antarctica21-aportara-usd-574-millones-2036",
-      "https://www.radiopolar.com/umag-presenta-proyecto-magma-subsecretaria-ciencia-destaca-potencial-magallanes-polo-cientifico-internacional",
-      "https://www.radiopolar.com/vi-seminario-mujeres-antarticas-inspiro-generaciones-investigadoras-investigadores"
+      "https://www.radiopolar.com/turismo-antartico-impulsa-desarrollo-magallanes-antarctica21-aportara-usd-574-millones-2036"
     ]
   }
 }
