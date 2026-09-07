@@ -1,0 +1,105 @@
+# Manifiesto derivado del codigo: manifiestos, catalogos, datos y configuracion.
+archivos:
+  - ruta: collector/package.json
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] la evidencia no reporta patrones ni conteos de dato personal en esta ruta"
+    puede_versionarse: true
+    uso: "[INFERIDO] manifiesto del recolector; declara dos dependencias y las tareas de ejecucion y prueba [collector/package.json]"
+
+  - ruta: frontend/package.json
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] la evidencia no reporta patrones ni conteos de dato personal en esta ruta"
+    puede_versionarse: true
+    uso: "[INFERIDO] manifiesto de la interfaz; declara catorce dependencias, entre ellas las de cartografia [frontend/package.json:13], [frontend/package.json:18] y la de busqueda [frontend/package.json:15]"
+
+  - ruta: collector/src/config/medios.js
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] la evidencia no reporta patrones ni conteos de dato personal; son medios de comunicacion, no personas, pero no se confirma sin abrir el archivo"
+    puede_versionarse: true
+    uso: "[INFERIDO] catalogo editorial de los medios que se recolectan, en dos listas: general y por mapa de sitio. Es una de las dos decisiones de negocio del sistema"
+
+  - ruta: collector/src/config/conceptos.js
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] la evidencia no reporta patrones ni conteos de dato personal; si algun concepto de busqueda fuera el nombre de una persona, seria dato personal"
+    puede_versionarse: true
+    uso: "[INFERIDO] catalogo de lo que se busca dentro de los medios; determina que noticias entran al boletin"
+
+  - ruta: collector/src/config/gazetteer-entidades.js
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] declara una lista llamada AUTORIDADES_CONOCIDAS [collector/src/config/gazetteer-entidades.js]; si contiene nombres de personas hay dato personal. No se transcribe ningun valor, y la evidencia declara que este repositorio no es privado"
+    puede_versionarse: true
+    uso: "[INFERIDO] catalogo para reconocer entidades en el texto: autoridades, organizaciones propias, servicios colaboradores, organismos internacionales e instituciones de educacion"
+
+  - ruta: collector/src/config/gazetteer-geografico.js
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] la evidencia no reporta patrones ni conteos de dato personal; son topónimos"
+    puede_versionarse: true
+    uso: "[INFERIDO] catalogo de regiones, comunas y areas protegidas para ubicar la noticia en el territorio"
+
+  - ruta: collector/src/config/parametros.js
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] la evidencia no reporta patrones ni conteos de dato personal; declara un USER_AGENT, que identifica al sistema y no a una persona"
+    puede_versionarse: true
+    uso: "[INFERIDO] parametros de operacion: tamano de ventana, topes por corrida, tiempos de espera, dominios excluidos, interruptores de capacidades y version de analisis"
+
+  - ruta: frontend/public/data/historico.json
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] es el archivo de datos del sistema y viaja versionado dentro del sitio; el analizador no entrega patrones ni conteos, pero un archivo de noticias puede contener nombres de autores y de personas mencionadas. No se transcribe ningun valor. Prioridad alta de revision porque la evidencia declara que este repositorio no es privado"
+    puede_versionarse: true
+    uso: "[INFERIDO] datos historicos que consume la interfaz [frontend/src/servicios/datos.js]; los escribe el adaptador de repositorio en JSON [collector/src/adaptadores/repositorio-json.js]"
+
+  - ruta: frontend/vite.config.js
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] la evidencia no reporta patrones ni conteos de dato personal en esta ruta"
+    puede_versionarse: true
+    uso: "[INFERIDO] configuracion de construccion; lee la ruta base y el entorno [frontend/vite.config.js:11], [frontend/vite.config.js:12]"
+
+  - ruta: .github/workflows/actualizar.yml
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] la evidencia no reporta patrones ni conteos de dato personal; conviene revisar si referencia secretos del repositorio"
+    puede_versionarse: true
+    uso: "[INFERIDO] automatizacion periodica que ejecuta el recolector y publica el resultado"
+
+  - ruta: .github/workflows/readme.yml
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] la evidencia no reporta patrones ni conteos de dato personal en esta ruta"
+    puede_versionarse: true
+    uso: "[INFERIDO] automatizacion de documentacion del repositorio"
+
+  - ruta: INSUMO/panel_menciones_conaf.jsx
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] declara datos de partida propios y una clave de almacenamiento en el navegador [INSUMO/panel_menciones_conaf.jsx:282 es la unica linea citada por la evidencia, correspondiente a una llamada a una API externa]. Un panel de menciones con datos de partida puede llevar nombres de personas. Revisar tambien si hay alguna credencial embebida"
+    puede_versionarse: false
+    uso: "[PENDIENTE] archivo de insumo; es el mas grande del repositorio y ningun otro archivo de la evidencia lo importa. Confirmar si es un prototipo previo, un descarte o algo vigente"
+
+  - ruta: docs/MEDIOS.md
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] la evidencia no reporta patrones ni conteos de dato personal en esta ruta"
+    puede_versionarse: true
+    uso: "[INFERIDO] documentacion del catalogo de medios"
+
+  - ruta: docs/REQUISITOS.md
+    sha256: "[PENDIENTE] sin calcular"
+    origen: "[PENDIENTE] quien lo entrego y cuando"
+    contiene_pii: "[VERIFICAR] la evidencia no reporta patrones ni conteos de dato personal en esta ruta"
+    puede_versionarse: true
+    uso: "[INFERIDO] documento de requisitos del proyecto; su contenido no esta desglosado en la evidencia"
+
+hallazgos:
+  - "[VERIFICAR] frontend/public/data/historico.json es dato real de noticias versionado en un repositorio que la evidencia declara no privado. Si al revisarlo contiene_pii resulta true, puede_versionarse pasa a false y la ruta tendria que quedar en .gitignore anclada con barra inicial. Hoy no consta que lo este, y no se edito ningun .gitignore para averiguarlo."
+  - "[VERIFICAR] INSUMO/panel_menciones_conaf.jsx llama a una API externa desde codigo de front [INSUMO/panel_menciones_conaf.jsx:282]. Revisar si transporta una credencial."
+  - "[INFERIDO] El repositorio incluye un archivo de licencia [LICENSE] y un PDF [CLAUDE.pdf] cuyo contenido no esta en la evidencia."
+  - "[PENDIENTE] Los valores de collector/src/config/parametros.js no constan: sin ellos no se puede dimensionar la operacion."
