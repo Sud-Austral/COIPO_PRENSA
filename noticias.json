@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-09-24T15:10:38.714Z",
+  "generadoEn": "2026-09-24T15:30:52.509Z",
   "tamanoVentana": 1000,
   "secciones": [
     {
@@ -39,6 +39,72 @@
     }
   ],
   "noticias": [
+    {
+      "id": "https://www.infobae.com/colombia/2026/09/24/murio-adulto-mayor-tratando-de-controlar-un-incendio-forestal-en-zona-rural-de-ibague-tolima-quedo-atrapado-entre-las-llamas",
+      "url": "https://www.infobae.com/colombia/2026/09/24/murio-adulto-mayor-tratando-de-controlar-un-incendio-forestal-en-zona-rural-de-ibague-tolima-quedo-atrapado-entre-las-llamas/",
+      "medioId": "infobae.com",
+      "medioNombre": "Infobae",
+      "seccionId": "internacional",
+      "titular": "Murió adulto mayor tratando de controlar un incendio forestal en zona rural de Ibagué, Tolima: quedó atrapado entre las llamas",
+      "fecha": "2026-09-24T15:15:15.000Z",
+      "fechaDeteccion": "2026-09-24T15:30:52.509Z",
+      "extracto": [
+        {
+          "texto": "Murió adulto mayor tratando de controlar un incendio ",
+          "resaltado": false
+        },
+        {
+          "texto": "forestal",
+          "resaltado": true
+        },
+        {
+          "texto": " en zona rural de Ibagué, Tolima: quedó atrapado entre las llamas",
+          "resaltado": false
+        }
+      ],
+      "imagen": "https://www.infobae.com/resizer/v2/7XHBUSY5RNFAJEHTVG2LQ3PBHY.jpeg?auth=5df91123cb55f3eb926b4db12a13ae74b4e2371f42e807b4f5fe7626d29edf2b&smart=true&width=1200&height=630&quality=85",
+      "autor": null,
+      "fechaReal": "2026-09-24T15:06:26.995Z",
+      "analisis": {
+        "version": 3,
+        "sentimiento": "negativa",
+        "polaridad": -0.61,
+        "score": -11,
+        "keywords": [
+          "muerte",
+          "incendio",
+          "mayor",
+          "zona",
+          "ibague",
+          "dejo",
+          "publicidad",
+          "adulto",
+          "abelardo",
+          "espriella"
+        ],
+        "categorias": [
+          "incendios-forestales",
+          "prevención",
+          "institucional-vocerias"
+        ],
+        "personas": [],
+        "organizaciones": [
+          "EST"
+        ],
+        "lugares": [],
+        "regiones": [],
+        "comunas": [],
+        "parques": [],
+        "riesgo": "alto",
+        "prioridad": 1,
+        "importancia": 90,
+        "tipo": "emergencia",
+        "ambito": "internacional",
+        "cantidadPalabras": 494,
+        "cantidadParrafos": 1,
+        "tiempoLectura": 3
+      }
+    },
     {
       "id": "https://maulehoy.cl/2026/09/24/constitucion-impulsa-mesa-de-trabajo-para-enfrentar-crisis-laboral-y-situacion-del-sector-forestal",
       "url": "https://maulehoy.cl/2026/09/24/constitucion-impulsa-mesa-de-trabajo-para-enfrentar-crisis-laboral-y-situacion-del-sector-forestal/",
@@ -68624,69 +68690,6 @@
         "cantidadParrafos": 1,
         "tiempoLectura": 4
       }
-    },
-    {
-      "id": "https://remolacha.net/2026/09/rayo-provoca-incendio-forestal-en-constanza-video",
-      "url": "https://remolacha.net/2026/09/rayo-provoca-incendio-forestal-en-constanza-video/",
-      "medioId": "remolacha.net",
-      "medioNombre": "Remolacha",
-      "seccionId": "otros",
-      "titular": "Rayo provoca incendio forestal en Constanza (video)",
-      "fecha": "2026-09-06T11:41:23.000Z",
-      "fechaDeteccion": "2026-09-06T13:41:44.255Z",
-      "extracto": [
-        {
-          "texto": "Rayo provoca incendio ",
-          "resaltado": false
-        },
-        {
-          "texto": "forestal",
-          "resaltado": true
-        },
-        {
-          "texto": " en Constanza (video)",
-          "resaltado": false
-        }
-      ],
-      "imagen": "https://remolacha.net/wp-content/uploads/2026/09/rayo-provoca-incendio-forestal-en-constanza-video.png",
-      "autor": "J.C",
-      "fechaReal": "2026-09-06T11:38:18.000Z",
-      "analisis": {
-        "version": 3,
-        "sentimiento": "neutra",
-        "polaridad": 0,
-        "score": 0,
-        "keywords": [
-          "constanza",
-          "forestales",
-          "ejercito",
-          "publicacion",
-          "brigadas",
-          "bomberos",
-          "ministerio",
-          "medio",
-          "ambiente",
-          "miembros"
-        ],
-        "categorias": [],
-        "personas": [],
-        "organizaciones": [
-          "bomberos",
-          "brigada"
-        ],
-        "lugares": [],
-        "regiones": [],
-        "comunas": [],
-        "parques": [],
-        "riesgo": "bajo",
-        "prioridad": 3,
-        "importancia": 50,
-        "tipo": "informativa",
-        "ambito": "internacional",
-        "cantidadPalabras": 81,
-        "cantidadParrafos": 1,
-        "tiempoLectura": 1
-      }
     }
   ],
   "resolucionesGoogle": {
@@ -68713,6 +68716,7 @@
     "CBMiVkFVX3lxTFBfaVhoZ2ZUTFZWeWJpdEEtSzZYeGUtZHg3MEQtVVd1OWg3bEpNR016RFVPem5Ybjc4M2xhSTVqY0xmRVpRNDdLS1k0NWI1dmtjWUF1ck5B": "https://olca.cl/articulo/nota.php?id",
     "CBMi_AFBVV95cUxQLTJ3SEhYYm1WS0lkeVdVSG92R0IxcklVMDFZa0QyNXU2U0tmcXhtem1MckxkYjZ2NGJGVjNodkFfX1VvMXYzNENZeVE4aWVDMUdYd1pEaXIzNXVmLXUwWmoxZG04dzdoQkl6SHZzRnlCQ3FUbXc1VXZGT1hjSlhTc082ajl2T3JCN3h0OEVmMEtIWWJ3ZENWVXEtWkRVVFZyUEFmb21rVjFMb3p0MklPb0kxRmhFZHZiOHdjMW5jalJKODBoQmtETk9lTE9IZjRQQmVzUVY1TFdPNzItWTdHdHZkVmM5M2FUUjBpMkxuQ2ZCNzBJS3NRNnk1eU8": "https://www.biobiochile.cl/noticias/nacional/chile/2026/09/17/por-alta-temperatura-y-viento-conaf-suspende-quemas-en-la-araucania-para-evitar-incendios-forestales.shtml",
     "CBMi_AFBVV95cUxQQXIyNFh1Ty0xY2NkTGtnUnJnUXRFWXFQVEktWkp4Qldia29LNFQyUjlFT2VQb1owdWpIWTRNSXlBMHJ1TTc4TkI4NENxSjFscjhfSXhfbFZ0czduTi1jRDI0eFlJV0E3MTV1VlZQaUVvSDJtUWtJRmluQ25vdDB3OFc1dU1oam0xdDhpa0o3bUlWaUtDVUk2RFdBM2RyMUlqTm5QbGtueWx2blN1U2FuUGI2bmdraHZFQjJSc1ZxVFB6WVB6WjN2a0Q4d0ZmckNFZlpGU1hXOFFPYXM5Ml9kRHhIUkpDTFZfNmZSdGtQNzRWYXAwV05POUg3R3DSAZ4CQVVfeXFMTU1UWmVUb2dFVENlRHBjZ2k1UXp3VkI0MWRpVzFEX2hNa3duSVZaM01qVVkzVS0tQlBuMlh0Nl8zZDl3TGF6SUFzMnljSmR0Z3BvUnUxYU9CQWpPMmZfbUdHM0p6RU52d3dFUUE0SDJLNlhGM0dOajhNaWsybHBoSWdBWHA1V2ZrUnF3V0NWQUtGVGNUbzdCTXlGampvTUk0Z1Q2MEJJSVM1N3kwdVowN3p3dzJxRm02VkRqdkJVdllsaVhRWFFkREpRYUlQN2tjek5Ld3h0d3pya2tmVndjVDJCTV95WGlkanV5SV9TUkZMQndDWDc4NV9jbFo4N0c1U0tIN3lGcUpLd24zSnpUUU02dzNjV09UUkl6S0pfUQ": "https://www.latercera.com/nacional/noticia/de-cara-a-la-temporada-de-incendios-forestales-conaf-nuble-anuncia-fortalecimiento-de-sus-equipos-de-prevencion-y-mitigacion/",
+    "CBMi_gFBVV95cUxOTkNzOVFaQnNOUmstdnpNSFhvZ1phTUg5OHMzVElwZDdqVGU0YzRGTE1hVXpEcnF3NDBVdmJyWnlYLUVGX25OdmRRVlR4MEluLUc0SkVaMkFoek5yREVmVDYwZ1FVSDdQc0dSX2s3OFMyQlZiX3hfT0ZFd2xBdzdHWFlwVjRZaHAwcmx6bW9pVlJQMEFwcmtLVVNrVE5tenV5ZUZHT2hKYWlRUEMtX1B6YzFyVG1ZWDhNZFhtN0ZvYnNYOUxmTXl2c3VhN1Q4Ui1CWXp3c2ExWmptMDBnYWFhdFU4dHZGOGFPVlhpdEJPUmhwbGZ4VkdXRGJwa0tMUdIBmAJBVV95cUxNWTFXdjJmWmJGNkFMaDFBdGpjdjZaQ2pybzdWcENjMl9DcEFJUUpoMHMtZ29paFZKUUptQVFHRDVZblFXZGtHWEl3VjZoOWJiQnlzUXlGSE93dWZGM0lvNnpqaFFNNVhCT2ZlRlFRMVpvWVBPZUc5NDlxS2ViaHB5Z2pRaHZBcUV3TThwZmlmME55eEk0Y0JBelAyUmZ4LVd6WHBnV056YkR1SGFiRHZ6N0hwa1JGWS12LU9aZHBRTVJwWFpKSkt3Y1NKVHZBVnltckQ0cVVocFphc0lNSXd1TFNnX21zUUx2LUtheHhSX3JMajlCbjFlRzhMb2tjam1BTGtmSElZcDluZjBLbnZ1NTBNM2xQUWNy": "https://www.infobae.com/colombia/2026/09/24/murio-adulto-mayor-tratando-de-controlar-un-incendio-forestal-en-zona-rural-de-ibague-tolima-quedo-atrapado-entre-las-llamas/",
     "CBMiaEFVX3lxTE5DLWZQZklUc3NUYi1aOEVhREJIRlZMU3ZWSWhWbHhNTlloMHFVRVVsM3R4aF8wLXpfa3R1MHhtUVQ4QWRibmZUakREcndDZDNycF9rSmdtNGdkU1RkQ3pTQTM2eHVaSXhQ": "https://www.df.cl/mercados/bolsa-monedas/bolsas-hoy-rm9gj",
     "CBMid0FVX3lxTE4yc2xGUDQzY21VcDI0OU85ZnVyVE9KOW85cXRXM3hzaU4tR0Z4NU1ocENrNGkyTjN6QVVZekZacDNxUmZiR2Y4bU5RUDF6c19XNWJYRElGZHdvdUJhbDdTZ2lnUzVZam40ZTJmTEE3aDB3NVNUb21R": "https://www.paislobo.cl/2026/09/conaf-los-lagos-confirma-cierre.html",
     "CBMid0FVX3lxTE9EWjlvVnlXc0FTWjhyVXNTNHhrcDRVM3ZEMTkydEJKeHh4QlJZcGNYQmJnTVZtR2VRVndsNnhjeE1pRDNMZUtLR0V0ZDUtaDN4RUttQVZBNUpmRjJPazNpcjl5S3EweC1zU2tvMVhqdElhU3RpdDlB": "https://es.tradingview.com/news/reuters.com,2026:newsml_L6N45F19N:0/",
@@ -68761,7 +68765,6 @@
   "sitemapVisto": {
     "meganoticias": [
       "https://www.meganoticias.cl/calidad-de-vida/532291-propiedades-yerba-mate-deportes-23-9-2026.html",
-      "https://www.meganoticias.cl/dato-util/531669-como-ser-tripulante-auxiliar-cabina-chile-dgac-requisitos-formacion-licencia-2026.html",
       "https://www.meganoticias.cl/dato-util/531670-cuanto-cuesta-sacar-licencia-tripulante-cabina-chile-2026-aranceles-curso-ciac.html",
       "https://www.meganoticias.cl/dato-util/531671-mitos-verdades-requisitos-tripulante-cabina-chile-dgac-aerolineas-2026.html",
       "https://www.meganoticias.cl/dato-util/532207-descuentos-dia-del-cine-preventa-cuando-es-22-09-2026.html",
@@ -68793,7 +68796,6 @@
       "https://www.meganoticias.cl/mundo/532355-xi-jinping-washington-trump-visita-estado-ia-comercio-iran-23-09-2026.html",
       "https://www.meganoticias.cl/mundo/532360-delcy-rodriguez-presidenta-interina-de-venezuela-asegura-que-habran-elecciones-discurso-asamblea-onu-23-09-2026.html",
       "https://www.meganoticias.cl/mundo/532395-novia-infiel-boda-familias-40-mil-euros-divorcio-espana-matrimonio-24-09-2026.html",
-      "https://www.meganoticias.cl/nacional/532215-coquinaria-nuevas-tiendas-santiago-la-dehesa-los-dominicos-despacho-express-22-09-2026.html",
       "https://www.meganoticias.cl/nacional/532216-coca-cola-lanza-en-chilezero-azucar-zero-cafeina-nueva-version-22-09-2026.html",
       "https://www.meganoticias.cl/nacional/532218-presidente-kast-discurso-asamblea-general-de-la-onu-video-en-vivo-inversion-chile-trump-22-09-2026.html",
       "https://www.meganoticias.cl/nacional/532224-eclipse-solar-anillo-de-fuego-chile-2027-lugares-horarios-22-09-2026.html",
@@ -68887,9 +68889,12 @@
       "https://www.meganoticias.cl/nacional/532388-temporal-lluvias-sistema-frontal-zona-sur-alertas-solicitudes-evacuacion-senapred-24-09-2026.html",
       "https://www.meganoticias.cl/nacional/532389-detienen-a-inspectores-municipales-secuestro-golpearon-a-motociclista-puente-alto-24-09-2026.html",
       "https://www.meganoticias.cl/nacional/532390-festival-musica-electronica-desierto-florido-samsara-vallenar-polemica-24-09-2026.html",
+      "https://www.meganoticias.cl/nacional/532391-lepas-marca-autos-chile-modelos-electricos-hibridos-24-092026.html",
       "https://www.meganoticias.cl/nacional/532392-detienen-a-hombre-asalto-y-abuso-a-mujer-providencia-se-lanzo-al-rio-mapocho-24-09-2026.html",
       "https://www.meganoticias.cl/nacional/532396-pdi-detiene-a-exfuncionarios-del-ejercito-y-gendarmeria-por-millonario-fraude-en-compras-publicas-investiga-fiscalia-de-atacama-24-09-2026.html",
+      "https://www.meganoticias.cl/nacional/532399-vecinos-barrio-matta-crean-regaderas-anti-rucos-calle-monasterio-24-09-2026.html",
       "https://www.meganoticias.cl/nacional/532400-fiscalia-sur-y-os9-allanan-oficinas-de-autopista-central-por-fraude-en-multas-tag-de-la-granja-24-09-2026.html",
+      "https://www.meganoticias.cl/nacional/532410-temblor-huasco-atacama-hoy-jueves-sismologia-24-09-2026.html",
       "https://www.meganoticias.cl/noticieros/532275-meganoticias-prime-martes-22-septiembre-2026.html",
       "https://www.meganoticias.cl/noticieros/532363-meganoticias-prime-miercoles-23-septiembre-2026.html",
       "https://www.meganoticias.cl/patrocinados/532303-chile-sera-sede-de-ai-week-latam-2026-programa-ofrecera-capacitacion-gratuita-en-inteligencia-artificial.html",
@@ -68919,7 +68924,8 @@
       "https://www.meganoticias.cl/tendencias/532364-emilia-dides-responde-rumores-relacion-sammis-reyes-23-09-2026.html",
       "https://www.meganoticias.cl/tendencias/532368-fran-maira-viaje-estados-unidos-arraigo-nacional-24-09-2026.html",
       "https://www.meganoticias.cl/tendencias/532380-sammis-reyes-responde-rumores-infidelidad-emilia-dides-terminan-24-09-2026.html",
-      "https://www.meganoticias.cl/tendencias/532385-lisandra-silva-responde-critica-maternidad-viaje-china-24-09-2026.html"
+      "https://www.meganoticias.cl/tendencias/532385-lisandra-silva-responde-critica-maternidad-viaje-china-24-09-2026.html",
+      "https://www.meganoticias.cl/tendencias/532397-31-minutos-pelicula-calurosa-navidad-nominacion-premios-emmy-internacionales-24-09-2026.html"
     ],
     "cnn-chile": [
       "https://www.cnnchile.com/bits/anthropic-alerta-en-la-onu-los-riesgos-de-ia-ningun-lider-ninguna-empresa-y-ninguna-nacion-puede-gestionar-esto-en-solitario/",
@@ -69305,6 +69311,7 @@
     ],
     "puranoticia": [
       "https://puranoticia.pnt.cl/deportes/alan-saldivia-reaparecio-en-la-copa-chile-y-confeso-su-nostalgia-por",
+      "https://puranoticia.pnt.cl/deportes/alejandro-tabilo-se-medira-ante-adrian-mannarino-en-su-debut-en-el-atp-de",
       "https://puranoticia.pnt.cl/deportes/audax-italiano-y-colo-colo-no-se-sacaron-ventajas-y-dejan-abierta-la-llave",
       "https://puranoticia.pnt.cl/deportes/autorizan-aforo-de-9-700-hinchas-para-duelo-entre-everton-y-u-de-chile-en",
       "https://puranoticia.pnt.cl/deportes/camilo-moya-tras-empatar-con-la-uc-sentimos-que-fue-un-resultado-injusto",
@@ -69338,11 +69345,11 @@
       "https://puranoticia.pnt.cl/espectaculos/lionel-richie-cancela-tres-conciertos-en-ee-uu-tras-someterse-a",
       "https://puranoticia.pnt.cl/espectaculos/por-primera-vez-en-el-pais-hilary-duff-confirma-su-esperado-debut-en",
       "https://puranoticia.pnt.cl/espectaculos/revelan-que-la-actriz-hayden-panettiere-murio-por-una-sobredosis-accidental",
+      "https://puranoticia.pnt.cl/espectaculos/sammis-reyes-denuncia-amenazas-de-muerte-tras-falsos-rumores-de",
       "https://puranoticia.pnt.cl/espectaculos/sergio-rojas-responde-con-ironia-a-querella-de-leonardo-farkas-yo-me",
       "https://puranoticia.pnt.cl/espectaculos/tras-pago-de-fianza-de-2-millones-tribunal-autoriza-a-fran-maira-a-viajar",
       "https://puranoticia.pnt.cl/hora-de-noticias-22-de-septiembre",
       "https://puranoticia.pnt.cl/hora-de-noticias-23-de-septiembre",
-      "https://puranoticia.pnt.cl/internacional/a-los-cobardes-y-traidores-les-encantaria-decir-que-nos-quedan-pocas",
       "https://puranoticia.pnt.cl/internacional/acusan-de-violacion-ante-una-corte-de-estados-unidos-al-controvertido",
       "https://puranoticia.pnt.cl/internacional/argentina-reafirma-soberania-sobre-las-malvinas-ante-la-onu-y-responde-a",
       "https://puranoticia.pnt.cl/internacional/cuba-critica-el-discurso-de-trump-en-la-onu-y-defiende-su-derecho-a-ser-un",
@@ -69415,7 +69422,6 @@
       "https://puranoticia.pnt.cl/region-valparaiso/a-seis-meses-del-femicidio-de-camila-ponce-en-valparaiso-parlamentarias",
       "https://puranoticia.pnt.cl/region-valparaiso/armada-desplego-amplio-operativo-para-evacuar-a-tripulante-que-presento",
       "https://puranoticia.pnt.cl/region-valparaiso/caleta-portales-preve-repunte-comercial-tras-negativo-balance-de-fiestas",
-      "https://puranoticia.pnt.cl/region-valparaiso/camion-recolector-del-municipio-de-vina-del-mar-sufrio-grave-accidente-en",
       "https://puranoticia.pnt.cl/region-valparaiso/cierre-de-calle-carampangue-sera-mitigado-con-apertura-de-segunda-pista-en",
       "https://puranoticia.pnt.cl/region-valparaiso/condenan-a-12-anos-de-carcel-a-padre-por-parricidio-frustrado-de-su-bebe-en",
       "https://puranoticia.pnt.cl/region-valparaiso/condenan-a-presidio-perpetuo-a-hombre-que-secuestro-y-violo-a-expareja-en",
@@ -69437,6 +69443,7 @@
       "https://puranoticia.pnt.cl/region-valparaiso/hombre-de-21-anos-muere-tras-recibir-dos-disparos-en-plena-via-publica-en",
       "https://puranoticia.pnt.cl/region-valparaiso/limache-aborda-la-prevencion-del-suicidio-con-conversatorio-en-el-colegio",
       "https://puranoticia.pnt.cl/region-valparaiso/longton-insta-al-gobierno-a-tomar-medidas-de-pinera-para-enfrentar-el",
+      "https://puranoticia.pnt.cl/region-valparaiso/los-insolitos-argumentos-del-diputado-marcos-barraza-para-oponerse-a-la",
       "https://puranoticia.pnt.cl/region-valparaiso/mas-de-50-mil-estudiantes-registraron-100-de-asistencia-durante-el-primer",
       "https://puranoticia.pnt.cl/region-valparaiso/miedo-robos-y-deterioro-usuarios-de-pasarela-portales-denuncian",
       "https://puranoticia.pnt.cl/region-valparaiso/municipio-y-efe-renuevan-historicas-cabinas-ferroviarias-de-villa-alemana-y",
@@ -69732,7 +69739,6 @@
     ],
     "araucania-diario": [
       "https://araucaniadiario.cl/contenido/35310/diputados-respaldan-denuncias-del-servel-a-casi-4-millones-de-no-votantes-y-plan",
-      "https://araucaniadiario.cl/contenido/35318/padres-de-nino-que-fue-dejado-encerrado-en-un-auto-en-la-sofo-fueron-denunciados",
       "https://araucaniadiario.cl/contenido/35321/diputado-tomas-kast-se-reune-con-el-ministro-de-economia-para-reactivar-empleo-e",
       "https://araucaniadiario.cl/contenido/35328/emilia-dides-inicia-una-nueva-era-musical-en-el-dreams",
       "https://araucaniadiario.cl/contenido/35329/diputado-eduardo-cretton-valora-condenas-por-ataque-a-familia-grollmus",
