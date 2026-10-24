@@ -1,8 +1,10 @@
 # COIPO_PRENSA — Monitor de Prensa CONAF
 
-Aplicación web estática que muestra las últimas ~100 noticias de medios chilenos donde
+Aplicación web estática que muestra las noticias recientes de medios chilenos donde
 se menciona **CONAF** o **Corporación Nacional Forestal**, con el formato del boletín de
-prensa diario que la institución recibía de un servicio pagado de clipping. Corre
+prensa diario que la institución recibía de un servicio pagado de clipping, y vistas
+adicionales para recorrerlas (panel, búsqueda, eventos, estadísticas, mapa, regiones,
+histórico). Corre
 completa sobre infraestructura gratuita: **GitHub Pages** (sitio) + **GitHub Actions**
 (recolección horaria). Sin servidores propios, sin base de datos, costo $0.
 
@@ -17,10 +19,12 @@ completa sobre infraestructura gratuita: **GitHub Pages** (sitio) + **GitHub Act
 ┌─────────────────────────────────────────────────┐
 │ 1. tests del collector (si fallan, no despliega)│
 │ 2. lee estado previo   ← rama `data`            │
-│ 3. collector, dos fuentes:                      │
+│ 3. collector, tres fuentes:                     │
 │    a) feeds RSS de los medios curados           │
 │    b) Google News (red de seguridad de cobertura)│
-│    → detecta menciones → fusiona ventana de 100 │
+│    c) sitemaps de noticias (medios sin RSS útil)│
+│    → detecta menciones → clasifica/enriquece    │
+│    → fusiona la ventana → actualiza el histórico│
 │ 4. guarda estado nuevo → rama `data` (commit)   │
 │ 5. build de Vite con el JSON dentro             │
 │ 6. deploy a GitHub Pages                        │
@@ -32,22 +36,28 @@ completa sobre infraestructura gratuita: **GitHub Pages** (sitio) + **GitHub Act
 
 - Si una corrida falla, Pages conserva la última versión buena: la página puede quedar
   desactualizada, pero **nunca caída ni en blanco**.
-- La rama `data` guarda solo `noticias.json` y su historial: cada corrida con cambios
-  es un commit (auditable con `git log`). `main` queda limpia.
+- La rama `data` guarda `noticias.json` y `historico.json`: cada corrida con cambios
+  es un commit (auditable con `git log`). `main` queda limpia salvo una copia de
+  `frontend/public/data/historico.json` que está versionada.
 
 ## Estructura
 
 - [`collector/`](collector/) — recolector Node (≥22) con **arquitectura hexagonal**:
   - `src/dominio/` — reglas puras y testeadas: detección de menciones (insensible a
     mayúsculas/tildes, con límites de palabra: "CONAFE" no es "CONAF"), deduplicación,
-    ventana móvil, secciones.
+    ventana móvil, secciones, y el análisis de cada noticia (categoría, sentimiento,
+    ámbito nacional/extranjero, región, entidades, riesgo, eventos) y el histórico.
   - `src/puertos/` — contratos (fuente de noticias, repositorio de estado).
   - `src/adaptadores/` — RSS por medio (`rss-parser`), Google News (con resolución de
-    enlaces a la URL directa) y archivo JSON. La v2 con base de datos es un adaptador
-    nuevo, sin tocar el dominio.
+    enlaces a la URL directa), sitemaps de noticias, extracción de contenido e imagen
+    del artículo, y archivo JSON. La v2 con base de datos es un adaptador nuevo, sin
+    tocar el dominio.
   - `src/config/` — **la "interfaz de administración"**: conceptos y medios se editan aquí.
-- [`frontend/`](frontend/) — React + Vite, puramente presentacional: lee
-  `data/noticias.json` y lo muestra con la estética del boletín original.
+- [`frontend/`](frontend/) — React 19 + Vite, puramente presentacional (`HashRouter`):
+  lee `data/noticias.json` y `data/historico.json`. Vistas: portada (el boletín), panel,
+  búsqueda (MiniSearch), eventos, estadísticas (Recharts), medios, mapa y regiones
+  (Leaflet), histórico y configuración. También guarda un histórico propio en el
+  `localStorage` del navegador.
 - [`.github/workflows/actualizar.yml`](.github/workflows/actualizar.yml) — el pipeline.
 - [`docs/REQUISITOS.md`](docs/REQUISITOS.md) — requisitos y alcance (fuente de verdad).
 - [`docs/MEDIOS.md`](docs/MEDIOS.md) — registro de verificación de cada medio.
@@ -73,13 +83,17 @@ a `main`, el workflow corre solo y publica el cambio.
 ## Desarrollo local
 
 ```bash
-# collector: tests y corrida real (genera datos/noticias.json)
+# collector: tests y corrida real (genera datos/noticias.json y datos/historico.json)
 cd collector && npm ci && npm test && npm start
 
 # frontend con datos del collector
-node collector/src/main.js --salida frontend/public/data/noticias.json
-cd frontend && npm ci && npm run dev
+node collector/src/main.js --salida frontend/public/data/noticias.json --historico frontend/public/data/historico.json
+cd frontend && npm ci && npm run lint && npm run dev
 ```
+
+Los parámetros de la recolección (tamaño de la ventana, fuentes activas, topes por corrida,
+dominios excluidos, umbrales de eventos y duplicados, días de histórico) están en
+`collector/src/config/parametros.js`.
 
 ## Desplegar tu propia instancia (fork)
 
@@ -109,6 +123,13 @@ cd frontend && npm ci && npm run dev
 - **Cron con auto-pausa.** GitHub desactiva los crons tras ~60 días sin actividad del
   repositorio; los commits horarios a la rama `data` lo mantienen vivo, pero si el
   workflow se pausa manualmente hay que reactivarlo en la pestaña Actions.
+
+## Estado de esta documentación
+
+Revisada el 2026-10-24 contra el código: se actualizó la descripción de fuentes, vistas y
+rama `data`. No ejecuté tests ni build. El alcance original (v1) está en `docs/REQUISITOS.md`
+y es más reducido que lo que hoy hay en el código; qué partes fueron aceptadas por SECOM:
+pendiente de confirmar por el equipo. Más contexto en [`insumos/`](insumos/) y [`CLAUDE.md`](CLAUDE.md).
 
 ## Licencia
 
