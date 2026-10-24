@@ -41,6 +41,15 @@ Muestra las últimas ~100 noticias de medios chilenos con presencia web donde se
   perder una noticia de un medio grande de la lista, mostrar ruido o duplicados, links
   rotos.
 
+> **Actualización 2026-10-24.** El código ya supera la v1 descrita abajo: hay tres fuentes
+> (RSS, Google News y sitemaps), ventana configurable (`TAMANO_VENTANA` en
+> `collector/src/config/parametros.js`, hoy 1000), análisis de cada noticia (categoría,
+> sentimiento, ámbito, región, entidades, riesgo, eventos), histórico (`historico.json` en la
+> rama `data`, más `localStorage` en el navegador) y el frontend tiene vistas de panel,
+> búsqueda, eventos, estadísticas, medios, mapa, regiones e histórico (`frontend/src/App.jsx`,
+> `HashRouter`: nunca pasarle `basename`). Si algo de la lista «fuera de alcance» de abajo
+> ya existe en el código, manda el código; si fue aceptado por SECOM: pendiente de confirmar.
+
 ## Fuera de alcance v1 (no implementar sin nueva instrucción)
 
 Transcripción de radio/TV, prensa impresa sin web, histórico y filtro temporal más allá
@@ -52,11 +61,13 @@ conversación post-presentación de la v1 o versión 2).
 
 - `collector/` — recolector Node ≥22, **arquitectura hexagonal**: `src/dominio/`
   (reglas puras, 100% testeadas con vitest), `src/puertos/` (contratos JSDoc),
-  `src/adaptadores/` (RSS por medio + Google News con resolución de links + JSON),
+  `src/adaptadores/` (RSS por medio + Google News con resolución de links + sitemaps de
+  noticias + extractor de contenido e imágenes + JSON),
   `src/config/` (conceptos, medios y dominios excluidos: la "interfaz de administración"
   v1 se edita AQUÍ), `src/main.js` (composición — único lugar que une todo; la v2 con BD
   solo cambia el adaptador aquí).
-- **Dos fuentes de noticias:** (1) feeds RSS de los medios curados (links directos), y
+- **Tres fuentes de noticias** (la tercera, sitemaps de noticias en `MEDIOS_SITEMAP`, se
+  agregó después): (1) feeds RSS de los medios curados (links directos), y
   (2) Google News como red de seguridad de cobertura — un medio de alto volumen rota su
   feed más rápido que el cron y perdería noticias. Google News resuelve el link cifrado a
   la URL real vía el endpoint no documentado `batchexecute` (frágil; si Google lo cambia,
@@ -73,6 +84,8 @@ conversación post-presentación de la v1 o versión 2).
   entre ellas: definición de "duplicado", reglas de detección de menciones
   (mayúsculas/"CONAFE"), lista definitiva de medios, mapeo de secciones, manejo de
   logos, columnas del CSV, política ante medios que bloquean el acceso).
+- `insumos/` — problema y solución derivados del código; `prompt_nueva_funcionalidad.md` y
+  `fastapi-postgresql-conexion.md` (raíz) son notas de trabajo, no documentación vigente.
 - `docs/MEDIOS.md` — registro de verificación de feeds por medio (qué entra y por qué).
 
 ## Comandos
@@ -80,7 +93,8 @@ conversación post-presentación de la v1 o versión 2).
 - Tests del collector: `cd collector && npm test` (deben pasar antes de cualquier push:
   el workflow los usa como compuerta del deploy).
 - Corrida real del collector: `node collector/src/main.js --salida
-  frontend/public/data/noticias.json` (ese JSON local está gitignoreado).
+  frontend/public/data/noticias.json --historico frontend/public/data/historico.json`
+  (`noticias.json` está gitignoreado; `historico.json` sí está versionado en `main`).
 - Frontend: `cd frontend && npm run dev` (dev), `npm run lint`, `npm run build &&
   npm run preview` (producción local en `http://localhost:4173/COIPO_PRENSA/`).
 - Node local: portable en `C:\Users\luis.monsalve\AppData\Local\Programs\nodejs-portable\node-v24.18.0-win-x64`
